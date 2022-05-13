@@ -280,36 +280,13 @@ $seasons = [
 					'Hates children',
 					'Balding'
 				]
-			]
-		]
-	],
-	'season-3' => [
-		'seasonName' => 'Season 3',
-		'characters' => [
-			'robin' => [
-				'images' => [
-					'Season 3' => 'images/stranger-things/s3/robin/s3.png',
-					'Season 4' => 'images/stranger-things/s3/robin/s3.png',
-					'Season 5' => 'images/stranger-things/s3/robin/s3.png'
-				],
-				'characterLink' => 'https://strangerthings.fandom.com/wiki/Robin_Buckley',
-				'characterName' => 'Tweedledee',
-				'content' => [
-					'Also gay',
-					'Also knows Russian',
-					'Was bullied by ' . $links['steve'] . ' in high school (who wasn\'t)',
-					'Worked at Scoops Ahoy until the mall collapsed',
-					'Had beef with ' . $links['nancy'] . '?',
-					'Played soccer',
-					'Did drama'
-				]
 			],
 			'erica' => [
 				'images' => [
-					'Season 2' => 'images/stranger-things/s3/erica/s3.png',
-					'Season 3' => 'images/stranger-things/s3/erica/s3.png',
-					'Season 4' => 'images/stranger-things/s3/erica/s3.png',
-					'Season 5' => 'images/stranger-things/s3/erica/s3.png'
+					'Season 2' => 'https://img.fredtvshow.com/img/tv/8760/stranger-things-2meet-the-internets-new-favorite-little-sister.jpg',
+					'Season 3' => 'https://media.vanityfair.com/photos/5d1b972f5f741a0008ed0667/3:2/w_1500,h_1000,c_limit/priah-ferguson-stranger-things.jpg',
+					'Season 4' => 'https://media.vanityfair.com/photos/5d1b972f5f741a0008ed0667/3:2/w_1500,h_1000,c_limit/priah-ferguson-stranger-things.jpg',
+					'Season 5' => 'https://media.vanityfair.com/photos/5d1b972f5f741a0008ed0667/3:2/w_1500,h_1000,c_limit/priah-ferguson-stranger-things.jpg'
 				],
 				'characterLink' => 'https://strangerthings.fandom.com/wiki/Erica_Sinclair',
 				'characterName' => '"Psycho"',
@@ -322,13 +299,36 @@ $seasons = [
 			]
 		]
 	],
+	'season-3' => [
+		'seasonName' => 'Season 3',
+		'characters' => [
+			'robin' => [
+				'images' => [
+					'Season 3' => 'https://s3.r29static.com/bin/entry/bac/x,80/2215810/image.jpg',
+					'Season 4' => 'https://s3.r29static.com/bin/entry/bac/x,80/2215810/image.jpg',
+					'Season 5' => 'https://s3.r29static.com/bin/entry/bac/x,80/2215810/image.jpg'
+				],
+				'characterLink' => 'https://strangerthings.fandom.com/wiki/Robin_Buckley',
+				'characterName' => 'Tweedledee',
+				'content' => [
+					'Also gay',
+					'Also knows Russian',
+					'Was bullied by ' . $links['steve'] . ' in high school (who wasn\'t)',
+					'Worked at Scoops Ahoy until the mall collapsed',
+					'Had beef with ' . $links['nancy'] . '?',
+					'Played soccer',
+					'Did drama'
+				]
+			]
+		]
+	],
 	'season-4' => [
 		'seasonName' => 'Season 4',
 		'characters' => [
 			'eddie' => [
 				'images' => [
-					'Season 4' => 'images/stranger-things/s4/eddie/s4.jpeg',
-					'Season 5' => 'images/stranger-things/s4/eddie/s4.jpeg'
+					'Season 4' => 'https://helios-i.mashable.com/imagery/articles/06rbenK6uYEGGrkDkxeutKy/images-4.fit_lim.size_1400x.v1649776645.jpg',
+					'Season 5' => 'https://helios-i.mashable.com/imagery/articles/06rbenK6uYEGGrkDkxeutKy/images-4.fit_lim.size_1400x.v1649776645.jpg'
 				],
 				'characterLink' => 'https://strangerthings.fandom.com/wiki/Eddie_Munson',
 				'characterName' => 'Cool Metal Man',
@@ -339,8 +339,8 @@ $seasons = [
 			],
 			'argyle' => [
 				'images' => [
-					'Season 4' => 'images/stranger-things/s4/argyle/s4.jpeg',
-					'Season 5' => 'images/stranger-things/s4/argyle/s4.jpeg'
+					'Season 4' => 'https://m.media-amazon.com/images/M/MV5BOTJhMDA2Y2ItYzljYy00YjU1LThjMTAtNmNjZWU1MzcwYWVkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg',
+					'Season 5' => 'https://m.media-amazon.com/images/M/MV5BOTJhMDA2Y2ItYzljYy00YjU1LThjMTAtNmNjZWU1MzcwYWVkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg'
 				],
 				'characterLink' => 'https://strangerthings.fandom.com/wiki/Eddie_Munson',
 				'characterName' => 'California Knows How To Party',
