@@ -200,10 +200,10 @@ $seasons = [
 			'steve' => [
 				'images' => [
 					'Season 1' => 'https://i.imgur.com/wZ3VHFQ.jpg',
-					'Season 2' => 'images/stranger-things/s1/steve/s2.jpeg',
-					'Season 3' => 'images/stranger-things/s1/steve/s3.jpeg',
-					'Season 4' => 'images/stranger-things/s1/steve/s3.jpeg',
-					'Season 5' => 'images/stranger-things/s1/steve/s3.jpeg'
+					'Season 2' => 'https://cdn.vox-cdn.com/thumbor/SrDH65R7xShm1EJ0l6G5WRk6pAo=/0x0:8000x3720/1200x800/filters:focal(2271x231:3551x1511)/cdn.vox-cdn.com/uploads/chorus_image/image/59165497/wv_publicity_post_launch_still_6.000001.0.jpg',
+					'Season 3' => 'https://styles.redditmedia.com/t5_zxomw/styles/profileIcon_bjk7usx496d81.jpg',
+					'Season 4' => 'https://styles.redditmedia.com/t5_zxomw/styles/profileIcon_bjk7usx496d81.jpg',
+					'Season 5' => 'https://styles.redditmedia.com/t5_zxomw/styles/profileIcon_bjk7usx496d81.jpg'
 				],
 				'characterLink' => 'http://strangerthings.wikia.com/wiki/Steve_Harrington',
 				'characterName' => 'Steve Hair-ington',
@@ -214,25 +214,6 @@ $seasons = [
 					'Kind of doesn\'t have anything going for him',
 					'Fell in love with ' . $links['robin'] . ' (we\'ve all been there, Stevie)'
 				]
-			],
-			'karen' => [
-				'images' => [
-					'Season 1' => 'images/stranger-things/s1/karen/s1.jpg',
-					'Season 2' => 'images/stranger-things/s1/karen/s2.png',
-					'Season 3' => 'images/stranger-things/s1/karen/s3.png',
-					'Season 4' => 'images/stranger-things/s1/karen/s3.png',
-					'Season 5' => 'images/stranger-things/s1/karen/s3.png'
-				],
-				'characterLink' => 'http://strangerthings.wikia.com/wiki/Karen_Wheeler',
-				'characterName' => 'Live, Laugh, Don\'t Love Your Husband',
-				'content' => [
-					$links['nancy'] . '\'s and ' . $links['mike'] . '\'s mom',
-					'Doesn\'t understand any of what\'s going on',
-					'Is perpetually annoyed by her husband Ted',
-					'Likes making casserole',
-					'Is obsessed with stalking her teen childrens\' relationships',
-					'Only truly cares about her youngest daughter Holly'
-				]
 			]
 		]
 	],
@@ -241,10 +222,10 @@ $seasons = [
 		'characters' => [
 			'max' => [
 				'images' => [
-					'Season 2' => 'images/stranger-things/s2/max/s2.png',
-					'Season 3' => 'images/stranger-things/s2/max/s3.jpeg',
-					'Season 4' => 'images/stranger-things/s2/max/s3.jpeg',
-					'Season 5' => 'images/stranger-things/s2/max/s3.jpeg'
+					'Season 2' => 'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/max-mayfield-stranger-things-season-2-1552398515.jpg',
+					'Season 3' => 'https://i.pinimg.com/originals/6e/db/24/6edb24cb3e1e134373b44991b19ac900.jpg',
+					'Season 4' => 'https://i.pinimg.com/originals/6e/db/24/6edb24cb3e1e134373b44991b19ac900.jpg',
+					'Season 5' => 'https://i.pinimg.com/originals/6e/db/24/6edb24cb3e1e134373b44991b19ac900.jpg'
 				],
 				'characterLink' => 'http://strangerthings.wikia.com/wiki/Max',
 				'characterName' => 'Very Mad Max',
@@ -257,10 +238,10 @@ $seasons = [
 			],
 			'billy' => [
 				'images' => [
-					'Season 2' => 'images/stranger-things/s2/billy/s2.png',
-					'Season 3' => 'images/stranger-things/s2/billy/s3.png',
-					'Season 4' => 'images/stranger-things/s2/billy/s3.png',
-					'Season 5' => 'images/stranger-things/s2/billy/s3.png'
+					'Season 2' => 'https://hips.hearstapps.com/digitalspyuk.cdnds.net/17/45/1510058296-dacre-hargrove.png?crop=0.5620608899297423xw:1xh;center,top&resize=480:*',
+					'Season 3' => 'https://s3.r29static.com/bin/entry/ac4/x,80/2214044/image.jpg',
+					'Season 4' => 'https://s3.r29static.com/bin/entry/ac4/x,80/2214044/image.jpg',
+					'Season 5' => 'https://s3.r29static.com/bin/entry/ac4/x,80/2214044/image.jpg'
 				],
 				'characterLink' => 'http://strangerthings.wikia.com/wiki/Billy',
 				'characterName' => 'Billiam',
@@ -273,7 +254,7 @@ $seasons = [
 			],
 			'bob' => [
 				'images' => [
-					'Season 2' => 'images/stranger-things/s2/bob/s2.png'
+					'Season 2' => 'https://preview.redd.it/nk30b23cnn141.png?auto=webp&s=253edbf76e8aef81098e810cf24ff2e49a687b10'
 				],
 				'characterLink' => 'http://strangerthings.wikia.com/wiki/Bob_Newby',
 				'characterName' => 'Bob Newby: Superhero',
@@ -285,10 +266,10 @@ $seasons = [
 			],
 			'murray' => [
 				'images' => [
-					'Season 2' => 'images/stranger-things/s2/murray/s2.jpeg',
-					'Season 3' => 'images/stranger-things/s2/murray/s3.png',
-					'Season 4' => 'images/stranger-things/s2/murray/s3.png',
-					'Season 5' => 'images/stranger-things/s2/murray/s3.png'
+					'Season 2' => 'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/mh-strangerthingsmurray-1563208137.jpg?crop=0.500xw:1.00xh;0.348xw,0&resize=480:*',
+					'Season 3' => 'https://pyxis.nymag.com/v1/imgs/beb/3db/c45ec2f83466cff18546955c2e7a799691-4-Murray-Bauman.rsocial.w1200.jpg',
+					'Season 4' => 'https://pyxis.nymag.com/v1/imgs/beb/3db/c45ec2f83466cff18546955c2e7a799691-4-Murray-Bauman.rsocial.w1200.jpg',
+					'Season 5' => 'https://pyxis.nymag.com/v1/imgs/beb/3db/c45ec2f83466cff18546955c2e7a799691-4-Murray-Bauman.rsocial.w1200.jpg'
 				],
 				'characterLink' => 'http://strangerthings.wikia.com/wiki/Bob_Newby',
 				'characterName' => 'Bunman',
