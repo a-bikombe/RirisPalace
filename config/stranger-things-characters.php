@@ -28,10 +28,10 @@ $seasons = [
 			'joyce' => [
 				'images' => [
 					'Season 1' => 'https://media.glamour.com/photos/59f21012ad714a335821fc8a/4:3/w_1328,h_996,c_limit/ST%20(1).jpg',
-					'Season 2' => 'images/stranger-things/s1/joyce/s2.jpeg',
-					'Season 3' => 'images/stranger-things/s1/joyce/s3.png',
-					'Season 4' => 'images/stranger-things/s1/joyce/s4.png',
-					'Season 5' => 'images/stranger-things/s1/joyce/s4.png'
+					'Season 2' => 'https://i.insider.com/5a09d10e9153328e008b470e?width=750&format=jpeg&auto=webp',
+					'Season 3' => 'https://cdn3.whatculture.com/images/2019/07/b11ae7cffd476ef2-600x338.png',
+					'Season 4' => 'https://static.wikia.nocookie.net/strangerthings8338/images/4/40/ST4_Joyce.png/revision/latest?cb=20211107091328',
+					'Season 5' => 'https://static.wikia.nocookie.net/strangerthings8338/images/4/40/ST4_Joyce.png/revision/latest?cb=20211107091328'
 				],
 				'characterLink' => 'http://strangerthings.wikia.com/wiki/Joyce_Byers',
 				'characterName' => 'Joyce "Have You Seen My Son" Byers',
@@ -46,11 +46,11 @@ $seasons = [
 			],
 			'hopper' => [
 				'images' => [
-					'Season 1' => 'images/stranger-things/s1/hopper/s1.png',
-					'Season 2' => 'images/stranger-things/s1/hopper/s2.png',
-					'Season 3' => 'images/stranger-things/s1/hopper/s3.jpeg',
-					'Season 4' => 'images/stranger-things/s1/hopper/s4.jpeg',
-					'Season 5' => 'images/stranger-things/s1/hopper/s4.jpeg'
+					'Season 1' => 'https://bamfstyle.com/wp-content/uploads/2019/10/sthops1-main1.jpg',
+					'Season 2' => 'https://static.onecms.io/wp-content/uploads/sites/6/2017/10/dki-2000.jpg',
+					'Season 3' => 'https://www.hollywoodreporter.com/wp-content/uploads/2019/07/stranger_things_s03_still_20.jpg',
+					'Season 4' => 'https://www.denofgeek.com/wp-content/uploads/2020/09/stranger-things-russia-david-harbour-netflix.jpg?fit=1200%2C680',
+					'Season 5' => 'https://www.denofgeek.com/wp-content/uploads/2020/09/stranger-things-russia-david-harbour-netflix.jpg?fit=1200%2C680'
 				],
 				'characterLink' => 'http://strangerthings.wikia.com/wiki/Jim_Hopper',
 				'characterName' => 'Chief What\'s His Name',
