@@ -48,6 +48,6 @@ Thumbs.db
 *.mov
 *.wmv
 
-config/secure.php
+# config/secure.php
 
 # secure
