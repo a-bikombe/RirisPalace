@@ -90,8 +90,8 @@ $seasons = [
 					'Season 1' => 'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2017%2F07%2Feleven-stranger-things-2000.jpg&q=60',
 					'Season 2' => 'https://media.vanityfair.com/photos/59f370dd16ff751cf425ef46/master/pass/wv_publicity_pre_launch_A_still_23.jpg',
 					'Season 3' => 'https://s2.r29static.com/bin/entry/75e/x,80/2214031/image.jpg',
-					'Season 4' => 'https://static.wikia.nocookie.net/strangerthings8338/images/3/31/Eleven_-S4.jpg/revision/latest?cb=20220323165904',
-					'Season 5' => 'https://static.wikia.nocookie.net/strangerthings8338/images/3/31/Eleven_-S4.jpg/revision/latest?cb=20220323165904'
+					'Season 4' => 'https://cdn.vox-cdn.com/thumbor/-8oXNxQXzj65-offemosTJab_jY=/0x0:3840x1912/1520x1013/filters:focal(1613x649:2227x1263):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/70818434/A715C016_210714_R21J.00902542.0.jpg',
+					'Season 5' => 'https://cdn.vox-cdn.com/thumbor/-8oXNxQXzj65-offemosTJab_jY=/0x0:3840x1912/1520x1013/filters:focal(1613x649:2227x1263):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/70818434/A715C016_210714_R21J.00902542.0.jpg'
 				],
 				'characterLink' => 'http://strangerthings.wikia.com/wiki/Eleven',
 				'characterName' => '011',
@@ -107,11 +107,11 @@ $seasons = [
 			],
 			'dustin' => [
 				'images' => [
-					'Season 1' => 'images/stranger-things/s1/dustin/s1.jpg',
-					'Season 2' => 'images/stranger-things/s1/dustin/s2.jpeg',
-					'Season 3' => 'images/stranger-things/s1/dustin/s3.png',
-					'Season 4' => 'images/stranger-things/s1/dustin/s3.png',
-					'Season 5' => 'images/stranger-things/s1/dustin/s3.png'
+					'Season 1' => 'https://media1.popsugar-assets.com/files/thumbor/4ypNkOELQqrpMegFUGjbNGxWVWM/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2016/08/16/139/n/1922283/66282b67cb35bc36_dustin/i/Dustin-From-Stranger-Things.jpg',
+					'Season 2' => 'https://i.insider.com/59f75d7c3e9d259d628b4917?width=1136&format=jpeg',
+					'Season 3' => 'https://s3.r29static.com/bin/entry/869/x,80/2214004/image.jpg',
+					'Season 4' => 'https://s3.r29static.com/bin/entry/869/x,80/2214004/image.jpg',
+					'Season 5' => 'https://s3.r29static.com/bin/entry/869/x,80/2214004/image.jpg'
 				],
 				'characterLink' => 'http://strangerthings.wikia.com/wiki/Dustin_Henderson',
 				'characterName' => 'Dusty-Bun',
@@ -126,11 +126,11 @@ $seasons = [
 			],
 			'lucas' => [
 				'images' => [
-					'Season 1' => 'images/stranger-things/s1/lucas/s1.png',
-					'Season 2' => 'images/stranger-things/s1/lucas/s2.jpeg',
-					'Season 3' => 'images/stranger-things/s1/lucas/s3.png',
-					'Season 4' => 'images/stranger-things/s1/lucas/s3.png',
-					'Season 5' => 'images/stranger-things/s1/lucas/s3.png'
+					'Season 1' => 'https://mfiles.alphacoders.com/810/thumb-1920-810612.jpg',
+					'Season 2' => 'https://i.pinimg.com/originals/a3/a6/17/a3a617257b1d4a2504d9f7d3298b1105.jpg',
+					'Season 3' => 'https://i.pinimg.com/originals/a0/6c/58/a06c581688c7cf606f99d564b6ef98a8.png',
+					'Season 4' => 'https://static.wikia.nocookie.net/strangerthings8338/images/5/51/S04-Lucas-Sinclair.png/revision/latest?cb=20210925182721',
+					'Season 5' => 'https://static.wikia.nocookie.net/strangerthings8338/images/5/51/S04-Lucas-Sinclair.png/revision/latest?cb=20210925182721'
 				],
 				'characterLink' => 'http://strangerthings.wikia.com/wiki/Lucas_Sinclair',
 				'characterName' => 'Lukey',
