@@ -49,3 +49,5 @@ Thumbs.db
 *.wmv
 
 config/secure.php
+
+# secure
