@@ -30,8 +30,8 @@ $seasons = [
 					'Season 1' => 'https://media.glamour.com/photos/59f21012ad714a335821fc8a/4:3/w_1328,h_996,c_limit/ST%20(1).jpg',
 					'Season 2' => 'https://i.insider.com/5a09d10e9153328e008b470e?width=750&format=jpeg&auto=webp',
 					'Season 3' => 'https://cdn3.whatculture.com/images/2019/07/b11ae7cffd476ef2-600x338.png',
-					'Season 4' => 'https://static.wikia.nocookie.net/strangerthings8338/images/4/40/ST4_Joyce.png/revision/latest?cb=20211107091328',
-					'Season 5' => 'https://static.wikia.nocookie.net/strangerthings8338/images/4/40/ST4_Joyce.png/revision/latest?cb=20211107091328'
+					'Season 4' => 'https://pbs.twimg.com/media/FDhCqxlXoAk7yZ8.jpg',
+					'Season 5' => 'https://pbs.twimg.com/media/FDhCqxlXoAk7yZ8.jpg'
 				],
 				'characterLink' => 'http://strangerthings.wikia.com/wiki/Joyce_Byers',
 				'characterName' => 'Joyce "Have You Seen My Son" Byers',
@@ -66,11 +66,11 @@ $seasons = [
 			],
 			'mike' => [
 				'images' => [
-					'Season 1' => 'images/stranger-things/s1/mike/s1.png',
-					'Season 2' => 'images/stranger-things/s1/mike/s2.jpeg',
-					'Season 3' => 'images/stranger-things/s1/mike/s3.jpeg',
-					'Season 4' => 'images/stranger-things/s1/mike/s4.png',
-					'Season 5' => 'images/stranger-things/s1/mike/s4.png'
+					'Season 1' => 'https://i.pinimg.com/originals/a4/56/06/a45606b7391adad4e5d8ae30b5d0e44a.jpg',
+					'Season 2' => 'https://data.whicdn.com/images/306468778/original.jpg',
+					'Season 3' => 'https://i.pinimg.com/originals/ec/b0/ec/ecb0ec1a67694893a5742f33daa682c4.jpg',
+					'Season 4' => 'https://metagalaxia.com.br/wp-content/uploads/2022/05/Mike-Wheeler.webp',
+					'Season 5' => 'https://metagalaxia.com.br/wp-content/uploads/2022/05/Mike-Wheeler.webp'
 				],
 				'characterLink' => 'http://strangerthings.wikia.com/wiki/Mike_Wheeler',
 				'characterName' => 'Mikey',
