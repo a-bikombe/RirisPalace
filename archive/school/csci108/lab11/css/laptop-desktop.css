@@ -1,0 +1,34 @@
+body {
+    margin: 15px;
+    background: lavender;
+}
+
+section.poem {
+    position: absolute;
+    top: 65px;
+    left: 15px;
+    width: 40vw;
+}
+
+section.author {
+    position: absolute;
+    top: 65px;
+    right: 15px;
+    width: 55vw;
+}
+
+section.images {
+    position: absolute;
+    bottom: 40px;
+    right: 80px;
+    width: 45vw;
+}
+
+img.author {
+    margin: 0px 0px 20px 220px;
+}
+
+img.px {
+    width: 49%;
+    padding: 0px;
+}

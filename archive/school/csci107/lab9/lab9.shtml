@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Video Game Store</title>
+        <link href="css/lab9.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <h1>Video Game Store</h1>
+        </header>
+
+        <table>
+            <colgroup>
+                <col class="genreCol">    <!-- column for genre -->
+                <col class="infoCol" span="4">    <!-- columns for info -->
+                <col class="valueCol">    <!-- column for value -->
+            </colgroup>
+            <thead>
+                <tr class="firstRow">    <!-- title row -->
+                    <th scope="col" colspan="6">Inventory List</th>
+                </tr>
+                <tr>
+                    <th scope="col">Genre</th>
+                    <th scope="col">ID</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Unit Price</th>
+                    <th scope="col">Quantity</th>
+                    <th scope="col">Value</th>
+                </tr>
+            </thead>
+            <tbody>    <!-- genre 1 -->
+                <tr>    <!-- game 1 -->
+                    <th rowspan="3">Action</th>
+                    <td>186035</td>
+                    <td>Zelda</td>
+                    <td>$44.99</td>
+                    <td>36</td>
+                    <td>$496.39</td>
+                </tr>
+                <tr>    <!-- game 2 -->
+                    <td>186036</td>
+                    <td>Mario Kart</td>
+                    <td>$49.44</td>
+                    <td>7</td>
+                    <td>$106.38</td>
+                </tr>
+                <tr>    <!-- game 3 -->
+                    <td>186037</td>
+                    <td>Animal Crossing</td>
+                    <td>$49.99</td>
+                    <td>1</td>
+                    <td>$49.99</td>
+                </tr>
+            </tbody>
+            <tbody>    <!-- genre 2 -->
+                <tr>    <!-- game 4 -->
+                    <th scope="row" rowspan="3">Adventure</th>
+                    <td>186038</td>
+                    <td>Overwatch</td>
+                    <td>$39.99</td>
+                    <td>4</td>
+                    <td>$200.38</td>
+                </tr>
+                <tr>    <!-- game 5 -->
+                    <td>186039</td>
+                    <td>Just Dance</td>
+                    <td>$29.99</td>
+                    <td>27</td>
+                    <td>$485.39</td>
+                </tr>
+                <tr>    <!-- game 6 -->
+                    <td>186040</td>
+                    <td>Wii Sports</td>
+                    <td>$25.00</td>
+                    <td>46</td>
+                    <td>$847.93</td>
+                </tr>
+            </tbody>
+            <tbody>    <!-- genre 3 -->
+                <tr>    <!-- game 7 -->
+                    <th scope="row" rowspan="3">Platform</th>
+                    <td>186041</td>
+                    <td>Little Big Planet</td>
+                    <td>$15.55</td>
+                    <td>35</td>
+                    <td>$1506.38</td>
+                </tr>
+                <tr>    <!-- game 8 -->
+                    <td>186042</td>
+                    <td>Cooking Mama</td>
+                    <td>$39.99</td>
+                    <td>17</td>
+                    <td>$483.38</td>
+                </tr>
+                <tr>    <!-- game 9 -->
+                    <td>186043</td>
+                    <td>Undertale</td>
+                    <td>$14.99</td>
+                    <td>12</td>
+                    <td>$273.99</td>
+                </tr>
+            </tbody>
+            <tfoot class="summary">    <!-- footer summary -->
+                <tr>
+                    <td colspan="4">There are 9 games on hand from three genres.</td>
+                    <td>437</td>    <!-- quantity -->
+                    <td>Total: $24434.24</td>    <!-- total value -->
+                </tr>
+            </tfoot>
+        </table>
+    </body>
+
+</html>

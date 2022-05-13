@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Lab 10 - Sample Form</title>
+        <link href="form.css" rel="stylesheet">    <!-- You may include and alter the attached form.css -->
+    </head>
+
+    <body>
+        <h1>Lab 10 - Sample Form</h1>
+
+        <form action="https://www.nashuaweb.net/submit.php" method="post">
+            <fieldset class="lab10form">
+                <legend>Lab 10 Form</legend>
+                <div class="flower">
+                    <label for="flower">Name of a flower*</label>
+                    <input name="flower" id="flower" type="text" placeholder="flower" pattern="\w[\w ',.&]{3,64}" required>    <!-- The name of a flower -->
+                </div>
+
+                <div class="domain">
+                    <label for="domain">Domain name*</label>
+                    <input name="domain" id="domain" type="text" placeholder="nashuaweb.net" pattern="(\w[\w\.-]+)*\.\w{2,16}" required>    <!-- A domain name  -->
+                </div>
+
+                <div class="quantity">
+                    <label for="quantity">Pick a number between 0 and 131*</label>
+                    <input name="quantity" id="quantity" type="number" value="0" step="1" min="0" max="131" required>    <!-- A quantity between 0 and 131 -->
+                </div>
+
+                <div class="colors">
+                    <label for="colors">Pick one or more colors*</label>    <!-- One or more colors -->
+                    <select multiple name="colors[]" id="colors" required>
+                        <option value="red" class="red">Red</option>
+                        <option value="orange" class="orange">Orange</option>
+                        <option value="yellow" class="yellow">Yellow</option>
+                        <option value="green" class="green">Green</option>
+                        <option value="blue" class="blue">Blue</option>
+                        <option value="violet" class="violet">Violet</option>
+                    </select>
+                </div>
+
+                <div class="option">
+                    <label>True or false?</label>    <!-- An option which can be true or false -->
+                    <input name="option" id="true" type="checkbox">
+                </div>
+
+                <div class="rb-answer">    <!-- A mutually exclusive choice of no, maybe and yes named rb-answer -->
+                    <label>Yes, no, or maybe?*</label>
+                    <div class="yesnomaybe">
+                        <label><input name="rb-answer" type="radio" value="no">No</label>
+                        <label><input name="rb-answer" type="radio" value="maybe">Maybe</label>
+                        <label><input name="rb-answer" type="radio" value="yes">Yes</label>
+                    </div>
+                </div>
+
+                <div class="story">
+                    <label for="story">A story*</label>
+                    <textarea name="story" id="story" rows="3" cols="30" placeholder="Once upon a time..." required></textarea>    <!-- A story -->
+                </div>
+            </fieldset>
+
+            <div class="buttons">
+                <button type="submit" value="submit">Submit</button>    <!-- Two buttons must be provided, one to submit the form and one to clear the form. -->
+                <button type="reset" value="reset">Clear answers</button>
+            </div>
+
+        </form>
+    </body>
+</html>

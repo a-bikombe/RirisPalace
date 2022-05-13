@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" type="image/png" href="images/nasa.png">
+        <title>Lab 6</title>
+        <link href="css/style.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/34e100283f.js" crossorigin="anonymous"></script>    <!-- Font Awesome icons -->
+    </head>
+
+
+    <body>
+        <header>    <!-- header -->
+            <h1><img src="images/nasa.png" alt="Nasa Logo" id="logo"> Lab 6</h1>
+        </header>
+
+        <main>
+            <nav>
+                <h3>Site Navigation</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Other Labs</a></li>
+                    <li><a href="#">Copyright</a></li>
+                </ul>
+            </nav>
+
+            <article>
+                <p><img src="images/astronaut.jpg" alt="Earth" id="moon">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet pretium porta. Aenean molestie lorem tortor, ac ornare odio hendrerit eget. Nullam ex leo, volutpat posuere massa quis, lobortis placerat eros. Sed in eleifend est, in euismod mi. Vivamus cursus urna ut ante pretium, ut elementum odio accumsan. Vestibulum id eros ac massa auctor tempor sed id sapien. Praesent pellentesque commodo justo ut lobortis. Morbi nisl justo, posuere non nisl id, congue commodo mauris. Integer neque mi, dapibus quis rutrum vitae, fermentum non leo. Vestibulum dictum mauris non sapien finibus, sollicitudin porttitor lectus varius. Ut blandit, diam a lacinia lobortis, diam sapien aliquam tellus, id dictum quam elit sit amet lectus. Praesent sit amet ultrices magna. Phasellus massa nisi, porttitor et arcu non, rhoncus ultrices purus. Fusce nec tellus id metus convallis auctor. Fusce sollicitudin tempus nisi.</p>
+                
+            </article>
+        </main>
+
+        <footer>
+            <p><i class="far fa-copyright"></i> 2021 - Nashua Community College </p>    <!-- copyright -->
+        </footer>
+    </body>
+
+</html>

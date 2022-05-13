@@ -1,0 +1,22 @@
+<!doctype html>    <!-- Admin -->
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Lab 11 - Admin</title>
+        <link href="lab11.css" rel="stylesheet">    <!-- You may include and alter the attached form.css -->
+        <script src="https://kit.fontawesome.com/34e100283f.js" crossorigin="anonymous"></script>    <!-- Font Awesome icons -->
+    </head>
+
+    <body>
+        <header>
+            <h1>Lab 11 - Admin</h1>
+        </header>
+
+        <a href="index.shtml">Return to the homepage</a>    <!-- link to go to the home page -->
+        <a href="account.shtml">Update Account</a>    <!-- link to update the account -->
+        <a href="index.shtml">Log Out</a>    <!-- logout link which returns the user to the home page -->
+
+
+    </body>
+</html>

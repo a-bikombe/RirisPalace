@@ -1,0 +1,126 @@
+.lab10form {
+    background-color: lavender;
+}
+
+.lab10form, fieldset {
+    border-radius: 10px;
+}
+
+legend {
+    background-color: powderblue;
+}
+
+legend, button, .yesnomaybe {
+    border: 1px solid #333333;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.flower {
+    
+}
+
+.domain {
+    
+}
+
+.quantity {
+    
+}
+
+.colors {
+    
+}
+
+option {
+    padding: 5px;
+}
+
+.red {
+    background-color: lightcoral;
+}
+
+.red:hover {
+    background-color: firebrick;
+    color: white;
+}
+
+.orange {
+    background-color: lightsalmon;
+}
+
+.orange:hover {
+    background-color: peru;
+    color: white;
+}
+
+.yellow {
+    background-color: #ffff99;
+}
+
+.yellow:hover {
+    background-color: gold;
+    color: white;
+}
+
+.green {
+    background-color: lightgreen;
+}
+
+.green:hover {
+    background-color: green;
+    color: white;
+}
+
+.blue {
+    background-color: lightblue;
+}
+
+.blue:hover {
+    background-color: steelblue;
+    color: white;
+}
+
+.violet {
+    background-color: lavender;
+}
+
+.violet:hover {
+    background-color: mediumpurple;
+    color: white;
+}
+
+.option {
+    
+}
+
+.rb-answer {
+    
+}
+
+.yesnomaybe {
+    
+}
+
+.story {
+    
+}
+
+.buttons {
+    
+}
+
+button, .yesnomaybe {
+    background-color: #ffe0e0;
+}
+
+button:hover {
+    background-color: mediumvioletred;
+    font-weight: bold;
+    color: white;
+}

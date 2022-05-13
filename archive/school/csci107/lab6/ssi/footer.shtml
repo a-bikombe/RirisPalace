@@ -1,0 +1,9 @@
+<footer>
+    <nav> <!-- Full Navigation -->
+        <h3>Site Navigation</h3>
+        <p><a href="about.shtml">About</a> &#8226; <a href="contact.shtml">Contact Us</a> &#8226; <a href="page2.shtml">Page 2</a> &#8226; <a href="page3.shtml">Page 3</a> &#8226; <a href="page4.shtml">Page 4</a> &#8226; <a href="page5.shtml">Page 5</a></p>			
+    </nav>
+    <a href="index.shtml" title="Homepage">Return to Homepage</a> <!-- Return to homepage link -->
+
+    <p>Call Us &#128222; at <a href="tel:123-555-1212">(123) 555-1212</a> or Email Us &#128231; at <a href="mailto:lab4@csci107n.com?subject=Website&nbsp;Request" title="Email">lab6@csci107n.com</a> with your questions! We love to here from you.</p>    <!-- Email and Telephone Link with Emojis -->
+</footer>
