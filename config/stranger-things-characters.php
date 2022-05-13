@@ -28,7 +28,7 @@ $seasons = [
 			'joyce' => [
 				'images' => [
 					'Season 1' => 'https://media.glamour.com/photos/59f21012ad714a335821fc8a/4:3/w_1328,h_996,c_limit/ST%20(1).jpg',
-					'Season 2' => 'https://i.insider.com/5a09d10e9153328e008b470e?width=750&format=jpeg&auto=webp',
+					'Season 2' => 'https://preview.redd.it/du10ngysc0w51.jpg?auto=webp&s=3f4789cd962120e9398206f0c2985306cf2e36da',
 					'Season 3' => 'https://cdn3.whatculture.com/images/2019/07/b11ae7cffd476ef2-600x338.png',
 					'Season 4' => 'https://pbs.twimg.com/media/FDhCqxlXoAk7yZ8.jpg',
 					'Season 5' => 'https://pbs.twimg.com/media/FDhCqxlXoAk7yZ8.jpg'
@@ -87,7 +87,7 @@ $seasons = [
 			],
 			'eleven' => [
 				'images' => [
-					'Season 1' => 'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2017%2F07%2Feleven-stranger-things-2000.jpg&q=60',
+					'Season 1' => 'https://r2.mt.ru/r5/photoA756/20688347315-0/jpg/bp.webp',
 					'Season 2' => 'https://media.vanityfair.com/photos/59f370dd16ff751cf425ef46/master/pass/wv_publicity_pre_launch_A_still_23.jpg',
 					'Season 3' => 'https://s2.r29static.com/bin/entry/75e/x,80/2214031/image.jpg',
 					'Season 4' => 'https://cdn.vox-cdn.com/thumbor/-8oXNxQXzj65-offemosTJab_jY=/0x0:3840x1912/1520x1013/filters:focal(1613x649:2227x1263):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/70818434/A715C016_210714_R21J.00902542.0.jpg',
@@ -108,7 +108,7 @@ $seasons = [
 			'dustin' => [
 				'images' => [
 					'Season 1' => 'https://media1.popsugar-assets.com/files/thumbor/4ypNkOELQqrpMegFUGjbNGxWVWM/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2016/08/16/139/n/1922283/66282b67cb35bc36_dustin/i/Dustin-From-Stranger-Things.jpg',
-					'Season 2' => 'https://i.insider.com/59f75d7c3e9d259d628b4917?width=1136&format=jpeg',
+					'Season 2' => 'https://notesfromachair.files.wordpress.com/2017/12/who-was-the-dumbest-smartest-and-most-heroic-in-stranger-things-season-2.png?w=584&h=438',
 					'Season 3' => 'https://s3.r29static.com/bin/entry/869/x,80/2214004/image.jpg',
 					'Season 4' => 'https://s3.r29static.com/bin/entry/869/x,80/2214004/image.jpg',
 					'Season 5' => 'https://s3.r29static.com/bin/entry/869/x,80/2214004/image.jpg'
@@ -129,8 +129,8 @@ $seasons = [
 					'Season 1' => 'https://mfiles.alphacoders.com/810/thumb-1920-810612.jpg',
 					'Season 2' => 'https://i.pinimg.com/originals/a3/a6/17/a3a617257b1d4a2504d9f7d3298b1105.jpg',
 					'Season 3' => 'https://i.pinimg.com/originals/a0/6c/58/a06c581688c7cf606f99d564b6ef98a8.png',
-					'Season 4' => 'https://static.wikia.nocookie.net/strangerthings8338/images/5/51/S04-Lucas-Sinclair.png/revision/latest?cb=20210925182721',
-					'Season 5' => 'https://static.wikia.nocookie.net/strangerthings8338/images/5/51/S04-Lucas-Sinclair.png/revision/latest?cb=20210925182721'
+					'Season 4' => 'https://i.pinimg.com/originals/a0/6c/58/a06c581688c7cf606f99d564b6ef98a8.png',
+					'Season 5' => 'https://i.pinimg.com/originals/a0/6c/58/a06c581688c7cf606f99d564b6ef98a8.png'
 				],
 				'characterLink' => 'http://strangerthings.wikia.com/wiki/Lucas_Sinclair',
 				'characterName' => 'Lukey',
@@ -145,11 +145,11 @@ $seasons = [
 			],
 			'nancy' => [
 				'images' => [
-					'Season 1' => 'images/stranger-things/s1/nancy/s1.png',
-					'Season 2' => 'images/stranger-things/s1/nancy/s2.jpeg',
-					'Season 3' => 'images/stranger-things/s1/nancy/s3.png',
-					'Season 4' => 'images/stranger-things/s1/nancy/s3.png',
-					'Season 5' => 'images/stranger-things/s1/nancy/s3.png'
+					'Season 1' => 'https://preview.redd.it/d7z1h7lkfqq81.jpg?width=828&format=pjpg&auto=webp&s=3f3b8e70664b906401332b414cce7586042c2265',
+					'Season 2' => 'https://i.pinimg.com/originals/0f/1d/14/0f1d142ca6cfaf932dc11cbaf3f59257.png',
+					'Season 3' => 'https://preview.redd.it/daoszdx66vm41.jpg?auto=webp&s=d73d9aee1fa157907fb8998c0816c2fffe662847',
+					'Season 4' => 'https://preview.redd.it/daoszdx66vm41.jpg?auto=webp&s=d73d9aee1fa157907fb8998c0816c2fffe662847',
+					'Season 5' => 'https://preview.redd.it/daoszdx66vm41.jpg?auto=webp&s=d73d9aee1fa157907fb8998c0816c2fffe662847'
 				],
 				'characterLink' => 'http://strangerthings.wikia.com/wiki/Nancy_Wheeler',
 				'characterName' => 'Nancy Drew',
@@ -165,10 +165,10 @@ $seasons = [
 			'jonathan' => [
 				'images' => [
 					'Season 1' => 'images/stranger-things/s1/jonathan/s1.jpg',
-					'Season 2' => 'images/stranger-things/s1/jonathan/s2.jpeg',
-					'Season 3' => 'images/stranger-things/s1/jonathan/s3.png',
-					'Season 4' => 'images/stranger-things/s1/jonathan/s3.png',
-					'Season 5' => 'images/stranger-things/s1/jonathan/s3.png'
+					'Season 2' => 'https://pbs.twimg.com/media/Dwa7KeoX0AE_ssw.jpg',
+					'Season 3' => 'https://nitter.net/pic/media%2FFNbhSv8VgAA1izm.jpg%3Fname%3Dsmall',
+					'Season 4' => 'https://nitter.net/pic/media%2FFNbhSv8VgAA1izm.jpg%3Fname%3Dsmall',
+					'Season 5' => 'https://nitter.net/pic/media%2FFNbhSv8VgAA1izm.jpg%3Fname%3Dsmall'
 				],
 				'characterLink' => 'http://strangerthings.wikia.com/wiki/Jonathan_Byers',
 				'characterName' => 'Jonathan? Harry Styles?',
@@ -182,11 +182,11 @@ $seasons = [
 			],
 			'will' => [
 				'images' => [
-					'Season 1' => 'images/stranger-things/s1/will/s1.png',
-					'Season 2' => 'images/stranger-things/s1/will/s2.jpg',
-					'Season 3' => 'images/stranger-things/s1/will/s3.png',
-					'Season 4' => 'images/stranger-things/s1/will/s3.png',
-					'Season 5' => 'images/stranger-things/s1/will/s3.png'
+					'Season 1' => 'https://pbs.twimg.com/media/E_XL2iGXEAQq8S7.jpg:large',
+					'Season 2' => 'https://pyxis.nymag.com/v1/imgs/998/83c/3117e183a858dcaa2e08738c491e90979b-27-will-byers-stranger-things.rsquare.w700.jpg',
+					'Season 3' => 'https://preview.redd.it/pr8vqgmqp8o41.png?auto=webp&s=cd7fe89f5e4c424df5d25072e06c6cf285b74b89',
+					'Season 4' => 'https://preview.redd.it/pr8vqgmqp8o41.png?auto=webp&s=cd7fe89f5e4c424df5d25072e06c6cf285b74b89',
+					'Season 5' => 'https://preview.redd.it/pr8vqgmqp8o41.png?auto=webp&s=cd7fe89f5e4c424df5d25072e06c6cf285b74b89'
 				],
 				'characterLink' => 'http://strangerthings.wikia.com/wiki/Will_Byers',
 				'characterName' => 'Will The Wise',
@@ -199,7 +199,7 @@ $seasons = [
 			],
 			'steve' => [
 				'images' => [
-					'Season 1' => 'images/stranger-things/s1/steve/s1.jpg',
+					'Season 1' => 'https://i.imgur.com/wZ3VHFQ.jpg',
 					'Season 2' => 'images/stranger-things/s1/steve/s2.jpeg',
 					'Season 3' => 'images/stranger-things/s1/steve/s3.jpeg',
 					'Season 4' => 'images/stranger-things/s1/steve/s3.jpeg',
@@ -364,8 +364,8 @@ $seasons = [
 				'characterLink' => 'https://strangerthings.fandom.com/wiki/Eddie_Munson',
 				'characterName' => 'California Knows How To Party',
 				'content' => [
-					$links['jonathan'].'\'s new friend',
-					'Allegedly introduces '.$links['jonathan'].' to drugs'
+					$links['jonathan'] . '\'s new friend',
+					'Allegedly introduces ' . $links['jonathan'] . ' to drugs'
 				]
 			]
 		]
