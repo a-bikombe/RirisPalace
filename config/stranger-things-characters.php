@@ -87,7 +87,7 @@ $seasons = [
 			],
 			'eleven' => [
 				'images' => [
-					'Season 1' => 'https://images2.minutemediacdn.com/image/fetch/w_736,h_485,c_fill,g_auto,f_auto/https%3A%2F%2Fwinteriscoming.net%2Ffiles%2F2018%2F11%2FScreen-Shot-2018-11-01-at-10.33.56-AM-850x560.jpg',
+					'Season 1' => 'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2017%2F07%2Feleven-stranger-things-2000.jpg&q=60',
 					'Season 2' => 'https://media.vanityfair.com/photos/59f370dd16ff751cf425ef46/master/pass/wv_publicity_pre_launch_A_still_23.jpg',
 					'Season 3' => 'https://s2.r29static.com/bin/entry/75e/x,80/2214031/image.jpg',
 					'Season 4' => 'https://static.wikia.nocookie.net/strangerthings8338/images/3/31/Eleven_-S4.jpg/revision/latest?cb=20220323165904',
