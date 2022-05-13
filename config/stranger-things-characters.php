@@ -87,11 +87,11 @@ $seasons = [
 			],
 			'eleven' => [
 				'images' => [
-					'Season 1' => 'images/stranger-things/s1/eleven/s1.jpg',
-					'Season 2' => 'images/stranger-things/s1/eleven/s2.jpeg',
-					'Season 3' => 'images/stranger-things/s1/eleven/s3.jpeg',
-					'Season 4' => 'images/stranger-things/s1/eleven/s4.jpeg',
-					'Season 5' => 'images/stranger-things/s1/eleven/s4.jpeg'
+					'Season 1' => 'https://images2.minutemediacdn.com/image/fetch/w_736,h_485,c_fill,g_auto,f_auto/https%3A%2F%2Fwinteriscoming.net%2Ffiles%2F2018%2F11%2FScreen-Shot-2018-11-01-at-10.33.56-AM-850x560.jpg',
+					'Season 2' => 'https://media.vanityfair.com/photos/59f370dd16ff751cf425ef46/master/pass/wv_publicity_pre_launch_A_still_23.jpg',
+					'Season 3' => 'https://s2.r29static.com/bin/entry/75e/x,80/2214031/image.jpg',
+					'Season 4' => 'https://static.wikia.nocookie.net/strangerthings8338/images/3/31/Eleven_-S4.jpg/revision/latest?cb=20220323165904',
+					'Season 5' => 'https://static.wikia.nocookie.net/strangerthings8338/images/3/31/Eleven_-S4.jpg/revision/latest?cb=20220323165904'
 				],
 				'characterLink' => 'http://strangerthings.wikia.com/wiki/Eleven',
 				'characterName' => '011',
