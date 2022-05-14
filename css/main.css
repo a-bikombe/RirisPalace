@@ -340,7 +340,6 @@ header.php */
 
 #header-banner .navbar-brand {
     color: var(--clr-gray-40);
-    line-height: 25px;
     margin: 0 10px;
 }
 
@@ -354,10 +353,6 @@ header.php */
     gap: 1vw;
     justify-content: center;
     width: 100%;
-}
-
-#header-banner .nav-link {
-    line-height: 30px;
 }
 
 #header-banner :is(
