@@ -296,6 +296,7 @@ header.php */
     grid-row: 1;
     margin: 0;
     padding-top: 1vh;
+    min-height: 75px;
 }
 
 #index #header-banner {
