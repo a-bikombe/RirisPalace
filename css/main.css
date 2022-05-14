@@ -332,6 +332,7 @@ header.php */
 
 .navbar-brand {
     margin-inline: 1.5rem;
+    margin-right: 0;
 }
 
 #header-banner .dropdown-list-item:not(:last-of-type) {
