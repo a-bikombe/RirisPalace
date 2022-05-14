@@ -298,7 +298,7 @@ header.php */
 }
 
 #header-banner .me-auto {
-    margin-inline: 0;
+    margin-inline: auto;
 }
 
 #header-banner ul {
