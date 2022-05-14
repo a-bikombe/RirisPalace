@@ -336,6 +336,12 @@ header.php */
     margin: 0 10px;
 }
 
+#header-banner :is(
+    .navbar-brand:hover,
+    .navbar-brand:focus-visible) {
+        font-size: 1.3rem;
+}
+
 #header-banner .nav-link {
     line-height: 30px;
 }
@@ -348,10 +354,8 @@ header.php */
 
 #header-banner :is(
     .nav-link:hover, 
-    .nav-link:focus-visible,
-    .navbar-brand:hover,
-    .navbar-brand:focus-visible) {
-    font-size: calc(inherit * 1.1rem);
+    .nav-link:focus-visible) {
+    font-size: 1.1rem;
 }
 
 #header-banner ul {
