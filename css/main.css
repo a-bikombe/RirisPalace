@@ -335,7 +335,7 @@ header.php */
         font-size: 1rem;
         line-height: 1;
         padding: 0.75rem;
-        transition: var(--transition-size-padding), var(--transition-size-text);
+        transition: var(--transition-size-text);
 }
 
 #header-banner :is(
@@ -344,7 +344,6 @@ header.php */
     .navbar-brand:hover,
     .navbar-brand:focus-visible) {
     font-size: 1.15rem;
-    padding: 1rem;
 }
 
 #header-banner .navbar-nav {
