@@ -10,7 +10,7 @@ require_once 'config/nav-links.php';
 			<a href="/">
 				<img src="images/icons/luca.png" class="float-left" id="luca-logo" alt="luca mlem">
 			</a>
-			<a class="navbar-brand" href="/" id="heading"> arianna </a>
+			<a class="navbar-brand" href="/" id="heading">a r i b i k o m b e</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-supported-content" aria-controls="navbar-supported-content" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
