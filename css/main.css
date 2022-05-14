@@ -36,6 +36,12 @@ general */
     --box-shadow-dark: 3px 3px 3px 3px var(--clr-black-t);
     --box-shadow-light: 5px 5px 5px 5px var(--clr-gray-20-t);
 
+    /* transitions */
+    --transition-size-text: font-size 0.2s ease-in-out;
+    --transition-clr-text: color 0.2s ease-in-out;
+    --transition-clr-bg: background-color 0.2s ease-in-out;
+    --transition-clr-border: border-color 0.2s ease-in-out;
+
     font-size: 15px;
 }
 
@@ -301,7 +307,7 @@ header.php */
 
 #header-banner .dropdown-item {
     padding: 0.75vw;
-    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    transition: var(--transition-clr-text), var(--transition-clr-bg), var(--transition-clr-border);
 }
 
 #header-banner .dropdown-item.active {
@@ -332,11 +338,20 @@ header.php */
 
 #header-banner .nav-link {
     line-height: 30px;
-    transition: font-size 0.2s ease-in-out;
 }
 
-#header-banner :is(.nav-link:hover, .nav-link:focus-visible) {
-    font-size: 1.1rem;
+#header-banner :is(
+    .nav-link,
+    .navbar-brand) {
+    transition: var(--transition-size-text);
+}
+
+#header-banner :is(
+    .nav-link:hover, 
+    .nav-link:focus-visible,
+    .navbar-brand:hover,
+    .navbar-brand:focus-visible) {
+    font-size: calc(initial * 1.1);
 }
 
 #header-banner ul {
@@ -410,7 +425,7 @@ index.php */
 #index .more {
     color: var(--clr-white);
     font-size: 1.2rem;
-    transition: color 0.2s ease-in-out;
+    transition: var(--transition-clr-text);
 }
 
 /* ================================================================

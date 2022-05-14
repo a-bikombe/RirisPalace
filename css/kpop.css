@@ -69,7 +69,7 @@ overlap: section#group-nav li / button.group-property */
 
 #group-nav li,
 .group-property {
-    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    transition: var(--transition-clr-text), var(--transition-clr-bg), var(--transition-clr-border);
 }
 
 #group-nav li:hover,
