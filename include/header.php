@@ -8,7 +8,7 @@ require_once 'config/nav-links.php';
 	<nav class="navbar navbar-expand-lg navbar-light bg-light" id="top">
 		<div class="container-fluid">
 			<a href="/">
-				<img src="images/icons/luca.png" class="float-left" id="luca-logo" alt="luca mlem">
+				<img src="images/icons/luca.png" class="logo float-left" id="luca-logo" alt="luca mlem">
 			</a>
 			<a class="navbar-brand" href="/" id="heading">a r i b i k o m b e</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-supported-content" aria-controls="navbar-supported-content" aria-expanded="false" aria-label="Toggle navigation">

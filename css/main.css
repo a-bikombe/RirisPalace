@@ -307,8 +307,9 @@ header.php */
 }
 
 #header-banner :is(
-    #luca-logo) {
+    .logo) {
     height: 50px;
+    margin-inline: 0.75rem;
 }
 
 #header-banner :is(
@@ -330,7 +331,7 @@ header.php */
 }
 
 .navbar-brand {
-    margin-inline: 5px;
+    margin-inline: 1.5rem;
 }
 
 #header-banner .dropdown-list-item:not(:last-of-type) {
