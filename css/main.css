@@ -292,15 +292,10 @@ a:not(.btn, .no-link-color) {
 header.php */
 
 #header-banner {
-    /* border-bottom: 1px solid var(--clr-gray-80); */
+    border-bottom: 1px solid var(--clr-gray-80);
     grid-column: 1 / span 8;
     grid-row: 1;
     margin: 0;
-    min-height: 10vh;
-}
-
-#header-banner .navbar {
-    padding-block: 1rem;
 }
 
 #index #header-banner {
@@ -331,9 +326,6 @@ header.php */
 #header-banner :is(
     .navbar-brand,
     .nav-link) {
-        background-color: var(--clr-white);
-        border: 1px solid var(--clr-gray-80);
-        border-radius: 20px;
         color: var(--clr-gray-40);
         font-size: 1rem;
         line-height: 1;
@@ -347,21 +339,6 @@ header.php */
     .navbar-brand:hover,
     .navbar-brand:focus-visible) {
     font-size: 1.15rem;
-}
-
-#header-banner .navbar-nav {
-    position: absolute;
-    top: 0;
-    left: 0;
-    inset: 0rem;
-    padding-block: 1rem;
-    max-width: 50vw;
-    margin: 0 auto;
-    z-index: 1;
-
-    gap: 1vw;
-    justify-content: center;
-    width: 100%;
 }
 
 #header-banner .dropdown-list-item:not(:last-of-type) {
