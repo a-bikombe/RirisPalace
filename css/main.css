@@ -291,11 +291,14 @@ a:not(.btn, .no-link-color) {
 header.php */
 
 #header-banner {
-    background: var(--clr-gray-20-t);
     /* border-bottom: 1px solid var(--clr-gray-80); */
     grid-column: 1 / span 8;
     grid-row: 1;
     margin: 0;
+}
+
+#index #header-banner {
+    background: var(--clr-gray-20-t);
 }
 
 #header-banner .bg-light {
