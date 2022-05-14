@@ -298,6 +298,10 @@ header.php */
     margin: 0;
 }
 
+#header-banner .bg-light {
+    --bs-bg-opacity: 0;
+}
+
 #header-banner .me-auto {
     margin-inline: 0;
 }
