@@ -298,18 +298,6 @@ header.php */
     margin: 0;
 }
 
-#index #header-banner {
-    background: var(--clr-gray-20-t);
-}
-
-#header-banner .bg-light {
-    --bs-bg-opacity: 0;
-}
-
-#header-banner .me-auto {
-    margin-inline: 0;
-}
-
 #header-banner ul {
     list-style-type: none;
 }
