@@ -329,6 +329,10 @@ header.php */
     font-size: 1.15rem;
 }
 
+.navbar-brand {
+    margin-inline: 5px;
+}
+
 #header-banner .dropdown-list-item:not(:last-of-type) {
     border-bottom: 1px solid var(--clr-gray-80);
 }
