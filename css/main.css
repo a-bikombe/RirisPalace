@@ -295,7 +295,7 @@ header.php */
     grid-column: 1 / span 8;
     grid-row: 1;
     margin: 0;
-    margin-top: 1vh;
+    padding-top: 1vh;
 }
 
 #index #header-banner {
