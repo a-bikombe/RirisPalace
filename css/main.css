@@ -333,21 +333,16 @@ header.php */
     .nav-link) {
         background-color: var(--clr-white);
         border: 1px solid var(--clr-gray-80);
-        border-radius: 5px;
+        border-radius: 20px;
         line-height: 1;
-        padding: 1rem;
+        padding: 0.75rem;
         transition: var(--transition-size-text);
 }
 
 #header-banner .navbar-brand {
     color: var(--clr-gray-40);
+    font-size: 1rem;
     margin: 0 10px;
-}
-
-#header-banner :is(
-    .navbar-brand:hover,
-    .navbar-brand:focus-visible) {
-        font-size: 1.4rem;
 }
 
 #header-banner .navbar-nav {
@@ -358,7 +353,9 @@ header.php */
 
 #header-banner :is(
     .nav-link:hover, 
-    .nav-link:focus-visible) {
+    .nav-link:focus-visible,
+    .navbar-brand:hover,
+    .navbar-brand:focus-visible) {
     font-size: 1.15rem;
 }
 
