@@ -352,6 +352,7 @@ header.php */
 #header-banner .navbar-nav {
     position: absolute;
     top: 0;
+    left: 0;
     padding-block: 1rem;
     margin-inline: auto;
     z-index: 1;
