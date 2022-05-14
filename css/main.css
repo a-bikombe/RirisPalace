@@ -334,7 +334,7 @@ header.php */
         background-color: var(--clr-white);
         border: 1px solid var(--clr-gray-80);
         border-radius: 5px;
-        padding: 1vw;
+        padding: 1rem;
         transition: var(--transition-size-text);
 }
 
