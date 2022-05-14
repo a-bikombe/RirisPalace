@@ -355,7 +355,7 @@ header.php */
 #header-banner :is(
     .nav-link:hover, 
     .nav-link:focus-visible) {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
 }
 
 #header-banner ul {
