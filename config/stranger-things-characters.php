@@ -8,7 +8,6 @@ $links = [
 	'eleven' => '<a href="#eleven" class="no-link-color no-decor">El</a>',
 	'mike' => '<a href="#mike" class="no-link-color no-decor">Mike</a>',
 	'will' => '<a href="#will" class="no-link-color no-decor">Will</a>',
-	'finn' => '<a href="finn.php" class="no-link-color no-decor" id="oops-finn-link" title="You don\'t wanna do that">I\'m in love with him oops</a>',
 	'robin' => '<a href="#robin" class="no-link-color no-decor">a lesbian</a>',
 	'lucas' => '<a href="#lucas" class="no-link-color no-decor">Lucas</a>',
 	'dustin' => '<a href="#dustin" class="no-link-color no-decor">Dustin</a>',
@@ -82,7 +81,7 @@ $seasons = [
 					'Loves his friends but mostly ' . $links['eleven'],
 					'Has a lot of red flags because he is in fact a Man&trade;',
 					'But season 3/4 Mike made the red flags turn green',
-					$links['finn']
+					'I\'m in love with him oops'
 				]
 			],
 			'eleven' => [

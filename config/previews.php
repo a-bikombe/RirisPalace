@@ -8,7 +8,7 @@ $boys = [
 	'Finn Wolfhard' => [
 		'image' => 'images/boys/finn/b-w.jpeg',
 		'description' => 'What else is new? Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget sit amet tellus cras adipiscing. Ut tortor pretium viverra suspendisse. Dictum varius duis at consectetur lorem donec massa sapien faucibus. Tristique sollicitudin nibh sit amet commodo. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Cursus metus aliquam eleifend mi in nulla posuere sollicitudin aliquam.',
-		'link' => 'finn.php'
+		'link' => 'stranger-things.php'
 	],
 	'Huening Kai' => [
 		'image' => $groups['active']['groups']['txt']['members']['HueningKai']['image'],
