@@ -297,6 +297,10 @@ header.php */
     margin: 0;
 }
 
+#header-banner .me-auto {
+    margin-inline: auto;
+}
+
 #header-banner ul {
     list-style-type: none;
 }
