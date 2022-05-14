@@ -342,8 +342,6 @@ header.php */
 #header-banner .navbar-nav {
     justify-content: center;
     width: 100vw;
-
-    z-index: 1;
 }
 
 #header-banner .nav-link {
