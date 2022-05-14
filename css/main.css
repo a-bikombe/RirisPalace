@@ -353,7 +353,7 @@ header.php */
     position: absolute;
     top: 0;
     padding-block: 1rem;
-    
+    margin-inline: auto;
     gap: 1vw;
     justify-content: center;
     width: 100%;
