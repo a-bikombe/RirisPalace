@@ -322,9 +322,7 @@ header.php */
 }
 
 #header-banner :is(
-    #luca-logo,
-    .navbar-brand,
-    .nav-link) {
+    #luca-logo) {
     height: 50px;
 }
 
