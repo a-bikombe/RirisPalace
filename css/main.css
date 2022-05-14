@@ -333,7 +333,8 @@ header.php */
     .nav-link) {
         background-color: var(--clr-white);
         border: 1px solid var(--clr-gray-80);
-        padding: 10px;
+        border-radius: 5px;
+        padding: 1vw;
         transition: var(--transition-size-text);
 }
 
@@ -350,6 +351,7 @@ header.php */
 }
 
 #header-banner .navbar-nav {
+    gap: 1vw;
     justify-content: center;
     width: 100%;
 }
