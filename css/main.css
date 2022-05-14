@@ -343,8 +343,6 @@ header.php */
     justify-content: center;
     width: 100vw;
 
-    position: absolute;
-    top: 0;
     z-index: 1;
 }
 
