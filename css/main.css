@@ -332,6 +332,11 @@ header.php */
 
 #header-banner .nav-link {
     line-height: 30px;
+    transition: font-size 0.2s ease-in-out;
+}
+
+#header-banner :is(.nav-link:hover, .nav-link:focus-visible) {
+    font-size: 1.2rem;
 }
 
 #header-banner ul {
