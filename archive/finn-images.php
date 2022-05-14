@@ -1,5 +1,7 @@
 <?php
 
+// images are broken
+
 $images = [
 	'hair' => [
 		'name' => 'His Hair',
