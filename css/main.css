@@ -37,6 +37,7 @@ general */
     --box-shadow-light: 5px 5px 5px 5px var(--clr-gray-20-t);
 
     /* transitions */
+    --transition-size-padding: padding 0.2s ease-in-out;
     --transition-size-text: font-size 0.2s ease-in-out;
     --transition-clr-text: color 0.2s ease-in-out;
     --transition-clr-bg: background-color 0.2s ease-in-out;
@@ -334,13 +335,7 @@ header.php */
         font-size: 1rem;
         line-height: 1;
         padding: 0.75rem;
-        transition: var(--transition-size-text);
-}
-
-#header-banner .navbar-nav {
-    gap: 1vw;
-    justify-content: center;
-    width: 100%;
+        transition: var(--transition-size-padding), var(--transition-size-text);
 }
 
 #header-banner :is(
@@ -349,6 +344,13 @@ header.php */
     .navbar-brand:hover,
     .navbar-brand:focus-visible) {
     font-size: 1.15rem;
+    padding: 1rem;
+}
+
+#header-banner .navbar-nav {
+    gap: 1vw;
+    justify-content: center;
+    width: 100%;
 }
 
 #header-banner .dropdown-list-item:not(:last-of-type) {
