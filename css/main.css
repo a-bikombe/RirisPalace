@@ -341,7 +341,11 @@ header.php */
 
 #header-banner .navbar-nav {
     justify-content: center;
-    width: 100%;
+    width: 100vw;
+
+    position: absolute;
+    top: 0;
+    z-index: -1;
 }
 
 #header-banner .nav-link {
