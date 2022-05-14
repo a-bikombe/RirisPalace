@@ -296,8 +296,11 @@ header.php */
     grid-column: 1 / span 8;
     grid-row: 1;
     margin: 0;
-    padding-top: 1vh;
     min-height: 10vh;
+}
+
+#header-banner .navbar {
+    padding-block: 1rem;
 }
 
 #index #header-banner {
