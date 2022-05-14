@@ -309,7 +309,6 @@ header.php */
 #header-banner :is(
     .logo) {
     height: 50px;
-    margin-inline: 0.75rem;
 }
 
 #header-banner :is(
