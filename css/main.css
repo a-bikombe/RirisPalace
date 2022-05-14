@@ -350,6 +350,9 @@ header.php */
 }
 
 #header-banner .navbar-nav {
+    position: absolute;
+    top: 0;
+
     gap: 1vw;
     justify-content: center;
     width: 100%;
