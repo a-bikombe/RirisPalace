@@ -339,7 +339,7 @@ header.php */
 #header-banner :is(
     .navbar-brand:hover,
     .navbar-brand:focus-visible) {
-        font-size: 1.35rem;
+        font-size: 1.4rem;
 }
 
 #header-banner .nav-link {
