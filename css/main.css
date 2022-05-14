@@ -319,10 +319,6 @@ header.php */
     color: none;
 }
 
-#header-banner #heading {
-    font-family: cursive;
-}
-
 #header-banner :is(
     #luca-logo) {
     height: 50px;
