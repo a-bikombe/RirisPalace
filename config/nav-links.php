@@ -1,6 +1,7 @@
 <?php
 
-$interests = [
+$navLinks = [
+	'About Me' => 'about.php',
 	'K-Pop' => 'kpop.php',
 	'Stranger Things' => 'stranger-things.php',
 	'Marvel' => 'marvel.php',
