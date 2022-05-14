@@ -297,8 +297,56 @@ header.php */
     margin: 0;
 }
 
+#header-banner ul {
+    list-style-type: none;
+}
+
 #header-banner a.btn {
     color: none;
+}
+
+#header-banner #heading {
+    font-family: cursive;
+}
+
+#header-banner :is(
+    #luca-logo,
+    .navbar-brand,
+    .nav-link) {
+    height: 50px;
+}
+
+#header-banner :is(
+    .navbar-brand,
+    .nav-link) {
+    padding: 10px;
+    transition: var(--transition-size-text);
+}
+
+#header-banner .navbar-brand {
+    color: var(--clr-gray-40);
+    line-height: 25px;
+    margin: 0 10px;
+}
+
+#header-banner :is(
+    .navbar-brand:hover,
+    .navbar-brand:focus-visible) {
+        font-size: 1.4rem;
+}
+
+#header-banner .navbar-nav {
+    justify-content: center;
+}
+
+#header-banner .nav-link {
+    line-height: 30px;
+}
+
+#header-banner :is(
+    .nav-link:hover, 
+    .nav-link:focus-visible) {
+    font-size: 1.15rem;
 }
 
 #header-banner .dropdown-list-item:not(:last-of-type) {
@@ -316,50 +364,6 @@ header.php */
 
 #header-banner .dropdown-item:active {
     background: var(--clr-gray-20);
-}
-
-#header-banner #heading {
-    font-family: cursive;
-}
-
-#header-banner :is(#luca-logo, .navbar-brand, .nav-link) {
-    height: 50px;
-}
-
-#header-banner :is(.navbar-brand, .nav-link) {
-    padding: 10px;
-}
-
-#header-banner .navbar-brand {
-    color: var(--clr-gray-40);
-    line-height: 25px;
-    margin: 0 10px;
-}
-
-#header-banner :is(
-    .navbar-brand:hover,
-    .navbar-brand:focus-visible) {
-        font-size: 1.4rem;
-}
-
-#header-banner .nav-link {
-    line-height: 30px;
-}
-
-#header-banner :is(
-    .nav-link,
-    .navbar-brand) {
-    transition: var(--transition-size-text);
-}
-
-#header-banner :is(
-    .nav-link:hover, 
-    .nav-link:focus-visible) {
-    font-size: 1.15rem;
-}
-
-#header-banner ul {
-    list-style-type: none;
 }
 
 #header-banner button {
