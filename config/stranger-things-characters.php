@@ -163,7 +163,7 @@ $seasons = [
 			],
 			'jonathan' => [
 				'images' => [
-					'Season 1' => 'images/stranger-things/s1/jonathan/s1.jpg',
+					'Season 1' => 'https://i.pinimg.com/originals/b8/ce/3a/b8ce3aa13638292e28eefdd2ea4e569a.png',
 					'Season 2' => 'https://pbs.twimg.com/media/Dwa7KeoX0AE_ssw.jpg',
 					'Season 3' => 'https://nitter.net/pic/media%2FFNbhSv8VgAA1izm.jpg%3Fname%3Dsmall',
 					'Season 4' => 'https://nitter.net/pic/media%2FFNbhSv8VgAA1izm.jpg%3Fname%3Dsmall',
