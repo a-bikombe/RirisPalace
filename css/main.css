@@ -215,29 +215,29 @@ main {
     padding: 50px 0;
 }
 
-.btn-outline-danger,
-.btn-outline-danger:hover {
+.logout-btn,
+.logout-btn:hover {
     border-color: var(--clr-red);
 }
 
-.btn-outline-danger {
+.logout-btn {
     color: var(--clr-red);
 }
 
-.btn-outline-danger:hover {
+.logout-btn:hover {
     background-color: var(--clr-red);
 }
 
-.btn-outline-success,
-.btn-outline-success:hover {
+.login-btn,
+.login-btn:hover {
     border-color: var(--clr-green);
 }
 
-.btn-outline-success {
+.login-btn {
     color: var(--clr-green);
 }
 
-.btn-outline-success:hover {
+.login-btn:hover {
     background-color: var(--clr-green);
 }
 
