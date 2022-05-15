@@ -240,6 +240,10 @@ main {
     background-color: var(--clr-green);
 }
 
+.transparent-bg *:not(.btn) {
+    color: var(--clr-black);
+}
+
 footer {
     bottom: 2vw;
     box-shadow: var(--box-shadow-dark);
