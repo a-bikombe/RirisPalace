@@ -18,11 +18,11 @@ footer {
 
 /* ================================================================
 header.php */
-
+/* 
 #header-banner {
     margin: 0 auto;
     width: 95%;
-}
+} */
 
 #header-banner .nav-item:not(:first-of-type) {
     border-top: 1px solid var(--color-gray-80);
