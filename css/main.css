@@ -241,7 +241,8 @@ main {
 }
 
 .transparent-bg *:not(.btn, i) {
-    color: var(--clr-black);
+    background: transparent;
+    color: var(--clr-gray-20);
 }
 
 footer {
@@ -305,7 +306,6 @@ header.php */
 
 #header-banner {
     /* border-bottom: 1px solid var(--clr-gray-80); */
-    background: transparent;
     grid-column: 1 / span 8;
     grid-row: 1;
     margin: 0;
