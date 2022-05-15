@@ -288,7 +288,7 @@ main {
 
 .dark-bg .navbar-toggler-icon {
     color: var(--clr-white);
-    line-height: 1;
+    margin: auto;
 }
 
 footer {
