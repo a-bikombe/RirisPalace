@@ -311,7 +311,7 @@ header.php */
 }
 
 .bg-light {
-    background-color: var(--clr-gray-40)!important;
+    background-color: var(--clr-gray-20)!important;
 }
 
 #header-banner ul {
