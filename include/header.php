@@ -4,7 +4,7 @@ require_once 'config/session.php';
 require_once 'config/nav-links.php';
 ?>
 
-<header class="header" id="header-banner">
+<header class="header transparent-bg" id="header-banner">
 	<nav class="navbar navbar-expand-lg navbar-light bg-light" id="top">
 		<div class="container-fluid">
 			<a href="/">
