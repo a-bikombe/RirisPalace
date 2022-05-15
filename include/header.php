@@ -33,19 +33,21 @@ require_once 'config/nav-links.php';
 						</li>
 					-->
 				</ul>
-				<?php if (isset($_SESSION['loginSuccess']) && $_SESSION['loginSuccess'] === true) { ?>
-					<!-- profile link -->
-					<a class="nav-link text-center" href="login-profile.php"><?= $_SESSION['first_name'] . ' ' . $_SESSION['last_name'] ?></a>
-					<!-- log out button -->
-					<a href="config/logout.php" class="logout-btn btn btn-outline-danger" title="Log Out" id="logout-btn">
-						<i class="fa-solid fa-arrow-right-from-bracket"></i>
-					</a>
-				<?php } else { ?>
-					<!-- log in button -->
-					<a href="login.php" class="login-btn btn btn-outline-success" title="Log In" id="login-btn">
-						<i class="fa-solid fa-arrow-right-to-bracket"></i>
-					</a>
-				<?php } ?>
+				<div class="account">
+					<?php if (isset($_SESSION['loginSuccess']) && $_SESSION['loginSuccess'] === true) { ?>
+						<!-- profile link -->
+						<a class="nav-link text-center" href="login-profile.php"><?= $_SESSION['first_name'] . ' ' . $_SESSION['last_name'] ?></a>
+						<!-- log out button -->
+						<a href="config/logout.php" class="logout-btn btn btn-outline-danger" title="Log Out" id="logout-btn">
+							<i class="fa-solid fa-arrow-right-from-bracket"></i>
+						</a>
+					<?php } else { ?>
+						<!-- log in button -->
+						<a href="login.php" class="login-btn btn btn-outline-success" title="Log In" id="login-btn">
+							<i class="fa-solid fa-arrow-right-to-bracket"></i>
+						</a>
+					<?php } ?>
+				</div>
 			</div>
 		</div>
 	</nav>

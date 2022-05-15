@@ -303,6 +303,13 @@ main {
     z-index: 1;
 }
 
+.navbar-collapse.show .account {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .dark-bg .navbar-collapse.show {
     background: var(--clr-gray-10);
 }
