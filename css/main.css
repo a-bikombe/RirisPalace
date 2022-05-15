@@ -20,6 +20,7 @@ general */
     --clr-pink-t: hsla(350, 100%, 88%, 0.9);
     --clr-black: hsl(0, 0%, 0%);
     --clr-black-t: hsla(0, 0%, 0%, 0.2);
+    --clr-gray-10: hsl(0, 0%, 10%);
     --clr-gray-20: hsl(0, 0%, 20%);
     --clr-gray-20-t: hsla(0, 0%, 20%, 0.4);
     --clr-gray-40: hsl(0, 0%, 40%);
