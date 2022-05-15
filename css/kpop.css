@@ -47,20 +47,17 @@ aside#group-sidebar */
 }
 #group-nav::-webkit-scrollbar-track {
     border-radius: 10px;
-    box-shadow: inset 0 0 5px var(--clr-gray-40);
+    box-shadow: inset 0 0 2px var(--clr-gray-40);
 }
 
 #group-nav::-webkit-scrollbar-thumb {
-    background: var(--clr-gray-40);
+    background: var(--clr-gray-20);
     border-radius: 10px;
-    box-shadow: inset 0 0 5px var(--clr-gray-60);
-    transition: var(--transition-clr-bg), box-shadow 0.2s ease-in-out;
 }
 
 /* Handle on hover */
 #group-nav::-webkit-scrollbar-thumb:hover {
     background: var(--clr-gray-10);
-    box-shadow: inset 0 0 5px var(--clr-gray-40);
 }
 
 #group-nav-header {
