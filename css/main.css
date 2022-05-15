@@ -310,7 +310,7 @@ header.php */
     max-height: 65px;
 }
 
-#header-banner .bg-light {
+.bg-light {
     background-color: var(--clr-gray-40);
 }
 
