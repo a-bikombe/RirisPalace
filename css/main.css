@@ -266,7 +266,7 @@ main {
 
 .login-btn,
 .login-btn:hover {
-    border-color: var(--clr-green-dark);
+    border-color: currentColor;
 }
 
 .login-btn {
@@ -274,7 +274,7 @@ main {
 }
 
 .login-btn:hover {
-    background-color: var(--clr-green-dark);
+    background-color: currentColor;
     color: var(--clr-white);
 }
 
