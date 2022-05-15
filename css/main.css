@@ -623,7 +623,7 @@ stranger-things.php */
 }
 
 #stranger-things .character-image {
-    aspect-ratio: 9 / 16;
+    aspect-ratio: 3 / 4;
     object-fit: cover;
     height: calc(14vw * 1.49);
 }
