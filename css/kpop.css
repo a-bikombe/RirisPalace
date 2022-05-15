@@ -34,16 +34,16 @@ aside#group-sidebar */
     padding: 4vh 3vw;
     min-width: 150px;
 }
-/* width */
-.group-sidebar::-webkit-scrollbar {
-    width: 10px;
-}
 
 #group-nav {
     display: flex;
     flex-direction: column;
     height: 80vh;
     overflow: auto;
+}
+
+.group-nav::-webkit-scrollbar {
+    width: 10px;
 }
 
 #group-nav-header {
