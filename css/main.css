@@ -14,10 +14,10 @@ general */
     --clr-blue: hsl(200, 40%, 70%);
     --clr-blue-light: hsl(200, 60%, 85%);
     --clr-purple: hsl(240, 55%, 85%);
-    --clr-purple-t: hsla(240, 55%, 85%, 0.8);
+    --clr-purple-t: hsla(240, 55%, 85%, 0.85);
     --clr-pink-bright: hsl(350, 80%, 60%);
     --clr-pink: hsl(350, 100%, 88%);
-    --clr-pink-t: hsla(350, 100%, 88%, 0.8);
+    --clr-pink-t: hsla(350, 100%, 88%, 0.85);
     --clr-black: hsl(0, 0%, 0%);
     --clr-black-t: hsla(0, 0%, 0%, 0.2);
     --clr-gray-10: hsl(0, 0%, 10%);
