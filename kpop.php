@@ -56,7 +56,7 @@ $underConstruction = '<img class="construction-gif" src="images/gifs/pikachu-con
 			<ul class="nav flex-column">
 				<?php foreach ($groups as $categoryID => $category) : ?>
 					<li class="nav-item border-5px">
-						<a class="nav-link" href="#<?= $categoryID ?>"><strong><?= $category['name'] ?></strong></a>
+						<strong><a class="nav-link" href="#<?= $categoryID ?>"><?= $category['name'] ?></a></strong>
 					</li>
 					<?php foreach ($category['groups'] as $groupID => $group) : ?>
 						<li class="nav-item border-5px">
