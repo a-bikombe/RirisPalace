@@ -21,7 +21,7 @@ $scripts = [
 <!doctype html>
 <html lang="en">
 
-<?php require_once 'include/head-tag.php' ?>
+<?php require_once 'include/head-tag.php'; ?>
 
 <body id="login">
 	<?php require_once 'include/header.php'; ?>

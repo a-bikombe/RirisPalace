@@ -44,7 +44,7 @@ $underConstruction = '<img class="construction-gif" src="images/gifs/pikachu-con
 <!DOCTYPE html>
 <html lang="en">
 
-<?php require_once 'include/head-tag.php' ?>
+<?php require_once 'include/head-tag.php'; ?>
 
 <body id="kpop" class="grid h-100 w-100">
 	<?php require_once 'include/loading-page.php'; ?>

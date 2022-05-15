@@ -33,7 +33,7 @@ while ($row = mysqli_fetch_assoc($result)) {
 <!doctype html>
 <html lang="en">
 
-<?php require_once 'include/head-tag.php' ?>
+<?php require_once 'include/head-tag.php'; ?>
 
 <body id="profile">
 

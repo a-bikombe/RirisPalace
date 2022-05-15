@@ -21,7 +21,7 @@ $scripts = [
 <!DOCTYPE html>
 <html lang="en">
 
-<?php require_once 'include/head-tag.php' ?>
+<?php require_once 'include/head-tag.php'; ?>
 
 <body class="dark-bg" id="stranger-things">
 	<?php require_once 'include/loading-page.php'; ?>

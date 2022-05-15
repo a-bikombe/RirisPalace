@@ -32,7 +32,7 @@ forgotPassword is another form - allows user to put in their email securely, and
 <!doctype html>
 <html lang="en">
 
-<?php require_once 'include/head-tag.php' ?>
+<?php require_once 'include/head-tag.php'; ?>
 
 <body>
 	<?php require_once 'include/header.php'; ?>
