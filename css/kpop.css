@@ -35,25 +35,10 @@ aside#group-sidebar */
     min-width: 150px;
 }
 /* width */
-::-webkit-scrollbar {
-    height: 90vh;
-    width: 5px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #888; 
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
-  }
+.group-sidebar::-webkit-scrollbar {
+    width: 20px;
+}
+
 #group-nav {
     display: flex;
     flex-direction: column;
