@@ -618,12 +618,12 @@ stranger-things.php */
 
 /* character image carousel */
 #stranger-things .character-image-carousel {
-    aspect-ratio: 3 / 4;
+    aspect-ratio: 9 / 16;
     margin: auto auto 10px;
 }
 
 #stranger-things .character-image {
-    aspect-ratio: 3 / 4;
+    aspect-ratio: 9 / 16;
     object-fit: cover;
 }
 
