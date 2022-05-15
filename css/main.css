@@ -253,6 +253,7 @@ main {
 
 .login-btn:hover {
     background-color: var(--clr-green-dark);
+    color: var(--clr-white);
 }
 
 
@@ -268,11 +269,17 @@ main {
 
 .dark-bg .login-btn:hover {
     background-color: var(--clr-green);
+    color: var(--clr-gray-20);
 }
 
 .transparent-bg *:not(.btn, i) {
     background: transparent;
     color: var(--clr-gray-20);
+}
+
+/* change color of text on dark backgrounds */
+.dark-bg .transparent-bg *:not(.btn, i) {
+    color: var(--clr-white);
 }
 
 footer {
@@ -611,9 +618,4 @@ stranger-things.php */
 #index .preview,
 #stranger-things .character {
     flex-direction: row;
-}
-
-/* change color of text on dark backgrounds */
-.dark-bg .transparent-bg *:not(.btn, i) {
-    color: var(--clr-white);
 }
