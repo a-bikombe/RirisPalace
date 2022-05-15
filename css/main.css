@@ -298,11 +298,12 @@ main {
     color: var(--clr-white);
 }
 
-.navbar-collapse.show .nav-link {
+.navbar-collapse.show {
     background: var(--clr-white);
+    z-index: 1;
 }
 
-.dark-bg .navbar-collapse.show .nav-link {
+.dark-bg .navbar-collapse.show {
     background: var(--clr-gray-10);
 }
 
@@ -623,6 +624,7 @@ stranger-things.php */
     width: 80%;
 }
 
+/* don't hide season caption on mobile */
 #stranger-things .carousel-caption.d-none {
     display: block!important;
     font-size: 1rem;
