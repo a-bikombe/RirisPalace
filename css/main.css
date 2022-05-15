@@ -300,7 +300,7 @@ a:not(.btn, .no-link-color) {
 header.php */
 
 #header-banner {
-    border-bottom: 1px solid var(--clr-gray-80);
+    /* border-bottom: 1px solid var(--clr-gray-80); */
     grid-column: 1 / span 8;
     grid-row: 1;
     margin: 0;
@@ -323,7 +323,6 @@ header.php */
 }
 
 #header-banner a.btn {
-    border: 2px solid;
     color: none;
 }
 
