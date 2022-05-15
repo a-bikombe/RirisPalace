@@ -7,7 +7,9 @@ $pageTitle = 'Stranger Things';
 
 $iconPath = 'https://vignette1.wikia.nocookie.net/animal-jam-clans-1/images/f/f3/Stranger-Things-Logo-Netflix-Television-Show-Winona-Ryder-Duffer-Brothers-1234kyle5678-1.png/revision/latest?cb=20160913015917';
 
-$styles = [];
+$styles = [
+	'stranger-things'
+];
 
 $mobileStyles = [
 	'main' => '575'
@@ -23,7 +25,7 @@ $scripts = [
 
 <?php require_once 'include/head-tag.php'; ?>
 
-<body class="dark-bg" id="stranger-things">
+<body class="dark-theme" id="stranger-things">
 	<?php require_once 'include/loading-page.php'; ?>
 	<?php require_once 'include/header.php'; ?>
 	<main>
