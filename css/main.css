@@ -214,8 +214,12 @@ main {
     padding: 50px 0;
 }
 
-.btn-outline-danger {
+.btn-outline-danger,
+.btn-outline-danger:hover {
     border-color: var(--clr-red);
+}
+
+.btn-outline-danger {
     color: var(--clr-red);
 }
 
@@ -223,8 +227,12 @@ main {
     background-color: var(--clr-red);
 }
 
-.btn-outline-success {
+.btn-outline-success,
+.btn-outline-success:hover {
     border-color: var(--clr-green);
+}
+
+.btn-outline-success {
     color: var(--clr-green);
 }
 
