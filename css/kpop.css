@@ -163,7 +163,7 @@ section.group */
 }
 
 .group-property {
-    border: 1px solid var(--clr-gray-10-t);
+    border: 1px solid var(--clr-gray-80);
     border-radius: 7px;
     color: var(--clr-gray-10);
     flex-basis: 100%;
