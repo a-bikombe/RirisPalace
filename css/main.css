@@ -36,7 +36,7 @@ general */
     /* box-shadow variables */
     --box-shadow-dark: 3px 3px 3px 3px var(--clr-black-t);
     --box-shadow-light: 5px 5px 5px 5px var(--clr-gray-20-t);
-
+    --box-shadow-direct: 0 0 15px 3px var(--clr-black-t);
     /* transitions */
     --transition-size-padding: padding 0.2s ease-in-out;
     --transition-size-text: font-size 0.2s ease-in-out;
@@ -284,13 +284,13 @@ main {
 
 footer {
     bottom: 2vw;
-    box-shadow: var(--box-shadow-dark);
     position: fixed;
     right: 2vw;
 }
 
 footer .btn {
     border: 1px solid var(--clr-gray-20-t);
+    box-shadow: var(--box-shadow-direct);
     overflow: hidden;
 }
 
