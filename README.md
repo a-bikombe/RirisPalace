@@ -45,8 +45,8 @@
 
 ## Extra Config
 * [x] **config/mysql-connect.php** - Sets default database connection variable values
-* [x] **config/nav-links.php** - 
-* [x] **config/session.php** - 
+* [x] **config/nav-links.php** - Nav links for header banner
+* [x] **config/session.php** - Initializes session for every page
 
 ## Commit Command
 

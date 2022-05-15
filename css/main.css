@@ -298,6 +298,10 @@ header.php */
     margin: 0;
 }
 
+#header-banner .navbar {
+    max-height: 65px;
+}
+
 #header-banner ul {
     list-style-type: none;
 }
@@ -308,7 +312,7 @@ header.php */
 
 #header-banner :is(
     .logo) {
-    height: 50px;
+    height: 40px;
 }
 
 #header-banner :is(
