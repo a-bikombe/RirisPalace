@@ -288,9 +288,17 @@ footer {
     right: 2vw;
 }
 
-footer .btn {
-    border: 1px solid var(--clr-gray-20-t);
+.footer-btn {
+    border: 1px solid var(--clr-gray-80);
     box-shadow: var(--box-shadow-direct);
+    overflow: hidden;
+    transition: var(--transition-size-text);
+}
+
+.footer-btn:hover {
+    border: 1px solid var(--clr-gray-80);
+    box-shadow: var(--box-shadow-direct);
+    font-size: 1.1rem;
     overflow: hidden;
 }
 
