@@ -49,6 +49,26 @@ general */
 
 /* ------------ UTILITIES ------------- */
 
+/* animations */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* fade-out animation */
+@keyframes fadeOut {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
 /* display, position */
 
 .vh-100 {
@@ -301,17 +321,20 @@ main {
 .dark-bg .navbar-toggler-icon {
     color: var(--clr-white);
 }
-
+/* 
 .navbar-collapse {
     background-color: transparent;
     transition: var(--transition-clr-bg);
-}
+} */
 
 /* content in mobile dropdown */
 .navbar-collapse.show {
+    animation: fadeIn 0.2s;
+    animation-fill-mode: forwards;
     background-color: var(--clr-white);
     border-radius: 5px;
     box-shadow: var(--box-shadow-direct);
+    transform: translateY(1rem);
     z-index: 1;
 }
 
@@ -466,10 +489,6 @@ header.php */
     background: var(--clr-gray-20);
 }
 
-#header-banner button {
-    float: right;
-}
-
 /* ================================================================
 index.php */
 
@@ -557,14 +576,6 @@ loading-page.php */
 
 .loader .subtitle {
     font-size: 1.5rem;
-}
-
-/* fade-out animation */
-@keyframes fadeOut {
-    100% {
-        opacity: 0;
-        visibility: hidden;
-    }
 }
 
 /* ================================================================
