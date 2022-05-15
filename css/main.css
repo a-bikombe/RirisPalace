@@ -323,10 +323,10 @@ main {
 }
 
 /* content in mobile dropdown */
-.navbar-collapse.collapsing:not(.show) {
+/* .navbar-collapse.collapsing:not(.show) {
     animation: fadeIn 0.2s;
     animation-fill-mode: forwards;
-}
+} */
 
 .navbar-collapse.collapsing,
 .navbar-collapse.show {
