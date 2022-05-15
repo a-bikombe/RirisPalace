@@ -623,8 +623,9 @@ stranger-things.php */
     width: 80%;
 }
 
-.carousel-caption.d-none {
+#stranger-things .carousel-caption.d-none {
     display: block!important;
+    font-size: 1rem;
 }
 
 #stranger-things .character-image {
