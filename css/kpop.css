@@ -179,6 +179,7 @@ section.group */
 
 .modal-img {
     border: 1px solid var(--clr-gray-40);
+    border-radius: 5px;
     height: auto;
     object-fit: cover;
     width: 90%;
