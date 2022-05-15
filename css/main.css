@@ -250,6 +250,20 @@ main {
     background-color: var(--clr-red-dark);
 }
 
+body {
+    --theme-clr-bg: var(--clr-white);
+    --theme-clr-text: var(--clr-gray-10);
+
+    color: var(--theme-clr-text);
+}
+
+.dark-bg {
+    --theme-clr-bg: var(--clr-gray-10);
+    --theme-clr-text: var(--clr-white);
+
+    color: var(--theme-clr-text);
+}
+
 .dark-bg :is(
     .logout-btn,
     .logout-btn:hover) {
@@ -282,7 +296,7 @@ main {
 .dark-bg :is(
     .login-btn,
     .login-btn:hover) {
-        border-color: var(--clr-green);
+        border-color: currentColor;
 }
 
 .dark-bg .login-btn {
@@ -290,13 +304,13 @@ main {
 }
 
 .dark-bg .login-btn:hover {
-    background-color: var(--clr-green);
+    background-color: currentColor;
     color: var(--clr-gray-20);
 }
 
 .transparent-bg *:not(.btn, i) {
     background: transparent;
-    color: var(--clr-gray-20);
+    color: var(--theme-clr-text);
 }
 
 /* change color of text on dark backgrounds */
