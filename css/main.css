@@ -290,6 +290,10 @@ main {
     color: var(--clr-white);
 }
 
+.navbar-collapse {
+    transition: var(--transition-clr-bg);
+}
+
 .navbar-collapse.show {
     background: var(--bg-color);
 }
