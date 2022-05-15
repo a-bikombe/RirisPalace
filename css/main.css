@@ -282,6 +282,14 @@ main {
     color: var(--clr-white);
 }
 
+.navbar-toggler {
+    border-color: var(--clr-gray-10);
+}
+
+.navbar-toggler-icon {
+    color: var(--clr-gray-10);
+}
+
 .dark-bg .navbar-toggler {
     border-color: var(--clr-white);
 }
@@ -290,12 +298,12 @@ main {
     color: var(--clr-white);
 }
 
-.navbar-collapse {
-    transition: var(--transition-clr-bg);
+.navbar-collapse.show .nav-link {
+    background: var(--clr-gray-10);
 }
 
-.navbar-collapse.show {
-    background: var(--bg-color);
+.dark-bg .navbar-collapse.show .nav-link {
+    background: var(--clr-white);
 }
 
 footer {
