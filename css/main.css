@@ -240,7 +240,7 @@ main {
     background-color: var(--clr-green);
 }
 
-.transparent-bg *:not(.btn) {
+.transparent-bg *:not(.btn, i) {
     color: var(--clr-black);
 }
 
