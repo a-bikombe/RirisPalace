@@ -8,3 +8,10 @@ window.addEventListener('load', function (evt) {
 		loader.classList.add('hidden');
 	}
 });
+
+let toggleButton = document.getElementById('navbar-toggler');
+let toggleContent = document.getElementById('navbar-supported-content');
+
+toggleButton.addEventListener('click', function (evt) {
+	toggleContent.classList.add('show');
+});
