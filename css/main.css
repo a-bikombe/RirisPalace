@@ -215,21 +215,21 @@ main {
 }
 
 .btn-outline-danger {
-    border-color: var(--clr-red-dark);
-    color: var(--clr-red-dark);
+    border-color: var(--clr-red);
+    color: var(--clr-red);
 }
 
 .btn-outline-danger:hover {
-    background-color: var(--clr-red-dark);
+    background-color: var(--clr-red);
 }
 
 .btn-outline-success {
-    border-color: var(--clr-green-dark);
-    color: var(--clr-green-dark);
+    border-color: var(--clr-green);
+    color: var(--clr-green);
 }
 
 .btn-outline-success:hover {
-    background-color: var(--clr-green-dark);
+    background-color: var(--clr-green);
 }
 
 footer {
