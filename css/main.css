@@ -328,6 +328,11 @@ main {
     animation-fill-mode: forwards;
 }
 
+.navbar-collapse.collapsing.show {
+    animation: fadeOut 0.2s;
+    animation-fill-mode: forwards;
+}
+
 .navbar-collapse.collapsing,
 .navbar-collapse.show {
     background-color: var(--clr-white);
