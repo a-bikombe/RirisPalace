@@ -338,7 +338,9 @@ main {
 }
 
 /* content in mobile dropdown - dark backgrounds */
-.dark-bg .navbar-collapse.show {
+.dark-bg :is(
+    .navbar-collapse.collapsing,
+    .navbar-collapse.show) {
     background-color: var(--clr-gray-10);
 }
 
