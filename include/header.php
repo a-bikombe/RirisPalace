@@ -12,7 +12,7 @@ require_once 'config/nav-links.php';
 			</a>
 			<a class="navbar-brand" href="/" id="heading">a r i b i k o m b e</a>
 			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-supported-content" aria-controls="navbar-supported-content" aria-expanded="false" aria-label="Toggle navigation">
-				<i class="navbar-toggler-icon fa-solid fa-bars"></i>
+				<span><i class="navbar-toggler-icon fa-solid fa-bars"></i></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbar-supported-content">
 				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
