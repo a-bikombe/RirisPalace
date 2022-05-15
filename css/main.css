@@ -306,12 +306,16 @@ header.php */
     margin: 0;
 }
 
+#index #header-banner {
+    background: var(--clr-gray-20-t);;
+}
+
 #header-banner .navbar {
     max-height: 65px;
 }
 
 .bg-light {
-    background-color: var(--clr-gray-20)!important;
+    --bs-bg-opacity: 0;
 }
 
 #header-banner ul {
