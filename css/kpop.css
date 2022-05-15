@@ -42,7 +42,7 @@ aside#group-sidebar */
     overflow: auto;
 }
 
-.group-nav::-webkit-scrollbar {
+#group-nav::-webkit-scrollbar {
     width: 5px;
 }
 
