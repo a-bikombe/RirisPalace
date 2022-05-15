@@ -36,7 +36,7 @@ aside#group-sidebar */
 }
 /* width */
 .group-sidebar::-webkit-scrollbar {
-    width: 15px;
+    width: 12px;
 }
 
 #group-nav {
