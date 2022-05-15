@@ -341,7 +341,7 @@ main {
 .navbar-collapse.show {
     background-color: var(--clr-white);
     border-radius: 5px;
-    box-shadow: var(--box-shadow-direct-dark);
+    box-shadow: var(--box-shadow-direct-light);
     transform: translateY(1rem);
     z-index: 1;
 }
@@ -351,7 +351,7 @@ main {
     .navbar-collapse.collapsing,
     .navbar-collapse.show) {
     background-color: var(--clr-gray-10);
-    box-shadow: var(--box-shadow-direct-light);
+    box-shadow: var(--box-shadow-direct-dark);
 }
 
 /* profile link and login/out button in mobile dropdown */
