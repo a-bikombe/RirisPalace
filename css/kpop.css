@@ -51,8 +51,9 @@ aside#group-sidebar */
 }
 
 #group-nav::-webkit-scrollbar-thumb {
-    background: var(--clr-gray-20);
+    background: var(--clr-gray-40);
     border-radius: 10px;
+    box-shadow: inset 0 0 3px var(--clr-gray-80);
 }
 
 /* Handle on hover */
