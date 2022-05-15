@@ -308,6 +308,9 @@ header.php */
 
 #header-banner .navbar {
     max-height: 65px;
+}
+
+#header-banner .bg-light {
     background-color: var(--clr-gray-40);
 }
 
