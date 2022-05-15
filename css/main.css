@@ -323,13 +323,8 @@ main {
 }
 
 /* content in mobile dropdown */
-.navbar-collapse.collapsing {
+.navbar-collapse.collapsing:not(.show) {
     animation: fadeIn 0.2s;
-    animation-fill-mode: forwards;
-}
-
-.navbar-collapse.collapsing.show {
-    animation: fadeOut 0.2s;
     animation-fill-mode: forwards;
 }
 
