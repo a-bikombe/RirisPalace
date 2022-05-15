@@ -35,7 +35,7 @@ aside#group-sidebar */
     min-width: 150px;
 }
 
-::-webkit-scrollbar {
+#group-sidebar ::-webkit-scrollbar {
     width: 5px;
   }
 
