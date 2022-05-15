@@ -222,6 +222,8 @@ h6 {
 /* layout */
 
 body {
+    --theme-clr-bg: var(--clr-white);
+    --theme-clr-text: var(--clr-gray-10);
     --bg-color: var(--clr-blue-light);
 
     font-family: Avenir, Helvetica, sans-serif;
@@ -248,6 +250,11 @@ main {
 
 .logout-btn:hover {
     background-color: var(--clr-red-dark);
+}
+
+.dark-bg {
+    -theme-clr-bg: var(--clr-gray-10);
+    -theme-clr-text: var(--clr-white);
 }
 
 .dark-bg :is(
@@ -291,7 +298,7 @@ main {
 
 .dark-bg .login-btn:hover {
     background-color: var(--clr-green);
-    color: var(--clr-gray-20);
+    color: var(--theme-dark-clr-text);
 }
 
 .transparent-bg *:not(.btn, i) {
@@ -306,32 +313,11 @@ main {
 
 /* mobile dropdown toggle button */
 .navbar-toggler {
-    border-color: var(--clr-gray-10);
+    border-color: var(--theme-clr-text);
     text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
     box-shadow: inset 0 0 0.5em 0 var(--clr-white), 0 0 0.5em 0 var(--clr-white);
     transition: var(--transition-size-text);
 }
-
-.navbar-toggler:hover,
-.navbar-toggler:focus {
-    text-shadow: none;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .navbar-toggler:hover,
 .navbar-toggler:focus-visible {
@@ -340,22 +326,22 @@ main {
 
 /* mobile dropdown toggle button - dark backgrounds */
 .dark-bg .navbar-toggler {
-    border-color: var(--clr-white);
+    border-color: var(--theme-clr-text);
 }
 
 /* mobile dropdown toggle button icon */
 .navbar-toggler-icon {
-    color: var(--clr-gray-10);
+    color: var(--theme-clr-text);
 }
 
 /* mobile dropdown toggle button - dark backgrounds */
 .dark-bg .navbar-toggler-icon {
-    color: var(--clr-white);
+    color: var(--theme-clr-text);
 }
 
 .navbar-collapse.collapsing,
 .navbar-collapse.show {
-    background-color: var(--clr-white);
+    background-color: var(--theme-clr-bg);
     border-radius: 5px;
     box-shadow: var(--box-shadow-direct-dark);
     transform: translateY(1rem);
@@ -366,7 +352,7 @@ main {
 .dark-bg :is(
     .navbar-collapse.collapsing,
     .navbar-collapse.show) {
-    background-color: var(--clr-gray-10);
+    background-color: var(--theme-clr-bg);
     box-shadow: var(--box-shadow-direct-light);
 }
 
