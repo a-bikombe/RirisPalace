@@ -34,6 +34,9 @@ general */
     --bg-image: url("../images/backgrounds/flowers.jpeg") center/cover transparent;
     --bg-transition: background-color 0.4s ease-in-out;
 
+    --theme-clr-bg: var(--clr-white);
+    --theme-clr-text: var(--clr-gray-10);
+    
     /* box-shadow variables */
     --box-shadow-dark: 3px 3px 3px 3px var(--clr-black-t);
     --box-shadow-light: 5px 5px 5px 5px var(--clr-gray-20-t);
@@ -222,8 +225,6 @@ h6 {
 /* layout */
 
 body {
-    --theme-clr-bg: var(--clr-white);
-    --theme-clr-text: var(--clr-gray-10);
     --bg-color: var(--clr-blue-light);
 
     font-family: Avenir, Helvetica, sans-serif;
