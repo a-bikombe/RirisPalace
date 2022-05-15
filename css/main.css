@@ -22,7 +22,7 @@ general */
     --clr-black-t: hsla(0, 0%, 0%, 0.2);
     --clr-gray-10: hsl(0, 0%, 10%);
     --clr-gray-20: hsl(0, 0%, 20%);
-    --clr-gray-20-t: hsla(0, 0%, 20%, 0.4);
+    --clr-gray-20-t: hsla(0, 0%, 20%, 0.6);
     --clr-gray-40: hsl(0, 0%, 40%);
     --clr-gray-60: hsl(0, 0%, 60%);
     --clr-gray-80: hsl(0, 0%, 80%);
@@ -312,11 +312,8 @@ header.php */
     margin: 0;
 }
 
-#index #header-banner {
-    background: var(--clr-gray-20-t);
-}
-
 #header-banner .navbar {
+    background: var(--clr-gray-20-t);
     max-height: 65px;
 }
 
