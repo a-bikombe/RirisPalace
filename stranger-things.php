@@ -23,7 +23,7 @@ $scripts = [
 
 <?php require_once 'include/head-tag.php' ?>
 
-<body id="stranger-things">
+<body class="dark-bg" id="stranger-things">
 	<?php require_once 'include/loading-page.php'; ?>
 	<?php require_once 'include/header.php'; ?>
 	<main>

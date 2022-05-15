@@ -22,7 +22,7 @@ $scripts = [
 
 <?php require_once 'include/head-tag.php' ?>
 
-<body id="index">
+<body class="dark-bg" id="index">
 	<?php require_once 'include/loading-page.php'; ?>
 	<!-- bootstrap navbar -->
 	<?php require_once 'include/header.php' ?>

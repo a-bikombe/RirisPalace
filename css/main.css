@@ -217,27 +217,56 @@ main {
 
 .logout-btn,
 .logout-btn:hover {
-    border-color: var(--clr-red);
+    border-color: var(--clr-red-dark);
 }
 
 .logout-btn {
-    color: var(--clr-red);
+    color: var(--clr-red-dark);
 }
 
 .logout-btn:hover {
+    background-color: var(--clr-red-dark);
+}
+
+.dark-bg :is(
+    .logout-btn,
+    .logout-btn:hover) {
+        border-color: var(--clr-red);
+}
+
+.dark-bg .logout-btn {
+    color: var(--clr-red);
+}
+
+.dark-bg .logout-btn:hover {
     background-color: var(--clr-red);
 }
 
 .login-btn,
 .login-btn:hover {
-    border-color: var(--clr-green);
+    border-color: var(--clr-green-dark);
 }
 
 .login-btn {
-    color: var(--clr-green);
+    color: var(--clr-green-dark);
 }
 
 .login-btn:hover {
+    background-color: var(--clr-green-dark);
+}
+
+
+.dark-bg :is(
+    .login-btn,
+    .login-btn:hover) {
+        border-color: var(--clr-green);
+}
+
+.dark-bg .login-btn {
+    color: var(--clr-green);
+}
+
+.dark-bg .login-btn:hover {
     background-color: var(--clr-green);
 }
 
@@ -585,7 +614,6 @@ stranger-things.php */
 }
 
 /* change color of text on dark backgrounds */
-#index .transparent-bg *:not(.btn, i),
-#stranger-things .transparent-bg *:not(.btn, i) {
+.dark-bg .transparent-bg *:not(.btn, i) {
     color: var(--clr-white);
 }
