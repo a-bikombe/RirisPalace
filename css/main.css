@@ -288,7 +288,10 @@ main {
 
 .dark-bg .navbar-toggler-icon {
     color: var(--clr-white);
-    margin: auto;
+}
+
+.navbar-collapse.show {
+    background: var(--bg-color);
 }
 
 footer {
