@@ -317,6 +317,12 @@ main {
 /* mobile dropdown toggle button icon */
 .navbar-toggler-icon {
     color: var(--clr-gray-10);
+    transition: var(--transition-size-text);
+}
+
+.navbar-toggler-icon:hover,
+.navbar-toggler-icon:focus-visible {
+    font-size: 1.1rem;
 }
 
 /* mobile dropdown toggle button - dark backgrounds */
