@@ -13,7 +13,7 @@ let toggleButton = document.getElementById('navbar-toggler');
 let toggleContent = document.getElementById('navbar-supported-content');
 
 toggleButton.addEventListener('click', function (evt) {
-    if (!toggleContent.classList.contains('show')) {
+    if (toggleButton.getAttribute('aria-expanded') === 'false') {
         toggleButton.setAttribute('aria-expanded', 'true');
         toggleContent.classList.add('show');
     } else {
