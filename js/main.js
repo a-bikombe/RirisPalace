@@ -13,5 +13,10 @@ let toggleButton = document.getElementById('navbar-toggler');
 let toggleContent = document.getElementById('navbar-supported-content');
 
 toggleButton.addEventListener('click', function (evt) {
-	toggleContent.classList.add('show');
+	if (toggleContent.classList.contains('show')) {
+		toggleContent.classList.remove('show');
+	} else {
+		toggleContent.classList.add('show');
+	}
+	
 });
