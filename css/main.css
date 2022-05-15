@@ -321,6 +321,8 @@ main {
 .dark-bg .navbar-toggler-icon {
     color: var(--clr-white);
 }
+
+/* aria-expanded="false" */
 /* 
 .navbar-collapse {
     background-color: transparent;
@@ -329,8 +331,8 @@ main {
 
 /* content in mobile dropdown */
 .navbar-collapse.show {
-    /* animation: fadeIn 0.2s;
-    animation-fill-mode: forwards; */
+    animation: fadeIn 0.2s;
+    animation-fill-mode: forwards;
     background-color: var(--clr-white);
     border-radius: 5px;
     box-shadow: var(--box-shadow-direct);

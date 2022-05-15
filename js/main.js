@@ -14,10 +14,10 @@ let toggleContent = document.getElementById('navbar-supported-content');
 
 toggleButton.addEventListener('click', function (evt) {
     if (!toggleContent.classList.contains('show')) {
-        toggleButton.setAttribute('aria-expanded', 'true');
+        // toggleButton.setAttribute('aria-expanded', 'true');
         toggleContent.classList.add('show');
     } else {
-        toggleButton.setAttribute('aria-expanded', 'false');
+        // toggleButton.setAttribute('aria-expanded', 'false');
         toggleContent.classList.remove('show');
     }
 });
