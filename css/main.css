@@ -322,13 +322,6 @@ main {
     color: var(--clr-white);
 }
 
-/*  */
-/* 
-.navbar-collapse {
-    background-color: transparent;
-    transition: var(--transition-clr-bg);
-} */
-
 /* content in mobile dropdown */
 .navbar-collapse.collapsing {
     animation: fadeIn 0.2s;
@@ -350,7 +343,10 @@ main {
 }
 
 /* profile link and login/out button in mobile dropdown */
-.navbar-collapse.show .account {
+:is(
+    .navbar-collapse.collapsing,
+    .navbar-collapse.show
+    ) .account {
     align-items: center;
     display: flex;
     flex-direction: column;
