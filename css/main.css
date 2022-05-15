@@ -304,10 +304,11 @@ main {
 }
 
 .navbar-collapse.show .account {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    padding-bottom: 0.75rem;
 }
 
 .dark-bg .navbar-collapse.show {
