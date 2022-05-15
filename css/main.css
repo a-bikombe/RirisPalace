@@ -313,8 +313,11 @@ header.php */
 }
 
 #header-banner .navbar {
-    background: var(--clr-gray-20-t);
     max-height: 65px;
+}
+
+#index .navbar {
+    background: var(--clr-gray-20-t);
 }
 
 .bg-light {
