@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="icon" type="image/png" href="images/favicon.png"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">  <!-- Bootstrap CSS -->
+        <link type="text/css" rel="stylesheet" href="css/style.css">    <!-- my CSS -->
+        <script src="https://kit.fontawesome.com/34e100283f.js" crossorigin="anonymous"></script>    <!-- Font Awesome icons -->
+        <title>About Us</title>
+    </head>
+    
+    <body>
+        <header>
+            <!--#include virtual="ssi/header.shtml"-->
+        </header>
+        
+        <main>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb border-bottom">
+                    <li class="breadcrumb-item"><a href="index.shtml">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">About Us</li>
+                </ol>
+            </nav>
+            
+            <div class="container maindiv">
+            <h1 id="top">About Us</h1>     <!-- header -->
+            
+            <article>
+                <h2>CSCI-PCA</h2>
+                <h3>About My Website</h3>
+                <p><strong>For my project I will be working on an imaginary animal shelter website. Along with the required pages I added a page with a list of adoptable pets and an adoption application form.</strong></p>
+                <h3>In Tempus</h3>
+                <p>Amet est placerat in egestas erat imperdiet sed euismod. Adipiscing bibendum est ultricies integer quis auctor elit. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Et odio pellentesque diam volutpat commodo sed. Quam quisque id diam vel quam elementum. In ornare quam viverra orci. Id cursus metus aliquam eleifend mi in. Sed sed risus pretium quam. Sit <wbr>amet<wbr> nisl purus in mollis. In metus vulputate eu scelerisque felis imperdiet proin. Ac odio tempor orci dapibus ultrices. At elementum eu facilisis sed. Vulputate dignissim suspendisse in est. Mauris pharetra et ultrices neque ornare aenean euismod elementum nisi. Donec ac odio tempor orci dapibus ultrices in iaculis. Nullam vehicula ipsum a arcu cursus vitae congue mauris.</p>
+                <p>Non pulvinar neque laoreet suspendisse interdum consectetur. Iaculis nunc sed augue lacus viverra. Auctor urna nunc id cursus metus. Laoreet non curabitur gravida arcu ac. Ut placerat orci nulla pellentesque dignissim enim sit amet venenatis. Nibh venenatis cras sed felis eget. Molestie a iaculis at erat. Bibendum neque egestas congue quisque egestas diam. Imperdiet sed euismod nisi porta lorem mollis. Tellus in hac habitasse platea dictumst vestibulum. Leo integer malesuada nunc vel risus commodo.</p>
+            </article>
+            </div>
+        </main>
+        
+        <footer>
+            <!--#include virtual="ssi/footer.shtml"-->
+        </footer>
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    </body>
+</html>

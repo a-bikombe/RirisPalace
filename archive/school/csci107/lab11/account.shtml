@@ -1,0 +1,44 @@
+<!doctype html>    <!-- Account -->
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Lab 11 - Account</title>
+        <link href="lab11.css" rel="stylesheet">    <!-- You may include and alter the attached form.css -->
+        <script src="https://kit.fontawesome.com/34e100283f.js" crossorigin="anonymous"></script>    <!-- Font Awesome icons -->
+    </head>
+
+    <body>
+        <header>
+            <h1>Lab 11 - Account</h1>
+        </header>
+
+        <form action="https://www.nashuaweb.net/~abikombe/CSCI107N/lab11/admin.shtml" method="post">
+            <fieldset class="profile">
+                <legend>Profile</legend>
+                <div class="username">
+                    <label for="username">Change Username</label>
+                    <input name="username" id="username" type="text">    <!-- Username -->
+                </div>
+
+                <div class="password">
+                    <label for="password">Change Password</label>
+                    <input name="password" id="password" type="password">    <!-- Password -->
+                </div>
+            </fieldset>
+
+            <fieldset class="settings">
+                <legend>Advanced Settings</legend>
+                <div class="deactivate">
+                    <label>Deactivate Account</label>    <!-- deactivate checkbox -->
+                    <input name="option" id="deactivate" type="checkbox">
+                </div>
+            </fieldset>
+            
+            <div class="savebutton">
+                <button type="submit" value="submit">Save Changes</button>
+            </div>
+        </form>
+
+    </body>
+</html>

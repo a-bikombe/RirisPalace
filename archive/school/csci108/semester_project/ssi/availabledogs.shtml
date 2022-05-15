@@ -1,0 +1,28 @@
+<div class="text-center">
+    <figure class="figure">
+        <a href="#"><img src="images/dog1.jpg" class="figure-img rounded img-thumbnail" alt="..." height="300" width="300"></a>
+        <figcaption class="figure-caption">Dog 1</figcaption>
+    </figure>
+    <figure class="figure">
+        <a href="#"><img src="images/dog2.jpg" class="figure-img rounded img-thumbnail" alt="..." height="300" width="300"></a>
+        <figcaption class="figure-caption">Dog 2</figcaption>
+    </figure>
+    <figure class="figure">
+        <a href="#"><img src="images/dog3.jpg" class="figure-img rounded img-thumbnail" alt="..." height="300" width="300"></a>
+        <figcaption class="figure-caption">Dog 3</figcaption>
+    </figure>
+</div>
+<div class="text-center">
+    <figure class="figure">
+        <a href="#"><img src="images/dog1.jpg" class="figure-img rounded img-thumbnail" alt="..." height="300" width="300"></a>
+        <figcaption class="figure-caption">Dog 4</figcaption>
+    </figure>
+    <figure class="figure">
+        <a href="#"><img src="images/dog2.jpg" class="figure-img rounded img-thumbnail" alt="..." height="300" width="300"></a>
+        <figcaption class="figure-caption">Dog 5</figcaption>
+    </figure>
+    <figure class="figure">
+        <a href="#"><img src="images/dog3.jpg" class="figure-img rounded img-thumbnail" alt="..." height="300" width="300"></a>
+        <figcaption class="figure-caption">Dog 6</figcaption>
+    </figure>
+</div>

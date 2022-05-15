@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+
+    <footer>
+        <nav> <!-- site navigation -->
+            <h3>Site Navigation</h3>
+            <p><a href="index.shtml" title="Home">Home Page</a> &#8226; <a href="about.shtml" title="About">About</a> &#8226; <a href="contact.shtml" title="Contact">Contact Us</a></p>
+        </nav>
+        
+        <p><i class="fas fa-phone"></i> Tel: <a href="tel:123-555-1212">(123) 555-1212</a> &#8226; <i class="fas fa-envelope"></i> Email: <a href="mailto:semesterproject@csci108.com?subject=Website&nbsp;Request" title="Email">semesterproject@csci108.com</a></p>    <!-- email and telephone link -->
+        
+        <p><i class="far fa-copyright"></i> 2021 - Nashua Community College </p>    <!-- copyright -->
+    </footer>
+
+</html>

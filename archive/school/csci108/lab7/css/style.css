@@ -1,0 +1,59 @@
+body {
+    font-family: 'Varela Round', 'Helvetica', sans-serif;
+    background: #E2D3CA;
+    font-size: 15px;
+}
+
+/* Style the headings such that they are distinct from the other content - The page header and section headers should be styled differently */
+h1 {
+    font-size: 3em;
+    color: #66400B;
+}
+
+h2, h3, h4 {
+    color: #bf3f27;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+p {
+    color: #2B1F18;
+}
+
+li {
+    list-style-type: circle;
+}
+
+li, a {
+    color: #ef7b4f;
+}
+
+a:hover {
+    color: #5A2711;
+    text-decoration: none;
+}
+
+/* The aside content should be styled distinctly */
+aside {
+    font-style: italic;
+}
+
+footer {
+    border: 1px solid #2B1F18;
+    padding: 0px 15px;
+    background: #bf3f27;
+    }
+
+footer p {
+    color: #fff;
+}

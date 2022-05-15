@@ -1,0 +1,67 @@
+/* general */
+
+main {
+    padding: 73px 0px 30px 0px;
+}
+
+main, footer {
+    background-color: #c9e2e8;
+}
+
+div.maindiv {
+    padding-top: 25px;
+}
+
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.75rem;
+    line-height: inherit;
+    background-color: transparent;
+    border: 1px solid #34707e;
+    border-radius: 0.25rem;
+    color: #8ECCCD;
+}
+
+footer, nav.navbar {
+    background-color: #25505a;
+    color: #EFEFEF; /* text */
+}
+
+footer {
+    padding: 15px;
+}
+
+
+/* forms */
+
+input:invalid, textarea:invalid {
+    border-color: red;
+}
+
+input:valid, textarea:valid {
+    border-color: green;
+}
+
+label.required::before {
+    content: "*";
+}
+
+
+/* links, etc. */
+
+a, label.required::before {
+    color: #34707e;
+}
+
+a:hover {
+    color: #163036;
+}
+
+
+footer a, nav.navbar a {
+    color: #8ECCCD;
+}
+
+footer a:hover, nav.navbar a:hover {
+    color: #EFEFEF;
+}

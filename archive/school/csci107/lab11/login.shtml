@@ -1,0 +1,43 @@
+<!doctype html>    <!-- Login -->
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Lab 11 - Login</title>
+        <link href="lab11.css" rel="stylesheet">    <!-- You may include and alter the attached form.css -->
+        <script src="https://kit.fontawesome.com/34e100283f.js" crossorigin="anonymous"></script>    <!-- Font Awesome icons -->
+    </head>
+
+    <body>
+        <header>
+            <h1>Lab 11 - Login</h1>
+        </header>
+
+        <form action="https://www.nashuaweb.net/~abikombe/CSCI107N/lab11/admin.shtml" method="post">
+            <fieldset class="login">
+                <legend>Login</legend>
+                <div class="username">
+                    <label for="username">Username*</label>
+                    <input name="username" id="username" type="text" required>    <!-- Username  -->
+                </div>
+
+                <div class="password">
+                    <label for="password">Password*</label>
+                    <input name="password" id="password" type="password" required>    <!-- Password -->
+                </div>
+
+                <div class="rememberme">
+                    <label>Remember Me</label>    <!-- remember me checkbox -->
+                    <input name="option" id="rememberme" type="checkbox">
+                </div>
+            </fieldset>
+
+            <div class="loginbutton">
+                <button type="submit" value="submit">Login</button>
+            </div>
+        </form>
+
+        <a href="#">Forgot your password?</a>
+
+    </body>
+</html>

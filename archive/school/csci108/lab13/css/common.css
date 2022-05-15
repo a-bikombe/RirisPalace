@@ -1,0 +1,29 @@
+:root {
+    font-size: 15px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #fff;
+}
+
+body {
+    font-family: Georgia, serif;
+    background: #000 url('../images/woodenbg.jpeg') repeat;  /* "Background texture of dark wood" by Creativity103 is licensed with CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/ */
+}
+
+section {
+    background: #DFD2AF;
+    padding: 15px;
+    margin-top: 15px;
+    border: 2px solid #fff;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+cite {
+    font-size: 0.8rem;
+}

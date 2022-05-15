@@ -1,0 +1,18 @@
+<footer>
+    <nav> <!-- site navigation -->
+        <h3>Site Navigation</h3>
+        <p><a href="lab12.shtml" title="Lab 12">Homepage</a> &#8226; <a href="nav/about.shtml">About</a> &#8226; <a href="nav/contact.shtml">Contact Us</a> &#8226; <a href="nav/account.shtml">Account</a></p>
+    </nav>
+
+    <p><i class="fas fa-phone"></i> Tel: <a href="tel:123-555-1212">(123) 555-1212</a> &#8226; <i class="fas fa-envelope"></i> Email: <a href="mailto:lab4@csci107n.com?subject=Website&nbsp;Request" title="Email">lab12@csci107n.com</a></p>    <!-- email and telephone link -->
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2927.677629173289!2d-71.52588848452986!3d42.795164479160036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3b68a1e480291%3A0x38bca88e488cdf3!2sNashua%20Community%20College!5e0!3m2!1sen!2sus!4v1605791549583!5m2!1sen!2sus" width="200" height="150" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>    <!-- google maps -->
+    <address class="schooladdress"> <!-- address -->
+        <a href="https://nashuacc.edu/" title="Visit the school"><i class="fas fa-university"></i>Nashua Community College<br>505 Amherst St.<br>Nashua, NH 03063</a>   <!-- school address and link -->
+
+        <p><i class="far fa-copyright"></i> 2020 - Nashua Community College </p>    <!-- copyright -->
+
+        <a href="termsofservice.shtml" title="Terms of Service"><i class="fas fa-file-signature"></i> Terms of Service</a>  <!-- terms ofservice -->
+        <a href="privacy.shtml" title="Privacy"><i class="fas fa-user-secret"></i> Privacy</a>  <!-- privacy -->
+    </address>
+</footer>

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zxx">
+    <head>
+        <title>Lab 11 - Responsive Design</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/common.css" rel="stylesheet">
+        <link href="css/mobile.css" rel="stylesheet" media="screen and (max-width:575px)">
+        <link href="css/tablet.css" rel="stylesheet" media="screen and (min-width:576px)">
+        <link href="css/laptop-desktop.css" rel="stylesheet" media="screen and (min-width:1199px)">
+    </head>
+    
+    <body>
+        <header>
+            <h1>Lab 11 - Responsive Design</h1>
+        </header>
+        <main>
+            <article>
+            <section class="poem">
+                <h3>Dreams</h3>
+                <p>by Langston Hughes</p>
+                <blockquote>
+                    <p>Hold fast to dreams </p>
+                        <p>For if dreams die</p>
+                        <p>Life is a broken-winged bird</p>
+                        <p>That cannot fly.</p>
+                            <br>
+                        <p>Hold fast to dreams</p>
+                        <p>For when dreams go</p>
+                        <p>Life is a barren field</p>
+                        <p>Frozen with snow.
+                    </p>
+                </blockquote>
+                <img src="images/dreams.jpeg" alt="poem" class="poem" height="150">
+                <cite><a href="https://poets.org/poem/dreams">https://poets.org/poem/dreams</a></cite>
+            </section>
+            <section class="author">
+                <img src="images/author.jpeg" alt="author" height="200" class="author">
+                <h2>About the Author</h2>
+                <p class="about">James Mercer Langston Hughes was born February 1, 1902, in Joplin, Missouri. His parents divorced when he was a young child, and his father moved to Mexico. He was raised by his grandmother until he was thirteen, when he moved to Lincoln, Illinois, to live with his mother and her husband, before the family eventually settled in Cleveland, Ohio.</p>
+                <a href="https://poets.org/poet/langston-hughes#poet__works" class="buylink">Link to purchase his poetry</a>
+            </section>
+            <section class="images">
+                <img src="images/500x1.jpeg" alt="500pxby500px" class="px">           <img src="images/500x2.jpeg" alt="500pxby500px" class="px">
+            </section>
+            </article>
+        </main>
+    </body>
+</html>

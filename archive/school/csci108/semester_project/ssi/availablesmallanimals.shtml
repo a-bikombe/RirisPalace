@@ -1,0 +1,28 @@
+<div class="text-center">
+    <figure class="figure">
+        <a href="#"><img src="images/smallanimal1.jpg" class="figure-img rounded img-thumbnail" alt="..." height="300" width="300"></a>
+        <figcaption class="figure-caption">Small Animal 1</figcaption>
+    </figure>
+    <figure class="figure">
+        <a href="#"><img src="images/smallanimal2.jpg" class="figure-img rounded img-thumbnail" alt="..." height="300" width="300"></a>
+        <figcaption class="figure-caption">Small Animal 2</figcaption>
+    </figure>
+    <figure class="figure">
+        <a href="#"><img src="images/smallanimal3.jpg" class="figure-img rounded img-thumbnail" alt="..." height="300" width="300"></a>
+        <figcaption class="figure-caption">Small Animal 3</figcaption>
+    </figure>
+</div>
+<div class="text-center">
+    <figure class="figure">
+        <a href="#"><img src="images/smallanimal1.jpg" class="figure-img rounded img-thumbnail" alt="..." height="300" width="300"></a>
+        <figcaption class="figure-caption">Small Animal 4</figcaption>
+    </figure>
+    <figure class="figure">
+        <a href="#"><img src="images/smallanimal2.jpg" class="figure-img rounded img-thumbnail" alt="..." height="300" width="300"></a>
+        <figcaption class="figure-caption">Small Animal 5</figcaption>
+    </figure>
+    <figure class="figure">
+        <a href="#"><img src="images/smallanimal3.jpg" class="figure-img rounded img-thumbnail" alt="..." height="300" width="300"></a>
+        <figcaption class="figure-caption">Small Animal 6</figcaption>
+    </figure>
+</div>

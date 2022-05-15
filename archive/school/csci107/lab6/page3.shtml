@@ -1,0 +1,16 @@
+<!-- filename must end in .shtml -->
+<!doctype html>
+<html lang="en">
+
+    <head>
+	<meta charset="utf-8">
+	<title>Lab 6 - Website Architecture: Page 3</title>
+    </head>
+    
+    <body>
+        <!--#include virtual="ssi/header.shtml"-->
+        <h1>Page 3</h1>
+        <!--#include virtual="ssi/footer.shtml"-->
+    </body>
+    
+</html>

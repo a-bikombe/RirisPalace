@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+
+    <div class="container-fluid">
+        <nav class="headernav navbar fixed-top navbar-expand-lg">
+            <a class="navbar-brand" href="/~abikombe/CSCI108/semester_project/index.shtml"><img src="/~abikombe/CSCI108/semester_project/images/logo.png" class="float-left" alt="Responsive image" width="76" height="49" title="Home"></a>    <!-- logo -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">    <!-- toggle dropdown navigation -->
+                <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarContent">    <!-- navigation content -->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="application.shtml">Adoption Application</a>
+                    </li>
+                    <li class="nav-item dropdown">    <!-- dropdown -->
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Adoptable Pets</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="dogs.shtml">Adoptable Dogs</a>
+                            <a class="dropdown-item" href="cats.shtml">Adoptable Cats</a>
+                            <a class="dropdown-item" href="smallanimals.shtml">Adoptable Small Animals</a>
+                            <div class="dropdown-divider"></div>    <!-- divider -->
+                            <a class="dropdown-item" href="pets.shtml">See All</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.shtml">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.shtml">Contact</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">    <!-- search bar -->
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search for a Friend" aria-label="Search">
+                    <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </div>
+
+</html>

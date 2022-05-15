@@ -1,0 +1,58 @@
+:root {
+    font-size: 18px;
+}
+
+body {
+    margin: 15px;
+    background: pink;
+}
+
+cite {
+    display: none;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    margin-top: 30px;
+}
+
+section blockquote {
+    padding-top: 25px;
+}
+
+section blockquote p {
+    overflow-y: auto;
+    max-height: 65vh;
+    font-size: 0.8rem;
+}
+
+section.images {
+    position: absolute;
+    top: 120px;
+    right: 15px;
+    width: 42vw;
+}
+
+img.px {
+    width: 100%;
+    padding: 0px;
+}
+
+img.poem {
+    margin-top: 10px;
+    height: 40%;
+    width: 40%;
+}
+
+img.author {
+    width: 70%;
+    height: 70%;
+    margin: 0px 0px 10px 50px;
+}
+
+section.author {
+    margin: 30px 0px;
+}

@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Lab 5</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+
+    <body>
+        <p id="snails">I like snails.</p>
+        <p id="amusement-parks">I love amusement parks.</p>
+        <p id="squishmallows">I have several Squishmallows.</p>
+    </body>
+
+</html>

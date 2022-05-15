@@ -1,0 +1,698 @@
+/* ================================================================
+general */
+
+:root {
+    /* color variables */
+    --clr-red-dark: hsl(0, 90%, 40%);
+    --clr-red-bright: hsl(0, 100%, 50%);
+    --clr-red: hsl(0, 60%, 80%);
+    --clr-orange: hsl(40, 100%, 80%);
+    --clr-yellow: hsl(60, 100%, 85%);
+    --clr-green-dark: hsl(130, 60%, 30%);
+    --clr-green: hsl(130, 40%, 80%);
+    --clr-blue-dark: hsl(200, 40%, 40%);
+    --clr-blue: hsl(200, 40%, 70%);
+    --clr-blue-light: hsl(200, 60%, 85%);
+    --clr-purple: hsl(240, 55%, 85%);
+    --clr-purple-t: hsla(240, 55%, 85%, 0.85);
+    --clr-pink-bright: hsl(350, 80%, 60%);
+    --clr-pink: hsl(350, 100%, 88%);
+    --clr-pink-t: hsla(350, 100%, 88%, 0.85);
+    --clr-black: hsl(0, 0%, 0%);
+    --clr-black-t: hsla(0, 0%, 0%, 0.2);
+    --clr-gray-10: hsl(0, 0%, 10%);
+    --clr-gray-20: hsl(0, 0%, 20%);
+    --clr-gray-20-t: hsla(0, 0%, 20%, 0.6);
+    --clr-gray-40: hsl(0, 0%, 40%);
+    --clr-gray-60: hsl(0, 0%, 60%);
+    --clr-gray-80: hsl(0, 0%, 80%);
+    --clr-gray-90: hsl(0, 0%, 90%);
+    --clr-white: hsl(0, 0%, 100%);
+
+    /* background variables */
+    --bg-image: url("../images/backgrounds/flowers.jpeg") center/cover transparent;
+    --bg-transition: background-color 0.4s ease-in-out;
+
+    /* box-shadow variables */
+    --box-shadow-dark: 3px 3px 3px 3px var(--clr-black-t);
+    --box-shadow-light: 5px 5px 5px 5px var(--clr-gray-20-t);
+    --box-shadow-direct: 0 0 10px 3px var(--clr-black-t);
+    /* transitions */
+    --transition-size-padding: padding 0.2s ease-in-out;
+    --transition-size-text: font-size 0.2s ease-in-out;
+    --transition-clr-text: color 0.2s ease-in-out;
+    --transition-clr-bg: background-color 0.2s ease-in-out;
+    --transition-clr-border: border-color 0.2s ease-in-out;
+
+    font-size: 15px;
+}
+
+/* ------------ UTILITIES ------------- */
+
+/* animations */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* fade-out animation */
+@keyframes fadeOut {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+/* display, position */
+
+.vh-100 {
+    height: 100vh;
+}
+
+.vw-100 {
+    width: 100vw;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+.input-block {
+    margin: 1vw 0;
+}
+
+.flex,
+.flex-center {
+    display: flex;
+}
+
+.flex-align-center,
+.flex-center {
+    align-items: center;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 8;
+    grid-template-rows: 15;
+}
+
+.fixed {
+    position: fixed;
+}
+
+/* padding */
+
+.p-1vw {
+    padding: 1vw;
+}
+
+.pt-1vw {
+    padding-top: 1vw;
+}
+
+.m-1vw {
+    margin: 1vw;
+}
+
+/* border-radius */
+
+.border-5px,
+.border-5px > button {
+    border-radius: 5px;
+}
+
+.border-10px {
+    border-radius: 10px;
+}
+
+/* typography */
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.no-decor {
+    text-decoration: none;
+}
+
+h1,
+.uppercase {
+    text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+h4,
+.text-center {
+    text-align: center;
+}
+
+/* text sizing */
+
+figcaption {
+    font-size: 1.3rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+h6 {
+    font-size: 1.1rem;
+}
+
+.no-link-color {
+    color: inherit;
+}
+
+.not-applicable {
+    color: var(--clr-pink-bright);
+}
+
+.single-space {
+    line-height: 1;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+}
+
+/* layout */
+
+body {
+    --bg-color: var(--clr-blue-light);
+
+    font-family: Avenir, Helvetica, sans-serif;
+}
+
+body, .loader {
+    background: var(--bg-color);
+}
+
+main {
+    grid-column: 1 / span 8;
+    grid-row: 2 / span 14;
+    padding: 50px 0;
+}
+
+.logout-btn,
+.logout-btn:hover {
+    border-color: var(--clr-red-dark);
+}
+
+.logout-btn {
+    color: var(--clr-red-dark);
+}
+
+.logout-btn:hover {
+    background-color: var(--clr-red-dark);
+}
+
+.dark-bg :is(
+    .logout-btn,
+    .logout-btn:hover) {
+        border-color: var(--clr-red);
+}
+
+.dark-bg .logout-btn {
+    color: var(--clr-red);
+}
+
+.dark-bg .logout-btn:hover {
+    background-color: var(--clr-red);
+}
+
+.login-btn,
+.login-btn:hover {
+    border-color: var(--clr-green-dark);
+}
+
+.login-btn {
+    color: var(--clr-green-dark);
+}
+
+.login-btn:hover {
+    background-color: var(--clr-green-dark);
+    color: var(--clr-white);
+}
+
+
+.dark-bg :is(
+    .login-btn,
+    .login-btn:hover) {
+        border-color: var(--clr-green);
+}
+
+.dark-bg .login-btn {
+    color: var(--clr-green);
+}
+
+.dark-bg .login-btn:hover {
+    background-color: var(--clr-green);
+    color: var(--clr-gray-20);
+}
+
+.transparent-bg *:not(.btn, i) {
+    background: transparent;
+    color: var(--clr-gray-20);
+}
+
+/* change color of text on dark backgrounds */
+.dark-bg .transparent-bg *:not(.btn, i) {
+    color: var(--clr-white);
+}
+
+/* mobile dropdown toggle button */
+.navbar-toggler {
+    border-color: var(--clr-gray-10);
+}
+
+/* mobile dropdown toggle button - dark backgrounds */
+.dark-bg .navbar-toggler {
+    border-color: var(--clr-white);
+}
+
+/* mobile dropdown toggle button icon */
+.navbar-toggler-icon {
+    color: var(--clr-gray-10);
+}
+
+/* mobile dropdown toggle button - dark backgrounds */
+.dark-bg .navbar-toggler-icon {
+    color: var(--clr-white);
+}
+
+/* content in mobile dropdown */
+/* .navbar-collapse.collapsing:not(.show) {
+    animation: fadeIn 0.2s;
+    animation-fill-mode: forwards;
+} */
+
+.navbar-collapse.collapsing,
+.navbar-collapse.show {
+    background-color: var(--clr-white);
+    border-radius: 5px;
+    box-shadow: var(--box-shadow-direct);
+    transform: translateY(1rem);
+    z-index: 1;
+}
+
+/* content in mobile dropdown - dark backgrounds */
+.dark-bg :is(
+    .navbar-collapse.collapsing,
+    .navbar-collapse.show) {
+    background-color: var(--clr-gray-10);
+}
+
+/* profile link and login/out button in mobile dropdown */
+:is(
+    .navbar-collapse.collapsing,
+    .navbar-collapse.show
+    ) .account {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 0.75rem;
+}
+
+footer {
+    bottom: 2vw;
+    position: fixed;
+    right: 2vw;
+}
+
+.footer-btn {
+    border: 1px solid var(--clr-gray-80);
+    box-shadow: var(--box-shadow-direct);
+    overflow: hidden;
+    transition: var(--transition-size-text);
+}
+
+.footer-btn:hover {
+    border: 1px solid var(--clr-gray-80);
+    box-shadow: var(--box-shadow-direct);
+    font-size: 1.1rem;
+    overflow: hidden;
+}
+
+/* components */
+
+a:not(.btn, .no-link-color) {
+    color: var(--clr-blue-dark);
+}
+
+.buttons button {
+    border: 1px solid var(--clr-gray-60);
+    padding: 0.5vw 1vw;
+}
+
+/* "required" asterisk for inputs */
+.input-block > label::before {
+    color: var(--clr-red-bright);
+    content: "*";
+}
+/* ================================================================
+403,404.shtml */
+
+#error {
+    background: var(--bg-image);
+    color: var(--clr-white);
+}
+
+#error .error-main {
+    background: var(--clr-gray-20-t);
+    padding: 15vh;
+}
+
+#error a {
+    color: var(--clr-blue-light);
+}
+
+#error .gif {
+    background: var(--clr-white);
+    border-radius: 5vw;
+    box-shadow: var(--box-shadow-light);
+    width: calc(20vw + 100px);
+}
+
+#error .text {
+    padding-top: 6vh;
+}
+
+/* ================================================================
+header.php */
+
+#header-banner {
+    /* border-bottom: 1px solid var(--clr-gray-80); */
+    grid-column: 1 / span 8;
+    grid-row: 1;
+    margin: 0;
+}
+
+#header-banner .navbar {
+    max-height: 65px;
+}
+
+#index .navbar {
+    background: var(--clr-gray-20-t);
+}
+
+.bg-light {
+    --bs-bg-opacity: 0;
+}
+
+#header-banner ul {
+    list-style-type: none;
+}
+
+#header-banner a.btn {
+    color: none;
+}
+
+#header-banner :is(
+    .logo) {
+    height: 40px;
+}
+
+#header-banner :is(
+    .navbar-brand,
+    .nav-link) {
+        font-size: 1rem;
+        line-height: 1;
+        padding: 0.75rem;
+        transition: var(--transition-size-text);
+}
+
+#header-banner :is(
+    .nav-link:hover, 
+    .nav-link:focus-visible,
+    .navbar-brand:hover,
+    .navbar-brand:focus-visible) {
+    font-size: 1.15rem;
+}
+
+.navbar-brand {
+    margin-inline: 1.25rem;
+}
+
+#header-banner .dropdown-list-item:not(:last-of-type) {
+    border-bottom: 1px solid var(--clr-gray-80);
+}
+
+#header-banner .dropdown-item {
+    padding: 0.75vw;
+    transition: var(--transition-clr-text), var(--transition-clr-bg), var(--transition-clr-border);
+}
+
+#header-banner .dropdown-item.active {
+    background: var(--clr-gray-60);
+}
+
+#header-banner .dropdown-item:active {
+    background: var(--clr-gray-20);
+}
+
+/* ================================================================
+index.php */
+
+#index {
+    --bg-color: var(--clr-purple);
+
+    background: var(--bg-image);
+}
+
+#index main {
+    background: var(--clr-gray-20-t);
+}
+
+/* header */
+
+#index .homepage-header {
+    background: var(--clr-white);
+    border: 0px solid var(--clr-white);
+    color: var(--clr-gray-20);
+    margin: 0 20vw 3vw;
+}
+
+/* previews */
+
+#index .preview {
+    gap: 5vw;
+    height: clamp(10px 20vw 30px);
+    justify-content: space-between;
+    overflow: auto;
+    padding: 3vw 10vw;
+    transition: var(--bg-transition);
+}
+
+#index .preview:nth-of-type(1) {
+    background: var(--clr-pink-t);
+}
+
+#index :is(.preview:nth-of-type(1):hover, .preview:nth-of-type(1):focus) {
+    background: var(--clr-pink);
+}
+
+#index .preview:nth-of-type(2) {
+    background: var(--clr-purple-t);
+}
+
+#index :is(.preview:nth-of-type(2):hover, .preview:nth-of-type(2):focus) {
+    background: var(--clr-purple);
+}
+
+#index .preview-image {
+    aspect-ratio: 1 / 1;
+    border: 1px solid var(--clr-white);
+    object-fit: cover;
+    width: 12vw;
+}
+
+#index figcaption {
+    padding-top: 1vw;
+}
+
+#index .more {
+    color: var(--clr-white);
+    font-size: 1.2rem;
+    transition: var(--transition-clr-text);
+}
+
+/* ================================================================
+loading-page.php */
+
+.loader {
+    left: 0;
+    top: 0;
+    z-index: 99;
+}
+
+/* when the loader hides */
+.loader.hidden {
+    animation: fadeOut 0.5s;
+    animation-fill-mode: forwards;
+}
+
+.loader img {
+    width: 25vw;
+}
+
+.loader .subtitle {
+    font-size: 1.5rem;
+}
+
+/* ================================================================
+login-profile.php */
+
+#profile #profile-form {
+    background: var(--clr-gray-80);
+    border: 1px solid var(--clr-gray-40);
+    margin: 1.5vw 7vw;
+    padding: 2vw;
+}
+
+/* ================================================================
+stranger-things.php */
+
+#stranger-things {
+    --bg-color: var(--clr-black);
+    
+    color: var(--clr-white);
+}
+
+#stranger-things h1 {
+    color: var(--clr-red-bright);
+    text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em var(--clr-red-bright);
+}
+
+#stranger-things h2 {
+    font-size: 2rem;
+}
+
+#stranger-things h3 {
+    font-size: 1.3rem;
+}
+
+#stranger-things main {
+    padding: 50px 20vw;
+}
+
+#stranger-things #intro .no-link-color {
+    color: var(--clr-white);
+}
+
+#stranger-things #plot {
+    margin: 40px 0;
+}
+
+/* season */
+#stranger-things .season {
+    background: var(--clr-white);
+    border: 1px solid var(--clr-gray-40);
+    color: var(--clr-black);
+    padding: 2vw 3vw;
+}
+
+/* space between seasons */
+#stranger-things .season:not(:first-of-type) {
+    margin-top: 50px;
+}
+
+/* character */
+#stranger-things .character {
+    padding: 20px 0;
+}
+
+/* horizontal line between every character */
+#stranger-things .character:not(:last-child) {
+    border-bottom: 1px solid var(--clr-gray-60);
+}
+
+/* character image and name */
+#stranger-things .character-image-name {
+    width: 40%;
+}
+
+/* character image carousel */
+#stranger-things .character-image-carousel {
+    aspect-ratio: 9 / 16;
+    margin: auto auto 10px;
+    width: 80%;
+}
+
+/* don't hide season caption on mobile */
+#stranger-things .carousel-caption.d-none {
+    display: block!important;
+    font-size: 1rem;
+}
+
+#stranger-things .character-image {
+    aspect-ratio: 9 / 16;
+    object-fit: cover;
+}
+
+/* character description */
+#stranger-things .character-description {
+    padding-left: 2vw;
+    width: 60%;
+}
+
+/* character description items */
+#stranger-things .character-description-item {
+    margin-bottom: 5px;
+}
+
+/* ================================================================ */
+
+/* flex directions */
+
+.loader,
+#error .error-main {
+    flex-direction: column;
+}
+
+#index .preview,
+#stranger-things .character {
+    flex-direction: row;
+}
