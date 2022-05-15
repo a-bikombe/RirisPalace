@@ -305,6 +305,7 @@ header.php */
 
 #header-banner {
     /* border-bottom: 1px solid var(--clr-gray-80); */
+    background: transparent;
     grid-column: 1 / span 8;
     grid-row: 1;
     margin: 0;
@@ -581,4 +582,10 @@ stranger-things.php */
 #index .preview,
 #stranger-things .character {
     flex-direction: row;
+}
+
+/* change color of text on dark backgrounds */
+#index .transparent-bg *:not(.btn, i),
+#stranger-things .transparent-bg *:not(.btn, i) {
+    color: var(--clr-white);
 }
