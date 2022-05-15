@@ -36,7 +36,7 @@ general */
     /* box-shadow variables */
     --box-shadow-dark: 3px 3px 3px 3px var(--clr-black-t);
     --box-shadow-light: 5px 5px 5px 5px var(--clr-gray-20-t);
-    --box-shadow-direct: 0 0 15px 3px var(--clr-black-t);
+    --box-shadow-direct: 0 0 10px 3px var(--clr-black-t);
     /* transitions */
     --transition-size-padding: padding 0.2s ease-in-out;
     --transition-size-text: font-size 0.2s ease-in-out;
@@ -282,37 +282,51 @@ main {
     color: var(--clr-white);
 }
 
+/* mobile dropdown toggle button */
 .navbar-toggler {
     border-color: var(--clr-gray-10);
 }
 
-.navbar-toggler-icon {
-    color: var(--clr-gray-10);
-}
-
+/* mobile dropdown toggle button - dark backgrounds */
 .dark-bg .navbar-toggler {
     border-color: var(--clr-white);
 }
 
+/* mobile dropdown toggle button icon */
+.navbar-toggler-icon {
+    color: var(--clr-gray-10);
+}
+
+/* mobile dropdown toggle button - dark backgrounds */
 .dark-bg .navbar-toggler-icon {
     color: var(--clr-white);
 }
 
+.navbar-collapse {
+    background-color: transparent;
+    transition: var(--transition-clr-bg);
+}
+
+/* content in mobile dropdown */
 .navbar-collapse.show {
-    background: var(--clr-white);
+    background-color: var(--clr-white);
+    border-radius: 5px;
+    box-shadow: var(--box-shadow-direct);
     z-index: 1;
 }
 
+/* content in mobile dropdown - dark backgrounds */
+.dark-bg .navbar-collapse.show {
+    background-color: var(--clr-gray-10);
+}
+
+/* profile link and login/out button in mobile dropdown */
 .navbar-collapse.show .account {
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-bottom: 0.75rem;
-}
-
-.dark-bg .navbar-collapse.show {
-    background: var(--clr-gray-10);
 }
 
 footer {
