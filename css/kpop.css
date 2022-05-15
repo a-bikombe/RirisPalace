@@ -44,7 +44,7 @@ aside#group-sidebar */
 
 /* scrollbar for group-nav */
 #group-nav::-webkit-scrollbar {
-    width: 7px;
+    width: 6px;
 }
 #group-nav::-webkit-scrollbar-track {
     border-radius: 10px;
