@@ -28,6 +28,7 @@ general */
     --clr-gray-80: hsl(0, 0%, 80%);
     --clr-gray-90: hsl(0, 0%, 90%);
     --clr-white: hsl(0, 0%, 100%);
+    --clr-white-t: hsla(0, 0%, 100%, 0.2);
 
     /* background variables */
     --bg-image: url("../images/backgrounds/flowers.jpeg") center/cover transparent;
@@ -36,7 +37,8 @@ general */
     /* box-shadow variables */
     --box-shadow-dark: 3px 3px 3px 3px var(--clr-black-t);
     --box-shadow-light: 5px 5px 5px 5px var(--clr-gray-20-t);
-    --box-shadow-direct: 0 0 10px 3px var(--clr-black-t);
+    --box-shadow-direct-dark: 0 0 10px 3px var(--clr-black-t);
+    --box-shadow-direct-light: 0 0 10px 3px var(--clr-white-t);
     /* transitions */
     --transition-size-padding: padding 0.2s ease-in-out;
     --transition-size-text: font-size 0.2s ease-in-out;
@@ -322,17 +324,11 @@ main {
     color: var(--clr-white);
 }
 
-/* content in mobile dropdown */
-/* .navbar-collapse.collapsing:not(.show) {
-    animation: fadeIn 0.2s;
-    animation-fill-mode: forwards;
-} */
-
 .navbar-collapse.collapsing,
 .navbar-collapse.show {
     background-color: var(--clr-white);
     border-radius: 5px;
-    box-shadow: var(--box-shadow-direct);
+    box-shadow: var(--box-shadow-direct-dark);
     transform: translateY(1rem);
     z-index: 1;
 }
@@ -342,6 +338,7 @@ main {
     .navbar-collapse.collapsing,
     .navbar-collapse.show) {
     background-color: var(--clr-gray-10);
+    box-shadow: var(--box-shadow-direct-light);
 }
 
 /* profile link and login/out button in mobile dropdown */
@@ -364,14 +361,14 @@ footer {
 
 .footer-btn {
     border: 1px solid var(--clr-gray-80);
-    box-shadow: var(--box-shadow-direct);
+    box-shadow: var(--box-shadow-direct-dark);
     overflow: hidden;
     transition: var(--transition-size-text);
 }
 
 .footer-btn:hover {
     border: 1px solid var(--clr-gray-80);
-    box-shadow: var(--box-shadow-direct);
+    box-shadow: var(--box-shadow-direct-dark);
     font-size: 1.1rem;
     overflow: hidden;
 }
