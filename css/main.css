@@ -282,6 +282,14 @@ main {
     color: var(--clr-white);
 }
 
+.dark-bg .navbar-toggler {
+    border-color: var(--clr-white);
+}
+
+.dark-bg .navbar-toggler-icon {
+    color: var(--clr-white);
+}
+
 footer {
     bottom: 2vw;
     position: fixed;
