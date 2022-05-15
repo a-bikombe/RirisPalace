@@ -330,9 +330,13 @@ main {
 } */
 
 /* content in mobile dropdown */
-.navbar-collapse.show {
+.navbar-collapse.collapsing {
     animation: fadeIn 0.2s;
     animation-fill-mode: forwards;
+}
+
+.navbar-collapse.collapsing,
+.navbar-collapse.show {
     background-color: var(--clr-white);
     border-radius: 5px;
     box-shadow: var(--box-shadow-direct);
