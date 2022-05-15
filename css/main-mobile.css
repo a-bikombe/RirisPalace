@@ -65,8 +65,7 @@ stranger-things.php */
 
 #stranger-things :is(
     .character-description,
-    .character-image-name,
-    .character-image-carousel) {
+    .character-image-name) {
     margin: auto;
     width: 100%;
 }

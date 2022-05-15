@@ -620,6 +620,7 @@ stranger-things.php */
 #stranger-things .character-image-carousel {
     aspect-ratio: 9 / 16;
     margin: auto auto 10px;
+    width: 80%;
 }
 
 #stranger-things .character-image {
