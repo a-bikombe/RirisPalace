@@ -34,9 +34,6 @@ general */
     --bg-image: url("../images/backgrounds/flowers.jpeg") center/cover transparent;
     --bg-transition: background-color 0.4s ease-in-out;
 
-    --theme-clr-bg: var(--clr-white);
-    --theme-clr-text: var(--clr-gray-10);
-    
     /* box-shadow variables */
     --box-shadow-dark: 3px 3px 3px 3px var(--clr-black-t);
     --box-shadow-light: 5px 5px 5px 5px var(--clr-gray-20-t);
@@ -251,6 +248,11 @@ main {
 
 .logout-btn:hover {
     background-color: var(--clr-red-dark);
+}
+
+body {
+    --theme-clr-bg: var(--clr-white);
+    --theme-clr-text: var(--clr-gray-10);
 }
 
 .dark-bg {
