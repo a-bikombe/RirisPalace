@@ -10,9 +10,8 @@ footer {
     right: 5vw;
 }
 
-/* flex columns */
-#index .preview,
-#stranger-things .character {
+/* changed from row on desktop */
+.dir-change {
     flex-direction: column;
 }
 

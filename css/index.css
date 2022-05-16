@@ -7,11 +7,7 @@ index.php */
     background: var(--bg-image);
 }
 
-#index .navbar {
-    background: var(--clr-gray-20-t);
-}
-
-#index main {
+#index :is(.navbar, main) {
     background: var(--clr-gray-20-t);
 }
 

@@ -52,8 +52,9 @@ general */
 
 /* ------------ UTILITIES ------------- */
 
-/* animations */
+/* ~~~ ANIMATIONS ~~~ */
 
+/* fade-in animation */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -72,8 +73,9 @@ general */
     }
 }
 
-/* display, position */
+/* ~~~ DISPLAY, POSITION ~~~ */
 
+/* full page */
 .vh-100 {
     height: 100vh;
 }
@@ -90,51 +92,58 @@ general */
     width: 100%;
 }
 
+/* hidden */
 .hidden {
     display: none;
 }
 
+/* form inputs */
 .input-block {
     margin: 1vw 0;
 }
 
+/* initialize flex */
 .flex,
 .flex-center {
     display: flex;
 }
 
+/* align vertically */
 .flex-align-center,
 .flex-center {
     align-items: center;
 }
 
+/* align vertically and horizontally */
 .flex-center {
     justify-content: center;
 }
 
+/* grid */
 .grid {
     display: grid;
     grid-template-columns: 8;
     grid-template-rows: 15;
 }
 
+/* fixed position */
 .fixed {
     position: fixed;
 }
 
-/* flex directions */
+/* ~~~ FLEX DIRECTIONS ~~~ */
 
-.loader,
-#error .error-main {
+/* column */
+.dir-col {
     flex-direction: column;
 }
 
-#index .preview,
-#stranger-things .character {
+/* change to column on mobile */
+.dir-change {
     flex-direction: row;
 }
 
-/* padding */
+/* ~~~ PADDING ~~~ */
 
 .p-1vw {
     padding: 1vw;
@@ -148,7 +157,7 @@ general */
     margin: 1vw;
 }
 
-/* border-radius */
+/* ~~~ BORDER-RADIUS ~~~ */
 
 .border-5px,
 .border-5px > button {
@@ -159,7 +168,7 @@ general */
     border-radius: 10px;
 }
 
-/* typography */
+/* ~~~ TYPOGRAPHY ~~~ */
 
 .bold {
     font-weight: bold;
@@ -186,11 +195,19 @@ h4,
     text-align: center;
 }
 
-/* text sizing */
-
-figcaption {
-    font-size: 1.3rem;
+.no-link-color {
+    color: inherit;
 }
+
+.not-applicable {
+    color: var(--clr-pink-bright);
+}
+
+.single-space {
+    line-height: 1;
+}
+
+/* ~~~ TEXT SIZING ~~~ */
 
 h1 {
     font-size: 3rem;
@@ -216,16 +233,8 @@ h6 {
     font-size: 1.1rem;
 }
 
-.no-link-color {
-    color: inherit;
-}
-
-.not-applicable {
-    color: var(--clr-pink-bright);
-}
-
-.single-space {
-    line-height: 1;
+figcaption {
+    font-size: 1.3rem;
 }
 
 .subtitle {
@@ -238,6 +247,9 @@ h6 {
 body {
     --theme-bg: var(--clr-white);
     --theme-text: var(--clr-gray-10);
+    --theme-link: var(--clr-blue-dark);
+    --theme-login: var(--clr-green-dark);
+    --theme-logout: var(--clr-red-dark);
     --bg-color: var(--clr-blue-light);
 
     color: var(--theme-text);
@@ -248,12 +260,23 @@ body {
 .dark-theme {
     --theme-bg: var(--clr-gray-10);
     --theme-text: var(--clr-white);
+    --theme-link: var(--clr-blue-light);
+    --theme-login: var(--clr-green);
+    --theme-logout: var(--clr-red);
 }
 
+/* set initial background color */
 body, .loader {
     background: var(--bg-color);
 }
 
+/* set transparent background */
+.transparent-bg *:not(.btn, i) {
+    background: transparent;
+    color: var(--theme-text);
+}
+
+/* main padding and grid initialization */
 main {
     grid-column: 1 / span 8;
     grid-row: 2 / span 14;
@@ -262,10 +285,12 @@ main {
 
 /* general components */
 
+/* link color */
 a:not(.btn, .no-link-color) {
-    color: var(--clr-blue-dark);
+    color: var(--theme-link);
 }
 
+/* buttons in button groups (forms) */
 .buttons button {
     border: 1px solid var(--clr-gray-60);
     padding: 0.5vw 1vw;
@@ -282,20 +307,19 @@ a:not(.btn, .no-link-color) {
 
 #error {
     background: var(--bg-image);
-    color: var(--clr-white);
+    color: var(--theme-text);
+}
+
+#error :is(.navbar, .error-main) {
+    background: var(--clr-gray-20-t);
 }
 
 #error .error-main {
-    background: var(--clr-gray-20-t);
     padding: 15vh;
 }
 
-#error a {
-    color: var(--clr-blue-light);
-}
-
 #error .gif {
-    background: var(--clr-white);
+    background: var(--theme-text);
     border-radius: 5vw;
     box-shadow: var(--box-shadow-light);
     width: calc(20vw + 100px);
@@ -308,6 +332,7 @@ a:not(.btn, .no-link-color) {
 /* ================================================================
 loading-page.php */
 
+/* loading display */
 .loader {
     left: 0;
     top: 0;
@@ -320,10 +345,12 @@ loading-page.php */
     animation-fill-mode: forwards;
 }
 
+/* loading gif */
 .loader img {
     width: 25vw;
 }
 
+/* loading subtitle */
 .loader .subtitle {
     font-size: 1.5rem;
 }
@@ -331,6 +358,7 @@ loading-page.php */
 /* ================================================================
 header.php */
 
+/* <header> tag */
 #header-banner {
     grid-column: 1 / span 8;
     grid-row: 1;
@@ -341,14 +369,17 @@ header.php */
     max-height: 65px;
 }
 
+/* TODO: fixing bootstrap opacity - do i need this? */
 #header-banner .bg-light {
     --bs-bg-opacity: 0;
 }
 
+/* TODO: fixing bootstrap lists - do i need this? */
 #header-banner ul {
     list-style-type: none;
 }
 
+/* TODO: fixing bootstrap lists - do i need this? */
 #header-banner a.btn {
     color: none;
 }
@@ -358,64 +389,37 @@ header.php */
     height: 40px;
 }
 
+/* ~~~ LOGIN / LOGOUT BUTTON ~~~ */
+
+.login-btn:hover,
+.logout-btn:hover {
+    color: var(--theme-text);
+}
+
 .logout-btn,
 .logout-btn:hover {
-    border-color: var(--clr-red-dark);
+    border-color: var(--theme-logout);
 }
 
 .logout-btn {
-    color: var(--clr-red-dark);
+    color: var(--theme-logout);
 }
 
 .logout-btn:hover {
-    background-color: var(--clr-red-dark);
-}
-
-.dark-theme :is(
-    .logout-btn,
-    .logout-btn:hover) {
-        border-color: var(--clr-red);
-}
-
-.dark-theme .logout-btn {
-    color: var(--clr-red);
-}
-
-.dark-theme .logout-btn:hover {
-    background-color: var(--clr-red);
+    background-color: var(--theme-logout);
 }
 
 .login-btn,
 .login-btn:hover {
-    border-color: var(--clr-green-dark);
+    border-color: var(--theme-login);
 }
 
 .login-btn {
-    color: var(--clr-green-dark);
+    color: var(--theme-login);
 }
 
 .login-btn:hover {
-    background-color: var(--clr-green-dark);
-    color: var(--theme-text);
-}
-
-.dark-theme :is(
-    .login-btn,
-    .login-btn:hover) {
-        border-color: var(--clr-green);
-}
-
-.dark-theme .login-btn {
-    color: var(--clr-green);
-}
-
-.dark-theme .login-btn:hover {
-    background-color: var(--clr-green);
-}
-
-.transparent-bg *:not(.btn, i) {
-    background: transparent;
-    color: var(--theme-text);
+    background-color: var(--theme-login);
 }
 
 /* mobile dropdown toggle button */
@@ -424,15 +428,15 @@ header.php */
     transition: var(--transition-size-text);
 }
 
-.navbar-toggler:hover,
-.navbar-toggler:focus-visible {
-    font-size: 1.35rem;
-}
-
-/* mobile dropdown toggle button - dark backgrounds */
+/* mobile dropdown toggle button - dark backgrounds only */
 .dark-theme .navbar-toggler {
     box-shadow: inset 0 0 0.5em 0 var(--clr-white-t), 0 0 0.5em 0 currentColor;
     text-shadow: 0 0 0.125em var(--clr-white-t), 0 0 0.45em currentColor;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus-visible {
+    font-size: 1.35rem;
 }
 
 /* mobile dropdown toggle button icon */
@@ -491,12 +495,12 @@ header.php */
     margin-inline: 1.25rem;
 }
 
+/* dropdown list - not using currently */
+/* 
 #header-banner .dropdown-list-item:not(:last-of-type) {
     border-bottom: 1px solid var(--clr-gray-80);
 }
 
-/* dropdown list - not using currently */
-/* 
 #header-banner .dropdown-item {
     padding: 0.75vw;
     transition: var(--transition-clr-text), var(--transition-clr-bg), var(--transition-clr-border);

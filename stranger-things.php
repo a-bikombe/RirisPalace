@@ -55,7 +55,7 @@ $scripts = [
 					<h2> <?= $seasonInfo['seasonName'] ?> Characters </h2>
 					<!-- character template -->
 					<?php foreach ($seasonInfo['characters'] as $character => $characterInfo) : ?>
-						<section class="character flex w-100" id="<?= $character ?>">
+						<section class="character flex w-100 dir-change" id="<?= $character ?>">
 							<section class="character-image-name text-center">
 								<section class="character-image-carousel">
 									<div id="<?= $character ?>-carousel" class="carousel slide" data-bs-ride="carousel">
