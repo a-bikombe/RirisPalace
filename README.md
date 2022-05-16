@@ -26,18 +26,17 @@
 * [x] [login.php](aribikombe.com/login.php) - Login Button in Header
 	* *config/logout.php*
 	* *validation/login.php*
-* [x] [login-forgot.php](aribikombe.com/login-forgot.php) - 
+* [x] [login-forgot.php](aribikombe.com/login-forgot.php) - "Forgot Password" Page For Inputting Email
 	* *validation/forgot.php*
-* [x] [login-code.php](aribikombe.com/login-code.php) - 
+* [x] [login-code.php](aribikombe.com/login-code.php) - Code Input From Email Sent by [login-forgot.php](aribikombe.com/login-forgot.php)
 	* *validation/code.php*
 * [x] [login-profile.php](aribikombe.com/login-profile.php) - Profile (Link in header): Only shown when logged in
 	* *validation/profile.php*
 	* *validation/profile-delete.php*
-* [x] [login-signup.php](aribikombe.com/login-signup.php) - 
+* [x] [login-signup.php](aribikombe.com/login-signup.php) - Sign Up Page
 	* *validation/login-signup.php*
 
 ## Included Pages
-
 * [x] **include/head-tag.php** - Configures head tag with proper tags for quicker initilization
 * [x] **include/loading-page.php** - Loading Page
 * [x] **include/header.php** - Header Banner
@@ -47,6 +46,26 @@
 * [x] **config/mysql-connect.php** - Sets default database connection variable values
 * [x] **config/nav-links.php** - Nav links for header banner
 * [x] **config/session.php** - Initializes session for every page
+
+## Styles
+
+* Bootstrap CDN - 
+* FontAwesome CDN - Icons
+* css/main.css - 
+* css/index.css - 
+* css/kpop.css - 
+* css/stranger-things.css - 
+* css/main-mobile.css - 
+* css/kpop-mobile.css - 
+
+## Scripts
+
+* js/main.js - 
+* js/finn.js - 
+* js/kpop.js - 
+* js/login-signup.js - 
+* js/profile.js - 
+* js/stranger-things.js - 
 
 ## Commit Command
 
