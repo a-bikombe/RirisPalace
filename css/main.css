@@ -433,25 +433,11 @@ header.php */
 
 
 /* TODO: fixing bootstrap opacity - do i need this? */
-
+/* 
 #header-banner .bg-light {
     --bs-bg-opacity: 0;
 }
-
-
-/* TODO: fixing bootstrap lists - do i need this? */
-
-#header-banner ul {
-    list-style-type: none;
-}
-
-
-/* TODO: fixing bootstrap lists - do i need this? */
-
-#header-banner a.btn {
-    color: none;
-}
-
+ */
 #header-banner :is(.logo) {
     height: 40px;
 }
