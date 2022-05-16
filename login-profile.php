@@ -36,7 +36,7 @@ while ($row = mysqli_fetch_assoc($result)) {
 <?php require_once 'include/head-tag.php'; ?>
 
 <body id="profile">
-
+	<?php require_once 'include/loading-page.php'; ?>
 	<?php require_once 'include/header.php'; ?>
 
 	<main class="text-center m-auto">
@@ -111,8 +111,8 @@ while ($row = mysqli_fetch_assoc($result)) {
 				</tbody>
 			</table>
 			<div class="buttons pt-1vw border-5px">
-				<button class="border-5px"  type="submit">Submit</button>
-				<button class="border-5px"  type="reset">Reset</button>
+				<button class="border-5px" type="submit">Submit</button>
+				<button class="border-5px" type="reset">Reset</button>
 				<?php if (isset($_SESSION['updateSuccess']) && $_SESSION['updateSuccess'] === true) { ?>
 					<p>Changes Saved!</p>
 				<?php

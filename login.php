@@ -24,6 +24,7 @@ $scripts = [
 <?php require_once 'include/head-tag.php'; ?>
 
 <body id="login">
+<?php require_once 'include/loading-page.php'; ?>
 	<?php require_once 'include/header.php'; ?>
 	<main>
 		<h1><?= $pageTitle ?></h1>

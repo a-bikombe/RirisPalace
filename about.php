@@ -7,11 +7,11 @@ $iconPath = 'images/icons/luca.png';
 $styles = [];
 
 $mobileStyles = [
-	'main' => '575'
+    'main' => '575'
 ];
 
 $scripts = [
-	'main'
+    'main'
 ];
 ?>
 
@@ -23,6 +23,7 @@ $scripts = [
 <body>
 
     <!-- bootstrap navbar -->
+    <?php require_once 'include/loading-page.php'; ?>
     <?php require_once 'include/header.php'; ?>
 
     <main>

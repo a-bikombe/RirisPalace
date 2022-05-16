@@ -7,11 +7,11 @@ $iconPath = 'images/icons/vader.png';
 $styles = [];
 
 $mobileStyles = [
-	'main' => '575'
+    'main' => '575'
 ];
 
 $scripts = [
-	'main'
+    'main'
 ];
 ?>
 
@@ -21,6 +21,7 @@ $scripts = [
 <?php require_once 'include/head-tag.php'; ?>
 
 <body>
+    <?php require_once 'include/loading-page.php'; ?>
     <?php require_once 'include/header.php'; ?>
     <main>
         <h1><?= $pageTitle ?></h1>
