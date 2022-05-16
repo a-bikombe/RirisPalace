@@ -566,7 +566,7 @@ header.php */
 
 .dark-theme :is(.navbar-collapse.collapsing,
     .navbar-collapse.show) .navbar-nav {
-        border-bottom: 1px solid var(--clr-gray-10);
+        border-bottom: 1px solid var(--clr-gray-20);
 }
 
 /* profile link and login/out button in mobile dropdown */
