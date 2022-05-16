@@ -36,7 +36,7 @@ require_once 'config/nav-links.php';
 				<div class="account">
 					<?php if (isset($_SESSION['loginSuccess']) && $_SESSION['loginSuccess'] === true) { ?>
 						<!-- profile link -->
-						<strong><a class="nav-link text-center" href="login-profile.php"><?= $_SESSION['first_name'] . ' ' . $_SESSION['last_name'] ?></a></strong>
+						<strong><a class="profile-name nav-link text-center" href="login-profile.php"><?= $_SESSION['first_name'] . ' ' . $_SESSION['last_name'] ?></a></strong>
 						<!-- log out button -->
 						<a href="config/logout.php" class="logout-btn btn btn-outline-danger" title="Log Out" id="logout-btn">
 							<i class="fa-solid fa-arrow-right-from-bracket"></i>

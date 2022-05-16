@@ -559,16 +559,6 @@ header.php */
     box-shadow: var(--box-shadow-direct-dark);
 }
 
-:is(.navbar-collapse.collapsing,
-    .navbar-collapse.show) .navbar-nav {
-        border-bottom: 1px solid var(--clr-gray-90);
-}
-
-.dark-theme :is(.navbar-collapse.collapsing,
-    .navbar-collapse.show) .navbar-nav {
-        border-bottom: 1px solid var(--clr-gray-20);
-}
-
 /* profile link and login/out button in mobile dropdown */
 
 .navbar-collapse .account {
