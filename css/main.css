@@ -558,6 +558,10 @@ header.php */
     box-shadow: var(--box-shadow-direct-dark);
 }
 
+:is(.navbar-collapse.collapsing,
+    .navbar-collapse.show) .navbar-nav {
+        margin-bottom: 0;
+}
 
 /* profile link and login/out button in mobile dropdown */
 
@@ -573,6 +577,13 @@ header.php */
     flex-direction: column;
     padding-bottom: 0.75rem;
 }
+
+:is(.navbar-collapse.collapsing,
+    .navbar-collapse.show) :is(.login-btn, .logout-btn) {
+    padding-block: 0.75rem;
+}
+
+
 
 #header-banner :is(.navbar-brand,
     .nav-link) {
