@@ -507,7 +507,7 @@ header.php */
 
 .navbar-toggler:hover,
 .navbar-toggler:focus-visible {
-    font-size: 1.35rem;
+    font-size: 1.4rem;
 }
 
 
@@ -515,6 +515,8 @@ header.php */
 
 .navbar-toggler-icon {
     color: var(-theme-clr-text);
+    height: 100%;
+    width: 100%;
 }
 
 .navbar-collapse.collapsing,
