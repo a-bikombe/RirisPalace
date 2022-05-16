@@ -59,6 +59,7 @@ general */
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -308,7 +309,7 @@ body,
 /* set transparent background */
 
 .transparent-bg *:not(.btn,
-i) {
+    i) {
     background: transparent;
     color: var(--theme-text);
 }
@@ -329,7 +330,7 @@ main {
 /* link color */
 
 a:not(.btn,
-.no-link-color) {
+    .no-link-color) {
     color: var(--theme-link);
 }
 
@@ -359,7 +360,7 @@ a:not(.btn,
 }
 
 #error :is(.navbar,
-.error-main) {
+    .error-main) {
     background: var(--clr-gray-20-t);
 }
 
@@ -451,7 +452,7 @@ header.php */
     color: none;
 }
 
-#header-banner :is( .logo) {
+#header-banner :is(.logo) {
     height: 40px;
 }
 
@@ -466,8 +467,6 @@ header.php */
 .logout-btn,
 .logout-btn:hover {
     border-color: var(--theme-logout);
-    box-shadow: inset 0 0 0.5em 0 var(--clr-white-t), 0 0 0.5em 0 var(--theme-logout);
-    text-shadow: 0 0 0.125em var(--clr-white-t), 0 0 0.45em var(--theme-logout);
 }
 
 .logout-btn {
@@ -478,11 +477,18 @@ header.php */
     background-color: var(--theme-logout);
 }
 
+
+/* dark theme glow */
+
+.dark-theme :is(.logout-btn,
+    .logout-btn:hover) {
+    box-shadow: inset 0 0 0.5em 0 var(--clr-white-t), 0 0 0.5em 0 var(--theme-logout);
+    text-shadow: 0 0 0.125em var(--clr-white-t), 0 0 0.45em var(--theme-logout);
+}
+
 .login-btn,
 .login-btn:hover {
     border-color: var(--theme-login);
-    box-shadow: inset 0 0 0.5em 0 var(--clr-white-t), 0 0 0.5em 0 var(--theme-login);
-    text-shadow: 0 0 0.125em var(--clr-white-t), 0 0 0.45em var(--theme-login);
 }
 
 .login-btn {
@@ -491,6 +497,15 @@ header.php */
 
 .login-btn:hover {
     background-color: var(--theme-login);
+}
+
+
+/* dark theme glow */
+
+.dark-theme :is(.login-btn,
+    .login-btn:hover) {
+    box-shadow: inset 0 0 0.5em 0 var(--clr-white-t), 0 0 0.5em 0 var(--theme-login);
+    text-shadow: 0 0 0.125em var(--clr-white-t), 0 0 0.45em var(--theme-login);
 }
 
 
@@ -537,8 +552,8 @@ header.php */
 
 /* content in mobile dropdown - dark backgrounds */
 
-.dark-theme :is( .navbar-collapse.collapsing,
-.navbar-collapse.show) {
+.dark-theme :is(.navbar-collapse.collapsing,
+    .navbar-collapse.show) {
     border: 1px solid var(--clr-gray-20);
     box-shadow: var(--box-shadow-direct-dark);
 }
@@ -546,27 +561,31 @@ header.php */
 
 /* profile link and login/out button in mobile dropdown */
 
-:is( .navbar-collapse.collapsing,
-.navbar-collapse.show) .account {
+.navbar-collapse .account {
     align-items: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+}
+
+:is(.navbar-collapse.collapsing,
+    .navbar-collapse.show) .account {
+    flex-direction: column;
     padding-bottom: 0.75rem;
 }
 
-#header-banner :is( .navbar-brand,
-.nav-link) {
+#header-banner :is(.navbar-brand,
+    .nav-link) {
     font-size: 1rem;
     line-height: 1;
     padding: 0.75rem;
     transition: var(--transition-size-text);
 }
 
-#header-banner :is( .nav-link:hover,
-.nav-link:focus-visible,
-.navbar-brand:hover,
-.navbar-brand:focus-visible) {
+#header-banner :is(.nav-link:hover,
+    .nav-link:focus-visible,
+    .navbar-brand:hover,
+    .navbar-brand:focus-visible) {
     font-size: 1.15rem;
 }
 
