@@ -14,8 +14,8 @@ modalTitles.forEach(modalTitle => {
     });
 }); */
 
-let groups = document.querySelectorAll('.group');
-let groupCategories = document.querySelectorAll('.group-category');
+const groups = document.querySelectorAll('.group');
+const groupCategories = document.querySelectorAll('.group-category');
 
 
 groups.forEach(group => {
@@ -39,7 +39,7 @@ groupCategories.forEach(groupCategory => {
     });
 });
 
-let modalButtons = document.querySelectorAll('[data-bs-toggle="modal"]');
+const modalButtons = document.querySelectorAll('[data-bs-toggle="modal"]');
 
 modalButtons.forEach(modalButton => {
     modalButton.addEventListener('click', function (evt) {

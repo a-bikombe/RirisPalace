@@ -431,13 +431,6 @@ header.php */
     max-height: 65px;
 }
 
-
-/* TODO: fixing bootstrap opacity - do i need this? */
-/* 
-#header-banner .bg-light {
-    --bs-bg-opacity: 0;
-}
- */
 #header-banner :is(.logo) {
     height: 40px;
 }

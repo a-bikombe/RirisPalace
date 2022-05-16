@@ -1,5 +1,5 @@
-let password = document.getElementById('password');
-let passwordReenter = document.getElementById('password-reenter');
+const password = document.getElementById('password');
+const passwordReenter = document.getElementById('password-reenter');
 let loginSignupSubmit = document.getElementById('login-signup-submit');
 let passwordHelp = document.getElementById('help');
 
