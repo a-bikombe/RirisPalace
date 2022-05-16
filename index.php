@@ -31,7 +31,7 @@ $scripts = [
 	<main>
 		<header class="homepage-header p-1vw text-center border-10px">
 			<h1>AriBikombe</h1>
-			<p class="subtitle m-0 p-0 text-center bold"><?= $constructionNotice ?></p>
+			<p class="subtitle bold"><?= $constructionNotice ?></p>
 		</header>
 		<?php foreach ($previews as $previewId => $preview) : ?>
 			<section aria-label="<?= $previewId ?>" class="preview flex flex-align-center dir-change" id="<?= $previewId ?>">

@@ -1,83 +1,81 @@
 /* ================================================================
-general */
-
+variables */
+/* color variables */
+/* background variables */
+/* box-shadow variables */
+/* transitions */
+/* general */
 :root {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 footer {
-    bottom: 5vw;
-    right: 5vw;
+  bottom: 5vw;
+  right: 5vw;
 }
-
 
 /* changed from row on desktop */
-
 .dir-change {
-    flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
-
 
 /* ================================================================
 header.php */
-
 #header-banner .nav-item:not(:first-of-type) {
-    border-top: 1px solid var(--color-gray-80);
+  border-top: 1px solid #cccccc;
 }
 
 #header-banner .dropdown-item {
-    padding: 1.5vw;
+  padding: 1.5vw;
 }
-
 
 /* ================================================================
 index.php */
-
 #index .homepage-header {
-    margin: 0 5vw 3vw;
+  margin: 0 5vw 3vw;
 }
 
 #index .preview {
-    padding: 10vw;
+  padding: 10vw;
 }
 
 #index .preview-image {
-    width: 75vw;
+  width: 75vw;
 }
 
 #index figcaption {
-    font-size: 1.7rem;
-    padding-top: 3vw;
+  font-size: 1.7rem;
+  padding-top: 3vw;
 }
-
 
 /* ================================================================
 stranger-things.php */
-
 #stranger-things h3 {
-    margin: 15px 0 10px;
+  margin: 15px 0 10px;
 }
 
 #stranger-things main {
-    padding: 50px 5vw;
+  padding: 50px 5vw;
 }
-
 
 /* season */
-
 #stranger-things .season {
-    padding: 3vh 5vw;
+  padding: 3vh 5vw;
 }
 
-#stranger-things :is( .character-description, .character-image-name) {
-    margin: auto;
-    width: 100%;
+#stranger-things :is(.character-description, .character-image-name) {
+  margin: auto;
+  width: 100%;
 }
 
 #stranger-things .character-image {
-    height: calc(90% * 1.49);
-    object-fit: cover;
+  height: calc(90% * 1.49);
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
-
 /* ------------------------------------------------------- */
+/*# sourceMappingURL=main-mobile.css.map */

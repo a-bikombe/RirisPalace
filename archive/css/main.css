@@ -1,0 +1,640 @@
+/* ================================================================
+general */
+
+:root {
+    /* color variables */
+    --clr-red-dark: hsl(0, 90%, 40%);
+    --clr-red-bright: hsl(0, 100%, 50%);
+    --clr-red: hsl(0, 60%, 80%);
+    --clr-orange: hsl(40, 100%, 80%);
+    --clr-yellow: hsl(60, 100%, 85%);
+    --clr-green-dark: hsl(130, 60%, 30%);
+    --clr-green: hsl(130, 40%, 80%);
+    --clr-blue-dark: hsl(200, 40%, 40%);
+    --clr-blue: hsl(200, 40%, 70%);
+    --clr-blue-light: hsl(200, 60%, 85%);
+    --clr-purple: hsl(240, 55%, 85%);
+    --clr-purple-t: hsla(240, 55%, 85%, 0.85);
+    --clr-pink-bright: hsl(350, 80%, 60%);
+    --clr-pink: hsl(350, 100%, 88%);
+    --clr-pink-t: hsla(350, 100%, 88%, 0.85);
+    --clr-black: hsl(0, 0%, 0%);
+    --clr-black-t: hsla(0, 0%, 0%, 0.2);
+    --clr-gray-10: hsl(0, 0%, 10%);
+    --clr-gray-20: hsl(0, 0%, 20%);
+    --clr-gray-20-t: hsla(0, 0%, 20%, 0.6);
+    --clr-gray-40: hsl(0, 0%, 40%);
+    --clr-gray-60: hsl(0, 0%, 60%);
+    --clr-gray-80: hsl(0, 0%, 80%);
+    --clr-gray-90: hsl(0, 0%, 90%);
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-white-t: hsla(0, 0%, 100%, 0.2);
+    /* background variables */
+    --bg-image: url("../images/backgrounds/flowers.jpeg") center/cover transparent;
+    --bg-transition: background-color 0.4s ease-in-out;
+    /* box-shadow variables */
+    --box-shadow-dark: 3px 3px 3px 3px var(--clr-black-t);
+    --box-shadow-light: 5px 5px 5px 5px var(--clr-gray-20-t);
+    --box-shadow-direct-dark: 0 0 10px 3px var(--clr-black-t);
+    --box-shadow-direct-light: 0 0 10px 3px var(--clr-white-t);
+    /* transitions */
+    --transition-size-padding: padding 0.2s ease-in-out;
+    --transition-size-text: font-size 0.2s ease-in-out;
+    --transition-clr-text: color 0.2s ease-in-out;
+    --transition-clr-bg: background-color 0.2s ease-in-out;
+    --transition-clr-border: border-color 0.2s ease-in-out;
+    font-size: 15px;
+}
+
+
+/* ------------ UTILITIES ------------- */
+
+
+/* ~~~ ANIMATIONS ~~~ */
+
+
+/* fade-in animation */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* fade-out animation */
+
+@keyframes fadeOut {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+
+/* ~~~ DISPLAY, POSITION ~~~ */
+
+
+/* full page */
+
+.vh-100 {
+    height: 100vh;
+}
+
+.vw-100 {
+    width: 100vw;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+
+/* hidden */
+
+.hidden {
+    display: none;
+}
+
+
+/* form inputs */
+
+.input-block {
+    margin: 1vw 0;
+}
+
+
+/* initialize flex */
+
+.flex,
+.flex-center {
+    display: flex;
+}
+
+
+/* align vertically */
+
+.flex-align-center,
+.flex-center {
+    align-items: center;
+}
+
+
+/* align vertically and horizontally */
+
+.flex-center {
+    justify-content: center;
+}
+
+
+/* grid */
+
+.grid {
+    display: grid;
+    grid-template-columns: 8;
+    grid-template-rows: 15;
+}
+
+
+/* fixed position */
+
+.fixed {
+    position: fixed;
+}
+
+
+/* ~~~ FLEX DIRECTIONS ~~~ */
+
+
+/* column */
+
+.dir-col {
+    flex-direction: column;
+}
+
+
+/* change to column on mobile */
+
+.dir-change {
+    flex-direction: row;
+}
+
+
+/* ~~~ PADDING ~~~ */
+
+.p-1vw {
+    padding: 1vw;
+}
+
+.pt-1vw {
+    padding-top: 1vw;
+}
+
+.m-1vw {
+    margin: 1vw;
+}
+
+
+/* ~~~ BORDER-RADIUS ~~~ */
+
+.border-5px,
+.border-5px>button {
+    border-radius: 5px;
+}
+
+.border-10px {
+    border-radius: 10px;
+}
+
+
+/* ~~~ TYPOGRAPHY ~~~ */
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.no-decor {
+    text-decoration: none;
+}
+
+h1,
+.uppercase {
+    text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+h4,
+.text-center {
+    text-align: center;
+}
+
+.no-link-color {
+    color: inherit;
+}
+
+.not-applicable {
+    color: var(--clr-pink-bright);
+}
+
+.single-space {
+    line-height: 1;
+}
+
+
+/* ~~~ TEXT SIZING ~~~ */
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+h6 {
+    font-size: 1.1rem;
+}
+
+figcaption {
+    font-size: 1.3rem;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+/* layout */
+
+
+/* initialize light and dark themes */
+
+body {
+    --theme-bg: var(--clr-white);
+    --theme-text: var(--clr-gray-10);
+    --theme-link: var(--clr-blue-dark);
+    --theme-login: var(--clr-green-dark);
+    --theme-logout: var(--clr-red-dark);
+    --bg-color: var(--clr-blue-light);
+    color: var(--theme-text);
+    font-family: Avenir, Helvetica, sans-serif;
+}
+
+
+/* initialize dark theme */
+
+.dark-theme {
+    --theme-bg: var(--clr-gray-10);
+    --theme-text: var(--clr-white);
+    --theme-link: var(--clr-blue-light);
+    --theme-login: var(--clr-green);
+    --theme-logout: var(--clr-red);
+}
+
+
+/* set initial background color */
+
+body,
+.loader {
+    background: var(--bg-color);
+}
+
+
+/* set transparent background */
+
+.transparent-bg *:not(.btn,
+    i) {
+    background: transparent;
+    color: var(--theme-text);
+}
+
+
+/* main padding and grid initialization */
+
+main {
+    grid-column: 1 / span 8;
+    grid-row: 2 / span 14;
+    padding: 50px 0;
+}
+
+
+/* general components */
+
+
+/* link color */
+
+a:not(.btn,
+    .no-link-color) {
+    color: var(--theme-link);
+}
+
+
+/* buttons in button groups (forms) */
+
+.buttons button {
+    border: 1px solid var(--clr-gray-60);
+    padding: 0.5vw 1vw;
+}
+
+
+/* "required" asterisk for inputs */
+
+.input-block>label::before {
+    color: var(--clr-red-bright);
+    content: "*";
+}
+
+
+/* ================================================================
+403,404.shtml */
+
+#error {
+    background: var(--bg-image);
+    color: var(--theme-text);
+}
+
+#error :is(.navbar,
+    .error-main) {
+    background: var(--clr-gray-20-t);
+}
+
+#error .error-main {
+    padding: 15vh;
+}
+
+#error .gif {
+    background: var(--theme-text);
+    border-radius: 5vw;
+    box-shadow: var(--box-shadow-light);
+    width: calc(20vw + 100px);
+}
+
+#error .text {
+    padding-top: 6vh;
+}
+
+
+/* ================================================================
+loading-page.php */
+
+
+/* loading display */
+
+.loader {
+    left: 0;
+    top: 0;
+    z-index: 99;
+}
+
+
+/* when the loader hides */
+
+.loader.hidden {
+    animation: fadeOut 0.5s;
+    animation-fill-mode: forwards;
+}
+
+
+/* loading gif */
+
+.loader img {
+    width: 25vw;
+}
+
+
+/* loading subtitle */
+
+.loader .subtitle {
+    font-size: 1.5rem;
+}
+
+
+/* ================================================================
+header.php */
+
+
+/* <header> tag */
+
+#header-banner {
+    grid-column: 1 / span 8;
+    grid-row: 1;
+    margin: 0;
+}
+
+#header-banner .navbar {
+    max-height: 65px;
+}
+
+#header-banner :is(.logo) {
+    height: 40px;
+}
+
+
+/* ~~~ LOGIN / LOGOUT BUTTON ~~~ */
+
+.login-btn:hover,
+.logout-btn:hover {
+    color: var(--theme-text);
+}
+
+.logout-btn,
+.logout-btn:hover {
+    border-color: var(--theme-logout);
+}
+
+.logout-btn {
+    color: var(--theme-logout);
+}
+
+.logout-btn:hover {
+    background-color: var(--theme-logout);
+}
+
+
+/* dark theme glow */
+
+.dark-theme :is(.logout-btn,
+    .logout-btn:hover) {
+    box-shadow: inset 0 0 0.5em 0 var(--clr-white-t), 0 0 0.5em 0 var(--theme-logout);
+    text-shadow: 0 0 0.125em var(--clr-white-t), 0 0 0.45em var(--theme-logout);
+}
+
+.login-btn,
+.login-btn:hover {
+    border-color: var(--theme-login);
+}
+
+.login-btn {
+    color: var(--theme-login);
+}
+
+.login-btn:hover {
+    background-color: var(--theme-login);
+}
+
+
+/* dark theme glow */
+
+.dark-theme :is(.login-btn,
+    .login-btn:hover) {
+    box-shadow: inset 0 0 0.5em 0 var(--clr-white-t), 0 0 0.5em 0 var(--theme-login);
+    text-shadow: 0 0 0.125em var(--clr-white-t), 0 0 0.45em var(--theme-login);
+}
+
+
+/* mobile dropdown toggle button */
+
+.navbar-toggler {
+    border-color: var(--theme-text);
+    transition: var(--transition-size-text);
+}
+
+
+/* mobile dropdown toggle button - dark backgrounds only */
+
+.dark-theme .navbar-toggler {
+    box-shadow: inset 0 0 0.5em 0 var(--clr-white-t), 0 0 0.5em 0 currentColor;
+    text-shadow: 0 0 0.125em var(--clr-white-t), 0 0 0.45em currentColor;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus-visible {
+    font-size: 1.4rem;
+}
+
+
+/* mobile dropdown toggle button icon */
+
+.navbar-toggler-icon {
+    color: var(-theme-clr-text);
+    height: 100%;
+    padding: 0.25rem;
+    width: 100%;
+}
+
+.navbar-collapse.collapsing,
+.navbar-collapse.show {
+    background-color: var(--theme-bg);
+    border: 1px solid var(--clr-gray-90);
+    border-radius: 5px;
+    box-shadow: var(--box-shadow-direct-light);
+    padding-block: 0.75rem;
+    transform: translateY(1rem);
+    z-index: 1;
+}
+
+
+/* content in mobile dropdown - dark backgrounds */
+
+.dark-theme :is(.navbar-collapse.collapsing,
+    .navbar-collapse.show) {
+    border: 1px solid var(--clr-gray-20);
+    box-shadow: var(--box-shadow-direct-dark);
+}
+
+/* profile link and login/out button in mobile dropdown */
+
+.navbar-collapse .account {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+:is(.navbar-collapse.collapsing,
+    .navbar-collapse.show) .account {
+    flex-direction: column;
+}
+
+:is(.navbar-collapse.collapsing,
+    .navbar-collapse.show) :is(.login-btn, .logout-btn) {
+    margin-block: 0.75rem;
+}
+
+
+
+#header-banner :is(.navbar-brand,
+    .nav-link) {
+    font-size: 1rem;
+    line-height: 1;
+    padding: 0.75rem;
+    transition: var(--transition-size-text);
+}
+
+#header-banner :is(.nav-link:hover,
+    .nav-link:focus-visible,
+    .navbar-brand:hover,
+    .navbar-brand:focus-visible) {
+    font-size: 1.15rem;
+}
+
+#header-banner .navbar-brand {
+    margin-inline: 1.25rem;
+}
+
+
+/* dropdown list - not using currently */
+
+
+/* 
+#header-banner .dropdown-list-item:not(:last-of-type) {
+    border-bottom: 1px solid var(--clr-gray-80);
+}
+
+#header-banner .dropdown-item {
+    padding: 0.75vw;
+    transition: var(--transition-clr-text), var(--transition-clr-bg), var(--transition-clr-border);
+}
+
+#header-banner .dropdown-item.active {
+    background: var(--clr-gray-60);
+}
+
+#header-banner .dropdown-item:active {
+    background: var(--clr-gray-20);
+}
+*/
+
+
+/* ================================================================
+login-profile.php */
+
+#profile #profile-form {
+    background: var(--clr-gray-80);
+    border: 1px solid var(--clr-gray-40);
+    margin: 1.5vw 7vw;
+    padding: 2vw;
+}
+
+
+/* ================================================================
+include/footer.php */
+
+footer {
+    bottom: 2vw;
+    position: fixed;
+    right: 2vw;
+}
+
+.footer-btn {
+    border: 1px solid var(--clr-gray-80);
+    box-shadow: var(--box-shadow-direct-dark);
+    overflow: hidden;
+    transition: var(--transition-size-text);
+}
+
+.footer-btn:hover {
+    border: 1px solid var(--clr-gray-80);
+    box-shadow: var(--box-shadow-direct-dark);
+    font-size: 1.1rem;
+    overflow: hidden;
+}

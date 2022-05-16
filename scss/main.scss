@@ -1,0 +1,308 @@
+@import 'variables';
+/* ================================================================
+general */
+
+:root {
+    font-size: 15px;
+}
+
+
+/* ------------ UTILITIES ------------- */
+
+/* ~~~ ANIMATIONS ~~~ */
+
+/* fade-in animation */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* fade-out animation */
+
+@keyframes fadeOut {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+
+/* ~~~ DISPLAY, POSITION ~~~ */
+
+
+/* full page */
+
+.vh-100 {
+    height: 100vh;
+}
+
+.vw-100 {
+    width: 100vw;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+
+/* hidden */
+
+.hidden {
+    display: none;
+}
+
+
+/* form inputs */
+
+.input-block {
+    margin: 1vw 0;
+}
+
+
+
+/* initialize flex */
+
+.flex,
+.flex-center {
+    display: flex;
+}
+
+
+/* align vertically */
+
+.flex-align-center,
+.flex-center {
+    align-items: center;
+}
+
+
+/* align vertically and horizontally */
+
+.flex-center {
+    justify-content: center;
+}
+
+
+/* grid */
+
+.grid {
+    display: grid;
+    grid-template-columns: 8;
+    grid-template-rows: 15;
+}
+
+
+/* fixed position */
+
+.fixed {
+    position: fixed;
+}
+
+/* ~~~ FLEX DIRECTIONS ~~~ */
+
+/* column */
+
+.dir-col {
+    flex-direction: column;
+}
+
+/* change to column on mobile */
+
+.dir-change {
+    flex-direction: row;
+}
+
+
+/* ~~~ PADDING ~~~ */
+
+.p-1vw {
+    padding: 1vw;
+}
+
+.pt-1vw {
+    padding-top: 1vw;
+}
+
+.m-1vw {
+    margin: 1vw;
+}
+
+/* ~~~ BORDER-RADIUS ~~~ */
+
+.border-5px,
+.border-5px>button {
+    border-radius: 5px;
+}
+
+.border-10px {
+    border-radius: 10px;
+}
+
+/* ~~~ TYPOGRAPHY ~~~ */
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.no-decor {
+    text-decoration: none;
+}
+
+h1,
+.uppercase {
+    text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+h4,
+.text-center {
+    text-align: center;
+}
+
+.no-link-color {
+    color: inherit;
+}
+
+.not-applicable {
+    color: $clr-pink-bright;
+}
+
+.single-space {
+    line-height: 1;
+}
+
+
+.single-space {
+    line-height: 1;
+}
+
+
+/* ~~~ TEXT SIZING ~~~ */
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.4rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+h6 {
+    font-size: 1.1rem;
+}
+
+figcaption {
+    font-size: 1.3rem;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+/* layout */
+
+
+/* initialize light and dark themes */
+
+body {
+    $theme-bg: $clr-white;
+    $theme-text: $clr-gray-10;
+    $theme-link: $clr-blue-dark;
+    $theme-login: $clr-green-dark;
+    $theme-logout: $clr-red-dark;
+    $bg-color: $clr-blue-light;
+    font-family: Avenir, Helvetica, sans-serif;
+
+    /* initialize dark theme */
+    .dark-theme {
+        $theme-bg: $clr-gray-10;
+        $theme-text: $clr-white;
+        $theme-link: $clr-blue-light;
+        $theme-login: $clr-green;
+        $theme-logout: $clr-red;
+    }
+
+    /* set initial background color */
+
+    body,
+    .loader {
+        background: $bg-color;
+    }
+
+
+    /* set transparent background */
+
+    .transparent-bg *:not(.btn,
+        i) {
+        background: transparent;
+        color: $theme-text;
+    }
+
+
+    /* main padding and grid initialization */
+
+    main {
+        grid-column: 1 / span 8;
+        grid-row: 2 / span 14;
+        padding: 50px 0;
+    }
+
+
+    /* general components */
+
+
+    /* link color */
+
+    a:not(.btn,
+        .no-link-color) {
+        color: $theme-link;
+    }
+
+
+    /* buttons in button groups (forms) */
+
+    .buttons button {
+        border: 1px solid $clr-gray-60;
+        padding: 0.5vw 1vw;
+    }
+
+
+    /* "required" asterisk for inputs */
+
+    .input-block>label::before {
+        color: $clr-red-bright;
+        content: "*";
+    }
+
+}
