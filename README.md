@@ -2,7 +2,7 @@
 
 ---
 
-## ==Pages==
+## Pages
 
 <!--
 * [ ] [.php](aribikombe.com/.php)

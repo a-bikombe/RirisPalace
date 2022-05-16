@@ -27,6 +27,7 @@ index.php */
 /* previews */
 
 #index .preview {
+    color: var(--clr-gray-20);
     gap: 5vw;
     height: clamp(10px 20vw 30px);
     justify-content: space-between;
