@@ -516,6 +516,7 @@ header.php */
 .navbar-toggler-icon {
     color: var(-theme-clr-text);
     height: 100%;
+    padding: 0.25rem;
     width: 100%;
 }
 
