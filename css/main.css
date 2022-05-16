@@ -575,7 +575,6 @@ header.php */
 :is(.navbar-collapse.collapsing,
     .navbar-collapse.show) .account {
     flex-direction: column;
-    padding-bottom: 0.75rem;
 }
 
 :is(.navbar-collapse.collapsing,
