@@ -466,6 +466,8 @@ header.php */
 .logout-btn,
 .logout-btn:hover {
     border-color: var(--theme-logout);
+    box-shadow: inset 0 0 0.5em 0 var(--clr-white-t), 0 0 0.5em 0 var(--theme-logout);
+    text-shadow: 0 0 0.125em var(--clr-white-t), 0 0 0.45em var(--theme-logout);
 }
 
 .logout-btn {
@@ -479,6 +481,8 @@ header.php */
 .login-btn,
 .login-btn:hover {
     border-color: var(--theme-login);
+    box-shadow: inset 0 0 0.5em 0 var(--clr-white-t), 0 0 0.5em 0 var(--theme-login);
+    text-shadow: 0 0 0.125em var(--clr-white-t), 0 0 0.45em var(--theme-login);
 }
 
 .login-btn {
