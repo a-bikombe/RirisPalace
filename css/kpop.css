@@ -18,7 +18,7 @@ general */
 main {
     grid-column: 2 / 8;
     grid-row: 2 / 15;
-    margin: 0 5vw;
+    margin: 0 5vw 50px;
 }
 
 
