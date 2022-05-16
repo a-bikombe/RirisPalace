@@ -15,7 +15,7 @@ require_once 'config/nav-links.php';
 				<i class="navbar-toggler-icon fa-solid fa-bars"></i>
 			</button>
 			<div class="collapse navbar-collapse" id="navbar-supported-content">
-				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				<ul class="navbar-nav me-auto mb-lg-0">
 					<?php foreach ($navLinks as $title => $link) : ?>
 						<li class="nav-item">
 							<a class="nav-link text-center" href="<?= $link ?>"><?= $title ?></a>

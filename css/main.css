@@ -545,6 +545,7 @@ header.php */
     border: 1px solid var(--clr-gray-90);
     border-radius: 5px;
     box-shadow: var(--box-shadow-direct-light);
+    margin-block: 0.75rem;
     transform: translateY(1rem);
     z-index: 1;
 }
@@ -559,8 +560,13 @@ header.php */
 }
 
 :is(.navbar-collapse.collapsing,
-    .navbar-collapse.show) .mb-2 {
-        margin-bottom: 0;
+    .navbar-collapse.show) .navbar-nav {
+        border-bottom: 1px solid var(--clr-gray-90);
+}
+
+.dark-theme :is(.navbar-collapse.collapsing,
+    .navbar-collapse.show) .navbar-nav {
+        border-bottom: 1px solid var(--clr-gray-10);
 }
 
 /* profile link and login/out button in mobile dropdown */
