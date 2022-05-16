@@ -3,13 +3,13 @@ index.php */
 
 #index {
     --bg-color: var(--clr-purple);
-
     background: var(--bg-image);
 }
 
 #index :is(.navbar, main) {
     background: var(--clr-gray-20-t);
 }
+
 
 /* header */
 
@@ -19,6 +19,7 @@ index.php */
     color: var(--clr-gray-20);
     margin: 0 20vw 3vw;
 }
+
 
 /* previews */
 

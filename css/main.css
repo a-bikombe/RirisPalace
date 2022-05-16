@@ -29,43 +29,44 @@ general */
     --clr-gray-90: hsl(0, 0%, 90%);
     --clr-white: hsl(0, 0%, 100%);
     --clr-white-t: hsla(0, 0%, 100%, 0.2);
-
     /* background variables */
     --bg-image: url("../images/backgrounds/flowers.jpeg") center/cover transparent;
     --bg-transition: background-color 0.4s ease-in-out;
-
     /* box-shadow variables */
     --box-shadow-dark: 3px 3px 3px 3px var(--clr-black-t);
     --box-shadow-light: 5px 5px 5px 5px var(--clr-gray-20-t);
     --box-shadow-direct-dark: 0 0 10px 3px var(--clr-black-t);
     --box-shadow-direct-light: 0 0 10px 3px var(--clr-white-t);
-
     /* transitions */
     --transition-size-padding: padding 0.2s ease-in-out;
     --transition-size-text: font-size 0.2s ease-in-out;
     --transition-clr-text: color 0.2s ease-in-out;
     --transition-clr-bg: background-color 0.2s ease-in-out;
     --transition-clr-border: border-color 0.2s ease-in-out;
-
     font-size: 15px;
 }
 
+
 /* ------------ UTILITIES ------------- */
+
 
 /* ~~~ ANIMATIONS ~~~ */
 
+
 /* fade-in animation */
+
 @keyframes fadeIn {
     from {
         opacity: 0;
     }
-
     to {
         opacity: 1;
     }
 }
 
+
 /* fade-out animation */
+
 @keyframes fadeOut {
     100% {
         opacity: 0;
@@ -73,9 +74,12 @@ general */
     }
 }
 
+
 /* ~~~ DISPLAY, POSITION ~~~ */
 
+
 /* full page */
+
 .vh-100 {
     height: 100vh;
 }
@@ -92,56 +96,76 @@ general */
     width: 100%;
 }
 
+
 /* hidden */
+
 .hidden {
     display: none;
 }
 
+
 /* form inputs */
+
 .input-block {
     margin: 1vw 0;
 }
 
+
 /* initialize flex */
+
 .flex,
 .flex-center {
     display: flex;
 }
 
+
 /* align vertically */
+
 .flex-align-center,
 .flex-center {
     align-items: center;
 }
 
+
 /* align vertically and horizontally */
+
 .flex-center {
     justify-content: center;
 }
 
+
 /* grid */
+
 .grid {
     display: grid;
     grid-template-columns: 8;
     grid-template-rows: 15;
 }
 
+
 /* fixed position */
+
 .fixed {
     position: fixed;
 }
 
+
 /* ~~~ FLEX DIRECTIONS ~~~ */
 
+
 /* column */
+
 .dir-col {
     flex-direction: column;
 }
 
+
 /* change to column on mobile */
+
 .dir-change {
     flex-direction: row;
 }
+
 
 /* ~~~ PADDING ~~~ */
 
@@ -157,16 +181,18 @@ general */
     margin: 1vw;
 }
 
+
 /* ~~~ BORDER-RADIUS ~~~ */
 
 .border-5px,
-.border-5px > button {
+.border-5px>button {
     border-radius: 5px;
 }
 
 .border-10px {
     border-radius: 10px;
 }
+
 
 /* ~~~ TYPOGRAPHY ~~~ */
 
@@ -207,6 +233,7 @@ h4,
     line-height: 1;
 }
 
+
 /* ~~~ TEXT SIZING ~~~ */
 
 h1 {
@@ -241,9 +268,12 @@ figcaption {
     font-size: 1.2rem;
 }
 
+
 /* layout */
 
+
 /* initialize light and dark themes */
+
 body {
     --theme-bg: var(--clr-white);
     --theme-text: var(--clr-gray-10);
@@ -251,12 +281,13 @@ body {
     --theme-login: var(--clr-green-dark);
     --theme-logout: var(--clr-red-dark);
     --bg-color: var(--clr-blue-light);
-
     color: var(--theme-text);
     font-family: Avenir, Helvetica, sans-serif;
 }
 
+
 /* initialize dark theme */
+
 .dark-theme {
     --theme-bg: var(--clr-gray-10);
     --theme-text: var(--clr-white);
@@ -265,42 +296,59 @@ body {
     --theme-logout: var(--clr-red);
 }
 
+
 /* set initial background color */
-body, .loader {
+
+body,
+.loader {
     background: var(--bg-color);
 }
 
+
 /* set transparent background */
-.transparent-bg *:not(.btn, i) {
+
+.transparent-bg *:not(.btn,
+i) {
     background: transparent;
     color: var(--theme-text);
 }
 
+
 /* main padding and grid initialization */
+
 main {
     grid-column: 1 / span 8;
     grid-row: 2 / span 14;
     padding: 50px 0;
 }
 
+
 /* general components */
 
+
 /* link color */
-a:not(.btn, .no-link-color) {
+
+a:not(.btn,
+.no-link-color) {
     color: var(--theme-link);
 }
 
+
 /* buttons in button groups (forms) */
+
 .buttons button {
     border: 1px solid var(--clr-gray-60);
     padding: 0.5vw 1vw;
 }
 
+
 /* "required" asterisk for inputs */
-.input-block > label::before {
+
+.input-block>label::before {
     color: var(--clr-red-bright);
     content: "*";
 }
+
 
 /* ================================================================
 403,404.shtml */
@@ -310,7 +358,8 @@ a:not(.btn, .no-link-color) {
     color: var(--theme-text);
 }
 
-#error :is(.navbar, .error-main) {
+#error :is(.navbar,
+.error-main) {
     background: var(--clr-gray-20-t);
 }
 
@@ -329,36 +378,48 @@ a:not(.btn, .no-link-color) {
     padding-top: 6vh;
 }
 
+
 /* ================================================================
 loading-page.php */
 
+
 /* loading display */
+
 .loader {
     left: 0;
     top: 0;
     z-index: 99;
 }
 
+
 /* when the loader hides */
+
 .loader.hidden {
     animation: fadeOut 0.5s;
     animation-fill-mode: forwards;
 }
 
+
 /* loading gif */
+
 .loader img {
     width: 25vw;
 }
 
+
 /* loading subtitle */
+
 .loader .subtitle {
     font-size: 1.5rem;
 }
 
+
 /* ================================================================
 header.php */
 
+
 /* <header> tag */
+
 #header-banner {
     grid-column: 1 / span 8;
     grid-row: 1;
@@ -369,25 +430,31 @@ header.php */
     max-height: 65px;
 }
 
+
 /* TODO: fixing bootstrap opacity - do i need this? */
+
 #header-banner .bg-light {
     --bs-bg-opacity: 0;
 }
 
+
 /* TODO: fixing bootstrap lists - do i need this? */
+
 #header-banner ul {
     list-style-type: none;
 }
 
+
 /* TODO: fixing bootstrap lists - do i need this? */
+
 #header-banner a.btn {
     color: none;
 }
 
-#header-banner :is(
-    .logo) {
+#header-banner :is( .logo) {
     height: 40px;
 }
+
 
 /* ~~~ LOGIN / LOGOUT BUTTON ~~~ */
 
@@ -422,13 +489,17 @@ header.php */
     background-color: var(--theme-login);
 }
 
+
 /* mobile dropdown toggle button */
+
 .navbar-toggler {
     border-color: var(--theme-text);
     transition: var(--transition-size-text);
 }
 
+
 /* mobile dropdown toggle button - dark backgrounds only */
+
 .dark-theme .navbar-toggler {
     box-shadow: inset 0 0 0.5em 0 var(--clr-white-t), 0 0 0.5em 0 currentColor;
     text-shadow: 0 0 0.125em var(--clr-white-t), 0 0 0.45em currentColor;
@@ -439,7 +510,9 @@ header.php */
     font-size: 1.35rem;
 }
 
+
 /* mobile dropdown toggle button icon */
+
 .navbar-toggler-icon {
     color: var(-theme-clr-text);
 }
@@ -454,19 +527,20 @@ header.php */
     z-index: 1;
 }
 
+
 /* content in mobile dropdown - dark backgrounds */
-.dark-theme :is(
-    .navbar-collapse.collapsing,
-    .navbar-collapse.show) {
+
+.dark-theme :is( .navbar-collapse.collapsing,
+.navbar-collapse.show) {
     border: 1px solid var(--clr-gray-20);
     box-shadow: var(--box-shadow-direct-dark);
 }
 
+
 /* profile link and login/out button in mobile dropdown */
-:is(
-    .navbar-collapse.collapsing,
-    .navbar-collapse.show
-    ) .account {
+
+:is( .navbar-collapse.collapsing,
+.navbar-collapse.show) .account {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -474,20 +548,18 @@ header.php */
     padding-bottom: 0.75rem;
 }
 
-#header-banner :is(
-    .navbar-brand,
-    .nav-link) {
-        font-size: 1rem;
-        line-height: 1;
-        padding: 0.75rem;
-        transition: var(--transition-size-text);
+#header-banner :is( .navbar-brand,
+.nav-link) {
+    font-size: 1rem;
+    line-height: 1;
+    padding: 0.75rem;
+    transition: var(--transition-size-text);
 }
 
-#header-banner :is(
-    .nav-link:hover, 
-    .nav-link:focus-visible,
-    .navbar-brand:hover,
-    .navbar-brand:focus-visible) {
+#header-banner :is( .nav-link:hover,
+.nav-link:focus-visible,
+.navbar-brand:hover,
+.navbar-brand:focus-visible) {
     font-size: 1.15rem;
 }
 
@@ -495,7 +567,10 @@ header.php */
     margin-inline: 1.25rem;
 }
 
+
 /* dropdown list - not using currently */
+
+
 /* 
 #header-banner .dropdown-list-item:not(:last-of-type) {
     border-bottom: 1px solid var(--clr-gray-80);
@@ -515,6 +590,7 @@ header.php */
 }
 */
 
+
 /* ================================================================
 login-profile.php */
 
@@ -524,6 +600,7 @@ login-profile.php */
     margin: 1.5vw 7vw;
     padding: 2vw;
 }
+
 
 /* ================================================================
 include/footer.php */

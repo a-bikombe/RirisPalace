@@ -10,18 +10,16 @@ footer {
     right: 5vw;
 }
 
+
 /* changed from row on desktop */
+
 .dir-change {
     flex-direction: column;
 }
 
+
 /* ================================================================
 header.php */
-/* 
-#header-banner {
-    margin: 0 auto;
-    width: 95%;
-} */
 
 #header-banner .nav-item:not(:first-of-type) {
     border-top: 1px solid var(--color-gray-80);
@@ -30,6 +28,7 @@ header.php */
 #header-banner .dropdown-item {
     padding: 1.5vw;
 }
+
 
 /* ================================================================
 index.php */
@@ -51,6 +50,7 @@ index.php */
     padding-top: 3vw;
 }
 
+
 /* ================================================================
 stranger-things.php */
 
@@ -62,14 +62,14 @@ stranger-things.php */
     padding: 50px 5vw;
 }
 
+
 /* season */
+
 #stranger-things .season {
     padding: 3vh 5vw;
 }
 
-#stranger-things :is(
-    .character-description,
-    .character-image-name) {
+#stranger-things :is( .character-description, .character-image-name) {
     margin: auto;
     width: 100%;
 }
@@ -78,5 +78,6 @@ stranger-things.php */
     height: calc(90% * 1.49);
     object-fit: cover;
 }
+
 
 /* ------------------------------------------------------- */

@@ -3,7 +3,6 @@ stranger-things.php */
 
 #stranger-things {
     --bg-color: var(--clr-black);
-    
     color: var(--clr-white);
 }
 
@@ -32,7 +31,9 @@ stranger-things.php */
     margin: 40px 0;
 }
 
+
 /* season */
+
 #stranger-things .season {
     background: var(--clr-white);
     border: 1px solid var(--clr-gray-40);
@@ -40,34 +41,46 @@ stranger-things.php */
     padding: 2vw 3vw;
 }
 
+
 /* space between seasons */
+
 #stranger-things .season:not(:first-of-type) {
     margin-top: 50px;
 }
 
+
 /* character */
+
 #stranger-things .character {
     padding: 20px 0;
 }
 
+
 /* horizontal line between every character */
+
 #stranger-things .character:not(:last-child) {
     border-bottom: 1px solid var(--clr-gray-60);
 }
 
+
 /* character image and name */
+
 #stranger-things .character-image-name {
     width: 40%;
 }
 
+
 /* character image carousel */
+
 #stranger-things .character-image-carousel {
     aspect-ratio: 9 / 16;
     margin: auto auto 10px;
     width: 80%;
 }
 
+
 /* don't hide season caption on mobile */
+
 #stranger-things .carousel-caption.d-none {
     display: block!important;
     font-size: 1rem;
@@ -78,15 +91,20 @@ stranger-things.php */
     object-fit: cover;
 }
 
+
 /* character description */
+
 #stranger-things .character-description {
     padding-left: 2vw;
     width: 60%;
 }
 
+
 /* character description items */
+
 #stranger-things .character-description-item {
     margin-bottom: 5px;
 }
+
 
 /* ================================================================ */
