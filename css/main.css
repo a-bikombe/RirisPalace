@@ -559,7 +559,7 @@ header.php */
 }
 
 :is(.navbar-collapse.collapsing,
-    .navbar-collapse.show) .navbar-nav {
+    .navbar-collapse.show) .mb-2 {
         margin-bottom: 0;
 }
 
