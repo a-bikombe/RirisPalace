@@ -580,7 +580,7 @@ header.php */
 
 :is(.navbar-collapse.collapsing,
     .navbar-collapse.show) :is(.login-btn, .logout-btn) {
-    padding-block: 0.75rem;
+    margin-block: 0.75rem;
 }
 
 
