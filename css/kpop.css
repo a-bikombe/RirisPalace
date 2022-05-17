@@ -228,6 +228,10 @@ body #groups .group-category .group:hover {
   cursor: pointer;
 }
 
+body #groups .group-category .group-image-btn {
+  border: none;
+}
+
 body #groups .group-category .group-image-btn:hover {
   aspect-ratio: 1 / 1;
   border: none;
