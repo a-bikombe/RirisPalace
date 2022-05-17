@@ -274,11 +274,6 @@ body .transparent-bg * {
   color: #1a1a1a;
 }
 
-body .transparent-bg .navbar,
-body .transparent-bg main {
-  background: rgba(51, 51, 51, 0.6);
-}
-
 body main {
   -ms-grid-column: 1;
   -ms-grid-column-span: 8;

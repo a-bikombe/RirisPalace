@@ -6,9 +6,10 @@ index.php */
     $bg-color: $clr-purple;
     background: $bg-image;
 
-    main {
-        background: $clr-gray-20-t;
-    }
+    .navbar,
+        main {
+            background: $clr-gray-20-t;
+        }
 
     /* header */
     .homepage-header {
