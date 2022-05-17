@@ -51,12 +51,12 @@ body {
     $theme-logout: $clr-red-dark;
     $bg-color: $clr-blue-light;
 
-	.dark-theme {
+	&.dark-theme {
         $theme-bg: $clr-gray-10;
         $theme-text: $clr-white;
         $theme-link: $clr-blue-light;
         $theme-login: $clr-green;
         $theme-logout: $clr-red;
 	}
-	
+
 }
