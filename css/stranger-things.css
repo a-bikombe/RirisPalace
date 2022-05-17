@@ -4,7 +4,7 @@ variables */
 /* background variables */
 /* box-shadow variables */
 /* transitions */
-body {
+#stranger-things {
   color: white;
   /* season */
   /* space between seasons */
@@ -17,82 +17,82 @@ body {
   /* character description items */
 }
 
-body,
-body .loader {
+#stranger-things,
+#stranger-things .loader {
   background: black;
 }
 
-body h1 {
+#stranger-things h1 {
   color: red;
   text-shadow: 0 0 0.125em rgba(255, 255, 255, 0.3), 0 0 0.45em red;
 }
 
-body h2 {
+#stranger-things h2 {
   font-size: 2rem;
 }
 
-body h3 {
+#stranger-things h3 {
   font-size: 1.3rem;
 }
 
-body main {
+#stranger-things main {
   padding: 50px 20vw;
 }
 
-body #intro .no-link-color {
+#stranger-things #intro .no-link-color {
   color: white;
 }
 
-body #plot {
+#stranger-things #plot {
   margin: 40px 0;
 }
 
-body .season {
+#stranger-things .season {
   background: white;
   border: 1px solid #666666;
   color: black;
   padding: 2vw 3vw;
 }
 
-body .season:not(:first-of-type) {
+#stranger-things .season:not(:first-of-type) {
   margin-top: 50px;
 }
 
-body .character {
+#stranger-things .character {
   padding: 20px 0;
 }
 
-body .character:not(:last-child) {
+#stranger-things .character:not(:last-child) {
   border-bottom: 1px solid #999999;
 }
 
-body .character-image-name {
+#stranger-things .character-image-name {
   width: 40%;
 }
 
-body .character-image-carousel {
+#stranger-things .character-image-carousel {
   aspect-ratio: 9 / 16;
   margin: auto auto 10px;
   width: 80%;
 }
 
-body .carousel-caption.d-none {
+#stranger-things .carousel-caption.d-none {
   display: block !important;
   font-size: 1rem;
 }
 
-body .character-image {
+#stranger-things .character-image {
   aspect-ratio: 9 / 16;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-body .character-description {
+#stranger-things .character-description {
   padding-left: 2vw;
   width: 60%;
 }
 
-body .character-description-item {
+#stranger-things .character-description-item {
   margin-bottom: 5px;
 }
 /*# sourceMappingURL=stranger-things.css.map */
