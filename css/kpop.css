@@ -284,6 +284,7 @@ body #content-dashboard .content-table table tbody {
 
 body #content-dashboard .content-table table th,
 body #content-dashboard .content-table table td {
+  background: white;
   border: 1px solid #1a1a1a;
 }
 
@@ -295,7 +296,6 @@ body #content-dashboard .content-table table td.group-name {
 
 body #content-dashboard .content-table table th.content,
 body #content-dashboard .content-table table td.content {
-  background: white;
   text-transform: capitalize;
 }
 /*# sourceMappingURL=kpop.css.map */

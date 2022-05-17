@@ -276,6 +276,7 @@ body {
 
                 th,
                 td {
+                    background: $clr-white;
                     border: 1px solid $clr-gray-10;
 
                     &,
@@ -284,10 +285,9 @@ body {
                     }
 
                     &.content {
-                        background: $clr-white;
                         text-transform: capitalize;
                     }
-                    
+
                 }
 
             }
