@@ -250,9 +250,18 @@ body {
   /* buttons in button groups (forms) */
   /* "required" asterisk for inputs */
   /* ================================================================
+ 403,404.shtml */
+  /* ================================================================
+loading-page.php */
+  /* loading display */
+  /* ================================================================
 header.php */
   /* <header> tag */
   /* initialize dark theme */
+  /* ================================================================
+login-profile.php */
+  /* ================================================================
+include/footer.php */
 }
 
 body body,
@@ -294,6 +303,56 @@ body .input-block > label::before {
   content: "*";
 }
 
+body#error {
+  background: url("../images/backgrounds/flowers.jpeg") center/cover transparent;
+  color: #1a1a1a;
+}
+
+body#error .navbar,
+body#error .error-main {
+  background: rgba(51, 51, 51, 0.6);
+}
+
+body#error .error-main {
+  padding: 15vh;
+}
+
+body#error .gif {
+  background: #1a1a1a;
+  border-radius: 5vw;
+  -webkit-box-shadow: 5px 5px 5px 5px rgba(51, 51, 51, 0.6);
+          box-shadow: 5px 5px 5px 5px rgba(51, 51, 51, 0.6);
+  width: calc(20vw + 100px);
+}
+
+body#error .text {
+  padding-top: 6vh;
+}
+
+body .loader {
+  left: 0;
+  top: 0;
+  z-index: 99;
+  /* when the loader hides */
+  /* loading gif */
+  /* loading subtitle */
+}
+
+body .loader.hidden {
+  -webkit-animation: fadeOut 0.5s;
+          animation: fadeOut 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+body .loader img {
+  width: 25vw;
+}
+
+body .loader .subtitle {
+  font-size: 1.5rem;
+}
+
 body #header-banner {
   -ms-grid-column: 1;
   -ms-grid-column-span: 8;
@@ -308,20 +367,20 @@ body #header-banner {
             &-list-item {
 
                 &:not(:last-of-type) {
-                    border-bottom: 1px solid var(--clr-gray-80);
+                    border-bottom: 1px solid $clr-gray-80;
                 }
             }
 
             &-item {
                 padding: 0.75vw;
-                transition: var(--transition-clr-text), var(--transition-clr-bg), var(--transition-clr-border);
+                transition: $transition-clr-text, $transition-clr-bg, $transition-clr-border;
 
                 &.active {
-                    background: var(--clr-gray-60);
+                    background: $clr-gray-60;
                 }
 
                 &:active {
-                    background: var(--clr-gray-20);
+                    background: $clr-gray-20;
                 }
 
             }
@@ -343,37 +402,37 @@ body #header-banner .account {
 
 body #header-banner .account .login-btn :hover,
 body #header-banner .account .logout-btn :hover {
-  color: var(--theme-text);
+  color: #1a1a1a;
 }
 
 body #header-banner .account .login-btn {
-  color: var(--theme-login);
+  color: #1f7a2e;
 }
 
 body #header-banner .account .login-btn, body #header-banner .account .login-btn:hover {
-  border-color: var(--theme-login);
+  border-color: #1f7a2e;
 }
 
 body #header-banner .account .login-btn:hover {
-  background-color: var(--theme-login);
+  background-color: #1f7a2e;
 }
 
 body #header-banner .account .logout-btn {
-  color: var(--theme-logout);
+  color: #c20a0a;
 }
 
 body #header-banner .account .logout-btn, body #header-banner .account .logout-btn:hover {
-  border-color: var(--theme-logout);
+  border-color: #c20a0a;
 }
 
 body #header-banner .account .logout-btn:hover {
-  background-color: var(--theme-logout);
+  background-color: #c20a0a;
 }
 
 body #header-banner .navbar-toggler {
-  border-color: var(--theme-text);
-  -webkit-transition: var(--transition-size-text);
-  transition: var(--transition-size-text);
+  border-color: #1a1a1a;
+  -webkit-transition: font-size 0.2s ease-in-out;
+  transition: font-size 0.2s ease-in-out;
   /* mobile dropdown toggle button icon */
 }
 
@@ -410,11 +469,11 @@ body #header-banner .navbar-collapse .account {
 }
 
 body #header-banner .navbar-collapse.collapsing, body #header-banner .navbar-collapse.show {
-  background-color: var(--theme-bg);
-  border: 1px solid var(--clr-gray-90);
+  background-color: white;
+  border: 1px solid #e6e6e6;
   border-radius: 5px;
-  -webkit-box-shadow: var(--box-shadow-direct-light);
-          box-shadow: var(--box-shadow-direct-light);
+  -webkit-box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.2);
   padding-block: 0.75rem;
   -webkit-transform: translateY(1rem);
           transform: translateY(1rem);
@@ -439,8 +498,8 @@ body #header-banner .nav-link {
   font-size: 1rem;
   line-height: 1;
   padding: 0.75rem;
-  -webkit-transition: var(--transition-size-text);
-  transition: var(--transition-size-text);
+  -webkit-transition: font-size 0.2s ease-in-out;
+  transition: font-size 0.2s ease-in-out;
 }
 
 body #header-banner .navbar-brand:hover, body #header-banner .navbar-brand:focus-visible,
@@ -466,9 +525,9 @@ body .dark-theme #header-banner .login-btn {
 }
 
 body .dark-theme #header-banner .login-btn, body .dark-theme #header-banner .login-btn:hover {
-  -webkit-box-shadow: inset 0 0 0.5em 0 var(--clr-white-t), 0 0 0.5em 0 var(--theme-login);
-          box-shadow: inset 0 0 0.5em 0 var(--clr-white-t), 0 0 0.5em 0 var(--theme-login);
-  text-shadow: 0 0 0.125em var(--clr-white-t), 0 0 0.45em var(--theme-login);
+  -webkit-box-shadow: inset 0 0 0.5em 0 rgba(255, 255, 255, 0.2), 0 0 0.5em 0 #b8e0be;
+          box-shadow: inset 0 0 0.5em 0 rgba(255, 255, 255, 0.2), 0 0 0.5em 0 #b8e0be;
+  text-shadow: 0 0 0.125em rgba(255, 255, 255, 0.2), 0 0 0.45em #b8e0be;
 }
 
 body .dark-theme #header-banner .logout-btn {
@@ -476,15 +535,15 @@ body .dark-theme #header-banner .logout-btn {
 }
 
 body .dark-theme #header-banner .logout-btn, body .dark-theme #header-banner .logout-btn:hover {
-  -webkit-box-shadow: inset 0 0 0.5em 0 var(--clr-white-t), 0 0 0.5em 0 var(--theme-logout);
-          box-shadow: inset 0 0 0.5em 0 var(--clr-white-t), 0 0 0.5em 0 var(--theme-logout);
-  text-shadow: 0 0 0.125em var(--clr-white-t), 0 0 0.45em var(--theme-logout);
+  -webkit-box-shadow: inset 0 0 0.5em 0 rgba(255, 255, 255, 0.2), 0 0 0.5em 0 #ebadad;
+          box-shadow: inset 0 0 0.5em 0 rgba(255, 255, 255, 0.2), 0 0 0.5em 0 #ebadad;
+  text-shadow: 0 0 0.125em rgba(255, 255, 255, 0.2), 0 0 0.45em #ebadad;
 }
 
 body .dark-theme #header-banner .navbar-toggler {
-  -webkit-box-shadow: inset 0 0 0.5em 0 var(--clr-white-t), 0 0 0.5em 0 currentColor;
-          box-shadow: inset 0 0 0.5em 0 var(--clr-white-t), 0 0 0.5em 0 currentColor;
-  text-shadow: 0 0 0.125em var(--clr-white-t), 0 0 0.45em currentColor;
+  -webkit-box-shadow: inset 0 0 0.5em 0 rgba(255, 255, 255, 0.2), 0 0 0.5em 0 currentColor;
+          box-shadow: inset 0 0 0.5em 0 rgba(255, 255, 255, 0.2), 0 0 0.5em 0 currentColor;
+  text-shadow: 0 0 0.125em rgba(255, 255, 255, 0.2), 0 0 0.45em currentColor;
 }
 
 body .dark-theme #header-banner .navbar-collapse {
@@ -492,96 +551,37 @@ body .dark-theme #header-banner .navbar-collapse {
 }
 
 body .dark-theme #header-banner .navbar-collapse.collapsing, body .dark-theme #header-banner .navbar-collapse.show {
-  border: 1px solid var(--clr-gray-20);
-  -webkit-box-shadow: var(--box-shadow-direct-dark);
-          box-shadow: var(--box-shadow-direct-dark);
+  border: 1px solid #333333;
+  -webkit-box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.2);
 }
 
-/* ================================================================
-403,404.shtml */
-#error {
-  background: var(--bg-image);
-  color: var(--theme-text);
-}
-
-#error .navbar,
-#error .error-main {
-  background: var(--clr-gray-20-t);
-}
-
-#error .error-main {
-  padding: 15vh;
-}
-
-#error .gif {
-  background: var(--theme-text);
-  border-radius: 5vw;
-  -webkit-box-shadow: var(--box-shadow-light);
-          box-shadow: var(--box-shadow-light);
-  width: calc(20vw + 100px);
-}
-
-#error .text {
-  padding-top: 6vh;
-}
-
-/* ================================================================
-loading-page.php */
-/* loading display */
-.loader {
-  left: 0;
-  top: 0;
-  z-index: 99;
-  /* when the loader hides */
-  /* loading gif */
-  /* loading subtitle */
-}
-
-.loader.hidden {
-  -webkit-animation: fadeOut 0.5s;
-          animation: fadeOut 0.5s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-.loader img {
-  width: 25vw;
-}
-
-.loader .subtitle {
-  font-size: 1.5rem;
-}
-
-/* ================================================================
-login-profile.php */
-#profile #profile-form {
-  background: var(--clr-gray-80);
-  border: 1px solid var(--clr-gray-40);
+body #profile #profile-form {
+  background: #cccccc;
+  border: 1px solid #666666;
   margin: 1.5vw 7vw;
   padding: 2vw;
 }
 
-/* ================================================================
-include/footer.php */
-footer {
+body footer {
   bottom: 2vw;
   position: fixed;
   right: 2vw;
 }
 
-footer .footer-btn {
-  border: 1px solid var(--clr-gray-80);
-  -webkit-box-shadow: var(--box-shadow-direct-dark);
-          box-shadow: var(--box-shadow-direct-dark);
+body footer .footer-btn {
+  border: 1px solid #cccccc;
+  -webkit-box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.2);
   overflow: hidden;
-  -webkit-transition: var(--transition-size-text);
-  transition: var(--transition-size-text);
+  -webkit-transition: font-size 0.2s ease-in-out;
+  transition: font-size 0.2s ease-in-out;
 }
 
-footer .footer-btn:hover {
-  border: 1px solid var(--clr-gray-80);
-  -webkit-box-shadow: var(--box-shadow-direct-dark);
-          box-shadow: var(--box-shadow-direct-dark);
+body footer .footer-btn:hover {
+  border: 1px solid #cccccc;
+  -webkit-box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.2);
   font-size: 1.1rem;
   overflow: hidden;
 }

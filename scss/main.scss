@@ -274,8 +274,62 @@ body {
         content: "*";
     }
 
+    /* ================================================================
+ 403,404.shtml */
+    &#error {
+        background: $bg-image;
+        color: $theme-text;
 
-/* ================================================================
+        .navbar,
+        .error-main {
+            background: $clr-gray-20-t;
+        }
+
+        .error-main {
+            padding: 15vh;
+        }
+
+        .gif {
+            background: $theme-text;
+            border-radius: 5vw;
+            box-shadow: $box-shadow-light;
+            width: calc(20vw + 100px);
+        }
+
+        .text {
+            padding-top: 6vh;
+        }
+
+    }
+
+    /* ================================================================
+loading-page.php */
+
+    /* loading display */
+    .loader {
+        left: 0;
+        top: 0;
+        z-index: 99;
+
+        /* when the loader hides */
+        &.hidden {
+            animation: fadeOut 0.5s;
+            animation-fill-mode: forwards;
+        }
+
+        /* loading gif */
+        img {
+            width: 25vw;
+        }
+
+        /* loading subtitle */
+        .subtitle {
+            font-size: 1.5rem;
+        }
+
+    }
+
+    /* ================================================================
 header.php */
 
     /* <header> tag */
@@ -299,34 +353,34 @@ header.php */
             .login-btn,
             .logout-btn {
                 :hover {
-                    color: var(--theme-text);
+                    color: $theme-text;
                 }
             }
 
             .login-btn {
-                color: var(--theme-login);
+                color: $theme-login;
 
                 &,
                 &:hover {
-                    border-color: var(--theme-login);
+                    border-color: $theme-login;
                 }
 
                 &:hover {
-                    background-color: var(--theme-login);
+                    background-color: $theme-login;
                 }
 
             }
 
             .logout-btn {
-                color: var(--theme-logout);
+                color: $theme-logout;
 
                 &,
                 &:hover {
-                    border-color: var(--theme-logout);
+                    border-color: $theme-logout;
                 }
 
                 &:hover {
-                    background-color: var(--theme-logout);
+                    background-color: $theme-logout;
                 }
 
             }
@@ -335,8 +389,8 @@ header.php */
 
         /* mobile dropdown toggle button */
         .navbar-toggler {
-            border-color: var(--theme-text);
-            transition: var(--transition-size-text);
+            border-color: $theme-text;
+            transition: $transition-size-text;
 
             &:hover,
             &:focus-visible {
@@ -366,10 +420,10 @@ header.php */
             /* content in mobile dropdown */
             &.collapsing,
             &.show {
-                background-color: var(--theme-bg);
-                border: 1px solid var(--clr-gray-90);
+                background-color: $theme-bg;
+                border: 1px solid $clr-gray-90;
                 border-radius: 5px;
-                box-shadow: var(--box-shadow-direct-light);
+                box-shadow: $box-shadow-direct-light;
                 padding-block: 0.75rem;
                 transform: translateY(1rem);
                 z-index: 1;
@@ -393,7 +447,7 @@ header.php */
             font-size: 1rem;
             line-height: 1;
             padding: 0.75rem;
-            transition: var(--transition-size-text);
+            transition: $transition-size-text;
 
             &:hover,
             &:focus-visible {
@@ -411,20 +465,20 @@ header.php */
             &-list-item {
 
                 &:not(:last-of-type) {
-                    border-bottom: 1px solid var(--clr-gray-80);
+                    border-bottom: 1px solid $clr-gray-80;
                 }
             }
 
             &-item {
                 padding: 0.75vw;
-                transition: var(--transition-clr-text), var(--transition-clr-bg), var(--transition-clr-border);
+                transition: $transition-clr-text, $transition-clr-bg, $transition-clr-border;
 
                 &.active {
-                    background: var(--clr-gray-60);
+                    background: $clr-gray-60;
                 }
 
                 &:active {
-                    background: var(--clr-gray-20);
+                    background: $clr-gray-20;
                 }
 
             }
@@ -449,8 +503,8 @@ header.php */
                 /* dark theme glow */
                 &,
                 &:hover {
-                    box-shadow: inset 0 0 0.5em 0 var(--clr-white-t), 0 0 0.5em 0 var(--theme-login);
-                    text-shadow: 0 0 0.125em var(--clr-white-t), 0 0 0.45em var(--theme-login);
+                    box-shadow: inset 0 0 0.5em 0 $clr-white-t, 0 0 0.5em 0 $theme-login;
+                    text-shadow: 0 0 0.125em $clr-white-t, 0 0 0.45em $theme-login;
                 }
 
             }
@@ -460,16 +514,16 @@ header.php */
                 /* dark theme glow */
                 &,
                 &:hover {
-                    box-shadow: inset 0 0 0.5em 0 var(--clr-white-t), 0 0 0.5em 0 var(--theme-logout);
-                    text-shadow: 0 0 0.125em var(--clr-white-t), 0 0 0.45em var(--theme-logout);
+                    box-shadow: inset 0 0 0.5em 0 $clr-white-t, 0 0 0.5em 0 $theme-logout;
+                    text-shadow: 0 0 0.125em $clr-white-t, 0 0 0.45em $theme-logout;
                 }
 
             }
 
             /* mobile dropdown toggle button glow - dark backgrounds only */
             .navbar-toggler {
-                box-shadow: inset 0 0 0.5em 0 var(--clr-white-t), 0 0 0.5em 0 currentColor;
-                text-shadow: 0 0 0.125em var(--clr-white-t), 0 0 0.45em currentColor;
+                box-shadow: inset 0 0 0.5em 0 $clr-white-t, 0 0 0.5em 0 currentColor;
+                text-shadow: 0 0 0.125em $clr-white-t, 0 0 0.45em currentColor;
             }
 
             .navbar-collapse {
@@ -477,8 +531,8 @@ header.php */
                 /* content in mobile dropdown - dark backgrounds */
                 &.collapsing,
                 &.show {
-                    border: 1px solid var(--clr-gray-20);
-                    box-shadow: var(--box-shadow-direct-dark);
+                    border: 1px solid $clr-gray-20;
+                    box-shadow: $box-shadow-direct-dark;
                 }
 
             }
@@ -487,98 +541,43 @@ header.php */
 
     }
 
-}
 
-/* ================================================================
-403,404.shtml */
-
-#error {
-    background: var(--bg-image);
-    color: var(--theme-text);
-
-    .navbar,
-    .error-main {
-        background: var(--clr-gray-20-t);
-    }
-
-    .error-main {
-        padding: 15vh;
-    }
-
-    .gif {
-        background: var(--theme-text);
-        border-radius: 5vw;
-        box-shadow: var(--box-shadow-light);
-        width: calc(20vw + 100px);
-    }
-
-    .text {
-        padding-top: 6vh;
-    }
-
-}
-
-/* ================================================================
-loading-page.php */
-
-/* loading display */
-.loader {
-    left: 0;
-    top: 0;
-    z-index: 99;
-
-    /* when the loader hides */
-    &.hidden {
-        animation: fadeOut 0.5s;
-        animation-fill-mode: forwards;
-    }
-
-    /* loading gif */
-    img {
-        width: 25vw;
-    }
-
-    /* loading subtitle */
-    .subtitle {
-        font-size: 1.5rem;
-    }
-
-}
-
-/* ================================================================
+    /* ================================================================
 login-profile.php */
 
-#profile {
+    #profile {
 
-    #profile-form {
-        background: var(--clr-gray-80);
-        border: 1px solid var(--clr-gray-40);
-        margin: 1.5vw 7vw;
-        padding: 2vw;
+        #profile-form {
+            background: $clr-gray-80;
+            border: 1px solid $clr-gray-40;
+            margin: 1.5vw 7vw;
+            padding: 2vw;
+        }
+
     }
 
-}
 
-
-/* ================================================================
+    /* ================================================================
 include/footer.php */
 
-footer {
-    bottom: 2vw;
-    position: fixed;
-    right: 2vw;
+    footer {
+        bottom: 2vw;
+        position: fixed;
+        right: 2vw;
 
-    .footer-btn {
-        border: 1px solid var(--clr-gray-80);
-        box-shadow: var(--box-shadow-direct-dark);
-        overflow: hidden;
-        transition: var(--transition-size-text);
-
-        &:hover {
-            border: 1px solid var(--clr-gray-80);
-            box-shadow: var(--box-shadow-direct-dark);
-            font-size: 1.1rem;
+        .footer-btn {
+            border: 1px solid $clr-gray-80;
+            box-shadow: $box-shadow-direct-dark;
             overflow: hidden;
+            transition: $transition-size-text;
+
+            &:hover {
+                border: 1px solid $clr-gray-80;
+                box-shadow: $box-shadow-direct-dark;
+                font-size: 1.1rem;
+                overflow: hidden;
+            }
+
         }
 
     }
