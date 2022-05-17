@@ -115,7 +115,8 @@ body#kpop #group-sidebar #group-nav .nav-item {
 }
 
 body#kpop #group-sidebar #group-nav .nav-item {
-  transition: --transition-clr-text, --transition-clr-bg, --transition-clr-border;
+  -webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 }
 
 body#kpop #group-sidebar #group-nav #group-nav-header {
@@ -244,7 +245,8 @@ body#kpop #groups .group-category .group-info .group-property {
       -ms-flex-positive: 1;
           flex-grow: 1;
   padding: 1vw 0;
-  transition: --transition-clr-text, --transition-clr-bg, --transition-clr-border;
+  -webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 }
 
 body#kpop #groups .group-category .group-info .group-property:hover {
