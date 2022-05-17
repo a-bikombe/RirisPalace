@@ -128,6 +128,9 @@ body #group-sidebar #group-nav .nav-item {
 
 body #group-sidebar #group-nav .nav-item:hover {
   background: black;
+}
+
+body #group-sidebar #group-nav .nav-item:hover .nav-link {
   color: white;
 }
 
