@@ -264,7 +264,7 @@ login-profile.php */
 include/footer.php */
 }
 
-body body,
+body,
 body .loader {
   background: #c2e0f0;
 }
