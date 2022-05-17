@@ -478,6 +478,11 @@ header.php */
 
     /* initialize dark theme */
     &.dark-theme {
+        $theme-bg: $clr-gray-10;
+        $theme-text: $clr-white;
+        $theme-link: $clr-blue-light;
+        $theme-login: $clr-green;
+        $theme-logout: $clr-red;
 
         /* dark theme header.php */
         #header-banner {
