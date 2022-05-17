@@ -1,93 +1,89 @@
 @import 'variables';
 
 body {
+    $bg-color: $clr-black;
+    color: $clr-white;
 
-    &#stranger-things {
-        $bg-color: $clr-black;
-        color: $clr-white;
-    
-        h1 {
-            color: $clr-red-bright;
-            text-shadow: 0 0 0.125em hsla(0, 0%, 100%, 0.3), 0 0 0.45em $clr-red-bright;
-        }
-        
-        h2 {
-            font-size: 2rem;
-        }
-        
-        h3 {
-            font-size: 1.3rem;
-        }
-        
-        main {
-            padding: 50px 20vw;
-        }
-        
-        #intro .no-link-color {
-            color: $clr-white;
-        }
-        
-        #plot {
-            margin: 40px 0;
-        }
-        
-        /* season */
-        .season {
-            background: $clr-white;
-            border: 1px solid $clr-gray-40;
-            color: $clr-black;
-            padding: 2vw 3vw;
-        }
-        
-        /* space between seasons */
-        .season:not(:first-of-type) {
-            margin-top: 50px;
-        }
-        
-        /* character */
-        .character {
-            padding: 20px 0;
-        }
-        
-        /* horizontal line between every character */
-        .character:not(:last-child) {
-            border-bottom: 1px solid $clr-gray-60;
-        }
-        
-        /* character image and name */
-        .character-image-name {
-            width: 40%;
-        }
-        
-        /* character image carousel */
-        .character-image-carousel {
-            aspect-ratio: 9 / 16;
-            margin: auto auto 10px;
-            width: 80%;
-        }
-        
-        /* don't hide season caption on mobile */
-        .carousel-caption.d-none {
-            display: block!important;
-            font-size: 1rem;
-        }
-        
-        .character-image {
-            aspect-ratio: 9 / 16;
-            object-fit: cover;
-        }
-        
-        /* character description */
-        .character-description {
-            padding-left: 2vw;
-            width: 60%;
-        }
-        
-        /* character description items */
-        .character-description-item {
-            margin-bottom: 5px;
-        }
-        
+    h1 {
+        color: $clr-red-bright;
+        text-shadow: 0 0 0.125em hsla(0, 0%, 100%, 0.3), 0 0 0.45em $clr-red-bright;
     }
-    
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    main {
+        padding: 50px 20vw;
+    }
+
+    #intro .no-link-color {
+        color: $clr-white;
+    }
+
+    #plot {
+        margin: 40px 0;
+    }
+
+    /* season */
+    .season {
+        background: $clr-white;
+        border: 1px solid $clr-gray-40;
+        color: $clr-black;
+        padding: 2vw 3vw;
+    }
+
+    /* space between seasons */
+    .season:not(:first-of-type) {
+        margin-top: 50px;
+    }
+
+    /* character */
+    .character {
+        padding: 20px 0;
+    }
+
+    /* horizontal line between every character */
+    .character:not(:last-child) {
+        border-bottom: 1px solid $clr-gray-60;
+    }
+
+    /* character image and name */
+    .character-image-name {
+        width: 40%;
+    }
+
+    /* character image carousel */
+    .character-image-carousel {
+        aspect-ratio: 9 / 16;
+        margin: auto auto 10px;
+        width: 80%;
+    }
+
+    /* don't hide season caption on mobile */
+    .carousel-caption.d-none {
+        display: block !important;
+        font-size: 1rem;
+    }
+
+    .character-image {
+        aspect-ratio: 9 / 16;
+        object-fit: cover;
+    }
+
+    /* character description */
+    .character-description {
+        padding-left: 2vw;
+        width: 60%;
+    }
+
+    /* character description items */
+    .character-description-item {
+        margin-bottom: 5px;
+    }
+
 }
