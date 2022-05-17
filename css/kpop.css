@@ -288,13 +288,14 @@ body #content-dashboard .content-table table td {
   border: 1px solid #1a1a1a;
 }
 
-body #content-dashboard .content-table table th, body #content-dashboard .content-table table th.group-name,
-body #content-dashboard .content-table table td,
+body #content-dashboard .content-table table th {
+  background: #e6e6e6;
+}
+
 body #content-dashboard .content-table table td.group-name {
   background: #e6e6e6;
 }
 
-body #content-dashboard .content-table table th.content,
 body #content-dashboard .content-table table td.content {
   text-transform: capitalize;
 }

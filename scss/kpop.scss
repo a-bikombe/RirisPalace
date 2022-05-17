@@ -278,8 +278,14 @@ body {
                 td {
                     background: $clr-white;
                     border: 1px solid $clr-gray-10;
+                }
 
-                    &,
+                th {
+                    background: $clr-gray-90;
+                }
+
+                td {
+
                     &.group-name {
                         background: $clr-gray-90;
                     }
