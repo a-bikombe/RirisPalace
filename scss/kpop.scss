@@ -283,10 +283,11 @@ body {
                         background: $clr-gray-90;
                     }
 
-                    .content {
+                    &.content {
                         background: $clr-white;
                         text-transform: capitalize;
                     }
+                    
                 }
 
             }

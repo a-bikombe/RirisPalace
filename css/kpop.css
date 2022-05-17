@@ -293,8 +293,8 @@ body #content-dashboard .content-table table td.group-name {
   background: #e6e6e6;
 }
 
-body #content-dashboard .content-table table th .content,
-body #content-dashboard .content-table table td .content {
+body #content-dashboard .content-table table th.content,
+body #content-dashboard .content-table table td.content {
   background: white;
   text-transform: capitalize;
 }
