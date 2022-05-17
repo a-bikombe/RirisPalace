@@ -96,7 +96,14 @@ body {
             }
 
             .nav-item {
+                border-radius: 5px;
                 transition: $transition-clr-text, $transition-clr-bg, $transition-clr-border;
+
+                &:hover {
+                    background: $clr-black;
+                    color: $clr-white;
+                }
+
             }
 
             #group-nav-header {
@@ -106,12 +113,6 @@ body {
             .nav-link {
                 color: $clr-gray-10;
                 padding: 0.5vh;
-
-                &:hover {
-                    background: $clr-black;
-                    color: $clr-white;
-                }
-
             }
 
         }

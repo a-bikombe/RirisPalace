@@ -121,8 +121,14 @@ body #group-sidebar #group-nav .nav-item {
 }
 
 body #group-sidebar #group-nav .nav-item {
+  border-radius: 5px;
   -webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+body #group-sidebar #group-nav .nav-item:hover {
+  background: black;
+  color: white;
 }
 
 body #group-sidebar #group-nav #group-nav-header {
@@ -132,11 +138,6 @@ body #group-sidebar #group-nav #group-nav-header {
 body #group-sidebar #group-nav .nav-link {
   color: #1a1a1a;
   padding: 0.5vh;
-}
-
-body #group-sidebar #group-nav .nav-link:hover {
-  background: black;
-  color: white;
 }
 
 body .kpop-section {
