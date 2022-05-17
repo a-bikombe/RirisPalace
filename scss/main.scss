@@ -216,12 +216,6 @@ layout */
 
 /* initialize light and dark themes */
 body {
-    $theme-bg: $clr-white;
-    $theme-text: $clr-gray-10;
-    $theme-link: $clr-blue-dark;
-    $theme-login: $clr-green-dark;
-    $theme-logout: $clr-red-dark;
-    $bg-color: $clr-blue-light;
     font-family: Avenir, Helvetica, sans-serif;
 
     /* set initial background color */
@@ -484,11 +478,6 @@ header.php */
 
     /* initialize dark theme */
     .dark-theme {
-        $theme-bg: $clr-gray-10;
-        $theme-text: $clr-white;
-        $theme-link: $clr-blue-light;
-        $theme-login: $clr-green;
-        $theme-logout: $clr-red;
 
         /* dark theme header.php */
         #header-banner {
