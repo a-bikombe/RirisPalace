@@ -291,11 +291,11 @@ body #content-dashboard .content-table table th {
   background: #e6e6e6;
 }
 
-body #content-dashboard .content-table table td {
-  background: white;
+body #content-dashboard .content-table table td.group-name {
+  background: #e6e6e6;
 }
 
-body #content-dashboard .content-table table td.group-name {
+body #content-dashboard .content-table table td:not(.group-name) {
   background: #e6e6e6;
 }
 

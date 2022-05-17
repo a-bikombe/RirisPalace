@@ -284,9 +284,12 @@ body {
                 }
 
                 td {
-                    background: $clr-white;
 
                     &.group-name {
+                        background: $clr-gray-90;
+                    }
+
+                    &:not(.group-name) {
                         background: $clr-gray-90;
                     }
 
