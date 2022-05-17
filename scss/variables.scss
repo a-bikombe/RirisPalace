@@ -48,7 +48,10 @@ $theme-text: $clr-gray-10;
 $theme-link: $clr-blue-dark;
 $theme-login: $clr-green-dark;
 $theme-logout: $clr-red-dark;
-$bg-color: $clr-blue-light;
+
+body {
+	$bg-color: $clr-blue-light;
+}
 
 .dark-theme {
     $theme-bg: $clr-gray-10;
