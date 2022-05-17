@@ -591,6 +591,18 @@ body.dark-theme #header-banner .navbar-collapse.collapsing, body.dark-theme #hea
           box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.2);
 }
 
+body.dark-theme footer .footer-btn {
+  border: 1px solid #1a1a1a;
+  -webkit-box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.2);
+}
+
+body.dark-theme footer .footer-btn:hover {
+  border: 1px solid #1a1a1a;
+  -webkit-box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.2);
+          box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.2);
+}
+
 body #profile #profile-form {
   background: #cccccc;
   border: 1px solid #666666;
