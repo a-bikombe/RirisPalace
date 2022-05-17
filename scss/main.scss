@@ -216,10 +216,10 @@ layout */
 
 /* initialize light and dark themes */
 body {
-    background: $bg-color;
     font-family: Avenir, Helvetica, sans-serif;
 
     /* set initial background color */
+    &,
     .loader {
         background: $bg-color;
     }

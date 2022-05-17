@@ -10,7 +10,7 @@ general */
   font-size: 15px;
 }
 
-body#kpop {
+body {
   /* ================================================================
     #group-sidebar */
   /* ================================================================
@@ -23,11 +23,17 @@ body#kpop {
     #content-dashboard */
 }
 
-body#kpop h2 {
+body,
+body .loader {
+  background: -webkit-gradient(linear, left top, right top, from(#f7cbca), to(#94b4eb));
+  background: linear-gradient(to right, #f7cbca, #94b4eb);
+}
+
+body h2 {
   padding-bottom: 1vw;
 }
 
-body#kpop main {
+body main {
   -ms-grid-column: 2;
   -ms-grid-column-span: 6;
   grid-column: 2 / 8;
@@ -38,16 +44,16 @@ body#kpop main {
 }
 
 @media (min-width: 576px) {
-  body#kpop .modal-dialog {
+  body .modal-dialog {
     max-width: 500px;
   }
 }
 
-body#kpop .modal li {
+body .modal li {
   padding: 0.5vh;
 }
 
-body#kpop .modal .modal-img {
+body .modal .modal-img {
   border: 1px solid #666666;
   border-radius: 5px;
   height: auto;
@@ -56,11 +62,11 @@ body#kpop .modal .modal-img {
   width: 90%;
 }
 
-body#kpop .construction-gif {
+body .construction-gif {
   height: 20vw;
 }
 
-body#kpop #group-sidebar {
+body #group-sidebar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -76,7 +82,7 @@ body#kpop #group-sidebar {
   min-width: 150px;
 }
 
-body#kpop #group-sidebar #group-nav {
+body #group-sidebar #group-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -89,66 +95,66 @@ body#kpop #group-sidebar #group-nav {
   /* scrollbar for group-nav */
 }
 
-body#kpop #group-sidebar #group-nav::-webkit-scrollbar {
+body #group-sidebar #group-nav::-webkit-scrollbar {
   width: 6px;
 }
 
-body#kpop #group-sidebar #group-nav::-webkit-scrollbar-track {
+body #group-sidebar #group-nav::-webkit-scrollbar-track {
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 4px #666666;
           box-shadow: inset 0 0 4px #666666;
 }
 
-body#kpop #group-sidebar #group-nav::-webkit-scrollbar-thumb {
+body #group-sidebar #group-nav::-webkit-scrollbar-thumb {
   background: #666666;
   border-radius: 10px;
   /* Handle on hover */
 }
 
-body#kpop #group-sidebar #group-nav::-webkit-scrollbar-thumb:hover {
+body #group-sidebar #group-nav::-webkit-scrollbar-thumb:hover {
   background: #1a1a1a;
 }
 
-body#kpop #group-sidebar #group-nav #group-nav-header,
-body#kpop #group-sidebar #group-nav .nav-item {
+body #group-sidebar #group-nav #group-nav-header,
+body #group-sidebar #group-nav .nav-item {
   margin: 0.25vh 2vh;
 }
 
-body#kpop #group-sidebar #group-nav .nav-item {
+body #group-sidebar #group-nav .nav-item {
   -webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 }
 
-body#kpop #group-sidebar #group-nav #group-nav-header {
+body #group-sidebar #group-nav #group-nav-header {
   border: 2px solid #1a1a1a;
 }
 
-body#kpop #group-sidebar #group-nav .nav-link {
+body #group-sidebar #group-nav .nav-link {
   color: #1a1a1a;
   padding: 0.5vh;
 }
 
-body#kpop #group-sidebar #group-nav .nav-link:hover {
+body #group-sidebar #group-nav .nav-link:hover {
   color: white;
 }
 
-body#kpop .kpop-section {
+body .kpop-section {
   margin: 5vw 0;
 }
 
-body#kpop .kpop-section:not(#ults) {
+body .kpop-section:not(#ults) {
   border: 1px solid #1a1a1a;
   padding: 2vw;
 }
 
-body#kpop #ults {
+body #ults {
   gap: 2vw;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
-body#kpop #ults .ult {
+body #ults .ult {
   background: #1a1a1a;
   border: 1px solid #1a1a1a;
   color: white;
@@ -161,46 +167,46 @@ body#kpop #ults .ult {
   width: 100%;
 }
 
-body#kpop #ults .ult-info {
+body #ults .ult-info {
   gap: 1vw;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
 }
 
-body#kpop #ults .ult-modal {
+body #ults .ult-modal {
   color: #1a1a1a;
 }
 
-body#kpop #ults .ult-btn, body#kpop #ults .ult-btn-img {
+body #ults .ult-btn, body #ults .ult-btn-img {
   aspect-ratio: 1 / 1;
   width: 15vw;
 }
 
-body#kpop #ults .ult-btn-img {
+body #ults .ult-btn-img {
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-body#kpop #groups {
+body #groups {
   background: #999999;
 }
 
-body#kpop #groups .group-category {
+body #groups .group-category {
   background: #d9d9d9;
   border: 1px solid #1a1a1a;
   padding: 2vw;
 }
 
-body#kpop #groups .group-category-button:hover {
+body #groups .group-category-button:hover {
   cursor: pointer;
 }
 
-body#kpop #groups .group-category:not(:first-of-type) {
+body #groups .group-category:not(:first-of-type) {
   margin-top: 3vw;
 }
 
-body#kpop #groups .group-category .group {
+body #groups .group-category .group {
   background: white;
   border: 1px solid #1a1a1a;
   color: #1a1a1a;
@@ -209,33 +215,33 @@ body#kpop #groups .group-category .group {
   /* .group-info */
 }
 
-body#kpop #groups .group-category .group:not(:first-of-type) {
+body #groups .group-category .group:not(:first-of-type) {
   margin-top: 3vw;
 }
 
-body#kpop #groups .group-category .group:hover {
+body #groups .group-category .group:hover {
   cursor: pointer;
 }
 
-body#kpop #groups .group-category .group-image-btn:hover {
+body #groups .group-category .group-image-btn:hover {
   aspect-ratio: 1 / 1;
   border: none;
   width: 20px;
 }
 
-body#kpop #groups .group-category .group-stats {
+body #groups .group-category .group-stats {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
 }
 
-body#kpop #groups .group-category .group-info {
+body #groups .group-category .group-info {
   border: 0 solid #1a1a1a;
   gap: 1vw;
   margin-top: 1vw;
 }
 
-body#kpop #groups .group-category .group-info .group-property {
+body #groups .group-category .group-info .group-property {
   border: 1px solid #cccccc;
   border-radius: 7px;
   color: #1a1a1a;
@@ -249,41 +255,41 @@ body#kpop #groups .group-category .group-info .group-property {
   transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 }
 
-body#kpop #groups .group-category .group-info .group-property:hover {
+body #groups .group-category .group-info .group-property:hover {
   background: #1a1a1a;
   color: white;
 }
 
-body#kpop #content-dashboard {
+body #content-dashboard {
   background: #999999;
 }
 
-body#kpop #content-dashboard .content-table,
-body#kpop #content-dashboard .content-table * {
+body #content-dashboard .content-table,
+body #content-dashboard .content-table * {
   margin: 0 auto;
 }
 
-body#kpop #content-dashboard .content-table table * {
+body #content-dashboard .content-table table * {
   padding: 0.75vw;
 }
 
-body#kpop #content-dashboard .content-table table tbody {
+body #content-dashboard .content-table table tbody {
   border-top: 3px solid #1a1a1a;
 }
 
-body#kpop #content-dashboard .content-table table th,
-body#kpop #content-dashboard .content-table table td {
+body #content-dashboard .content-table table th,
+body #content-dashboard .content-table table td {
   border: 1px solid #1a1a1a;
 }
 
-body#kpop #content-dashboard .content-table table th, body#kpop #content-dashboard .content-table table th.group-name,
-body#kpop #content-dashboard .content-table table td,
-body#kpop #content-dashboard .content-table table td.group-name {
+body #content-dashboard .content-table table th, body #content-dashboard .content-table table th.group-name,
+body #content-dashboard .content-table table td,
+body #content-dashboard .content-table table td.group-name {
   background: #e6e6e6;
 }
 
-body#kpop #content-dashboard .content-table table th .content,
-body#kpop #content-dashboard .content-table table td .content {
+body #content-dashboard .content-table table th .content,
+body #content-dashboard .content-table table td .content {
   background: white;
   text-transform: capitalize;
 }

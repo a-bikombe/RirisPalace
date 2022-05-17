@@ -4,7 +4,7 @@ variables */
 /* background variables */
 /* box-shadow variables */
 /* transitions */
-body#stranger-things {
+body {
   color: white;
   /* season */
   /* space between seasons */
@@ -17,77 +17,82 @@ body#stranger-things {
   /* character description items */
 }
 
-body#stranger-things h1 {
+body,
+body .loader {
+  background: black;
+}
+
+body h1 {
   color: red;
   text-shadow: 0 0 0.125em rgba(255, 255, 255, 0.3), 0 0 0.45em red;
 }
 
-body#stranger-things h2 {
+body h2 {
   font-size: 2rem;
 }
 
-body#stranger-things h3 {
+body h3 {
   font-size: 1.3rem;
 }
 
-body#stranger-things main {
+body main {
   padding: 50px 20vw;
 }
 
-body#stranger-things #intro .no-link-color {
+body #intro .no-link-color {
   color: white;
 }
 
-body#stranger-things #plot {
+body #plot {
   margin: 40px 0;
 }
 
-body#stranger-things .season {
+body .season {
   background: white;
   border: 1px solid #666666;
   color: black;
   padding: 2vw 3vw;
 }
 
-body#stranger-things .season:not(:first-of-type) {
+body .season:not(:first-of-type) {
   margin-top: 50px;
 }
 
-body#stranger-things .character {
+body .character {
   padding: 20px 0;
 }
 
-body#stranger-things .character:not(:last-child) {
+body .character:not(:last-child) {
   border-bottom: 1px solid #999999;
 }
 
-body#stranger-things .character-image-name {
+body .character-image-name {
   width: 40%;
 }
 
-body#stranger-things .character-image-carousel {
+body .character-image-carousel {
   aspect-ratio: 9 / 16;
   margin: auto auto 10px;
   width: 80%;
 }
 
-body#stranger-things .carousel-caption.d-none {
+body .carousel-caption.d-none {
   display: block !important;
   font-size: 1rem;
 }
 
-body#stranger-things .character-image {
+body .character-image {
   aspect-ratio: 9 / 16;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-body#stranger-things .character-description {
+body .character-description {
   padding-left: 2vw;
   width: 60%;
 }
 
-body#stranger-things .character-description-item {
+body .character-description-item {
   margin-bottom: 5px;
 }
 /*# sourceMappingURL=stranger-things.css.map */
