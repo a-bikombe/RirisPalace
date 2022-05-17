@@ -8,203 +8,208 @@ general */
 
 /* ------------ UTILITIES ------------- */
 
-/* ~~~ ANIMATIONS ~~~ */
+* {
 
-/* fade-in animation */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
+    /* ~~~ ANIMATIONS ~~~ */
+
+    /* fade-in animation */
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
     }
 
-    to {
-        opacity: 1;
+    /* fade-out animation */
+    @keyframes fadeOut {
+        100% {
+            opacity: 0;
+            visibility: hidden;
+        }
     }
-}
 
-/* fade-out animation */
-@keyframes fadeOut {
-    100% {
-        opacity: 0;
-        visibility: hidden;
+    /* ~~~ DISPLAY, POSITION ~~~ */
+
+    /* full page */
+
+    .vh-100 {
+        height: 100vh;
     }
+
+    .vw-100 {
+        width: 100vw;
+    }
+
+    .h-100 {
+        height: 100%;
+    }
+
+    .w-100 {
+        width: 100%;
+    }
+
+    /* hidden */
+    .hidden {
+        display: none;
+    }
+
+    /* form inputs */
+    .input-block {
+        margin: 1vw 0;
+    }
+
+    /* initialize flex */
+    .flex,
+    .flex-center {
+        display: flex;
+    }
+
+    /* align vertically */
+    .flex-align-center,
+    .flex-center {
+        align-items: center;
+    }
+
+    /* align vertically and horizontally */
+    .flex-center {
+        justify-content: center;
+    }
+
+    /* grid */
+    .grid {
+        display: grid;
+        grid-template-columns: 8;
+        grid-template-rows: 15;
+    }
+
+    /* fixed position */
+    .fixed {
+        position: fixed;
+    }
+
+    /* ~~~ FLEX DIRECTIONS ~~~ */
+
+    /* row */
+    .dir-row {
+        flex-direction: row;
+    }
+
+    /* column */
+    .dir-col {
+        flex-direction: column;
+    }
+
+    /* change to column on mobile */
+    .dir-change {
+        flex-direction: row;
+    }
+
+    /* ~~~ PADDING ~~~ */
+
+    .p-1vw {
+        padding: 1vw;
+    }
+
+    .pt-1vw {
+        padding-top: 1vw;
+    }
+
+    .m-1vw {
+        margin: 1vw;
+    }
+
+    /* ~~~ BORDER-RADIUS ~~~ */
+
+    .border-5px,
+    .border-5px>button {
+        border-radius: 5px;
+    }
+
+    .border-10px {
+        border-radius: 10px;
+    }
+
+    /* ~~~ TYPOGRAPHY ~~~ */
+
+    .bold {
+        font-weight: bold;
+    }
+
+    .italic {
+        font-style: italic;
+    }
+
+    .no-decor {
+        text-decoration: none;
+    }
+
+    h1,
+    .uppercase {
+        text-transform: uppercase;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    .text-center {
+        text-align: center;
+    }
+
+    .no-link-color {
+        color: inherit;
+    }
+
+    .not-applicable {
+        color: $clr-pink-bright;
+    }
+
+    .single-space {
+        line-height: 1;
+    }
+
+    /* ~~~ TEXT SIZING ~~~ */
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    h4 {
+        font-size: 1.4rem;
+    }
+
+    h5 {
+        font-size: 1.2rem;
+    }
+
+    h6 {
+        font-size: 1.1rem;
+    }
+
+    figcaption {
+        font-size: 1.3rem;
+    }
+
+    .subtitle {
+        font-size: 1.2rem;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
 }
 
-/* ~~~ DISPLAY, POSITION ~~~ */
-
-/* full page */
-
-.vh-100 {
-    height: 100vh;
-}
-
-.vw-100 {
-    width: 100vw;
-}
-
-.h-100 {
-    height: 100%;
-}
-
-.w-100 {
-    width: 100%;
-}
-
-/* hidden */
-.hidden {
-    display: none;
-}
-
-/* form inputs */
-.input-block {
-    margin: 1vw 0;
-}
-
-/* initialize flex */
-.flex,
-.flex-center {
-    display: flex;
-}
-
-/* align vertically */
-.flex-align-center,
-.flex-center {
-    align-items: center;
-}
-
-/* align vertically and horizontally */
-.flex-center {
-    justify-content: center;
-}
-
-/* grid */
-.grid {
-    display: grid;
-    grid-template-columns: 8;
-    grid-template-rows: 15;
-}
-
-/* fixed position */
-.fixed {
-    position: fixed;
-}
-
-/* ~~~ FLEX DIRECTIONS ~~~ */
-
-/* row */
-.dir-row {
-    flex-direction: row;
-}
-
-/* column */
-.dir-col {
-    flex-direction: column;
-}
-
-/* change to column on mobile */
-.dir-change {
-    flex-direction: row;
-}
-
-/* ~~~ PADDING ~~~ */
-
-.p-1vw {
-    padding: 1vw;
-}
-
-.pt-1vw {
-    padding-top: 1vw;
-}
-
-.m-1vw {
-    margin: 1vw;
-}
-
-/* ~~~ BORDER-RADIUS ~~~ */
-
-.border-5px,
-.border-5px>button {
-    border-radius: 5px;
-}
-
-.border-10px {
-    border-radius: 10px;
-}
-
-/* ~~~ TYPOGRAPHY ~~~ */
-
-.bold {
-    font-weight: bold;
-}
-
-.italic {
-    font-style: italic;
-}
-
-.no-decor {
-    text-decoration: none;
-}
-
-h1,
-.uppercase {
-    text-transform: uppercase;
-}
-
-h1,
-h2,
-h3,
-h4,
-.text-center {
-    text-align: center;
-}
-
-.no-link-color {
-    color: inherit;
-}
-
-.not-applicable {
-    color: $clr-pink-bright;
-}
-
-.single-space {
-    line-height: 1;
-}
-
-/* ~~~ TEXT SIZING ~~~ */
-
-h1 {
-    font-size: 3rem;
-}
-
-h2 {
-    font-size: 2rem;
-}
-
-h3 {
-    font-size: 1.5rem;
-}
-
-h4 {
-    font-size: 1.4rem;
-}
-
-h5 {
-    font-size: 1.2rem;
-}
-
-h6 {
-    font-size: 1.1rem;
-}
-
-figcaption {
-    font-size: 1.3rem;
-}
-
-.subtitle {
-    font-size: 1.2rem;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
 
 /* ================================================================
 layout */
@@ -218,15 +223,6 @@ body {
     $theme-logout: $clr-red-dark;
     $bg-color: $clr-blue-light;
     font-family: Avenir, Helvetica, sans-serif;
-
-    /* initialize dark theme */
-    .dark-theme {
-        $theme-bg: $clr-gray-10;
-        $theme-text: $clr-white;
-        $theme-link: $clr-blue-light;
-        $theme-login: $clr-green;
-        $theme-logout: $clr-red;
-    }
 
     /* set initial background color */
     body,
@@ -276,6 +272,315 @@ body {
     .input-block>label::before {
         color: $clr-red-bright;
         content: "*";
+    }
+
+
+/* ================================================================
+header.php */
+
+    /* <header> tag */
+    #header-banner {
+        grid-column: 1 / span 8;
+        grid-row: 1;
+        margin: 0;
+
+        .navbar {
+            max-height: 65px;
+        }
+
+        .logo {
+            height: 40px;
+        }
+
+        .account {
+
+            /* ~~~ LOGIN / LOGOUT BUTTON ~~~ */
+
+            .login-btn,
+            .logout-btn {
+                :hover {
+                    color: var(--theme-text);
+                }
+            }
+
+            .login-btn {
+                color: var(--theme-login);
+
+                &,
+                &:hover {
+                    border-color: var(--theme-login);
+                }
+
+                &:hover {
+                    background-color: var(--theme-login);
+                }
+
+            }
+
+            .logout-btn {
+                color: var(--theme-logout);
+
+                &,
+                &:hover {
+                    border-color: var(--theme-logout);
+                }
+
+                &:hover {
+                    background-color: var(--theme-logout);
+                }
+
+            }
+
+        }
+
+        /* mobile dropdown toggle button */
+        .navbar-toggler {
+            border-color: var(--theme-text);
+            transition: var(--transition-size-text);
+
+            &:hover,
+            &:focus-visible {
+                font-size: 1.4rem;
+            }
+
+            /* mobile dropdown toggle button icon */
+            &-icon {
+                color: var(-theme-clr-text);
+                height: 100%;
+                padding: 0.25rem;
+                width: 100%;
+            }
+
+        }
+
+        .navbar-collapse {
+
+            /* profile link and login/out button in desktop dropdown */
+            .account {
+                align-items: center;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+            }
+
+            /* content in mobile dropdown */
+            &.collapsing,
+            &.show {
+                background-color: var(--theme-bg);
+                border: 1px solid var(--clr-gray-90);
+                border-radius: 5px;
+                box-shadow: var(--box-shadow-direct-light);
+                padding-block: 0.75rem;
+                transform: translateY(1rem);
+                z-index: 1;
+
+                .account {
+                    flex-direction: column;
+
+                    .login-btn,
+                    .logout-btn {
+                        margin-block: 0.75rem;
+                    }
+
+                }
+
+            }
+
+        }
+
+        .navbar-brand,
+        .nav-link {
+            font-size: 1rem;
+            line-height: 1;
+            padding: 0.75rem;
+            transition: var(--transition-size-text);
+
+            &:hover,
+            &:focus-visible {
+                font-size: 1.15rem;
+            }
+        }
+
+        .navbar-brand {
+            margin-inline: 1.25rem;
+        }
+
+        /* dropdown list - not using currently */
+        /* .dropdown {
+
+            &-list-item {
+
+                &:not(:last-of-type) {
+                    border-bottom: 1px solid var(--clr-gray-80);
+                }
+            }
+
+            &-item {
+                padding: 0.75vw;
+                transition: var(--transition-clr-text), var(--transition-clr-bg), var(--transition-clr-border);
+
+                &.active {
+                    background: var(--clr-gray-60);
+                }
+
+                &:active {
+                    background: var(--clr-gray-20);
+                }
+
+            }
+
+        } */
+
+    }
+
+    /* initialize dark theme */
+    .dark-theme {
+        $theme-bg: $clr-gray-10;
+        $theme-text: $clr-white;
+        $theme-link: $clr-blue-light;
+        $theme-login: $clr-green;
+        $theme-logout: $clr-red;
+
+        /* dark theme header.php */
+        #header-banner {
+
+            .login-btn {
+
+                /* dark theme glow */
+                &,
+                &:hover {
+                    box-shadow: inset 0 0 0.5em 0 var(--clr-white-t), 0 0 0.5em 0 var(--theme-login);
+                    text-shadow: 0 0 0.125em var(--clr-white-t), 0 0 0.45em var(--theme-login);
+                }
+
+            }
+
+            .logout-btn {
+
+                /* dark theme glow */
+                &,
+                &:hover {
+                    box-shadow: inset 0 0 0.5em 0 var(--clr-white-t), 0 0 0.5em 0 var(--theme-logout);
+                    text-shadow: 0 0 0.125em var(--clr-white-t), 0 0 0.45em var(--theme-logout);
+                }
+
+            }
+
+            /* mobile dropdown toggle button glow - dark backgrounds only */
+            .navbar-toggler {
+                box-shadow: inset 0 0 0.5em 0 var(--clr-white-t), 0 0 0.5em 0 currentColor;
+                text-shadow: 0 0 0.125em var(--clr-white-t), 0 0 0.45em currentColor;
+            }
+
+            .navbar-collapse {
+
+                /* content in mobile dropdown - dark backgrounds */
+                &.collapsing,
+                &.show {
+                    border: 1px solid var(--clr-gray-20);
+                    box-shadow: var(--box-shadow-direct-dark);
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+/* ================================================================
+403,404.shtml */
+
+#error {
+    background: var(--bg-image);
+    color: var(--theme-text);
+
+    .navbar,
+    .error-main {
+        background: var(--clr-gray-20-t);
+    }
+
+    .error-main {
+        padding: 15vh;
+    }
+
+    .gif {
+        background: var(--theme-text);
+        border-radius: 5vw;
+        box-shadow: var(--box-shadow-light);
+        width: calc(20vw + 100px);
+    }
+
+    .text {
+        padding-top: 6vh;
+    }
+
+}
+
+/* ================================================================
+loading-page.php */
+
+/* loading display */
+.loader {
+    left: 0;
+    top: 0;
+    z-index: 99;
+
+    /* when the loader hides */
+    &.hidden {
+        animation: fadeOut 0.5s;
+        animation-fill-mode: forwards;
+    }
+
+    /* loading gif */
+    img {
+        width: 25vw;
+    }
+
+    /* loading subtitle */
+    .subtitle {
+        font-size: 1.5rem;
+    }
+
+}
+
+/* ================================================================
+login-profile.php */
+
+#profile {
+
+    #profile-form {
+        background: var(--clr-gray-80);
+        border: 1px solid var(--clr-gray-40);
+        margin: 1.5vw 7vw;
+        padding: 2vw;
+    }
+
+}
+
+
+/* ================================================================
+include/footer.php */
+
+footer {
+    bottom: 2vw;
+    position: fixed;
+    right: 2vw;
+
+    .footer-btn {
+        border: 1px solid var(--clr-gray-80);
+        box-shadow: var(--box-shadow-direct-dark);
+        overflow: hidden;
+        transition: var(--transition-size-text);
+
+        &:hover {
+            border: 1px solid var(--clr-gray-80);
+            box-shadow: var(--box-shadow-direct-dark);
+            font-size: 1.1rem;
+            overflow: hidden;
+        }
+
     }
 
 }
