@@ -1,7 +1,7 @@
 @import 'variables';
 
 #stranger-things {
-    --bg-color: $clr-black;
+    $bg-color: $clr-black;
     color: $clr-white;
 
     h1 {

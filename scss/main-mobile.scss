@@ -11,9 +11,7 @@ footer {
     right: 5vw;
 }
 
-
 /* changed from row on desktop */
-
 .dir-change {
     flex-direction: column;
 }
@@ -22,63 +20,75 @@ footer {
 /* ================================================================
 header.php */
 
-#header-banner .nav-item:not(:first-of-type) {
-    border-top: 1px solid $clr-gray-80;
-}
+#header-banner {
 
-#header-banner .dropdown-item {
-    padding: 1.5vw;
-}
+    .nav-item {
 
+        :not(:first-of-type) {
+            border-top: 1px solid $clr-gray-80;
+        }
+
+    }
+
+}
 
 /* ================================================================
 index.php */
 
-#index .homepage-header {
-    margin: 0 5vw 3vw;
-}
+#index {
 
-#index .preview {
-    padding: 10vw;
-}
+    figcaption {
+        font-size: 1.7rem;
+        padding-top: 3vw;
+    }
 
-#index .preview-image {
-    width: 75vw;
-}
+    .homepage-header {
+        margin: 0 5vw 3vw;
+    }
 
-#index figcaption {
-    font-size: 1.7rem;
-    padding-top: 3vw;
-}
+    .preview {
+        padding: 10vw;
 
+        &-image {
+            width: 75vw;
+        }
+    }
+
+}
 
 /* ================================================================
 stranger-things.php */
 
-#stranger-things h3 {
-    margin: 15px 0 10px;
+#stranger-things {
+
+    h3 {
+        margin: 15px 0 10px;
+    }
+
+    main {
+        padding: 50px 5vw;
+    }
+
+    /* season */
+    .season {
+        padding: 3vh 5vw;
+
+        .character {
+
+            &-image-name,
+            &-description {
+                margin: auto;
+                width: 100%;
+
+                .character-image {
+                    height: calc(90% * 1.49);
+                    object-fit: cover;
+                }
+
+            }
+
+        }
+
+    }
+
 }
-
-#stranger-things main {
-    padding: 50px 5vw;
-}
-
-
-/* season */
-
-#stranger-things .season {
-    padding: 3vh 5vw;
-}
-
-#stranger-things :is( .character-description, .character-image-name) {
-    margin: auto;
-    width: 100%;
-}
-
-#stranger-things .character-image {
-    height: calc(90% * 1.49);
-    object-fit: cover;
-}
-
-
-/* ------------------------------------------------------- */

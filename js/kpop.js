@@ -15,7 +15,7 @@ modalTitles.forEach(modalTitle => {
 }); */
 
 const groups = document.querySelectorAll('.group');
-const groupCategories = document.querySelectorAll('.group-category');
+const groupCategories = document.querySelectorAll('.groups-category');
 
 
 groups.forEach(group => {

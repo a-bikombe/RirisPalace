@@ -5,64 +5,65 @@ index.php */
 #index {
     $bg-color: $clr-purple;
     background: $bg-image;
-}
 
-#index :is(.navbar, main) {
-    background: $clr-gray-20-t;
-}
+    main {
+        background: $clr-gray-20-t;
+    }
 
+    /* header */
+    .homepage-header {
+        background: $clr-white;
+        border: 0px solid $clr-white;
+        color: $clr-gray-20;
+        margin: 0 20vw 3vw;
+    }
 
-/* header */
+    /* previews */
+    .preview {
+        color: $clr-gray-20;
+        gap: 5vw;
+        height: clamp(10px 20vw 30px);
+        justify-content: space-between;
+        overflow: auto;
+        padding: 3vw 10vw;
+        transition: $bg-transition;
+    }
 
-#index .homepage-header {
-    background: $clr-white;
-    border: 0px solid $clr-white;
-    color: $clr-gray-20;
-    margin: 0 20vw 3vw;
-}
+    .preview:nth-of-type(1) {
+        background: $clr-pink-t;
 
+        &:hover,
+        &:focus {
+            background: $clr-pink;
+        }
 
-/* previews */
+    }
 
-#index .preview {
-    color: $clr-gray-20;
-    gap: 5vw;
-    height: clamp(10px 20vw 30px);
-    justify-content: space-between;
-    overflow: auto;
-    padding: 3vw 10vw;
-    transition: $bg-transition;
-}
+    .preview:nth-of-type(2) {
+        background: $clr-purple-t;
 
-#index .preview:nth-of-type(1) {
-    background: $clr-pink-t;
-}
+        &:hover,
+        &:focus {
+            background: $clr-purple;
+        }
 
-#index :is(.preview:nth-of-type(1):hover, .preview:nth-of-type(1):focus) {
-    background: $clr-pink;
-}
+    }
 
-#index .preview:nth-of-type(2) {
-    background: $clr-purple-t;
-}
+    .preview-image {
+        aspect-ratio: 1 / 1;
+        border: 1px solid $clr-white;
+        object-fit: cover;
+        width: 12vw;
+    }
 
-#index :is(.preview:nth-of-type(2):hover, .preview:nth-of-type(2):focus) {
-    background: $clr-purple;
-}
+    figcaption {
+        padding-top: 1vw;
+    }
 
-#index .preview-image {
-    aspect-ratio: 1 / 1;
-    border: 1px solid $clr-white;
-    object-fit: cover;
-    width: 12vw;
-}
+    .more {
+        color: $clr-white;
+        font-size: 1.2rem;
+        transition: $transition-clr-text;
+    }
 
-#index figcaption {
-    padding-top: 1vw;
-}
-
-#index .more {
-    color: $clr-white;
-    font-size: 1.2rem;
-    transition: $transition-clr-text;
 }

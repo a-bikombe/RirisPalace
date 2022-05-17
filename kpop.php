@@ -77,16 +77,16 @@ $underConstruction = '<img class="construction-gif" src="images/gifs/pikachu-con
                     <output class="search-input" id="search-output"></output>
             </div>
 		-->
-		<section class="kpop-section text-center flex flex-align-center" id="ults">
+		<section class="kpop-section text-center flex flex-align-center dir-change" id="ults">
 			<h2 class="hidden">Ults</h2>
 			<section class="ult border-10px text-center" id="ult-bias">
 				<h2>Ult Bias</h2>
-				<section class="ult-info flex flex-align-center">
+				<section class="ult-info flex flex-align-center dir-change">
 					<h4><?= $ultBias ?> (<?= $ultBiasGroup ?>)</h4>
 					<button data-bs-toggle="modal" data-bs-target="#ult-bias-modal" id="ult-bias-btn" class="ult-btn p-0 border-5px">
 						<img src="<?= $ultBiasImage ?>" class="ult-btn-img p-0 border-5px" alt="Ult Bias Thumbnail">
 					</button>
-					<div class="modal fade" id="ult-bias-modal" tabindex="-1" aria-labelledby="ult-bias-modal-label" aria-hidden="true">
+					<div class="ult-modal modal fade" id="ult-bias-modal" tabindex="-1" aria-labelledby="ult-bias-modal-label" aria-hidden="true">
 						<div class="modal-dialog">
 							<div class="modal-content">
 								<div class="modal-header">
@@ -104,13 +104,13 @@ $underConstruction = '<img class="construction-gif" src="images/gifs/pikachu-con
 			</section>
 			<section class="ult border-10px text-center" id="ult-group">
 				<h2>Ult Group</h2>
-				<section class="ult-info flex flex-align-center">
+				<section class="ult-info flex flex-align-center dir-change">
 					<!-- array_keys($group['members'])[1] -->
 					<h4><?= $groups['active']['groups'][array_key_first($groups['active']['groups'])]['name'] ?></h4>
 					<button data-bs-toggle="modal" data-bs-target="#ult-group-modal" id="ult-group-btn" class="ult-btn p-0 border-5px">
 						<img src="<?= $groups['active']['groups'][array_key_first($groups['active']['groups'])]['groupImage'] ?>" class="ult-btn-img p-0 border-5px" alt="Ult Group Thumbnail">
 					</button>
-					<div class="modal fade" id="ult-group-modal" tabindex="-1" aria-labelledby="ult-group-modal-label" aria-hidden="true">
+					<div class="ult-modal modal fade" id="ult-group-modal" tabindex="-1" aria-labelledby="ult-group-modal-label" aria-hidden="true">
 						<div class="modal-dialog">
 							<div class="modal-content">
 								<div class="modal-header">
@@ -132,8 +132,8 @@ $underConstruction = '<img class="construction-gif" src="images/gifs/pikachu-con
 		<section class="kpop-section border-10px" id="groups">
 			<h2>Groups</h2>
 			<?php foreach ($groups as $categoryID => $category) : ?>
-				<section class="group-category border-10px" id="<?= $categoryID ?>">
-					<h3 data-bs-toggle="modal" data-bs-target="#<?= $categoryID ?>-ranking-modal" class="group-category-button"><?= $category['name'] ?></h3>
+				<section class="groups-category border-10px" id="<?= $categoryID ?>">
+					<h3 data-bs-toggle="modal" data-bs-target="#<?= $categoryID ?>-ranking-modal" class="groups-category-button"><?= $category['name'] ?></h3>
 					<div class="modal fade" id="<?= $categoryID ?>-ranking-modal" tabindex="-1" aria-labelledby="<?= $categoryID ?>-ranking-modal-label" aria-hidden="true">
 						<div class="modal-dialog">
 							<div class="modal-content">
@@ -158,10 +158,10 @@ $underConstruction = '<img class="construction-gif" src="images/gifs/pikachu-con
 					<?php foreach ($category['groups'] as $groupID => $group) : ?>
 						<?php if (count($group) > 1) : ?>
 							<section class="group border-10px" id="<?= $groupID ?>">
-								<header class="group-name text-center flex-center">
+								<header class="group-name dir-row text-center flex-center">
 									<h3>
 										<?= $group['name'] ?>
-										<button type="button" class="btn btn-outline-secondary image-btn p-0" title="<?= $group['name'] ?> Image" data-bs-toggle="modal" data-bs-target="#<?= $groupID ?>-image-modal">
+										<button type="button" class="btn btn-outline-secondary group-image-btn p-0" title="<?= $group['name'] ?> Image" data-bs-toggle="modal" data-bs-target="#<?= $groupID ?>-image-modal">
 											<i class="fa-solid fa-image fa-lg"></i>
 										</button>
 										<div class="modal fade" id="<?= $groupID ?>-image-modal" tabindex="-1" aria-labelledby="<?= $groupID ?>-image-modal-label" aria-hidden="true">
@@ -206,7 +206,7 @@ $underConstruction = '<img class="construction-gif" src="images/gifs/pikachu-con
 										'<?= substr($youngestYear, -2) ?>
 									</h6>
 								</section>
-								<section class="group-info flex flex-align-center">
+								<section class="group-info flex flex-align-center dir-change">
 									<button class="group-property text-center bias" data-bs-toggle="modal" data-bs-target="#<?= $groupID ?>-bias-modal">Bias</button>
 									<div class="modal fade" id="<?= $groupID ?>-bias-modal" tabindex="-1" aria-labelledby="<?= $groupID ?>-bias-modal-label" aria-hidden="true">
 										<div class="modal-dialog">
@@ -318,11 +318,13 @@ $underConstruction = '<img class="construction-gif" src="images/gifs/pikachu-con
 							<th>Vlogs</th>
 							<th>Notes</th>
 						</tr>
-					</thead> <?php foreach ($groups as $categoryID => $category) : ?>
+					</thead>
+					<?php foreach ($groups as $categoryID => $category) : ?>
 						<tbody>
 							<?php foreach ($category['groups'] as $group) : ?> <?php if (count($group) > 1) : ?>
 									<tr>
-										<td class="group-name-table italic"><?= $group['name'] ?></td> <?php foreach ($group['content'] as $category => $content) : ?>
+										<td class="group-name-table italic"><?= $group['name'] ?></td>
+										<?php foreach ($group['content'] as $category => $content) : ?>
 											<?php if (empty($content)) { ?>
 												<td class="not-applicable">N/A</td>
 											<?php } else { ?>

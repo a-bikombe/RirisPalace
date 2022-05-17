@@ -111,6 +111,14 @@ general */
 }
 
 /* ~~~ FLEX DIRECTIONS ~~~ */
+/* row */
+.dir-row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
 /* column */
 .dir-col {
   -webkit-box-orient: vertical;
@@ -188,10 +196,6 @@ h4,
   line-height: 1;
 }
 
-.single-space {
-  line-height: 1;
-}
-
 /* ~~~ TEXT SIZING ~~~ */
 h1 {
   font-size: 3rem;
@@ -228,7 +232,8 @@ figcaption {
   text-align: center;
 }
 
-/* layout */
+/* ================================================================
+layout */
 /* initialize light and dark themes */
 body {
   font-family: Avenir, Helvetica, sans-serif;
@@ -250,6 +255,11 @@ body .loader {
 body .transparent-bg * {
   background: transparent;
   color: white;
+}
+
+body .transparent-bg .navbar,
+body .transparent-bg main {
+  background: rgba(51, 51, 51, 0.6);
 }
 
 body main {

@@ -6,24 +6,22 @@ general */
     font-size: 15px;
 }
 
-
 /* ------------ UTILITIES ------------- */
 
 /* ~~~ ANIMATIONS ~~~ */
 
 /* fade-in animation */
-
 @keyframes fadeIn {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
 }
 
 /* fade-out animation */
-
 @keyframes fadeOut {
     100% {
         opacity: 0;
@@ -31,9 +29,7 @@ general */
     }
 }
 
-
 /* ~~~ DISPLAY, POSITION ~~~ */
-
 
 /* full page */
 
@@ -53,74 +49,61 @@ general */
     width: 100%;
 }
 
-
 /* hidden */
-
 .hidden {
     display: none;
 }
 
-
 /* form inputs */
-
 .input-block {
     margin: 1vw 0;
 }
 
-
-
 /* initialize flex */
-
 .flex,
 .flex-center {
     display: flex;
 }
 
-
 /* align vertically */
-
 .flex-align-center,
 .flex-center {
     align-items: center;
 }
 
-
 /* align vertically and horizontally */
-
 .flex-center {
     justify-content: center;
 }
 
-
 /* grid */
-
 .grid {
     display: grid;
     grid-template-columns: 8;
     grid-template-rows: 15;
 }
 
-
 /* fixed position */
-
 .fixed {
     position: fixed;
 }
 
 /* ~~~ FLEX DIRECTIONS ~~~ */
 
-/* column */
+/* row */
+.dir-row {
+    flex-direction: row;
+}
 
+/* column */
 .dir-col {
     flex-direction: column;
 }
 
 /* change to column on mobile */
-
 .dir-change {
     flex-direction: row;
 }
-
 
 /* ~~~ PADDING ~~~ */
 
@@ -186,12 +169,6 @@ h4,
     line-height: 1;
 }
 
-
-.single-space {
-    line-height: 1;
-}
-
-
 /* ~~~ TEXT SIZING ~~~ */
 
 h1 {
@@ -229,12 +206,10 @@ figcaption {
     text-align: center;
 }
 
-
-/* layout */
-
+/* ================================================================
+layout */
 
 /* initialize light and dark themes */
-
 body {
     $theme-bg: $clr-white;
     $theme-text: $clr-gray-10;
@@ -254,7 +229,6 @@ body {
     }
 
     /* set initial background color */
-
     body,
     .loader {
         background: $bg-color;
@@ -262,44 +236,43 @@ body {
 
 
     /* set transparent background */
+    .transparent-bg {
 
-    .transparent-bg *:not(.btn,
-        i) {
-        background: transparent;
-        color: $theme-text;
+        *:not(.btn,
+            i) {
+            background: transparent;
+            color: $theme-text;
+        }
+
+        .navbar,
+        main {
+            background: $clr-gray-20-t;
+        }
+
     }
 
-
     /* main padding and grid initialization */
-
     main {
         grid-column: 1 / span 8;
         grid-row: 2 / span 14;
         padding: 50px 0;
     }
 
-
     /* general components */
 
-
     /* link color */
-
     a:not(.btn,
         .no-link-color) {
         color: $theme-link;
     }
 
-
     /* buttons in button groups (forms) */
-
     .buttons button {
         border: 1px solid $clr-gray-60;
         padding: 0.5vw 1vw;
     }
 
-
     /* "required" asterisk for inputs */
-
     .input-block>label::before {
         color: $clr-red-bright;
         content: "*";

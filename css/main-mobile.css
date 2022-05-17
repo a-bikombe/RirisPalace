@@ -24,16 +24,17 @@ footer {
 
 /* ================================================================
 header.php */
-#header-banner .nav-item:not(:first-of-type) {
+#header-banner .nav-item :not(:first-of-type) {
   border-top: 1px solid #cccccc;
-}
-
-#header-banner .dropdown-item {
-  padding: 1.5vw;
 }
 
 /* ================================================================
 index.php */
+#index figcaption {
+  font-size: 1.7rem;
+  padding-top: 3vw;
+}
+
 #index .homepage-header {
   margin: 0 5vw 3vw;
 }
@@ -46,13 +47,12 @@ index.php */
   width: 75vw;
 }
 
-#index figcaption {
-  font-size: 1.7rem;
-  padding-top: 3vw;
-}
-
 /* ================================================================
 stranger-things.php */
+#stranger-things {
+  /* season */
+}
+
 #stranger-things h3 {
   margin: 15px 0 10px;
 }
@@ -61,21 +61,18 @@ stranger-things.php */
   padding: 50px 5vw;
 }
 
-/* season */
 #stranger-things .season {
   padding: 3vh 5vw;
 }
 
-#stranger-things :is(.character-description, .character-image-name) {
+#stranger-things .season .character-image-name, #stranger-things .season .character-description {
   margin: auto;
   width: 100%;
 }
 
-#stranger-things .character-image {
+#stranger-things .season .character-image-name .character-image, #stranger-things .season .character-description .character-image {
   height: calc(90% * 1.49);
   -o-object-fit: cover;
      object-fit: cover;
 }
-
-/* ------------------------------------------------------- */
 /*# sourceMappingURL=main-mobile.css.map */
