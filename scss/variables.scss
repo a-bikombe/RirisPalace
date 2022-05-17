@@ -43,20 +43,20 @@ $transition-clr-text: color 0.2s ease-in-out;
 $transition-clr-bg: background-color 0.2s ease-in-out;
 $transition-clr-border: border-color 0.2s ease-in-out;
 
-$theme-bg: $clr-white;
-$theme-text: $clr-gray-10;
-$theme-link: $clr-blue-dark;
-$theme-login: $clr-green-dark;
-$theme-logout: $clr-red-dark;
-
 body {
-	$bg-color: $clr-blue-light;
-}
+    $theme-bg: $clr-white;
+    $theme-text: $clr-gray-10;
+    $theme-link: $clr-blue-dark;
+    $theme-login: $clr-green-dark;
+    $theme-logout: $clr-red-dark;
+    $bg-color: $clr-blue-light;
 
-.dark-theme {
-    $theme-bg: $clr-gray-10;
-    $theme-text: $clr-white;
-    $theme-link: $clr-blue-light;
-    $theme-login: $clr-green;
-    $theme-logout: $clr-red;
+	&.dark-theme {
+		$theme-bg: $clr-gray-10;
+		$theme-text: $clr-white;
+		$theme-link: $clr-blue-light;
+		$theme-login: $clr-green;
+		$theme-logout: $clr-red;
+	}
+
 }
