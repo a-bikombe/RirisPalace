@@ -436,7 +436,7 @@ body #header-banner .navbar-toggler:hover, body #header-banner .navbar-toggler:f
 }
 
 body #header-banner .navbar-toggler-icon {
-  color: var(-theme-clr-text);
+  color: #1a1a1a;
   height: 100%;
   padding: 0.25rem;
   width: 100%;
@@ -507,45 +507,45 @@ body #header-banner .navbar-brand {
   margin-inline: 1.25rem;
 }
 
-body .dark-theme {
+body.dark-theme {
   /* dark theme header.php */
 }
 
-body .dark-theme #header-banner {
+body.dark-theme #header-banner {
   /* mobile dropdown toggle button glow - dark backgrounds only */
 }
 
-body .dark-theme #header-banner .login-btn {
+body.dark-theme #header-banner .login-btn {
   /* dark theme glow */
 }
 
-body .dark-theme #header-banner .login-btn, body .dark-theme #header-banner .login-btn:hover {
+body.dark-theme #header-banner .login-btn, body.dark-theme #header-banner .login-btn:hover {
   -webkit-box-shadow: inset 0 0 0.5em 0 rgba(255, 255, 255, 0.2), 0 0 0.5em 0 #b8e0be;
           box-shadow: inset 0 0 0.5em 0 rgba(255, 255, 255, 0.2), 0 0 0.5em 0 #b8e0be;
   text-shadow: 0 0 0.125em rgba(255, 255, 255, 0.2), 0 0 0.45em #b8e0be;
 }
 
-body .dark-theme #header-banner .logout-btn {
+body.dark-theme #header-banner .logout-btn {
   /* dark theme glow */
 }
 
-body .dark-theme #header-banner .logout-btn, body .dark-theme #header-banner .logout-btn:hover {
+body.dark-theme #header-banner .logout-btn, body.dark-theme #header-banner .logout-btn:hover {
   -webkit-box-shadow: inset 0 0 0.5em 0 rgba(255, 255, 255, 0.2), 0 0 0.5em 0 #ebadad;
           box-shadow: inset 0 0 0.5em 0 rgba(255, 255, 255, 0.2), 0 0 0.5em 0 #ebadad;
   text-shadow: 0 0 0.125em rgba(255, 255, 255, 0.2), 0 0 0.45em #ebadad;
 }
 
-body .dark-theme #header-banner .navbar-toggler {
+body.dark-theme #header-banner .navbar-toggler {
   -webkit-box-shadow: inset 0 0 0.5em 0 rgba(255, 255, 255, 0.2), 0 0 0.5em 0 currentColor;
           box-shadow: inset 0 0 0.5em 0 rgba(255, 255, 255, 0.2), 0 0 0.5em 0 currentColor;
   text-shadow: 0 0 0.125em rgba(255, 255, 255, 0.2), 0 0 0.45em currentColor;
 }
 
-body .dark-theme #header-banner .navbar-collapse {
+body.dark-theme #header-banner .navbar-collapse {
   /* content in mobile dropdown - dark backgrounds */
 }
 
-body .dark-theme #header-banner .navbar-collapse.collapsing, body .dark-theme #header-banner .navbar-collapse.show {
+body.dark-theme #header-banner .navbar-collapse.collapsing, body.dark-theme #header-banner .navbar-collapse.show {
   border: 1px solid #333333;
   -webkit-box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.2);
