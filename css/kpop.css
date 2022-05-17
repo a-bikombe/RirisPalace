@@ -135,6 +135,7 @@ body #group-sidebar #group-nav .nav-link {
 }
 
 body #group-sidebar #group-nav .nav-link:hover {
+  background: black;
   color: white;
 }
 
