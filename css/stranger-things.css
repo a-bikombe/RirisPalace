@@ -4,7 +4,7 @@ variables */
 /* background variables */
 /* box-shadow variables */
 /* transitions */
-body {
+body#stranger-things {
   color: white;
   /* season */
   /* space between seasons */
@@ -17,77 +17,77 @@ body {
   /* character description items */
 }
 
-body h1 {
+body#stranger-things h1 {
   color: red;
   text-shadow: 0 0 0.125em rgba(255, 255, 255, 0.3), 0 0 0.45em red;
 }
 
-body h2 {
+body#stranger-things h2 {
   font-size: 2rem;
 }
 
-body h3 {
+body#stranger-things h3 {
   font-size: 1.3rem;
 }
 
-body main {
+body#stranger-things main {
   padding: 50px 20vw;
 }
 
-body #intro .no-link-color {
+body#stranger-things #intro .no-link-color {
   color: white;
 }
 
-body #plot {
+body#stranger-things #plot {
   margin: 40px 0;
 }
 
-body .season {
+body#stranger-things .season {
   background: white;
   border: 1px solid #666666;
   color: black;
   padding: 2vw 3vw;
 }
 
-body .season:not(:first-of-type) {
+body#stranger-things .season:not(:first-of-type) {
   margin-top: 50px;
 }
 
-body .character {
+body#stranger-things .character {
   padding: 20px 0;
 }
 
-body .character:not(:last-child) {
+body#stranger-things .character:not(:last-child) {
   border-bottom: 1px solid #999999;
 }
 
-body .character-image-name {
+body#stranger-things .character-image-name {
   width: 40%;
 }
 
-body .character-image-carousel {
+body#stranger-things .character-image-carousel {
   aspect-ratio: 9 / 16;
   margin: auto auto 10px;
   width: 80%;
 }
 
-body .carousel-caption.d-none {
+body#stranger-things .carousel-caption.d-none {
   display: block !important;
   font-size: 1rem;
 }
 
-body .character-image {
+body#stranger-things .character-image {
   aspect-ratio: 9 / 16;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-body .character-description {
+body#stranger-things .character-description {
   padding-left: 2vw;
   width: 60%;
 }
 
-body .character-description-item {
+body#stranger-things .character-description-item {
   margin-bottom: 5px;
 }
 /*# sourceMappingURL=stranger-things.css.map */
