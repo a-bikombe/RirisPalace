@@ -12,9 +12,9 @@ general */
 }
 
 body {
+    $bg-color: $bg-gradient;
 
     &#kpop {
-        $bg-color: $bg-gradient;
 
         h2 {
             padding-bottom: 1vw;
