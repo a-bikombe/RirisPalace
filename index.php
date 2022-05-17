@@ -29,7 +29,7 @@ $scripts = [
 	<!-- bootstrap navbar -->
 	<?php require_once 'include/header.php' ?>
 	<main>
-		<header class="homepage-header p-1vw text-center border-10px"></header>
+		<header class="homepage-header p-1vw text-center border-10px">
 			<h1>AriBikombe</h1>
 			<p class="subtitle bold"><?= $constructionNotice ?></p>
 		</header>
