@@ -284,12 +284,15 @@ body #content-dashboard .content-table table tbody {
 
 body #content-dashboard .content-table table th,
 body #content-dashboard .content-table table td {
-  background: white;
   border: 1px solid #1a1a1a;
 }
 
 body #content-dashboard .content-table table th {
   background: #e6e6e6;
+}
+
+body #content-dashboard .content-table table td {
+  background: white;
 }
 
 body #content-dashboard .content-table table td.group-name {

@@ -276,7 +276,6 @@ body {
 
                 th,
                 td {
-                    background: $clr-white;
                     border: 1px solid $clr-gray-10;
                 }
 
@@ -285,6 +284,7 @@ body {
                 }
 
                 td {
+                    background: $clr-white;
 
                     &.group-name {
                         background: $clr-gray-90;
