@@ -1,5 +1,5 @@
 // VARIABLE DECLARATIONS
-const loader = document.querySelector('.loader');
+const loader = $('.loader');
 
 // FUNCTION DECLARATIONS
 

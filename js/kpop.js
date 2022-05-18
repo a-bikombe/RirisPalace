@@ -44,7 +44,7 @@ const modalButtons = document.querySelectorAll('[data-bs-toggle="modal"]');
 modalButtons.forEach(modalButton => {
     modalButton.addEventListener('click', function (evt) {
         modal = modalButton.nextElementSibling;
-        let modalImage = modal.querySelector(".modal-img");
+        let modalImage = modal.$(".modal-img");
         if (modalImage !== null && modalImage.getAttribute('data-src') !== null) {
             modalImage.setAttribute('src', modalImage.getAttribute('data-src'));
             modalImage.removeAttribute('data-src');
