@@ -94,6 +94,7 @@ variables */
 }
 
 #stranger-things .character-description {
+  line-height: 1.5;
   padding-left: 2vw;
   width: 60%;
   /* character description items */

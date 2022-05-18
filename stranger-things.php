@@ -127,8 +127,8 @@ $scripts = [
 							</section>
 							<section class="character-description">
 								<ul class="character-description-list">
-									<?php foreach ($characterInfo['content'] as $bulletPoint) : ?> <li> <?= $bulletPoint ?>
-										</li class="character-description-item">
+									<?php foreach ($characterInfo['content'] as $bulletPoint) : ?>
+										<li class="character-description-item"><?= $bulletPoint ?></li>
 									<?php endforeach; ?> </ul>
 							</section>
 						</section>
