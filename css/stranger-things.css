@@ -6,6 +6,8 @@ variables */
 /* transitions */
 #stranger-things {
   color: white;
+  /* season */
+  /* character */
 }
 
 #stranger-things,
@@ -30,20 +32,15 @@ variables */
   padding: 50px 20vw;
 }
 
-#stranger-things #intro {
-  /* season */
-  /* character */
-}
-
 #stranger-things #intro .no-link-color {
   color: white;
 }
 
-#stranger-things #intro .no-link-color #plot {
+#stranger-things #intro #plot {
   margin: 40px 0;
 }
 
-#stranger-things #intro .season {
+#stranger-things .season {
   background: white;
   border: 1px solid #666666;
   color: black;
@@ -51,58 +48,58 @@ variables */
   /* space between seasons */
 }
 
-#stranger-things #intro .season:not(:first-of-type) {
+#stranger-things .season:not(:first-of-type) {
   margin-top: 50px;
 }
 
-#stranger-things #intro .character {
+#stranger-things .character {
   padding: 20px 0;
   /* horizontal line between every character */
   /* character image and name */
   /* character description */
 }
 
-#stranger-things #intro .character:not(:last-child) {
+#stranger-things .character:not(:last-child) {
   border-bottom: 1px solid #999999;
 }
 
-#stranger-things #intro .character .no-link-color {
+#stranger-things .character .no-link-color {
   color: #1a1a1a;
 }
 
-#stranger-things #intro .character-image-name {
+#stranger-things .character-image-name {
   width: 40%;
   /* character image carousel */
 }
 
-#stranger-things #intro .character-image-name .character-image-carousel {
+#stranger-things .character-image-name .character-image-carousel {
   margin: auto auto 10px;
   width: 80%;
   /* don't hide season caption on mobile */
 }
 
-#stranger-things #intro .character-image-name .character-image-carousel,
-#stranger-things #intro .character-image-name .character-image-carousel .character-image {
+#stranger-things .character-image-name .character-image-carousel,
+#stranger-things .character-image-name .character-image-carousel .character-image {
   aspect-ratio: 3 / 4;
 }
 
-#stranger-things #intro .character-image-name .character-image-carousel .character-image {
+#stranger-things .character-image-name .character-image-carousel .character-image {
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-#stranger-things #intro .character-image-name .character-image-carousel .carousel-caption.d-none {
+#stranger-things .character-image-name .character-image-carousel .carousel-caption.d-none {
   display: block !important;
   font-size: 1rem;
 }
 
-#stranger-things #intro .character-description {
+#stranger-things .character-description {
   padding-left: 2vw;
   width: 60%;
   /* character description items */
 }
 
-#stranger-things #intro .character-description-item {
+#stranger-things .character-description-item {
   margin-bottom: 5px;
 }
 /*# sourceMappingURL=stranger-things.css.map */
