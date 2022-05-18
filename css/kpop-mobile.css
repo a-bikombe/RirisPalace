@@ -6,50 +6,53 @@ variables */
 /* transitions */
 /* ================================================================
 general */
-main {
+body {
+  /* ================================================================
+    #group-sidebar */
+  /* ================================================================
+    sections */
+  /* ================================================================
+    #ults */
+  /* ================================================================
+    #groups */
+  /* ================================================================
+    #content-dashboard */
+}
+
+body main {
   -ms-grid-column: 1;
   -ms-grid-column-span: 7;
   grid-column: 1 / 8;
 }
 
-.dir-change {
+body .dir-change {
   width: 100%;
 }
 
-.dir-change#ults,
-.dir-change:not(#ults) > * {
+body .dir-change#ults,
+body .dir-change:not(#ults) > * {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
   width: 100%;
 }
 
-/* ================================================================
-#group-sidebar */
-#group-sidebar {
+body #group-sidebar {
   display: none;
 }
 
-/* ================================================================
-sections */
-.kpop-section {
+body .kpop-section {
   max-width: 100%;
 }
 
-/* ================================================================
-#ults */
-#ults .ult:not(:first-of-type) {
+body #ults .ult:not(:first-of-type) {
   margin-top: 3vw;
 }
 
-#ults .ult .ult-btn-img {
+body #ults .ult .ult-btn-img {
   width: 100%;
 }
 
-/* ================================================================
-#groups */
-/* ================================================================
-#content-dashboard */
-#content-dashboard .content-table {
+body #content-dashboard .content-table {
   overflow: auto;
   width: 85vw;
 }
