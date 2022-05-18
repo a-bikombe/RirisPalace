@@ -188,10 +188,6 @@ h4,
   text-align: center;
 }
 
-.no-link-color {
-  color: inherit;
-}
-
 .not-applicable {
   color: #eb4763;
 }
@@ -281,6 +277,10 @@ body main {
   -ms-grid-row-span: 14;
   grid-row: 2 / span 14;
   padding: 50px 0;
+}
+
+body .no-link-color {
+  color: #1a1a1a;
 }
 
 body a {
@@ -512,6 +512,10 @@ body.dark-theme {
 }
 
 body.dark-theme .transparent-bg {
+  color: white;
+}
+
+body.dark-theme .no-link-color {
   color: white;
 }
 

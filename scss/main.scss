@@ -161,10 +161,6 @@ h4,
     text-align: center;
 }
 
-.no-link-color {
-    color: inherit;
-}
-
 .not-applicable {
     color: $clr-pink-bright;
 }
@@ -243,6 +239,11 @@ body {
     }
 
     /* general components */
+
+
+    .no-link-color {
+        color: $theme-light-text;
+    }
 
     /* link color */
     a:not(.btn,
@@ -480,6 +481,10 @@ header.php */
 
         .transparent-bg:not(.btn,
             i) {
+            color: $theme-dark-text;
+        }
+
+        .no-link-color {
             color: $theme-dark-text;
         }
 
