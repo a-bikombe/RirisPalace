@@ -8,208 +8,207 @@ general */
 
 /* ------------ UTILITIES ------------- */
 
-* {
+/* ~~~ ANIMATIONS ~~~ */
 
-    /* ~~~ ANIMATIONS ~~~ */
-
-    /* fade-in animation */
-    @keyframes fadeIn {
-        from {
-            opacity: 0;
-        }
-
-        to {
-            opacity: 1;
-        }
+/* fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
     }
 
-    /* fade-out animation */
-    @keyframes fadeOut {
-        100% {
-            opacity: 0;
-            visibility: hidden;
-        }
+    to {
+        opacity: 1;
     }
-
-    /* ~~~ DISPLAY, POSITION ~~~ */
-
-    /* full page */
-
-    .vh-100 {
-        height: 100vh;
-    }
-
-    .vw-100 {
-        width: 100vw;
-    }
-
-    .h-100 {
-        height: 100%;
-    }
-
-    .w-100 {
-        width: 100%;
-    }
-
-    /* hidden */
-    .hidden {
-        display: none;
-    }
-
-    /* form inputs */
-    .input-block {
-        margin: 1vw 0;
-    }
-
-    /* initialize flex */
-    .flex,
-    .flex-center {
-        display: flex;
-    }
-
-    /* align vertically */
-    .flex-align-center,
-    .flex-center {
-        align-items: center;
-    }
-
-    /* align vertically and horizontally */
-    .flex-center {
-        justify-content: center;
-    }
-
-    /* grid */
-    .grid {
-        display: grid;
-        grid-template-columns: 8;
-        grid-template-rows: 15;
-    }
-
-    /* fixed position */
-    .fixed {
-        position: fixed;
-    }
-
-    /* ~~~ FLEX DIRECTIONS ~~~ */
-
-    /* row */
-    .dir-row {
-        flex-direction: row;
-    }
-
-    /* column */
-    .dir-col {
-        flex-direction: column;
-    }
-
-    /* change to column on mobile */
-    .dir-change {
-        flex-direction: row;
-    }
-
-    /* ~~~ PADDING ~~~ */
-
-    .p-1vw {
-        padding: 1vw;
-    }
-
-    .pt-1vw {
-        padding-top: 1vw;
-    }
-
-    .m-1vw {
-        margin: 1vw;
-    }
-
-    /* ~~~ BORDER-RADIUS ~~~ */
-
-    .border-5px,
-    .border-5px>button {
-        border-radius: 5px;
-    }
-
-    .border-10px {
-        border-radius: 10px;
-    }
-
-    /* ~~~ TYPOGRAPHY ~~~ */
-
-    .bold {
-        font-weight: bold;
-    }
-
-    .italic {
-        font-style: italic;
-    }
-
-    .no-decor {
-        text-decoration: none;
-    }
-
-    h1,
-    .uppercase {
-        text-transform: uppercase;
-    }
-
-    h1,
-    h2,
-    h3,
-    h4,
-    .text-center {
-        text-align: center;
-    }
-
-    .no-link-color {
-        color: inherit;
-    }
-
-    .not-applicable {
-        color: $clr-pink-bright;
-    }
-
-    .single-space {
-        line-height: 1;
-    }
-
-    /* ~~~ TEXT SIZING ~~~ */
-
-    h1 {
-        font-size: 3rem;
-    }
-
-    h2 {
-        font-size: 2rem;
-    }
-
-    h3 {
-        font-size: 1.5rem;
-    }
-
-    h4 {
-        font-size: 1.4rem;
-    }
-
-    h5 {
-        font-size: 1.2rem;
-    }
-
-    h6 {
-        font-size: 1.1rem;
-    }
-
-    figcaption {
-        font-size: 1.3rem;
-    }
-
-    .subtitle {
-        font-size: 1.2rem;
-        margin: 0;
-        padding: 0;
-        text-align: center;
-    }
-
 }
 
+/* fade-out animation */
+@keyframes fadeOut {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+/* ~~~ DISPLAY, POSITION ~~~ */
+
+/* full page */
+
+.vh-100 {
+    height: 100vh;
+}
+
+.vw-100 {
+    width: 100vw;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+/* hidden */
+.hidden {
+    display: none;
+}
+
+/* form inputs */
+.input-block {
+    margin: 1vw 0;
+}
+
+/* initialize flex */
+.flex,
+.flex-center {
+    display: flex;
+}
+
+/* align vertically */
+.flex-align-center,
+.flex-center {
+    align-items: center;
+}
+
+/* align vertically and horizontally */
+.flex-center {
+    justify-content: center;
+}
+
+/* grid */
+.grid {
+    display: grid;
+    grid-template-columns: 8;
+    grid-template-rows: 15;
+}
+
+/* fixed position */
+.fixed {
+    position: fixed;
+}
+
+/* ~~~ FLEX DIRECTIONS ~~~ */
+
+/* row */
+.dir-row {
+    flex-direction: row;
+}
+
+/* column */
+.dir-col {
+    flex-direction: column;
+}
+
+/* change to column on mobile */
+.dir-change {
+    flex-direction: row;
+}
+
+/* ~~~ PADDING ~~~ */
+
+.p-1vw {
+    padding: 1vw;
+}
+
+.pt-1vw {
+    padding-top: 1vw;
+}
+
+.m-1vw {
+    margin: 1vw;
+}
+
+/* ~~~ BORDER-RADIUS ~~~ */
+
+.border-1vw {
+    border-radius: 1vw;
+}
+
+.border-5px,
+.border-5px>button {
+    border-radius: 5px;
+}
+
+.border-10px {
+    border-radius: 10px;
+}
+
+/* ~~~ TYPOGRAPHY ~~~ */
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.no-decor {
+    text-decoration: none;
+}
+
+h1,
+.uppercase {
+    text-transform: uppercase;
+}
+
+h1,
+h2,
+h3,
+h4,
+.text-center {
+    text-align: center;
+}
+
+.no-link-color {
+    color: inherit;
+}
+
+.not-applicable {
+    color: $clr-pink-bright;
+}
+
+.single-space {
+    line-height: 1;
+}
+
+/* ~~~ TEXT SIZING ~~~ */
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.4rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+h6 {
+    font-size: 1.1rem;
+}
+
+figcaption {
+    font-size: 1.3rem;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
 
 /* ================================================================
 layout */
@@ -580,16 +579,16 @@ header.php */
         }
 
         footer {
-            
+
             .footer-btn {
                 box-shadow: $box-shadow-direct-light;
 
                 &:hover {
                     box-shadow: $box-shadow-direct-light;
                 }
-    
+
             }
-    
+
         }
 
     }

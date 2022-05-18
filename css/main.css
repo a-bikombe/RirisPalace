@@ -11,29 +11,8 @@ general */
 }
 
 /* ------------ UTILITIES ------------- */
-* {
-  /* ~~~ ANIMATIONS ~~~ */
-  /* fade-in animation */
-  /* fade-out animation */
-  /* ~~~ DISPLAY, POSITION ~~~ */
-  /* full page */
-  /* hidden */
-  /* form inputs */
-  /* initialize flex */
-  /* align vertically */
-  /* align vertically and horizontally */
-  /* grid */
-  /* fixed position */
-  /* ~~~ FLEX DIRECTIONS ~~~ */
-  /* row */
-  /* column */
-  /* change to column on mobile */
-  /* ~~~ PADDING ~~~ */
-  /* ~~~ BORDER-RADIUS ~~~ */
-  /* ~~~ TYPOGRAPHY ~~~ */
-  /* ~~~ TEXT SIZING ~~~ */
-}
-
+/* ~~~ ANIMATIONS ~~~ */
+/* fade-in animation */
 @-webkit-keyframes fadeIn {
   from {
     opacity: 0;
@@ -42,7 +21,6 @@ general */
     opacity: 1;
   }
 }
-
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -52,13 +30,13 @@ general */
   }
 }
 
+/* fade-out animation */
 @-webkit-keyframes fadeOut {
   100% {
     opacity: 0;
     visibility: hidden;
   }
 }
-
 @keyframes fadeOut {
   100% {
     opacity: 0;
@@ -66,51 +44,59 @@ general */
   }
 }
 
-* .vh-100 {
+/* ~~~ DISPLAY, POSITION ~~~ */
+/* full page */
+.vh-100 {
   height: 100vh;
 }
 
-* .vw-100 {
+.vw-100 {
   width: 100vw;
 }
 
-* .h-100 {
+.h-100 {
   height: 100%;
 }
 
-* .w-100 {
+.w-100 {
   width: 100%;
 }
 
-* .hidden {
+/* hidden */
+.hidden {
   display: none;
 }
 
-* .input-block {
+/* form inputs */
+.input-block {
   margin: 1vw 0;
 }
 
-* .flex,
-* .flex-center {
+/* initialize flex */
+.flex,
+.flex-center {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-* .flex-align-center,
-* .flex-center {
+/* align vertically */
+.flex-align-center,
+.flex-center {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-* .flex-center {
+/* align vertically and horizontally */
+.flex-center {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-* .grid {
+/* grid */
+.grid {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 8;
@@ -119,118 +105,131 @@ general */
       grid-template-rows: 15;
 }
 
-* .fixed {
+/* fixed position */
+.fixed {
   position: fixed;
 }
 
-* .dir-row {
+/* ~~~ FLEX DIRECTIONS ~~~ */
+/* row */
+.dir-row {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
 }
 
-* .dir-col {
+/* column */
+.dir-col {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
 }
 
-* .dir-change {
+/* change to column on mobile */
+.dir-change {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
 }
 
-* .p-1vw {
+/* ~~~ PADDING ~~~ */
+.p-1vw {
   padding: 1vw;
 }
 
-* .pt-1vw {
+.pt-1vw {
   padding-top: 1vw;
 }
 
-* .m-1vw {
+.m-1vw {
   margin: 1vw;
 }
 
-* .border-5px,
-* .border-5px > button {
+/* ~~~ BORDER-RADIUS ~~~ */
+.border-1vw {
+  border-radius: 1vw;
+}
+
+.border-5px,
+.border-5px > button {
   border-radius: 5px;
 }
 
-* .border-10px {
+.border-10px {
   border-radius: 10px;
 }
 
-* .bold {
+/* ~~~ TYPOGRAPHY ~~~ */
+.bold {
   font-weight: bold;
 }
 
-* .italic {
+.italic {
   font-style: italic;
 }
 
-* .no-decor {
+.no-decor {
   text-decoration: none;
 }
 
-* h1,
-* .uppercase {
+h1,
+.uppercase {
   text-transform: uppercase;
 }
 
-* h1,
-* h2,
-* h3,
-* h4,
-* .text-center {
+h1,
+h2,
+h3,
+h4,
+.text-center {
   text-align: center;
 }
 
-* .no-link-color {
+.no-link-color {
   color: inherit;
 }
 
-* .not-applicable {
+.not-applicable {
   color: #eb4763;
 }
 
-* .single-space {
+.single-space {
   line-height: 1;
 }
 
-* h1 {
+/* ~~~ TEXT SIZING ~~~ */
+h1 {
   font-size: 3rem;
 }
 
-* h2 {
+h2 {
   font-size: 2rem;
 }
 
-* h3 {
+h3 {
   font-size: 1.5rem;
 }
 
-* h4 {
+h4 {
   font-size: 1.4rem;
 }
 
-* h5 {
+h5 {
   font-size: 1.2rem;
 }
 
-* h6 {
+h6 {
   font-size: 1.1rem;
 }
 
-* figcaption {
+figcaption {
   font-size: 1.3rem;
 }
 
-* .subtitle {
+.subtitle {
   font-size: 1.2rem;
   margin: 0;
   padding: 0;
