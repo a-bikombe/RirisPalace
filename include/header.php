@@ -18,7 +18,7 @@ require_once 'config/nav-links.php';
 				<ul class="navbar-nav me-auto mb-lg-0">
 					<?php foreach ($navLinks as $title => $link) : ?>
 						<li class="nav-item">
-							<a class="nav-link text-center" href="<?= $link ?>"><?= $title ?></a>
+							<a class="nav-link no-link-color text-center" href="<?= $link ?>"><?= $title ?></a>
 						</li>
 					<?php endforeach; ?>
 					<!-- <li class="nav-item dropdown">

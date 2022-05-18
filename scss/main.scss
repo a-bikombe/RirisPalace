@@ -226,7 +226,7 @@ body {
         :not(.btn,
             i) {
             background: transparent;
-            color: $theme-light-text;
+            /* color: $theme-light-text; */
         }
 
     }
@@ -478,7 +478,7 @@ header.php */
 
     /* initialize dark theme-light */
     &.dark-theme {
-
+/* 
         .transparent-bg {
 
             :not(.btn,
@@ -486,7 +486,7 @@ header.php */
                 color: $theme-dark-text;
             }
 
-        }
+        } */
 
         .no-link-color {
             color: $theme-dark-text;

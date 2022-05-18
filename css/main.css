@@ -266,7 +266,7 @@ body .loader {
 
 body .transparent-bg {
   background: transparent;
-  color: #1a1a1a;
+  /* color: $theme-light-text; */
 }
 
 body main {
@@ -507,12 +507,17 @@ body #header-banner .navbar-brand {
 }
 
 body.dark-theme {
+  /* 
+        .transparent-bg {
+
+            :not(.btn,
+                i) {
+                color: $theme-dark-text;
+            }
+
+        } */
   /* link color */
   /* dark theme header.php */
-}
-
-body.dark-theme .transparent-bg {
-  color: white;
 }
 
 body.dark-theme .no-link-color {
