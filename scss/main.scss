@@ -295,10 +295,18 @@ body {
 loading-page.php */
 
     /* loading display */
-    .loader {
+    .loader,
+    .under-construction {
         left: 0;
         top: 0;
-        z-index: 99;
+
+        &.loader {
+            z-index: 99;
+        }
+    
+        &.under-construction {
+            z-index: 98;
+        }
 
         /* when the loader hides */
         &.hidden {

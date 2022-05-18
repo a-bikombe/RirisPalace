@@ -39,6 +39,7 @@
 ## Included Pages
 * [x] **include/head-tag.php** - Configures head tag with proper tags for quicker initilization
 * [x] **include/loading-page.php** - Loading Page
+* [ ] **include/under-construction.php** - Construction Page for Unfinished Pages
 * [x] **include/header.php** - Header Banner
 * [x] **include/footer.php** - Footer Button
 

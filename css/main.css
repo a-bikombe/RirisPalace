@@ -323,27 +323,40 @@ body#error .text {
   padding-top: 6vh;
 }
 
-body .loader {
+body .loader,
+body .under-construction {
   left: 0;
   top: 0;
-  z-index: 99;
   /* when the loader hides */
   /* loading gif */
   /* loading subtitle */
 }
 
-body .loader.hidden {
+body .loader.loader,
+body .under-construction.loader {
+  z-index: 99;
+}
+
+body .loader.under-construction,
+body .under-construction.under-construction {
+  z-index: 98;
+}
+
+body .loader.hidden,
+body .under-construction.hidden {
   -webkit-animation: fadeOut 0.5s;
           animation: fadeOut 0.5s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
 
-body .loader img {
+body .loader img,
+body .under-construction img {
   width: 25vw;
 }
 
-body .loader .subtitle {
+body .loader .subtitle,
+body .under-construction .subtitle {
   font-size: 1.5rem;
 }
 
