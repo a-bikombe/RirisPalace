@@ -26,69 +26,82 @@
         padding: 50px 20vw;
     }
 
-    #intro .no-link-color {
-        color: $clr-white;
-    }
+    #intro {
 
-    #plot {
-        margin: 40px 0;
-    }
+        .no-link-color {
+            color: $theme-dark-text;
 
-    /* season */
-    .season {
-        background: $clr-white;
-        border: 1px solid $clr-gray-40;
-        color: $clr-black;
-        padding: 2vw 3vw;
-    }
+            #plot {
+                margin: 40px 0;
+            }
+        }
 
-    /* space between seasons */
-    .season:not(:first-of-type) {
-        margin-top: 50px;
-    }
 
-    /* character */
-    .character {
-        padding: 20px 0;
-    }
+        /* season */
+        .season {
+            background: $clr-white;
+            border: 1px solid $clr-gray-40;
+            color: $clr-black;
+            padding: 2vw 3vw;
 
-    /* horizontal line between every character */
-    .character:not(:last-child) {
-        border-bottom: 1px solid $clr-gray-60;
-    }
 
-    /* character image and name */
-    .character-image-name {
-        width: 40%;
-    }
+            /* space between seasons */
+            &:not(:first-of-type) {
+                margin-top: 50px;
+            }
 
-    /* character image carousel */
-    .character-image-carousel {
-        aspect-ratio: 9 / 16;
-        margin: auto auto 10px;
-        width: 80%;
-    }
+        }
 
-    /* don't hide season caption on mobile */
-    .carousel-caption.d-none {
-        display: block !important;
-        font-size: 1rem;
-    }
+        /* character */
+        .character {
+            padding: 20px 0;
 
-    .character-image {
-        aspect-ratio: 9 / 16;
-        object-fit: cover;
-    }
+            /* horizontal line between every character */
+            &:not(:last-child) {
+                border-bottom: 1px solid $clr-gray-60;
+            }
 
-    /* character description */
-    .character-description {
-        padding-left: 2vw;
-        width: 60%;
-    }
+            .no-link-color {
+                color: $theme-light-text;
+            }
 
-    /* character description items */
-    .character-description-item {
-        margin-bottom: 5px;
-    }
+            /* character image and name */
+            &-image-name {
+                width: 40%;
 
-}
+                /* character image carousel */
+                .character-image-carousel {
+                    aspect-ratio: 9 / 16;
+                    margin: auto auto 10px;
+                    width: 80%;
+
+                    .character-image {
+                        aspect-ratio: 9 / 16;
+                        object-fit: cover;
+                    }
+
+                    /* don't hide season caption on mobile */
+                    .carousel-caption.d-none {
+                        display: block !important;
+                        font-size: 1rem;
+                    }
+
+                }
+
+            }
+
+            /* character description */
+            &-description {
+                padding-left: 2vw;
+                width: 60%;
+
+                /* character description items */
+                &-item {
+                    margin-bottom: 5px;
+                }
+
+            }
+
+        }
+
+    }
