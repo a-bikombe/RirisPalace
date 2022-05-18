@@ -511,7 +511,7 @@ body.dark-theme {
   /* dark theme header.php */
 }
 
-body.dark-theme .transparent-bg * {
+body.dark-theme .transparent-bg {
   color: white;
 }
 

@@ -478,13 +478,9 @@ header.php */
     /* initialize dark theme-light */
     &.dark-theme {
 
-        .transparent-bg {
-
-            *:not(.btn,
-                i) {
-                color: $theme-dark-text;
-            }
-
+        .transparent-bg:not(.btn,
+            i) {
+            color: $theme-dark-text;
         }
 
         /* link color */
