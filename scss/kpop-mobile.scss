@@ -3,64 +3,68 @@
 /* ================================================================
 general */
 
-main {
-    grid-column: 1 / 8;
-}
+body {
 
-.dir-change {
-    width: 100%;
-
-    &#ults,
-    &:not(#ults)>* {
-        flex-basis: 100%;
-        width: 100%;
+    main {
+        grid-column: 1 / 8;
     }
-}
 
-/* ================================================================
-#group-sidebar */
+    .dir-change {
+        width: 100%;
 
-#group-sidebar {
-    display: none;
-}
-
-/* ================================================================
-sections */
-
-.kpop-section {
-    max-width: 100%;
-}
-
-/* ================================================================
-#ults */
-
-#ults {
-
-    .ult {
-
-        &:not(:first-of-type) {
-            margin-top: 3vw;
-        }
-
-        .ult-btn-img {
+        &#ults,
+        &:not(#ults)>* {
+            flex-basis: 100%;
             width: 100%;
         }
+    }
+
+    /* ================================================================
+    #group-sidebar */
+
+    #group-sidebar {
+        display: none;
+    }
+
+    /* ================================================================
+    sections */
+
+    .kpop-section {
+        max-width: 100%;
+    }
+
+    /* ================================================================
+    #ults */
+
+    #ults {
+
+        .ult {
+
+            &:not(:first-of-type) {
+                margin-top: 3vw;
+            }
+
+            .ult-btn-img {
+                width: 100%;
+            }
+
+        }
 
     }
 
-}
+    /* ================================================================
+    #groups */
 
-/* ================================================================
-#groups */
+    /* ================================================================
+    #content-dashboard */
 
-/* ================================================================
-#content-dashboard */
+    #content-dashboard {
 
-#content-dashboard {
+        .content-table {
+            overflow: auto;
+            width: 85vw;
+        }
 
-    .content-table {
-        overflow: auto;
-        width: 85vw;
     }
 
 }
