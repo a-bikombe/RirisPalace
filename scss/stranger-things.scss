@@ -71,12 +71,15 @@
 
                 /* character image carousel */
                 .character-image-carousel {
-                    aspect-ratio: 4 / 5;
                     margin: auto auto 10px;
                     width: 80%;
 
+                    &,
                     .character-image {
-                        aspect-ratio: 4 / 5;
+                        aspect-ratio: 3 / 4;
+                    }
+
+                    .character-image {
                         object-fit: cover;
                     }
 
