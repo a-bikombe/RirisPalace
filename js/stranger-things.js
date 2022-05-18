@@ -1,5 +1,6 @@
-let s4Vol1Countdown = document.getElementById('s4-vol1-countdown');
-let daysUntilS4Vol1 = document.getElementById('days-until-s4-vol1');
+let s4Vol1Countdown = $('#s4Vol1Countdown');
+// let s4Vol1Countdown = document.getElementById('s4-vol1-countdown');
+let daysUntilS4Vol1 = $('#days-until-s4-vol1');
 let currentDate = new Date();
 const s4Vol1 = new Date(2022, 04, 27);
 const one_day = 1000 * 60 * 60 * 24;
