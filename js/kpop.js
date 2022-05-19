@@ -1,50 +1,5 @@
-/* let searchBar = $('#searchbar');
-let searchOutput = $('#searchOutput');
-searchBar.addEventListener('input', function (evt) {
-	searchOutput.textContent = searchBar.value;
-}); */
-/* let modalTitles = document.querySelectorAll(".member-title");
-modalTitles.forEach(modalTitle => {
-    modalTitle.addEventListener('click', function (evt) {
-        modalTitle.classList.add('hidden');
-		modalTitle.nextElementSibling.classList.remove('hidden');
-    });
-}); */
-
 const groups = $('.group');
 const modalButtons = $('[data-bs-toggle="modal"]');
-
-/* FIXME: modal does not open when you can hide group info */
-/* function toggleGroupInfo() {
-
-    groups.each(function() {
-
-        let groupInfo = $(this).find('.group-info');
-
-        groupInfo.hide();
-
-        $(this).click(function(evt) {
-            groupInfo.toggle();
-        });
-
-    });
-
-} */
-
-/* function reorderGroups() {
-
-    const groupCategories = $('.group-category');
-
-    // for group reordering
-    groupCategories.forEach(groupCategory => {
-        let indexes = groupCategory.querySelectorAll('.index');
-
-        indexes.forEach(index => {
-            index.click(function(evt) {});
-        });
-    });
-
-} reorderGroups(); */
 
 function lazyloadModalImages() {
 
@@ -70,19 +25,49 @@ function lazyloadModalImages() {
 
 }
 
-/* toggleGroupInfo(); */
 lazyloadModalImages();
 
+/* FIXME: modal does not open when you can hide group info */
+/* function toggleGroupInfo() {
 
-/* 
-modalButtons.forEach(modalButton => {
-    modalButton.addEventListener('click', function(evt) {
+    groups.each(function() {
 
-        modal = modalButton.nextElementSibling;
-        let modalImage = modal.$(".modal-img");
-        if (modalImage !== null && modalImage.getAttribute('data-src') !== null) {
-            modalImage.setAttribute('src', modalImage.getAttribute('data-src'));
-            modalImage.removeAttribute('data-src');
-        }
+        let groupInfo = $(this).find('.group-info');
+
+        groupInfo.hide();
+
+        $(this).click(function(evt) {
+            groupInfo.toggle();
+        });
+
     });
-}); */
+
+} toggleGroupInfo(); */
+
+/* TODO: kpop search bar for groups! */
+/* function searchBarKpop() {
+
+    let searchBar = $('#searchbar');
+    let searchOutput = $('#searchOutput');
+
+    searchBar.addEventListener('input', function(evt) {
+        searchOutput.textContent = searchBar.value;
+    });
+
+} searchBarKpop(); */
+
+/* TODO: group reordering! */
+/* function reorderGroups() {
+
+    const groupCategories = $('.group-category');
+
+    // for group reordering
+    groupCategories.forEach(groupCategory => {
+        let indexes = groupCategory.querySelectorAll('.index');
+
+        indexes.forEach(index => {
+            index.click(function(evt) {});
+        });
+    });
+
+} reorderGroups(); */
