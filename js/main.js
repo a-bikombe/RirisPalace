@@ -1,7 +1,4 @@
-// VARIABLE DECLARATIONS
 const loader = $('.loader');
-
-// FUNCTION DECLARATIONS
 
 function loadingPage() {
 

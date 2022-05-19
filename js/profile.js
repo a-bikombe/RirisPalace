@@ -3,9 +3,9 @@ let confirmDeleteForm = $('#delete-form');
 
 function showDeleteForm() {
 
-	deleteBtn.click(function (evt) {
-		confirmDeleteForm.show();
-	});
+    deleteBtn.click(function(evt) {
+        confirmDeleteForm.show();
+    });
 
 }
 
