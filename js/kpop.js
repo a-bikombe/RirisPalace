@@ -30,6 +30,8 @@ function toggleGroupInfo() {
     
     });
 
+    return;
+
 }
 
 toggleGroupInfo();
