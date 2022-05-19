@@ -15,27 +15,15 @@ modalTitles.forEach(modalTitle => {
 }); */
 
 const groups = document.querySelectorAll('.group');
-/* 
-groups.forEach(group => {
 
-    let groupInfo = group.querySelector('.group-info');
-
-    groupInfo.classList.add('hidden');
-
-    group.click(function(evt) {
-        groupInfo.classList.toggle('hidden');
-    });
-
-});
- */
 groups.forEach(group => {
     let groupProperties = group.querySelectorAll('.group-property');
     groupProperties.forEach(groupProperty => {
-        $(this).addClass("hidden");
+        groupProperty.classList.add("hidden");
     });
     group.click(function (evt) {
         groupProperties.forEach(groupProperty => {
-            $(this).toggleClass("hidden");
+            groupProperty.classList.toggle("hidden");
         });
     });
 });
