@@ -65,6 +65,7 @@ general */
 }
 
 #stranger-things .character-image-name {
+  margin-block: auto;
   width: 40%;
   /* character image carousel */
 }
