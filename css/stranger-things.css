@@ -34,10 +34,12 @@ general */
 }
 
 #stranger-things #intro .countdown:not(.hidden) {
-  -webkit-animation: glow 0.5s;
-          animation: glow 0.5s;
+  -webkit-animation: glow 1.5s;
+          animation: glow 1.5s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
 }
 
 #stranger-things #intro #plot {
