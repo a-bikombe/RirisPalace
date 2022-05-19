@@ -190,7 +190,7 @@ body #ults .ult-btn {
 }
 
 body #ults .ult-btn-img {
-  border: 1px solid var(--clr-gray-80);
+  border: 1px solid var(--clr-gray-20);
   -o-object-fit: cover;
      object-fit: cover;
 }
