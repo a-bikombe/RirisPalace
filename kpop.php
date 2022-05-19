@@ -133,7 +133,7 @@ $underConstruction = '<img class="construction-gif" src="images/gifs/pikachu-con
 			<h2>Groups</h2>
 			<?php foreach ($groups as $categoryID => $category) : ?>
 				<section class="group-category border-10px" id="<?= $categoryID ?>">
-					<h3 data-bs-toggle="modal" data-bs-target="#<?= $categoryID ?>-ranking-modal" class="groups-category-button"><?= $category['name'] ?></h3>
+					<h3 data-bs-toggle="modal" data-bs-target="#<?= $categoryID ?>-ranking-modal" class="group-category-button"><?= $category['name'] ?></h3>
 					<div class="modal fade" id="<?= $categoryID ?>-ranking-modal" tabindex="-1" aria-labelledby="<?= $categoryID ?>-ranking-modal-label" aria-hidden="true">
 						<div class="modal-dialog">
 							<div class="modal-content">

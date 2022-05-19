@@ -15,15 +15,17 @@ modalTitles.forEach(modalTitle => {
 }); */
 
 const groups = $('.group');
-const groupCategories = document.querySelectorAll('.groups-category');
 
-groups.each(group => {
-    let groupProperties = group.querySelectorAll('.group-property');
-    groupProperties.forEach(groupProperty => {
+groups.each((index, group) => {
+
+    let groupProperties = group.$('.group-property');
+
+    groupProperties.each((index, groupProperty) => {
         groupProperty.hide();
     });
+
     group.click(function (evt) {
-        groupProperties.forEach(groupProperty => {
+        groupProperties.each((index, groupProperty) => {
             groupProperty.toggle();
         });
     });
