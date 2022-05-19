@@ -1,9 +1,5 @@
 /* ================================================================
-variables */
-/* color variables */
-/* background variables */
-/* box-shadow variables */
-/* transitions */
+general */
 #stranger-things {
   --bg-color: var(--clr-black);
   color: var(--clr-white);

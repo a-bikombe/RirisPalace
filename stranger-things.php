@@ -104,7 +104,7 @@ $scripts = [
 														}
 													} ?>
 													">
-													<img src="<?= $imagePath ?>" class="d-block w-100 character-image" alt="<?= $character ?> <?= $imageSeason ?>">
+													<img data-src="<?= $imagePath ?>" class="d-block w-100 character-image" alt="<?= $character ?> <?= $imageSeason ?>">
 													<div class="carousel-caption d-none d-md-block p-0">
 														<h5><?= $imageSeason ?></h5>
 													</div>

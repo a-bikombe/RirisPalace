@@ -413,14 +413,6 @@ body #header-banner {
   grid-row: 1;
   margin: 0;
   /* mobile dropdown toggle button */
-  /* 
-        .nav-link {
-
-            &:hover {
-
-            }
-            
-        } */
   /* dropdown list - not using currently */
   /* .dropdown {
 
