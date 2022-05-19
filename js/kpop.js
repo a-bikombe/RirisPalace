@@ -16,23 +16,23 @@ modalTitles.forEach(modalTitle => {
 
 const groups = $('.group');
 
-function toggleGroupProperties() {
+function toggleGroupInfo() {
 
     groups.each((index, group) => {
 
-        let groupProperties = $(this).find('.group-property');
+        let groupInfo = $(this).find('.group-info');
 
-        groupProperties.hide();
+        groupInfo.hide();
     
         group.click(function(evt) {
-            groupProperties.toggle();
+            groupInfo.toggle();
         });
     
     });
 
 }
 
-toggleGroupProperties();
+toggleGroupInfo();
 
 
 /* 
