@@ -52,6 +52,8 @@ groups.forEach(group => {
     });
 }); */
 
+const groupCategories = $('.group-category');
+
 // for group reordering
 groupCategories.forEach(groupCategory => {
     let indexes = groupCategory.querySelectorAll('.index');
