@@ -5,19 +5,20 @@ variables */
 /* box-shadow variables */
 /* transitions */
 #stranger-things {
-  color: white;
+  --bg-color: var(--clr-black);
+  color: var(--clr-white);
   /* season */
   /* character */
 }
 
 #stranger-things,
 #stranger-things .loader {
-  background: black;
+  background: var(--bg-color);
 }
 
 #stranger-things h1 {
-  color: red;
-  text-shadow: 0 0 0.125em rgba(255, 255, 255, 0.3), 0 0 0.45em red;
+  color: var(--clr-red-bright);
+  text-shadow: 0 0 0.125em rgba(255, 255, 255, 0.3), 0 0 0.45em var(--clr-red-bright);
 }
 
 #stranger-things h2 {
@@ -33,7 +34,7 @@ variables */
 }
 
 #stranger-things #intro .no-link-color {
-  color: white;
+  color: var(--theme-dark-text);
 }
 
 #stranger-things #intro #plot {
@@ -41,9 +42,9 @@ variables */
 }
 
 #stranger-things .season {
-  background: white;
-  border: 1px solid #666666;
-  color: black;
+  background: var(--clr-white);
+  border: 1px solid var(--clr-gray-40);
+  color: var(--clr-black);
   padding: 2vw 3vw;
   /* space between seasons */
 }
@@ -60,11 +61,11 @@ variables */
 }
 
 #stranger-things .character:not(:last-child) {
-  border-bottom: 1px solid #999999;
+  border-bottom: 1px solid var(--clr-gray-60);
 }
 
 #stranger-things .character .no-link-color {
-  color: black;
+  color: var(--clr-black);
 }
 
 #stranger-things .character-image-name {

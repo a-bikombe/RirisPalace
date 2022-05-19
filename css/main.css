@@ -1,10 +1,4 @@
 /* ================================================================
-variables */
-/* color variables */
-/* background variables */
-/* box-shadow variables */
-/* transitions */
-/* ================================================================
 general */
 :root {
   /* color variables */
@@ -230,7 +224,7 @@ h4,
 }
 
 .not-applicable {
-  color: #eb4763;
+  color: var(--clr-pink-bright);
 }
 
 .single-space {
@@ -326,32 +320,36 @@ body main {
   padding: 50px 0;
 }
 
-body .no-link-color {
-  color: var(--theme-text);
-}
-
 body a {
   color: var(--theme-link);
 }
 
+body .no-link-color {
+  color: var(--theme-text);
+}
+
+body .no-link-color:hover {
+  color: var(--theme-text);
+}
+
 body .buttons button {
-  border: 1px solid #999999;
+  border: 1px solid var(--clr-gray-60);
   padding: 0.5vw 1vw;
 }
 
 body .input-block > label::before {
-  color: red;
+  color: var(--clr-red-bright);
   content: "*";
 }
 
 body#error {
-  background: url("../images/backgrounds/flowers.jpeg") center/cover transparent;
+  background: var(--bg-image);
   color: var(--theme-text);
 }
 
 body#error .navbar,
 body#error .error-main {
-  background: rgba(51, 51, 51, 0.6);
+  background: var(--clr-gray-20-t);
 }
 
 body#error .error-main {
@@ -361,8 +359,8 @@ body#error .error-main {
 body#error .gif {
   background: var(--theme-text);
   border-radius: 5vw;
-  -webkit-box-shadow: 5px 5px 5px 5px rgba(51, 51, 51, 0.6);
-          box-shadow: 5px 5px 5px 5px rgba(51, 51, 51, 0.6);
+  -webkit-box-shadow: var(--box-shadow-light);
+          box-shadow: var(--box-shadow-light);
   width: calc(20vw + 100px);
 }
 
@@ -415,26 +413,34 @@ body #header-banner {
   grid-row: 1;
   margin: 0;
   /* mobile dropdown toggle button */
+  /* 
+        .nav-link {
+
+            &:hover {
+
+            }
+            
+        } */
   /* dropdown list - not using currently */
   /* .dropdown {
 
             &-list-item {
 
                 &:not(:last-of-type) {
-                    border-bottom: 1px solid $clr-gray-80;
+                    border-bottom: 1px solid var(--clr-gray-80;
                 }
             }
 
             &-item {
                 padding: 0.75vw;
-                transition: $transition-clr-text, $transition-clr-bg, $transition-clr-border;
+                transition: var(--transition-clr-text, var(--transition-clr-bg, var(--transition-clr-border;
 
                 &.active {
-                    background: $clr-gray-60;
+                    background: var(--clr-gray-60;
                 }
 
                 &:active {
-                    background: $clr-gray-20;
+                    background: var(--clr-gray-20;
                 }
 
             }
@@ -486,8 +492,8 @@ body #header-banner .account .logout-btn:hover {
 body #header-banner .navbar-toggler {
   border-color: var(--theme-text);
   color: var(--theme-text);
-  -webkit-transition: font-size 0.2s ease-in-out;
-  transition: font-size 0.2s ease-in-out;
+  -webkit-transition: var(--transition-size-text);
+  transition: var(--transition-size-text);
   /* mobile dropdown toggle button icon */
 }
 
@@ -525,10 +531,10 @@ body #header-banner .navbar-collapse .account {
 
 body #header-banner .navbar-collapse.collapsing, body #header-banner .navbar-collapse.show {
   background-color: var(--theme-bg);
-  border: 1px solid #e6e6e6;
+  border: 1px solid var(--clr-gray-90);
   border-radius: 5px;
-  -webkit-box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.2);
-          box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: var(--box-shadow-direct-light);
+          box-shadow: var(--box-shadow-direct-light);
   padding-block: 0.75rem;
   -webkit-transform: translateY(1rem);
           transform: translateY(1rem);
@@ -553,8 +559,8 @@ body #header-banner .nav-link {
   font-size: 1rem;
   line-height: 1;
   padding: 0.75rem;
-  -webkit-transition: font-size 0.2s ease-in-out;
-  transition: font-size 0.2s ease-in-out;
+  -webkit-transition: var(--transition-size-text);
+  transition: var(--transition-size-text);
 }
 
 body #header-banner .navbar-brand:hover, body #header-banner .navbar-brand:focus-visible,
@@ -585,9 +591,9 @@ body.dark-theme #header-banner .account .login-btn {
 }
 
 body.dark-theme #header-banner .account .login-btn, body.dark-theme #header-banner .account .login-btn:hover {
-  -webkit-box-shadow: inset 0 0 0.5em 0 rgba(255, 255, 255, 0.2), 0 0 0.5em 0 var(--theme-login);
-          box-shadow: inset 0 0 0.5em 0 rgba(255, 255, 255, 0.2), 0 0 0.5em 0 var(--theme-login);
-  text-shadow: 0 0 0.125em rgba(255, 255, 255, 0.2), 0 0 0.45em var(--theme-login);
+  -webkit-box-shadow: inset 0 0 0.5em 0 var(--clr-white-t), 0 0 0.5em 0 var(--theme-login);
+          box-shadow: inset 0 0 0.5em 0 var(--clr-white-t), 0 0 0.5em 0 var(--theme-login);
+  text-shadow: 0 0 0.125em var(--clr-white-t), 0 0 0.45em var(--theme-login);
 }
 
 body.dark-theme #header-banner .account .logout-btn {
@@ -595,15 +601,15 @@ body.dark-theme #header-banner .account .logout-btn {
 }
 
 body.dark-theme #header-banner .account .logout-btn, body.dark-theme #header-banner .account .logout-btn:hover {
-  -webkit-box-shadow: inset 0 0 0.5em 0 rgba(255, 255, 255, 0.2), 0 0 0.5em 0 var(--theme-logout);
-          box-shadow: inset 0 0 0.5em 0 rgba(255, 255, 255, 0.2), 0 0 0.5em 0 var(--theme-logout);
-  text-shadow: 0 0 0.125em rgba(255, 255, 255, 0.2), 0 0 0.45em var(--theme-logout);
+  -webkit-box-shadow: inset 0 0 0.5em 0 var(--clr-white-t), 0 0 0.5em 0 var(--theme-logout);
+          box-shadow: inset 0 0 0.5em 0 var(--clr-white-t), 0 0 0.5em 0 var(--theme-logout);
+  text-shadow: 0 0 0.125em var(--clr-white-t), 0 0 0.45em var(--theme-logout);
 }
 
 body.dark-theme #header-banner .navbar-toggler {
-  -webkit-box-shadow: inset 0 0 0.5em 0 rgba(255, 255, 255, 0.2), 0 0 0.5em 0 currentColor;
-          box-shadow: inset 0 0 0.5em 0 rgba(255, 255, 255, 0.2), 0 0 0.5em 0 currentColor;
-  text-shadow: 0 0 0.125em rgba(255, 255, 255, 0.2), 0 0 0.45em currentColor;
+  -webkit-box-shadow: inset 0 0 0.5em 0 var(--clr-white-t), 0 0 0.5em 0 currentColor;
+          box-shadow: inset 0 0 0.5em 0 var(--clr-white-t), 0 0 0.5em 0 currentColor;
+  text-shadow: 0 0 0.125em var(--clr-white-t), 0 0 0.45em currentColor;
 }
 
 body.dark-theme #header-banner .navbar-collapse {
@@ -611,24 +617,24 @@ body.dark-theme #header-banner .navbar-collapse {
 }
 
 body.dark-theme #header-banner .navbar-collapse.collapsing, body.dark-theme #header-banner .navbar-collapse.show {
-  border: 1px solid #333333;
-  -webkit-box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--clr-gray-20);
+  -webkit-box-shadow: var(--box-shadow-direct-dark);
+          box-shadow: var(--box-shadow-direct-dark);
 }
 
 body.dark-theme footer .footer-btn {
-  -webkit-box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.2);
-          box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: var(--box-shadow-direct-light);
+          box-shadow: var(--box-shadow-direct-light);
 }
 
 body.dark-theme footer .footer-btn:hover {
-  -webkit-box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.2);
-          box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.2);
+  -webkit-box-shadow: var(--box-shadow-direct-light);
+          box-shadow: var(--box-shadow-direct-light);
 }
 
 body #profile #profile-form {
-  background: #cccccc;
-  border: 1px solid #666666;
+  background: var(--clr-gray-80);
+  border: 1px solid var(--clr-gray-40);
   margin: 1.5vw 7vw;
   padding: 2vw;
 }
@@ -640,19 +646,19 @@ body footer {
 }
 
 body footer .footer-btn {
-  border: 1px solid #cccccc;
-  -webkit-box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.2);
-  color: black;
+  border: 1px solid var(--clr-gray-80);
+  -webkit-box-shadow: var(--box-shadow-direct-dark);
+          box-shadow: var(--box-shadow-direct-dark);
+  color: var(--clr-black);
   overflow: hidden;
-  -webkit-transition: font-size 0.2s ease-in-out;
-  transition: font-size 0.2s ease-in-out;
+  -webkit-transition: var(--transition-size-text);
+  transition: var(--transition-size-text);
 }
 
 body footer .footer-btn:hover {
-  border: 1px solid #cccccc;
-  -webkit-box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.2);
+  border: 1px solid var(--clr-gray-80);
+  -webkit-box-shadow: var(--box-shadow-direct-dark);
+          box-shadow: var(--box-shadow-direct-dark);
   font-size: 1.1rem;
   overflow: hidden;
 }

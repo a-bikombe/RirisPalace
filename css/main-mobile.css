@@ -25,7 +25,7 @@ footer {
 /* ================================================================
 header.php */
 #header-banner .nav-item :not(:first-of-type) {
-  border-top: 1px solid #cccccc;
+  border-top: 1px solid var(--clr-gray-80);
 }
 
 /* ================================================================
