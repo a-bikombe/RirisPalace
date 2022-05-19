@@ -38,7 +38,7 @@ general */
         .countdown {
 
             &:not(.hidden) {
-                animation: glow 1s;
+                animation: glow 1.3s;
                 animation-iteration-count: infinite;
                 animation-timing-function: ease-in-out;
             }
