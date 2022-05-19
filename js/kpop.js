@@ -18,10 +18,11 @@ groups.each(function() {
     /* groupProperties.forEach(groupProperty => {
         groupProperty.classList.add("hidden");
     }); */
-    this.click(function (evt) {
-        this.querySelectorAll('.group-property').forEach(groupProperty => {
+    $(this).click(function (evt) {
+        console.log(evt);
+        /* $(this).querySelectorAll('.group-property').forEach(groupProperty => {
             groupProperty.classList.toggle("hidden");
-        });
+        }); */
     });
 });
 /* 
