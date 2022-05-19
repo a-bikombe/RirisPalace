@@ -1,5 +1,5 @@
-/* let searchBar = document.getElementById('searchbar');
-let searchOutput = document.getElementById('searchOutput');
+/* let searchBar = $('#searchbar');
+let searchOutput = $('#searchOutput');
 
 searchBar.addEventListener('input', function (evt) {
 	searchOutput.textContent = searchBar.value;
@@ -14,18 +14,35 @@ modalTitles.forEach(modalTitle => {
     });
 }); */
 
-const groups = document.querySelectorAll('.group');
+const groups = $('.group');
 const groupCategories = document.querySelectorAll('.groups-category');
+
+groups.each(group => {
+    let groupProperties = group.querySelectorAll('.group-property');
+    groupProperties.forEach(groupProperty => {
+        groupProperty.hide();
+    });
+    group.click(function (evt) {
+        groupProperties.forEach(groupProperty => {
+            groupProperty.toggle();
+        });
+    });
+});
+
+
+
+
+
 
 
 groups.forEach(group => {
     let groupProperties = group.querySelectorAll('.group-property');
     groupProperties.forEach(groupProperty => {
-        groupProperty.classList.add('hidden');
+        groupProperty.addClass('hidden');
     });
-    group.addEventListener('click', function (evt) {
+    group.click(function (evt) {
         groupProperties.forEach(groupProperty => {
-            groupProperty.classList.toggle('hidden');
+            groupProperty.toggleClass("hidden");
         });
     });
 });
@@ -35,7 +52,7 @@ groupCategories.forEach(groupCategory => {
     let indexes = groupCategory.querySelectorAll('.index');
 
     indexes.forEach(index => {
-        index.addEventListener('click', function (evt) {});
+        index.click(function (evt) {});
     });
 });
 
@@ -47,7 +64,7 @@ modalButtons.forEach(modalButton => {
         let modalImage = modal.$(".modal-img");
         if (modalImage !== null && modalImage.getAttribute('data-src') !== null) {
             modalImage.setAttribute('src', modalImage.getAttribute('data-src'));
-            modalImage.removeAttribute('data-src');
+            modalImage.removeAttr('data-src');
         }
     });
 });

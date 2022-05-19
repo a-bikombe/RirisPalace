@@ -1,6 +1,6 @@
 const deleteBtn = $('#delete-account');
 let confirmDeleteForm = $('#delete-form');
 
-deleteBtn.addEventListener('click', function (evt) {
-	confirmDeleteForm.classList.remove('hidden');
+deleteBtn.click(function (evt) {
+	confirmDeleteForm.show();
 });

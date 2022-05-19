@@ -3,8 +3,8 @@ const loader = $('.loader');
 
 // FUNCTION DECLARATIONS
 
-window.addEventListener('load', function (evt) {
+window.load(function (evt) {
     if (loader !== null) {
-        loader.classList.add('hidden');
+        loader.hide();
     }
 });

@@ -3,12 +3,12 @@ const passwordReenter = $('#password-reenter');
 let loginSignupSubmit = $('#login-signup-submit');
 let passwordHelp = $('#help');
 
-passwordReenter.addEventListener('keyup', function (evt) {
+passwordReenter.keyup(function (evt) {
 	if (passwordReenter.value !== password.value) {
 		passwordHelp.textContent = 'Passwords Must Match';
-		loginSignupSubmit.classList.add('hidden');
+		loginSignupSubmit.hide();
 	} else {
 		passwordHelp.textContent = '';
-		loginSignupSubmit.classList.remove('hidden');
+		loginSignupSubmit.show();
 	}
 });
