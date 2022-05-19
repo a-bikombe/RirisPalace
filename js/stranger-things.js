@@ -31,7 +31,7 @@ function s4Vol2Countdown() {
 
 function lazyloadCarousels() {
 
-    document.addEventListener("DOMContentLoaded", function() {
+    $(document).ready(function() {
         var lazyloadImages = document.querySelectorAll("img[data-src]");
         var lazyloadThrottleTimeout;
 
