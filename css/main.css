@@ -236,6 +236,12 @@ figcaption {
 layout */
 /* initialize light and dark theme-lights */
 body {
+  --theme-bg: $clr-white;
+  --theme-text: $clr-gray-10;
+  --theme-link: $clr-blue-dark;
+  --theme-login: $clr-green-dark;
+  --theme-logout: $clr-red-dark;
+  --bg-color: $clr-blue-light;
   font-family: Avenir, Helvetica, sans-serif;
   /* set initial background color */
   /* set transparent background */
@@ -280,11 +286,11 @@ body main {
 }
 
 body .no-link-color {
-  color: #1a1a1a;
+  color: var(--theme-text);
 }
 
 body a {
-  color: #3d748f;
+  color: var(--theme-link);
 }
 
 body .buttons button {
@@ -299,7 +305,7 @@ body .input-block > label::before {
 
 body#error {
   background: url("../images/backgrounds/flowers.jpeg") center/cover transparent;
-  color: #1a1a1a;
+  color: var(--theme-text);
 }
 
 body#error .navbar,
@@ -312,7 +318,7 @@ body#error .error-main {
 }
 
 body#error .gif {
-  background: #1a1a1a;
+  background: var(--theme-text);
   border-radius: 5vw;
   -webkit-box-shadow: 5px 5px 5px 5px rgba(51, 51, 51, 0.6);
           box-shadow: 5px 5px 5px 5px rgba(51, 51, 51, 0.6);
@@ -409,35 +415,35 @@ body #header-banner .account {
 
 body #header-banner .account .login-btn:hover,
 body #header-banner .account .logout-btn:hover {
-  color: #1a1a1a;
+  color: var(--theme-text);
 }
 
 body #header-banner .account .login-btn {
-  color: #1f7a2e;
+  color: var(--theme-login);
 }
 
 body #header-banner .account .login-btn, body #header-banner .account .login-btn:hover {
-  border-color: #1f7a2e;
+  border-color: var(--theme-login);
 }
 
 body #header-banner .account .login-btn:hover {
-  background-color: #1f7a2e;
+  background-color: var(--theme-login);
 }
 
 body #header-banner .account .logout-btn {
-  color: #c20a0a;
+  color: var(--theme-logout);
 }
 
 body #header-banner .account .logout-btn, body #header-banner .account .logout-btn:hover {
-  border-color: #c20a0a;
+  border-color: var(--theme-logout);
 }
 
 body #header-banner .account .logout-btn:hover {
-  background-color: #c20a0a;
+  background-color: var(--theme-logout);
 }
 
 body #header-banner .navbar-toggler {
-  border-color: #1a1a1a;
+  border-color: var(--theme-text);
   -webkit-transition: font-size 0.2s ease-in-out;
   transition: font-size 0.2s ease-in-out;
   /* mobile dropdown toggle button icon */
@@ -448,7 +454,7 @@ body #header-banner .navbar-toggler:hover, body #header-banner .navbar-toggler:f
 }
 
 body #header-banner .navbar-toggler-icon {
-  color: #1a1a1a;
+  color: var(--theme-text);
   height: 100%;
   padding: 0.25rem;
   width: 100%;
@@ -476,7 +482,7 @@ body #header-banner .navbar-collapse .account {
 }
 
 body #header-banner .navbar-collapse.collapsing, body #header-banner .navbar-collapse.show {
-  background-color: white;
+  background-color: var(--theme-bg);
   border: 1px solid #e6e6e6;
   border-radius: 5px;
   -webkit-box-shadow: 0 0 10px 3px rgba(255, 255, 255, 0.2);
@@ -520,6 +526,11 @@ body #header-banner .navbar-brand {
 }
 
 body.dark-theme {
+  --theme-bg: $clr-gray-10;
+  --theme-text: $clr-white;
+  --theme-link: $clr-blue-light;
+  --theme-login: $clr-green;
+  --theme-logout: $clr-red;
   /* 
         .transparent-bg {
 
@@ -529,76 +540,27 @@ body.dark-theme {
             }
 
         } */
-  /* link color */
   /* dark theme header.php */
-}
-
-body.dark-theme .no-link-color {
-  color: white;
-}
-
-body.dark-theme a {
-  color: #c2e0f0;
-}
-
-body.dark-theme#error {
-  color: white;
-}
-
-body.dark-theme#error .gif {
-  background: white;
 }
 
 body.dark-theme #header-banner {
   /* mobile dropdown toggle button glow - dark backgrounds only */
 }
 
-body.dark-theme #header-banner .account .login-btn:hover,
-body.dark-theme #header-banner .account .logout-btn:hover {
-  color: white;
-}
-
-body.dark-theme #header-banner .account .login-btn {
-  color: #b8e0be;
-  /* dark theme glow */
-}
-
-body.dark-theme #header-banner .account .login-btn, body.dark-theme #header-banner .account .login-btn:hover {
-  border-color: #b8e0be;
-  -webkit-box-shadow: inset 0 0 0.5em 0 rgba(255, 255, 255, 0.2), 0 0 0.5em 0 #b8e0be;
-          box-shadow: inset 0 0 0.5em 0 rgba(255, 255, 255, 0.2), 0 0 0.5em 0 #b8e0be;
-  text-shadow: 0 0 0.125em rgba(255, 255, 255, 0.2), 0 0 0.45em #b8e0be;
-}
-
-body.dark-theme #header-banner .account .login-btn:hover {
-  background-color: #b8e0be;
-}
-
 body.dark-theme #header-banner .account .logout-btn {
-  color: #ebadad;
   /* dark theme glow */
 }
 
 body.dark-theme #header-banner .account .logout-btn, body.dark-theme #header-banner .account .logout-btn:hover {
-  border-color: #ebadad;
-  -webkit-box-shadow: inset 0 0 0.5em 0 rgba(255, 255, 255, 0.2), 0 0 0.5em 0 #ebadad;
-          box-shadow: inset 0 0 0.5em 0 rgba(255, 255, 255, 0.2), 0 0 0.5em 0 #ebadad;
-  text-shadow: 0 0 0.125em rgba(255, 255, 255, 0.2), 0 0 0.45em #ebadad;
-}
-
-body.dark-theme #header-banner .account .logout-btn:hover {
-  background-color: #ebadad;
+  -webkit-box-shadow: inset 0 0 0.5em 0 rgba(255, 255, 255, 0.2), 0 0 0.5em 0 var(--theme-logout);
+          box-shadow: inset 0 0 0.5em 0 rgba(255, 255, 255, 0.2), 0 0 0.5em 0 var(--theme-logout);
+  text-shadow: 0 0 0.125em rgba(255, 255, 255, 0.2), 0 0 0.45em var(--theme-logout);
 }
 
 body.dark-theme #header-banner .navbar-toggler {
-  border-color: white;
-  -webkit-box-shadow: inset 0 0 0.5em 0 rgba(255, 255, 255, 0.2), 0 0 0.5em 0 currentColor;
-          box-shadow: inset 0 0 0.5em 0 rgba(255, 255, 255, 0.2), 0 0 0.5em 0 currentColor;
-  text-shadow: 0 0 0.125em rgba(255, 255, 255, 0.2), 0 0 0.45em currentColor;
-}
-
-body.dark-theme #header-banner .navbar-toggler-icon {
-  color: white;
+  -webkit-box-shadow: inset 0 0 0.5em 0 rgba(255, 255, 255, 0.2), 0 0 0.5em 0 var(--theme-text);
+          box-shadow: inset 0 0 0.5em 0 rgba(255, 255, 255, 0.2), 0 0 0.5em 0 var(--theme-text);
+  text-shadow: 0 0 0.125em rgba(255, 255, 255, 0.2), 0 0 0.45em var(--theme-text);
 }
 
 body.dark-theme #header-banner .navbar-collapse {
@@ -606,7 +568,6 @@ body.dark-theme #header-banner .navbar-collapse {
 }
 
 body.dark-theme #header-banner .navbar-collapse.collapsing, body.dark-theme #header-banner .navbar-collapse.show {
-  background-color: #1a1a1a;
   border: 1px solid #333333;
   -webkit-box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.2);
           box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.2);

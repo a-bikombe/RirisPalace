@@ -211,6 +211,12 @@ layout */
 
 /* initialize light and dark theme-lights */
 body {
+    --theme-bg: $clr-white;
+    --theme-text: $clr-gray-10;
+    --theme-link: $clr-blue-dark;
+    --theme-login: $clr-green-dark;
+    --theme-logout: $clr-red-dark;
+    --bg-color: $clr-blue-light;
     font-family: Avenir, Helvetica, sans-serif;
 
     /* set initial background color */
@@ -242,13 +248,13 @@ body {
 
 
     .no-link-color {
-        color: $theme-light-text;
+        color: var(--theme-text);
     }
 
     /* link color */
     a:not(.btn,
         .no-link-color) {
-        color: $theme-light-link;
+        color: var(--theme-link);
     }
 
     /* buttons in button groups (forms) */
@@ -267,7 +273,7 @@ body {
  403,404.shtml */
     &#error {
         background: $bg-image;
-        color: $theme-light-text;
+        color: var(--theme-text);
 
         .navbar,
         .error-main {
@@ -279,7 +285,7 @@ body {
         }
 
         .gif {
-            background: $theme-light-text;
+            background: var(--theme-text);
             border-radius: 5vw;
             box-shadow: $box-shadow-light;
             width: calc(20vw + 100px);
@@ -303,7 +309,7 @@ loading-page.php */
         &.loader {
             z-index: 99;
         }
-    
+
         &.under-construction {
             z-index: 98;
         }
@@ -350,34 +356,34 @@ header.php */
             .login-btn,
             .logout-btn {
                 &:hover {
-                    color: $theme-light-text;
+                    color: var(--theme-text);
                 }
             }
 
             .login-btn {
-                color: $theme-light-login;
+                color: var(--theme-login);
 
                 &,
                 &:hover {
-                    border-color: $theme-light-login;
+                    border-color: var(--theme-login);
                 }
 
                 &:hover {
-                    background-color: $theme-light-login;
+                    background-color: var(--theme-login);
                 }
 
             }
 
             .logout-btn {
-                color: $theme-light-logout;
+                color: var(--theme-logout);
 
                 &,
                 &:hover {
-                    border-color: $theme-light-logout;
+                    border-color: var(--theme-logout);
                 }
 
                 &:hover {
-                    background-color: $theme-light-logout;
+                    background-color: var(--theme-logout);
                 }
 
             }
@@ -386,7 +392,7 @@ header.php */
 
         /* mobile dropdown toggle button */
         .navbar-toggler {
-            border-color: $theme-light-text;
+            border-color: var(--theme-text);
             transition: $transition-size-text;
 
             &:hover,
@@ -396,7 +402,7 @@ header.php */
 
             /* mobile dropdown toggle button icon */
             &-icon {
-                color: $theme-light-text;
+                color: var(--theme-text);
                 height: 100%;
                 padding: 0.25rem;
                 width: 100%;
@@ -417,7 +423,7 @@ header.php */
             /* content in mobile dropdown */
             &.collapsing,
             &.show {
-                background-color: $theme-light-bg;
+                background-color: var(--theme-bg);
                 border: 1px solid $clr-gray-90;
                 border-radius: 5px;
                 box-shadow: $box-shadow-direct-light;
@@ -486,7 +492,12 @@ header.php */
 
     /* initialize dark theme-light */
     &.dark-theme {
-/* 
+        --theme-bg: $clr-gray-10;
+        --theme-text: $clr-white;
+        --theme-link: $clr-blue-light;
+        --theme-login: $clr-green;
+        --theme-logout: $clr-red;
+        /* 
         .transparent-bg {
 
             :not(.btn,
@@ -496,69 +507,18 @@ header.php */
 
         } */
 
-        .no-link-color {
-            color: $theme-dark-text;
-        }
-
-        /* link color */
-        a:not(.btn,
-            .no-link-color) {
-            color: $theme-dark-link;
-        }
-
-        &#error {
-            color: $theme-dark-text;
-
-            .gif {
-                background: $theme-dark-text;
-            }
-
-        }
-
         /* dark theme header.php */
         #header-banner {
 
             .account {
 
-                .login-btn,
                 .logout-btn {
-
-                    &:hover {
-                        color: $theme-dark-text;
-                    }
-
-                }
-
-                .login-btn {
-                    color: $theme-dark-login;
 
                     /* dark theme glow */
                     &,
                     &:hover {
-                        border-color: $theme-dark-login;
-                        box-shadow: inset 0 0 0.5em 0 $clr-white-t, 0 0 0.5em 0 $theme-dark-login;
-                        text-shadow: 0 0 0.125em $clr-white-t, 0 0 0.45em $theme-dark-login;
-                    }
-
-                    &:hover {
-                        background-color: $theme-dark-login;
-                    }
-
-                }
-
-                .logout-btn {
-                    color: $theme-dark-logout;
-
-                    /* dark theme glow */
-                    &,
-                    &:hover {
-                        border-color: $theme-dark-logout;
-                        box-shadow: inset 0 0 0.5em 0 $clr-white-t, 0 0 0.5em 0 $theme-dark-logout;
-                        text-shadow: 0 0 0.125em $clr-white-t, 0 0 0.45em $theme-dark-logout;
-                    }
-
-                    &:hover {
-                        background-color: $theme-dark-logout;
+                        box-shadow: inset 0 0 0.5em 0 $clr-white-t, 0 0 0.5em 0 var(--theme-logout);
+                        text-shadow: 0 0 0.125em $clr-white-t, 0 0 0.45em var(--theme-logout);
                     }
 
                 }
@@ -567,14 +527,8 @@ header.php */
 
             /* mobile dropdown toggle button glow - dark backgrounds only */
             .navbar-toggler {
-                border-color: $theme-dark-text;
-                box-shadow: inset 0 0 0.5em 0 $clr-white-t, 0 0 0.5em 0 currentColor;
-                text-shadow: 0 0 0.125em $clr-white-t, 0 0 0.45em currentColor;
-
-                &-icon {
-                    color: $theme-dark-text;
-                }
-
+                box-shadow: inset 0 0 0.5em 0 $clr-white-t, 0 0 0.5em 0 var(--theme-text);
+                text-shadow: 0 0 0.125em $clr-white-t, 0 0 0.45em var(--theme-text);
             }
 
             .navbar-collapse {
@@ -582,7 +536,6 @@ header.php */
                 /* content in mobile dropdown - dark backgrounds */
                 &.collapsing,
                 &.show {
-                    background-color: $theme-dark-bg;
                     border: 1px solid $clr-gray-20;
                     box-shadow: $box-shadow-direct-dark;
                 }
