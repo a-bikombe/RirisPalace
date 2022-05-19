@@ -185,7 +185,12 @@ body #ults .ult-btn, body #ults .ult-btn-img {
   width: 15vw;
 }
 
+body #ults .ult-btn {
+  border: none;
+}
+
 body #ults .ult-btn-img {
+  border: 1px solid var(--clr-gray-80);
   -o-object-fit: cover;
      object-fit: cover;
 }

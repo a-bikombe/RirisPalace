@@ -164,7 +164,12 @@ body {
                 width: 15vw;
             }
 
+            &-btn {
+                border: none;
+            }
+
             &-btn-img {
+                border: 1px solid var(--clr-gray-80);
                 object-fit: cover;
             }
 
