@@ -34,7 +34,7 @@ function toggleGroupInfo(groups) {
 
 }
 
-toggleGroupInfo();
+toggleGroupInfo(groups);
 /* 
 $(document).ready(function(){
     if (jQuery) {  
