@@ -275,27 +275,6 @@ $underConstruction = '<img class="construction-gif" src="images/gifs/pikachu-con
 											</div>
 										</div>
 									</div>
-									<button class="group-property text-center playlist" data-bs-toggle="modal" data-bs-target="#<?= $groupID ?>-playlist-modal"> Playlist </button>
-									<div class="modal fade" id="<?= $groupID ?>-playlist-modal" tabindex="-1" aria-labelledby="<?= $groupID ?>-playlist-modal-label" aria-hidden="true">
-										<div class="modal-dialog">
-											<div class="modal-content">
-												<div class="modal-header">
-													<h5 class="modal-title" id="<?= $groupID ?>-playlist-modal-label">My <?= $group['name'] ?> Playlist</h5>
-													<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-												</div>
-												<div class="modal-body flex-center">
-													<?php if (!empty($group['playlist'])) { ?>
-														<?= $underConstruction; ?>
-														<!-- <iframe class="border-10px w-100" src="https://open.spotify.com/embed/playlist/<?= $group['playlist'] ?>?utm_source=generator" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe> -->
-													<?php } else {
-														echo $underConstruction;
-													}
-													unset($oldestYear, $youngestYear);
-													?>
-												</div>
-											</div>
-										</div>
-									</div>
 								</section>
 							</section>
 						<?php endif; ?>
