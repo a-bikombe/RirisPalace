@@ -23,11 +23,11 @@ function toggleGroupInfo() {
         let allGroupInfo = group.querySelectorAll('.group-info');
 
         allGroupInfo.forEach(groupInfo => {
-            groupInfo.hide();
+            groupInfo.addClass('hidden');
         });
 
         group.click(function(evt) {
-            groupInfo.toggle();
+            groupInfo.toggleClass('hidden');
         });
     
     });
