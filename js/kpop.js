@@ -23,7 +23,9 @@ function toggleGroupInfo() {
         groupInfo.hide();
 
         $(this).click(function(evt) {
-            groupInfo.toggle();
+            if ($(event.target) !== $('.group-property')) {
+                groupInfo.toggle();
+            }
         });
 
         return groupInfo;
@@ -50,8 +52,6 @@ function toggleGroupInfo() {
 function lazyloadModalImages(groupInfo) {
 
     modalButtons.each(function() {
-
-        groupInfo.show();
 
         $(this).click(function(evt) {
 
