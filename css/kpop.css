@@ -195,6 +195,10 @@ body #ults .ult-btn-img {
      object-fit: cover;
 }
 
+body #ults .ult-btn-img:hover, body #ults .ult-btn-img:focus-visible {
+  width: 15.5vw;
+}
+
 body #groups {
   background: #999999;
 }

@@ -171,6 +171,11 @@ body {
             &-btn-img {
                 border: 1px solid var(--clr-gray-20);
                 object-fit: cover;
+
+                &:hover,
+                &:focus-visible {
+                    width: 15.5vw;
+                }
             }
 
         }
