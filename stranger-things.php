@@ -4,6 +4,7 @@ require_once 'config/session.php';
 // front-end of stranger-things-characters.php
 require_once 'config/stranger-things-characters.php';
 $pageTitle = 'Stranger Things';
+echo 'Hello World';
 
 $iconPath = 'https://vignette1.wikia.nocookie.net/animal-jam-clans-1/images/f/f3/Stranger-Things-Logo-Netflix-Television-Show-Winona-Ryder-Duffer-Brothers-1234kyle5678-1.png/revision/latest?cb=20160913015917';
 
