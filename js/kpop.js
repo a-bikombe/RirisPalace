@@ -16,7 +16,7 @@ modalTitles.forEach(modalTitle => {
 
 const groups = document.querySelectorAll('.group');
 
-function toggleGroupInfo() {
+function toggleGroupInfo(groups) {
 
     groups.forEach(group => {
 
