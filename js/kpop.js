@@ -14,12 +14,12 @@ modalTitles.forEach(modalTitle => {
 const groups = $('.group');
 
 groups.each(function() {
-    let groupProperties = this.querySelectorAll('.group-property');
+    // let groupProperties = this.querySelectorAll('.group-property');
     /* groupProperties.forEach(groupProperty => {
         groupProperty.classList.add("hidden");
     }); */
     this.click(function (evt) {
-        groupProperties.forEach(groupProperty => {
+        this.querySelectorAll('.group-property').forEach(groupProperty => {
             groupProperty.classList.toggle("hidden");
         });
     });
