@@ -14,15 +14,10 @@ modalTitles.forEach(modalTitle => {
 const groups = $('.group');
 
 groups.each(function() {
-    // let groupProperties = this.querySelectorAll('.group-property');
-    /* groupProperties.forEach(groupProperty => {
-        groupProperty.classList.add("hidden");
-    }); */
-    $(this).click(function (evt) {
-        $(this).find('.group-info').toggle();
-        /* $(this).querySelectorAll('.group-property').forEach(groupProperty => {
-            groupProperty.classList.toggle("hidden");
-        }); */
+    let groupInfo = $(this).find('.group-info');
+    groupInfo.hide();
+    $(this).click(function(evt) {
+        groupInfo.toggle();
     });
 });
 /* 
