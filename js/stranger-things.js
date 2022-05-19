@@ -32,8 +32,14 @@ function s4Vol2Countdown() {
 function lazyloadCarousels() {
 
     $(document).ready(function() {
-        var lazyloadImages = document.querySelectorAll("img[data-src]");
-        var lazyloadThrottleTimeout;
+        const lazyloadImages = document.querySelectorAll("img[data-src]");
+        let lazyloadThrottleTimeout;
+
+        lazyloadImages.forEach(function(img) {
+            if (img.offsetTop > (window.innerHeight + scrollTop)) {
+                img.src = img.dataset.src;
+            }
+        });
 
         function lazyload() {
             if (lazyloadThrottleTimeout) {
