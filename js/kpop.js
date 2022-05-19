@@ -30,8 +30,6 @@ function toggleGroupInfo() {
 
 }
 
-toggleGroupInfo();
-
 /* function reorderGroups() {
 
     const groupCategories = $('.group-category');
@@ -53,7 +51,11 @@ function lazyloadModalImages() {
 
         $(this).click(function(evt) {
 
-            let modalImage = $(this).next().find(".modal-img");
+            let modal = $(this).next();
+
+            modal.show();
+
+            let modalImage = modal.find(".modal-img");
             let dataSrc = modalImage.attr('data-src');
 
             if (modalImage !== null && dataSrc !== null) {
@@ -67,6 +69,7 @@ function lazyloadModalImages() {
 
 }
 
+toggleGroupInfo();
 lazyloadModalImages();
 
 
