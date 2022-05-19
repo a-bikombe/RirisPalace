@@ -20,11 +20,9 @@ function toggleGroupInfo() {
 
     groups.forEach(group => {
 
-        let allGroupInfo = group.querySelector('.group-info');
-
-        allGroupInfo.forEach(groupInfo => {
-            groupInfo.classList.add('hidden');
-        });
+        let groupInfo = group.querySelector('.group-info');
+        
+        groupInfo.classList.add('hidden');
 
         group.click(function(evt) {
             groupInfo.classList.toggle('hidden');
