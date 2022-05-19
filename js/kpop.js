@@ -20,7 +20,7 @@ function toggleGroupProperties() {
 
     groups.each((index, group) => {
 
-        let groupProperties = $(this).find('.group-property');
+        let groupProperties = $(group + '.group-property');
     
         groupProperties.each((index, groupProperty) => {
             groupProperty.hide();
