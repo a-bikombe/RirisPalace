@@ -1,10 +1,10 @@
 // VARIABLE DECLARATIONS
-const loader = $('.loader');
+const loader = document.querySelector('.loader');
 
 // FUNCTION DECLARATIONS
 
-$(window).on('load', function (evt) {
+window.addEventListener('load', function (evt) {
     if (loader !== null) {
-        loader.addClass('hidden');
+        loader.classList.add('hidden');
     }
 });
