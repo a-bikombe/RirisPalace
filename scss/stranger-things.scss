@@ -35,6 +35,15 @@ general */
 
         }
 
+        .countdown {
+
+            &:not(.hidden) {
+                animation: glow 0.5s;
+                animation-iteration-count: infinite;
+            }
+
+        }
+
         #plot {
             margin: 40px 0;
         }

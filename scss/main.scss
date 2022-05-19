@@ -70,6 +70,19 @@ general */
     }
 }
 
+@keyframes glow {
+
+    0%,
+    100% {
+        text-shadow: none;
+    }
+
+    50% {
+        text-shadow: 0 0 0.125em var(--clr-white-t), 0 0 0.45em currentColor;
+    }
+
+}
+
 /* ~~~ DISPLAY, POSITION ~~~ */
 
 /* full page */

@@ -36,11 +36,11 @@ $scripts = [
 					<h3> Watch Season 1, 2, and 3 </h3>
 				</a>
 			</section>
-			<section id="s4-countdown">
-				<h3 id="s4-vol1-countdown" class="hidden">
+			<section id="s4-countdown" class="countdown">
+				<h3 id="s4-vol1-countdown">
 					<a href="https://www.youtube.com/watch?v=yQEondeGvKo" target="_blank" class="no-link-color no-decor">Season 4 Vol. 1</a> is in <output id="days-until-s4-vol1"></output> days.
 				</h3>
-				<h3 id="s4-vol2-countdown" class="hidden">
+				<h3 id="s4-vol2-countdown" class="countdown">
 					<a href="https://www.youtube.com/watch?v=yQEondeGvKo" target="_blank" class="no-link-color no-decor">Season 4 Vol. 2</a> is in <output id="days-until-s4-vol2"></output> days.
 				</h3>
 			</section>

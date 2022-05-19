@@ -33,6 +33,13 @@ general */
   color: var(--theme-dark-text);
 }
 
+#stranger-things #intro .countdown:not(.hidden) {
+  -webkit-animation: glow 0.5s;
+          animation: glow 0.5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
 #stranger-things #intro #plot {
   margin: 40px 0;
 }
