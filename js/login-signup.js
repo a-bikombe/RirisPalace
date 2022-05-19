@@ -1,14 +1,14 @@
-const password = $('#password');
-const passwordReenter = $('#password-reenter');
-let loginSignupSubmit = $('#login-signup-submit');
-let passwordHelp = $('#help');
+const password = document.getElementById('#password');
+const passwordReenter = document.getElementById('#password-reenter');
+let loginSignupSubmit = document.getElementById('#login-signup-submit');
+let passwordHelp = document.getElementById('#help');
 
 passwordReenter.keyup(function (evt) {
 	if (passwordReenter.value !== password.value) {
 		passwordHelp.textContent = "Passwords Must Match";
-		loginSignupSubmit.addClass('hidden');
+		loginSignupSubmit.classList.add('hidden');
 	} else {
 		passwordHelp.textContent = "";
-		loginSignupSubmit.removeClass('hidden');
+		loginSignupSubmit.classList.remove('hidden');
 	}
 });
