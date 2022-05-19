@@ -21,15 +21,11 @@ function toggleGroupProperties() {
     groups.each((index, group) => {
 
         let groupProperties = $(this).find('.group-property');
-    
-        groupProperties.each((index, groupProperty) => {
-            groupProperty.hide();
-        });
+
+        groupProperties.hide();
     
         group.click(function(evt) {
-            groupProperties.each((index, groupProperty) => {
-                groupProperty.toggle();
-            });
+            groupProperties.toggle();
         });
     
     });
