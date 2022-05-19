@@ -206,7 +206,7 @@ $underConstruction = '<img class="construction-gif" src="images/gifs/pikachu-con
 										'<?= substr($youngestYear, -2) ?>
 									</h6>
 								</section>
-								<section class="group-info hidden flex flex-align-center dir-change">
+								<section class="group-info flex flex-align-center dir-change">
 									<button class="group-property text-center bias" data-bs-toggle="modal" data-bs-target="#<?= $groupID ?>-bias-modal">Bias</button>
 									<div class="modal fade" id="<?= $groupID ?>-bias-modal" tabindex="-1" aria-labelledby="<?= $groupID ?>-bias-modal-label" aria-hidden="true">
 										<div class="modal-dialog">
