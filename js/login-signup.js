@@ -5,10 +5,10 @@ let passwordHelp = $('#help');
 
 passwordReenter.keyup(function (evt) {
 	if (passwordReenter.value !== password.value) {
-		passwordHelp.textContent = 'Passwords Must Match';
+		passwordHelp.text("Passwords Must Match");
 		loginSignupSubmit.hide();
 	} else {
-		passwordHelp.textContent = '';
+		passwordHelp.text("");
 		loginSignupSubmit.show();
 	}
 });
