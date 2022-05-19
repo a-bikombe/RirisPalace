@@ -15,7 +15,7 @@ modalTitles.forEach(modalTitle => {
 }); */
 
 const groups = document.querySelectorAll('.group');
-
+/* 
 groups.forEach(group => {
 
     let groupInfo = group.querySelector('.group-info');
@@ -27,21 +27,7 @@ groups.forEach(group => {
     });
 
 });
-
-
-/* 
-$(document).ready(function(){
-    if (jQuery) {  
-      // jQuery is loaded  
-      alert("Yeah!");
-    } else {
-      // jQuery is not loaded
-      alert("Doesn't Work");
-    }
-  });
  */
-
-/* 
 groups.forEach(group => {
     let groupProperties = group.querySelectorAll('.group-property');
     groupProperties.forEach(groupProperty => {
@@ -52,7 +38,7 @@ groups.forEach(group => {
             groupProperty.toggleClass("hidden");
         });
     });
-}); */
+});
 
 
 /* 
