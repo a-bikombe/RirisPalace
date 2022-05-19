@@ -5,6 +5,6 @@ const loader = $('.loader');
 
 $(window).on('load', function (evt) {
     if (loader !== null) {
-        loader.hide();
+        loader.addClass('hidden');
     }
 });
