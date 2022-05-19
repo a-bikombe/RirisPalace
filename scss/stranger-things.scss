@@ -1,17 +1,17 @@
 @import 'variables';
 
 #stranger-things {
-    $bg-color: $clr-black;
-    color: $clr-white;
+    --bg-color: var(--clr-black);
+    color: var(--clr-white);
 
     &,
     .loader {
-        background: $bg-color;
+        background: var(--bg-color);
     }
 
     h1 {
-        color: $clr-red-bright;
-        text-shadow: 0 0 0.125em hsla(0, 0%, 100%, 0.3), 0 0 0.45em $clr-red-bright;
+        color: var(--clr-red-bright);
+        text-shadow: 0 0 0.125em hsla(0, 0%, 100%, 0.3), 0 0 0.45em var(--clr-red-bright);
     }
 
     h2 {
@@ -29,7 +29,7 @@
     #intro {
 
         .no-link-color {
-            color: $theme-dark-text;
+            color: var(--theme-dark-text);
 
 
         }
@@ -43,9 +43,9 @@
 
     /* season */
     .season {
-        background: $clr-white;
-        border: 1px solid $clr-gray-40;
-        color: $clr-black;
+        background: var(--clr-white);
+        border: 1px solid var(--clr-gray-40);
+        color: var(--clr-black);
         padding: 2vw 3vw;
 
 
@@ -62,11 +62,11 @@
 
         /* horizontal line between every character */
         &:not(:last-child) {
-            border-bottom: 1px solid $clr-gray-60;
+            border-bottom: 1px solid var(--clr-gray-60);
         }
 
         .no-link-color {
-            color: $clr-black;
+            color: var(--clr-black);
         }
 
         /* character image and name */

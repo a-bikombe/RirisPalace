@@ -34,6 +34,20 @@ general */
   --clr-gray-90: hsl(0, 0%, 90%);
   --clr-white: hsl(0, 0%, 100%);
   --clr-white-t: hsla(0, 0%, 100%, 0.2);
+  /* background variables */
+  --bg-image: url("../images/backgrounds/flowers.jpeg") center/cover transparent;
+  --bg-transition: background-color 0.4s ease-in-out;
+  /* box-shadow variables */
+  --box-shadow-dark: 3px 3px 3px 3px var(--clr-black-t);
+  --box-shadow-light: 5px 5px 5px 5px var(--clr-gray-20-t);
+  --box-shadow-direct-dark: 0 0 10px 3px var(--clr-black-t);
+  --box-shadow-direct-light: 0 0 10px 3px var(--clr-white-t);
+  /* transitions */
+  --transition-size-padding: padding 0.2s ease-in-out;
+  --transition-size-text: font-size 0.2s ease-in-out;
+  --transition-clr-text: color 0.2s ease-in-out;
+  --transition-clr-bg: background-color 0.2s ease-in-out;
+  --transition-clr-border: border-color 0.2s ease-in-out;
   font-size: 15px;
 }
 
