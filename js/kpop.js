@@ -18,7 +18,7 @@ function toggleGroupInfo() {
 
     groups.each(function() {
 
-        let groupInfo = $(this).find('.group-info');
+        let groupInfo = $(this).find('.group-info:not(.group-property)');
 
         groupInfo.hide();
 
