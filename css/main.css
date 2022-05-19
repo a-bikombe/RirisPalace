@@ -272,7 +272,7 @@ body .overlay {
 
 body .transparent-bg {
   background: transparent;
-  /* color: $theme-light-text; */
+  color: var(--theme-text);
 }
 
 body main {
@@ -444,6 +444,7 @@ body #header-banner .account .logout-btn:hover {
 
 body #header-banner .navbar-toggler {
   border-color: var(--theme-text);
+  color: var(--theme-text);
   -webkit-transition: font-size 0.2s ease-in-out;
   transition: font-size 0.2s ease-in-out;
   /* mobile dropdown toggle button icon */
@@ -531,15 +532,6 @@ body.dark-theme {
   --theme-link: $clr-blue-light;
   --theme-login: $clr-green;
   --theme-logout: $clr-red;
-  /* 
-        .transparent-bg {
-
-            :not(.btn,
-                i) {
-                color: $theme-dark-text;
-            }
-
-        } */
   /* dark theme header.php */
 }
 

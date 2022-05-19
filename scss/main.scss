@@ -232,7 +232,7 @@ body {
         :not(.btn,
             i) {
             background: transparent;
-            /* color: $theme-light-text; */
+            color: var(--theme-text);
         }
 
     }
@@ -393,6 +393,7 @@ header.php */
         /* mobile dropdown toggle button */
         .navbar-toggler {
             border-color: var(--theme-text);
+            color: var(--theme-text);
             transition: $transition-size-text;
 
             &:hover,
@@ -497,15 +498,6 @@ header.php */
         --theme-link: $clr-blue-light;
         --theme-login: $clr-green;
         --theme-logout: $clr-red;
-        /* 
-        .transparent-bg {
-
-            :not(.btn,
-                i) {
-                color: $theme-dark-text;
-            }
-
-        } */
 
         /* dark theme header.php */
         #header-banner {
