@@ -74,7 +74,7 @@ function lazyloadModalImages(groupInfo) {
 }
 
 toggleGroupInfo();
-lazyloadModalImages();
+lazyloadModalImages(groupInfo);
 
 
 /* 
