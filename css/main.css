@@ -655,6 +655,7 @@ body footer {
 
 body footer .footer-btn {
   border: 1px solid var(--clr-gray-80);
+  border-radius: 5px;
   -webkit-box-shadow: var(--box-shadow-direct-dark);
           box-shadow: var(--box-shadow-direct-dark);
   color: var(--clr-black);
