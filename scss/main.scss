@@ -290,6 +290,10 @@ body {
 
     .no-link-color {
         color: var(--theme-text);
+
+        &:hover {
+            color: currentColor;
+        }
     }
 
     /* link color */
@@ -496,7 +500,6 @@ header.php */
 
             &:hover,
             &:focus-visible {
-                color: currentColor;
                 font-size: 1.15rem;
             }
         }
