@@ -14,8 +14,6 @@ modalTitles.forEach(modalTitle => {
     });
 }); */
 
-toggleGroupProperties();
-
 const groups = $('.group');
 
 function toggleGroupProperties() {
@@ -38,7 +36,7 @@ function toggleGroupProperties() {
 
 }
 
-
+toggleGroupProperties();
 
 
 /* 
