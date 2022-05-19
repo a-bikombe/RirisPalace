@@ -369,6 +369,7 @@ body#error .text {
 }
 
 body .overlay {
+  gap: 3vw;
   left: 0;
   padding-inline: 20vw;
   top: 0;
