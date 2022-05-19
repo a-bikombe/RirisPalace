@@ -15,7 +15,7 @@ modalTitles.forEach(modalTitle => {
 }); */
 
 const groups = document.querySelectorAll('.group');
-
+/* 
 function toggleGroupInfo() {
 
     groups.forEach(group => {
@@ -34,7 +34,7 @@ function toggleGroupInfo() {
 
 }
 
-toggleGroupInfo();
+toggleGroupInfo(); */
 
 $(document).ready(function(){
     if (jQuery) {  
