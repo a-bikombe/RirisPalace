@@ -16,19 +16,18 @@ modalTitles.forEach(modalTitle => {
 
 const groups = document.querySelectorAll('.group');
 
-    groups.forEach(group => {
+groups.forEach(group => {
 
-        let groupInfo = group.querySelector('.group-info');
-        
-        groupInfo.classList.add('hidden');
+    let groupInfo = group.querySelector('.group-info');
 
-        group.click(function(evt) {
-            groupInfo.classList.toggle('hidden');
-        });
-    
+    groupInfo.classList.add('hidden');
+
+    group.click(function(evt) {
+        groupInfo.classList.toggle('hidden');
     });
 
-}
+});
+
 
 /* 
 $(document).ready(function(){
@@ -54,7 +53,6 @@ groups.forEach(group => {
         });
     });
 }); */
-
 
 
 /* 
