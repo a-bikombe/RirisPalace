@@ -18,7 +18,7 @@ function toggleGroupInfo() {
 
     groups.each(function() {
 
-        let groupInfo = $(this).find('.group-info:not(.group-property)');
+        let groupInfo = $(this).find('.group-info');
 
         groupInfo.hide();
 
@@ -48,6 +48,8 @@ function toggleGroupInfo() {
 function lazyloadModalImages() {
 
     modalButtons.each(function() {
+
+        groupInfo.show();
 
         $(this).click(function(evt) {
 
