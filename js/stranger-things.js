@@ -55,7 +55,6 @@ function lazyloadCarousels() {
             }, 20);
         }
 
-        $(window).on("load", lazyload);
         $(document).on("scroll", lazyload);
         $(window).on("resize", lazyload);
         $(window).on("orientationChange", lazyload);
