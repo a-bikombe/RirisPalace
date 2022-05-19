@@ -292,7 +292,7 @@ body {
         color: var(--theme-text);
 
         &:hover {
-            color: currentColor;
+            color: var(--theme-text);
         }
     }
 
