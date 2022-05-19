@@ -35,12 +35,6 @@ function lazyloadCarousels() {
         const lazyloadImages = document.querySelectorAll("img[data-src]");
         let lazyloadThrottleTimeout;
 
-        lazyloadImages.forEach(function(img) {
-            if (img.offsetTop > (window.innerHeight + scrollTop)) {
-                img.src = img.dataset.src;
-            }
-        });
-
         function lazyload() {
             if (lazyloadThrottleTimeout) {
                 clearTimeout(lazyloadThrottleTimeout);
@@ -61,9 +55,10 @@ function lazyloadCarousels() {
             }, 20);
         }
 
-        document.addEventListener("scroll", lazyload);
-        window.addEventListener("resize", lazyload);
-        window.addEventListener("orientationChange", lazyload);
+        $(document).on("load", lazyload);
+        $(document).on("scroll", lazyload);
+        $(window).on("resize", lazyload);
+        $(window).on("orientationChange", lazyload);
     });
 
 }
