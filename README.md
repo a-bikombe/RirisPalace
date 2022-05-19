@@ -39,7 +39,7 @@
 ## Included Pages
 * [x] **include/head-tag.php** - Configures head tag with proper tags for quicker initilization
 * [x] **include/loading-page.php** - Loading Page
-* [ ] **include/under-construction.php** - Construction Page for Unfinished Pages
+* [x] **include/under-construction.php** - Construction Page for Unfinished Pages
 * [x] **include/header.php** - Header Banner
 * [x] **include/footer.php** - Footer Button
 
@@ -48,26 +48,25 @@
 * [x] **config/nav-links.php** - Nav links for header banner
 * [x] **config/session.php** - Initializes session for every page
 
-## Styles
+## Styles (derived from SCSS)
 
 * Bootstrap CDN - Header Banner, Modals, Image Carousels
 * FontAwesome CDN - Icons
-* css/main.css - 
-* css/index.css - 
-* css/kpop.css - 
-* css/stranger-things.css - 
-* css/main-mobile.css - 
-* css/kpop-mobile.css - 
+* css/main.css - Utility Classes, Themes, Error Pages, Overlay Pages, Header, Profile Page, Footer
+* css/index.css - Homepage
+* css/kpop.css - KPop
+* css/stranger-things.css - Stranger Things
+* css/main-mobile.css - Header Mobile, Homepage Mobile, Stranger Things Mobile
+* css/kpop-mobile.css - KPop Mobile
 
-## Scripts
+## Scripts (using JQuery)
 
 JQuery CDN - Easier JS
-* js/main.js - 
-* js/finn.js - 
-* js/kpop.js - 
-* js/login-signup.js - 
-* js/profile.js - 
-* js/stranger-things.js - 
+* js/main.js - loadingPage()
+* js/kpop.js - lazyloadModalImages(), soon searchBarKpop() and reorderGroups()
+* js/login-signup.js - matchPasswords()
+* js/profile.js - showDeleteForm()
+* js/stranger-things.js - s4Vol1Countdown(), s4Vol2Countdown(), lazyloadCarousels()
 
 ## Commit Command
 
