@@ -1,12 +1,9 @@
 /* let searchBar = $('#searchbar');
 let searchOutput = $('#searchOutput');
-
 searchBar.addEventListener('input', function (evt) {
 	searchOutput.textContent = searchBar.value;
 }); */
-
 /* let modalTitles = document.querySelectorAll(".member-title");
-
 modalTitles.forEach(modalTitle => {
     modalTitle.addEventListener('click', function (evt) {
         modalTitle.classList.add('hidden');
@@ -14,6 +11,20 @@ modalTitles.forEach(modalTitle => {
     });
 }); */
 
+const groups = $('.group');
+
+groups.each(function() {
+    let groupProperties = this.querySelectorAll('.group-property');
+    /* groupProperties.forEach(groupProperty => {
+        groupProperty.classList.add("hidden");
+    }); */
+    this.click(function (evt) {
+        groupProperties.forEach(groupProperty => {
+            groupProperty.classList.toggle("hidden");
+        });
+    });
+});
+/* 
 const groups = document.querySelectorAll('.group');
 
 groups.forEach(group => {
@@ -26,7 +37,7 @@ groups.forEach(group => {
             groupProperty.classList.toggle("hidden");
         });
     });
-});
+}); */
 
 
 /* 
