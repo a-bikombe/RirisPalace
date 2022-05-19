@@ -14,7 +14,7 @@ function matchPasswords() {
             passwordHelp.text("");
             loginSignupSubmit.show();
         }
-		
+
     });
 
 }

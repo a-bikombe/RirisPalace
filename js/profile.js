@@ -6,7 +6,7 @@ function showDeleteForm() {
     deleteBtn.click(function(evt) {
 
         confirmDeleteForm.show();
-		
+
     });
 
 }
