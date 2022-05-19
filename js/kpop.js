@@ -31,7 +31,7 @@ groups.forEach(group => {
 groups.forEach(group => {
     let groupProperties = group.querySelectorAll('.group-property');
     groupProperties.forEach(groupProperty => {
-        groupProperty.addClass('hidden');
+        groupProperty.addClass("hidden");
     });
     group.click(function (evt) {
         groupProperties.forEach(groupProperty => {
