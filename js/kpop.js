@@ -20,8 +20,6 @@ function toggleGroupInfo() {
 
         let groupInfo = $(this).find('.group-info');
 
-        groupInfo.hide();
-
         $(this).click(function(evt) {
             groupInfo.toggle();
         });
