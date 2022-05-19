@@ -13,13 +13,21 @@ modalTitles.forEach(modalTitle => {
 
 const groups = $('.group');
 
-groups.each(function() {
-    let groupInfo = $(this).find('.group-info');
-    groupInfo.hide();
-    $(this).click(function(evt) {
-        groupInfo.toggle();
+function toggleGroupInfo() {
+
+    groups.each(function() {
+        let groupInfo = $(this).find('.group-info');
+        groupInfo.hide();
+        $(this).click(function(evt) {
+            groupInfo.toggle();
+        });
     });
-});
+
+}
+
+toggleGroupInfo();
+
+
 /* 
 const groups = document.querySelectorAll('.group');
 
