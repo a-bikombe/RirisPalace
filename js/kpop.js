@@ -23,11 +23,13 @@ function toggleGroupInfo() {
         groupInfo.hide();
 
         $(this).click(function(evt) {
-            if ($(event.target) !== $('.group-property')) {
+            if ($(event.target) === $('.group-property')) {
+                groupInfo.show();
+            } else {
                 groupInfo.toggle();
             }
         });
-        
+
     });
 
 }
