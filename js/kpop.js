@@ -22,10 +22,10 @@ function toggleGroupInfo() {
 
         let groupInfo = group.querySelector('.group-info');
 
-        groupInfo.hide();
+        groupInfo.addClass('hidden');
     
         group.click(function(evt) {
-            groupInfo.toggle();
+            groupInfo.toggleClass('hidden');
         });
     
     });
