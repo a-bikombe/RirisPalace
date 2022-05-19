@@ -14,13 +14,13 @@ modalTitles.forEach(modalTitle => {
     });
 }); */
 
-const groups = $('.group');
+const groups = document.querySelectorAll('.group');
 
 function toggleGroupInfo() {
 
-    groups.each((index, group) => {
+    groups.forEach(group => {
 
-        let groupInfo = $(this).find('.group-info');
+        let groupInfo = group.querySelector('.group-info');
 
         groupInfo.hide();
     
