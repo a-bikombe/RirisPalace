@@ -664,7 +664,7 @@ body footer .footer-btn {
   transition: var(--transition-size-text);
 }
 
-body footer .footer-btn:hover {
+body footer .footer-btn:hover, body footer .footer-btn:focus-visible {
   border: 1px solid var(--clr-gray-80);
   -webkit-box-shadow: var(--box-shadow-direct-dark);
           box-shadow: var(--box-shadow-direct-dark);

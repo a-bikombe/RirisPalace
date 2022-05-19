@@ -651,7 +651,8 @@ include/footer.php */
             overflow: hidden;
             transition: var(--transition-size-text);
 
-            &:hover {
+            &:hover,
+            &:focus-visible {
                 border: 1px solid var(--clr-gray-80);
                 box-shadow: var(--box-shadow-direct-dark);
                 font-size: 1.1rem;
