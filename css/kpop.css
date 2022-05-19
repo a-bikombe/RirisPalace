@@ -193,10 +193,12 @@ body #ults .ult-btn-img {
   border: 1px solid var(--clr-gray-20);
   -o-object-fit: cover;
      object-fit: cover;
+  -webkit-transition: var(--transition-clr-border);
+  transition: var(--transition-clr-border);
 }
 
 body #ults .ult-btn-img:hover, body #ults .ult-btn-img:focus-visible {
-  width: 15.5vw;
+  border: 1px solid var(--clr-gray-80);
 }
 
 body #groups {
