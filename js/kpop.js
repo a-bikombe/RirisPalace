@@ -15,27 +15,27 @@ modalTitles.forEach(modalTitle => {
 }); */
 
 const groups = document.querySelectorAll('.group');
-/* 
+
 function toggleGroupInfo() {
 
     groups.forEach(group => {
 
-        let allGroupInfo = group.querySelectorAll('.group-info');
+        let allGroupInfo = group.querySelector('.group-info');
 
         allGroupInfo.forEach(groupInfo => {
-            groupInfo.addClass('hidden');
+            groupInfo.classList.add('hidden');
         });
 
         group.click(function(evt) {
-            groupInfo.toggleClass('hidden');
+            groupInfo.classList.toggle('hidden');
         });
     
     });
 
 }
 
-toggleGroupInfo(); */
-
+toggleGroupInfo();
+/* 
 $(document).ready(function(){
     if (jQuery) {  
       // jQuery is loaded  
@@ -45,7 +45,7 @@ $(document).ready(function(){
       alert("Doesn't Work");
     }
   });
-
+ */
 
 /* 
 groups.forEach(group => {
