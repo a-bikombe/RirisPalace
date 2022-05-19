@@ -27,9 +27,7 @@ function toggleGroupInfo() {
                 groupInfo.toggle();
             }
         });
-
-        return groupInfo;
-
+        
     });
 
 }
@@ -49,7 +47,7 @@ function toggleGroupInfo() {
 
 } reorderGroups(); */
 
-function lazyloadModalImages(groupInfo) {
+function lazyloadModalImages() {
 
     modalButtons.each(function() {
 
@@ -74,7 +72,7 @@ function lazyloadModalImages(groupInfo) {
 }
 
 toggleGroupInfo();
-lazyloadModalImages(groupInfo);
+lazyloadModalImages();
 
 
 /* 
