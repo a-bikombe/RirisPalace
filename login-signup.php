@@ -5,9 +5,7 @@ $pageTitle = 'Sign Up';
 
 $iconPath = 'images/icons/luca.png';
 
-$styles = [
-	'login'
-];
+$styles = [];
 
 $mobileStyles = [
 	'main' => '575'
