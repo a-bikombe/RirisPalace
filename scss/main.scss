@@ -287,6 +287,10 @@ body {
 
     /* general components */
 
+    /* link color */
+    a {
+        color: var(--theme-link);
+    }
 
     .no-link-color {
         color: var(--theme-text);
@@ -294,12 +298,6 @@ body {
         &:hover {
             color: var(--theme-text);
         }
-    }
-
-    /* link color */
-    a:not(.btn,
-        .no-link-color) {
-        color: var(--theme-link);
     }
 
     /* buttons in button groups (forms) */
