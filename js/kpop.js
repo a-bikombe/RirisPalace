@@ -19,7 +19,7 @@ groups.each(function() {
         groupProperty.classList.add("hidden");
     }); */
     $(this).click(function (evt) {
-        console.log($(this).find('.group-property'));
+        console.log($(this).find('.group-info'));
         /* $(this).querySelectorAll('.group-property').forEach(groupProperty => {
             groupProperty.classList.toggle("hidden");
         }); */
