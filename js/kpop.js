@@ -53,6 +53,8 @@ groupCategories.forEach(groupCategory => {
     });
 });
 */
+
+/* 
 const modalButtons = document.querySelectorAll('[data-bs-toggle="modal"]');
 
 modalButtons.forEach(modalButton => {
@@ -64,4 +66,4 @@ modalButtons.forEach(modalButton => {
             modalImage.removeAttribute('data-src');
         }
     });
-});
+}); */
