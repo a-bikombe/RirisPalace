@@ -344,9 +344,9 @@ body {
 loading-page.php */
 
     /* loading display */
-    .loader,
-    .under-construction {
+    .overlay {
         left: 0;
+        padding-inline: 20vw;
         top: 0;
 
         &.loader {
@@ -365,7 +365,7 @@ loading-page.php */
 
         /* loading gif */
         img {
-            width: 25vw;
+            width: calc(35vw + 20px);
         }
 
         /* loading subtitle */

@@ -129,7 +129,8 @@ $scripts = [
 								<ul class="character-description-list">
 									<?php foreach ($characterInfo['content'] as $bulletPoint) : ?>
 										<li class="character-description-item"><?= $bulletPoint ?></li>
-									<?php endforeach; ?> </ul>
+									<?php endforeach; ?>
+								</ul>
 							</section>
 						</section>
 					<?php endforeach; ?>

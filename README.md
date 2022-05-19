@@ -50,7 +50,7 @@
 
 ## Styles
 
-* Bootstrap CDN - 
+* Bootstrap CDN - Header Banner, Modals, Image Carousels
 * FontAwesome CDN - Icons
 * css/main.css - 
 * css/index.css - 
@@ -61,6 +61,7 @@
 
 ## Scripts
 
+JQuery CDN - Easier JS
 * js/main.js - 
 * js/finn.js - 
 * js/kpop.js - 

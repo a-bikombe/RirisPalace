@@ -368,40 +368,35 @@ body#error .text {
   padding-top: 6vh;
 }
 
-body .loader,
-body .under-construction {
+body .overlay {
   left: 0;
+  padding-inline: 20vw;
   top: 0;
   /* when the loader hides */
   /* loading gif */
   /* loading subtitle */
 }
 
-body .loader.loader,
-body .under-construction.loader {
+body .overlay.loader {
   z-index: 99;
 }
 
-body .loader.under-construction,
-body .under-construction.under-construction {
+body .overlay.under-construction {
   z-index: 98;
 }
 
-body .loader.hidden,
-body .under-construction.hidden {
+body .overlay.hidden {
   -webkit-animation: fadeOut 0.5s;
           animation: fadeOut 0.5s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
 
-body .loader img,
-body .under-construction img {
-  width: 25vw;
+body .overlay img {
+  width: calc(35vw + 20px);
 }
 
-body .loader .subtitle,
-body .under-construction .subtitle {
+body .overlay .subtitle {
   font-size: 1.5rem;
 }
 
