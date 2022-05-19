@@ -12,57 +12,68 @@ modalTitles.forEach(modalTitle => {
 }); */
 
 const groups = $('.group');
+const modalButtons = $('[data-bs-toggle="modal"]');
 
 function toggleGroupInfo() {
 
     groups.each(function() {
+
         let groupInfo = $(this).find('.group-info');
+
         groupInfo.hide();
+
         $(this).click(function(evt) {
             groupInfo.toggle();
         });
+
     });
 
 }
 
 toggleGroupInfo();
 
+/* function reorderGroups() {
 
-/* 
-const groups = document.querySelectorAll('.group');
+    const groupCategories = $('.group-category');
 
-groups.forEach(group => {
-    let groupProperties = group.querySelectorAll('.group-property');
-    groupProperties.forEach(groupProperty => {
-        groupProperty.classList.add("hidden");
-    });
-    group.click(function (evt) {
-        groupProperties.forEach(groupProperty => {
-            groupProperty.classList.toggle("hidden");
+    // for group reordering
+    groupCategories.forEach(groupCategory => {
+        let indexes = groupCategory.querySelectorAll('.index');
+
+        indexes.forEach(index => {
+            index.click(function(evt) {});
         });
     });
-}); */
 
+} reorderGroups(); */
 
-/* 
+function lazyloadModalImages() {
 
-const groupCategories = $('.group-category');
+    modalButtons.each(function() {
 
-// for group reordering
-groupCategories.forEach(groupCategory => {
-    let indexes = groupCategory.querySelectorAll('.index');
+        $(this).click(function(evt) {
 
-    indexes.forEach(index => {
-        index.click(function(evt) {});
+            let modalImage = $(this).next().find(".modal-img");
+            let dataSrc = modalImage.attr('data-src');
+
+            if (modalImage !== null && dataSrc !== null) {
+                modalImage.attr('src', dataSrc);
+                modalImage.removeAttr('data-src');
+            }
+
+        });
+
     });
-});
-*/
+
+}
+
+lazyloadModalImages();
+
 
 /* 
-const modalButtons = document.querySelectorAll('[data-bs-toggle="modal"]');
-
 modalButtons.forEach(modalButton => {
     modalButton.addEventListener('click', function(evt) {
+
         modal = modalButton.nextElementSibling;
         let modalImage = modal.$(".modal-img");
         if (modalImage !== null && modalImage.getAttribute('data-src') !== null) {
