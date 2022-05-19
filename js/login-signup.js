@@ -6,9 +6,9 @@ let passwordHelp = $('#help');
 passwordReenter.keyup(function (evt) {
 	if (passwordReenter.value !== password.value) {
 		passwordHelp.textContent = "Passwords Must Match";
-		loginSignupSubmit.hide();
+		loginSignupSubmit.classList.add('hidden');
 	} else {
 		passwordHelp.textContent = "";
-		loginSignupSubmit.show();
+		loginSignupSubmit.classList.remove('hidden');
 	}
 });
