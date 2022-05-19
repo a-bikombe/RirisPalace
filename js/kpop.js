@@ -41,7 +41,7 @@ groupCategories.forEach(groupCategory => {
         index.click(function(evt) {});
     });
 });
-
+*/
 const modalButtons = document.querySelectorAll('[data-bs-toggle="modal"]');
 
 modalButtons.forEach(modalButton => {
@@ -50,8 +50,7 @@ modalButtons.forEach(modalButton => {
         let modalImage = modal.$(".modal-img");
         if (modalImage !== null && modalImage.getAttribute('data-src') !== null) {
             modalImage.setAttribute('src', modalImage.getAttribute('data-src'));
-            modalImage.removeAttr('data-src');
+            modalImage.removeAttribute('data-src');
         }
     });
 });
- */
