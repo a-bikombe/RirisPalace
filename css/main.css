@@ -594,21 +594,6 @@ body.dark-theme #header-banner {
   /* mobile dropdown toggle button glow - dark backgrounds only */
 }
 
-body.dark-theme #header-banner .navbar-brand::before {
-  pointer-events: none;
-  content: "";
-  position: absolute;
-  background: currentColor;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  /* 
-                    transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
-                    filter: blur(1em);
-                    opacity: 0.7; */
-}
-
 body.dark-theme #header-banner .account .login-btn {
   /* dark theme glow */
 }
