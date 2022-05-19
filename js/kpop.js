@@ -16,27 +16,30 @@ modalTitles.forEach(modalTitle => {
 
 const groups = $('.group');
 
-groups.each((index, group) => {
+function toggleGroupProperties() {
 
-    let groupProperties = group.$('.group-property');
+    groups.each((index, group) => {
 
-    groupProperties.each((index, groupProperty) => {
-        groupProperty.hide();
-    });
-
-    group.click(function (evt) {
+        let groupProperties = group.$('.group-property');
+    
         groupProperties.each((index, groupProperty) => {
-            groupProperty.toggle();
+            groupProperty.hide();
         });
+    
+        group.click(function(evt) {
+            groupProperties.each((index, groupProperty) => {
+                groupProperty.toggle();
+            });
+        });
+    
     });
-});
+
+}
 
 
 
 
-
-
-
+/* 
 groups.forEach(group => {
     let groupProperties = group.querySelectorAll('.group-property');
     groupProperties.forEach(groupProperty => {
@@ -47,21 +50,21 @@ groups.forEach(group => {
             groupProperty.toggleClass("hidden");
         });
     });
-});
+}); */
 
 // for group reordering
 groupCategories.forEach(groupCategory => {
     let indexes = groupCategory.querySelectorAll('.index');
 
     indexes.forEach(index => {
-        index.click(function (evt) {});
+        index.click(function(evt) {});
     });
 });
 
 const modalButtons = document.querySelectorAll('[data-bs-toggle="modal"]');
 
 modalButtons.forEach(modalButton => {
-    modalButton.addEventListener('click', function (evt) {
+    modalButton.addEventListener('click', function(evt) {
         modal = modalButton.nextElementSibling;
         let modalImage = modal.$(".modal-img");
         if (modalImage !== null && modalImage.getAttribute('data-src') !== null) {
@@ -70,3 +73,5 @@ modalButtons.forEach(modalButton => {
         }
     });
 });
+
+toggleGroupProperties();
