@@ -11,14 +11,17 @@ modalTitles.forEach(modalTitle => {
     });
 }); */
 
-const groups = $('.group:not(.group-property)');
+const groups = $('.group');
 const modalButtons = $('[data-bs-toggle="modal"]');
 
-function toggleGroupInfo() {
+/* FIXME: modal does not open when you can hide group info */
+/* function toggleGroupInfo() {
 
     groups.each(function() {
 
         let groupInfo = $(this).find('.group-info');
+
+        groupInfo.hide();
 
         $(this).click(function(evt) {
             groupInfo.toggle();
@@ -26,7 +29,7 @@ function toggleGroupInfo() {
 
     });
 
-}
+} */
 
 /* function reorderGroups() {
 
@@ -67,7 +70,7 @@ function lazyloadModalImages() {
 
 }
 
-toggleGroupInfo();
+/* toggleGroupInfo(); */
 lazyloadModalImages();
 
 
