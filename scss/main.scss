@@ -527,8 +527,8 @@ header.php */
 
             /* mobile dropdown toggle button glow - dark backgrounds only */
             .navbar-toggler {
-                box-shadow: inset 0 0 0.5em 0 $clr-white-t, 0 0 0.5em 0 var(--theme-text);
-                text-shadow: 0 0 0.125em $clr-white-t, 0 0 0.45em var(--theme-text);
+                box-shadow: inset 0 0 0.5em 0 $clr-white-t, 0 0 0.5em 0 currentColor;
+                text-shadow: 0 0 0.125em $clr-white-t, 0 0 0.45em currentColor;
             }
 
             .navbar-collapse {
