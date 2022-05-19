@@ -52,6 +52,10 @@ groups.forEach(group => {
     });
 }); */
 
+
+
+/* 
+
 const groupCategories = $('.group-category');
 
 // for group reordering
@@ -75,3 +79,4 @@ modalButtons.forEach(modalButton => {
         }
     });
 });
+ */
