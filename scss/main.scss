@@ -532,6 +532,17 @@ header.php */
 
             .account {
 
+                .login-btn {
+
+                    /* dark theme glow */
+                    &,
+                    &:hover {
+                        box-shadow: inset 0 0 0.5em 0 $clr-white-t, 0 0 0.5em 0 var(--theme-login);
+                        text-shadow: 0 0 0.125em $clr-white-t, 0 0 0.45em var(--theme-login);
+                    }
+
+                }
+
                 .logout-btn {
 
                     /* dark theme glow */
