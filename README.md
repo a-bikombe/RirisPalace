@@ -37,7 +37,7 @@
 	* *validation/login-signup.php*
 
 ## Included Pages
-* [x] **include/head-tag.php** - Configures head tag with proper tags for quicker initilization
+* [x] **include/head-tag.php** - Configures head tag with proper tags for quicker initilization, initializes css and js CDNs
 * [x] **include/loading-page.php** - Loading Page
 * [x] **include/under-construction.php** - Construction Page for Unfinished Pages
 * [x] **include/header.php** - Header Banner
@@ -47,6 +47,7 @@
 * [x] **config/mysql-connect.php** - Sets default database connection variable values
 * [x] **config/nav-links.php** - Nav links for header banner
 * [x] **config/session.php** - Initializes session for every page
+* [ ] **archive/kpop-validation.php** - Currently not in use, was used to validate a dropdown of member names
 
 ## Styles (derived from SCSS)
 
