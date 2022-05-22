@@ -287,7 +287,7 @@ layout */
 body {
   --theme-bg: var(--clr-white);
   --theme-text: var(--clr-gray-10);
-  --theme-border: var(var(--clr-gray-90));
+  --theme-border: var(--clr-gray-90);
   --theme-box-shadow-direct: 0 0 10px 3px var(--clr-black-t);
   --theme-link: var(--clr-blue-dark);
   --theme-login: var(--clr-green-dark);
@@ -544,6 +544,14 @@ body #header-banner .navbar-collapse.collapsing, body #header-banner .navbar-col
   -webkit-transform: translateY(1rem);
           transform: translateY(1rem);
   z-index: 1;
+}
+
+body #header-banner .navbar-collapse.collapsing .nav-item, body #header-banner .navbar-collapse.show .nav-item {
+  /* only add border to .nav-item if there is another .nav-item before it */
+}
+
+body #header-banner .navbar-collapse.collapsing .nav-item + .nav-item, body #header-banner .navbar-collapse.show .nav-item + .nav-item {
+  border-top: 1px solid var(--theme-border);
 }
 
 body #header-banner .navbar-collapse.collapsing .account, body #header-banner .navbar-collapse.show .account {

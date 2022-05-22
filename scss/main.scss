@@ -262,7 +262,7 @@ layout */
 body {
     --theme-bg: var(--clr-white);
     --theme-text: var(--clr-gray-10);
-    --theme-border: var(var(--clr-gray-90));
+    --theme-border: var(--clr-gray-90);
     --theme-box-shadow-direct: 0 0 10px 3px var(--clr-black-t);
     --theme-link: var(--clr-blue-dark);
     --theme-login: var(--clr-green-dark);
@@ -485,6 +485,15 @@ header.php */
                 padding-block: 0.75rem;
                 transform: translateY(1rem);
                 z-index: 1;
+
+                .nav-item {
+
+                    /* only add border to .nav-item if there is another .nav-item before it */
+                    & + .nav-item {
+                        border-top: 1px solid var(--theme-border);
+                    }
+            
+                }
 
                 .account {
                     flex-direction: column;
