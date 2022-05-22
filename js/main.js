@@ -1,6 +1,6 @@
 const loader = $('.loader');
 
-const loadingPage = () => {
+function loadingPage() {
 
     $(window).on('load', (evt) => {
 
@@ -10,6 +10,6 @@ const loadingPage = () => {
 
     });
 
-};
+}
 
 loadingPage();

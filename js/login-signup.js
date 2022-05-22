@@ -3,7 +3,7 @@ const passwordReenter = $('#password-reenter');
 let loginSignupSubmit = $('#login-signup-submit');
 let passwordHelp = $('#help');
 
-const matchPasswords = () => {
+function matchPasswords() {
 
     passwordReenter.keyup((evt) => {
 
@@ -17,6 +17,6 @@ const matchPasswords = () => {
 
     });
 
-};
+}
 
 matchPasswords();

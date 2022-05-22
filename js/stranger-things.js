@@ -3,7 +3,7 @@ const s4Vol2 = new Date(2022, 06, 01);
 const currentDate = new Date();
 const one_day = 1000 * 60 * 60 * 24;
 
-const s4Vol1Countdown = () => {
+function s4Vol1Countdown() {
 
     let s4Vol1CountdownBlock = $('#s4-vol1-countdown');
     let daysUntilS4Vol1 = $('#days-until-s4-vol1');
@@ -16,9 +16,9 @@ const s4Vol1Countdown = () => {
         daysUntilS4Vol1.text(parseInt(days));
     }
 
-};
+}
 
-const s4Vol2Countdown = () => {
+function s4Vol2Countdown() {
 
     let s4Vol2CountdownBlock = $('#s4-vol2-countdown');
     let daysUntilS4Vol2 = $('#days-until-s4-vol2');
@@ -31,10 +31,10 @@ const s4Vol2Countdown = () => {
         daysUntilS4Vol2.text(parseInt(days));
     }
 
-};
+}
 
 // sourced from https://css-tricks.com/the-complete-guide-to-lazy-loading-images/
-const lazyloadCarousels = () => {
+function lazyloadCarousels() {
 
     $(document).ready(() => {
         const lazyloadImages = document.querySelectorAll("img[data-src]");
@@ -66,7 +66,7 @@ const lazyloadCarousels = () => {
         $(window).on("orientationChange", lazyload);
     });
 
-};
+}
 
 s4Vol1Countdown();
 s4Vol2Countdown();
