@@ -1,8 +1,8 @@
 <?php
 require_once 'config/session.php';
 
-// front-end of stranger-things-characters.php
-require_once 'config/stranger-things-characters.php';
+// front-end of stranger-things-config.php
+require_once 'config/stranger-things-config.php';
 $pageTitle = 'Stranger Things';
 
 $iconPath = 'https://vignette1.wikia.nocookie.net/animal-jam-clans-1/images/f/f3/Stranger-Things-Logo-Netflix-Television-Show-Winona-Ryder-Duffer-Brothers-1234kyle5678-1.png/revision/latest?cb=20160913015917';
@@ -20,6 +20,7 @@ $scripts = [
 	'stranger-things'
 ];
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,7 +30,7 @@ $scripts = [
 	<?php require_once 'include/loading-page.php'; ?>
 	<?php require_once 'include/header.php'; ?>
 	<main>
-	<h1><?= strtoupper($pageTitle) ?></h1>
+		<h1><?= strtoupper($pageTitle) ?></h1>
 		<section id="intro" aria-label="Introduction">
 			<section id="watch-links" aria-label="Watch Links">
 				<a href="https://www.netflix.com/title/80057281" class="no-link-color no-decor text-center" target="_blank">
@@ -49,9 +50,9 @@ $scripts = [
 				<p> <?= $plot ?> </p>
 			</section>
 		</section>
-		<section id="characters" aria-label="Characters">
+		<section id="characters" class="characters" aria-label="Characters">
 			<?php foreach ($seasons as $season => $seasonInfo) : ?>
-				<section class="season border-10px" id="<?= $season ?>" aria-label="<?= $seasonInfo['seasonName'] ?>">
+				<section class="season border-10px" id="<?= $season ?>-characters" aria-label="<?= $seasonInfo['seasonName'] ?>">
 					<h2> <?= $seasonInfo['seasonName'] ?> Characters </h2>
 					<!-- character template -->
 					<?php foreach ($seasonInfo['characters'] as $character => $characterInfo) : ?>
@@ -134,6 +135,38 @@ $scripts = [
 							</div>
 						</section>
 					<?php endforeach; ?>
+				</section>
+			<?php endforeach; ?>
+		</section>
+		<section id="episodes" aria-labelledby="episodes-title">
+			<h2 id="episodes-title">Episodes</h2>
+			<?php foreach ($seasons as $seasonId => $season) : ?>
+				<section class="season border-10px" id="<?= $seasonId ?>-episodes" aria-label="<?= $season['seasonName'] ?>">
+					<?php if (isset($season['episodes'])) : ?>
+						<?php foreach ($season['episodes'] as $episodeId => $episode) : ?>
+							<section class="episode" id="<?= $seasonId . '-' . $episodeId ?>">
+								<section class="episode-header flex-align-center">
+									<h3 class="episode-title">Chapter <?= ucfirst($episodeId) ?>: <strong><?= $episode['title'] ?></strong></h3>
+									<p class="subtitle"><?= $episode['rank'] . '/' . $totalEpisodes ?></p>
+									<span class="rating"><i class="fa-solid fa-star"></i></span>
+								</section>
+								<section class="episode-main">
+									<section class="thoughts">
+										<h4 class="thoughts-title">Quotes</h4>
+										<p><?= $episode['thoughts'] ?></p>
+									</section>
+									<section class="quotes">
+										<h4 class="quote-title">Quotes</h4>
+										<ul>
+											<?php foreach ($episode['quotes'] as $quote) : ?>
+												<li class="quote"><?= $quote ?></li>
+											<?php endforeach; ?>
+										</ul>
+									</section>
+								</section>
+							</section>
+						<?php endforeach; ?>
+					<?php endif; ?>
 				</section>
 			<?php endforeach; ?>
 		</section>

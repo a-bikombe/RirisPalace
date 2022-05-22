@@ -3,8 +3,6 @@ general */
 #stranger-things {
   --bg-color: var(--clr-black);
   color: var(--clr-white);
-  /* season */
-  /* character */
 }
 
 #stranger-things,
@@ -47,7 +45,12 @@ general */
   margin-block: 40px;
 }
 
-#stranger-things .season {
+#stranger-things #characters {
+  /* season */
+  /* character */
+}
+
+#stranger-things #characters .season {
   background: var(--clr-white);
   border: 1px solid var(--clr-gray-40);
   color: var(--clr-black);
@@ -59,56 +62,74 @@ general */
         } */
 }
 
-#stranger-things .character {
+#stranger-things #characters .character {
   padding: 20px 0;
   /* horizontal line between every character */
   /* character image and name */
   /* character description */
 }
 
-#stranger-things .character:not(:last-child) {
+#stranger-things #characters .character:not(:last-child) {
   border-bottom: 1px solid var(--clr-gray-60);
 }
 
-#stranger-things .character .no-link-color {
+#stranger-things #characters .character .no-link-color {
   color: var(--clr-black);
 }
 
-#stranger-things .character-image-name {
+#stranger-things #characters .character-image-name {
   margin-block: auto;
   width: 40%;
   /* character image carousel */
 }
 
-#stranger-things .character-image-name .character-image-carousel {
+#stranger-things #characters .character-image-name .character-image-carousel {
   margin: auto auto 10px;
   width: 80%;
   /* don't hide season caption on mobile */
 }
 
-#stranger-things .character-image-name .character-image-carousel,
-#stranger-things .character-image-name .character-image-carousel .character-image {
+#stranger-things #characters .character-image-name .character-image-carousel,
+#stranger-things #characters .character-image-name .character-image-carousel .character-image {
   aspect-ratio: 2 / 3;
 }
 
-#stranger-things .character-image-name .character-image-carousel .character-image {
+#stranger-things #characters .character-image-name .character-image-carousel .character-image {
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-#stranger-things .character-image-name .character-image-carousel .carousel-caption.d-none {
+#stranger-things #characters .character-image-name .character-image-carousel .carousel-caption.d-none {
   display: block !important;
   font-size: 1rem;
 }
 
-#stranger-things .character-description {
+#stranger-things #characters .character-description {
   line-height: 1.5;
   padding-left: 2vw;
   width: 60%;
   /* character description items */
 }
 
-#stranger-things .character-description-item {
+#stranger-things #characters .character-description-item {
   margin-bottom: 5px;
+}
+
+#stranger-things #episodes .season {
+  background: var(--clr-white);
+  border: 1px solid var(--clr-gray-40);
+  color: var(--clr-black);
+  margin-top: 40px;
+  padding: 2vw 3vw;
+}
+
+#stranger-things #episodes .season .episode .episode-header {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#stranger-things #episodes .season .episode .episode-header .rating i {
+  color: var(--clr-yellow);
 }
 /*# sourceMappingURL=stranger-things.css.map */

@@ -46,70 +46,98 @@ general */
         }
     }
 
-    /* season */
-    .season {
-        background: var(--clr-white);
-        border: 1px solid var(--clr-gray-40);
-        color: var(--clr-black);
-        margin-top: 40px;
-        padding: 2vw 3vw;
+    #characters {
+        /* season */
+        .season {
+            background: var(--clr-white);
+            border: 1px solid var(--clr-gray-40);
+            color: var(--clr-black);
+            margin-top: 40px;
+            padding: 2vw 3vw;
 
-        /* space between seasons: only add to .season if there is another .season before it */
-        /* & + .season {
+            /* space between seasons: only add to .season if there is another .season before it */
+            /* & + .season {
             margin-top: 50px;
         } */
+        }
+
+        /* character */
+        .character {
+            padding: 20px 0;
+
+            /* horizontal line between every character */
+            &:not(:last-child) {
+                border-bottom: 1px solid var(--clr-gray-60);
+            }
+
+            .no-link-color {
+                color: var(--clr-black);
+            }
+
+            /* character image and name */
+            &-image-name {
+                margin-block: auto;
+                width: 40%;
+
+                /* character image carousel */
+                .character-image-carousel {
+                    margin: auto auto 10px;
+                    width: 80%;
+
+                    &,
+                    .character-image {
+                        aspect-ratio: 2 / 3;
+                    }
+
+                    .character-image {
+                        object-fit: cover;
+                    }
+
+                    /* don't hide season caption on mobile */
+                    .carousel-caption.d-none {
+                        display: block !important;
+                        font-size: 1rem;
+                    }
+                }
+            }
+
+            /* character description */
+            &-description {
+                line-height: 1.5;
+                padding-left: 2vw;
+                width: 60%;
+
+                /* character description items */
+                &-item {
+                    margin-bottom: 5px;
+                }
+            }
+        }
     }
 
-    /* character */
-    .character {
-        padding: 20px 0;
-
-        /* horizontal line between every character */
-        &:not(:last-child) {
-            border-bottom: 1px solid var(--clr-gray-60);
-        }
-
-        .no-link-color {
+    #episodes {
+        
+        .season {
+            background: var(--clr-white);
+            border: 1px solid var(--clr-gray-40);
             color: var(--clr-black);
-        }
+            margin-top: 40px;
+            padding: 2vw 3vw;
 
-        /* character image and name */
-        &-image-name {
-            margin-block: auto;
-            width: 40%;
+            .episode {
 
-            /* character image carousel */
-            .character-image-carousel {
-                margin: auto auto 10px;
-                width: 80%;
+                .episode-header {
+                    justify-content: space-between;
 
-                &,
-                .character-image {
-                    aspect-ratio: 2 / 3;
+                    .rating {
+                        i {
+                            color: var(--clr-yellow);
+                        }
+                    }
                 }
 
-                .character-image {
-                    object-fit: cover;
-                }
-
-                /* don't hide season caption on mobile */
-                .carousel-caption.d-none {
-                    display: block !important;
-                    font-size: 1rem;
-                }
             }
         }
 
-        /* character description */
-        &-description {
-            line-height: 1.5;
-            padding-left: 2vw;
-            width: 60%;
-
-            /* character description items */
-            &-item {
-                margin-bottom: 5px;
-            }
-        }
     }
 }

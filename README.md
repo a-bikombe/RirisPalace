@@ -14,7 +14,7 @@
 	* *config/kpop-groups.php*
 	* *validation/kpop.php* - Hasn't been created yet
 * [x] [stranger-things.php](aribikombe.com/stranger-things.php) - Stranger Things
-	* *config/stranger-things-characters.php*
+	* *config/stranger-things-config.php*
 * [ ] [marvel.php](aribikombe.com/marvel.php) - 
 * [ ] [star-wars.php](aribikombe.com/star-wars.php) - 
 
