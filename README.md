@@ -4,10 +4,6 @@
 
 ## Pages
 
-<!--
-* [ ] [.php](aribikombe.com/.php)
--->
-
 ### Homepage
 * [x] [index.php](aribikombe.com/index.php) - Home
 	* *config/previews.php*

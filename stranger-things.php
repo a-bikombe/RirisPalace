@@ -30,35 +30,35 @@ $scripts = [
 	<?php require_once 'include/loading-page.php'; ?>
 	<?php require_once 'include/header.php'; ?>
 	<main>
-		<section id="intro">
-			<h1><?= strtoupper($pageTitle) ?></h1>
-			<section id="watch-links">
+	<h1><?= strtoupper($pageTitle) ?></h1>
+		<section id="intro" aria-label="Introduction">
+			<section id="watch-links" aria-label="Watch Links">
 				<a href="https://www.netflix.com/title/80057281" class="no-link-color no-decor text-center" target="_blank">
 					<h3> Watch Season 1, 2, and 3 </h3>
 				</a>
 			</section>
-			<section id="s4-countdown" class="countdown">
+			<section id="s4-countdown" class="countdown" aria-label="Season 4 Volume 1 Countdown">
 				<h3 id="s4-vol1-countdown">
 					<a href="https://www.youtube.com/watch?v=yQEondeGvKo" target="_blank" class="no-link-color no-decor">Season 4 Vol. 1</a> is in <output for="s4-vol1-countdown" id="days-until-s4-vol1"></output> days.
 				</h3>
-				<h3 id="s4-vol2-countdown" class="countdown">
+				<h3 id="s4-vol2-countdown" class="countdown" aria-label="Season 4 Volume 2 Countdown">
 					<a href="https://www.youtube.com/watch?v=yQEondeGvKo" target="_blank" class="no-link-color no-decor">Season 4 Vol. 2</a> is in <output for="s4-vol2-countdown" id="days-until-s4-vol2"></output> days.
 				</h3>
 			</section>
-			<section id="plot">
-				<h2> Plot </h2>
+			<section id="plot" aria-labelledby="plot-title">
+				<h2 id="plot-title">Plot</h2>
 				<p> <?= $plot ?> </p>
 			</section>
 		</section>
-		<section id="characters">
+		<section id="characters" aria-label="Characters">
 			<?php foreach ($seasons as $season => $seasonInfo) : ?>
-				<section class="season border-10px" id="<?= $season ?>">
+				<section class="season border-10px" id="<?= $season ?>" aria-label="<?= $seasonInfo['seasonName'] ?>">
 					<h2> <?= $seasonInfo['seasonName'] ?> Characters </h2>
 					<!-- character template -->
 					<?php foreach ($seasonInfo['characters'] as $character => $characterInfo) : ?>
-						<section class="character flex w-100 dir-change" id="<?= $character ?>">
-							<section class="character-image-name text-center">
-								<section class="character-image-carousel">
+						<section class="character flex w-100 dir-change" id="<?= $character ?>" aria-label="<?= ucfirst($character) ?>">
+							<div class="character-image-name text-center">
+								<div class="character-image-carousel">
 									<div id="<?= $character ?>-carousel" class="carousel slide" data-bs-ride="carousel">
 										<div class="carousel-inner">
 											<?php foreach ($characterInfo['images'] as $imageSeason => $imagePath) : ?>
@@ -121,18 +121,18 @@ $scripts = [
 											<span class="visually-hidden">Next</span>
 										</button>
 									</div>
-								</section>
+								</div>
 								<a href="<?= $characterInfo['characterLink'] ?>" class="no-link-color no-decor" target="_blank">
 									<h3> <?= $characterInfo['characterName'] ?> </h3>
 								</a>
-							</section>
-							<section class="character-description">
+							</div>
+							<div class="character-description">
 								<ul class="character-description-list">
 									<?php foreach ($characterInfo['content'] as $bulletPoint) : ?>
 										<li class="character-description-item"><?= $bulletPoint ?></li>
 									<?php endforeach; ?>
 								</ul>
-							</section>
+							</div>
 						</section>
 					<?php endforeach; ?>
 				</section>

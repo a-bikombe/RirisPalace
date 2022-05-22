@@ -16,7 +16,7 @@
 <body class="dark-theme" id="error">
     <main class="error-main flex-center text-center dir-col">
         <img src="/images/gifs/corg-sad.gif" alt="Corg Sad" class="gif m-auto vh-100">
-        <section class="text">
+        <section class="text" aria-label="403 Error Text">
             <h1>Uh Oh!</h1>
             <p>Looks like you've stumbled somewhere you're not wanted.</p>
         </section>

@@ -51,7 +51,7 @@ $underConstruction = '<img class="construction-gif" src="images/gifs/pikachu-con
 	<?php require_once 'include/header.php'; ?>
 	<!-- sidebar nav -->
 	<aside id="group-sidebar" class="transparent-bg">
-		<section class="text-center fixed" id="group-nav">
+		<section class="group-nav text-center fixed" id="group-nav" aria-labelledby="group-nav-header">
 			<h5 class="border-5px p-1vw" id="group-nav-header">Groups</h5>
 			<ul class="nav flex-column">
 				<?php foreach ($groups as $categoryID => $category) : ?>
@@ -77,12 +77,12 @@ $underConstruction = '<img class="construction-gif" src="images/gifs/pikachu-con
                     <output class="search-input" id="search-output" for="search-bar"></output>
             </div>
 		-->
-		<section class="kpop-section text-center flex flex-align-center dir-change" id="ults">
-			<h2 class="hidden">Ults</h2>
-			<section class="ult border-10px text-center" id="ult-bias">
-				<h2>Ult Bias</h2>
-				<section class="ult-info flex flex-align-center dir-change">
-					<h4><?= $ultBias ?> (<?= $ultBiasGroup ?>)</h4>
+		<section class="kpop-section text-center flex-align-center dir-change" id="ults" aria-labelledby="ults-title">
+			<h2 class="hidden" id="ults-title">Ults</h2>
+			<section class="ult border-10px text-center" id="ult-bias" aria-labelledby="ult-bias-title">
+				<h3 id="ult-bias-title">Ult Bias</h3>
+				<section class="ult-info flex flex-align-center dir-change" aria-labelledby="ult-bias-name">
+					<h4 id="ult-bias-name"><?= $ultBias ?> (<?= $ultBiasGroup ?>)</h4>
 					<button data-bs-toggle="modal" data-bs-target="#ult-bias-modal" id="ult-bias-btn" class="ult-btn p-0 border-5px">
 						<img src="<?= $ultBiasImage ?>" class="ult-btn-img p-0 border-5px" alt="Ult Bias Thumbnail">
 					</button>
@@ -102,11 +102,11 @@ $underConstruction = '<img class="construction-gif" src="images/gifs/pikachu-con
 					</div>
 				</section>
 			</section>
-			<section class="ult border-10px text-center" id="ult-group">
-				<h2>Ult Group</h2>
-				<section class="ult-info flex flex-align-center dir-change">
+			<section class="ult border-10px text-center" id="ult-group" aria-labelledby="ult-group-title">
+				<h3 id="ult-group-title">Ult Group</h3>
+				<section class="ult-info flex flex-align-center dir-change" aria-labelledby="ult-group-name">
 					<!-- array_keys($group['members'])[1] -->
-					<h4><?= $groups['active']['groups'][array_key_first($groups['active']['groups'])]['name'] ?></h4>
+					<h4 id="ult-group-name"><?= $groups['active']['groups'][array_key_first($groups['active']['groups'])]['name'] ?></h4>
 					<button data-bs-toggle="modal" data-bs-target="#ult-group-modal" id="ult-group-btn" class="ult-btn p-0 border-5px">
 						<img src="<?= $groups['active']['groups'][array_key_first($groups['active']['groups'])]['groupImage'] ?>" class="ult-btn-img p-0 border-5px" alt="Ult Group Thumbnail">
 					</button>
@@ -129,10 +129,10 @@ $underConstruction = '<img class="construction-gif" src="images/gifs/pikachu-con
 			</section>
 		</section>
 		<!-- group content -->
-		<section class="kpop-section border-10px" id="groups">
-			<h2>Groups</h2>
+		<section class="kpop-section border-10px" id="groups" aria-labelledby="groups-title">
+			<h2 id="groups-title">Groups</h2>
 			<?php foreach ($groups as $categoryID => $category) : ?>
-				<section class="group-category border-10px" id="<?= $categoryID ?>">
+				<section class="group-category border-10px" id="<?= $categoryID ?>" aria-label="<?= $category['name'] ?>">
 					<h3 data-bs-toggle="modal" data-bs-target="#<?= $categoryID ?>-ranking-modal" class="group-category-button"><?= $category['name'] ?></h3>
 					<div class="modal fade" id="<?= $categoryID ?>-ranking-modal" tabindex="-1" aria-labelledby="<?= $categoryID ?>-ranking-modal-label" aria-hidden="true">
 						<div class="modal-dialog">
@@ -157,7 +157,7 @@ $underConstruction = '<img class="construction-gif" src="images/gifs/pikachu-con
 					</div>
 					<?php foreach ($category['groups'] as $groupID => $group) : ?>
 						<?php if (count($group) > 1) : ?>
-							<section class="group border-10px" id="<?= $groupID ?>">
+							<section class="group border-10px" id="<?= $groupID ?>" aria-label="<?= $group['name'] ?>">
 								<header class="group-name dir-row text-center flex-center">
 									<h3>
 										<?= $group['name'] ?>
@@ -183,7 +183,7 @@ $underConstruction = '<img class="construction-gif" src="images/gifs/pikachu-con
 										</div>
 									</h3>
 								</header>
-								<section class="group-stats flex flex-align-center">
+								<section class="group-stats flex-align-center" aria-label="<?= $group['name'] ?> Stats">
 									<h6 title="Debut Year"><?= $group['debut'] ?></h6>
 									<h6 title="<?= count($group['members']) ?> Members">OT<?= count($group['members']) ?></h6>
 									<?php foreach ($group['members'] as $member => $memberInfo) : ?>
@@ -206,7 +206,7 @@ $underConstruction = '<img class="construction-gif" src="images/gifs/pikachu-con
 										'<?= substr($youngestYear, -2) ?>
 									</h6>
 								</section>
-								<section class="group-info flex flex-align-center dir-change">
+								<section class="group-info flex flex-align-center dir-change" aria-label="<?= $group['name'] ?> Info">
 									<button class="group-property text-center bias" data-bs-toggle="modal" data-bs-target="#<?= $groupID ?>-bias-modal">Bias</button>
 									<div class="modal fade" id="<?= $groupID ?>-bias-modal" tabindex="-1" aria-labelledby="<?= $groupID ?>-bias-modal-label" aria-hidden="true">
 										<div class="modal-dialog">
@@ -283,9 +283,9 @@ $underConstruction = '<img class="construction-gif" src="images/gifs/pikachu-con
 			<?php endforeach; ?>
 		</section>
 		<!-- group content table -->
-		<section class="kpop-section border-10px" id="content-dashboard">
-			<h2>KPop Content Dashboard</h2>
-			<section class="content-table text-center">
+		<section class="kpop-section border-10px" id="content-dashboard" aria-labelledby="content-dashboard-title">
+			<h2 id="content-dashboard-title">KPop Content Dashboard</h2>
+			<div class="content-table text-center">
 				<h3 class="hidden">Content Table</h3>
 				<table>
 					<thead class="uppercase bold">
@@ -317,7 +317,7 @@ $underConstruction = '<img class="construction-gif" src="images/gifs/pikachu-con
 						</tbody>
 					<?php endforeach; ?>
 				</table>
-			</section>
+			</div>
 		</section>
 	</main>
 	<?php require_once 'include/footer.php'; ?>
