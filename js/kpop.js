@@ -5,7 +5,7 @@ function lazyloadModalImages() {
 
     modalButtons.each(() => {
 
-        $(this).click((evt) => {
+        $(this).click(function(evt) {
 
             let modal = $(this).next();
 

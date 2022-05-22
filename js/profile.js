@@ -9,6 +9,6 @@ function showDeleteForm() {
 
     });
 
-};
+}
 
 showDeleteForm();
