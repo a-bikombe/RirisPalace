@@ -7,7 +7,7 @@ $iconPath = 'images/icons/spiderman.jpeg';
 $styles = [];
 
 $mobileStyles = [
-    'main' => '575'
+    'main' => '600'
 ];
 
 $scripts = [

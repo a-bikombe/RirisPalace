@@ -7,7 +7,7 @@ $iconPath = 'images/icons/luca.png';
 $styles = [];
 
 $mobileStyles = [
-    'main' => '575'
+    'main' => '600'
 ];
 
 $scripts = [
