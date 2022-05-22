@@ -461,21 +461,7 @@ body #header-banner {
 }
 
 body #header-banner .navbar {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   max-height: 65px;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  position: relative;
 }
 
 body #header-banner .logo {
@@ -678,15 +664,5 @@ body footer .footer-btn:hover, body footer .footer-btn:focus-visible {
           box-shadow: var(--theme-box-shadow-direct);
   font-size: 1.1rem;
   overflow: hidden;
-}
-
-@media (min-width: 992px) {
-  .navbar {
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-  }
 }
 /*# sourceMappingURL=main.css.map */
