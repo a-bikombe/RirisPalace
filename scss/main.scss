@@ -33,11 +33,6 @@ general */
     /* background variables */
     --bg-image: url("../images/backgrounds/flowers.jpeg") center/cover transparent;
     --bg-transition: background-color 0.4s ease-in-out;
-    /* box-shadow variables */
-    --box-shadow-dark: 3px 3px 3px 3px var(--clr-black-t);
-    --box-shadow-light: 5px 5px 5px 5px var(--clr-gray-20-t);
-    --box-shadow-direct-dark: 0 0 10px 3px var(--clr-black-t);
-    --box-shadow-direct-light: 0 0 10px 3px var(--clr-white-t);
     /* transitions */
     --transition-size-padding: padding 0.2s ease-in-out;
     --transition-size-text: font-size 0.2s ease-in-out;
@@ -267,6 +262,8 @@ layout */
 body {
     --theme-bg: var(--clr-white);
     --theme-text: var(--clr-gray-10);
+    --theme-border: var(var(--clr-gray-90));
+    --theme-box-shadow-direct: 0 0 10px 3px var(--clr-black-t);
     --theme-link: var(--clr-blue-dark);
     --theme-login: var(--clr-green-dark);
     --theme-logout: var(--clr-red-dark);
@@ -343,7 +340,7 @@ body {
         .gif {
             background: var(--theme-text);
             border-radius: 5vw;
-            box-shadow: var(--box-shadow-light);
+            box-shadow: var(--theme-box-shadow-direct);
             width: calc(20vw + 100px);
         }
 
@@ -482,9 +479,9 @@ header.php */
             &.collapsing,
             &.show {
                 background-color: var(--theme-bg);
-                border: 1px solid var(--clr-gray-90);
+                border: 1px solid var(--theme-border);
                 border-radius: 5px;
-                box-shadow: var(--box-shadow-direct-light);
+                box-shadow: var(--theme-box-shadow-direct);
                 padding-block: 0.75rem;
                 transform: translateY(1rem);
                 z-index: 1;
@@ -552,6 +549,8 @@ header.php */
     /* initialize dark theme-light */
     &.dark-theme {
         --theme-bg: var(--clr-gray-10);
+        --theme-border: var(--clr-gray-20);
+        --theme-box-shadow-direct: 0 0 10px 3px var(--clr-white-t);
         --theme-text: var(--clr-white);
         --theme-link: var(--clr-blue-light);
         --theme-login: var(--clr-green);
@@ -597,21 +596,7 @@ header.php */
                 /* content in mobile dropdown - dark backgrounds */
                 &.collapsing,
                 &.show {
-                    border: 1px solid var(--clr-gray-20);
-                    box-shadow: var(--box-shadow-direct-dark);
-                }
-
-            }
-
-        }
-
-        footer {
-
-            .footer-btn {
-                box-shadow: var(--box-shadow-direct-light);
-
-                &:hover {
-                    box-shadow: var(--box-shadow-direct-light);
+                    box-shadow: var(--theme-box-shadow-direct);
                 }
 
             }
@@ -647,7 +632,7 @@ include/footer.php */
         .footer-btn {
             border: 1px solid var(--clr-gray-80);
             border-radius: 5px;
-            box-shadow: var(--box-shadow-direct-dark);
+            box-shadow: var(--theme-box-shadow-direct);
             color: var(--clr-black);
             overflow: hidden;
             transition: var(--transition-size-text);
@@ -655,7 +640,7 @@ include/footer.php */
             &:hover,
             &:focus-visible {
                 border: 1px solid var(--clr-gray-80);
-                box-shadow: var(--box-shadow-direct-dark);
+                box-shadow: var(--theme-box-shadow-direct);
                 font-size: 1.1rem;
                 overflow: hidden;
             }

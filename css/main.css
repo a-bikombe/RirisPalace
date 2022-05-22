@@ -32,11 +32,6 @@ general */
   /* background variables */
   --bg-image: url("../images/backgrounds/flowers.jpeg") center/cover transparent;
   --bg-transition: background-color 0.4s ease-in-out;
-  /* box-shadow variables */
-  --box-shadow-dark: 3px 3px 3px 3px var(--clr-black-t);
-  --box-shadow-light: 5px 5px 5px 5px var(--clr-gray-20-t);
-  --box-shadow-direct-dark: 0 0 10px 3px var(--clr-black-t);
-  --box-shadow-direct-light: 0 0 10px 3px var(--clr-white-t);
   /* transitions */
   --transition-size-padding: padding 0.2s ease-in-out;
   --transition-size-text: font-size 0.2s ease-in-out;
@@ -292,6 +287,8 @@ layout */
 body {
   --theme-bg: var(--clr-white);
   --theme-text: var(--clr-gray-10);
+  --theme-border: var(var(--clr-gray-90));
+  --theme-box-shadow-direct: 0 0 10px 3px var(--clr-black-t);
   --theme-link: var(--clr-blue-dark);
   --theme-login: var(--clr-green-dark);
   --theme-logout: var(--clr-red-dark);
@@ -378,8 +375,8 @@ body#error .error-main {
 body#error .gif {
   background: var(--theme-text);
   border-radius: 5vw;
-  -webkit-box-shadow: var(--box-shadow-light);
-          box-shadow: var(--box-shadow-light);
+  -webkit-box-shadow: var(--theme-box-shadow-direct);
+          box-shadow: var(--theme-box-shadow-direct);
   width: calc(20vw + 100px);
 }
 
@@ -539,10 +536,10 @@ body #header-banner .navbar-collapse .account {
 
 body #header-banner .navbar-collapse.collapsing, body #header-banner .navbar-collapse.show {
   background-color: var(--theme-bg);
-  border: 1px solid var(--clr-gray-90);
+  border: 1px solid var(--theme-border);
   border-radius: 5px;
-  -webkit-box-shadow: var(--box-shadow-direct-light);
-          box-shadow: var(--box-shadow-direct-light);
+  -webkit-box-shadow: var(--theme-box-shadow-direct);
+          box-shadow: var(--theme-box-shadow-direct);
   padding-block: 0.75rem;
   -webkit-transform: translateY(1rem);
           transform: translateY(1rem);
@@ -583,6 +580,8 @@ body #header-banner .navbar-brand {
 
 body.dark-theme {
   --theme-bg: var(--clr-gray-10);
+  --theme-border: var(--clr-gray-20);
+  --theme-box-shadow-direct: 0 0 10px 3px var(--clr-white-t);
   --theme-text: var(--clr-white);
   --theme-link: var(--clr-blue-light);
   --theme-login: var(--clr-green);
@@ -625,19 +624,8 @@ body.dark-theme #header-banner .navbar-collapse {
 }
 
 body.dark-theme #header-banner .navbar-collapse.collapsing, body.dark-theme #header-banner .navbar-collapse.show {
-  border: 1px solid var(--clr-gray-20);
-  -webkit-box-shadow: var(--box-shadow-direct-dark);
-          box-shadow: var(--box-shadow-direct-dark);
-}
-
-body.dark-theme footer .footer-btn {
-  -webkit-box-shadow: var(--box-shadow-direct-light);
-          box-shadow: var(--box-shadow-direct-light);
-}
-
-body.dark-theme footer .footer-btn:hover {
-  -webkit-box-shadow: var(--box-shadow-direct-light);
-          box-shadow: var(--box-shadow-direct-light);
+  -webkit-box-shadow: var(--theme-box-shadow-direct);
+          box-shadow: var(--theme-box-shadow-direct);
 }
 
 body #profile #profile-form {
@@ -656,8 +644,8 @@ body footer {
 body footer .footer-btn {
   border: 1px solid var(--clr-gray-80);
   border-radius: 5px;
-  -webkit-box-shadow: var(--box-shadow-direct-dark);
-          box-shadow: var(--box-shadow-direct-dark);
+  -webkit-box-shadow: var(--theme-box-shadow-direct);
+          box-shadow: var(--theme-box-shadow-direct);
   color: var(--clr-black);
   overflow: hidden;
   -webkit-transition: var(--transition-size-text);
@@ -666,8 +654,8 @@ body footer .footer-btn {
 
 body footer .footer-btn:hover, body footer .footer-btn:focus-visible {
   border: 1px solid var(--clr-gray-80);
-  -webkit-box-shadow: var(--box-shadow-direct-dark);
-          box-shadow: var(--box-shadow-direct-dark);
+  -webkit-box-shadow: var(--theme-box-shadow-direct);
+          box-shadow: var(--theme-box-shadow-direct);
   font-size: 1.1rem;
   overflow: hidden;
 }
