@@ -3,7 +3,7 @@ const modalButtons = $('[data-bs-toggle="modal"]');
 
 function lazyloadModalImages() {
 
-    modalButtons.each(() => {
+    modalButtons.each(function() {
 
         $(this).click(function(evt) {
 
