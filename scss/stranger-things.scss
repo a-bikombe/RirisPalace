@@ -140,14 +140,9 @@ general */
                 .episode-header {
                     justify-content: space-between;
 
-                    &,
-                    .rating-rank {
-                        justify-content: space-between;
-
-                        .rating {
-                            i {
-                                color: var(--clr-orange);
-                            }
+                    .rating {
+                        i {
+                            color: var(--clr-orange);
                         }
                     }
                 }
