@@ -138,6 +138,8 @@ general */
                 margin-top: 20px;
 
                 .episode-header {
+                    display: flex;
+                    align-items: center;
                     justify-content: space-between;
 
                     .rating {
