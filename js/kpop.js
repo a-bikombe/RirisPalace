@@ -7,6 +7,8 @@ const lazyloadModalImages = () => {
 
         $(this).click((evt) => {
 
+            console.log(evt.target);
+
             let modal = $(this).next();
 
             modal.show();
