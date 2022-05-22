@@ -117,15 +117,21 @@ general */
 
     #episodes {
         background: var(--clr-white);
-            border: 1px solid var(--clr-gray-40);
-            color: var(--clr-black);
-            margin-top: 40px;
+        border: 1px solid var(--clr-gray-40);
+        color: var(--clr-black);
+        margin-top: 40px;
+
+        &,
+        .season,
+        .episode {
             padding: 2vw 3vw;
-        
+        }
+
         .season {
+            background: var(--clr-gray-80);
 
             .episode {
-
+                background: var(--clr-white);
                 .episode-header {
                     justify-content: space-between;
 
@@ -135,9 +141,7 @@ general */
                         }
                     }
                 }
-
             }
         }
-
     }
 }

@@ -120,7 +120,20 @@ general */
   border: 1px solid var(--clr-gray-40);
   color: var(--clr-black);
   margin-top: 40px;
+}
+
+#stranger-things #episodes,
+#stranger-things #episodes .season,
+#stranger-things #episodes .episode {
   padding: 2vw 3vw;
+}
+
+#stranger-things #episodes .season {
+  background: var(--clr-gray-80);
+}
+
+#stranger-things #episodes .season .episode {
+  background: var(--clr-white);
 }
 
 #stranger-things #episodes .season .episode .episode-header {

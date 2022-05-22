@@ -142,21 +142,22 @@ $scripts = [
 			<h2 id="episodes-title">Episodes</h2>
 			<?php foreach ($seasons as $seasonId => $season) : ?>
 				<section class="season border-10px" id="<?= $seasonId ?>-episodes" aria-label="<?= $season['seasonName'] ?>">
+				<h3 class="season-title"><?= $season['seasonName'] ?></h3>
 					<?php if (isset($season['episodes'])) : ?>
 						<?php foreach ($season['episodes'] as $episodeId => $episode) : ?>
 							<section class="episode" id="<?= $seasonId . '-' . $episodeId ?>">
 								<section class="episode-header flex-align-center">
-									<h3 class="episode-title">Chapter <?= ucfirst($episodeId) ?>: <strong><?= $episode['title'] ?></strong></h3>
+									<h4 class="episode-title">Chapter <?= ucfirst($episodeId) ?>: <strong><?= $episode['title'] ?></strong></h4>
 									<p class="subtitle"><?= $episode['rank'] . '/' . $totalEpisodes ?></p>
 									<span class="rating"><i class="fa-solid fa-star"></i></span>
 								</section>
 								<section class="episode-main">
 									<section class="thoughts">
-										<h4 class="thoughts-title">Quotes</h4>
+										<h5 class="thoughts-title">Quotes</h5>
 										<p><?= $episode['thoughts'] ?></p>
 									</section>
 									<section class="quotes">
-										<h4 class="quote-title">Quotes</h4>
+										<h5 class="quote-title">Quotes</h5>
 										<ul>
 											<?php foreach ($episode['quotes'] as $quote) : ?>
 												<li class="quote"><?= $quote ?></li>
