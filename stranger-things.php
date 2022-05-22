@@ -146,12 +146,12 @@ $scripts = [
 					<?php if (isset($season['episodes'])) : ?>
 						<?php foreach ($season['episodes'] as $episodeId => $episode) : ?>
 							<section class="episode border-10px flex-center dir-col" id="<?= $seasonId . '-' . $episodeId ?>">
-								<section class="episode-header flex-align-center dir-change">
+								<section class="episode-header flex-align dir-change">
 									<h4 class="episode-title">Chapter <?= ucfirst($episodeId) ?>: <strong><?= $episode['title'] ?></strong></h4>
 									<p class="subtitle"><?= $episode['rank'] . '/' . $totalEpisodes ?></p>
 									<span class="rating"><i class="fa-solid fa-star"></i></span>
 								</section>
-								<section class="episode-main flex-align-center dir-change">
+								<section class="episode-main flex-align dir-change">
 									<section class="thoughts">
 										<h5 class="thoughts-title text-center">Thoughts</h5>
 										<p><?= $episode['thoughts'] ?></p>

@@ -34,7 +34,7 @@ $scripts = [
 			<p class="subtitle bold"><?= $constructionNotice ?></p>
 		</header>
 		<?php foreach ($previews as $previewId => $preview) : ?>
-			<section class="preview flex-align-center dir-change" id="<?= $previewId ?>" aria-label="<?= $preview['header'] ?>">
+			<section class="preview flex-align dir-change" id="<?= $previewId ?>" aria-label="<?= $preview['header'] ?>">
 				<h2><?= $preview['header'] ?></h2>
 				<?php if (!empty($preview['image'])) : ?>
 					<figure>
