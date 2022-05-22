@@ -1,11 +1,11 @@
 const groups = $('.group');
 const modalButtons = $('[data-bs-toggle="modal"]');
 
-function lazyloadModalImages() {
+const lazyloadModalImages = () => {
 
-    modalButtons.each(function() {
+    modalButtons.each(() => {
 
-        $(this).click(function(evt) {
+        $(this).click((evt) => {
 
             let modal = $(this).next();
 
@@ -23,7 +23,7 @@ function lazyloadModalImages() {
 
     });
 
-}
+};
 
 lazyloadModalImages();
 

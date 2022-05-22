@@ -38,7 +38,8 @@ body {
 
         .ult {
 
-            &:not(:first-of-type) {
+            /* only add margin to .ult if there is another .ult before it */
+            & + & {
                 margin-top: 3vw;
             }
 

@@ -38,7 +38,11 @@ body .kpop-section {
   max-width: 100%;
 }
 
-body #ults .ult:not(:first-of-type) {
+body #ults .ult {
+  /* only add margin to .ult if there is another .ult before it */
+}
+
+body #ults .ult + body #ults .ult {
   margin-top: 3vw;
 }
 

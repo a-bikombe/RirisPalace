@@ -1,14 +1,14 @@
 const deleteBtn = $('#delete-account');
 let confirmDeleteForm = $('#delete-form');
 
-function showDeleteForm() {
+const showDeleteForm = () => {
 
-    deleteBtn.click(function(evt) {
+    deleteBtn.click((evt) => {
 
         confirmDeleteForm.show();
 
     });
 
-}
+};
 
 showDeleteForm();

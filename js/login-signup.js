@@ -3,9 +3,9 @@ const passwordReenter = $('#password-reenter');
 let loginSignupSubmit = $('#login-signup-submit');
 let passwordHelp = $('#help');
 
-function matchPasswords() {
+const matchPasswords = () => {
 
-    passwordReenter.keyup(function(evt) {
+    passwordReenter.keyup((evt) => {
 
         if (passwordReenter.val() !== password.val()) {
             passwordHelp.text("Passwords Must Match");
@@ -17,6 +17,6 @@ function matchPasswords() {
 
     });
 
-}
+};
 
 matchPasswords();

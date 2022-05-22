@@ -51,10 +51,10 @@ general */
   border: 1px solid var(--clr-gray-40);
   color: var(--clr-black);
   padding: 2vw 3vw;
-  /* space between seasons */
+  /* space between seasons: only add to .season if there is another .season before it */
 }
 
-#stranger-things .season:not(:first-of-type) {
+#stranger-things .season + #stranger-things .season {
   margin-top: 50px;
 }
 

@@ -1,9 +1,9 @@
 const s4Vol1 = new Date(2022, 04, 27);
 const s4Vol2 = new Date(2022, 06, 01);
-let currentDate = new Date();
+const currentDate = new Date();
 const one_day = 1000 * 60 * 60 * 24;
 
-function s4Vol1Countdown() {
+const s4Vol1Countdown = () => {
 
     let s4Vol1CountdownBlock = $('#s4-vol1-countdown');
     let daysUntilS4Vol1 = $('#days-until-s4-vol1');
@@ -16,9 +16,9 @@ function s4Vol1Countdown() {
         daysUntilS4Vol1.text(parseInt(days));
     }
 
-}
+};
 
-function s4Vol2Countdown() {
+const s4Vol2Countdown = () => {
 
     let s4Vol2CountdownBlock = $('#s4-vol2-countdown');
     let daysUntilS4Vol2 = $('#days-until-s4-vol2');
@@ -31,12 +31,12 @@ function s4Vol2Countdown() {
         daysUntilS4Vol2.text(parseInt(days));
     }
 
-}
+};
 
 // sourced from https://css-tricks.com/the-complete-guide-to-lazy-loading-images/
-function lazyloadCarousels() {
+const lazyloadCarousels = () => {
 
-    $(document).ready(function() {
+    $(document).ready(() => {
         const lazyloadImages = document.querySelectorAll("img[data-src]");
         let lazyloadThrottleTimeout;
 
@@ -45,7 +45,7 @@ function lazyloadCarousels() {
                 clearTimeout(lazyloadThrottleTimeout);
             }
 
-            lazyloadThrottleTimeout = setTimeout(function() {
+            lazyloadThrottleTimeout = setTimeout(() => {
                 var scrollTop = window.pageYOffset;
                 lazyloadImages.forEach(function(img) {
                     if (img.offsetTop < (window.innerHeight + scrollTop)) {
@@ -66,7 +66,7 @@ function lazyloadCarousels() {
         $(window).on("orientationChange", lazyload);
     });
 
-}
+};
 
 s4Vol1Countdown();
 s4Vol2Countdown();

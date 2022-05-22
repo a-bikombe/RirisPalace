@@ -1,8 +1,8 @@
 const loader = $('.loader');
 
-function loadingPage() {
+const loadingPage = () => {
 
-    $(window).on('load', function(evt) {
+    $(window).on('load', (evt) => {
 
         if (loader !== null) {
             loader.addClass('hidden');
@@ -10,6 +10,6 @@ function loadingPage() {
 
     });
 
-}
+};
 
 loadingPage();

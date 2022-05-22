@@ -74,7 +74,7 @@ $underConstruction = '<img class="construction-gif" src="images/gifs/pikachu-con
 			<div class="search">
                     <input type="text" class="search-input" id="search-bar" placeholder="Search for a Group..." pattern="[^<>]+">
                     <button type="button">Search</button>
-                    <output class="search-input" id="search-output"></output>
+                    <output class="search-input" id="search-output" for="search-bar"></output>
             </div>
 		-->
 		<section class="kpop-section text-center flex flex-align-center dir-change" id="ults">

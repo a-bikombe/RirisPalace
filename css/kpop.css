@@ -209,13 +209,14 @@ body #groups .group-category {
   background: #d9d9d9;
   border: 1px solid var(--clr-gray-10);
   padding: 2vw;
+  /* only add margin to .group-category if there is another .group-category before it */
 }
 
 body #groups .group-category-button:hover {
   cursor: pointer;
 }
 
-body #groups .group-category:not(:first-of-type) {
+body #groups .group-category + body #groups .group-category {
   margin-top: 3vw;
 }
 
@@ -224,11 +225,12 @@ body #groups .group-category .group {
   border: 1px solid var(--clr-gray-10);
   color: var(--clr-gray-10);
   padding: 2vw;
+  /* only add margin to .group if there is another .group before it */
   /* .group-stats */
   /* .group-info */
 }
 
-body #groups .group-category .group:not(:first-of-type) {
+body #groups .group-category .group + body #groups .group-category .group {
   margin-top: 3vw;
 }
 

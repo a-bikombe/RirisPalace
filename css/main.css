@@ -19,6 +19,7 @@ general */
   --clr-pink-t: hsla(350, 100%, 88%, 0.85);
   --clr-black: hsl(0, 0%, 0%);
   --clr-black-t: hsla(0, 0%, 0%, 0.2);
+  --clr-black-tt: hsla(0, 0%, 0%, 0.2);
   --clr-gray-10: hsl(0, 0%, 10%);
   --clr-gray-20: hsl(0, 0%, 20%);
   --clr-gray-20-t: hsla(0, 0%, 20%, 0.6);
@@ -434,8 +435,9 @@ body #header-banner {
 
             &-list-item {
 
-                &:not(:last-of-type) {
-                    border-bottom: 1px solid var(--clr-gray-80;
+                // only add border to .nav-item if there is another .nav-item before it
+                & + & {
+                    border-top: 1px solid var(--clr-gray-80;
                 }
             }
 

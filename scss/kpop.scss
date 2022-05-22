@@ -198,7 +198,8 @@ body {
                 cursor: pointer;
             }
 
-            &:not(:first-of-type) {
+            /* only add margin to .group-category if there is another .group-category before it */
+            & + & {
                 margin-top: 3vw;
             }
 
@@ -208,7 +209,8 @@ body {
                 color: var(--clr-gray-10);
                 padding: 2vw;
 
-                &:not(:first-of-type) {
+                /* only add margin to .group if there is another .group before it */
+                & + & {
                     margin-top: 3vw;
                 }
 
