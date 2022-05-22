@@ -24,7 +24,7 @@ general */
 }
 
 #stranger-things main {
-  padding: 50px 20vw;
+  padding: 50px 10vw;
 }
 
 #stranger-things #intro .no-link-color {
@@ -46,6 +46,7 @@ general */
 }
 
 #stranger-things #characters {
+  margin-inline: 10vw;
   /* season */
   /* character */
 }
@@ -146,5 +147,11 @@ general */
 
 #stranger-things #episodes .season .episode .episode-header .rating i {
   color: var(--clr-orange);
+}
+
+#stranger-things #episodes .season .episode .episode-main {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 /*# sourceMappingURL=stranger-things.css.map */

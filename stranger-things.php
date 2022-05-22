@@ -27,7 +27,7 @@ $scripts = [
 <?php require_once 'include/head-tag.php'; ?>
 
 <body class="dark-theme" id="stranger-things">
-	<?php require_once 'include/loading-page.php'; ?>
+	<?php /* require_once 'include/loading-page.php'; */ ?>
 	<?php require_once 'include/header.php'; ?>
 	<main>
 		<h1><?= strtoupper($pageTitle) ?></h1>
@@ -138,11 +138,11 @@ $scripts = [
 				</section>
 			<?php endforeach; ?>
 		</section>
-		<section class="border-10px" id="episodes" aria-labelledby="episodes-title">
+		<section id="episodes" class="border-10px" aria-labelledby="episodes-title">
 			<h2 id="episodes-title">Episodes</h2>
 			<?php foreach ($seasons as $seasonId => $season) : ?>
 				<section class="season border-10px" id="<?= $seasonId ?>-episodes" aria-label="<?= $season['seasonName'] ?>">
-				<h3 class="season-title"><?= $season['seasonName'] ?></h3>
+					<h3 class="season-title"><?= $season['seasonName'] ?></h3>
 					<?php if (isset($season['episodes'])) : ?>
 						<?php foreach ($season['episodes'] as $episodeId => $episode) : ?>
 							<section class="episode border-10px" id="<?= $seasonId . '-' . $episodeId ?>">
@@ -151,13 +151,13 @@ $scripts = [
 									<p class="subtitle"><?= $episode['rank'] . '/' . $totalEpisodes ?></p>
 									<span class="rating"><i class="fa-solid fa-star"></i></span>
 								</section>
-								<section class="episode-main">
+								<section class="episode-main flex-align-center dir-change">
 									<section class="thoughts">
-										<h5 class="thoughts-title">Thoughts</h5>
+										<h5 class="thoughts-title text-center">Thoughts</h5>
 										<p><?= $episode['thoughts'] ?></p>
 									</section>
 									<section class="quotes">
-										<h5 class="quote-title">Quotes</h5>
+										<h5 class="quote-title text-center">Quotes</h5>
 										<ul>
 											<?php foreach ($episode['quotes'] as $quote) : ?>
 												<li class="quote"><?= $quote ?></li>

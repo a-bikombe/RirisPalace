@@ -24,7 +24,7 @@ general */
     }
 
     main {
-        padding: 50px 20vw;
+        padding: 50px 10vw;
     }
 
     #intro {
@@ -47,6 +47,7 @@ general */
     }
 
     #characters {
+        margin-inline: 10vw;
         /* season */
         .season {
             background: var(--clr-white);
@@ -144,6 +145,11 @@ general */
                         }
                     }
                 }
+
+                .episode-main {
+                    justify-content: space-evenly;
+                }
+
             }
         }
     }
