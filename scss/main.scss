@@ -120,6 +120,7 @@ general */
 }
 
 /* align vertically and horizontally */
+.flex-justify,
 .flex-center {
     justify-content: center;
 }
@@ -454,10 +455,7 @@ header.php */
         .navbar-collapse {
             /* profile link and login/out button in desktop dropdown */
             .account {
-                align-items: center;
-                display: flex;
                 flex-direction: row;
-                justify-content: center;
             }
 
             /* content in mobile dropdown */

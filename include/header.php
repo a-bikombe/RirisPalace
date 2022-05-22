@@ -33,7 +33,7 @@ require_once 'config/nav-links.php';
 						</li>
 					-->
 				</ul>
-				<div class="account">
+				<div class="account flex-center">
 					<?php if (isset($_SESSION['loginSuccess']) && $_SESSION['loginSuccess'] === true) { ?>
 						<!-- profile link -->
 						<a class="profile-name nav-link text-center" href="login-profile.php"><?= $_SESSION['first_name'] . ' ' . $_SESSION['last_name'] ?></a>
