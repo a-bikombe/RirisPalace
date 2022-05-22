@@ -5,7 +5,7 @@ require_once 'config/nav-links.php';
 ?>
 
 <header class="header transparent-bg" id="header-banner">
-	<nav class="navbar navbar-expand-lg" id="top">
+	<nav class="navbar" id="top">
 		<div class="container-fluid">
 			<a href="/">
 				<img src="images/icons/luca.png" class="logo float-left" id="luca-logo" alt="luca mlem">
