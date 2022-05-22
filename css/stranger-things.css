@@ -24,7 +24,7 @@ general */
 }
 
 #stranger-things main {
-  padding: 50px 10vw;
+  padding: 50px 15vw;
 }
 
 #stranger-things #intro .no-link-color {
@@ -46,7 +46,7 @@ general */
 }
 
 #stranger-things #characters {
-  margin-inline: 10vw;
+  margin-inline: 5vw;
   /* season */
   /* character */
 }
@@ -136,6 +136,7 @@ general */
 
 #stranger-things #episodes .season .episode {
   background: var(--clr-white);
+  gap: 2vw;
   margin-top: 20px;
 }
 

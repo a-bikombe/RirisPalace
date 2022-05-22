@@ -24,7 +24,7 @@ general */
     }
 
     main {
-        padding: 50px 10vw;
+        padding: 50px 15vw;
     }
 
     #intro {
@@ -47,7 +47,7 @@ general */
     }
 
     #characters {
-        margin-inline: 10vw;
+        margin-inline: 5vw;
         /* season */
         .season {
             background: var(--clr-white);
@@ -134,6 +134,7 @@ general */
 
             .episode {
                 background: var(--clr-white);
+                gap: 2vw;
                 margin-top: 20px;
 
                 .episode-header {
