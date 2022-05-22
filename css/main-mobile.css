@@ -23,7 +23,7 @@ header.php */
 }
 
 #header-banner .nav-item + .nav-item {
-  border-top: 1px solid var(--clr-gray-80);
+  border-top: 1px solid var(--clr-gray-90);
 }
 
 /* ================================================================
