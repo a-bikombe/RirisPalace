@@ -142,6 +142,10 @@ general */
           justify-content: space-between;
 }
 
+#stranger-things #episodes .season .episode .episode-header + .episode {
+  margin-top: 10px;
+}
+
 #stranger-things #episodes .season .episode .episode-header .rating i {
   color: var(--clr-orange);
 }

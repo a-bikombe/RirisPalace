@@ -135,6 +135,9 @@ general */
                 .episode-header {
                     justify-content: space-between;
 
+                    & + .episode {
+                        margin-top: 10px;
+                    }
                     .rating {
                         i {
                             color: var(--clr-orange);

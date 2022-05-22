@@ -138,14 +138,14 @@ $scripts = [
 				</section>
 			<?php endforeach; ?>
 		</section>
-		<section id="episodes" aria-labelledby="episodes-title">
+		<section class="border-10px" id="episodes" aria-labelledby="episodes-title">
 			<h2 id="episodes-title">Episodes</h2>
 			<?php foreach ($seasons as $seasonId => $season) : ?>
 				<section class="season border-10px" id="<?= $seasonId ?>-episodes" aria-label="<?= $season['seasonName'] ?>">
 				<h3 class="season-title"><?= $season['seasonName'] ?></h3>
 					<?php if (isset($season['episodes'])) : ?>
 						<?php foreach ($season['episodes'] as $episodeId => $episode) : ?>
-							<section class="episode" id="<?= $seasonId . '-' . $episodeId ?>">
+							<section class="episode border-10px" id="<?= $seasonId . '-' . $episodeId ?>">
 								<section class="episode-header flex-align-center">
 									<h4 class="episode-title">Chapter <?= ucfirst($episodeId) ?>: <strong><?= $episode['title'] ?></strong></h4>
 									<p class="subtitle"><?= $episode['rank'] . '/' . $totalEpisodes ?></p>
