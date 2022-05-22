@@ -12,7 +12,7 @@ $styles = [
 ];
 
 $mobileStyles = [
-	'main' => '600'
+	'main' => '700'
 ];
 
 $scripts = [
