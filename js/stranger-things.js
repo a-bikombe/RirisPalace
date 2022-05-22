@@ -12,7 +12,7 @@ function s4Vol1Countdown() {
 
     if (currentDate < s4Vol1) {
         s4Vol1CountdownBlock.removeClass('hidden');
-        let days = (s4Vol1 - currentDate) / one_day;
+        let days = (s4Vol1 - currentDate) / oneDay;
         daysUntilS4Vol1.text(parseInt(days));
     }
 
@@ -27,7 +27,7 @@ function s4Vol2Countdown() {
 
     if (currentDate >= s4Vol1 && currentDate < s4Vol2) {
         s4Vol2CountdownBlock.removeClass('hidden');
-        let days = (s4Vol2 - currentDate) / one_day;
+        let days = (s4Vol2 - currentDate) / oneDay;
         daysUntilS4Vol2.text(parseInt(days));
     }
 
