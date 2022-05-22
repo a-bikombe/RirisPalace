@@ -131,11 +131,11 @@ general */
 
 #stranger-things #episodes .season,
 #stranger-things #episodes .episode {
-  border: 1px solid var(--clr-gray-80);
+  border: 1px solid var(--clr-gray-60);
 }
 
 #stranger-things #episodes .season {
-  background: var(--clr-gray-90);
+  background: var(--clr-gray-80);
   margin-top: 20px;
 }
 
