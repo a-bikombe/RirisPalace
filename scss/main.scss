@@ -527,7 +527,7 @@ header.php */
             &-list-item {
 
                 // only add border to .nav-item if there is another .nav-item before it
-                & + & {
+                & + .dropdown-list-item {
                     border-top: 1px solid var(--clr-gray-80;
                 }
             }

@@ -54,7 +54,7 @@ general */
   /* space between seasons: only add to .season if there is another .season before it */
 }
 
-#stranger-things .season + #stranger-things .season {
+#stranger-things .season + .season {
   margin-top: 50px;
 }
 

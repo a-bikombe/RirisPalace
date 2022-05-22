@@ -216,7 +216,7 @@ body #groups .group-category-button:hover {
   cursor: pointer;
 }
 
-body #groups .group-category + body #groups .group-category {
+body #groups .group-category + .group-category {
   margin-top: 3vw;
 }
 
@@ -230,7 +230,7 @@ body #groups .group-category .group {
   /* .group-info */
 }
 
-body #groups .group-category .group + body #groups .group-category .group {
+body #groups .group-category .group + .group {
   margin-top: 3vw;
 }
 

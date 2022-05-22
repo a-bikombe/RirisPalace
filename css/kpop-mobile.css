@@ -42,7 +42,7 @@ body #ults .ult {
   /* only add margin to .ult if there is another .ult before it */
 }
 
-body #ults .ult + body #ults .ult {
+body #ults .ult + .ult {
   margin-top: 3vw;
 }
 

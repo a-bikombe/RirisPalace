@@ -39,7 +39,7 @@ body {
         .ult {
 
             /* only add margin to .ult if there is another .ult before it */
-            & + & {
+            & + .ult {
                 margin-top: 3vw;
             }
 
