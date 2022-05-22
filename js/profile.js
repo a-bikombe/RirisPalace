@@ -3,7 +3,7 @@ let confirmDeleteForm = $('#delete-form');
 
 function showDeleteForm() {
 
-    deleteBtn.click((evt) => {
+    deleteBtn.click((e) => {
 
         confirmDeleteForm.show();
 
