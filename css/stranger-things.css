@@ -146,7 +146,15 @@ general */
           justify-content: space-between;
 }
 
-#stranger-things #episodes .season .episode .episode-header .rating i {
+#stranger-things #episodes .season .episode .episode-header,
+#stranger-things #episodes .season .episode .episode-header .rating-rank {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#stranger-things #episodes .season .episode .episode-header .rating i,
+#stranger-things #episodes .season .episode .episode-header .rating-rank .rating i {
   color: var(--clr-orange);
 }
 

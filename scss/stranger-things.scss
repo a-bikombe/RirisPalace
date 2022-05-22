@@ -140,9 +140,14 @@ general */
                 .episode-header {
                     justify-content: space-between;
 
-                    .rating {
-                        i {
-                            color: var(--clr-orange);
+                    &,
+                    .rating-rank {
+                        justify-content: space-between;
+
+                        .rating {
+                            i {
+                                color: var(--clr-orange);
+                            }
                         }
                     }
                 }
@@ -150,7 +155,6 @@ general */
                 .episode-main {
                     justify-content: space-evenly;
                 }
-
             }
         }
     }
