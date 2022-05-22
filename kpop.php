@@ -50,7 +50,7 @@ $underConstruction = '<img class="construction-gif" src="images/gifs/pikachu-con
 	<?php require_once 'include/loading-page.php'; ?>
 	<?php require_once 'include/header.php'; ?>
 	<!-- sidebar nav -->
-	<aside id="group-sidebar flex-justify" class="transparent-bg">
+	<aside id="group-sidebar" class="transparent-bg">
 		<section class="group-nav text-center fixed" id="group-nav" aria-labelledby="group-nav-header">
 			<h5 class="border-5px p-1vw" id="group-nav-header">Groups</h5>
 			<ul class="nav flex-column">
