@@ -129,8 +129,7 @@ general */
 }
 
 /* initialize flex */
-.flex,
-.flex-center {
+[class*="flex"] {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -151,6 +150,30 @@ general */
           justify-content: center;
 }
 
+/* flex row */
+.dir-row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+/* flex column */
+.dir-col {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* flex change to column on mobile */
+.dir-change {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
 /* grid */
 .grid {
   display: -ms-grid;
@@ -164,31 +187,6 @@ general */
 /* fixed position */
 .fixed {
   position: fixed;
-}
-
-/* ~~~ FLEX DIRECTIONS ~~~ */
-/* row */
-.dir-row {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-/* column */
-.dir-col {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-/* change to column on mobile */
-.dir-change {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
 }
 
 /* ~~~ PADDING ~~~ */

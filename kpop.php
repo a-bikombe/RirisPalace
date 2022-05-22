@@ -81,7 +81,7 @@ $underConstruction = '<img class="construction-gif" src="images/gifs/pikachu-con
 			<h2 class="hidden" id="ults-title">Ults</h2>
 			<section class="ult border-10px text-center" id="ult-bias" aria-labelledby="ult-bias-title">
 				<h3 id="ult-bias-title">Ult Bias</h3>
-				<section class="ult-info flex flex-align-center dir-change" aria-labelledby="ult-bias-name">
+				<section class="ult-info flex-align-center dir-change" aria-labelledby="ult-bias-name">
 					<h4 id="ult-bias-name"><?= $ultBias ?> (<?= $ultBiasGroup ?>)</h4>
 					<button data-bs-toggle="modal" data-bs-target="#ult-bias-modal" id="ult-bias-btn" class="ult-btn p-0 border-5px">
 						<img src="<?= $ultBiasImage ?>" class="ult-btn-img p-0 border-5px" alt="Ult Bias Thumbnail">
@@ -104,7 +104,7 @@ $underConstruction = '<img class="construction-gif" src="images/gifs/pikachu-con
 			</section>
 			<section class="ult border-10px text-center" id="ult-group" aria-labelledby="ult-group-title">
 				<h3 id="ult-group-title">Ult Group</h3>
-				<section class="ult-info flex flex-align-center dir-change" aria-labelledby="ult-group-name">
+				<section class="ult-info flex-align-center dir-change" aria-labelledby="ult-group-name">
 					<!-- array_keys($group['members'])[1] -->
 					<h4 id="ult-group-name"><?= $groups['active']['groups'][array_key_first($groups['active']['groups'])]['name'] ?></h4>
 					<button data-bs-toggle="modal" data-bs-target="#ult-group-modal" id="ult-group-btn" class="ult-btn p-0 border-5px">
@@ -206,7 +206,7 @@ $underConstruction = '<img class="construction-gif" src="images/gifs/pikachu-con
 										'<?= substr($youngestYear, -2) ?>
 									</h6>
 								</section>
-								<section class="group-info flex flex-align-center dir-change" aria-label="<?= $group['name'] ?> Info">
+								<section class="group-info flex-align-center dir-change" aria-label="<?= $group['name'] ?> Info">
 									<button class="group-property text-center bias" data-bs-toggle="modal" data-bs-target="#<?= $groupID ?>-bias-modal">Bias</button>
 									<div class="modal fade" id="<?= $groupID ?>-bias-modal" tabindex="-1" aria-labelledby="<?= $groupID ?>-bias-modal-label" aria-hidden="true">
 										<div class="modal-dialog">

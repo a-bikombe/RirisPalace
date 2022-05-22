@@ -115,8 +115,8 @@ general */
 }
 
 /* initialize flex */
-.flex,
-.flex-center {
+
+[class*="flex"] {
     display: flex;
 }
 
@@ -131,6 +131,22 @@ general */
     justify-content: center;
 }
 
+/* flex row */
+.dir-row {
+    flex-direction: row;
+}
+
+/* flex column */
+.dir-col {
+    flex-direction: column;
+}
+
+/* flex change to column on mobile */
+.dir-change {
+    flex-direction: row;
+}
+
+
 /* grid */
 .grid {
     display: grid;
@@ -141,23 +157,6 @@ general */
 /* fixed position */
 .fixed {
     position: fixed;
-}
-
-/* ~~~ FLEX DIRECTIONS ~~~ */
-
-/* row */
-.dir-row {
-    flex-direction: row;
-}
-
-/* column */
-.dir-col {
-    flex-direction: column;
-}
-
-/* change to column on mobile */
-.dir-change {
-    flex-direction: row;
 }
 
 /* ~~~ PADDING ~~~ */
