@@ -5,9 +5,11 @@ function lazyloadModalImages() {
 
     modalButtons.each(function () {
 
-        $(this).click(function (e) {
+        let modalButton = $(this);
 
-            let modal = $(this).next();
+        modalButton.click(function (e) {
+
+            let modal = modalButton.next();
 
             modal.show();
 
@@ -27,7 +29,7 @@ function lazyloadModalImages() {
 
 lazyloadModalImages();
 
-/* FIXME: modal does not open when you can hide group info */
+/* TODO: modal does not open when you can hide group info */
 /* function toggleGroupInfo() {
 
     groups.each(function() {

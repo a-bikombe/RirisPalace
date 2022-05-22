@@ -1,7 +1,7 @@
 const s4Vol1 = new Date(2022, 04, 27);
 const s4Vol2 = new Date(2022, 06, 01);
 const currentDate = new Date();
-const one_day = 1000 * 60 * 60 * 24;
+const oneDay = 1000 * 60 * 60 * 24;
 
 function s4Vol1Countdown() {
 

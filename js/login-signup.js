@@ -5,7 +5,7 @@ let passwordHelp = $('#help');
 
 function matchPasswords() {
 
-    passwordReenter.keyup(function (e) {
+    passwordReenter.keyup((e) => {
 
         if (passwordReenter.val() !== password.val()) {
             passwordHelp.text("Passwords Must Match");
