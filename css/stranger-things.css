@@ -141,7 +141,7 @@ general */
 
 #stranger-things #episodes .season .episode {
   background: var(--clr-white);
-  gap: 2vw;
+  gap: 1vw;
   margin-top: 20px;
 }
 
