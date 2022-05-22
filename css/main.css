@@ -588,9 +588,9 @@ body #header-banner .navbar-brand {
 
 body.dark-theme {
   --theme-bg: var(--clr-gray-10);
+  --theme-text: var(--clr-white);
   --theme-border: var(--clr-gray-20);
   --theme-box-shadow-direct: 0 0 10px 3px var(--clr-white-t);
-  --theme-text: var(--clr-white);
   --theme-link: var(--clr-blue-light);
   --theme-login: var(--clr-green);
   --theme-logout: var(--clr-red);

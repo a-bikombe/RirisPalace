@@ -2,7 +2,6 @@
 general */
 
 body {
-
     main {
         grid-column: 1 / 8;
     }
@@ -11,7 +10,7 @@ body {
         width: 100%;
 
         &#ults,
-        &:not(#ults)>* {
+        &:not(#ults) > * {
             flex-basis: 100%;
             width: 100%;
         }
@@ -35,9 +34,7 @@ body {
     #ults */
 
     #ults {
-
         .ult {
-
             /* only add margin to .ult if there is another .ult before it */
             & + .ult {
                 margin-top: 3vw;
@@ -46,9 +43,7 @@ body {
             .ult-btn-img {
                 width: 100%;
             }
-
         }
-
     }
 
     /* ================================================================
@@ -58,12 +53,9 @@ body {
     #content-dashboard */
 
     #content-dashboard {
-
         .content-table {
             overflow: auto;
             width: 85vw;
         }
-
     }
-
 }

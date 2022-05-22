@@ -14,7 +14,6 @@ footer {
     flex-direction: column;
 }
 
-
 /* ================================================================
 header.php */
 
@@ -22,7 +21,6 @@ header.php */
 index.php */
 
 #index {
-
     figcaption {
         font-size: 1.7rem;
         padding-top: 3vw;
@@ -39,14 +37,12 @@ index.php */
             width: 75vw;
         }
     }
-
 }
 
 /* ================================================================
 stranger-things.php */
 
 #stranger-things {
-
     h3 {
         margin: 15px 0 10px;
     }
@@ -60,7 +56,6 @@ stranger-things.php */
         padding: 3vh 5vw;
 
         .character {
-
             &-image-name,
             &-description {
                 margin: auto;
@@ -70,11 +65,7 @@ stranger-things.php */
                     height: calc(90% * 1.49);
                     object-fit: cover;
                 }
-
             }
-
         }
-
     }
-
 }

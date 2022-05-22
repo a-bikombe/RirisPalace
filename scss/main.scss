@@ -67,7 +67,6 @@ general */
 }
 
 @keyframes glow {
-
     0%,
     100% {
         text-shadow: none;
@@ -76,7 +75,6 @@ general */
     50% {
         text-shadow: 0 0 0.125em var(--clr-white-t), 0 0 0.45em currentColor;
     }
-
 }
 
 /* ~~~ DISPLAY, POSITION ~~~ */
@@ -141,7 +139,6 @@ general */
     flex-direction: row;
 }
 
-
 /* grid */
 .grid {
     display: grid;
@@ -175,7 +172,7 @@ general */
 }
 
 .border-5px,
-.border-5px>button {
+.border-5px > button {
     border-radius: 5px;
 }
 
@@ -276,16 +273,12 @@ body {
         background: var(--bg-color);
     }
 
-
     /* set transparent background */
     .transparent-bg {
-
-        :not(.btn,
-            i) {
+        :not(.btn, i) {
             background: transparent;
             color: var(--theme-text);
         }
-
     }
 
     /* main padding and grid initialization */
@@ -317,7 +310,7 @@ body {
     }
 
     /* "required" asterisk for inputs */
-    .input-block>label::before {
+    .input-block > label::before {
         color: var(--clr-red-bright);
         content: "*";
     }
@@ -347,7 +340,6 @@ body {
         .text {
             padding-top: 6vh;
         }
-
     }
 
     /* ================================================================
@@ -383,7 +375,6 @@ loading-page.php */
         .subtitle {
             font-size: 1.5rem;
         }
-
     }
 
     /* ================================================================
@@ -404,7 +395,6 @@ header.php */
         }
 
         .account {
-
             /* ~~~ LOGIN / LOGOUT BUTTON ~~~ */
 
             .login-btn,
@@ -425,7 +415,6 @@ header.php */
                 &:hover {
                     background-color: var(--theme-login);
                 }
-
             }
 
             .logout-btn {
@@ -439,9 +428,7 @@ header.php */
                 &:hover {
                     background-color: var(--theme-logout);
                 }
-
             }
-
         }
 
         /* mobile dropdown toggle button */
@@ -462,11 +449,9 @@ header.php */
                 padding: 0.25rem;
                 width: 100%;
             }
-
         }
 
         .navbar-collapse {
-
             /* profile link and login/out button in desktop dropdown */
             .account {
                 align-items: center;
@@ -487,12 +472,10 @@ header.php */
                 z-index: 1;
 
                 .nav-item {
-
                     /* only add border to .nav-item if there is another .nav-item before it */
                     & + .nav-item {
                         border-top: 1px solid var(--theme-border);
                     }
-            
                 }
 
                 .account {
@@ -502,11 +485,8 @@ header.php */
                     .logout-btn {
                         margin-block: 0.75rem;
                     }
-
                 }
-
             }
-
         }
 
         .navbar-brand,
@@ -552,46 +532,38 @@ header.php */
             }
 
         } */
-
     }
 
     /* initialize dark theme-light */
     &.dark-theme {
         --theme-bg: var(--clr-gray-10);
+        --theme-text: var(--clr-white);
         --theme-border: var(--clr-gray-20);
         --theme-box-shadow-direct: 0 0 10px 3px var(--clr-white-t);
-        --theme-text: var(--clr-white);
         --theme-link: var(--clr-blue-light);
         --theme-login: var(--clr-green);
         --theme-logout: var(--clr-red);
 
         /* dark theme header.php */
         #header-banner {
-
             .account {
-
                 .login-btn {
-
                     /* dark theme glow */
                     &,
                     &:hover {
                         box-shadow: inset 0 0 0.5em 0 var(--clr-white-t), 0 0 0.5em 0 var(--theme-login);
                         text-shadow: 0 0 0.125em var(--clr-white-t), 0 0 0.45em var(--theme-login);
                     }
-
                 }
 
                 .logout-btn {
-
                     /* dark theme glow */
                     &,
                     &:hover {
                         box-shadow: inset 0 0 0.5em 0 var(--clr-white-t), 0 0 0.5em 0 var(--theme-logout);
                         text-shadow: 0 0 0.125em var(--clr-white-t), 0 0 0.45em var(--theme-logout);
                     }
-
                 }
-
             }
 
             /* mobile dropdown toggle button glow - dark backgrounds only */
@@ -601,34 +573,26 @@ header.php */
             }
 
             .navbar-collapse {
-
                 /* content in mobile dropdown - dark backgrounds */
                 &.collapsing,
                 &.show {
                     box-shadow: var(--theme-box-shadow-direct);
                 }
-
             }
-
         }
-
     }
-
 
     /* ================================================================
 login-profile.php */
 
     #profile {
-
         #profile-form {
             background: var(--clr-gray-80);
             border: 1px solid var(--clr-gray-40);
             margin: 1.5vw 7vw;
             padding: 2vw;
         }
-
     }
-
 
     /* ================================================================
 include/footer.php */
@@ -653,9 +617,6 @@ include/footer.php */
                 font-size: 1.1rem;
                 overflow: hidden;
             }
-
         }
-
     }
-
 }

@@ -7,7 +7,7 @@ general */
   font-size: 15px;
 }
 
-body {
+#kpop {
   --bg-color: var(--bg-gradient);
   /* ================================================================
     #group-sidebar */
@@ -21,16 +21,16 @@ body {
     #content-dashboard */
 }
 
-body,
-body .loader {
+#kpop,
+#kpop .loader {
   background: var(--bg-color);
 }
 
-body h2 {
+#kpop h2 {
   padding-bottom: 1vw;
 }
 
-body main {
+#kpop main {
   -ms-grid-column: 2;
   -ms-grid-column-span: 6;
   grid-column: 2 / 8;
@@ -41,16 +41,16 @@ body main {
 }
 
 @media (min-width: 576px) {
-  body .modal-dialog {
+  #kpop .modal-dialog {
     max-width: 500px;
   }
 }
 
-body .modal li {
+#kpop .modal li {
   padding: 0.5vh;
 }
 
-body .modal .modal-img {
+#kpop .modal .modal-img {
   border: 1px solid var(--clr-gray-40);
   border-radius: 5px;
   height: auto;
@@ -59,11 +59,11 @@ body .modal .modal-img {
   width: 90%;
 }
 
-body .construction-gif {
+#kpop .construction-gif {
   height: 20vw;
 }
 
-body #group-sidebar {
+#kpop #group-sidebar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -79,7 +79,7 @@ body #group-sidebar {
   min-width: 150px;
 }
 
-body #group-sidebar #group-nav {
+#kpop #group-sidebar #group-nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -92,71 +92,71 @@ body #group-sidebar #group-nav {
   /* scrollbar for group-nav */
 }
 
-body #group-sidebar #group-nav::-webkit-scrollbar {
+#kpop #group-sidebar #group-nav::-webkit-scrollbar {
   width: 6px;
 }
 
-body #group-sidebar #group-nav::-webkit-scrollbar-track {
+#kpop #group-sidebar #group-nav::-webkit-scrollbar-track {
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 4px var(--clr-gray-40);
           box-shadow: inset 0 0 4px var(--clr-gray-40);
 }
 
-body #group-sidebar #group-nav::-webkit-scrollbar-thumb {
+#kpop #group-sidebar #group-nav::-webkit-scrollbar-thumb {
   background: var(--clr-gray-40);
   border-radius: 10px;
   /* Handle on hover */
 }
 
-body #group-sidebar #group-nav::-webkit-scrollbar-thumb:hover {
+#kpop #group-sidebar #group-nav::-webkit-scrollbar-thumb:hover {
   background: var(--clr-gray-10);
 }
 
-body #group-sidebar #group-nav #group-nav-header,
-body #group-sidebar #group-nav .nav-item {
+#kpop #group-sidebar #group-nav #group-nav-header,
+#kpop #group-sidebar #group-nav .nav-item {
   margin: 0.25vh 2vh;
 }
 
-body #group-sidebar #group-nav .nav-item {
+#kpop #group-sidebar #group-nav .nav-item {
   border-radius: 5px;
   -webkit-transition: var(--transition-clr-text), var(--transition-clr-bg), var(--transition-clr-border);
   transition: var(--transition-clr-text), var(--transition-clr-bg), var(--transition-clr-border);
 }
 
-body #group-sidebar #group-nav .nav-item:hover {
+#kpop #group-sidebar #group-nav .nav-item:hover {
   background: var(--clr-black);
 }
 
-body #group-sidebar #group-nav .nav-item:hover .nav-link {
+#kpop #group-sidebar #group-nav .nav-item:hover .nav-link {
   color: var(--clr-white);
 }
 
-body #group-sidebar #group-nav #group-nav-header {
+#kpop #group-sidebar #group-nav #group-nav-header {
   border: 2px solid var(--clr-gray-10);
 }
 
-body #group-sidebar #group-nav .nav-link {
+#kpop #group-sidebar #group-nav .nav-link {
   color: var(--clr-gray-10);
   padding: 0.5vh;
 }
 
-body .kpop-section {
+#kpop .kpop-section {
   margin: 5vw 0;
 }
 
-body .kpop-section:not(#ults) {
+#kpop .kpop-section:not(#ults) {
   border: 1px solid var(--clr-gray-10);
   padding: 2vw;
 }
 
-body #ults {
+#kpop #ults {
   gap: 2vw;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
-body #ults .ult {
+#kpop #ults .ult {
   background: var(--clr-gray-10);
   border: 1px solid var(--clr-gray-10);
   color: var(--clr-white);
@@ -169,27 +169,27 @@ body #ults .ult {
   width: 100%;
 }
 
-body #ults .ult-info {
+#kpop #ults .ult-info {
   gap: 1vw;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
 }
 
-body #ults .ult-modal {
+#kpop #ults .ult-modal {
   color: var(--clr-gray-10);
 }
 
-body #ults .ult-btn, body #ults .ult-btn-img {
+#kpop #ults .ult-btn, #kpop #ults .ult-btn-img {
   aspect-ratio: 1 / 1;
   width: 15vw;
 }
 
-body #ults .ult-btn {
+#kpop #ults .ult-btn {
   border: none;
 }
 
-body #ults .ult-btn-img {
+#kpop #ults .ult-btn-img {
   border: 1px solid var(--clr-gray-20);
   -o-object-fit: cover;
      object-fit: cover;
@@ -197,30 +197,30 @@ body #ults .ult-btn-img {
   transition: var(--transition-clr-border);
 }
 
-body #ults .ult-btn-img:hover, body #ults .ult-btn-img:focus-visible {
+#kpop #ults .ult-btn-img:hover, #kpop #ults .ult-btn-img:focus-visible {
   border: 1px solid var(--clr-gray-80);
 }
 
-body #groups {
+#kpop #groups {
   background: #999999;
 }
 
-body #groups .group-category {
+#kpop #groups .group-category {
   background: #d9d9d9;
   border: 1px solid var(--clr-gray-10);
   padding: 2vw;
   /* only add margin to .group-category if there is another .group-category before it */
 }
 
-body #groups .group-category-button:hover {
+#kpop #groups .group-category-button:hover {
   cursor: pointer;
 }
 
-body #groups .group-category + .group-category {
+#kpop #groups .group-category + .group-category {
   margin-top: 3vw;
 }
 
-body #groups .group-category .group {
+#kpop #groups .group-category .group {
   background: var(--clr-white);
   border: 1px solid var(--clr-gray-10);
   color: var(--clr-gray-10);
@@ -230,37 +230,37 @@ body #groups .group-category .group {
   /* .group-info */
 }
 
-body #groups .group-category .group + .group {
+#kpop #groups .group-category .group + .group {
   margin-top: 3vw;
 }
 
-body #groups .group-category .group:hover {
+#kpop #groups .group-category .group:hover {
   cursor: pointer;
 }
 
-body #groups .group-category .group-image-btn {
+#kpop #groups .group-category .group-image-btn {
   border: none;
 }
 
-body #groups .group-category .group-image-btn:hover {
+#kpop #groups .group-category .group-image-btn:hover {
   aspect-ratio: 1 / 1;
   border: none;
   width: 20px;
 }
 
-body #groups .group-category .group-stats {
+#kpop #groups .group-category .group-stats {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
 }
 
-body #groups .group-category .group-info {
+#kpop #groups .group-category .group-info {
   border: 0 solid var(--clr-gray-10);
   gap: 1vw;
   margin-top: 1vw;
 }
 
-body #groups .group-category .group-info .group-property {
+#kpop #groups .group-category .group-info .group-property {
   border: 1px solid var(--clr-gray-80);
   border-radius: 7px;
   color: var(--clr-gray-10);
@@ -274,46 +274,46 @@ body #groups .group-category .group-info .group-property {
   transition: var(--transition-clr-text), var(--transition-clr-bg), var(--transition-clr-border);
 }
 
-body #groups .group-category .group-info .group-property:hover {
+#kpop #groups .group-category .group-info .group-property:hover {
   background: var(--clr-gray-10);
   color: var(--clr-white);
 }
 
-body #content-dashboard {
+#kpop #content-dashboard {
   background: #999999;
 }
 
-body #content-dashboard .content-table,
-body #content-dashboard .content-table * {
+#kpop #content-dashboard .content-table,
+#kpop #content-dashboard .content-table * {
   margin: 0 auto;
 }
 
-body #content-dashboard .content-table table * {
+#kpop #content-dashboard .content-table table * {
   padding: 0.75vw;
 }
 
-body #content-dashboard .content-table table tbody {
+#kpop #content-dashboard .content-table table tbody {
   border-top: 3px solid var(--clr-gray-10);
 }
 
-body #content-dashboard .content-table table th,
-body #content-dashboard .content-table table td {
+#kpop #content-dashboard .content-table table th,
+#kpop #content-dashboard .content-table table td {
   border: 1px solid var(--clr-gray-10);
 }
 
-body #content-dashboard .content-table table th {
+#kpop #content-dashboard .content-table table th {
   background: var(--clr-gray-90);
 }
 
-body #content-dashboard .content-table table td {
+#kpop #content-dashboard .content-table table td {
   background: var(--clr-white);
 }
 
-body #content-dashboard .content-table table td.group-name-table {
+#kpop #content-dashboard .content-table table td.group-name-table {
   background: var(--clr-gray-90);
 }
 
-body #content-dashboard .content-table table td.content {
+#kpop #content-dashboard .content-table table td.content {
   text-transform: capitalize;
 }
 /*# sourceMappingURL=kpop.css.map */

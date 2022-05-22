@@ -9,7 +9,7 @@ general */
     font-size: 15px;
 }
 
-body {
+#kpop {
     --bg-color: var(--bg-gradient);
 
     &,
@@ -27,7 +27,7 @@ body {
         margin: 0 5vw 50px;
     }
 
-    @media(min-width: 576px) {
+    @media (min-width: 576px) {
         .modal-dialog {
             max-width: 500px;
         }
@@ -103,9 +103,7 @@ body {
                     .nav-link {
                         color: var(--clr-white);
                     }
-
                 }
-
             }
 
             #group-nav-header {
@@ -116,9 +114,7 @@ body {
                 color: var(--clr-gray-10);
                 padding: 0.5vh;
             }
-
         }
-
     }
 
     /* ================================================================
@@ -178,9 +174,7 @@ body {
                     border: 1px solid var(--clr-gray-80);
                 }
             }
-
         }
-
     }
 
     /* ================================================================
@@ -226,7 +220,6 @@ body {
                         border: none;
                         width: 20px;
                     }
-
                 }
 
                 /* .group-stats */
@@ -254,13 +247,9 @@ body {
                             color: var(--clr-white);
                         }
                     }
-
                 }
-
             }
-
         }
-
     }
 
     /* ================================================================
@@ -270,14 +259,12 @@ body {
         background: hsl(0, 0%, 60%);
 
         .content-table {
-
             &,
             * {
                 margin: 0 auto;
             }
 
             table {
-
                 * {
                     padding: 0.75vw;
                 }
@@ -305,13 +292,8 @@ body {
                     &.content {
                         text-transform: capitalize;
                     }
-
                 }
-
             }
-
         }
-
     }
-
 }

@@ -28,29 +28,22 @@ general */
     }
 
     #intro {
-
         .no-link-color {
             color: var(--theme-dark-text);
-
-
         }
 
         .countdown {
-
             &:not(.hidden) {
                 animation: glow 1.3s;
                 animation-iteration-count: infinite;
                 animation-timing-function: ease-in-out;
             }
-
         }
 
         #plot {
             margin: 40px 0;
         }
-
     }
-
 
     /* season */
     .season {
@@ -59,12 +52,10 @@ general */
         color: var(--clr-black);
         padding: 2vw 3vw;
 
-
         /* space between seasons: only add to .season if there is another .season before it */
         & + .season {
             margin-top: 50px;
         }
-
     }
 
     /* character */
@@ -104,9 +95,7 @@ general */
                     display: block !important;
                     font-size: 1rem;
                 }
-
             }
-
         }
 
         /* character description */
@@ -119,9 +108,6 @@ general */
             &-item {
                 margin-bottom: 5px;
             }
-
         }
-
     }
-
 }
