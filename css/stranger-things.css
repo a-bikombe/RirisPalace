@@ -115,7 +115,7 @@ general */
   margin-bottom: 5px;
 }
 
-#stranger-things #episodes .season {
+#stranger-things #episodes {
   background: var(--clr-white);
   border: 1px solid var(--clr-gray-40);
   color: var(--clr-black);
@@ -130,6 +130,7 @@ general */
 }
 
 #stranger-things #episodes .season .episode .episode-header .rating i {
+  border-color: var(--clr-yellow-dark);
   color: var(--clr-yellow);
 }
 /*# sourceMappingURL=stranger-things.css.map */

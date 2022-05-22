@@ -116,13 +116,13 @@ general */
     }
 
     #episodes {
-        
-        .season {
-            background: var(--clr-white);
+        background: var(--clr-white);
             border: 1px solid var(--clr-gray-40);
             color: var(--clr-black);
             margin-top: 40px;
             padding: 2vw 3vw;
+        
+        .season {
 
             .episode {
 
@@ -131,6 +131,7 @@ general */
 
                     .rating {
                         i {
+                            border-color: var(--clr-yellow-dark);
                             color: var(--clr-yellow);
                         }
                     }
