@@ -128,8 +128,13 @@ general */
             padding: 2vw 3vw;
         }
 
+        .season,
+        .episode {
+            border: 1px solid var(--clr-gray-80);
+        }
+
         .season {
-            background: var(--clr-gray-80);
+            background: var(--clr-gray-90);
             margin-top: 20px;
 
             .episode {
