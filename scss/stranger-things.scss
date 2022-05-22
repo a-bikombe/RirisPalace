@@ -130,10 +130,10 @@ general */
                     justify-content: space-between;
 
                     .rating {
-                        i:before {
+                        i {
                             border-color: var(--clr-yellow-dark);
                             box-shadow: var(--theme-box-shadow-direct);
-                            color: var(--clr-yellow);
+                            color: var(--clr-yellow-dark);
                         }
                     }
                 }

@@ -129,10 +129,10 @@ general */
           justify-content: space-between;
 }
 
-#stranger-things #episodes .season .episode .episode-header .rating i:before {
+#stranger-things #episodes .season .episode .episode-header .rating i {
   border-color: var(--clr-yellow-dark);
   -webkit-box-shadow: var(--theme-box-shadow-direct);
           box-shadow: var(--theme-box-shadow-direct);
-  color: var(--clr-yellow);
+  color: var(--clr-yellow-dark);
 }
 /*# sourceMappingURL=stranger-things.css.map */
