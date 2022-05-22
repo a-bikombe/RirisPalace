@@ -129,14 +129,12 @@ general */
 
         .season {
             background: var(--clr-gray-80);
+            margin-top: 20px;
 
             .episode {
                 background: var(--clr-white);
+                margin-top: 20px;
 
-                & + .episode {
-                    margin-top: 10px;
-                }
-                
                 .episode-header {
                     justify-content: space-between;
 

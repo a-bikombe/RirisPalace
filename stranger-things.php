@@ -153,7 +153,7 @@ $scripts = [
 								</section>
 								<section class="episode-main">
 									<section class="thoughts">
-										<h5 class="thoughts-title">Quotes</h5>
+										<h5 class="thoughts-title">Thoughts</h5>
 										<p><?= $episode['thoughts'] ?></p>
 									</section>
 									<section class="quotes">
