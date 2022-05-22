@@ -40,8 +40,9 @@ general */
             }
         }
 
+        &,
         #plot {
-            margin: 40px 0;
+            margin-block: 40px;
         }
     }
 
@@ -50,12 +51,13 @@ general */
         background: var(--clr-white);
         border: 1px solid var(--clr-gray-40);
         color: var(--clr-black);
+        margin-top: 40px;
         padding: 2vw 3vw;
 
         /* space between seasons: only add to .season if there is another .season before it */
-        & + .season {
+        /* & + .season {
             margin-top: 50px;
-        }
+        } */
     }
 
     /* character */

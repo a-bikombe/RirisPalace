@@ -42,20 +42,21 @@ general */
           animation-timing-function: ease-in-out;
 }
 
+#stranger-things #intro,
 #stranger-things #intro #plot {
-  margin: 40px 0;
+  margin-block: 40px;
 }
 
 #stranger-things .season {
   background: var(--clr-white);
   border: 1px solid var(--clr-gray-40);
   color: var(--clr-black);
+  margin-top: 40px;
   padding: 2vw 3vw;
   /* space between seasons: only add to .season if there is another .season before it */
-}
-
-#stranger-things .season + .season {
-  margin-top: 50px;
+  /* & + .season {
+            margin-top: 50px;
+        } */
 }
 
 #stranger-things .character {
