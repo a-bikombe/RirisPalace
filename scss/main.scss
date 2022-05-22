@@ -43,6 +43,12 @@ general */
     font-size: 15px;
 }
 
+/* ------------ RESET ------------- */
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
 /* ------------ UTILITIES ------------- */
 
 /* ~~~ ANIMATIONS ~~~ */
@@ -388,7 +394,14 @@ header.php */
         margin: 0;
 
         .navbar {
+            align-items: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
             max-height: 65px;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            position: relative;
         }
 
         .logo {
@@ -616,5 +629,12 @@ include/footer.php */
                 overflow: hidden;
             }
         }
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
     }
 }

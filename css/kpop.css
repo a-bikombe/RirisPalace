@@ -72,9 +72,6 @@ general */
   -ms-grid-row: 2;
   -ms-grid-row-span: 13;
   grid-row: 2 / 15;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   padding: 4vh 3vw;
   min-width: 150px;
 }
