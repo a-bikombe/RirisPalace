@@ -145,7 +145,7 @@ $scripts = [
 					<h3 class="season-title"><?= $season['seasonName'] ?></h3>
 					<?php if (isset($season['episodes'])) : ?>
 						<?php foreach ($season['episodes'] as $episodeId => $episode) : ?>
-							<section class="episode border-10px" id="<?= $seasonId . '-' . $episodeId ?>">
+							<section class="episode border-10px flex dir-col" id="<?= $seasonId . '-' . $episodeId ?>">
 								<section class="episode-header dir-change">
 									<h4 class="episode-title">Chapter <?= ucfirst($episodeId) ?>: <strong><?= $episode['title'] ?></strong></h4>
 									<p class="subtitle"><?= $episode['rank'] . '/' . $totalEpisodes ?></p>
