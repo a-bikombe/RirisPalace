@@ -7,7 +7,7 @@ function lazyloadModalImages() {
 
         modalButton.addEventListener('click', (e) => {
 
-            let modal = modalButton.nextSibling;
+            let modal = modalButton.nextElementSibling;
 
             let modalImage = modal.querySelector(".modal-img");
             let dataSrc = modalImage.getAttribute('data-src');
