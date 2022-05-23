@@ -151,7 +151,7 @@ $scripts = [
 									<div class="rank-rating flex-align-center">
 										<p class="rank subtitle"><?= '#' . $episode['rank'] . '/' . $totalEpisodes ?></p>
 										<span class="rating">
-											<?php if (isset($episode['rating'])) :
+											<?php if (isset($episode['rating']) && $episode['rating'] !== '') :
 												for ($i = 0; $i < intval($episode['rating']); $i++) { ?>
 													<i class="fa-solid fa-star"></i>
 											<?php }
