@@ -232,10 +232,6 @@ general */
   transition: var(--transition-size-text);
 }
 
-#stranger-things .side-nav .st-sections-nav-item.heading + .st-sections-nav-item.heading {
-  margin-top: 0.5rem;
-}
-
 #stranger-things .side-nav .st-sections-nav-item a {
   color: var(--clr-white);
   text-decoration: none;
@@ -243,6 +239,10 @@ general */
 
 #stranger-things .side-nav .st-sections-nav-item a:hover {
   text-shadow: var(--text-shadow-white);
+}
+
+#stranger-things .side-nav .st-sections-nav-item a strong {
+  margin-top: 0.5rem;
 }
 
 #stranger-things .side-nav .st-sections-nav-item:hover {
