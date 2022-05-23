@@ -148,8 +148,8 @@ general */
                     justify-content: space-between;
 
                     .rank-rating {
-                        gap: 3vw;
-                        justify-content: flex-end;
+                        min-width: 200px;
+                        justify-content: space-between;
 
                         .rating {
                             i {
@@ -160,10 +160,11 @@ general */
                 }
 
                 .episode-main {
+                    gap: 1vw;
                     justify-content: space-between;
 
                     .thoughts {
-                        width: 60%;
+                        width: auto;
                     }
 
                     .quotes {
