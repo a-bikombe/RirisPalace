@@ -214,6 +214,10 @@ general */
                 &-item {
                     transition: var(--transition-size-text);
 
+                    &.heading + .st-sections-nav-item {
+                        margin-top: 0.5rem;
+                    }
+
                     a {
                         color: var(--clr-white);
                         text-decoration: none;
@@ -223,7 +227,7 @@ general */
                         }
 
                         strong {
-                            margin-top: 0.5rem;
+                            
                         }
                     }
 
