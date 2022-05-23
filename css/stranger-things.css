@@ -50,11 +50,6 @@ general */
           animation-timing-function: ease-in-out;
 }
 
-#stranger-things main #intro-rank #intro,
-#stranger-things main #intro-rank #intro #plot {
-  margin-block: 40px;
-}
-
 #stranger-things main #characters {
   margin-inline: 5vw;
   /* season */
