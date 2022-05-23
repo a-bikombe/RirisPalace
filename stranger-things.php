@@ -161,24 +161,22 @@ $scripts = [
 										</div>
 									<?php endif; ?>
 								</section>
-								<?php if ($episode['thoughts'] !== '' || $episode['quotes'] !== '') : ?>
-									<section class="episode-main flex dir-change">
-										<section class="thoughts">
-											<h5 class="thoughts-title text-center">Thoughts</h5>
-											<p><?= $episode['thoughts'] ?></p>
-										</section>
-										<section class="quotes">
-											<h5 class="quote-title text-center">Quotes</h5>
-											<ul>
-												<?php foreach ($episode['quotes'] as $quote) : ?>
-													<?php if ($quote !== '') : ?>
-														<li class="quote"><?= $quote ?></li>
-													<?php endif; ?>
-												<?php endforeach; ?>
-											</ul>
-										</section>
+								<section class="episode-main flex dir-change">
+									<section class="thoughts">
+										<h5 class="thoughts-title text-center">Thoughts</h5>
+										<p><?= $episode['thoughts'] ?></p>
 									</section>
-								<?php endif; ?>
+									<section class="quotes">
+										<h5 class="quote-title text-center">Quotes</h5>
+										<ul>
+											<?php foreach ($episode['quotes'] as $quote) : ?>
+												<?php if ($quote !== '') : ?>
+													<li class="quote"><?= $quote ?></li>
+												<?php endif; ?>
+											<?php endforeach; ?>
+										</ul>
+									</section>
+								</section>
 							</section>
 						<?php endforeach; ?>
 					<?php endif; ?>
