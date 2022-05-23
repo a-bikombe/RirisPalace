@@ -171,9 +171,9 @@ $scripts = [
 										<ul>
 											<?php foreach ($episode['moments'] as $quote) : ?>
 												<?php if ($quote !== '') { ?>
-													<li class="quote"><blockquote><?= $quote ?></blockquote></li>
-												<?php } else if ($quote !== '' && substr($quote, 1) === '*') { ?>
 													<li class="quote"><?= $quote ?></li>
+												<?php } else if ($quote !== '' && substr($quote, 1) === '*') { ?>
+													<li class="quote"><blockquote><?= $quote ?></blockquote></li>
 													<?php } ?>
 											<?php endforeach; ?>
 										</ul>
