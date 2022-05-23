@@ -188,6 +188,18 @@ $scripts = [
 			<?php endforeach; ?>
 		</section>
 	</main>
+	<button type="button" class="collapsible-nav-btn">
+		<i class="fa-solid fa-chevrons-right hidden"></i>
+		<i class="fa-solid fa-chevrons-left hidden"></i>
+	</button>
+	<aside class="collapsible-nav">
+		<nav class="st-sections">
+			<ul>
+				<li>Characters</li>
+				<li>Episodes</li>
+			</ul>
+		</nav>
+	</aside>
 	<?php require_once 'include/footer.php'; ?>
 </body>
 
