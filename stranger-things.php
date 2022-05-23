@@ -200,6 +200,13 @@ $scripts = [
 					<?php endforeach; ?>
 				<?php endforeach; ?>
 				<li class="st-sections-nav-item"><a href="#episodes"><strong>Episodes</strong></a></li>
+				<li class="st-sections-nav-item">
+					<span>
+						<?php foreach ($seasons as $seasonId => $season) : ?>
+							<a href="#<?= $seasonId ?>">S<?= substr($season['seasonName'], -1) ?></a>
+						<?php endforeach; ?>
+					</span>
+				</li>
 			</ul>
 		</nav>
 		<button type="button" class="collapsible-nav-btn border-5px">
