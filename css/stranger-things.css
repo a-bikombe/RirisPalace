@@ -198,19 +198,20 @@ general */
           align-items: flex-end;
   background: purple;
   bottom: 8vw;
+  gap: var(--footer-spacing-right);
   position: fixed;
-  right: 2vw;
+  right: var(--footer-spacing-right);
 }
 
 #stranger-things .side-nav .st-sections-nav {
   list-style-type: none;
-  margin-inline: auto;
+  margin: auto;
   padding-inline: 0;
 }
 
 #stranger-things .side-nav .collapsible-nav-btn {
   border: 1px solid var(--theme-border);
-  padding: 0.5vw 1vw;
+  padding: 0.5rem 1rem;
 }
 
 #stranger-things .side-nav .collapsible-nav-btn [class*="collapse-icon"].hidden {

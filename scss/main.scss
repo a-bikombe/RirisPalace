@@ -40,6 +40,9 @@ general */
     --transition-clr-text: color 0.2s ease-in-out;
     --transition-clr-bg: background-color 0.2s ease-in-out;
     --transition-clr-border: border-color 0.2s ease-in-out;
+    /* spacing */
+    --footer-spacing-right: 2vw;
+
 
     font-size: 15px;
 }
@@ -605,7 +608,7 @@ include/footer.php */
     footer {
         bottom: 3vw;
         position: fixed;
-        right: 2vw;
+        right: var(--footer-spacing-right);
 
         .footer-btn {
             background-color: var(--clr-white);
