@@ -191,9 +191,9 @@ $scripts = [
 	
 	<aside class="side-nav flex-center dir-col">
 		<nav class="st-sections">
-			<ul>
-				<li>Characters</li>
-				<li>Episodes</li>
+			<ul class="st-sections-nav">
+				<li class="st-sections-nav-item">Characters</li>
+				<li class="st-sections-nav-item">Episodes</li>
 			</ul>
 		</nav>
 		<button type="button" class="collapsible-nav-btn border-5px">
