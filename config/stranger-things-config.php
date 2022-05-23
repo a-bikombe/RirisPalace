@@ -377,7 +377,7 @@ $seasons = [
 					'Season 5' => 'https://media.vanityfair.com/photos/5d1b972f5f741a0008ed0667/3:2/w_1500,h_1000,c_limit/priah-ferguson-stranger-things.jpg'
 				],
 				'characterLink' => 'https://strangerthings.fandom.com/wiki/Erica_Sinclair',
-				'characterName' => '"Psycho"',
+				'characterName' => '"Mall Rat"',
 				'content' => [
 					$links['lucas'] . '\'s younger sister',
 					'Rude (in a good way)',
