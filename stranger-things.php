@@ -192,9 +192,9 @@ $scripts = [
 	<aside class="side-nav flex dir-col">
 		<nav class="st-sections text-center border-5px">
 			<ul class="st-sections-nav">
-			<li class="st-sections-nav-item no-link-color no-decor"><a href="#intro">Intro</a></li>
-				<li class="st-sections-nav-item no-link-color no-decor"><a href="#characters">Characters</a></li>
-				<li class="st-sections-nav-item no-link-color no-decor"><a href="#episodes">Episodes</a></li>
+			<li class="st-sections-nav-item"><a href="#intro">Intro</a></li>
+				<li class="st-sections-nav-item"><a href="#characters">Characters</a></li>
+				<li class="st-sections-nav-item"><a href="#episodes">Episodes</a></li>
 			</ul>
 		</nav>
 		<button type="button" class="collapsible-nav-btn border-5px">

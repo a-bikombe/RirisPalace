@@ -213,6 +213,11 @@ general */
                 &-item {
                     transition: var(--transition-size-text);
 
+                    a {
+                        color: var(--clr-white);
+                        text-decoration: none;
+                    }
+
                     &:hover {
                         font-size: 1.1rem;
                     }

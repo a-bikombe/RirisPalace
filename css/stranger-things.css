@@ -231,6 +231,11 @@ general */
   transition: var(--transition-size-text);
 }
 
+#stranger-things .side-nav .st-sections-nav-item a {
+  color: var(--clr-white);
+  text-decoration: none;
+}
+
 #stranger-things .side-nav .st-sections-nav-item:hover {
   font-size: 1.1rem;
 }
