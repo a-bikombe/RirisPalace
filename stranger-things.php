@@ -203,7 +203,7 @@ $scripts = [
 				<li class="st-sections-nav-item">
 					<span>
 						<?php foreach ($seasons as $seasonId => $season) : ?>
-							<a href="#<?= $seasonId ?>">S<?= substr($season['seasonName'], -1) ?></a>
+							<a href="#<?= $seasonId ?>-episodes">S<?= substr($season['seasonName'], -1) ?></a>
 						<?php endforeach; ?>
 					</span>
 				</li>
