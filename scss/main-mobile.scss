@@ -67,12 +67,16 @@ stranger-things.php */
                 }
             }
         }
+    }
 
-        .episode {
-            .episode-main {
-                .thoughts,
-                .quotes {
-                    width: 100%;
+    #episodes {
+        .season {
+            .episode {
+                .episode-main {
+                    .thoughts,
+                    .quotes {
+                        width: 100%;
+                    }
                 }
             }
         }
