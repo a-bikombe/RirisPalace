@@ -203,13 +203,16 @@ general */
 }
 
 #stranger-things .side-nav .st-sections {
+  background-color: var(--clr-gray-40);
   -webkit-transform: translateX(200px);
           transform: translateX(200px);
 }
 
 #stranger-things .side-nav .st-sections, #stranger-things .side-nav .st-sections.unhidden {
-  -webkit-transition: all 0.4s ease-out;
-  transition: all 0.4s ease-out;
+  -webkit-transition: -webkit-transform 0.4s ease-out;
+  transition: -webkit-transform 0.4s ease-out;
+  transition: transform 0.4s ease-out;
+  transition: transform 0.4s ease-out, -webkit-transform 0.4s ease-out;
 }
 
 #stranger-things .side-nav .st-sections.unhidden {
@@ -218,7 +221,6 @@ general */
 }
 
 #stranger-things .side-nav .st-sections-nav {
-  background-color: var(--clr-white-t);
   list-style-type: none;
   margin: auto;
   padding: 0.75rem;
