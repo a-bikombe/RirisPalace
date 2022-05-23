@@ -64,6 +64,18 @@ function lazyloadCarousels() {
 
 }
 
+function collapsibleSidebar() {
+    const collapseBtn = document.querySelector('.collapsible-nav-btn');
+    collapseBtn.addEventListener('click', (e) => {
+
+        let icons = collapseBtn.querySelectorAll('[class*="collapse-icon"]');
+        icons.forEach(icon => {
+            icon.classList.toggle('hidden');
+        });
+    });
+}
+
 s4Vol1Countdown();
 s4Vol2Countdown();
 lazyloadCarousels();
+collapsibleSidebar();
