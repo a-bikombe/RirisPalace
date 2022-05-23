@@ -237,6 +237,11 @@ general */
   text-decoration: none;
 }
 
+#stranger-things .side-nav .st-sections-nav-item a:hover {
+  -webkit-box-shadow: var(--theme-box-shadow-direct);
+          box-shadow: var(--theme-box-shadow-direct);
+}
+
 #stranger-things .side-nav .st-sections-nav-item:hover {
   font-size: 1.1rem;
 }
