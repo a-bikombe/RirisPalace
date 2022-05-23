@@ -29,7 +29,7 @@ general */
         #intro-rank {
             gap: 5rem;
             justify-content: space-between;
-            margin: 20px 10vw 0;
+            margin: 50px 10vw 0;
         
             #intro {
     
@@ -43,6 +43,10 @@ general */
                         animation-iteration-count: infinite;
                         animation-timing-function: ease-in-out;
                     }
+                }
+
+                #plot {
+                    margin-top: 10px;
                 }
             }
 

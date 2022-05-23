@@ -52,6 +52,7 @@ $scripts = [
 				</section>
 			</section>
 			<section id="character-rank" class="flex-justify">
+				<h2 id="character-rank-title">Character Rank</h2>
 				<ol>
 					<?php foreach ($characterRank as $character) : ?>
 						<li><?= ucfirst($character) ?></li>
