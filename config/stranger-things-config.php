@@ -218,7 +218,6 @@ $seasons = [
 		'episodes' => [
 			'one' => [
 				'title' => 'The Vanishing of Will Byers',
-				'rank' => '22',
 				'rating' => '3',
 				'thoughts' => 'A classic. This episode perfectly sets the mood for a spooky winter season. Everyone was so young, and I always get so nostalgic watching this.',
 				'quotes' => [
@@ -229,7 +228,6 @@ $seasons = [
 			],
 			'two' => [
 				'title' => 'The Weirdo on Maple Street',
-				'rank' => '16',
 				'rating' => '4',
 				'thoughts' => 'Hazy Shade Of Winter playing in the credits after Barb goes missing is probably my favorite ending to any ST episode.',
 				'quotes' => [
@@ -241,7 +239,6 @@ $seasons = [
 			],
 			'three' => [
 				'title' => 'Holly, Jolly',
-				'rank' => '23',
 				'rating' => '2',
 				'thoughts' => 'A classic with the wall alphabet. The kids finding Will at the end with Heroes playing in the background always makes me so sad. It always devastates me to see anyone yelling at El, especially Mike.',
 				'quotes' => [
@@ -256,9 +253,8 @@ $seasons = [
 			],
 			'four' => [
 				'title' => 'The Body',
-				'rank' => '5',
 				'rating' => '5',
-				'thoughts' => 'It\'s so sad how poor Joyce sounded so crazy to anyone she spoke to. Her blasting music and screaming at the walls like "Come on... COME ON! TALK TO ME!" was a real serve.',
+				'thoughts' => 'It\'s so sad how poor Joyce sounded so crazy to anyone she spoke to. Her blasting music and screaming at the walls like "Come on... COME ON! TALK TO ME!" was a real serve. Also, El\'s makeover done by the boys! I love every second.',
 				'quotes' => [
 					'ARE YOU DEAF',
 					'I think I just wanna stay home today... I mean, if that\'s okay :(',
@@ -268,7 +264,6 @@ $seasons = [
 			],
 			'five' => [
 				'title' => 'The Flea and the Acrobat',
-				'rank' => '9',
 				'rating' => '5',
 				'thoughts' => '',
 				'quotes' => [
@@ -279,7 +274,6 @@ $seasons = [
 			],
 			'six' => [
 				'title' => 'The Monster',
-				'rank' => '18',
 				'rating' => '2',
 				'thoughts' => '',
 				'quotes' => [
@@ -288,7 +282,6 @@ $seasons = [
 			],
 			'seven' => [
 				'title' => 'The Bathtub',
-				'rank' => '13',
 				'rating' => '2',
 				'thoughts' => '',
 				'quotes' => [
@@ -297,7 +290,6 @@ $seasons = [
 			],
 			'eight' => [
 				'title' => 'The Upside Down',
-				'rank' => '7',
 				'rating' => '4',
 				'thoughts' => 'Steve swinging the bat',
 				'quotes' => [
@@ -390,7 +382,6 @@ $seasons = [
 		'episodes' => [
 			'one' => [
 				'title' => 'MADMAX',
-				'rank' => '20',
 				'rating' => '3',
 				'thoughts' => '',
 				'quotes' => [
@@ -399,7 +390,6 @@ $seasons = [
 			],
 			'two' => [
 				'title' => 'Trick or Treat, Freak',
-				'rank' => '14',
 				'rating' => '4',
 				'thoughts' => '',
 				'quotes' => [
@@ -409,7 +399,6 @@ $seasons = [
 			],
 			'three' => [
 				'title' => 'The Pollywog',
-				'rank' => '3',
 				'rating' => '5',
 				'thoughts' => 'I hated how Mike called Max annoying. El throwing Max off her skateboard',
 				'quotes' => [
@@ -419,7 +408,6 @@ $seasons = [
 			],
 			'four' => [
 				'title' => 'Will the Wise',
-				'rank' => '10',
 				'rating' => '3',
 				'thoughts' => '',
 				'quotes' => [
@@ -428,7 +416,6 @@ $seasons = [
 			],
 			'five' => [
 				'title' => 'Dig Dug',
-				'rank' => '19',
 				'rating' => '2',
 				'thoughts' => '',
 				'quotes' => [
@@ -437,7 +424,6 @@ $seasons = [
 			],
 			'six' => [
 				'title' => 'The Spy',
-				'rank' => '8',
 				'rating' => '3',
 				'thoughts' => '',
 				'quotes' => [
@@ -446,7 +432,6 @@ $seasons = [
 			],
 			'seven' => [
 				'title' => 'The Lost Sister',
-				'rank' => '25',
 				'rating' => '1',
 				'thoughts' => '',
 				'quotes' => [
@@ -455,7 +440,6 @@ $seasons = [
 			],
 			'eight' => [
 				'title' => 'The Mind Flayer',
-				'rank' => '4',
 				'rating' => '4',
 				'thoughts' => '',
 				'quotes' => [
@@ -465,7 +449,6 @@ $seasons = [
 			],
 			'nine' => [
 				'title' => 'The Gate',
-				'rank' => '2',
 				'rating' => '5',
 				'thoughts' => 'Lucas\'s scream',
 				'quotes' => [
@@ -502,7 +485,6 @@ $seasons = [
 		'episodes' => [
 			'one' => [
 				'title' => 'Suzie, Do You Copy?',
-				'rank' => '11',
 				'rating' => '3',
 				'thoughts' => '',
 				'quotes' => [
@@ -511,7 +493,6 @@ $seasons = [
 			],
 			'two' => [
 				'title' => 'The Mall Rats',
-				'rank' => '12',
 				'rating' => '3',
 				'thoughts' => '',
 				'quotes' => [
@@ -522,7 +503,6 @@ $seasons = [
 			],
 			'three' => [
 				'title' => 'The Case of the Missing Lifeguard',
-				'rank' => '21',
 				'rating' => '2',
 				'thoughts' => '',
 				'quotes' => [
@@ -532,7 +512,6 @@ $seasons = [
 			],
 			'four' => [
 				'title' => 'The Sauna Test',
-				'rank' => '6',
 				'rating' => '5',
 				'thoughts' => '',
 				'quotes' => [
@@ -541,7 +520,6 @@ $seasons = [
 			],
 			'five' => [
 				'title' => 'The Flayed',
-				'rank' => '24',
 				'rating' => '2',
 				'thoughts' => '',
 				'quotes' => [
@@ -550,7 +528,6 @@ $seasons = [
 			],
 			'six' => [
 				'title' => 'E Pluribus Unum',
-				'rank' => '17',
 				'rating' => '3',
 				'thoughts' => '',
 				'quotes' => [
@@ -559,7 +536,6 @@ $seasons = [
 			],
 			'seven' => [
 				'title' => 'The Bite',
-				'rank' => '1',
 				'rating' => '5',
 				'thoughts' => '',
 				'quotes' => [
@@ -569,7 +545,6 @@ $seasons = [
 			],
 			'eight' => [
 				'title' => 'The Battle of Starcourt',
-				'rank' => '15',
 				'rating' => '4',
 				'thoughts' => '',
 				'quotes' => [
@@ -609,7 +584,6 @@ $seasons = [
 		'episodes' => [
 			'one' => [
 				'title' => 'The Hellfire Club',
-				'rank' => '',
 				'rating' => '',
 				'thoughts' => '',
 				'quotes' => [
@@ -618,7 +592,6 @@ $seasons = [
 			],
 			'two' => [
 				'title' => 'Vecna\'s Curse',
-				'rank' => '',
 				'rating' => '',
 				'thoughts' => '',
 				'quotes' => [
@@ -627,7 +600,6 @@ $seasons = [
 			],
 			'three' => [
 				'title' => 'The Monster and the Superhero',
-				'rank' => '',
 				'rating' => '',
 				'thoughts' => '',
 				'quotes' => [
@@ -636,7 +608,6 @@ $seasons = [
 			],
 			'four' => [
 				'title' => 'Dear Billy',
-				'rank' => '',
 				'rating' => '',
 				'thoughts' => '',
 				'quotes' => [
@@ -645,7 +616,6 @@ $seasons = [
 			],
 			'five' => [
 				'title' => 'The Nina Project',
-				'rank' => '',
 				'rating' => '',
 				'thoughts' => '',
 				'quotes' => [
@@ -654,7 +624,6 @@ $seasons = [
 			],
 			'six' => [
 				'title' => 'The Dive',
-				'rank' => '',
 				'rating' => '',
 				'thoughts' => '',
 				'quotes' => [
@@ -663,7 +632,6 @@ $seasons = [
 			],
 			'seven' => [
 				'title' => 'The Massacre at Hawkins Lab',
-				'rank' => '',
 				'rating' => '',
 				'thoughts' => '',
 				'quotes' => [
@@ -672,7 +640,6 @@ $seasons = [
 			],
 			'eight' => [
 				'title' => 'Papa',
-				'rank' => '',
 				'rating' => '',
 				'thoughts' => '',
 				'quotes' => [
@@ -681,7 +648,6 @@ $seasons = [
 			],
 			'nine' => [
 				'title' => 'The Piggyback',
-				'rank' => '',
 				'rating' => '',
 				'thoughts' => '',
 				'quotes' => [

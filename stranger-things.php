@@ -148,9 +148,7 @@ $scripts = [
 							<section class="episode border-10px flex dir-col" id="<?= $seasonId . '-' . $episodeId ?>">
 								<section class="episode-header dir-change">
 									<h4 class="episode-title">Chapter <?= ucfirst($episodeId) ?>: <strong><?= $episode['title'] ?></strong></h4>
-									<?php if ($episode['rank'] !== '' && $episode['rating'] !== '') : ?>
-										<div class="rank-rating flex-align-center">
-											<p class="rank subtitle"><?= '#' . $episode['rank'] . '/' . $totalEpisodes ?></p>
+									<?php if ($episode['rating'] !== '') : ?>
 											<span class="rating">
 												<?php if (isset($episode['rating'])) :
 													for ($i = 0; $i < intval($episode['rating']); $i++) { ?>
@@ -158,7 +156,6 @@ $scripts = [
 												<?php }
 												endif; ?>
 											</span>
-										</div>
 									<?php endif; ?>
 								</section>
 								<section class="episode-main flex dir-change">

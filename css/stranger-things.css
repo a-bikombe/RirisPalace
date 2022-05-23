@@ -161,14 +161,7 @@ general */
           justify-content: space-between;
 }
 
-#stranger-things #episodes .season .episode .episode-header .rank-rating {
-  min-width: 200px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-#stranger-things #episodes .season .episode .episode-header .rank-rating .rating i {
+#stranger-things #episodes .season .episode .episode-header .rating i {
   color: var(--clr-orange);
 }
 

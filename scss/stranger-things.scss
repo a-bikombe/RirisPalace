@@ -149,14 +149,9 @@ general */
                     align-items: center;
                     justify-content: space-between;
 
-                    .rank-rating {
-                        min-width: 200px;
-                        justify-content: space-between;
-
-                        .rating {
-                            i {
-                                color: var(--clr-orange);
-                            }
+                    .rating {
+                        i {
+                            color: var(--clr-orange);
                         }
                     }
                 }
@@ -177,7 +172,7 @@ general */
                             & + li {
                                 margin-top: 0.5rem;
                             }
-                            
+
                         }
                     }
                 }
