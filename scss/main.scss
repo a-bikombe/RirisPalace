@@ -40,6 +40,8 @@ general */
     --transition-clr-text: color 0.2s ease-in-out;
     --transition-clr-bg: background-color 0.2s ease-in-out;
     --transition-clr-border: border-color 0.2s ease-in-out;
+
+    --text-shadow-white: 0 0 0.125em var(--clr-white-t), 0 0 0.45em currentColor;
     /* spacing */
     --footer-spacing-right: 1.5rem;
 
@@ -83,7 +85,7 @@ general */
     }
 
     50% {
-        text-shadow: 0 0 0.125em var(--clr-white-t), 0 0 0.45em currentColor;
+        text-shadow: var(--text-shadow-white);
     }
 }
 
@@ -577,7 +579,7 @@ header.php */
             /* mobile dropdown toggle button glow - dark backgrounds only */
             .navbar-toggler {
                 box-shadow: inset 0 0 0.5em 0 var(--clr-white-t), 0 0 0.5em 0 currentColor;
-                text-shadow: 0 0 0.125em var(--clr-white-t), 0 0 0.45em currentColor;
+                text-shadow: var(--text-shadow-white);
             }
 
             .navbar-collapse {

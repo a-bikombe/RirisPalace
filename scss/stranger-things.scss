@@ -219,7 +219,7 @@ general */
                         text-decoration: none;
 
                         &:hover {
-                            box-shadow: var(--theme-box-shadow-direct);
+                            text-shadow: var(--text-shadow-white);
                         }
                     }
 
