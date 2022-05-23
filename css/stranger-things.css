@@ -194,7 +194,7 @@ general */
 
 #stranger-things .side-nav {
   position: fixed;
-  bottom: 10vw;
+  bottom: 8vw;
   right: 2vw;
   background: purple;
 }
@@ -207,6 +207,7 @@ general */
 
 #stranger-things .side-nav .collapsible-nav-btn {
   border: 1px solid var(--theme-border);
+  padding: 0.5vw 1vw;
 }
 
 #stranger-things .side-nav .collapsible-nav-btn [class*="collapse-icon"].hidden {

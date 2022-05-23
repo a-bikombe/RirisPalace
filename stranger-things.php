@@ -189,8 +189,8 @@ $scripts = [
 		</section>
 	</main>
 	
-	<aside class="side-nav flex-center dir-col">
-		<nav class="st-sections">
+	<aside class="side-nav flex-align dir-col">
+		<nav class="st-sections text-center">
 			<ul class="st-sections-nav">
 				<li class="st-sections-nav-item">Characters</li>
 				<li class="st-sections-nav-item">Episodes</li>

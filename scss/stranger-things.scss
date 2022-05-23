@@ -187,7 +187,7 @@ general */
 
     .side-nav {
         position: fixed;
-        bottom: 10vw;
+        bottom: 8vw;
         right: 2vw;
         background: purple;
 
@@ -202,6 +202,7 @@ general */
 
         .collapsible-nav-btn {
             border: 1px solid var(--theme-border);
+            padding: 0.5vw 1vw;
 
             [class*="collapse-icon"].hidden {
                 display: none;
