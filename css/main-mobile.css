@@ -39,10 +39,6 @@ index.php */
 
 /* ================================================================
 stranger-things.php */
-#stranger-things {
-  /* season */
-}
-
 #stranger-things h3 {
   margin: 15px 0 10px;
 }
@@ -51,16 +47,20 @@ stranger-things.php */
   padding: 50px 5vw;
 }
 
-#stranger-things .season {
+#stranger-things #characters {
+  /* season */
+}
+
+#stranger-things #characters .season {
   padding: 3vh 5vw;
 }
 
-#stranger-things .season .character-image-name, #stranger-things .season .character-description {
+#stranger-things #characters .season .character-image-name, #stranger-things #characters .season .character-description {
   margin: auto;
   width: 100%;
 }
 
-#stranger-things .season .character-image-name .character-image, #stranger-things .season .character-description .character-image {
+#stranger-things #characters .season .character-image-name .character-image, #stranger-things #characters .season .character-description .character-image {
   height: calc(90% * 1.49);
   -o-object-fit: cover;
      object-fit: cover;
