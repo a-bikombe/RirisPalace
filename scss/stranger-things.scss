@@ -214,7 +214,7 @@ general */
                 &-item {
                     transition: var(--transition-size-text);
 
-                    .st-sections-nav-item + &.heading {
+                    &.heading:not(:first-of-type) {
                         margin-top: 0.5rem;
                     }
 
