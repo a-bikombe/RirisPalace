@@ -68,6 +68,6 @@ stranger-things.php */
 
 #stranger-things #episodes .season .episode .episode-main .thoughts,
 #stranger-things #episodes .season .episode .episode-main .quotes {
-  width: auto;
+  width: 100%;
 }
 /*# sourceMappingURL=main-mobile.css.map */
