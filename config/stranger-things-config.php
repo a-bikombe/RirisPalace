@@ -664,6 +664,21 @@ $seasons = [
 	]
 ];
 
-foreach ($seasons as $season) {
-	$totalEpisodes += count($season['episodes']);
-}
+$characterRank = [
+	'mike',
+	'max',
+	'dustin',
+	'eleven',
+	'joyce',
+	'will',
+	'bob',
+	'hopper',
+	'robin',
+	'steve',
+	'lucas',
+	'jonathan',
+	'erica',
+	'nancy',
+	'karen',
+	'billy'
+];
