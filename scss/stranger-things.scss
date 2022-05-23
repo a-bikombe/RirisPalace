@@ -196,7 +196,7 @@ general */
             transform: translateX(500px);
 
             .unhidden {
-                transform: translateX(-500px);
+                transform: none;
             }
 
             &-nav {

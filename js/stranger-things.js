@@ -69,7 +69,7 @@ function collapsibleSidebar() {
     let sidebarNav = document.querySelector('.st-sections');
     collapseBtn.addEventListener('click', (e) => {
         
-        sidebarNav.classList.add('unhidden');
+        sidebarNav.classList.toggle('unhidden');
         
 
         let icons = collapseBtn.querySelectorAll('[class*="collapse-icon"]');
