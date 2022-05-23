@@ -240,7 +240,7 @@ $seasons = [
 			'three' => [
 				'title' => 'Holly, Jolly',
 				'rating' => '2',
-				'thoughts' => 'A classic with the wall alphabet. The kids finding Will at the end with Heroes playing in the background always makes me so sad. It always devastates me to see anyone yelling at El, especially Mike.',
+				'thoughts' => 'This episode is kind of boring, since nothing really happens besides the kids riding around on their bikes. Although, it is a classic with the wall alphabet, and the kids finding Will at the end with Heroes playing in the background always makes me so sad. It always devastates me to see anyone yelling at El, especially Mike.',
 				'quotes' => [
 					'We need energy for our travels for stamina',
 					'I bet that she could make this fly',
