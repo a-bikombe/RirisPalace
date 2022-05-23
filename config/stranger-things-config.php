@@ -223,7 +223,8 @@ $seasons = [
 				'thoughts' => '',
 				'moments' => [
 					'IT ROARS IN ANGER',
-					'The campaign took two weeks to plan! How was I supposed to know it was gonna take ten hours...'
+					'The campaign took two weeks to plan! How was I supposed to know it was gonna take ten hours...',
+					'Am I speaking <em>Chinese</em> in this house?'
 				]
 			],
 			'two' => [
