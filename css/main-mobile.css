@@ -65,4 +65,9 @@ stranger-things.php */
   -o-object-fit: cover;
      object-fit: cover;
 }
+
+#stranger-things .season .episode .episode-main .thoughts,
+#stranger-things .season .episode .episode-main .quotes {
+  width: 100%;
+}
 /*# sourceMappingURL=main-mobile.css.map */
