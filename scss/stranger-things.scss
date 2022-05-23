@@ -190,13 +190,14 @@ general */
         bottom: 5rem;
         gap: var(--footer-spacing-right);
         position: fixed;
-        right: calc(var(--footer-spacing-right) - 500px);
-
-        .unhidden {
-            transform: translateX(-500px);
-        }
+        right: calc(var(--footer-spacing-right));
 
         .st-sections {
+            transform: translateX(500px);
+
+            .unhidden {
+                transform: translateX(-500px);
+            }
 
             &-nav {
                 background-color: var(--clr-white-t);
