@@ -177,7 +177,7 @@ general */
 }
 
 #stranger-things #episodes .season .episode .episode-main .quotes {
-  width: 65%;
+  width: auto;
 }
 
 #stranger-things #episodes .season .episode .episode-main .quotes li + li {
