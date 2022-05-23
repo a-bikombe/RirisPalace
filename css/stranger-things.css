@@ -208,8 +208,8 @@ general */
 }
 
 #stranger-things .side-nav .st-sections .unhidden {
-  -webkit-transform: none;
-          transform: none;
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
 }
 
 #stranger-things .side-nav .st-sections-nav {
