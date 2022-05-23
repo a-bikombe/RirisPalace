@@ -181,7 +181,12 @@ general */
   width: 45%;
 }
 
-#stranger-things #episodes .season .episode .episode-main .quotes li + li {
+#stranger-things #episodes .season .episode .episode-main .quotes .container {
+  max-height: 500px;
+  overflow: auto;
+}
+
+#stranger-things #episodes .season .episode .episode-main .quotes .container li + li {
   margin-top: 0.5rem;
 }
 

@@ -168,11 +168,15 @@ general */
                         margin-bottom: 0.5rem;
                         width: 45%;
 
-                        li {
-                            & + li {
-                                margin-top: 0.5rem;
-                            }
+                        .container {
+                            max-height: 500px;
+                            overflow: auto;
 
+                            li {
+                                & + li {
+                                    margin-top: 0.5rem;
+                                }
+                            }
                         }
                     }
                 }

@@ -149,13 +149,13 @@ $scripts = [
 								<section class="episode-header dir-change">
 									<h4 class="episode-title">Chapter <?= ucfirst($episodeId) ?>: <strong><?= $episode['title'] ?></strong></h4>
 									<?php if ($episode['rating'] !== '') : ?>
-											<span class="rating">
-												<?php if (isset($episode['rating'])) :
-													for ($i = 0; $i < intval($episode['rating']); $i++) { ?>
-														<i class="fa-solid fa-star"></i>
-												<?php }
-												endif; ?>
-											</span>
+										<span class="rating">
+											<?php if (isset($episode['rating'])) :
+												for ($i = 0; $i < intval($episode['rating']); $i++) { ?>
+													<i class="fa-solid fa-star"></i>
+											<?php }
+											endif; ?>
+										</span>
 									<?php endif; ?>
 								</section>
 								<section class="episode-main flex dir-change">
@@ -165,17 +165,19 @@ $scripts = [
 									</section>
 									<section class="quotes">
 										<h5 class="quote-title text-center">Quotes</h5>
-										<ul>
-											<?php foreach ($episode['quotes'] as $quote) : ?>
-												<?php if ($quote !== '') : ?>
-													<?php if (substr($quote, 0, 1) === '*') { ?>
-														<li><?= $quote ?></li>
-													<?php } else { ?>
-														<li>"<?= $quote ?>"</li>
-													<?php } ?>
-												<?php endif; ?>
-											<?php endforeach; ?>
-										</ul>
+										<div class="container">
+											<ul>
+												<?php foreach ($episode['quotes'] as $quote) : ?>
+													<?php if ($quote !== '') : ?>
+														<?php if (substr($quote, 0, 1) === '*') { ?>
+															<li><?= $quote ?></li>
+														<?php } else { ?>
+															<li>"<?= $quote ?>"</li>
+														<?php } ?>
+													<?php endif; ?>
+												<?php endforeach; ?>
+											</ul>
+										</div>
 									</section>
 								</section>
 							</section>
