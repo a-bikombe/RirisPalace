@@ -193,16 +193,18 @@ general */
         right: var(--footer-spacing-right);
 
         .st-sections {
-
             &-nav {
                 background-color: var(--clr-black-t4);
                 list-style-type: none;
                 margin: auto;
                 padding: 0.75rem;
-                transition: var(--transition-size-text);
 
-                &-item:hover {
-                    font-size: 1.1rem;
+                &-item {
+                    transition: var(--transition-size-text);
+
+                    &:hover {
+                        font-size: 1.1rem;
+                    }
                 }
             }
         }

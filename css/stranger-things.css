@@ -207,6 +207,9 @@ general */
   list-style-type: none;
   margin: auto;
   padding: 0.75rem;
+}
+
+#stranger-things .side-nav .st-sections-nav-item {
   -webkit-transition: var(--transition-size-text);
   transition: var(--transition-size-text);
 }
