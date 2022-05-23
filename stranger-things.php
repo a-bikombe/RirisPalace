@@ -161,7 +161,7 @@ $scripts = [
 										</div>
 									<?php endif; ?>
 								</section>
-								<?php if ($episode['thoughts'] !== '' && $episode['quotes'] !== '') : ?>
+								<?php if ($episode['thoughts'] !== '' || $episode['quotes'] !== '') : ?>
 									<section class="episode-main flex dir-change">
 										<section class="thoughts">
 											<h5 class="thoughts-title text-center">Thoughts</h5>
