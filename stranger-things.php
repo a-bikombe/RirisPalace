@@ -174,7 +174,7 @@ $scripts = [
 													<?php if (substr($quote, 1) === '*') { ?>
 														<li class="moment"><?= $quote ?></li>
 													<?php } else { ?>
-														<li class="quote"><blockquote><?= $quote ?></blockquote></li>
+														<li class="quote"><?= $quote ?></li>
 													<?php } ?>
 												<?php endif; ?>
 											<?php endforeach; ?>
