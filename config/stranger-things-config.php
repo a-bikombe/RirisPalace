@@ -248,7 +248,7 @@ $seasons = [
 					'We need energy for our travels for stamina',
 					'I bet that she could make this fly',
 					'COMING',
-					'You look at her all like... \'Hi El :) Oh El, El, E\'',
+					'You look at her all like... \'Hi El :) Oh El, El, El\'',
 					'This is the <em>Monsta Killa</em>',
 					'*Nervous* "...Yep"',
 					'Blink once for yes, twice for no'
