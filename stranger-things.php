@@ -51,7 +51,7 @@ $scripts = [
 					<p> <?= $plot ?> </p>
 				</section>
 			</section>
-			<section id="character-rank" class="flex-justify">
+			<section id="character-rank" class="flex-justify dir-col">
 				<h2 id="character-rank-title">Character Rank</h2>
 				<ol>
 					<?php foreach ($characterRank as $character) : ?>
