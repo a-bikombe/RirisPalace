@@ -45,13 +45,14 @@ general */
     /* spacing */
     --footer-spacing-right: 1.5rem;
 
-
     font-size: 15px;
 }
 
 /* ------------ RESET ------------- */
 
-*, ::after, ::before {
+*,
+::after,
+::before {
     box-sizing: border-box;
 }
 

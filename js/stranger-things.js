@@ -4,35 +4,30 @@ const currentDate = new Date();
 const oneDay = 1000 * 60 * 60 * 24;
 
 function s4Vol1Countdown() {
-
-    let s4Vol1CountdownBlock = document.getElementById('s4-vol1-countdown');
-    let daysUntilS4Vol1 = document.getElementById('days-until-s4-vol1');
+    let s4Vol1CountdownBlock = document.getElementById("s4-vol1-countdown");
+    let daysUntilS4Vol1 = document.getElementById("days-until-s4-vol1");
 
     if (currentDate < s4Vol1) {
-        s4Vol1CountdownBlock.classList.remove('hidden');
+        s4Vol1CountdownBlock.classList.remove("hidden");
         let days = (s4Vol1 - currentDate) / oneDay;
         daysUntilS4Vol1.textContent = parseInt(days);
     }
-
 }
 
 function s4Vol2Countdown() {
-
-    let s4Vol2CountdownBlock = document.getElementById('s4-vol2-countdown');
-    let daysUntilS4Vol2 = document.getElementById('days-until-s4-vol2');
+    let s4Vol2CountdownBlock = document.getElementById("s4-vol2-countdown");
+    let daysUntilS4Vol2 = document.getElementById("days-until-s4-vol2");
 
     if (currentDate >= s4Vol1 && currentDate < s4Vol2) {
-        s4Vol2CountdownBlock.classList.remove('hidden');
+        s4Vol2CountdownBlock.classList.remove("hidden");
         let days = (s4Vol2 - currentDate) / oneDay;
         daysUntilS4Vol2.textContent = parseInt(days);
     }
-
 }
 
 // sourced from https://css-tricks.com/the-complete-guide-to-lazy-loading-images/
 function lazyloadCarousels() {
-
-    document.addEventListener('DOMContentLoaded', () => {
+    document.addEventListener("DOMContentLoaded", () => {
         const lazyloadImages = document.querySelectorAll("img[data-src]");
         let lazyloadThrottleTimeout;
 
@@ -43,8 +38,8 @@ function lazyloadCarousels() {
 
             lazyloadThrottleTimeout = setTimeout(() => {
                 var scrollTop = window.pageYOffset;
-                lazyloadImages.forEach(function(img) {
-                    if (img.offsetTop < (window.innerHeight + scrollTop)) {
+                lazyloadImages.forEach(function (img) {
+                    if (img.offsetTop < window.innerHeight + scrollTop) {
                         img.src = img.dataset.src;
                     }
                 });
@@ -56,29 +51,23 @@ function lazyloadCarousels() {
             }, 20);
         }
 
-        window.addEventListener('load', lazyload);
-        document.addEventListener('scroll', lazyload);
-        window.addEventListener('resize', lazyload);
-        window.addEventListener('orientationChange', lazyload);
+        window.addEventListener("load", lazyload);
+        document.addEventListener("scroll", lazyload);
+        window.addEventListener("resize", lazyload);
+        window.addEventListener("orientationChange", lazyload);
     });
-
 }
 
 function collapsibleSidebar() {
-    const collapseBtn = document.querySelector('.collapsible-nav-btn');
-    let sidebarNav = document.querySelector('.st-sections');
+    const collapseBtn = document.querySelector(".collapsible-nav-btn");
+    let sidebarNav = document.querySelector(".st-sections");
 
-    collapseBtn.addEventListener('click', (e) => {
-        
-        sidebarNav.classList.toggle('unhidden');
-
+    collapseBtn.addEventListener("click", (e) => {
+        sidebarNav.classList.toggle("unhidden");
         let icons = collapseBtn.querySelectorAll('[class*="collapse-icon"]');
-        icons.forEach(icon => {
-            icon.classList.toggle('hidden');
-        });
 
+        icons.forEach((icon) => icon.classList.toggle("hidden"));
     });
-    
 }
 
 s4Vol1Countdown();
