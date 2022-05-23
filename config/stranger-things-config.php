@@ -229,7 +229,7 @@ $seasons = [
 			'two' => [
 				'title' => 'The Weirdo on Maple Street',
 				'rank' => '16',
-				'rating' => '',
+				'rating' => '4',
 				'thoughts' => '',
 				'quotes' => [
 					'',
@@ -239,7 +239,7 @@ $seasons = [
 			'three' => [
 				'title' => 'Holly, Jolly',
 				'rank' => '23',
-				'rating' => '',
+				'rating' => '2',
 				'thoughts' => '',
 				'quotes' => [
 					'',
@@ -249,7 +249,7 @@ $seasons = [
 			'four' => [
 				'title' => 'The Body',
 				'rank' => '5',
-				'rating' => '',
+				'rating' => '5',
 				'thoughts' => '',
 				'quotes' => [
 					'',
@@ -259,7 +259,7 @@ $seasons = [
 			'five' => [
 				'title' => 'The Flea and the Acrobat',
 				'rank' => '9',
-				'rating' => '',
+				'rating' => '5',
 				'thoughts' => '',
 				'quotes' => [
 					'',
@@ -269,7 +269,7 @@ $seasons = [
 			'six' => [
 				'title' => 'The Monster',
 				'rank' => '18',
-				'rating' => '',
+				'rating' => '2',
 				'thoughts' => '',
 				'quotes' => [
 					'',
@@ -279,7 +279,7 @@ $seasons = [
 			'seven' => [
 				'title' => 'The Bathtub',
 				'rank' => '13',
-				'rating' => '',
+				'rating' => '2',
 				'thoughts' => '',
 				'quotes' => [
 					'',
@@ -289,7 +289,7 @@ $seasons = [
 			'eight' => [
 				'title' => 'The Upside Down',
 				'rank' => '7',
-				'rating' => '',
+				'rating' => '4',
 				'thoughts' => '',
 				'quotes' => [
 					'',
@@ -383,7 +383,7 @@ $seasons = [
 			'one' => [
 				'title' => 'MADMAX',
 				'rank' => '20',
-				'rating' => '',
+				'rating' => '3',
 				'thoughts' => '',
 				'quotes' => [
 					'',
@@ -393,7 +393,7 @@ $seasons = [
 			'two' => [
 				'title' => 'Trick or Treat, Freak',
 				'rank' => '14',
-				'rating' => '',
+				'rating' => '4',
 				'thoughts' => '',
 				'quotes' => [
 					'',
@@ -403,7 +403,7 @@ $seasons = [
 			'three' => [
 				'title' => 'The Pollywog',
 				'rank' => '3',
-				'rating' => '',
+				'rating' => '5',
 				'thoughts' => '',
 				'quotes' => [
 					'',
@@ -413,7 +413,7 @@ $seasons = [
 			'four' => [
 				'title' => 'Will the Wise',
 				'rank' => '10',
-				'rating' => '',
+				'rating' => '3',
 				'thoughts' => '',
 				'quotes' => [
 					'',
@@ -423,7 +423,7 @@ $seasons = [
 			'five' => [
 				'title' => 'Dig Dug',
 				'rank' => '19',
-				'rating' => '',
+				'rating' => '2',
 				'thoughts' => '',
 				'quotes' => [
 					'',
@@ -433,7 +433,7 @@ $seasons = [
 			'six' => [
 				'title' => 'The Spy',
 				'rank' => '8',
-				'rating' => '',
+				'rating' => '3',
 				'thoughts' => '',
 				'quotes' => [
 					'',
@@ -443,7 +443,7 @@ $seasons = [
 			'seven' => [
 				'title' => 'The Lost Sister',
 				'rank' => '25',
-				'rating' => '',
+				'rating' => '1',
 				'thoughts' => '',
 				'quotes' => [
 					'',
@@ -453,7 +453,7 @@ $seasons = [
 			'eight' => [
 				'title' => 'The Mind Flayer',
 				'rank' => '4',
-				'rating' => '',
+				'rating' => '4',
 				'thoughts' => '',
 				'quotes' => [
 					'',
@@ -463,7 +463,7 @@ $seasons = [
 			'nine' => [
 				'title' => 'The Gate',
 				'rank' => '2',
-				'rating' => '',
+				'rating' => '5',
 				'thoughts' => '',
 				'quotes' => [
 					'',
@@ -498,7 +498,7 @@ $seasons = [
 			'one' => [
 				'title' => 'Suzie, Do You Copy?',
 				'rank' => '11',
-				'rating' => '',
+				'rating' => '3',
 				'thoughts' => '',
 				'quotes' => [
 					'',
@@ -508,7 +508,7 @@ $seasons = [
 			'two' => [
 				'title' => 'The Mall Rats',
 				'rank' => '12',
-				'rating' => '',
+				'rating' => '3',
 				'thoughts' => '',
 				'quotes' => [
 					'',
@@ -518,7 +518,7 @@ $seasons = [
 			'three' => [
 				'title' => 'The Case of the Missing Lifeguard',
 				'rank' => '21',
-				'rating' => '',
+				'rating' => '2',
 				'thoughts' => '',
 				'quotes' => [
 					'',
@@ -528,7 +528,7 @@ $seasons = [
 			'four' => [
 				'title' => 'The Sauna Test',
 				'rank' => '6',
-				'rating' => '',
+				'rating' => '5',
 				'thoughts' => '',
 				'quotes' => [
 					'',
@@ -538,7 +538,7 @@ $seasons = [
 			'five' => [
 				'title' => 'The Flayed',
 				'rank' => '24',
-				'rating' => '',
+				'rating' => '2',
 				'thoughts' => '',
 				'quotes' => [
 					'',
@@ -548,7 +548,7 @@ $seasons = [
 			'six' => [
 				'title' => 'E Pluribus Unum',
 				'rank' => '17',
-				'rating' => '',
+				'rating' => '3',
 				'thoughts' => '',
 				'quotes' => [
 					'',
@@ -558,7 +558,7 @@ $seasons = [
 			'seven' => [
 				'title' => 'The Bite',
 				'rank' => '1',
-				'rating' => '',
+				'rating' => '5',
 				'thoughts' => '',
 				'quotes' => [
 					'',
@@ -568,7 +568,7 @@ $seasons = [
 			'eight' => [
 				'title' => 'The Battle of Starcourt',
 				'rank' => '15',
-				'rating' => '',
+				'rating' => '4',
 				'thoughts' => '',
 				'quotes' => [
 					'',
