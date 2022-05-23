@@ -214,7 +214,7 @@ general */
                 &-item {
                     transition: var(--transition-size-text);
 
-                    &.heading {
+                    &.heading + .st-sections-nav-item {
                         padding-top: 0.25rem;
                     }
 
