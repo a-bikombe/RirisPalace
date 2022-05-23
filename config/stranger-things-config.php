@@ -278,9 +278,10 @@ $seasons = [
 			'six' => [
 				'title' => 'The Monster',
 				'rating' => '2',
-				'thoughts' => 'This one\'s kind of boring too, but I was a fan of El robbing the grocery store. And Tantrum Wheeler shouldn\'t be as hilarious as he is.',
+				'thoughts' => 'This one\'s kind of boring too, but I was a fan of El robbing the grocery store. And Tantrum Wheeler shouldn\'t be as hilarious as he is. Also, making your boyfriend float in the air to save his life? A serve.',
 				'quotes' => [
-					'You\'re <em>shaking his hand</em>" "No I\'m not'
+					'You\'re <em>shaking his hand</em>" "No I\'m not',
+					'She\'s our friend and she\'s crazy!'
 				]
 			],
 			'seven' => [
