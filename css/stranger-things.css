@@ -191,4 +191,11 @@ general */
 #stranger-things #episodes .season .episode .episode-main .moments .quote::before, #stranger-things #episodes .season .episode .episode-main .moments .quote::after {
   content: '"';
 }
+
+#stranger-things .side-nav {
+  position: fixed;
+  bottom: 10vw;
+  right: 2vw;
+  background: purple;
+}
 /*# sourceMappingURL=stranger-things.css.map */

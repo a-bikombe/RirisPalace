@@ -188,11 +188,12 @@ $scripts = [
 			<?php endforeach; ?>
 		</section>
 	</main>
+	
+	<aside class="side-nav">
 	<button type="button" class="collapsible-nav-btn">
-		<i class="fa-solid fa-chevrons-right hidden"></i>
-		<i class="fa-solid fa-chevrons-left hidden"></i>
+		<i class="collapse-icon fa-solid fa-chevrons-right"></i>
+		<i class="uncollapse-iconfa-solid fa-chevrons-left hidden"></i>
 	</button>
-	<aside class="collapsible-nav">
 		<nav class="st-sections">
 			<ul>
 				<li>Characters</li>
