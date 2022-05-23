@@ -655,7 +655,7 @@ body footer .footer-btn {
           box-shadow: var(--theme-box-shadow-direct);
   color: var(--clr-black);
   overflow: hidden;
-  padding: 1vw 1.5vw;
+  padding: 0.5rem 0.75rem;
   -webkit-transition: var(--transition-size-text);
   transition: var(--transition-size-text);
 }
