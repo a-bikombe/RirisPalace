@@ -147,9 +147,14 @@ general */
                     align-items: center;
                     justify-content: space-between;
 
-                    .rating {
-                        i {
-                            color: var(--clr-orange);
+                    .rank-rating {
+                        gap: 3vw;
+                        justify-content: flex-end;
+
+                        .rating {
+                            i {
+                                color: var(--clr-orange);
+                            }
                         }
                     }
                 }
