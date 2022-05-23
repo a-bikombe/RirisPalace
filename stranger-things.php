@@ -105,7 +105,7 @@ $scripts = [
 														}
 													} ?>
 													">
-													<img data-src="<?= $imagePath ?>" class="d-block w-100 character-image" alt="<?= $character ?> <?= $imageSeason ?>">
+													<img data-src="<?= $imagePath ?>" class="d-block w-100 character-image" alt="<?= ucfirst($character) ?> <?= $imageSeason ?>">
 													<div class="carousel-caption d-none d-md-block p-0">
 														<h5><?= $imageSeason ?></h5>
 													</div>
@@ -194,6 +194,12 @@ $scripts = [
 			<ul class="st-sections-nav">
 			<li class="st-sections-nav-item"><a href="#intro">Intro</a></li>
 				<li class="st-sections-nav-item"><a href="#characters">Characters</a></li>
+				<?php foreach($seasons as $season) : ?>
+					<?php foreach($season['characters'] as $character) : ?>
+						<li class="st-sections-nav-item"><a href="#<?= $character ?>">Episodes</a></li>
+						<?= ucfirst($character) ?>
+				<?php endforeach; ?>
+				<?php endforeach; ?>
 				<li class="st-sections-nav-item"><a href="#episodes">Episodes</a></li>
 			</ul>
 		</nav>
