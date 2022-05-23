@@ -215,7 +215,7 @@ general */
                     transition: var(--transition-size-text);
 
                     &.heading + .st-sections-nav-item {
-                        padding-top: 0.25rem;
+                        margin-top: 0.5rem;
                     }
 
                     a {

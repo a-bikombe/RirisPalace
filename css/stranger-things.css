@@ -233,7 +233,7 @@ general */
 }
 
 #stranger-things .side-nav .st-sections-nav-item.heading + .st-sections-nav-item {
-  padding-top: 0.25rem;
+  margin-top: 0.5rem;
 }
 
 #stranger-things .side-nav .st-sections-nav-item a {
