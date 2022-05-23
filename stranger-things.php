@@ -200,6 +200,7 @@ $scripts = [
 		<nav class="st-sections text-center border-5px">
 			<ul class="st-sections-nav">
 				<li class="st-sections-nav-item heading"><a href="#intro"><strong>Intro</strong></a></li>
+				<li class="st-sections-nav-item heading"><a href="#character-rank"><strong>Character Rank</strong></a></li>
 				<li class="st-sections-nav-item heading"><a href="#characters"><strong>Characters</strong></a></li>
 				<?php foreach ($seasons as $seasonId => $season) : ?>
 					<li class="st-sections-nav-item"><a href="#<?= $seasonId ?>-characters">Season <?= substr($season['seasonName'], -1) ?></a></li>
