@@ -222,8 +222,8 @@ $seasons = [
 				'rating' => '3',
 				'thoughts' => '',
 				'quotes' => [
-					'',
-					''
+					'"IT ROARS IN ANGER"',
+					'"The campaign took two weeks to plan! How was I supposed to know it was gonna take ten hours..."'
 				]
 			],
 			'two' => [
@@ -232,8 +232,10 @@ $seasons = [
 				'rating' => '4',
 				'thoughts' => '',
 				'quotes' => [
-					'',
-					''
+					'"...Well my name’s Mike, short for Michael"',
+					'"...The last time I told you I was sick you made me go to school anyway—"',
+					'"We never would\'ve upset you if we knew you had superpowers"',
+					'Hazy Shade Of Winter playing in credits'
 				]
 			],
 			'three' => [
@@ -242,8 +244,12 @@ $seasons = [
 				'rating' => '2',
 				'thoughts' => '',
 				'quotes' => [
-					'',
-					''
+					'"We need energy for our travels for stamina"',
+					'"I bet that she could make this fly"',
+					'"COMING"',
+					'"You look at her all like... \'Hi El :) Oh El, El, E\'"',
+					'"This is the <em>Monsta Killa</em>"',
+					'*Nervous* "...Yep"'
 				]
 			],
 			'four' => [
@@ -252,8 +258,10 @@ $seasons = [
 				'rating' => '5',
 				'thoughts' => '',
 				'quotes' => [
-					'',
-					''
+					'"ARE YOU DEAF"',
+					'"I think I just wanna stay home today... I mean, if that\'s okay :("',
+					'"We\'re— upset :)— :("',
+					'Joyce blasting music and screaming at the walls: “Come on... COME ON! TALK TO ME!”'
 				]
 			],
 			'five' => [
@@ -262,8 +270,9 @@ $seasons = [
 				'rating' => '5',
 				'thoughts' => '',
 				'quotes' => [
-					'',
-					''
+					'"Take another photo? Yell at it?"',
+					'"We\'re... in mourning"',
+					'"You\'re blind because a girl\'s not grossed out by you"'
 				]
 			],
 			'six' => [
@@ -272,8 +281,7 @@ $seasons = [
 				'rating' => '2',
 				'thoughts' => '',
 				'quotes' => [
-					'',
-					''
+					'"you\'re <em>shaking his hand</em>" "No I\'m not"'
 				]
 			],
 			'seven' => [
@@ -282,8 +290,7 @@ $seasons = [
 				'rating' => '2',
 				'thoughts' => '',
 				'quotes' => [
-					'',
-					''
+					'"Did you see that??" "No, Dustin, we missed it"'
 				]
 			],
 			'eight' => [
@@ -292,8 +299,8 @@ $seasons = [
 				'rating' => '4',
 				'thoughts' => '',
 				'quotes' => [
-					'',
-					''
+					'Steve swinging the bat',
+					'"<em>Mike! I found the chocolate pudding!</em>"'
 				]
 			]
 		]
@@ -386,7 +393,7 @@ $seasons = [
 				'rating' => '3',
 				'thoughts' => '',
 				'quotes' => [
-					'',
+					'"I\'m not <em>prostituting my sister</em>"',
 					''
 				]
 			],
@@ -396,18 +403,19 @@ $seasons = [
 				'rating' => '4',
 				'thoughts' => '',
 				'quotes' => [
-					'',
-					''
+					'*Scary music* "OH— Jesus"',
+					'"I specifically didn\'t agree to Winston" "Yes you did!" "I don\'t think he did"'
 				]
 			],
 			'three' => [
 				'title' => 'The Pollywog',
 				'rank' => '3',
 				'rating' => '5',
-				'thoughts' => '',
+				'thoughts' => 'I hated how Mike called Max annoying',
 				'quotes' => [
-					'',
-					''
+					'"That\'s like saying just because someone\'s from the Death Star doesn\'t make them bad"',
+					'"MR. SINCLAIR"',
+					'El throwing Max off her skateboard'
 				]
 			],
 			'four' => [
@@ -416,8 +424,7 @@ $seasons = [
 				'rating' => '3',
 				'thoughts' => '',
 				'quotes' => [
-					'',
-					''
+					'"You say... I go, and I never leave! <em>Nothing ever happens!</em>"'
 				]
 			],
 			'five' => [
@@ -426,7 +433,6 @@ $seasons = [
 				'rating' => '2',
 				'thoughts' => '',
 				'quotes' => [
-					'',
 					''
 				]
 			],
@@ -436,7 +442,6 @@ $seasons = [
 				'rating' => '3',
 				'thoughts' => '',
 				'quotes' => [
-					'',
 					''
 				]
 			],
@@ -446,7 +451,6 @@ $seasons = [
 				'rating' => '1',
 				'thoughts' => '',
 				'quotes' => [
-					'',
 					''
 				]
 			],
@@ -456,8 +460,8 @@ $seasons = [
 				'rating' => '4',
 				'thoughts' => '',
 				'quotes' => [
-					'',
-					''
+					'"We can\'t just sit here while those <em>things</em> are loose"',
+					'"It\'s like a play on words—" "Okay"'
 				]
 			],
 			'nine' => [
@@ -466,8 +470,11 @@ $seasons = [
 				'rating' => '5',
 				'thoughts' => '',
 				'quotes' => [
-					'',
-					''
+					'"Protecting her… PROTECTING HER?"',
+					'"Maybe if we set this on <em>fire</em>—" "Yeah, <em>that\'s</em> a no"',
+					'"Nancy?"',
+					'Lucas\'s scream',
+					'*Screaming* "...I’m okay"'
 				]
 			]
 		]
@@ -501,8 +508,7 @@ $seasons = [
 				'rating' => '3',
 				'thoughts' => '',
 				'quotes' => [
-					'',
-					''
+					'There\'s nothing wrong with Nana'
 				]
 			],
 			'two' => [
@@ -511,8 +517,9 @@ $seasons = [
 				'rating' => '3',
 				'thoughts' => '',
 				'quotes' => [
-					'',
-					''
+					'"It\'s 9:32, where are you"',
+					'"Max has dumped me five times"',
+					'"<em>What\'s wrong with you?</em> You know she\'s not allowed to be here"'
 				]
 			],
 			'three' => [
@@ -521,8 +528,8 @@ $seasons = [
 				'rating' => '2',
 				'thoughts' => '',
 				'quotes' => [
-					'',
-					''
+					'"Is it <em>early</em>, Michael"',
+					'"yEaH"'
 				]
 			],
 			'four' => [
@@ -531,8 +538,7 @@ $seasons = [
 				'rating' => '5',
 				'thoughts' => '',
 				'quotes' => [
-					'',
-					''
+					'"I love her and I can\'t lose her again"'
 				]
 			],
 			'five' => [
@@ -541,7 +547,6 @@ $seasons = [
 				'rating' => '2',
 				'thoughts' => '',
 				'quotes' => [
-					'',
 					''
 				]
 			],
@@ -551,7 +556,6 @@ $seasons = [
 				'rating' => '3',
 				'thoughts' => '',
 				'quotes' => [
-					'',
 					''
 				]
 			],
@@ -561,8 +565,8 @@ $seasons = [
 				'rating' => '5',
 				'thoughts' => '',
 				'quotes' => [
-					'',
-					''
+					'She’s gonna need some <em>backup</em>',
+					'"Old people?"'
 				]
 			],
 			'eight' => [
@@ -571,8 +575,7 @@ $seasons = [
 				'rating' => '4',
 				'thoughts' => '',
 				'quotes' => [
-					'',
-					''
+					'"Told you... physics"'
 				]
 			]
 		]
