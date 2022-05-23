@@ -266,7 +266,7 @@ $seasons = [
 			'five' => [
 				'title' => 'The Flea and the Acrobat',
 				'rating' => '5',
-				'thoughts' => 'I still hate when Mike yells at El. He\'s been so mean to her this season and it makes me really disappointed mostly in myself that he\'s my favorite character. I was grateful, however, that Jonathan didn\'t have to shoot the deer because that would\'ve been too hard to watch.',
+				'thoughts' => 'I still hate when Mike yells at El. He\'s been so mean to her this season and it makes me really disappointed mostly in myself that he\'s my favorite character. Still, though, the fight between him and Lucas was kind of a good time and I\'m always cheering him on to kick his friend\'s butt.',
 				'quotes' => [
 					'Take another photo? Yell at it?',
 					'We\'re... in mourning',
