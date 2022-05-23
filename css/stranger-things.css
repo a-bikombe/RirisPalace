@@ -203,13 +203,13 @@ general */
 }
 
 #stranger-things .side-nav .st-sections {
-  -webkit-transform: translateX(500px);
-          transform: translateX(500px);
+  -webkit-transform: translateX(200px);
+          transform: translateX(200px);
 }
 
 #stranger-things .side-nav .st-sections, #stranger-things .side-nav .st-sections.unhidden {
-  -webkit-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
+  -webkit-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
 }
 
 #stranger-things .side-nav .st-sections.unhidden {
