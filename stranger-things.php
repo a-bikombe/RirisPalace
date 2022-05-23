@@ -190,16 +190,16 @@ $scripts = [
 	</main>
 	
 	<aside class="side-nav">
-	<button type="button" class="collapsible-nav-btn">
-		<i class="collapse-icon fa-solid fa-chevrons-right"></i>
-		<i class="uncollapse-icon fa-solid fa-chevrons-left hidden"></i>
-	</button>
 		<nav class="st-sections">
 			<ul>
 				<li>Characters</li>
 				<li>Episodes</li>
 			</ul>
 		</nav>
+		<button type="button" class="collapsible-nav-btn">
+		<i class="collapse-icon fa-solid fa-chevrons-right"></i>
+		<i class="uncollapse-icon fa-solid fa-chevrons-left hidden"></i>
+	</button>
 	</aside>
 	<?php require_once 'include/footer.php'; ?>
 </body>
