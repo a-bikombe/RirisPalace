@@ -177,12 +177,11 @@ general */
 }
 
 #stranger-things #episodes .season .episode .episode-main .quotes {
-  margin-bottom: 0.5rem;
   width: 45%;
 }
 
 #stranger-things #episodes .season .episode .episode-main .quotes li + li {
-  margin-top: 0.5rem;
+  margin-top: 0.25rem;
 }
 
 #stranger-things .side-nav {
