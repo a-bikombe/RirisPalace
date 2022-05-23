@@ -199,7 +199,12 @@ general */
   bottom: 5rem;
   gap: var(--footer-spacing-right);
   position: fixed;
-  right: var(--footer-spacing-right);
+  right: calc(var(--footer-spacing-right) - 500px);
+}
+
+#stranger-things .side-nav .unhidden {
+  -webkit-transform: translateX(-500px);
+          transform: translateX(-500px);
 }
 
 #stranger-things .side-nav .st-sections-nav {

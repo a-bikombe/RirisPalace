@@ -66,7 +66,11 @@ function lazyloadCarousels() {
 
 function collapsibleSidebar() {
     const collapseBtn = document.querySelector('.collapsible-nav-btn');
+    let sidebarNav = document.querySelector('.st-sections');
     collapseBtn.addEventListener('click', (e) => {
+        
+        sidebarNav.classList.add('unhidden');
+        
 
         let icons = collapseBtn.querySelectorAll('[class*="collapse-icon"]');
         icons.forEach(icon => {

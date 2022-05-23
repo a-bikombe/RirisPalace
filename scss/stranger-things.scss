@@ -190,9 +190,14 @@ general */
         bottom: 5rem;
         gap: var(--footer-spacing-right);
         position: fixed;
-        right: var(--footer-spacing-right);
+        right: calc(var(--footer-spacing-right) - 500px);
+
+        .unhidden {
+            transform: translateX(-500px);
+        }
 
         .st-sections {
+
             &-nav {
                 background-color: var(--clr-white-t);
                 list-style-type: none;
