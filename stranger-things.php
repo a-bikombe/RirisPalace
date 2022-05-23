@@ -192,14 +192,14 @@ $scripts = [
 	<aside class="side-nav flex dir-col">
 		<nav class="st-sections text-center border-5px">
 			<ul class="st-sections-nav">
-				<li class="st-sections-nav-item"><a href="#intro">Intro</a></li>
-				<li class="st-sections-nav-item"><a href="#characters">Characters</a></li>
+				<li class="st-sections-nav-item"><a href="#intro"><strong>Intro</strong></a></li>
+				<li class="st-sections-nav-item"><a href="#characters"><strong>Characters</strong></a></li>
 				<?php foreach ($seasons as $season) : ?>
 					<?php foreach ($season['characters'] as $character => $characterInfo) : ?>
 						<li class="st-sections-nav-item"><a href="#<?= $character ?>"><?= ucfirst($character) ?></a></li>
 					<?php endforeach; ?>
 				<?php endforeach; ?>
-				<li class="st-sections-nav-item"><a href="#episodes">Episodes</a></li>
+				<li class="st-sections-nav-item"><a href="#episodes"><strong>Episodes</strong></a></li>
 			</ul>
 		</nav>
 		<button type="button" class="collapsible-nav-btn border-5px">
