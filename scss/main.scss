@@ -614,15 +614,11 @@ include/footer.php */
             color: var(--clr-black);
             overflow: hidden;
             padding: 1vw 1.5vw;
-            text-decoration: none;
             transition: var(--transition-size-text);
 
             &:hover,
             &:focus-visible {
-                border: 1px solid var(--clr-gray-80);
-                box-shadow: var(--theme-box-shadow-direct);
                 font-size: 1.1rem;
-                overflow: hidden;
             }
         }
     }

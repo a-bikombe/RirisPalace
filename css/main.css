@@ -656,16 +656,11 @@ body footer .footer-btn {
   color: var(--clr-black);
   overflow: hidden;
   padding: 1vw 1.5vw;
-  text-decoration: none;
   -webkit-transition: var(--transition-size-text);
   transition: var(--transition-size-text);
 }
 
 body footer .footer-btn:hover, body footer .footer-btn:focus-visible {
-  border: 1px solid var(--clr-gray-80);
-  -webkit-box-shadow: var(--theme-box-shadow-direct);
-          box-shadow: var(--theme-box-shadow-direct);
   font-size: 1.1rem;
-  overflow: hidden;
 }
 /*# sourceMappingURL=main.css.map */
