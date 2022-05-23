@@ -218,6 +218,10 @@ general */
                         color: var(--clr-white);
                         text-decoration: none;
 
+                        &>strong + a>strong {
+                            padding-top: 0.25rem;
+                        }
+
                         &:hover {
                             text-shadow: var(--text-shadow-white);
                         }

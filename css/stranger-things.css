@@ -237,6 +237,10 @@ general */
   text-decoration: none;
 }
 
+#stranger-things .side-nav .st-sections-nav-item a > strong + a > strong {
+  padding-top: 0.25rem;
+}
+
 #stranger-things .side-nav .st-sections-nav-item a:hover {
   text-shadow: var(--text-shadow-white);
 }
