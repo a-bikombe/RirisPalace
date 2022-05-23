@@ -4,83 +4,85 @@
     font-size: 13px;
 }
 
-footer {
-    bottom: 5vw;
-    right: 5vw;
-}
-
 /* changed from row on desktop */
 .dir-change {
     flex-direction: column;
 }
 
-/* ================================================================
+body {
+    /* ================================================================
 header.php */
 
-/* ================================================================
+    /* ================================================================
 index.php */
 
-#index {
-    figcaption {
-        font-size: 1.7rem;
-        padding-top: 3vw;
-    }
+    &#index {
+        figcaption {
+            font-size: 1.7rem;
+            padding-top: 3vw;
+        }
 
-    .homepage-header {
-        margin: 0 5vw 3vw;
-    }
+        .homepage-header {
+            margin: 0 5vw 3vw;
+        }
 
-    .preview {
-        padding: 10vw;
+        .preview {
+            padding: 10vw;
 
-        &-image {
-            width: 75vw;
+            &-image {
+                width: 75vw;
+            }
         }
     }
-}
 
-/* ================================================================
+    /* ================================================================
 stranger-things.php */
 
-#stranger-things {
-    h3 {
-        margin: 15px 0 10px;
-    }
-
-    main {
-        padding: 50px 5vw;
-    }
-
-    #characters {
-        /* season */
-        .season {
-            padding: 3vh 5vw;
-
-            .character {
-                &-image-name,
-                &-description {
-                    margin: auto;
-                    width: 100%;
-
-                    .character-image {
-                        height: calc(90% * 1.49);
-                        object-fit: cover;
-                    }
-                }
-            }
+    &#stranger-things {
+        h3 {
+            margin: 15px 0 10px;
         }
-    }
 
-    #episodes {
-        .season {
-            .episode {
-                .episode-main {
-                    .thoughts,
-                    .quotes {
+        main {
+            padding: 50px 5vw;
+        }
+
+        #characters {
+            /* season */
+            .season {
+                padding: 3vh 5vw;
+
+                .character {
+                    &-image-name,
+                    &-description {
+                        margin: auto;
                         width: 100%;
+
+                        .character-image {
+                            height: calc(90% * 1.49);
+                            object-fit: cover;
+                        }
                     }
                 }
             }
         }
+
+        #episodes {
+            .season {
+                .episode {
+                    .episode-main {
+                        .thoughts,
+                        .quotes {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        bottom: 5vw;
+        right: 5vw;
     }
 }

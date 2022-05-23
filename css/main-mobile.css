@@ -3,11 +3,6 @@
   font-size: 13px;
 }
 
-footer {
-  bottom: 5vw;
-  right: 5vw;
-}
-
 /* changed from row on desktop */
 .dir-change {
   -webkit-box-orient: vertical;
@@ -16,58 +11,66 @@ footer {
           flex-direction: column;
 }
 
-/* ================================================================
+body {
+  /* ================================================================
 header.php */
-/* ================================================================
+  /* ================================================================
 index.php */
-#index figcaption {
+  /* ================================================================
+stranger-things.php */
+}
+
+body#index figcaption {
   font-size: 1.7rem;
   padding-top: 3vw;
 }
 
-#index .homepage-header {
+body#index .homepage-header {
   margin: 0 5vw 3vw;
 }
 
-#index .preview {
+body#index .preview {
   padding: 10vw;
 }
 
-#index .preview-image {
+body#index .preview-image {
   width: 75vw;
 }
 
-/* ================================================================
-stranger-things.php */
-#stranger-things h3 {
+body#stranger-things h3 {
   margin: 15px 0 10px;
 }
 
-#stranger-things main {
+body#stranger-things main {
   padding: 50px 5vw;
 }
 
-#stranger-things #characters {
+body#stranger-things #characters {
   /* season */
 }
 
-#stranger-things #characters .season {
+body#stranger-things #characters .season {
   padding: 3vh 5vw;
 }
 
-#stranger-things #characters .season .character-image-name, #stranger-things #characters .season .character-description {
+body#stranger-things #characters .season .character-image-name, body#stranger-things #characters .season .character-description {
   margin: auto;
   width: 100%;
 }
 
-#stranger-things #characters .season .character-image-name .character-image, #stranger-things #characters .season .character-description .character-image {
+body#stranger-things #characters .season .character-image-name .character-image, body#stranger-things #characters .season .character-description .character-image {
   height: calc(90% * 1.49);
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-#stranger-things #episodes .season .episode .episode-main .thoughts,
-#stranger-things #episodes .season .episode .episode-main .quotes {
+body#stranger-things #episodes .season .episode .episode-main .thoughts,
+body#stranger-things #episodes .season .episode .episode-main .quotes {
   width: 100%;
+}
+
+body footer {
+  bottom: 5vw;
+  right: 5vw;
 }
 /*# sourceMappingURL=main-mobile.css.map */
