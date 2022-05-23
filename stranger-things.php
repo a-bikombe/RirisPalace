@@ -195,7 +195,7 @@ $scripts = [
 			<li class="st-sections-nav-item"><a href="#intro">Intro</a></li>
 				<li class="st-sections-nav-item"><a href="#characters">Characters</a></li>
 				<?php foreach($seasons as $season) : ?>
-					<?php foreach($season['characters'] as $character) : ?>
+					<?php foreach($season['characters'] as $character => $characterInfo) : ?>
 						<li class="st-sections-nav-item"><a href="#<?= $character ?>">Episodes</a></li>
 						<?= ucfirst($character) ?>
 				<?php endforeach; ?>
