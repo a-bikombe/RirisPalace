@@ -148,35 +148,37 @@ $scripts = [
 							<section class="episode border-10px flex dir-col" id="<?= $seasonId . '-' . $episodeId ?>">
 								<section class="episode-header dir-change">
 									<h4 class="episode-title">Chapter <?= ucfirst($episodeId) ?>: <strong><?= $episode['title'] ?></strong></h4>
-<?php if ($episode['rank'] !== '' && $episode['rating'] !== '') : ?>
-									<div class="rank-rating flex-align-center">
-										<p class="rank subtitle"><?= '#' . $episode['rank'] . '/' . $totalEpisodes ?></p>
-										<span class="rating">
-											<?php if (isset($episode['rating'])) :
-												for ($i = 0; $i < intval($episode['rating']); $i++) { ?>
-													<i class="fa-solid fa-star"></i>
-											<?php }
-											endif; ?>
-										</span>
-									</div>
-<?php endif; ?>
+									<?php if ($episode['rank'] !== '' && $episode['rating'] !== '') : ?>
+										<div class="rank-rating flex-align-center">
+											<p class="rank subtitle"><?= '#' . $episode['rank'] . '/' . $totalEpisodes ?></p>
+											<span class="rating">
+												<?php if (isset($episode['rating'])) :
+													for ($i = 0; $i < intval($episode['rating']); $i++) { ?>
+														<i class="fa-solid fa-star"></i>
+												<?php }
+												endif; ?>
+											</span>
+										</div>
+									<?php endif; ?>
 								</section>
-								<section class="episode-main flex dir-change">
-									<section class="thoughts">
-										<h5 class="thoughts-title text-center">Thoughts</h5>
-										<p><?= $episode['thoughts'] ?></p>
-									</section>
-									<section class="quotes">
+								<?php if ($episode['thoughts'] !== '' && $episode['quotes'] !== '') : ?>
+									<section class="episode-main flex dir-change">
+										<section class="thoughts">
+											<h5 class="thoughts-title text-center">Thoughts</h5>
+											<p><?= $episode['thoughts'] ?></p>
+										</section>
+										<section class="quotes">
 											<h5 class="quote-title text-center">Quotes</h5>
 											<ul>
 												<?php foreach ($episode['quotes'] as $quote) : ?>
 													<?php if ($quote !== '') : ?>
-													<li class="quote"><?= $quote ?></li>
+														<li class="quote"><?= $quote ?></li>
 													<?php endif; ?>
 												<?php endforeach; ?>
 											</ul>
+										</section>
 									</section>
-								</section>
+								<?php endif; ?>
 							</section>
 						<?php endforeach; ?>
 					<?php endif; ?>
