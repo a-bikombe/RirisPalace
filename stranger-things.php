@@ -172,7 +172,7 @@ $scripts = [
 											<?php foreach ($episode['moments'] as $quote) : ?>
 												<?php if ($quote !== '') : ?>
 													<?php if (substr($quote, 1) === '*') { ?>
-														<li class="quote"><?= $quote ?></li>
+														<li class="moment"><?= $quote ?></li>
 													<?php } else { ?>
 														<li class="quote"><blockquote><?= $quote ?></blockquote></li>
 													<?php } ?>
