@@ -182,7 +182,7 @@ general */
 }
 
 #stranger-things #episodes .season .episode .episode-main .quotes .container {
-  max-height: 500px;
+  max-height: 100px;
   overflow: auto;
 }
 
