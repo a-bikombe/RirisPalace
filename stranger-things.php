@@ -192,7 +192,7 @@ $scripts = [
 	<aside class="side-nav">
 	<button type="button" class="collapsible-nav-btn">
 		<i class="collapse-icon fa-solid fa-chevrons-right"></i>
-		<i class="uncollapse-iconfa-solid fa-chevrons-left hidden"></i>
+		<i class="uncollapse-icon fa-solid fa-chevrons-left hidden"></i>
 	</button>
 		<nav class="st-sections">
 			<ul>
