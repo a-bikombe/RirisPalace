@@ -1,6 +1,6 @@
 /* general */
 :root {
-  --footer-spacing-right: 4vw;
+  --footer-spacing-right: 1rem;
   font-size: 13px;
 }
 
