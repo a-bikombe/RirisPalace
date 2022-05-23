@@ -188,11 +188,7 @@ general */
   width: 45%;
 }
 
-#stranger-things #episodes .season .episode .episode-main .moments blockquote {
-  margin: 0;
-  /* &::before,
-                            &::after {
-                                content: '"';
-                            } */
+#stranger-things #episodes .season .episode .episode-main .moments .quote::before, #stranger-things #episodes .season .episode .episode-main .moments .quote::after {
+  content: '"';
 }
 /*# sourceMappingURL=stranger-things.css.map */

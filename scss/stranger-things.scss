@@ -173,13 +173,12 @@ general */
                         margin-bottom: 0.5rem;
                         width: 45%;
 
-                        blockquote {
-                            margin: 0;
+                        .quote {
 
-                            /* &::before,
+                            &::before,
                             &::after {
                                 content: '"';
-                            } */
+                            }
                         }
                     }
                 }
