@@ -32,7 +32,7 @@ general */
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-inline: 10vw;
+  margin: 20px 10vw 0;
 }
 
 #stranger-things main #intro-rank #intro .no-link-color {

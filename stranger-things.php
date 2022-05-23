@@ -31,7 +31,7 @@ $scripts = [
 	<?php require_once 'include/header.php'; ?>
 	<main>
 		<h1><?= strtoupper($pageTitle) ?></h1>
-		<div id="intro-rank" class="flex-align dir-change">
+		<div id="intro-rank" class="flex dir-change">
 			<section id="intro" aria-label="Introduction">
 				<section id="watch-links" aria-label="Watch Links">
 					<a href="https://www.netflix.com/title/80057281" class="no-link-color no-decor text-center" target="_blank">
