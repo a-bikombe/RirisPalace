@@ -199,8 +199,11 @@ general */
         .collapsible-nav-btn {
             border: 1px solid var(--theme-border);
 
-            .fa-solid {
-                display: inherit;
+            [class*="collapse-icon"] {
+                font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
             }
         }
     }
