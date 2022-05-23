@@ -170,11 +170,15 @@ $scripts = [
 										<h5 class="quote-title text-center">Memorable Moments</h5>
 										<ul>
 											<?php foreach ($episode['moments'] as $quote) : ?>
-												<?php if ($quote !== '') { ?>
-													<li class="quote"><?= $quote ?></li>
-												<?php } else if ($quote !== '' && substr($quote, 1) === '*') { ?>
-													<li class="quote"><blockquote><?= $quote ?></blockquote></li>
+												<?php if ($quote !== '') : ?>
+													<?php if (substr($quote, 1) !== '*') { ?>
+														<li class="quote">
+															<blockquote><?= $quote ?></blockquote>
+														</li>
+													<?php } else { ?>
+														<li class="quote"><?= $quote ?></li>
 													<?php } ?>
+												<?php endif; ?>
 											<?php endforeach; ?>
 										</ul>
 									</section>
