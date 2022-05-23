@@ -193,6 +193,7 @@ general */
         right: calc(var(--footer-spacing-right));
 
         .st-sections {
+            border: 1px solid var(--theme-border);
             background-color: var(--clr-gray-40);
             transform: translateX(200px);
 

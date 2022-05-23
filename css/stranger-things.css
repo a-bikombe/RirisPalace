@@ -203,6 +203,7 @@ general */
 }
 
 #stranger-things .side-nav .st-sections {
+  border: 1px solid var(--theme-border);
   background-color: var(--clr-gray-40);
   -webkit-transform: translateX(200px);
           transform: translateX(200px);
