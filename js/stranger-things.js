@@ -8,8 +8,6 @@ function s4Vol1Countdown() {
     let s4Vol1CountdownBlock = document.getElementById('s4-vol1-countdown');
     let daysUntilS4Vol1 = document.getElementById('days-until-s4-vol1');
 
-    s4Vol1CountdownBlock.classList.add('hidden');
-
     if (currentDate < s4Vol1) {
         s4Vol1CountdownBlock.classList.remove('hidden');
         let days = (s4Vol1 - currentDate) / oneDay;
@@ -22,8 +20,6 @@ function s4Vol2Countdown() {
 
     let s4Vol2CountdownBlock = document.getElementById('s4-vol2-countdown');
     let daysUntilS4Vol2 = document.getElementById('days-until-s4-vol2');
-
-    s4Vol2CountdownBlock.classList.add('hidden');
 
     if (currentDate >= s4Vol1 && currentDate < s4Vol2) {
         s4Vol2CountdownBlock.classList.remove('hidden');

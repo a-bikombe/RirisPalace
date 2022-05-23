@@ -27,7 +27,7 @@ $scripts = [
 <?php require_once 'include/head-tag.php'; ?>
 
 <body class="dark-theme" id="stranger-things">
-	<?php /* require_once 'include/loading-page.php'; */ ?>
+	<?php require_once 'include/loading-page.php'; ?>
 	<?php require_once 'include/header.php'; ?>
 	<main>
 		<h1><?= strtoupper($pageTitle) ?></h1>
@@ -38,10 +38,10 @@ $scripts = [
 				</a>
 			</section>
 			<section id="s4-countdown" class="countdown" aria-label="Season 4 Volume 1 Countdown">
-				<h3 id="s4-vol1-countdown">
+				<h3 id="s4-vol1-countdown" class="countdown hidden">
 					<a href="https://www.youtube.com/watch?v=yQEondeGvKo" target="_blank" class="no-link-color no-decor">Season 4 Vol. 1</a> is in <output for="s4-vol1-countdown" id="days-until-s4-vol1"></output> days.
 				</h3>
-				<h3 id="s4-vol2-countdown" class="countdown" aria-label="Season 4 Volume 2 Countdown">
+				<h3 id="s4-vol2-countdown" class="countdown hidden" aria-label="Season 4 Volume 2 Countdown">
 					<a href="https://www.youtube.com/watch?v=yQEondeGvKo" target="_blank" class="no-link-color no-decor">Season 4 Vol. 2</a> is in <output for="s4-vol2-countdown" id="days-until-s4-vol2"></output> days.
 				</h3>
 			</section>
