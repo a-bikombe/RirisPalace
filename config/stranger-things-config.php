@@ -234,6 +234,7 @@ $seasons = [
 				'thoughts' => '',
 				'moments' => [
 					'...Well my name\'s Mike, short for Michael',
+					'We have OJ, skim milk, what else...',
 					'...The last time I told you I was sick you made me go to school anyway—',
 					'We never would\'ve upset you if we knew you had superpowers',
 					'*Hazy Shade Of Winter playing in credits*'
