@@ -202,6 +202,7 @@ general */
 #stranger-things .side-nav .st-sections-nav {
   list-style-type: none;
   margin-inline: auto;
+  padding-inline: 0;
 }
 
 #stranger-things .side-nav .collapsible-nav-btn {
