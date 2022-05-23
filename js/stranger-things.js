@@ -5,30 +5,30 @@ const oneDay = 1000 * 60 * 60 * 24;
 
 function s4Vol1Countdown() {
 
-    let s4Vol1CountdownBlock = $('#s4-vol1-countdown');
-    let daysUntilS4Vol1 = $('#days-until-s4-vol1');
+    let s4Vol1CountdownBlock = document.getElementById('s4-vol1-countdown');
+    let daysUntilS4Vol1 = document.getElementById('days-until-s4-vol1');
 
-    s4Vol1CountdownBlock.addClass('hidden');
+    s4Vol1CountdownBlock.classList.add('hidden');
 
     if (currentDate < s4Vol1) {
-        s4Vol1CountdownBlock.removeClass('hidden');
+        s4Vol1CountdownBlock.classList.remove('hidden');
         let days = (s4Vol1 - currentDate) / oneDay;
-        daysUntilS4Vol1.text(parseInt(days));
+        daysUntilS4Vol1.textContent = parseInt(days);
     }
 
 }
 
 function s4Vol2Countdown() {
 
-    let s4Vol2CountdownBlock = $('#s4-vol2-countdown');
-    let daysUntilS4Vol2 = $('#days-until-s4-vol2');
+    let s4Vol2CountdownBlock = document.getElementById('s4-vol2-countdown');
+    let daysUntilS4Vol2 = document.getElementById('days-until-s4-vol2');
 
-    s4Vol2CountdownBlock.addClass('hidden');
+    s4Vol2CountdownBlock.classList.add('hidden');
 
     if (currentDate >= s4Vol1 && currentDate < s4Vol2) {
-        s4Vol2CountdownBlock.removeClass('hidden');
+        s4Vol2CountdownBlock.classList.remove('hidden');
         let days = (s4Vol2 - currentDate) / oneDay;
-        daysUntilS4Vol2.text(parseInt(days));
+        daysUntilS4Vol2.textContent = parseInt(days);
     }
 
 }
@@ -36,7 +36,7 @@ function s4Vol2Countdown() {
 // sourced from https://css-tricks.com/the-complete-guide-to-lazy-loading-images/
 function lazyloadCarousels() {
 
-    $(document).ready(() => {
+    document.addEventListener('DOMContentLoaded', () => {
         const lazyloadImages = document.querySelectorAll("img[data-src]");
         let lazyloadThrottleTimeout;
 
@@ -60,10 +60,10 @@ function lazyloadCarousels() {
             }, 20);
         }
 
-        $(document).ready(lazyload);
-        $(document).on("scroll", lazyload);
-        $(window).on("resize", lazyload);
-        $(window).on("orientationChange", lazyload);
+        document.addEventListener('DOMContentLoaded', lazyload);
+        document.addEventListener('scroll', lazyload);
+        window.addEventListener('resize', lazyload);
+        window.addEventListener('orientationChange', lazyload);
     });
 
 }

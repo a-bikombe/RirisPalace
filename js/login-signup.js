@@ -1,18 +1,18 @@
-const password = $('#password');
-const passwordReenter = $('#password-reenter');
-let loginSignupSubmit = $('#login-signup-submit');
-let passwordHelp = $('#help');
+const password = document.getElementById('password');
+const passwordReenter = document.getElementById('password-reenter');
+let loginSignupSubmit = document.getElementById('login-signup-submit');
+let passwordHelp = document.getElementById('help');
 
 function matchPasswords() {
 
-    passwordReenter.keyup((e) => {
+    passwordReenter.addEventListener('keyup', (e) => {
 
-        if (passwordReenter.val() !== password.val()) {
-            passwordHelp.text("Passwords Must Match");
-            loginSignupSubmit.hide();
+        if (passwordReenter.value !== password.value) {
+            passwordHelp.textContent = "Passwords Must Match";
+            loginSignupSubmit.classList.add('hidden');
         } else {
-            passwordHelp.text("");
-            loginSignupSubmit.show();
+            passwordHelp.textContent = "";
+            loginSignupSubmit.classList.remove('hidden');
         }
 
     });

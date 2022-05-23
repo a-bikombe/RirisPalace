@@ -56,9 +56,8 @@
 * css/main-mobile.css - Header Mobile, Homepage Mobile, Stranger Things Mobile
 * css/kpop-mobile.css - KPop Mobile
 
-## Scripts (using JQuery)
+## Scripts (VanillaJS)
 
-JQuery CDN - Easier JS
 * js/main.js - loadingPage()
 * js/kpop.js - lazyloadModalImages(), soon searchBarKpop() and reorderGroups()
 * js/login-signup.js - matchPasswords()

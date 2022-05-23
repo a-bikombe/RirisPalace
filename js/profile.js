@@ -1,11 +1,11 @@
-const deleteBtn = $('#delete-account');
-let confirmDeleteForm = $('#delete-form');
+const deleteBtn = document.getElementById('delete-account');
+let confirmDeleteForm = document.getElementById('delete-form');
 
 function showDeleteForm() {
 
-    deleteBtn.click((e) => {
+    deleteBtn.addEventListener('click', (e) => {
 
-        confirmDeleteForm.show();
+        confirmDeleteForm.classList.remove('hidden');
 
     });
 

@@ -1,24 +1,20 @@
-const groups = $('.group');
-const modalButtons = $('[data-bs-toggle="modal"]');
+const groups = document.querySelectorAll('.group');
+const modalButtons = document.querySelectorAll('[data-bs-toggle="modal"]');
 
 function lazyloadModalImages() {
 
-    modalButtons.each(function () {
+    modalButtons.forEach(modalButton => {
 
-        let modalButton = $(this);
+        modalButton.addEventListener('click', (e) => {
 
-        modalButton.click(function (e) {
+            let modal = modalButton.nextSibling;
 
-            let modal = modalButton.next();
-
-            modal.show();
-
-            let modalImage = modal.find(".modal-img");
-            let dataSrc = modalImage.attr('data-src');
+            let modalImage = modal.querySelector(".modal-img");
+            let dataSrc = modalImage.getAttribute('data-src');
 
             if (modalImage !== null && dataSrc !== null) {
-                modalImage.attr('src', dataSrc);
-                modalImage.removeAttr('data-src');
+                modalImage.setAttribute('src', dataSrc);
+                modalImage.removeAttribute('data-src');
             }
 
         });
@@ -32,14 +28,14 @@ lazyloadModalImages();
 /* TODO: modal does not open when you can hide group info */
 /* function toggleGroupInfo() {
 
-    groups.each(function() {
+    groups.forEach(group => {
 
-        let groupInfo = $(this).find('.group-info');
+        let groupInfo = group.querySelector('.group-info');
 
-        groupInfo.hide();
+        groupInfo.classList.add('hidden');
 
-        $(this).click(function(evt) {
-            groupInfo.toggle();
+        group.addEventListener('click', (evt) => {
+            groupInfo.classList.toggle('hidden');
         });
 
     });
@@ -49,8 +45,8 @@ lazyloadModalImages();
 /* TODO: kpop search bar for groups! */
 /* function searchBarKpop() {
 
-    let searchBar = $('#searchbar');
-    let searchOutput = $('#searchOutput');
+    let searchBar = document.getElementById('searchbar');
+    let searchOutput = document.getElementById('searchOutput');
 
     searchBar.addEventListener('input', function(evt) {
         searchOutput.textContent = searchBar.value;
@@ -61,14 +57,14 @@ lazyloadModalImages();
 /* TODO: group reordering! */
 /* function reorderGroups() {
 
-    const groupCategories = $('.group-category');
+    const groupCategories = document.querySelectorAll('.group-category');
 
     // for group reordering
     groupCategories.forEach(groupCategory => {
         let indexes = groupCategory.querySelectorAll('.index');
 
         indexes.forEach(index => {
-            index.click(function(evt) {});
+            index.addEventListener('click', (evt) => {});
         });
     });
 

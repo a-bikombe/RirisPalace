@@ -1,11 +1,11 @@
-const loader = $('.loader');
+const loader = document.querySelector('.loader');
 
 function loadingPage() {
 
-    $(window).on('load', (e) => {
+    window.addEventListener('load', (e) => {
 
         if (loader !== null) {
-            loader.addClass('hidden');
+            loader.classList.add('hidden');
         }
 
     });
