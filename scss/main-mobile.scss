@@ -48,41 +48,46 @@ stranger-things.php */
         main {
             padding: 50px 5vw;
 
+            #intro-rank {
+                #character-rank {
+                    align-items: center;
+                }
+            }
 
-        #characters {
-            /* season */
-            .season {
-                padding: 3vh 5vw;
+            #characters {
+                /* season */
+                .season {
+                    padding: 3vh 5vw;
 
-                .character {
-                    &-image-name,
-                    &-description {
-                        margin: auto;
-                        width: 100%;
+                    .character {
+                        &-image-name,
+                        &-description {
+                            margin: auto;
+                            width: 100%;
 
-                        .character-image {
-                            height: calc(90% * 1.49);
-                            object-fit: cover;
+                            .character-image {
+                                height: calc(90% * 1.49);
+                                object-fit: cover;
+                            }
                         }
                     }
                 }
             }
-        }
 
-        #episodes {
-            .season {
-                .episode {
-                    .episode-main {
-                        .thoughts,
-                        .quotes {
-                            width: 100%;
+            #episodes {
+                .season {
+                    .episode {
+                        .episode-main {
+                            .thoughts,
+                            .quotes {
+                                width: 100%;
+                            }
                         }
                     }
                 }
             }
         }
     }
-        }
 
     footer {
         bottom: 1.5rem;

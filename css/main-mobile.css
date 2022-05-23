@@ -46,6 +46,12 @@ body#stranger-things main {
   padding: 50px 5vw;
 }
 
+body#stranger-things main #intro-rank #character-rank {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 body#stranger-things main #characters {
   /* season */
 }

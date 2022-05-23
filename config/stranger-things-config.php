@@ -271,7 +271,8 @@ $seasons = [
 					'Take another photo? Yell at it?',
 					'We\'re... in mourning',
 					'You\'re blind because you like that a girl\'s not grossed out by you',
-					'NYU, Lonnie! He\'s wanted to go to NYU since he was <em>six years old</em>!'
+					'NYU, Lonnie! He\'s wanted to go to NYU since he was <em>six years old</em>!',
+					'Bull, that\'s old blood! Right, El? ...<em>Right, El?</em>'
 				]
 			],
 			'six' => [
