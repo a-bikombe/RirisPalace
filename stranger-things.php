@@ -170,9 +170,11 @@ $scripts = [
 										<h5 class="quote-title text-center">Quotes</h5>
 										<ul>
 											<?php foreach ($episode['quotes'] as $quote) : ?>
-												<?php if ($quote !== '') : ?>
+												<?php if ($quote !== '') { ?>
+													<li class="quote"><blockquote><?= $quote ?></blockquote></li>
+												<?php } else if ($quote !== '' && substr($quote, 1) === '*') { ?>
 													<li class="quote"><?= $quote ?></li>
-												<?php endif; ?>
+													<?php } ?>
 											<?php endforeach; ?>
 										</ul>
 									</section>

@@ -171,6 +171,14 @@ general */
 
                     .quotes {
                         width: 45%;
+
+                        blockquote {
+
+                            &::before,
+                            &::after {
+                                content: '"';
+                            }
+                        }
                     }
                 }
             }

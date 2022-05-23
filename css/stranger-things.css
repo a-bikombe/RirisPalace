@@ -186,4 +186,8 @@ general */
 #stranger-things #episodes .season .episode .episode-main .quotes {
   width: 45%;
 }
+
+#stranger-things #episodes .season .episode .episode-main .quotes blockquote::before, #stranger-things #episodes .season .episode .episode-main .quotes blockquote::after {
+  content: '"';
+}
 /*# sourceMappingURL=stranger-things.css.map */
