@@ -229,7 +229,7 @@ $seasons = [
 			'two' => [
 				'title' => 'The Weirdo on Maple Street',
 				'rating' => '4',
-				'thoughts' => 'Hazy Shade Of Winter playing in the credits after Barb goes missing is probably my favorite ending to any ST episode.',
+				'thoughts' => 'Mike and El having their first real conversation makes me cry every time. I also loved when he showed her around his room and showed her all of his toys. Hazy Shade Of Winter playing in the credits after Barb goes missing is probably my favorite ending to any ST episode.',
 				'quotes' => [
 					'...Well my name\'s Mike, short for Michael',
 					'We have OJ, skim milk, what else...',
