@@ -160,12 +160,12 @@ general */
                     gap: 1vw;
                     justify-content: space-between;
 
-                    .thoughts,
-                    .quotes {
-                        width: 50%;
+                    .thoughts {
+                        width: 40%;
                     }
 
                     .quotes {
+                        width: 60%;
 
                         li {
                             & + li {

@@ -172,9 +172,12 @@ general */
           justify-content: space-between;
 }
 
-#stranger-things #episodes .season .episode .episode-main .thoughts,
+#stranger-things #episodes .season .episode .episode-main .thoughts {
+  width: 40%;
+}
+
 #stranger-things #episodes .season .episode .episode-main .quotes {
-  width: 50%;
+  width: 60%;
 }
 
 #stranger-things #episodes .season .episode .episode-main .quotes li + li {
