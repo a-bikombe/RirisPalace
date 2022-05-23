@@ -232,7 +232,7 @@ general */
   transition: var(--transition-size-text);
 }
 
-.st-sections-nav-item + #stranger-things .side-nav .st-sections-nav-item.heading {
+#stranger-things .side-nav .st-sections-nav-item.heading + .st-sections-nav-item.heading {
   margin-top: 0.5rem;
 }
 
