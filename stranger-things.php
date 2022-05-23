@@ -165,16 +165,14 @@ $scripts = [
 										<p><?= $episode['thoughts'] ?></p>
 									</section>
 									<section class="quotes">
-									<?php foreach ($episode['quotes'] as $quoteCheck) : ?>
-										<?php if ($quoteCheck !== '') : ?>
 											<h5 class="quote-title text-center">Quotes</h5>
 											<ul>
 												<?php foreach ($episode['quotes'] as $quote) : ?>
+													<?php if ($quote !== '') : ?>
 													<li class="quote"><?= $quote ?></li>
+													<?php endif; ?>
 												<?php endforeach; ?>
 											</ul>
-										<?php endif; ?>
-										<?php endforeach; ?>
 									</section>
 								</section>
 							</section>
