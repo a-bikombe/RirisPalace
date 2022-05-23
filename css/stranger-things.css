@@ -183,11 +183,11 @@ general */
   width: 55%;
 }
 
-#stranger-things #episodes .season .episode .episode-main .quotes {
+#stranger-things #episodes .season .episode .episode-main .moments {
   width: 45%;
 }
 
-#stranger-things #episodes .season .episode .episode-main .quotes blockquote::before, #stranger-things #episodes .season .episode .episode-main .quotes blockquote::after {
+#stranger-things #episodes .season .episode .episode-main .moments blockquote::before, #stranger-things #episodes .season .episode .episode-main .moments blockquote::after {
   content: '"';
 }
 /*# sourceMappingURL=stranger-things.css.map */

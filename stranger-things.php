@@ -166,10 +166,10 @@ $scripts = [
 										<h5 class="thoughts-title text-center">Thoughts</h5>
 										<p><?= $episode['thoughts'] ?></p>
 									</section>
-									<section class="quotes">
-										<h5 class="quote-title text-center">Quotes</h5>
+									<section class="moments">
+										<h5 class="quote-title text-center">Memorable Moments</h5>
 										<ul>
-											<?php foreach ($episode['quotes'] as $quote) : ?>
+											<?php foreach ($episode['moments'] as $quote) : ?>
 												<?php if ($quote !== '') { ?>
 													<li class="quote"><blockquote><?= $quote ?></blockquote></li>
 												<?php } else if ($quote !== '' && substr($quote, 1) === '*') { ?>

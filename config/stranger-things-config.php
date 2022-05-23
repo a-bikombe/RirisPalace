@@ -221,7 +221,7 @@ $seasons = [
 				'rank' => '22',
 				'rating' => '3',
 				'thoughts' => '',
-				'quotes' => [
+				'moments' => [
 					'IT ROARS IN ANGER',
 					'The campaign took two weeks to plan! How was I supposed to know it was gonna take ten hours...'
 				]
@@ -231,8 +231,8 @@ $seasons = [
 				'rank' => '16',
 				'rating' => '4',
 				'thoughts' => '',
-				'quotes' => [
-					'...Well my name’s Mike, short for Michael',
+				'moments' => [
+					'...Well my name\'s Mike, short for Michael',
 					'...The last time I told you I was sick you made me go to school anyway—',
 					'We never would\'ve upset you if we knew you had superpowers',
 					'*Hazy Shade Of Winter playing in credits*'
@@ -243,13 +243,13 @@ $seasons = [
 				'rank' => '23',
 				'rating' => '2',
 				'thoughts' => '',
-				'quotes' => [
+				'moments' => [
 					'We need energy for our travels for stamina',
 					'I bet that she could make this fly',
 					'COMING',
 					'You look at her all like... \'Hi El :) Oh El, El, E\'',
 					'This is the <em>Monsta Killa</em>',
-					'...Yep'
+					'*Nervous* "...Yep"'
 				]
 			],
 			'four' => [
@@ -257,11 +257,11 @@ $seasons = [
 				'rank' => '5',
 				'rating' => '5',
 				'thoughts' => '',
-				'quotes' => [
+				'moments' => [
 					'ARE YOU DEAF',
 					'I think I just wanna stay home today... I mean, if that\'s okay :(',
 					'We\'re— upset :)— :(',
-					'Come on... COME ON! TALK TO ME!'
+					'*Joyce blasting music and screaming at the walls* "Come on... COME ON! TALK TO ME!"'
 				]
 			],
 			'five' => [
@@ -269,7 +269,7 @@ $seasons = [
 				'rank' => '9',
 				'rating' => '5',
 				'thoughts' => '',
-				'quotes' => [
+				'moments' => [
 					'Take another photo? Yell at it?',
 					'We\'re... in mourning',
 					'You\'re blind because you like that a girl\'s not grossed out by you'
@@ -280,7 +280,7 @@ $seasons = [
 				'rank' => '18',
 				'rating' => '2',
 				'thoughts' => '',
-				'quotes' => [
+				'moments' => [
 					'You\'re <em>shaking his hand</em>" "No I\'m not'
 				]
 			],
@@ -289,7 +289,7 @@ $seasons = [
 				'rank' => '13',
 				'rating' => '2',
 				'thoughts' => '',
-				'quotes' => [
+				'moments' => [
 					'Did you see that??" "No, Dustin, we missed it'
 				]
 			],
@@ -298,8 +298,8 @@ $seasons = [
 				'rank' => '7',
 				'rating' => '4',
 				'thoughts' => '',
-				'quotes' => [
-					'Steve swinging the bat',
+				'moments' => [
+					'*Steve swinging the bat*',
 					'<em>Mike! I found the chocolate pudding!</em>'
 				]
 			]
@@ -392,7 +392,7 @@ $seasons = [
 				'rank' => '20',
 				'rating' => '3',
 				'thoughts' => '',
-				'quotes' => [
+				'moments' => [
 					'I\'m not <em>prostituting my sister</em>'
 				]
 			],
@@ -401,8 +401,8 @@ $seasons = [
 				'rank' => '14',
 				'rating' => '4',
 				'thoughts' => '',
-				'quotes' => [
-					'OH— <em>Jesus</em>',
+				'moments' => [
+					'*Scary music* "OH— <em>Jesus</em>"',
 					'I specifically didn\'t agree to Winston'
 				]
 			],
@@ -411,10 +411,10 @@ $seasons = [
 				'rank' => '3',
 				'rating' => '5',
 				'thoughts' => 'I hated how Mike called Max annoying',
-				'quotes' => [
+				'moments' => [
 					'That\'s like saying just because someone\'s from the Death Star doesn\'t make them bad',
 					'MR. SINCLAIR',
-					'El throwing Max off her skateboard'
+					'*El throwing Max off her skateboard*'
 				]
 			],
 			'four' => [
@@ -422,7 +422,7 @@ $seasons = [
 				'rank' => '10',
 				'rating' => '3',
 				'thoughts' => '',
-				'quotes' => [
+				'moments' => [
 					'You say... I go, and I never leave! <em>Nothing ever happens!</em>'
 				]
 			],
@@ -431,7 +431,7 @@ $seasons = [
 				'rank' => '19',
 				'rating' => '2',
 				'thoughts' => '',
-				'quotes' => [
+				'moments' => [
 					''
 				]
 			],
@@ -440,7 +440,7 @@ $seasons = [
 				'rank' => '8',
 				'rating' => '3',
 				'thoughts' => '',
-				'quotes' => [
+				'moments' => [
 					''
 				]
 			],
@@ -449,7 +449,7 @@ $seasons = [
 				'rank' => '25',
 				'rating' => '1',
 				'thoughts' => '',
-				'quotes' => [
+				'moments' => [
 					''
 				]
 			],
@@ -458,7 +458,7 @@ $seasons = [
 				'rank' => '4',
 				'rating' => '4',
 				'thoughts' => '',
-				'quotes' => [
+				'moments' => [
 					'We can\'t just sit here while those <em>things</em> are loose',
 					'It\'s like a play on words—" "Okay'
 				]
@@ -468,12 +468,12 @@ $seasons = [
 				'rank' => '2',
 				'rating' => '5',
 				'thoughts' => '',
-				'quotes' => [
+				'moments' => [
 					'Protecting her… PROTECTING HER?',
 					'Maybe if we set this on <em>fire</em>—" "Yeah, <em>that\'s</em> a no',
-					'Nancy',
-					'Lucas\'s scream',
-					'*Screaming* "...I’m okay'
+					'Nancy?',
+					'*Lucas\'s scream*',
+					'*Screaming* "...I’m okay"'
 				]
 			]
 		]
@@ -506,7 +506,7 @@ $seasons = [
 				'rank' => '11',
 				'rating' => '3',
 				'thoughts' => '',
-				'quotes' => [
+				'moments' => [
 					'There\'s nothing wrong with Nana'
 				]
 			],
@@ -515,7 +515,7 @@ $seasons = [
 				'rank' => '12',
 				'rating' => '3',
 				'thoughts' => '',
-				'quotes' => [
+				'moments' => [
 					'It\'s 9:32, where are you',
 					'Max has dumped me five times',
 					'<em>What\'s wrong with you?</em> You know she\'s not allowed to be here'
@@ -526,7 +526,7 @@ $seasons = [
 				'rank' => '21',
 				'rating' => '2',
 				'thoughts' => '',
-				'quotes' => [
+				'moments' => [
 					'Is it <em>early</em>, Michael',
 					'yEaH'
 				]
@@ -536,7 +536,7 @@ $seasons = [
 				'rank' => '6',
 				'rating' => '5',
 				'thoughts' => '',
-				'quotes' => [
+				'moments' => [
 					'I love her and I can\'t lose her again'
 				]
 			],
@@ -545,7 +545,7 @@ $seasons = [
 				'rank' => '24',
 				'rating' => '2',
 				'thoughts' => '',
-				'quotes' => [
+				'moments' => [
 					''
 				]
 			],
@@ -554,7 +554,7 @@ $seasons = [
 				'rank' => '17',
 				'rating' => '3',
 				'thoughts' => '',
-				'quotes' => [
+				'moments' => [
 					''
 				]
 			],
@@ -563,7 +563,7 @@ $seasons = [
 				'rank' => '1',
 				'rating' => '5',
 				'thoughts' => '',
-				'quotes' => [
+				'moments' => [
 					'She\'s gonna need some <em>backup</em>',
 					'Old people?'
 				]
@@ -573,7 +573,7 @@ $seasons = [
 				'rank' => '15',
 				'rating' => '4',
 				'thoughts' => '',
-				'quotes' => [
+				'moments' => [
 					'Told you... physics'
 				]
 			]
@@ -613,7 +613,7 @@ $seasons = [
 				'rank' => '',
 				'rating' => '',
 				'thoughts' => '',
-				'quotes' => [
+				'moments' => [
 					''
 				]
 			],
@@ -622,7 +622,7 @@ $seasons = [
 				'rank' => '',
 				'rating' => '',
 				'thoughts' => '',
-				'quotes' => [
+				'moments' => [
 					''
 				]
 			],
@@ -631,7 +631,7 @@ $seasons = [
 				'rank' => '',
 				'rating' => '',
 				'thoughts' => '',
-				'quotes' => [
+				'moments' => [
 					''
 				]
 			],
@@ -640,7 +640,7 @@ $seasons = [
 				'rank' => '',
 				'rating' => '',
 				'thoughts' => '',
-				'quotes' => [
+				'moments' => [
 					''
 				]
 			],
@@ -649,7 +649,7 @@ $seasons = [
 				'rank' => '',
 				'rating' => '',
 				'thoughts' => '',
-				'quotes' => [
+				'moments' => [
 					''
 				]
 			],
@@ -658,7 +658,7 @@ $seasons = [
 				'rank' => '',
 				'rating' => '',
 				'thoughts' => '',
-				'quotes' => [
+				'moments' => [
 					''
 				]
 			],
@@ -667,7 +667,7 @@ $seasons = [
 				'rank' => '',
 				'rating' => '',
 				'thoughts' => '',
-				'quotes' => [
+				'moments' => [
 					''
 				]
 			],
@@ -676,7 +676,7 @@ $seasons = [
 				'rank' => '',
 				'rating' => '',
 				'thoughts' => '',
-				'quotes' => [
+				'moments' => [
 					''
 				]
 			],
@@ -685,7 +685,7 @@ $seasons = [
 				'rank' => '',
 				'rating' => '',
 				'thoughts' => '',
-				'quotes' => [
+				'moments' => [
 					''
 				]
 			]
