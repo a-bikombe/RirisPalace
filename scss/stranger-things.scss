@@ -157,15 +157,12 @@ general */
                 }
 
                 .episode-main {
+                    flex-basis: 100%;
+                    flex-grow: 1;
                     gap: 1vw;
                     justify-content: space-between;
 
-                    .thoughts {
-                        width: 40%;
-                    }
-
                     .quotes {
-                        width: 60%;
 
                         li {
                             & + li {
