@@ -151,7 +151,7 @@ $scripts = [
 									<div class="rank-rating flex-align-center">
 										<p class="rank subtitle"><?= '#' . $episode['rank'] . '/' . $totalEpisodes ?></p>
 										<span class="rating">
-											<?php if (isset($episode['rating']) && $episode['rating'] !== '') :
+											<?php if (isset($episode['rating'])) :
 												for ($i = 0; $i < intval($episode['rating']); $i++) { ?>
 													<i class="fa-solid fa-star"></i>
 											<?php }
@@ -165,12 +165,14 @@ $scripts = [
 										<p><?= $episode['thoughts'] ?></p>
 									</section>
 									<section class="quotes">
-										<h5 class="quote-title text-center">Quotes</h5>
-										<ul>
-											<?php foreach ($episode['quotes'] as $quote) : ?>
-												<li class="quote"><?= $quote ?></li>
-											<?php endforeach; ?>
-										</ul>
+										<?php if ($episode['rating'] !== '') : ?>
+											<h5 class="quote-title text-center">Quotes</h5>
+											<ul>
+												<?php foreach ($episode['quotes'] as $quote) : ?>
+													<li class="quote"><?= $quote ?></li>
+												<?php endforeach; ?>
+											</ul>
+										<?php endif; ?>
 									</section>
 								</section>
 							</section>
