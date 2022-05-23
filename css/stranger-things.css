@@ -27,15 +27,21 @@ general */
   padding: 50px 15vw;
 }
 
-#stranger-things #intro {
+#stranger-things main #intro-rank {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#stranger-things main #intro-rank #intro {
   margin-inline: 10vw;
 }
 
-#stranger-things #intro .no-link-color {
+#stranger-things main #intro-rank #intro .no-link-color {
   color: var(--theme-text);
 }
 
-#stranger-things #intro .countdown:not(.hidden) {
+#stranger-things main #intro-rank #intro .countdown:not(.hidden) {
   -webkit-animation: glow 1.3s;
           animation: glow 1.3s;
   -webkit-animation-iteration-count: infinite;
@@ -44,18 +50,18 @@ general */
           animation-timing-function: ease-in-out;
 }
 
-#stranger-things #intro,
-#stranger-things #intro #plot {
+#stranger-things main #intro-rank #intro,
+#stranger-things main #intro-rank #intro #plot {
   margin-block: 40px;
 }
 
-#stranger-things #characters {
+#stranger-things main #characters {
   margin-inline: 5vw;
   /* season */
   /* character */
 }
 
-#stranger-things #characters .season {
+#stranger-things main #characters .season {
   background: var(--clr-white);
   border: 1px solid var(--clr-gray-40);
   color: var(--clr-black);
@@ -63,93 +69,93 @@ general */
   padding: 2vw 3vw;
   /* space between seasons: only add to .season if there is another .season before it */
   /* & + .season {
-            margin-top: 50px;
-        } */
+                margin-top: 50px;
+            } */
 }
 
-#stranger-things #characters .character {
+#stranger-things main #characters .character {
   padding: 20px 0;
   /* horizontal line between every character */
   /* character image and name */
   /* character description */
 }
 
-#stranger-things #characters .character:not(:last-child) {
+#stranger-things main #characters .character:not(:last-child) {
   border-bottom: 1px solid var(--clr-gray-60);
 }
 
-#stranger-things #characters .character .no-link-color {
+#stranger-things main #characters .character .no-link-color {
   color: var(--clr-black);
 }
 
-#stranger-things #characters .character-image-name {
+#stranger-things main #characters .character-image-name {
   margin-block: auto;
   width: 40%;
   /* character image carousel */
 }
 
-#stranger-things #characters .character-image-name .character-image-carousel {
+#stranger-things main #characters .character-image-name .character-image-carousel {
   margin: auto auto 10px;
   width: 80%;
   /* don't hide season caption on mobile */
 }
 
-#stranger-things #characters .character-image-name .character-image-carousel,
-#stranger-things #characters .character-image-name .character-image-carousel .character-image {
+#stranger-things main #characters .character-image-name .character-image-carousel,
+#stranger-things main #characters .character-image-name .character-image-carousel .character-image {
   aspect-ratio: 2 / 3;
 }
 
-#stranger-things #characters .character-image-name .character-image-carousel .character-image {
+#stranger-things main #characters .character-image-name .character-image-carousel .character-image {
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-#stranger-things #characters .character-image-name .character-image-carousel .carousel-caption.d-none {
+#stranger-things main #characters .character-image-name .character-image-carousel .carousel-caption.d-none {
   display: block !important;
   font-size: 1rem;
 }
 
-#stranger-things #characters .character-description {
+#stranger-things main #characters .character-description {
   line-height: 1.5;
   padding-left: 2vw;
   width: 60%;
   /* character description items */
 }
 
-#stranger-things #characters .character-description-item {
+#stranger-things main #characters .character-description-item {
   margin-bottom: 5px;
 }
 
-#stranger-things #episodes {
+#stranger-things main #episodes {
   background: var(--clr-white);
   border: 1px solid var(--clr-gray-40);
   color: var(--clr-black);
   margin-top: 40px;
 }
 
-#stranger-things #episodes,
-#stranger-things #episodes .season,
-#stranger-things #episodes .episode {
+#stranger-things main #episodes,
+#stranger-things main #episodes .season,
+#stranger-things main #episodes .episode {
   padding: 2vw 3vw;
 }
 
-#stranger-things #episodes .season,
-#stranger-things #episodes .episode {
+#stranger-things main #episodes .season,
+#stranger-things main #episodes .episode {
   border: 1px solid var(--clr-gray-60);
 }
 
-#stranger-things #episodes .season {
+#stranger-things main #episodes .season {
   background: var(--clr-gray-80);
   margin-top: 20px;
 }
 
-#stranger-things #episodes .season .episode {
+#stranger-things main #episodes .season .episode {
   background: var(--clr-white);
   gap: 1vw;
   margin-top: 20px;
 }
 
-#stranger-things #episodes .season .episode .episode-header {
+#stranger-things main #episodes .season .episode .episode-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -161,26 +167,26 @@ general */
           justify-content: space-between;
 }
 
-#stranger-things #episodes .season .episode .episode-header .rating i {
+#stranger-things main #episodes .season .episode .episode-header .rating i {
   color: var(--clr-orange);
 }
 
-#stranger-things #episodes .season .episode .episode-main {
+#stranger-things main #episodes .season .episode .episode-main {
   gap: 1vw;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
-#stranger-things #episodes .season .episode .episode-main .thoughts {
+#stranger-things main #episodes .season .episode .episode-main .thoughts {
   width: 40%;
 }
 
-#stranger-things #episodes .season .episode .episode-main .quotes {
+#stranger-things main #episodes .season .episode .episode-main .quotes {
   width: 60%;
 }
 
-#stranger-things #episodes .season .episode .episode-main .quotes li + li {
+#stranger-things main #episodes .season .episode .episode-main .quotes li + li {
   margin-top: 0.25rem;
 }
 

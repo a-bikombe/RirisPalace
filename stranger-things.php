@@ -31,25 +31,34 @@ $scripts = [
 	<?php require_once 'include/header.php'; ?>
 	<main>
 		<h1><?= strtoupper($pageTitle) ?></h1>
-		<section id="intro" aria-label="Introduction">
-			<section id="watch-links" aria-label="Watch Links">
-				<a href="https://www.netflix.com/title/80057281" class="no-link-color no-decor text-center" target="_blank">
-					<h3> Watch Season 1, 2, and 3 </h3>
-				</a>
+		<div id="intro-rank" class="flex-align dir-change">
+			<section id="intro" aria-label="Introduction">
+				<section id="watch-links" aria-label="Watch Links">
+					<a href="https://www.netflix.com/title/80057281" class="no-link-color no-decor text-center" target="_blank">
+						<h3> Watch Season 1, 2, and 3 </h3>
+					</a>
+				</section>
+				<section id="s4-countdown" class="countdown" aria-label="Season 4 Volume 1 Countdown">
+					<h3 id="s4-vol1-countdown" class="countdown hidden">
+						<a href="https://www.youtube.com/watch?v=yQEondeGvKo" target="_blank" class="no-link-color no-decor">Season 4 Vol. 1</a> is in <output for="s4-vol1-countdown" id="days-until-s4-vol1"></output> days.
+					</h3>
+					<h3 id="s4-vol2-countdown" class="countdown hidden" aria-label="Season 4 Volume 2 Countdown">
+						<a href="https://www.youtube.com/watch?v=yQEondeGvKo" target="_blank" class="no-link-color no-decor">Season 4 Vol. 2</a> is in <output for="s4-vol2-countdown" id="days-until-s4-vol2"></output> days.
+					</h3>
+				</section>
+				<section id="plot" aria-labelledby="plot-title">
+					<h2 id="plot-title">Plot</h2>
+					<p> <?= $plot ?> </p>
+				</section>
 			</section>
-			<section id="s4-countdown" class="countdown" aria-label="Season 4 Volume 1 Countdown">
-				<h3 id="s4-vol1-countdown" class="countdown hidden">
-					<a href="https://www.youtube.com/watch?v=yQEondeGvKo" target="_blank" class="no-link-color no-decor">Season 4 Vol. 1</a> is in <output for="s4-vol1-countdown" id="days-until-s4-vol1"></output> days.
-				</h3>
-				<h3 id="s4-vol2-countdown" class="countdown hidden" aria-label="Season 4 Volume 2 Countdown">
-					<a href="https://www.youtube.com/watch?v=yQEondeGvKo" target="_blank" class="no-link-color no-decor">Season 4 Vol. 2</a> is in <output for="s4-vol2-countdown" id="days-until-s4-vol2"></output> days.
-				</h3>
+			<section id="character-rank" class="flex-justify">
+				<ol>
+					<?php foreach ($characterRank as $character) : ?>
+						<li><?= ucfirst($character) ?></li>
+					<?php endforeach; ?>
+				</ol>
 			</section>
-			<section id="plot" aria-labelledby="plot-title">
-				<h2 id="plot-title">Plot</h2>
-				<p> <?= $plot ?> </p>
-			</section>
-		</section>
+		</div>
 		<section id="characters" class="characters" aria-label="Characters">
 			<?php foreach ($seasons as $season => $seasonInfo) : ?>
 				<section class="season border-10px" id="<?= $season ?>-characters" aria-label="<?= $seasonInfo['seasonName'] ?>">

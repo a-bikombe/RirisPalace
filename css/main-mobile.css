@@ -46,27 +46,27 @@ body#stranger-things main {
   padding: 50px 5vw;
 }
 
-body#stranger-things #characters {
+body#stranger-things main #characters {
   /* season */
 }
 
-body#stranger-things #characters .season {
+body#stranger-things main #characters .season {
   padding: 3vh 5vw;
 }
 
-body#stranger-things #characters .season .character-image-name, body#stranger-things #characters .season .character-description {
+body#stranger-things main #characters .season .character-image-name, body#stranger-things main #characters .season .character-description {
   margin: auto;
   width: 100%;
 }
 
-body#stranger-things #characters .season .character-image-name .character-image, body#stranger-things #characters .season .character-description .character-image {
+body#stranger-things main #characters .season .character-image-name .character-image, body#stranger-things main #characters .season .character-description .character-image {
   height: calc(90% * 1.49);
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-body#stranger-things #episodes .season .episode .episode-main .thoughts,
-body#stranger-things #episodes .season .episode .episode-main .quotes {
+body#stranger-things main #episodes .season .episode .episode-main .thoughts,
+body#stranger-things main #episodes .season .episode .episode-main .quotes {
   width: 100%;
 }
 
