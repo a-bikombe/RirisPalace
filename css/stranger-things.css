@@ -203,11 +203,10 @@ general */
 }
 
 #stranger-things .side-nav .st-sections-nav {
-  background-color: var(--theme-text);
-  color: var(--theme-bg);
+  background-color: var(--clr-black-t);
   list-style-type: none;
   margin: auto;
-  padding: 0.25rem;
+  padding: 0.75rem;
 }
 
 #stranger-things .side-nav .collapsible-nav-btn {
