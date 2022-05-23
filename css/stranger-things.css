@@ -174,6 +174,10 @@ general */
           justify-content: space-between;
 }
 
+#stranger-things #episodes .season .episode .episode-main .thoughts {
+  width: 60%;
+}
+
 #stranger-things #episodes .season .episode .episode-main .quotes {
   width: 40%;
 }
