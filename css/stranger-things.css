@@ -206,4 +206,8 @@ general */
 #stranger-things .side-nav .collapsible-nav-btn {
   border: 1px solid var(--theme-border);
 }
+
+#stranger-things .side-nav .collapsible-nav-btn .fa-solid {
+  display: inherit;
+}
 /*# sourceMappingURL=stranger-things.css.map */

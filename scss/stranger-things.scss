@@ -198,6 +198,10 @@ general */
         
         .collapsible-nav-btn {
             border: 1px solid var(--theme-border);
+
+            .fa-solid {
+                display: inherit;
+            }
         }
     }
 }
