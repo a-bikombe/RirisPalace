@@ -170,9 +170,11 @@ general */
                     }
 
                     .moments {
+                        margin-bottom: 0.5rem;
                         width: 45%;
 
                         blockquote {
+                            margin: 0;
 
                             &::before,
                             &::after {

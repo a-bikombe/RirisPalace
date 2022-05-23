@@ -184,7 +184,12 @@ general */
 }
 
 #stranger-things #episodes .season .episode .episode-main .moments {
+  margin-bottom: 0.5rem;
   width: 45%;
+}
+
+#stranger-things #episodes .season .episode .episode-main .moments blockquote {
+  margin: 0;
 }
 
 #stranger-things #episodes .season .episode .episode-main .moments blockquote::before, #stranger-things #episodes .season .episode .episode-main .moments blockquote::after {
