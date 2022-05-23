@@ -194,21 +194,13 @@ $scripts = [
 			<ul class="st-sections-nav">
 				<li class="st-sections-nav-item"><a href="#intro"><strong>Intro</strong></a></li>
 				<li class="st-sections-nav-item"><a href="#characters"><strong>Characters</strong></a></li>
-				<li class="st-sections-nav-item">
-					<span>
-						<?php foreach ($seasons as $seasonId => $season) : ?>
-							<a href="#<?= $seasonId ?>-characters">S<?= substr($season['seasonName'], -1) ?></a>
-						<?php endforeach; ?>
-					</span>
-				</li>
+				<?php foreach ($seasons as $seasonId => $season) : ?>
+					<li class="st-sections-nav-item"><a href="#<?= $seasonId ?>-characters">Season <?= substr($season['seasonName'], -1) ?></a></li>
+				<?php endforeach; ?>
 				<li class="st-sections-nav-item"><a href="#episodes"><strong>Episodes</strong></a></li>
-				<li class="st-sections-nav-item">
-					<span>
-						<?php foreach ($seasons as $seasonId => $season) : ?>
-							<a href="#<?= $seasonId ?>-episodes">S<?= substr($season['seasonName'], -1) ?></a>
-						<?php endforeach; ?>
-					</span>
-				</li>
+				<?php foreach ($seasons as $seasonId => $season) : ?>
+					<li class="st-sections-nav-item"><a href="#<?= $seasonId ?>-episodes">Season <?= substr($season['seasonName'], -1) ?></a></li>
+				<?php endforeach; ?>
 			</ul>
 		</nav>
 		<button type="button" class="collapsible-nav-btn border-5px">
