@@ -193,10 +193,13 @@ general */
 }
 
 #stranger-things .side-nav {
-  position: fixed;
-  bottom: 8vw;
-  right: 2vw;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   background: purple;
+  bottom: 8vw;
+  position: fixed;
+  right: 2vw;
 }
 
 #stranger-things .side-nav .st-sections-nav {

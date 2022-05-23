@@ -189,7 +189,7 @@ $scripts = [
 		</section>
 	</main>
 	
-	<aside class="side-nav flex-align dir-col">
+	<aside class="side-nav flex dir-col">
 		<nav class="st-sections text-center">
 			<ul class="st-sections-nav">
 				<li class="st-sections-nav-item">Characters</li>

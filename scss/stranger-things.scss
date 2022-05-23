@@ -186,10 +186,11 @@ general */
     }
 
     .side-nav {
-        position: fixed;
-        bottom: 8vw;
-        right: 2vw;
+        align-items: flex-end;
         background: purple;
+        bottom: 8vw;
+        position: fixed;
+        right: 2vw;
 
         .st-sections {
 
