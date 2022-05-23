@@ -1,6 +1,6 @@
 /* ================================================================
 general */
-body {
+#kpop {
   /* ================================================================
     #group-sidebar */
   /* ================================================================
@@ -13,44 +13,44 @@ body {
     #content-dashboard */
 }
 
-body main {
+#kpop main {
   -ms-grid-column: 1;
   -ms-grid-column-span: 7;
   grid-column: 1 / 8;
 }
 
-body .dir-change {
+#kpop .dir-change {
   width: 100%;
 }
 
-body .dir-change#ults,
-body .dir-change:not(#ults) > * {
+#kpop .dir-change#ults,
+#kpop .dir-change:not(#ults) > * {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
   width: 100%;
 }
 
-body #group-sidebar {
+#kpop #group-sidebar {
   display: none;
 }
 
-body .kpop-section {
+#kpop .kpop-section {
   max-width: 100%;
 }
 
-body #ults .ult {
+#kpop #ults .ult {
   /* only add margin to .ult if there is another .ult before it */
 }
 
-body #ults .ult + .ult {
+#kpop #ults .ult + .ult {
   margin-top: 3vw;
 }
 
-body #ults .ult .ult-btn-img {
+#kpop #ults .ult .ult-btn-img {
   width: 100%;
 }
 
-body #content-dashboard .content-table {
+#kpop #content-dashboard .content-table {
   overflow: auto;
   width: 85vw;
 }
