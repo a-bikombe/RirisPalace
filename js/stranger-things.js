@@ -56,7 +56,7 @@ function lazyloadCarousels() {
             }, 20);
         }
 
-        document.addEventListener('DOMContentLoaded', lazyload);
+        window.addEventListener('load', lazyload);
         document.addEventListener('scroll', lazyload);
         window.addEventListener('resize', lazyload);
         window.addEventListener('orientationChange', lazyload);
