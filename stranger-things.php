@@ -189,14 +189,14 @@ $scripts = [
 		</section>
 	</main>
 	
-	<aside class="side-nav flex-center">
+	<aside class="side-nav flex-center dir-col">
 		<nav class="st-sections">
 			<ul>
 				<li>Characters</li>
 				<li>Episodes</li>
 			</ul>
 		</nav>
-		<button type="button" class="collapsible-nav-btn">
+		<button type="button" class="collapsible-nav-btn border-5px">
 		<i class="collapse-icon fa-solid fa-chevrons-right"></i>
 		<i class="uncollapse-icon fa-solid fa-chevrons-left hidden"></i>
 	</button>

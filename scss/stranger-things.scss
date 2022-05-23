@@ -191,6 +191,17 @@ general */
         bottom: 10vw;
         right: 2vw;
         background: purple;
+
+        .st-sections {
+            list-style-type: none;
+        }
         
+        .collapsible-nav-btn {
+            border: 1px solid var(--theme-border);
+
+            [class*="collapse-icon"] {
+                color: var(--theme-text);
+            }
+        }
     }
 }

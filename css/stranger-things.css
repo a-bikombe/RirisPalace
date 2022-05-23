@@ -198,4 +198,16 @@ general */
   right: 2vw;
   background: purple;
 }
+
+#stranger-things .side-nav .st-sections {
+  list-style-type: none;
+}
+
+#stranger-things .side-nav .collapsible-nav-btn {
+  border: 1px solid var(--theme-border);
+}
+
+#stranger-things .side-nav .collapsible-nav-btn [class*="collapse-icon"] {
+  color: var(--theme-text);
+}
 /*# sourceMappingURL=stranger-things.css.map */
