@@ -174,7 +174,7 @@ $scripts = [
 													<?php if (substr($quote, 0, 1) === '*') { ?>
 														<li><?= $quote ?></li>
 													<?php } else { ?>
-														<li class="quote"><?= $quote ?></li>
+														<li>"<?= $quote ?>"</li>
 													<?php } ?>
 												<?php endif; ?>
 											<?php endforeach; ?>

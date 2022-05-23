@@ -262,6 +262,7 @@ $seasons = [
 				'quotes' => [
 					'ARE YOU DEAF',
 					'I think I just wanna stay home today... I mean, if that\'s okay :(',
+					'No, not his funeral, <em>screw his funeral</em>',
 					'We\'re— upset :)— :('
 				]
 			],

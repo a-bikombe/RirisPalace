@@ -173,15 +173,11 @@ general */
                         margin-bottom: 0.5rem;
                         width: 45%;
 
-                        .quote {
-                            & + .quote {
+                        li {
+                            & + li {
                                 margin-top: 0.5rem;
                             }
-
-                            &::before,
-                            &::after {
-                                content: '"';
-                            }
+                            
                         }
                     }
                 }

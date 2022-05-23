@@ -188,12 +188,8 @@ general */
   width: 45%;
 }
 
-#stranger-things #episodes .season .episode .episode-main .quotes .quote + .quote {
+#stranger-things #episodes .season .episode .episode-main .quotes li + li {
   margin-top: 0.5rem;
-}
-
-#stranger-things #episodes .season .episode .episode-main .quotes .quote::before, #stranger-things #episodes .season .episode .episode-main .quotes .quote::after {
-  content: '"';
 }
 
 #stranger-things .side-nav {
