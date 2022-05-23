@@ -155,11 +155,6 @@ general */
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
 }
 
 #stranger-things #episodes .season .episode .episode-header .rank-rating {
@@ -177,5 +172,9 @@ general */
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+}
+
+#stranger-things #episodes .season .episode .episode-main .quotes {
+  width: 40%;
 }
 /*# sourceMappingURL=stranger-things.css.map */
