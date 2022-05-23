@@ -28,6 +28,7 @@ general */
 }
 
 #stranger-things main #intro-rank {
+  gap: 5rem;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
