@@ -146,6 +146,8 @@ general */
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
+                    flex-basis: 100%;
+                    flex-grow: 1;
 
                     .rank-rating {
                         gap: 3vw;
