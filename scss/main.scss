@@ -20,7 +20,8 @@ general */
     --clr-pink: hsl(350, 100%, 88%);
     --clr-pink-t: hsla(350, 100%, 88%, 0.85);
     --clr-black: hsl(0, 0%, 0%);
-    --clr-black-t: hsla(0, 0%, 0%, 0.2);
+    --clr-black-t4: hsla(0, 0%, 0%, 0.4);
+    --clr-black-t2: hsla(0, 0%, 0%, 0.2);
     --clr-gray-10: hsl(0, 0%, 10%);
     --clr-gray-20: hsl(0, 0%, 20%);
     --clr-gray-20-t: hsla(0, 0%, 20%, 0.6);
@@ -270,7 +271,7 @@ body {
     --theme-bg: var(--clr-white);
     --theme-text: var(--clr-gray-10);
     --theme-border: var(--clr-gray-90);
-    --theme-box-shadow-direct: 0 0 10px 3px var(--clr-black-t);
+    --theme-box-shadow-direct: 0 0 10px 3px var(--clr-black-t2);
     --theme-link: var(--clr-blue-dark);
     --theme-login: var(--clr-green-dark);
     --theme-logout: var(--clr-red-dark);
