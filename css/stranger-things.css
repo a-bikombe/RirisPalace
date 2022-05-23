@@ -232,13 +232,13 @@ general */
   transition: var(--transition-size-text);
 }
 
+#stranger-things .side-nav .st-sections-nav-item.heading {
+  padding-top: 0.25rem;
+}
+
 #stranger-things .side-nav .st-sections-nav-item a {
   color: var(--clr-white);
   text-decoration: none;
-}
-
-#stranger-things .side-nav .st-sections-nav-item a > strong + a > strong {
-  padding-top: 0.25rem;
 }
 
 #stranger-things .side-nav .st-sections-nav-item a:hover {

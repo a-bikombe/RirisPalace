@@ -214,13 +214,13 @@ general */
                 &-item {
                     transition: var(--transition-size-text);
 
+                    &.heading {
+                        padding-top: 0.25rem;
+                    }
+
                     a {
                         color: var(--clr-white);
                         text-decoration: none;
-
-                        &>strong + a>strong {
-                            padding-top: 0.25rem;
-                        }
 
                         &:hover {
                             text-shadow: var(--text-shadow-white);
