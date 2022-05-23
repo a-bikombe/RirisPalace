@@ -615,7 +615,6 @@ $seasons = [
 				'rating' => '',
 				'thoughts' => '',
 				'quotes' => [
-					'',
 					''
 				]
 			],
@@ -625,7 +624,6 @@ $seasons = [
 				'rating' => '',
 				'thoughts' => '',
 				'quotes' => [
-					'',
 					''
 				]
 			],
@@ -635,7 +633,6 @@ $seasons = [
 				'rating' => '',
 				'thoughts' => '',
 				'quotes' => [
-					'',
 					''
 				]
 			],
@@ -645,7 +642,6 @@ $seasons = [
 				'rating' => '',
 				'thoughts' => '',
 				'quotes' => [
-					'',
 					''
 				]
 			],
@@ -655,7 +651,6 @@ $seasons = [
 				'rating' => '',
 				'thoughts' => '',
 				'quotes' => [
-					'',
 					''
 				]
 			],
@@ -665,7 +660,6 @@ $seasons = [
 				'rating' => '',
 				'thoughts' => '',
 				'quotes' => [
-					'',
 					''
 				]
 			],
@@ -675,7 +669,6 @@ $seasons = [
 				'rating' => '',
 				'thoughts' => '',
 				'quotes' => [
-					'',
 					''
 				]
 			],
@@ -685,7 +678,6 @@ $seasons = [
 				'rating' => '',
 				'thoughts' => '',
 				'quotes' => [
-					'',
 					''
 				]
 			],
@@ -695,7 +687,6 @@ $seasons = [
 				'rating' => '',
 				'thoughts' => '',
 				'quotes' => [
-					'',
 					''
 				]
 			]

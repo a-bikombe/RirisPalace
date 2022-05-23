@@ -159,7 +159,7 @@ $scripts = [
 										</span>
 									</div>
 								</section>
-								<section class="episode-main flex-align dir-change">
+								<section class="episode-main flex dir-change">
 									<section class="thoughts">
 										<h5 class="thoughts-title text-center">Thoughts</h5>
 										<p><?= $episode['thoughts'] ?></p>
