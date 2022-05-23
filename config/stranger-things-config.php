@@ -220,7 +220,7 @@ $seasons = [
 				'title' => 'The Vanishing of Will Byers',
 				'rank' => '22',
 				'rating' => '3',
-				'thoughts' => '',
+				'thoughts' => 'A classic. This episode perfectly sets the mood for a spooky winter season. Everyone was so young, and I always get so nostalgic watching this.',
 				'moments' => [
 					'IT ROARS IN ANGER',
 					'The campaign took two weeks to plan! How was I supposed to know it was gonna take ten hours...',
@@ -231,39 +231,38 @@ $seasons = [
 				'title' => 'The Weirdo on Maple Street',
 				'rank' => '16',
 				'rating' => '4',
-				'thoughts' => '',
+				'thoughts' => 'Hazy Shade Of Winter playing in the credits after Barb goes missing is probably my favorite ending to any ST episode.',
 				'moments' => [
 					'...Well my name\'s Mike, short for Michael',
 					'We have OJ, skim milk, what else...',
 					'...The last time I told you I was sick you made me go to school anyway—',
-					'We never would\'ve upset you if we knew you had superpowers',
-					'*Hazy Shade Of Winter playing in credits*'
+					'We never would\'ve upset you if we knew you had superpowers'
 				]
 			],
 			'three' => [
 				'title' => 'Holly, Jolly',
 				'rank' => '23',
 				'rating' => '2',
-				'thoughts' => '',
+				'thoughts' => 'A classic with the wall alphabet. The kids finding Will at the end with Heroes playing in the background always makes me so sad. It always devastates me to see anyone yelling at El, especially Mike.',
 				'moments' => [
 					'We need energy for our travels for stamina',
 					'I bet that she could make this fly',
 					'COMING',
 					'You look at her all like... \'Hi El :) Oh El, El, E\'',
 					'This is the <em>Monsta Killa</em>',
-					'*Nervous* "...Yep"'
+					'*Nervous* "...Yep"',
+					'Blink once for yes, twice for no'
 				]
 			],
 			'four' => [
 				'title' => 'The Body',
 				'rank' => '5',
 				'rating' => '5',
-				'thoughts' => '',
+				'thoughts' => 'It\'s so sad how poor Joyce sounded so crazy to anyone she spoke to. Her blasting music and screaming at the walls like "Come on... COME ON! TALK TO ME!" was a real serve.',
 				'moments' => [
 					'ARE YOU DEAF',
 					'I think I just wanna stay home today... I mean, if that\'s okay :(',
-					'We\'re— upset :)— :(',
-					'*Joyce blasting music and screaming at the walls* "Come on... COME ON! TALK TO ME!"'
+					'We\'re— upset :)— :('
 				]
 			],
 			'five' => [
@@ -299,9 +298,8 @@ $seasons = [
 				'title' => 'The Upside Down',
 				'rank' => '7',
 				'rating' => '4',
-				'thoughts' => '',
+				'thoughts' => 'Steve swinging the bat',
 				'moments' => [
-					'*Steve swinging the bat*',
 					'<em>Mike! I found the chocolate pudding!</em>'
 				]
 			]
@@ -412,11 +410,10 @@ $seasons = [
 				'title' => 'The Pollywog',
 				'rank' => '3',
 				'rating' => '5',
-				'thoughts' => 'I hated how Mike called Max annoying',
+				'thoughts' => 'I hated how Mike called Max annoying. El throwing Max off her skateboard',
 				'moments' => [
 					'That\'s like saying just because someone\'s from the Death Star doesn\'t make them bad',
-					'MR. SINCLAIR',
-					'*El throwing Max off her skateboard*'
+					'MR. SINCLAIR'
 				]
 			],
 			'four' => [
@@ -469,13 +466,12 @@ $seasons = [
 				'title' => 'The Gate',
 				'rank' => '2',
 				'rating' => '5',
-				'thoughts' => '',
+				'thoughts' => 'Lucas\'s scream',
 				'moments' => [
 					'Protecting her… PROTECTING HER?',
 					'Maybe if we set this on <em>fire</em>—" "Yeah, <em>that\'s</em> a no',
 					'Nancy?',
-					'*Lucas\'s scream*',
-					'*Screaming* "...I’m okay"'
+					'*Screaming* "...I\'m okay"'
 				]
 			]
 		]
