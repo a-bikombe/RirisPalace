@@ -165,19 +165,17 @@ $scripts = [
 									</section>
 									<section class="quotes">
 										<h5 class="quote-title text-center">Quotes</h5>
-										<div class="container">
-											<ul>
-												<?php foreach ($episode['quotes'] as $quote) : ?>
-													<?php if ($quote !== '') : ?>
-														<?php if (substr($quote, 0, 1) === '*') { ?>
-															<li><?= $quote ?></li>
-														<?php } else { ?>
-															<li>"<?= $quote ?>"</li>
-														<?php } ?>
-													<?php endif; ?>
-												<?php endforeach; ?>
-											</ul>
-										</div>
+										<ul>
+											<?php foreach ($episode['quotes'] as $quote) : ?>
+												<?php if ($quote !== '') : ?>
+													<?php if (substr($quote, 0, 1) === '*') { ?>
+														<li><?= $quote ?></li>
+													<?php } else { ?>
+														<li>"<?= $quote ?>"</li>
+													<?php } ?>
+												<?php endif; ?>
+											<?php endforeach; ?>
+										</ul>
 									</section>
 								</section>
 							</section>
