@@ -197,8 +197,8 @@ $scripts = [
 			</ul>
 		</nav>
 		<button type="button" class="collapsible-nav-btn border-5px">
-		<i class="collapse-icon fa-chevron-right"></i>
-		<i class="uncollapse-icon fa-chevron-left hidden"></i>
+		<i class="collapse-icon fa-solid fa-chevron-right"></i>
+		<i class="uncollapse-icon fa-solid fa-chevron-left hidden"></i>
 	</button>
 	</aside>
 	<?php require_once 'include/footer.php'; ?>

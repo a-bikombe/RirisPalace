@@ -207,10 +207,7 @@ general */
   border: 1px solid var(--theme-border);
 }
 
-#stranger-things .side-nav .collapsible-nav-btn [class*="collapse-icon"] {
-  font-style: normal;
-  font-variant: normal;
-  line-height: 1;
-  text-rendering: auto;
+#stranger-things .side-nav .collapsible-nav-btn [class*="collapse-icon"].hidden {
+  display: none;
 }
 /*# sourceMappingURL=stranger-things.css.map */

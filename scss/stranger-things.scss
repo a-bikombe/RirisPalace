@@ -174,7 +174,6 @@ general */
                         width: 45%;
 
                         .quote {
-
                             &::before,
                             &::after {
                                 content: '"';
@@ -195,15 +194,12 @@ general */
         .st-sections {
             list-style-type: none;
         }
-        
+
         .collapsible-nav-btn {
             border: 1px solid var(--theme-border);
 
-            [class*="collapse-icon"] {
-                font-style: normal;
-    font-variant: normal;
-    line-height: 1;
-    text-rendering: auto;
+            [class*="collapse-icon"].hidden {
+                display: none;
             }
         }
     }
