@@ -31,9 +31,6 @@ general */
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-#stranger-things main #intro-rank #intro {
   margin-inline: 10vw;
 }
 
