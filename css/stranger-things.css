@@ -207,6 +207,11 @@ general */
           transform: translateX(500px);
 }
 
+#stranger-things .side-nav .st-sections, #stranger-things .side-nav .st-sections.unhidden {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
 #stranger-things .side-nav .st-sections.unhidden {
   -webkit-transform: translateX(0px);
           transform: translateX(0px);

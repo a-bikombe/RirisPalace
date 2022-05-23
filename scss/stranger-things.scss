@@ -195,6 +195,11 @@ general */
         .st-sections {
             transform: translateX(500px);
 
+            &,
+            &.unhidden {
+                transition: all 0.2s ease-in-out;
+            }
+
             &.unhidden {
                 transform: translateX(0px);
             }
