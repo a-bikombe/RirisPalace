@@ -31,7 +31,7 @@ general */
         margin-inline: 10vw;
 
         .no-link-color {
-            color: var(--theme-dark-text);
+            color: var(--theme-text);
         }
 
         .countdown {
@@ -187,7 +187,6 @@ general */
 
     .side-nav {
         align-items: flex-end;
-        background: purple;
         bottom: 5rem;
         gap: var(--footer-spacing-right);
         position: fixed;
@@ -196,7 +195,8 @@ general */
         .st-sections {
 
             &-nav {
-                background-color: var(--clr-black-t);
+                background-color: var(--theme-text);
+                color: var(--theme-bg);
                 list-style-type: none;
                 margin: auto;
                 padding: 0.25rem;

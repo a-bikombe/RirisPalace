@@ -32,7 +32,7 @@ general */
 }
 
 #stranger-things #intro .no-link-color {
-  color: var(--theme-dark-text);
+  color: var(--theme-text);
 }
 
 #stranger-things #intro .countdown:not(.hidden) {
@@ -196,7 +196,6 @@ general */
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  background: purple;
   bottom: 5rem;
   gap: var(--footer-spacing-right);
   position: fixed;
@@ -204,7 +203,8 @@ general */
 }
 
 #stranger-things .side-nav .st-sections-nav {
-  background-color: var(--clr-black-t);
+  background-color: var(--theme-text);
+  color: var(--theme-bg);
   list-style-type: none;
   margin: auto;
   padding: 0.25rem;
