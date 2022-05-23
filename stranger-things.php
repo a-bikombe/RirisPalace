@@ -188,25 +188,24 @@ $scripts = [
 			<?php endforeach; ?>
 		</section>
 	</main>
-	
+
 	<aside class="side-nav flex dir-col">
 		<nav class="st-sections text-center border-5px">
 			<ul class="st-sections-nav">
-			<li class="st-sections-nav-item"><a href="#intro">Intro</a></li>
+				<li class="st-sections-nav-item"><a href="#intro">Intro</a></li>
 				<li class="st-sections-nav-item"><a href="#characters">Characters</a></li>
-				<?php foreach($seasons as $season) : ?>
-					<?php foreach($season['characters'] as $character => $characterInfo) : ?>
-						<li class="st-sections-nav-item"><a href="#<?= $character ?>">Episodes</a></li>
-						<?= ucfirst($character) ?>
-				<?php endforeach; ?>
+				<?php foreach ($seasons as $season) : ?>
+					<?php foreach ($season['characters'] as $character => $characterInfo) : ?>
+						<li class="st-sections-nav-item"><a href="#<?= $character ?>"><?= ucfirst($character) ?></a></li>
+					<?php endforeach; ?>
 				<?php endforeach; ?>
 				<li class="st-sections-nav-item"><a href="#episodes">Episodes</a></li>
 			</ul>
 		</nav>
 		<button type="button" class="collapsible-nav-btn border-5px">
-		<i class="collapse-icon fa-solid fa-chevron-right hidden"></i>
-		<i class="uncollapse-icon fa-solid fa-chevron-left"></i>
-	</button>
+			<i class="collapse-icon fa-solid fa-chevron-right hidden"></i>
+			<i class="uncollapse-icon fa-solid fa-chevron-left"></i>
+		</button>
 	</aside>
 	<?php require_once 'include/footer.php'; ?>
 </body>
