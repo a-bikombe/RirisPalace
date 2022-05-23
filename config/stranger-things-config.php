@@ -219,7 +219,7 @@ $seasons = [
 			'one' => [
 				'title' => 'The Vanishing of Will Byers',
 				'rank' => '22',
-				'rating' => '',
+				'rating' => '3',
 				'thoughts' => '',
 				'quotes' => [
 					'',
