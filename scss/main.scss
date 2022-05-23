@@ -614,6 +614,8 @@ include/footer.php */
             box-shadow: var(--theme-box-shadow-direct);
             color: var(--clr-black);
             overflow: hidden;
+            padding: 0.25rem;
+            text-decoration: none;
             transition: var(--transition-size-text);
 
             &:hover,
