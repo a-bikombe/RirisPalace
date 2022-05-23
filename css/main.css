@@ -649,7 +649,9 @@ body footer {
 }
 
 body footer .footer-btn {
+  background-color: var(--clr-white);
   border: 1px solid var(--clr-gray-80);
+  border: 5px;
   -webkit-box-shadow: var(--theme-box-shadow-direct);
           box-shadow: var(--theme-box-shadow-direct);
   color: var(--clr-black);
