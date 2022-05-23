@@ -195,7 +195,7 @@ general */
         .st-sections {
             transform: translateX(500px);
 
-            .unhidden {
+            &.unhidden {
                 transform: translateX(0px);
             }
 

@@ -207,7 +207,7 @@ general */
           transform: translateX(500px);
 }
 
-#stranger-things .side-nav .st-sections .unhidden {
+#stranger-things .side-nav .st-sections.unhidden {
   -webkit-transform: translateX(0px);
           transform: translateX(0px);
 }
