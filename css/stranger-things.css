@@ -190,9 +190,9 @@ general */
 
 #stranger-things #episodes .season .episode .episode-main .moments blockquote {
   margin: 0;
-}
-
-#stranger-things #episodes .season .episode .episode-main .moments blockquote::before, #stranger-things #episodes .season .episode .episode-main .moments blockquote::after {
-  content: '"';
+  /* &::before,
+                            &::after {
+                                content: '"';
+                            } */
 }
 /*# sourceMappingURL=stranger-things.css.map */

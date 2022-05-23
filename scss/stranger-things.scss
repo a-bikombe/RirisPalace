@@ -176,10 +176,10 @@ general */
                         blockquote {
                             margin: 0;
 
-                            &::before,
+                            /* &::before,
                             &::after {
                                 content: '"';
-                            }
+                            } */
                         }
                     }
                 }
