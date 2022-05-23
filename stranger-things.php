@@ -165,7 +165,7 @@ $scripts = [
 										<p><?= $episode['thoughts'] ?></p>
 									</section>
 									<section class="quotes">
-										<?php if ($episode['rating'] !== '') : ?>
+										<?php if ($episode['quotes'] !== '') : ?>
 											<h5 class="quote-title text-center">Quotes</h5>
 											<ul>
 												<?php foreach ($episode['quotes'] as $quote) : ?>
