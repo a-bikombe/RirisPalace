@@ -187,6 +187,10 @@ general */
 }
 
 #stranger-things main #episodes .season .episode .episode-main .thoughts {
+  -webkit-hyphens: manual;
+      -ms-hyphens: manual;
+          hyphens: manual;
+  overflow-wrap: break-word;
   width: 40%;
 }
 

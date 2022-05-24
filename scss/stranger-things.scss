@@ -172,6 +172,8 @@ general */
                         justify-content: space-between;
 
                         .thoughts {
+                            hyphens: manual;
+                            overflow-wrap: break-word;
                             width: 40%;
                         }
 
