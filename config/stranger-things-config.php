@@ -23,7 +23,7 @@ $links = [
 $seasons = [
 	'season-1' => [
 		'seasonName' => 'Season 1',
-		'daterelease' => 'July 15, 2016',
+		'dateRelease' => 'July 15, 2016',
 		'dateSetting' => 'November 6-12, 1983',
 		'characters' => [
 			'joyce' => [
@@ -482,7 +482,7 @@ $seasons = [
 	],
 	'season-3' => [
 		'seasonName' => 'Season 3',
-		'daterelease' => 'July 4, 2019',
+		'dateRelease' => 'July 4, 2019',
 		'dateSetting' => 'July 1-4, 1985',
 		'characters' => [
 			'robin' => [
@@ -577,7 +577,7 @@ $seasons = [
 	],
 	'season-4' => [
 		'seasonName' => 'Season 4',
-		'daterelease' => 'May 27/July 1, 2022',
+		'dateRelease' => 'May 27/July 1, 2022',
 		'dateSetting' => 'TBA',
 		'characters' => [
 			'eddie' => [
@@ -682,7 +682,7 @@ $seasons = [
 	],
 	'season-5' => [
 		'seasonName' => 'Season 5',
-		'daterelease' => 'TBA',
+		'dateRelease' => 'TBA',
 		'dateSetting' => 'TBA',
 		'characters' => [],
 		'episodes' => []
