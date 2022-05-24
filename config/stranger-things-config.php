@@ -443,9 +443,12 @@ $seasons = [
 			'five' => [
 				'title' => 'Dig Dug',
 				'rating' => '2',
-				'thoughts' => '',
+				'thoughts' => 'This episode feels mostly like filler, since it\'s middle-of-the-season stuff, but Bob helping Joyce and the kids decipher the Hawkins map is so sweet. Murray\'s ridiculous, but he\'s so funny. And I\'m kind of here for Indiana Jones Hopper. Baby Erica is <em>so cute</em>. And I loved getting to see El\'s mom\'s backstory. Will seizing on the ground at the end was so scary.',
 				'quotes' => [
-					''
+					'We only seem to hang out when the world\'s about to end',
+					'What\'s at the X? Pirate treasure?',
+					'I\'ve got a code for you instead; it\'s called Code Shut... Your... Mouth',
+					'I love you, I\'m sorry... What the hell am <em>I</em> sorry for?'
 				]
 			],
 			'six' => [
