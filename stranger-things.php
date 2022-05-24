@@ -35,7 +35,7 @@ $pageNav = [
 	'episodes' => [
 		'heading' => 'Episodes',
 		'array' => 'seasons',
-		'textContent' => '<?= ${value}[\'seasonName\'] ?>'
+		'textContent' => '<?= ${value[\'seasonName\']} ?>'
 	]
 
 ];
@@ -224,7 +224,7 @@ $pageNav = [
 					<li class="page-sections-nav-item heading"><a href="#<?= $navId ?>"><strong><?= $pageSection['heading'] ?></strong></a></li>
 					<?php if (array_key_exists('array', $pageSection)) : ?>
 						<?php foreach (${$pageSection['array']} as $key => $value) : ?>
-							<li class="page-sections-nav-item"><a href="#<?= $key ?>-<?= $navId ?>"><?= html_entity_decode($pageSection['textContent']) ?></a></li>
+							<li class="page-sections-nav-item"><a href="#<?= $key ?>-<?= $navId ?>"><?= $pageSection['textContent'] ?></a></li>
 							<!-- <li class="page-sections-nav-item"><a href="#<?= $key ?>-<?= $navId ?>"><?= $value['seasonName'] ?></a></li> -->
 						<?php endforeach; ?>
 					<?php endif; ?>
