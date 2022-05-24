@@ -172,8 +172,8 @@ $pageNav = [
 				<section class="season border-10px" id="<?= $seasonId ?>-episodes" aria-label="<?= $season['seasonName'] ?>">
 					<h3 class="season-title"><?= $season['seasonName'] ?></h3>
 					<div class="dates flex-align dir-change">
-						<p class="subtitle date-release">Release: <?= $season['dateRelease'] ?></p>
-						<p class="subtitle date-setting">Setting: <?= $season['dateSetting'] ?></p>
+						<p class="subtitle date-release">Release: <strong><?= $season['dateRelease'] ?></strong></p>
+						<p class="subtitle date-setting">Setting: <strong><?= $season['dateSetting'] ?></strong></p>
 					</div>
 					<?php if (isset($season['episodes'])) : ?>
 						<?php foreach ($season['episodes'] as $episodeId => $episode) : ?>
