@@ -424,9 +424,11 @@ $seasons = [
 			'three' => [
 				'title' => 'The Pollywog',
 				'rating' => '5',
-				'thoughts' => '',
+				'thoughts' => 'November 1st, 1984: aka Sweater Day. This day would\'ve been perfect had Mike not called Max annoying. El throwing Max off her skateboard was kind of funny though. Also, baby Dart is kind of cute.',
 				'quotes' => [
-					''
+					'On Day 600, on Day 700? Day 800?',
+					'I need my paddles!',
+					'That\'s like saying just because someone\'s from the Death Star doesn\'t make them bad'
 				]
 			],
 			'four' => [
