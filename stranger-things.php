@@ -29,7 +29,7 @@ $pageNav = [
 	],
 	'characters' => [
 		'heading' => 'Characters',
-		$array => $seasons,
+		'array' => $seasons,
 		'href' => '<?= $key ?>-characters',
 		'textContent' => 'Season <?= substr($value["seasonName"], -1) ?>'
 	],
