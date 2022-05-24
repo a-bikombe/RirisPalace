@@ -26,7 +26,7 @@ $scripts = [
         <img src="/images/gifs/corg-sad.gif" alt="Corg Sad" class="gif">
         <section class="text" aria-label="404 Error Text">
             <h1>Uh Oh!</h1>
-            <p>404.</p>
+            <p>I don't know how to help you. Maybe you typed in the wrong address? Was given the wrong link? You can figure it out; I believe in you.</p>
             <p>Click <a href="/">here</a> to return to the homepage.</p>
         </section>
     </main>
