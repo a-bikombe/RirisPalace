@@ -146,6 +146,12 @@ general */
   margin-top: 20px;
 }
 
+#stranger-things main #episodes .season .dates {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 #stranger-things main #episodes .season .episode {
   background: var(--clr-white);
   gap: 1vw;

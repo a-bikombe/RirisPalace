@@ -23,6 +23,8 @@ $links = [
 $seasons = [
 	'season-1' => [
 		'seasonName' => 'Season 1',
+		'daterelease' => 'July 15, 2016',
+		'dateSetting' => 'November 6-12, 1983',
 		'characters' => [
 			'joyce' => [
 				'images' => [
@@ -315,6 +317,8 @@ $seasons = [
 	],
 	'season-2' => [
 		'seasonName' => 'Season 2',
+		'daterelease' => 'October 27, 2017',
+		'dateSetting' => 'October 30 - November , 1984',
 		'characters' => [
 			'max' => [
 				'images' => [
@@ -398,9 +402,12 @@ $seasons = [
 			'one' => [
 				'title' => 'MADMAX',
 				'rating' => '3',
-				'thoughts' => '',
+				'thoughts' => 'Bob and Miss Max are here! The cinematography in the arcade scene, with the boys surrounding the game screen and Max\'s name showing up on the leaderboard. And I love the way that they slowly showed El\'s presence in the cabin before seeing her for the first time this season.',
 				'quotes' => [
-					'I\'m not <em>prostituting my sister</em>'
+					'*Nancy chasing Mike through the house* "Mike! Get <em>back here!</em>"',
+					'I\'m not <em>prostituting my sister</em>',
+					'Yeah, I heard that one; did you hear the one about the fat man with the beard who climbs down chimneys?',
+					'Is that why you don\'t have any friends?'
 				]
 			],
 			'two' => [
@@ -408,18 +415,15 @@ $seasons = [
 				'rating' => '4',
 				'thoughts' => '',
 				'quotes' => [
-					'*Scary music* "OH— <em>Jesus</em>"',
-					'I specifically didn\'t agree to Winston'
+					''
 				]
 			],
 			'three' => [
 				'title' => 'The Pollywog',
 				'rating' => '5',
-				'thoughts' => 'I hated how Mike called Max annoying. El throwing Max off her skateboard',
+				'thoughts' => '',
 				'quotes' => [
-					'I need my paddles!',
-					'That\'s like saying just because someone\'s from the Death Star doesn\'t make them bad',
-					'MR. SINCLAIR'
+					''
 				]
 			],
 			'four' => [
@@ -427,7 +431,7 @@ $seasons = [
 				'rating' => '3',
 				'thoughts' => '',
 				'quotes' => [
-					'You say... I go, and I never leave! <em>Nothing ever happens!</em>'
+					''
 				]
 			],
 			'five' => [
@@ -459,25 +463,27 @@ $seasons = [
 				'rating' => '4',
 				'thoughts' => '',
 				'quotes' => [
-					'We can\'t just sit here while those <em>things</em> are loose',
-					'It\'s like a play on words—" "Okay'
+					'',
+					''
 				]
 			],
 			'nine' => [
 				'title' => 'The Gate',
 				'rating' => '5',
-				'thoughts' => 'Lucas\'s scream',
+				'thoughts' => '',
 				'quotes' => [
-					'Protecting her… PROTECTING HER?',
-					'Maybe if we set this on <em>fire</em>—" "Yeah, <em>that\'s</em> a no',
-					'Nancy?',
-					'*Screaming* "...I\'m okay"'
+					'',
+					'',
+					'',
+					''
 				]
 			]
 		]
 	],
 	'season-3' => [
 		'seasonName' => 'Season 3',
+		'daterelease' => 'July 4, 2019',
+		'dateSetting' => 'July 1-4, 1985',
 		'characters' => [
 			'robin' => [
 				'images' => [
@@ -571,6 +577,8 @@ $seasons = [
 	],
 	'season-4' => [
 		'seasonName' => 'Season 4',
+		'daterelease' => 'May 27/July 1, 2022',
+		'dateSetting' => 'TBA',
 		'characters' => [
 			'eddie' => [
 				'images' => [
@@ -674,6 +682,8 @@ $seasons = [
 	],
 	'season-5' => [
 		'seasonName' => 'Season 5',
+		'daterelease' => 'TBA',
+		'dateSetting' => 'TBA',
 		'characters' => [],
 		'episodes' => []
 	]
