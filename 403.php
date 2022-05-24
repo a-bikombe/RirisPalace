@@ -7,7 +7,7 @@ $iconPath = '/images/icons/403.png';
 $styles = [];
 
 $mobileStyles = [
-	'main' => '700'
+	'main' => '600'
 ];
 
 $scripts = [
