@@ -222,10 +222,14 @@ $pageNav = [
 					<li class="page-sections-nav-item heading"><a href="#<?= $navId ?>"><strong><?= $pageSection['heading'] ?></strong></a></li>
 					<?php if (array_key_exists('array', $pageSection)) : ?>
 						<?php foreach ($pageSection['array'] as $key => $value) : ?>
-							<?php if ($pageSection['array'] === $seasons) { ?>
-								<li class="page-sections-nav-item"><a href="#<?= $key ?>-<?= $navId ?>"><?= $value['seasonName'] ?></a></li>
-							<?php } else { ?>
-								<li class="page-sections-nav-item"><a href="#<?= $key ?>-<?= $navId ?>"><?= $pageSection['textContent'] ?></a></li>
+							<?php switch ($pageSection['array']) {
+								case $seasons: ?>
+									<li class="page-sections-nav-item"><a href="#<?= $key ?>-<?= $navId ?>"><?= $value['seasonName'] ?></a></li>
+									<?php break; ?>
+								<?php
+								default: ?>
+									<li class="page-sections-nav-item"><a href="#<?= $key ?>-<?= $navId ?>"><?= $pageSection['textContent'] ?></a></li>
+									<?php break; ?>
 							<?php } ?>
 						<?php endforeach; ?>
 					<?php endif; ?>
