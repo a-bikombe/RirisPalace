@@ -17,7 +17,7 @@ $cdnScripts = [
 	'fontAwesome' => 'src="https://kit.fontawesome.com/f6cc5a7fc1.js" crossorigin="anonymous"'
 ];
 
-$version = '1.1.4';
+$version = '1.1.5';
 
 ?>
 
