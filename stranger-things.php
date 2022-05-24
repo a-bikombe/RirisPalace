@@ -35,7 +35,7 @@ $pageNav = [
 	'episodes' => [
 		'heading' => 'Episodes',
 		'array' => 'seasons',
-		'textContent' => 'Season <?= substr(${value}["seasonName"], -1) ?>'
+		'textContent' => 'Season <?= ${value}["seasonName"] ?>'
 	]
 
 ];
