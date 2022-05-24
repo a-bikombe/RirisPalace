@@ -48,7 +48,7 @@ $cdnScripts = [
 	<?php endforeach; ?>
 
 	<?php foreach ($scripts as $script) : ?>
-		<script src="js/<?= $script ?>.js" defer></script>
+		<script src="js/<?= $script ?>.js?v=1.1.0" defer></script>
 	<?php endforeach; ?>
 
 </head>
