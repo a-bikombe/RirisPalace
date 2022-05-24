@@ -413,7 +413,7 @@ $seasons = [
 			'two' => [
 				'title' => 'Trick or Treat, Freak',
 				'rating' => '4',
-				'thoughts' => 'I love watching Hopper and El bond as father and daughter, and the kids in their little Ghostbusters costumes are <em>so cute!</em> I miss Will getting to talk to Mike about his problems and having him as his main support system. It makes me so sad that El and Will would understand each other so well and could be the closest of friends based on their shared trauma involving the Upside Down, but the opportunity is wasted because they\'re always fighting over Mike.',
+				'thoughts' => 'I love watching Hopper and El bond as father and daughter, and the kids in their little Ghostbusters costumes are <em>so cute!</em> I miss Will getting to talk to Mike about his problems and having him as his main support system.',
 				'quotes' => [
 					'*Scary music* "OH— <em>Jesus</em>"',
 					'I specifically didn\'t agree to Winston',
@@ -529,7 +529,7 @@ $seasons = [
 			'three' => [
 				'title' => 'The Case of the Missing Lifeguard',
 				'rating' => '2',
-				'thoughts' => '',
+				'thoughts' => 'It makes me so sad that El and Will would understand each other so well and could be the closest of friends based on their shared trauma involving the Upside Down, but the opportunity is wasted because they\'re always fighting over Mike.',
 				'quotes' => [
 					'Is it <em>early</em>, Michael',
 					'yEaH'
