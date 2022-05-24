@@ -271,7 +271,7 @@ $seasons = [
 					'Take another photo? Yell at it?',
 					'We\'re... in mourning',
 					'You\'re blind because you like that a girl\'s not grossed out by you',
-					'NYU, Lonnie! He\'s wanted to go to NYU since he was <em>six years old</em>!',
+					'NYU, Lonnie! He\'s wanted to go to NYU since he was <em>six years old!</em>',
 					'Bull, that\'s old blood! Right, El? ...<em>Right, El?</em>'
 				]
 			],
@@ -303,7 +303,7 @@ $seasons = [
 				'rating' => '4',
 				'thoughts' => 'Hopper\'s flashbacks with his daughter make me sob. And Steve fighting with Nancy and Jonathan is <em>so cool!</em> Him swinging the baseball bat with all the lights flickering around him was probably one of my favorite parts of the whole season.',
 				'quotes' => [
-					'*Steve gets a gun pointed at him* "Wait, woah, woah, <em>what</em>?"',
+					'*Steve gets a gun pointed at him* "Wait, woah, woah, <em>what?</em>"',
 					'<em>Mike! I found the chocolate pudding!</em>'
 				]
 			]
