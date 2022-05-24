@@ -228,9 +228,11 @@ $name = 'seasonName';
 			<ul class="page-sections-nav">
 				<?php foreach ($pageNav as $navId => $pageSection) : ?>
 					<li class="page-sections-nav-item heading"><a href="#<?= $navId ?>"><strong><?= $pageSection['heading'] ?></strong></a></li>
-					<?php foreach ($pageSection['array'] as $key => $value) : ?>
-						<li class="page-sections-nav-item"><a href="#<?= $pageSection['href'] ?>"><?= $pageSection['textContent'] ?></a></li>
-					<?php endforeach; ?>
+					<?php if ($pageSection['array'] !== null) : ?>
+						<?php foreach ($pageSection['array'] as $key => $value) : ?>
+							<li class="page-sections-nav-item"><a href="#<?= $pageSection['href'] ?>"><?= $pageSection['textContent'] ?></a></li>
+						<?php endforeach; ?>
+					<?php endif; ?>
 				<?php endforeach; ?>
 			</ul>
 		</nav>
