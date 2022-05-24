@@ -434,9 +434,10 @@ $seasons = [
 			'four' => [
 				'title' => 'Will the Wise',
 				'rating' => '3',
-				'thoughts' => '',
+				'thoughts' => 'The second time they\'re ruining the Byers\' house: iconic. It seems like everyone likes to brush past the idea that Billy\'s inherently racist',
 				'quotes' => [
-					''
+					'You say... I go, and I never leave! <em>Nothing ever happens!</em>',
+					'Let\'s burn that lab to the ground'
 				]
 			],
 			'five' => [
@@ -550,7 +551,7 @@ $seasons = [
 				'rating' => '2',
 				'thoughts' => '',
 				'quotes' => [
-					''
+					'This is my... <em>family</em>—" "—Extended'
 				]
 			],
 			'six' => [
