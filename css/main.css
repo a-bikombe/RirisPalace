@@ -406,6 +406,15 @@ body#error .text {
   padding-top: 6vh;
 }
 
+body#error .text a {
+  -webkit-transition: var(--transition-clr-text), text-shadow 0.2 ease-in-out;
+  transition: var(--transition-clr-text), text-shadow 0.2 ease-in-out;
+}
+
+body#error .text a:hover {
+  text-shadow: var(--text-shadow-white);
+}
+
 body .overlay {
   gap: 3vw;
   left: 0;

@@ -363,6 +363,14 @@ body {
 
         .text {
             padding-top: 6vh;
+
+            a {
+                transition: var(--transition-clr-text), text-shadow 0.2 ease-in-out;
+
+                &:hover {
+                    text-shadow: var(--text-shadow-white);
+                }
+            }
         }
     }
 
