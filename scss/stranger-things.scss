@@ -27,9 +27,9 @@ general */
         padding: 50px 15vw;
 
         #intro-rank {
-            gap: 5rem;
+            gap: var(--section-spacing);
             justify-content: space-between;
-            margin: 50px 5vw 0;
+            margin: var(--section-spacing) 5vw 0;
         
             #intro {
     
@@ -46,7 +46,7 @@ general */
                 }
 
                 #plot {
-                    margin-top: 50px;
+                    margin-top: var(--section-spacing);
                 }
             }
 

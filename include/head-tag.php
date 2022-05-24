@@ -17,6 +17,8 @@ $cdnScripts = [
 	'fontAwesome' => 'src="https://kit.fontawesome.com/f6cc5a7fc1.js" crossorigin="anonymous"'
 ];
 
+$version = '1.1.1';
+
 ?>
 
 <head>
@@ -33,14 +35,14 @@ $cdnScripts = [
 		<link <?= $style ?>>
 	<?php endforeach; ?>
 
-	<link href="css/main.css?v=1.1.0" rel="stylesheet">
+	<link href="css/main.css?v=<?= $version ?>" rel="stylesheet">
 
 	<?php foreach ($styles as $style) : ?>
-		<link href="css/<?= $style ?>.css?v=1.1.0" rel="stylesheet">
+		<link href="css/<?= $style ?>.css?v=<?= $version ?>" rel="stylesheet">
 	<?php endforeach; ?>
 
 	<?php foreach ($mobileStyles as $style => $width) : ?>
-		<link href="css/<?= $style ?>-mobile.css?v=1.1.0" rel="stylesheet" media="screen and (max-width:<?= $width ?>px)">
+		<link href="css/<?= $style ?>-mobile.css?v=<?= $version ?>" rel="stylesheet" media="screen and (max-width:<?= $width ?>px)">
 	<?php endforeach; ?>
 
 	<?php foreach ($cdnScripts as $script) : ?>
@@ -48,7 +50,7 @@ $cdnScripts = [
 	<?php endforeach; ?>
 
 	<?php foreach ($scripts as $script) : ?>
-		<script src="js/<?= $script ?>.js?v=1.1.0" defer></script>
+		<script src="js/<?= $script ?>.js?v=<?= $version ?>" defer></script>
 	<?php endforeach; ?>
 
 </head>

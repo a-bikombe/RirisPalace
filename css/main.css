@@ -41,6 +41,7 @@ general */
   --transition-clr-border: border-color 0.2s ease-in-out;
   --text-shadow-white: 0 0 0.125em var(--clr-white-t), 0 0 0.45em currentColor;
   /* spacing */
+  --section-spacing: 5vw;
   --footer-spacing-right: 1.5rem;
   font-size: 15px;
 }
