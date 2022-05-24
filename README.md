@@ -1,7 +1,5 @@
 # Welcome to my personal website!
 
----
-
 ## Pages
 
 ### Homepage
@@ -15,8 +13,8 @@
 	* *validation/kpop.php* - Hasn't been created yet
 * [x] [stranger-things.php](aribikombe.com/stranger-things.php) - Stranger Things
 	* *config/stranger-things-config.php*
-* [ ] [marvel.php](aribikombe.com/marvel.php) - 
-* [ ] [star-wars.php](aribikombe.com/star-wars.php) - 
+* [ ] [marvel.php](aribikombe.com/marvel.php) - Marvel
+* [ ] [star-wars.php](aribikombe.com/star-wars.php) - Star Wars
 
 ### Login
 * [x] [login.php](aribikombe.com/login.php) - Login Button in Header
