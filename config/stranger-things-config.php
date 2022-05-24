@@ -286,7 +286,7 @@ $seasons = [
 			],
 			'seven' => [
 				'title' => 'The Bathtub',
-				'rating' => '2',
+				'rating' => '3',
 				'thoughts' => 'Nothing will outdo the chase scene with the kids on the bikes where El flips the van. Everyone tries, but no one succeeds. And poor Jonathan always tries to fix things on his own, and it makes me so sad.',
 				'quotes' => [
 					'...You SOB!',
