@@ -714,7 +714,9 @@ body .side-nav .page-sections-nav-item:hover {
 }
 
 body .side-nav .collapsible-nav-btn {
+  background-color: var(--clr-white);
   border: 1px solid var(--theme-border);
+  color: var(--clr-black);
   padding: 0.5rem 1rem;
   -webkit-transition: var(--transition-size-text);
   transition: var(--transition-size-text);

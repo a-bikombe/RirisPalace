@@ -667,7 +667,9 @@ body {
         }
 
         .collapsible-nav-btn {
+            background-color: var(--clr-white);
             border: 1px solid var(--theme-border);
+            color: var(--clr-black);
             padding: 0.5rem 1rem;
             transition: var(--transition-size-text);
 
