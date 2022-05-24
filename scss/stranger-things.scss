@@ -236,6 +236,11 @@ general */
             border: 1px solid var(--theme-border);
             padding: 0.5rem 1rem;
 
+            &:hover,
+            &:focus-visible {
+                font-size: 1.1rem;
+            }
+
             [class*="collapse-icon"].hidden {
                 display: none;
             }

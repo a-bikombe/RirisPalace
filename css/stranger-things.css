@@ -249,6 +249,10 @@ general */
   padding: 0.5rem 1rem;
 }
 
+#stranger-things .side-nav .collapsible-nav-btn:hover, #stranger-things .side-nav .collapsible-nav-btn:focus-visible {
+  font-size: 1.1rem;
+}
+
 #stranger-things .side-nav .collapsible-nav-btn [class*="collapse-icon"].hidden {
   display: none;
 }
