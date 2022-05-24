@@ -289,6 +289,8 @@ $seasons = [
 				'rating' => '2',
 				'thoughts' => '',
 				'quotes' => [
+					'...You SOB!',
+					'If anyone asks where I am, I\'ve left the country',
 					'Did you see that??" "No, Dustin, we missed it'
 				]
 			],
