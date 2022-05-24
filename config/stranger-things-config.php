@@ -304,7 +304,8 @@ $seasons = [
 				'thoughts' => 'Hopper\'s flashbacks with his daughter make me sob. And Steve fighting with Nancy and Jonathan is <em>so cool!</em> Him swinging the baseball bat with all the lights flickering around him was probably one of my favorite parts of the whole season.',
 				'quotes' => [
 					'*Steve gets a gun pointed at him* "Wait, woah, woah, <em>what?</em>"',
-					'<em>Mike! I found the chocolate pudding!</em>'
+					'<em>Mike! I found the chocolate pudding!</em>',
+					'You go to school dances with someone that you... like'
 				]
 			]
 		]
