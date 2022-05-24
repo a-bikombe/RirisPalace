@@ -399,7 +399,7 @@ body#error .gif {
   border-radius: 5vw;
   -webkit-box-shadow: var(--theme-box-shadow-direct);
           box-shadow: var(--theme-box-shadow-direct);
-  width: calc(20vw + 100px);
+  width: clamp(5px, calc(20vw + 100px), 200px);
 }
 
 body#error .text {
