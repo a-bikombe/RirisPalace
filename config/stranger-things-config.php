@@ -289,7 +289,7 @@ $seasons = [
 				'rating' => '3',
 				'thoughts' => 'Nothing will outdo the chase scene with the kids on the bikes where El flips the van. Everyone tries, but no one succeeds. Also, Dustin and Lucas trying to set up the kiddie pool was funny.',
 				'quotes' => [
-					'...You SOB!',
+					'*Indistinct shouting over the walkie* "...You SOB"',
 					'If anyone asks where I am, I\'ve left the country',
 					'Did you see that??" "No, Dustin, we missed it',
 					'Because you couldn\'t take Jonathan Byers',
@@ -413,6 +413,7 @@ $seasons = [
 				'rating' => '5',
 				'thoughts' => 'I hated how Mike called Max annoying. El throwing Max off her skateboard',
 				'quotes' => [
+					'I need my paddles!',
 					'That\'s like saying just because someone\'s from the Death Star doesn\'t make them bad',
 					'MR. SINCLAIR'
 				]
