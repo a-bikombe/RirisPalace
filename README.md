@@ -37,6 +37,7 @@
 * [x] **include/loading-page.php** - Loading Page
 * [x] **include/under-construction.php** - Construction Page for Unfinished Pages
 * [x] **include/header.php** - Header Banner
+* [x] **include/page-nav.php** - Collapsible Page Navigation
 * [x] **include/footer.php** - Footer Button
 
 ## Extra Config
@@ -58,7 +59,7 @@
 
 ## Scripts (VanillaJS)
 
-* js/main.js - loadingPage()
+* js/main.js - loadingPage(), collapsibleSidebar()
 * js/kpop.js - lazyloadModalImages(), soon searchBarKpop() and reorderGroups()
 * js/login-signup.js - matchPasswords()
 * js/profile.js - showDeleteForm()

@@ -24,6 +24,18 @@ $scripts = [
 
 $ultBias = 'HueningKai';
 
+$pageNav = [
+	'ults' => [
+		'heading' => 'Ults'
+	],
+	'groups' => [
+		'heading' => 'Groups'
+	],
+	'content-dashboard' => [
+		'heading' => 'Content Dashboard'
+	]
+];
+
 // populates ult bias
 foreach ($groups as $categoryID => $category) {
 	foreach ($category['groups'] as $groupID => $group) {
@@ -320,6 +332,7 @@ $underConstruction = '<img class="construction-gif" src="images/gifs/pikachu-con
 			</div>
 		</section>
 	</main>
+	<?php require_once 'include/page-nav.php'; ?>
 	<?php require_once 'include/footer.php'; ?>
 </body>
 

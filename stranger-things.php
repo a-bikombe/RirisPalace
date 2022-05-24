@@ -35,7 +35,6 @@ $pageNav = [
 		'heading' => 'Episodes',
 		'array' => $seasons
 	]
-
 ];
 
 ?>
