@@ -1,3 +1,10 @@
+/* 
+TABLE OF CONTENTS
+| 403,404.shtml
+| loading-page.php
+| header.php
+| footer.php
+*/
 
 /* ================================================================
 general */
@@ -332,7 +339,7 @@ body {
     }
 
     /* ================================================================
- 403,404.shtml */
+| 403,404.shtml */
     &#error {
         background: var(--bg-image);
         color: var(--theme-text);
@@ -359,7 +366,7 @@ body {
     }
 
     /* ================================================================
-loading-page.php */
+| loading-page.php */
 
     /* loading display */
     .overlay {
@@ -394,7 +401,7 @@ loading-page.php */
     }
 
     /* ================================================================
-header.php */
+| header.php */
 
     /* <header> tag */
     #header-banner {
@@ -608,7 +615,7 @@ login-profile.php */
     }
 
     /* ================================================================
-include/footer.php */
+| footer.php */
 
     footer {
         bottom: 2rem;

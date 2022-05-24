@@ -1,3 +1,9 @@
+/* 
+TABLE OF CONTENTS
+| header.php
+| index.php
+| stranger-things.php
+*/
 /* general */
 :root {
   --footer-spacing-right: 1rem;
@@ -14,11 +20,11 @@
 
 body {
   /* ================================================================
-header.php */
+| header.php */
   /* ================================================================
-index.php */
+| index.php */
   /* ================================================================
-stranger-things.php */
+| stranger-things.php */
 }
 
 body#index figcaption {
