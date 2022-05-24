@@ -29,13 +29,13 @@ $pageNav = [
 	],
 	'characters' => [
 		'heading' => 'Characters',
-		'array' => 'seasons',
+		'array' => $seasons,
 		'href' => '<?= $key ?>-characters',
 		'textContent' => 'Season <?= substr($value["seasonName"], -1) ?>'
 	],
 	'episodes' => [
 		'heading' => 'Episodes',
-		'array' => 'seasons',
+		'array' => $seasons,
 		'href' => '<?= $key ?>-episodes',
 		'textContent' => 'Season <?= substr($value["seasonName"], -1) ?>'
 	]
@@ -229,7 +229,7 @@ $name = 'seasonName';
 				<?php foreach ($pageNav as $navId => $pageSection) : ?>
 					<li class="page-sections-nav-item heading"><a href="#<?= $navId ?>"><strong><?= $pageSection['heading'] ?></strong></a></li>
 					<?php if (array_key_exists('array', $pageSection)) : ?>
-						<?php foreach ($$pageSection['array'] as $key => $value) : ?>
+						<?php foreach ($pageSection['array'] as $key => $value) : ?>
 							<li class="page-sections-nav-item"><a href="#<?= $pageSection['href'] ?>"><?= $pageSection['textContent'] ?></a></li>
 						<?php endforeach; ?>
 					<?php endif; ?>
