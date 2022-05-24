@@ -402,7 +402,7 @@ $seasons = [
 			'one' => [
 				'title' => 'MADMAX',
 				'rating' => '3',
-				'thoughts' => 'Bob and Miss Max are here! The cinema&shy;tography in the arcade scene, with the boys surrounding the game screen and Max\'s name showing up on the leaderboard. And I love the way that they slowly showed El\'s presence in the cabin before seeing her for the first time this season.',
+				'thoughts' => 'Bob and Miss Max are here! The cinematography in the arcade scene, with the boys surrounding the game screen and Max\'s name showing up on the leaderboard. And I love the way that they slowly showed El\'s presence in the cabin before seeing her for the first time this season.',
 				'quotes' => [
 					'*Nancy chasing Mike through the house* "Mike! Get <em>back here!</em>"',
 					'I\'m not <em>prostituting my sister</em>',

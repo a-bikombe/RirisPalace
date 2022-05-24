@@ -187,9 +187,9 @@ general */
 }
 
 #stranger-things main #episodes .season .episode .episode-main .thoughts {
-  -webkit-hyphens: manual;
-      -ms-hyphens: manual;
-          hyphens: manual;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
   overflow-wrap: break-word;
   width: 40%;
 }
