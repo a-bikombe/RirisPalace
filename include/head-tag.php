@@ -33,7 +33,7 @@ $cdnScripts = [
 		<link <?= $style ?>>
 	<?php endforeach; ?>
 
-	<link href="css/style.css?v=1.1.0" rel="stylesheet">
+	<link href="css/main.css?v=1.1.0" rel="stylesheet">
 
 	<?php foreach ($styles as $style) : ?>
 		<link href="css/<?= $style ?>.css?v=1.1.0" rel="stylesheet">
