@@ -291,7 +291,8 @@ $seasons = [
 				'quotes' => [
 					'...You SOB!',
 					'If anyone asks where I am, I\'ve left the country',
-					'Did you see that??" "No, Dustin, we missed it'
+					'Did you see that??" "No, Dustin, we missed it',
+					'Because you couldn\'t take Jonathan Byers'
 				]
 			],
 			'eight' => [
@@ -299,6 +300,7 @@ $seasons = [
 				'rating' => '4',
 				'thoughts' => 'Steve swinging the bat',
 				'quotes' => [
+					'*Steve gets a gun pointed at him* "Woah, woah, woah, <em>what</em>?"',
 					'<em>Mike! I found the chocolate pudding!</em>'
 				]
 			]
