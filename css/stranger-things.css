@@ -152,6 +152,10 @@ general */
           justify-content: space-evenly;
 }
 
+#stranger-things main #episodes .season .dates .subtitle {
+  font-size: 1.1rem;
+}
+
 #stranger-things main #episodes .season .episode {
   background: var(--clr-white);
   gap: 1vw;
