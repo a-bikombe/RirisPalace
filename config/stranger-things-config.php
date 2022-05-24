@@ -287,12 +287,13 @@ $seasons = [
 			'seven' => [
 				'title' => 'The Bathtub',
 				'rating' => '2',
-				'thoughts' => '',
+				'thoughts' => 'Nothing will outdo the chase scene with the kids on the bikes where El flips the van. Everyone tries, but no one succeeds. And poor Jonathan always tries to fix things on his own, and it makes me so sad.',
 				'quotes' => [
 					'...You SOB!',
 					'If anyone asks where I am, I\'ve left the country',
 					'Did you see that??" "No, Dustin, we missed it',
-					'Because you couldn\'t take Jonathan Byers'
+					'Because you couldn\'t take Jonathan Byers',
+					'Will you <em>stop</em> pacing?'
 				]
 			],
 			'eight' => [
