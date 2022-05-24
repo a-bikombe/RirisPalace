@@ -36,11 +36,11 @@ $cdnScripts = [
 	<link href="css/style.css?v=1.1.0" rel="stylesheet">
 
 	<?php foreach ($styles as $style) : ?>
-		<link href="css/<?= $style ?>.css" rel="stylesheet">
+		<link href="css/<?= $style ?>.css?v=1.1.0" rel="stylesheet">
 	<?php endforeach; ?>
 
 	<?php foreach ($mobileStyles as $style => $width) : ?>
-		<link href="css/<?= $style ?>-mobile.css" rel="stylesheet" media="screen and (max-width:<?= $width ?>px)">
+		<link href="css/<?= $style ?>-mobile.css?v=1.1.0" rel="stylesheet" media="screen and (max-width:<?= $width ?>px)">
 	<?php endforeach; ?>
 
 	<?php foreach ($cdnScripts as $script) : ?>
