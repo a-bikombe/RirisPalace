@@ -301,9 +301,9 @@ $seasons = [
 			'eight' => [
 				'title' => 'The Upside Down',
 				'rating' => '4',
-				'thoughts' => 'Steve swinging the bat',
+				'thoughts' => 'Hopper\'s flashbacks with his daughter make me sob. And Steve fighting with Nancy and Jonathan is <em>so cool!</em> Him swinging the baseball bat with all the lights flickering around him was probably one of my favorite parts of the whole season.',
 				'quotes' => [
-					'*Steve gets a gun pointed at him* "Woah, woah, woah, <em>what</em>?"',
+					'*Steve gets a gun pointed at him* "Wait, woah, woah, <em>what</em>?"',
 					'<em>Mike! I found the chocolate pudding!</em>'
 				]
 			]
