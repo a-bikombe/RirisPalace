@@ -317,7 +317,7 @@ $seasons = [
 	],
 	'season-2' => [
 		'seasonName' => 'Season 2',
-		'daterelease' => 'October 27, 2017',
+		'dateRelease' => 'October 27, 2017',
 		'dateSetting' => 'October 30 - November , 1984',
 		'characters' => [
 			'max' => [
