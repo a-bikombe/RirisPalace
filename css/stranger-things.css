@@ -150,6 +150,7 @@ general */
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  margin-top: 5px;
 }
 
 #stranger-things main #episodes .season .dates .subtitle {
