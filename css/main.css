@@ -407,12 +407,12 @@ body#error .text {
 }
 
 body#error .text a {
-  -webkit-transition: var(--transition-clr-text), text-shadow 0.2 ease-in-out;
-  transition: var(--transition-clr-text), text-shadow 0.2 ease-in-out;
+  -webkit-transition: var(--transition-clr-text);
+  transition: var(--transition-clr-text);
 }
 
 body#error .text a:hover {
-  text-shadow: var(--text-shadow-white);
+  color: var(--clr-white);
 }
 
 body .overlay {
