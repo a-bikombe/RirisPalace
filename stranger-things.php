@@ -30,12 +30,12 @@ $pageNav = [
 	'characters' => [
 		'heading' => 'Characters',
 		'array' => 'seasons',
-		'textContent' => '<?= $value["seasonName"] ?>'
+		'textContent' => '<?= ${value}["seasonName"] ?>'
 	],
 	'episodes' => [
 		'heading' => 'Episodes',
 		'array' => 'seasons',
-		'textContent' => 'Season <?= substr($value["seasonName"], -1) ?>'
+		'textContent' => 'Season <?= substr(${value}["seasonName"], -1) ?>'
 	]
 
 ];
