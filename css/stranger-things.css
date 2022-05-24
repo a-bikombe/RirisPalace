@@ -247,6 +247,8 @@ general */
 #stranger-things .side-nav .collapsible-nav-btn {
   border: 1px solid var(--theme-border);
   padding: 0.5rem 1rem;
+  -webkit-transition: var(--transition-size-text);
+  transition: var(--transition-size-text);
 }
 
 #stranger-things .side-nav .collapsible-nav-btn:hover, #stranger-things .side-nav .collapsible-nav-btn:focus-visible {
