@@ -287,13 +287,15 @@ $seasons = [
 			'seven' => [
 				'title' => 'The Bathtub',
 				'rating' => '3',
-				'thoughts' => 'Nothing will outdo the chase scene with the kids on the bikes where El flips the van. Everyone tries, but no one succeeds. And poor Jonathan always tries to fix things on his own, and it makes me so sad.',
+				'thoughts' => 'Nothing will outdo the chase scene with the kids on the bikes where El flips the van. Everyone tries, but no one succeeds. Also, Dustin and Lucas trying to set up the kiddie pool was funny.',
 				'quotes' => [
 					'...You SOB!',
 					'If anyone asks where I am, I\'ve left the country',
 					'Did you see that??" "No, Dustin, we missed it',
 					'Because you couldn\'t take Jonathan Byers',
-					'Will you <em>stop</em> pacing?'
+					'Will you <em>stop</em> pacing?',
+					'Let\'s <em>go</em>!',
+					'Why are you keeping this curiosity door locked?'
 				]
 			],
 			'eight' => [
