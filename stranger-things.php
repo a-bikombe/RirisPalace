@@ -19,6 +19,33 @@ $scripts = [
 	'main',
 	'stranger-things'
 ];
+
+$pageNav = [
+	'intro' => [
+		'heading' => 'Intro'
+	],
+	'character-rank' => [
+		'heading' => 'Character Rank'
+	],
+	'characters' => [
+		'heading' => 'Characters',
+		$array => $seasons,
+		'href' => '<?= $key ?>-characters',
+		'textContent' => 'Season <?= substr($value["seasonName"], -1) ?>'
+	],
+	'episodes' => [
+		'heading' => 'Episodes',
+		$array => $seasons,
+		'href' => '<?= $key ?>-episodes',
+		'textContent' => 'Season <?= substr($value["seasonName"], -1) ?>'
+	]
+
+];
+
+$array = $seasons;
+$name = 'seasonName';
+
+
 ?>
 
 <!DOCTYPE html>
@@ -199,15 +226,11 @@ $scripts = [
 	<aside class="side-nav flex dir-col">
 		<nav class="page-sections text-center border-5px">
 			<ul class="page-sections-nav">
-				<li class="page-sections-nav-item heading"><a href="#intro"><strong>Intro</strong></a></li>
-				<li class="page-sections-nav-item heading"><a href="#character-rank"><strong>Character Rank</strong></a></li>
-				<li class="page-sections-nav-item heading"><a href="#characters"><strong>Characters</strong></a></li>
-				<?php foreach ($seasons as $seasonId => $season) : ?>
-					<li class="page-sections-nav-item"><a href="#<?= $seasonId ?>-characters">Season <?= substr($season['seasonName'], -1) ?></a></li>
-				<?php endforeach; ?>
-				<li class="page-sections-nav-item heading"><a href="#episodes"><strong>Episodes</strong></a></li>
-				<?php foreach ($seasons as $seasonId => $season) : ?>
-					<li class="page-sections-nav-item"><a href="#<?= $seasonId ?>-episodes">Season <?= substr($season['seasonName'], -1) ?></a></li>
+				<?php foreach ($pageNav as $navId => $pageSection) : ?>
+					<li class="page-sections-nav-item heading"><a href="#<?= $navId ?>"><strong><?= $pageSection['heading'] ?></strong></a></li>
+					<?php foreach ($pageSection[$array] as $key => $value) : ?>
+						<li class="page-sections-nav-item"><a href="#<?= $pageSection['href'] ?>"><?= $pageSection['textContent'] ?></a></li>
+					<?php endforeach; ?>
 				<?php endforeach; ?>
 			</ul>
 		</nav>
