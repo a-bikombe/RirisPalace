@@ -307,7 +307,8 @@ $seasons = [
 					'<em>Mike! I found the chocolate pudding!</em>',
 					'You go to school dances with someone that you... like',
 					'Her name\'s Eleven" "Like the number?',
-					'It makes a painful *screech*'
+					'It makes a painful *screech*',
+					'Dustin farted!'
 				]
 			]
 		]
