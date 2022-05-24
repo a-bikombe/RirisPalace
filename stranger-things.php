@@ -230,7 +230,7 @@ $name = 'seasonName';
 					<li class="page-sections-nav-item heading"><a href="#<?= $navId ?>"><strong><?= $pageSection['heading'] ?></strong></a></li>
 					<?php if (array_key_exists('array', $pageSection)) : ?>
 						<?php foreach ($pageSection['array'] as $key => $value) : ?>
-							<li class="page-sections-nav-item"><a href="#<?= $pageSection['href'] ?>"><?= $pageSection['textContent'] ?></a></li>
+							<li class="page-sections-nav-item"><a href="#<?= $pageSection['href'] ?>"><?= html_entity_decode($pageSection['textContent']) ?></a></li>
 						<?php endforeach; ?>
 					<?php endif; ?>
 				<?php endforeach; ?>
