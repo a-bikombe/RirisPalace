@@ -58,19 +58,7 @@ function lazyloadCarousels() {
     });
 }
 
-function collapsibleSidebar() {
-    const collapseBtn = document.querySelector(".collapsible-nav-btn");
-    let sidebarNav = document.querySelector(".st-sections");
-
-    collapseBtn.addEventListener("click", (e) => {
-        sidebarNav.classList.toggle("unhidden");
-        let icons = collapseBtn.querySelectorAll('[class*="collapse-icon"]');
-
-        icons.forEach((icon) => icon.classList.toggle("hidden"));
-    });
-}
-
 s4Vol1Countdown();
 s4Vol2Countdown();
 lazyloadCarousels();
-collapsibleSidebar();
+
