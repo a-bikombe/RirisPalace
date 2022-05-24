@@ -30,13 +30,12 @@ general */
             gap: var(--section-spacing);
             justify-content: space-between;
             margin: var(--section-spacing) 5vw 0;
-        
+
             #intro {
-    
                 .no-link-color {
                     color: var(--theme-text);
                 }
-    
+
                 .countdown {
                     &:not(.hidden) {
                         animation: glow 1.3s;
@@ -49,9 +48,8 @@ general */
                     margin-top: var(--section-spacing);
                 }
             }
-
         }
-    
+
         #characters {
             margin-inline: 5vw;
             /* season */
@@ -61,45 +59,45 @@ general */
                 color: var(--clr-black);
                 margin-top: 40px;
                 padding: 2vw 3vw;
-    
+
                 /* space between seasons: only add to .season if there is another .season before it */
                 /* & + .season {
                 margin-top: 50px;
             } */
             }
-    
+
             /* character */
             .character {
                 padding: 20px 0;
-    
+
                 /* horizontal line between every character */
                 &:not(:last-child) {
                     border-bottom: 1px solid var(--clr-gray-60);
                 }
-    
+
                 .no-link-color {
                     color: var(--clr-black);
                 }
-    
+
                 /* character image and name */
                 &-image-name {
                     margin-block: auto;
                     width: 40%;
-    
+
                     /* character image carousel */
                     .character-image-carousel {
                         margin: auto auto 10px;
                         width: 80%;
-    
+
                         &,
                         .character-image {
                             aspect-ratio: 2 / 3;
                         }
-    
+
                         .character-image {
                             object-fit: cover;
                         }
-    
+
                         /* don't hide season caption on mobile */
                         .carousel-caption.d-none {
                             display: block !important;
@@ -107,13 +105,13 @@ general */
                         }
                     }
                 }
-    
+
                 /* character description */
                 &-description {
                     line-height: 1.5;
                     padding-left: 2vw;
                     width: 60%;
-    
+
                     /* character description items */
                     &-item {
                         margin-bottom: 5px;
@@ -121,56 +119,56 @@ general */
                 }
             }
         }
-    
+
         #episodes {
             background: var(--clr-white);
             border: 1px solid var(--clr-gray-40);
             color: var(--clr-black);
             margin-top: 40px;
-    
+
             &,
             .season,
             .episode {
                 padding: 2vw 3vw;
             }
-    
+
             .season,
             .episode {
                 border: 1px solid var(--clr-gray-60);
             }
-    
+
             .season {
                 background: var(--clr-gray-80);
                 margin-top: 20px;
-    
+
                 .episode {
                     background: var(--clr-white);
                     gap: 1vw;
                     margin-top: 20px;
-    
+
                     .episode-header {
                         display: flex;
                         align-items: center;
                         justify-content: space-between;
-    
+
                         .rating {
                             i {
                                 color: var(--clr-orange);
                             }
                         }
                     }
-    
+
                     .episode-main {
                         gap: 1vw;
                         justify-content: space-between;
-    
+
                         .thoughts {
                             width: 40%;
                         }
-    
+
                         .quotes {
                             width: 60%;
-    
+
                             li {
                                 & + li {
                                     margin-top: 0.25rem;
