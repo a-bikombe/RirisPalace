@@ -37,7 +37,7 @@
 * [x] **include/loading-page.php** - Loading Page
 * [x] **include/under-construction.php** - Construction Page for Unfinished Pages
 * [x] **include/header.php** - Header Banner
-* [x] **include/page-nav.php** - Collapsible Page Navigation
+* [x] **include/page-nav.php** - Collapsible Page Navigation: when used with $pageNav array before the page content it populates the page navigation sidebar
 * [x] **include/footer.php** - Footer Button
 
 ## Extra Config
@@ -60,11 +60,11 @@
 ## Scripts (VanillaJS)
 
 * js/main.js - loadingPage(), collapsibleSidebar()
-* js/kpop.js - lazyloadModalImages(), soon searchBarKpop() and reorderGroups()
+* js/kpop.js - lazyloadModalImages(), *soon searchBarKpop() and reorderGroups()*
 * js/login-signup.js - matchPasswords()
 * js/profile.js - showDeleteForm()
 * js/stranger-things.js - s4Vol1Countdown(), s4Vol2Countdown(), lazyloadCarousels()
 
 ## Commit Command
 
-git `acpg "some-message"` adds, commits, and pushes changes to cpanel (cpanel) and github (github) remote repositories
+`git acpg "message"` adds, commits, and pushes changes to cpanel (cpanel) and github (github) remote repositories

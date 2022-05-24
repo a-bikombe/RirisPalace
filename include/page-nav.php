@@ -1,3 +1,15 @@
+<?php 
+/* 
+NAVIGATION POPULATION ARRAY TEMPLATE
+$pageNav = [
+	'id' => [
+		'heading' => 'heading',
+		'array' => $array
+	]
+];
+*/
+?>
+
 <aside class="side-nav flex dir-col">
 		<nav class="page-sections text-center border-5px">
 			<ul class="page-sections-nav">
