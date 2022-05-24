@@ -224,7 +224,7 @@ $seasons = [
 				'thoughts' => 'A classic. This episode perfectly sets the mood for a spooky winter season. Everyone was so young, and I always get so nostalgic watching this.',
 				'quotes' => [
 					'IT ROARS IN ANGER',
-					'The campaign took two weeks to plan! How was I supposed to know it was gonna take ten hours...',
+					'The campaign took two weeks to plan! How was I supposed to know it was gonna take ten hours',
 					'Am I speaking <em>Chinese</em> in this house?'
 				]
 			],
@@ -413,9 +413,12 @@ $seasons = [
 			'two' => [
 				'title' => 'Trick or Treat, Freak',
 				'rating' => '4',
-				'thoughts' => '',
+				'thoughts' => 'I love watching Hopper and El bond as father and daughter, and the kids in their little Ghostbusters costumes are <em>so cute!</em> I miss Will getting to talk to Mike about his problems and having him as his main support system. It makes me so sad that El and Will would understand each other so well and could be the closest of friends based on their shared trauma involving the Upside Down, but the opportunity is wasted because they\'re always fighting over Mike.',
 				'quotes' => [
-					''
+					'*Scary music* "OH— <em>Jesus</em>"',
+					'I specifically didn\'t agree to Winston',
+					'And <em>you?</em> Who screams like that? You sound like a little girl',
+					'Crazy together'
 				]
 			],
 			'three' => [
