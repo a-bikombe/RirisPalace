@@ -252,7 +252,7 @@ general */
 }
 
 #stranger-things .side-nav .collapsible-nav-btn:hover, #stranger-things .side-nav .collapsible-nav-btn:focus-visible {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 #stranger-things .side-nav .collapsible-nav-btn [class*="collapse-icon"].hidden {
