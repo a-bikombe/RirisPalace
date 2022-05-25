@@ -74,7 +74,7 @@ $seasons = [
 					'Season 5' => 'https://metagalaxia.com.br/wp-content/uploads/2022/05/Mike-Wheeler.webp'
 				],
 				'characterLink' => 'http://strangerthings.wikia.com/wiki/Mike_Wheeler',
-				'characterName' => 'Mikey',
+				'characterName' => 'Mike Wheelie',
 				'content' => [
 					'Essentially the leader of his friend group',
 					'Annoying to his friends',
