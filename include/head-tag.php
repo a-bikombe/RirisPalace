@@ -17,7 +17,8 @@ $cdnScripts = [
 	'fontAwesome' => 'src="https://kit.fontawesome.com/f6cc5a7fc1.js" crossorigin="anonymous"'
 ];
 
-$version = '1.1.8';
+date_default_timezone_set('America/New_York');
+$version = date('Ymd-His');
 
 ?>
 
