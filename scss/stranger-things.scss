@@ -178,12 +178,9 @@ general */
                             &.thoughts {
                                 hyphens: auto;
                                 overflow-wrap: break-word;
-                                /* width: 50%; */
                             }
 
                             &.quotes {
-                                /* width: 50%; */
-
                                 li {
                                     & + li {
                                         margin-top: 0.25rem;

@@ -199,11 +199,6 @@ general */
       -ms-hyphens: auto;
           hyphens: auto;
   overflow-wrap: break-word;
-  /* width: 50%; */
-}
-
-#stranger-things main #episodes .season .episode .episode-main-section.quotes {
-  /* width: 50%; */
 }
 
 #stranger-things main #episodes .season .episode .episode-main-section.quotes li + li {
