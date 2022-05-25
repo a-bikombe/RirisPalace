@@ -467,7 +467,7 @@ $seasons = [
 				'thoughts' => 'I\'m all for an El plot and learning about the other kids from the lab, but on its own; not when it distracts from the rest of the plot.',
 				'quotes' => [
 					'And on his farm he had a cow...',
-					'But I can save them'
+					'But <em>I</em> can save them'
 				]
 			],
 			'eight' => [
@@ -485,12 +485,13 @@ $seasons = [
 			'nine' => [
 				'title' => 'The Gate',
 				'rating' => '5',
-				'thoughts' => '',
+				'thoughts' => 'This whole episode is amazing: the Mileven reunion, the exorcism, the burning of the hub, El\'s floating in the air, the <em>Snow Ball Scene</em>... magnificence. Miss Max is so cool, I should mention. And Lucas\'s scream is really funny.',
 				'quotes' => [
-					'',
-					'',
-					'',
-					''
+					'Protecting her... PROTECTING HER?',
+					'I\'m just curious why all of a sudden you look like some kind of MTV punk',
+					'Maybe if we set this on <em>fire</em>—" "Yeah, <em>that\'s</em> a no',
+					'Yeah, it\'s me, don\'t cream your pants',
+					'Nancy?'
 				]
 			]
 		]
