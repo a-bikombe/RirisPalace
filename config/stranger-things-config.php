@@ -442,7 +442,7 @@ $seasons = [
 			],
 			'five' => [
 				'title' => 'Dig Dug',
-				'rating' => '2',
+				'rating' => '3',
 				'thoughts' => 'This episode feels mostly like filler, since it\'s middle-of-the-season stuff, but Bob helping Joyce and the kids decipher the Hawkins map is so sweet. Murray\'s ridiculous, but he\'s so funny. And I\'m kind of here for Indiana Jones Hopper. Baby Erica is <em>so cute</em>. And I loved getting to see El\'s mom\'s backstory. Will seizing on the ground at the end was so scary.',
 				'quotes' => [
 					'We only seem to hang out when the world\'s about to end',
@@ -453,10 +453,12 @@ $seasons = [
 			],
 			'six' => [
 				'title' => 'The Spy',
-				'rating' => '3',
-				'thoughts' => '',
+				'rating' => '2',
+				'thoughts' => 'The sound design in this episode is brilliant; the first 60 seconds are so good with Will screaming and Joyce crying before you ever even see anything. Poor Will goes through so much in this episode. The lead-up to the lab scene is <em>so scary</em>.',
 				'quotes' => [
-					''
+					'We like Steve... but we don\'t <em>love</em> Steve',
+					'I want you to know that I\'m not mad',
+					'You have a creepy little bond with him'
 				]
 			],
 			'seven' => [
