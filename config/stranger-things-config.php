@@ -473,10 +473,13 @@ $seasons = [
 			'eight' => [
 				'title' => 'The Mind Flayer',
 				'rating' => '4',
-				'thoughts' => '',
+				'thoughts' => 'This episode absolutely breaks my heart. I can\'t watch the first half, but the second half is my favorite part of the whole season.',
 				'quotes' => [
-					'',
-					''
+					'You broke the rule of law—" "SO DID YOU!',
+					'We can\'t just sit here while those <em>things</em> are loose',
+					'It\'s like a play on words—" "Okay',
+					'No, it-it\'s a <em>manual</em>',
+					'I could feel it" "Feel what?" "The electricity'
 				]
 			],
 			'nine' => [
