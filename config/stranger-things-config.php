@@ -464,9 +464,10 @@ $seasons = [
 			'seven' => [
 				'title' => 'The Lost Sister',
 				'rating' => '1',
-				'thoughts' => '',
+				'thoughts' => 'I\'m all for an El plot and learning about the other kids from the lab, but on its own; not when it distracts from the rest of the plot.',
 				'quotes' => [
-					''
+					'And on his farm he had a cow...',
+					'But I can save them'
 				]
 			],
 			'eight' => [
