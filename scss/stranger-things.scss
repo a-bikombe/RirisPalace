@@ -171,18 +171,23 @@ general */
                         gap: 1vw;
                         justify-content: space-between;
 
-                        .thoughts {
-                            hyphens: auto;
-                            overflow-wrap: break-word;
-                            width: 40%;
-                        }
+                        &-section {
+                            flex-basis: 100%;
+                            flex-grow: 1;
 
-                        .quotes {
-                            width: 60%;
+                            &.thoughts {
+                                hyphens: auto;
+                                overflow-wrap: break-word;
+                                /* width: 50%; */
+                            }
 
-                            li {
-                                & + li {
-                                    margin-top: 0.25rem;
+                            &.quotes {
+                                /* width: 50%; */
+
+                                li {
+                                    & + li {
+                                        margin-top: 0.25rem;
+                                    }
                                 }
                             }
                         }

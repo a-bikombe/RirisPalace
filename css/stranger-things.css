@@ -186,19 +186,27 @@ general */
           justify-content: space-between;
 }
 
-#stranger-things main #episodes .season .episode .episode-main .thoughts {
+#stranger-things main #episodes .season .episode .episode-main-section {
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+#stranger-things main #episodes .season .episode .episode-main-section.thoughts {
   -webkit-hyphens: auto;
       -ms-hyphens: auto;
           hyphens: auto;
   overflow-wrap: break-word;
-  width: 40%;
+  /* width: 50%; */
 }
 
-#stranger-things main #episodes .season .episode .episode-main .quotes {
-  width: 60%;
+#stranger-things main #episodes .season .episode .episode-main-section.quotes {
+  /* width: 50%; */
 }
 
-#stranger-things main #episodes .season .episode .episode-main .quotes li + li {
+#stranger-things main #episodes .season .episode .episode-main-section.quotes li + li {
   margin-top: 0.25rem;
 }
 /*# sourceMappingURL=stranger-things.css.map */
