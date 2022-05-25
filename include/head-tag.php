@@ -18,7 +18,7 @@ $cdnScripts = [
 ];
 
 date_default_timezone_set('America/New_York');
-$version = date('Ymd-His');
+$version = date('Y-m-d-H-i-s');
 
 ?>
 
