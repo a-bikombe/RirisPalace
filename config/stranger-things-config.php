@@ -454,7 +454,7 @@ $seasons = [
 			'six' => [
 				'title' => 'The Spy',
 				'rating' => '2',
-				'thoughts' => 'The sound design in this episode is brilliant; the first 60 seconds are so good with Will screaming and Joyce crying before you ever even see anything. Poor Will goes through so much in this episode. The lead-up to the lab scene is <em>so scary</em>.',
+				'thoughts' => 'The first 60 seconds of this episode are so good with Will screaming and Joyce crying before you ever even see anything. The lead-up to the lab scene is <em>so scary</em>.',
 				'quotes' => [
 					'We like Steve... but we don\'t <em>love</em> Steve',
 					'I want you to know that I\'m not mad',
