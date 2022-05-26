@@ -10,11 +10,11 @@ general */
 }
 
 #kpop {
-    --bg-color: var(--bg-gradient);
+    --body-bg: var(--bg-gradient);
 
     &,
     .loader {
-        background: var(--bg-color);
+        background: var(--body-bg);
     }
 
     h2 {

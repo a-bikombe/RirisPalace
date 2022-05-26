@@ -288,17 +288,18 @@ body {
     --theme-link: var(--clr-blue-dark);
     --theme-login: var(--clr-green-dark);
     --theme-logout: var(--clr-red-dark);
-    --bg-color: var(--clr-blue-light);
+    --body-bg: var(--clr-blue-light); /* default body color */
+    --body-bg-image: linear-gradient(var(--clr-gray-20-t), var(--clr-gray-20-t)), var(--bg-image);
     font-family: Avenir, Helvetica, sans-serif;
 
     /* set initial background color */
     &,
     .overlay {
-        background: var(--bg-color);
+        background: var(--body-bg);
     }
 
     &.bg-image-dim {
-        background: linear-gradient(var(--clr-gray-20-t), var(--clr-gray-20-t)), var(--bg-image);
+        background: var(--body-bg-image);
     }
 
     /* set transparent background */

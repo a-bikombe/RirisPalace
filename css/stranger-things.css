@@ -1,13 +1,13 @@
 /* ================================================================
 general */
 #stranger-things {
-  --bg-color: var(--clr-black);
+  --body-bg: var(--clr-black);
   color: var(--clr-white);
 }
 
 #stranger-things,
 #stranger-things .loader {
-  background: var(--bg-color);
+  background: var(--body-bg);
 }
 
 #stranger-things h1 {

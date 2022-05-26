@@ -1,13 +1,9 @@
 /* ================================================================
 index.php */
 #index {
-  --bg-color: var(--clr-purple);
+  --body-bg: var(--body-bg-image);
   /* header */
   /* previews */
-}
-
-#index .loader {
-  background: var(--bg-color);
 }
 
 #index .homepage-header {

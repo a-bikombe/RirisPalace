@@ -2,11 +2,7 @@
 index.php */
 
 #index {
-    --bg-color: var(--clr-purple);    
-
-    .loader {
-        background: var(--bg-color);
-    }
+    --body-bg: var(--body-bg-image);
 
     /* header */
     .homepage-header {

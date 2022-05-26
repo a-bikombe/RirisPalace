@@ -8,7 +8,7 @@ general */
 }
 
 #kpop {
-  --bg-color: var(--bg-gradient);
+  --body-bg: var(--bg-gradient);
   /* ================================================================
     #group-sidebar */
   /* ================================================================
@@ -23,7 +23,7 @@ general */
 
 #kpop,
 #kpop .loader {
-  background: var(--bg-color);
+  background: var(--body-bg);
 }
 
 #kpop h2 {
