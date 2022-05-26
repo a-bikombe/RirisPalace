@@ -518,7 +518,7 @@ $seasons = [
 	'season-3' => [
 		'seasonName' => 'Season 3',
 		'dateRelease' => 'Jul 4, 2019',
-		'dateSetting' => 'Jul 1-4, 1985',
+		'dateSetting' => 'Jun 29 - Jul 4, 1985',
 		'characters' => [
 			'robin' => [
 				'images' => [
@@ -543,9 +543,11 @@ $seasons = [
 			'one' => [
 				'title' => 'Suzie, Do You Copy?',
 				'rating' => '3',
-				'thoughts' => '',
+				'thoughts' => 'El getting all cuddly with Mike when Dustin was showing them his inventions was so cute. It made me sad, though, that you can tell that Will doesn\'t have the same level of comfort in being vulnerable with Mike about his problems as he did in Season 2.',
 				'quotes' => [
-					''
+					'You are oh-for-six, Popeye',
+					'She doesn\'t have electricity?',
+					'There\'s nothing wrong with Nana'
 				]
 			],
 			'two' => [
