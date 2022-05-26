@@ -18,6 +18,27 @@ $mobileStyles = [
 $scripts = [
 	'main'
 ];
+
+$pageNav = array_keys($previews);  // returns keys of $previews and puts them into $previewKeys
+$pageNav = array_fill_keys($pageNav, ['heading']);  // fills pageNav keys with the array with the value 'heading'
+
+$previewValues;
+foreach ($previews as $previewInfo) {
+	array_push($previewValues, $previewInfo['header']);
+}
+
+foreach ($pageNav as $headingArray) {
+	$index = 0;
+	array_fill_keys($headingArray, array_values($previewValues)[$index]);
+	$index++;
+}
+/* 
+$pageNav = [
+	'id' => [
+		'heading' => 'heading'
+	]
+]; */
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -52,6 +73,7 @@ $scripts = [
 				</div>
 			</section>
 		<?php endforeach; ?>
+	</main> <?php require_once 'include/page-nav.php'; ?>
 	</main> <?php require_once 'include/footer.php'; ?>
 </body>
 
