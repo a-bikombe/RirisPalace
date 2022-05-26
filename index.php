@@ -21,11 +21,11 @@ $scripts = [
 
 $previewKeys = array_keys($previews);  // returns keys of $previews and puts them into $previewKeys
 $pageNav = array_fill_keys($previewKeys, ['heading']);  // fills pageNav keys with the array with the value 'heading'
-
+/* 
 $previewValues;
 foreach ($previews as $previewInfo) {
 	array_push($previewValues, $previewInfo['header']);
-}
+} */
 /* 
 $index = 0;
 
