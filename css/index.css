@@ -12,14 +12,14 @@ index.php */
 }
 
 #index.bg-image {
-  background: var(--bg-image);
+  background-image: url("../images/backgrounds/flowers.jpeg");
   position: relative;
 }
 
-#index.bg-image:before {
-  background: var(--clr-gray-20-t);
+#index.bg-image::before {
+  background-color: var(--clr-gray-20-t);
   background-blend-mode: screen;
-  content: '';
+  content: "";
   position: absolute;
 }
 

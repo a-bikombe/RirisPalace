@@ -5,13 +5,13 @@ index.php */
     --bg-color: var(--clr-purple);    
 
     &.bg-image {
-        background: var(--bg-image);
+        background-image: url("../images/backgrounds/flowers.jpeg");
         position: relative;
 
-        &:before {
-            background: var(--clr-gray-20-t);
+        &::before {
+            background-color: var(--clr-gray-20-t);
             background-blend-mode: screen;
-            content: '';
+            content: "";
             position: absolute;
         }
     }
