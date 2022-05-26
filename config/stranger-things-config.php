@@ -560,9 +560,12 @@ $seasons = [
 			'four' => [
 				'title' => 'The Sauna Test',
 				'rating' => '5',
-				'thoughts' => '',
+				'thoughts' => 'This might be one of the scariest episodes of the season. Everyone acted their BUTTS off in the sauna scene. It just sucks that Will just had to put all his feelings aside because there were "bigger things to worry about", as though his problems aren\'t just as important.',
 				'quotes' => [
-					''
+					'Who are you calling? The police?',
+					'When he needs you, you\'re <em>activated</em>',
+					'You know what I love most about this country? Capitalism',
+					'yEaH'
 				]
 			],
 			'five' => [
