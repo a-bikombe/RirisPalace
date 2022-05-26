@@ -492,7 +492,7 @@ $seasons = [
 			'eight' => [
 				'title' => 'The Mind Flayer',
 				'rating' => '4',
-				'thoughts' => 'This episode absolutely breaks my heart. I can\'t watch the first half, but the second half is my favorite part of the whole season.',
+				'thoughts' => 'This episode absolutely breaks my heart. I can\'t watch the first half, but the second half is my favorite part of the whole season. I loved getting to hear all of Will\'s stories from his loved ones, especially Mike\'s.',
 				'quotes' => [
 					'You broke the rule of law—" "SO DID YOU!',
 					'We can\'t just sit here while those <em>things</em> are loose',
