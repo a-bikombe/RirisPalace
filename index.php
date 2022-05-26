@@ -26,13 +26,13 @@ $previewValues;
 foreach ($previews as $previewInfo) {
 	array_push($previewValues, $previewInfo['header']);
 }
-
+/* 
 $index = 0;
 
 foreach ($pageNav as $headingArray) {
 	array_fill_keys($headingArray, array_values($previewValues)[$index]);
 	$index++;
-}
+} */
 
 ?>
 <!DOCTYPE html>
