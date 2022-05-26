@@ -68,7 +68,7 @@ $pageNav = [
 			</section>
 		<?php endforeach; ?>
 	</main>
-	<?php /* require_once 'include/page-nav.php'; */ ?>
+	<?php require_once 'include/page-nav.php'; ?>
 	<?php require_once 'include/footer.php'; ?>
 </body>
 
