@@ -74,4 +74,4 @@ foreach ($pageNav as $headingArray) {
 
 </html>
 
-<?= $pageNav ?>
+<?php  var_dump($pageNav); ?>
