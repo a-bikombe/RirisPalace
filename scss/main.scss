@@ -303,13 +303,14 @@ body {
     }
 
     &.bg-image-dim {
-        background: var(--body-bg-image);
+        --body-bg: var(--body-bg-image);
+        background: var(--body-bg);
     }
 
     /* set transparent background */
     .transparent-bg {
         :not(.btn, i) {
-            background: transparent;
+            background: var(--body-bg);
             color: var(--theme-text);
         }
     }
