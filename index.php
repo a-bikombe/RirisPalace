@@ -32,12 +32,6 @@ foreach ($pageNav as $headingArray) {
 	array_fill_keys($headingArray, array_values($previewValues)[$index]);
 	$index++;
 }
-/* 
-$pageNav = [
-	'id' => [
-		'heading' => 'heading'
-	]
-]; */
 
 ?>
 <!DOCTYPE html>
