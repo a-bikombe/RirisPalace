@@ -1,4 +1,6 @@
 <?php
+
+header('Content-Type: text/plain');
 require_once 'config/session.php';
 require_once 'config/previews.php';
 
