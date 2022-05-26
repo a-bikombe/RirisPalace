@@ -32,7 +32,7 @@ foreach ($previews as $previewInfo) {
 
 $index = 0;
 foreach ($pageNav as $headingArray) {
-	$pageNav[key($pageNav)] = array_fill_keys($headingArray, array_values($previewValues)[$pageNav[$index]]);
+	$pageNav[key($pageNav)] = array_fill_keys($headingArray, array_values($previewValues)[$index]);
 	$index++;
 }
 
