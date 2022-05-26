@@ -69,7 +69,7 @@ $pageNav = [
 					<p> <?= $plot ?> </p>
 				</section>
 			</section>
-			<section id="character-rank" class="flex-justify dir-col">
+			<section id="character-rank" class="flex-justify dir-col" aria-labelledby="character-rank-title">
 				<h2 id="character-rank-title">Character Rank</h2>
 				<ol>
 					<?php foreach ($characterRank as $character) : ?>
@@ -177,9 +177,9 @@ $pageNav = [
 					</div>
 					<?php if (isset($season['episodes'])) : ?>
 						<?php foreach ($season['episodes'] as $episodeId => $episode) : ?>
-							<section class="episode border-10px flex dir-col" id="<?= $seasonId . '-' . $episodeId ?>">
-								<section class="episode-header dir-change">
-									<h4 class="episode-title">Chapter <?= ucfirst($episodeId) ?>: <strong><?= $episode['title'] ?></strong></h4>
+							<section class="episode border-10px flex dir-col" id="<?= $seasonId . '-' . $episodeId ?>" aria-labelledby="<?= $seasonId?>-chapter-<?= $episodeId ?>">
+								<div class="episode-header dir-change">
+									<h4 class="episode-title" id="<?= $seasonId?>-chapter-<?= $episodeId ?>">Chapter <?= ucfirst($episodeId) ?>: <strong><?= $episode['title'] ?></strong></h4>
 									<?php if ($episode['rating'] !== '') : ?>
 										<span class="rating">
 											<?php if (isset($episode['rating'])) :
@@ -189,13 +189,13 @@ $pageNav = [
 											endif; ?>
 										</span>
 									<?php endif; ?>
-								</section>
-								<section class="episode-main flex dir-change">
-									<section class="episode-main-section thoughts">
+								</d>
+								<div class="episode-main flex dir-change">
+									<div class="episode-main-section thoughts">
 										<h5 class="thoughts-title text-center">Thoughts</h5>
 										<p><?= $episode['thoughts'] ?></p>
-									</section>
-									<section class="episode-main-section quotes">
+									</div>
+									<div class="episode-main-section quotes">
 										<h5 class="quote-title text-center">Quotes</h5>
 										<ul>
 											<?php foreach ($episode['quotes'] as $quote) : ?>
@@ -208,8 +208,8 @@ $pageNav = [
 												<?php endif; ?>
 											<?php endforeach; ?>
 										</ul>
-									</section>
-								</section>
+									</div>
+								</div>
 							</section>
 						<?php endforeach; ?>
 					<?php endif; ?>
