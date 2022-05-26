@@ -2,18 +2,29 @@
 index.php */
 
 #index {
-    --bg-color: var(--clr-purple);
-    background-color: transparent;
-    background: var(--bg-image);
+    --bg-color: var(--clr-purple);    
+
+    &.bg-image {
+        background: var(--clr-black);
+        position: relative;
+
+        &::before {
+            background: var(--bg-image);
+            background-blend-mode: screen;
+            content: '';
+            opacity: 0.4;
+            position: absolute;
+        }
+    }
 
     .loader {
         background: var(--bg-color);
     }
-
+/* 
     .navbar,
     main {
         background: var(--clr-gray-20-t);
-    }
+    } */
 
     /* header */
     .homepage-header {

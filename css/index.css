@@ -2,19 +2,30 @@
 index.php */
 #index {
   --bg-color: var(--clr-purple);
-  background-color: transparent;
-  background: var(--bg-image);
+  /* 
+    .navbar,
+    main {
+        background: var(--clr-gray-20-t);
+    } */
   /* header */
   /* previews */
 }
 
-#index .loader {
-  background: var(--bg-color);
+#index.bg-image {
+  background: var(--clr-black);
+  position: relative;
 }
 
-#index .navbar,
-#index main {
-  background: var(--clr-gray-20-t);
+#index.bg-image::before {
+  background: var(--bg-image);
+  background-blend-mode: screen;
+  content: '';
+  opacity: 0.4;
+  position: absolute;
+}
+
+#index .loader {
+  background: var(--bg-color);
 }
 
 #index .homepage-header {
