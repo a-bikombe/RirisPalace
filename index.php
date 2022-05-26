@@ -19,8 +19,8 @@ $scripts = [
 	'main'
 ];
 
-$pageNav = array_keys($previews);  // returns keys of $previews and puts them into $previewKeys
-$pageNav = array_fill_keys($pageNav, ['heading']);  // fills pageNav keys with the array with the value 'heading'
+$previewKeys = array_keys($previews);  // returns keys of $previews and puts them into $previewKeys
+$pageNav = array_fill_keys($previewKeys, ['heading']);  // fills pageNav keys with the array with the value 'heading'
 
 $previewValues;
 foreach ($previews as $previewInfo) {
@@ -73,8 +73,11 @@ $pageNav = [
 				</div>
 			</section>
 		<?php endforeach; ?>
-	</main> <?php require_once 'include/page-nav.php'; ?>
-	</main> <?php require_once 'include/footer.php'; ?>
+	</main>
+	<?php /* require_once 'include/page-nav.php'; */ ?>
+	<?php require_once 'include/footer.php'; ?>
 </body>
 
 </html>
+
+<?= $pageNav ?>
