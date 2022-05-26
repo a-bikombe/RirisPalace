@@ -568,7 +568,6 @@ $seasons = [
 				'quotes' => [
 					'Is it <em>early</em>, Michael',
 					'I haven\'t been stood up like that since Alice Gilbert in the ninth grade',
-					'Little rodents have gone <em>cuckoo</em>',
 					'You can\'t leave, it\'s raining'
 				]
 			],
