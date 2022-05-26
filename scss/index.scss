@@ -2,7 +2,8 @@
 index.php */
 
 #index {
-    --body-bg: var(--body-bg-image);
+    /* --body-bg: var(--body-bg-image); */
+    --body-bg: var(--clr-blue-light);
 
     .loader {
         background: var(--clr-purple);
