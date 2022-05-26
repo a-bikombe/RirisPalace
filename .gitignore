@@ -23,6 +23,13 @@ dist/
 target/
 dist/
 
+# CPanel
+.cpanel.yml
+
+# VSCode IDE
+.vscode/
+.vscode/*
+
 # JetBrains IDE
 .idea/
 
