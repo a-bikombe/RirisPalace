@@ -8,7 +8,7 @@ $boys = [
 	'Finn Wolfhard' => [
 		'image' => 'images/boys/finn/b-w.jpeg',
 		'description' => "What else is new? I have (respectfully) been in love with this boy since 2017, when I first watched Stranger Things. I have since watched every piece of content in his filmography <em>and</em> discography, and I take full pride in that.",
-		'link' => 'stranger-things.php'
+		'link' => 'stranger-things.php#mike'
 	],
 	'Huening Kai' => [
 		'image' => $groups['active']['groups']['txt']['members']['HueningKai']['image'],
