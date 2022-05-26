@@ -16,7 +16,7 @@ index.php */
   position: relative;
 }
 
-#index.bg-image::before {
+#index.bg-image:before {
   background: var(--clr-gray-20-t);
   background-blend-mode: screen;
   content: '';

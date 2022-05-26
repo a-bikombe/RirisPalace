@@ -8,7 +8,7 @@ index.php */
         background: var(--bg-image);
         position: relative;
 
-        &::before {
+        &:before {
             background: var(--clr-gray-20-t);
             background-blend-mode: screen;
             content: '';
