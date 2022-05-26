@@ -685,8 +685,8 @@ body .side-nav {
 body .side-nav .page-sections {
   border: 1px solid var(--theme-border);
   background-color: var(--clr-gray-40);
-  -webkit-transform: translateX(400px);
-          transform: translateX(400px);
+  -webkit-transform: translateX(300px);
+          transform: translateX(300px);
 }
 
 body .side-nav .page-sections, body .side-nav .page-sections.unhidden {
