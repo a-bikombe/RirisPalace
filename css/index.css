@@ -1,8 +1,7 @@
 /* ================================================================
 index.php */
 #index {
-  /* --body-bg: var(--body-bg-image); */
-  --body-bg: var(--clr-blue-light);
+  --body-bg: var(--body-bg-image);
   /* header */
   /* previews */
 }
