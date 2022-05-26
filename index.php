@@ -45,7 +45,7 @@ $scripts = [
 					</figure>
 				<?php endif; ?>
 				<div>
-					<p><?= $preview['text'] ?></p>
+					<p class="preview-text"><?= $preview['text'] ?></p>
 					<?php if (!empty($preview['link'])) : ?>
 						<a href="<?= $preview['link'] ?>" class="more uppercase bold no-link-color">More</a>
 					<?php endif; ?>

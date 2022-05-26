@@ -2,7 +2,7 @@
 index.php */
 
 #index {
-    --body-bg: var(--body-bg-image);    
+    --body-bg: var(--body-bg-image);
 
     .loader {
         background: var(--clr-purple);
@@ -25,40 +25,47 @@ index.php */
         overflow: auto;
         padding: 3vw 10vw;
         transition: var(--bg-transition);
-    }
 
-    .preview:nth-of-type(1) {
-        background: var(--clr-pink-t);
+        &:nth-of-type(1) {
+            background: var(--clr-pink-t);
 
-        &:hover,
-        &:focus {
-            background: var(--clr-pink);
+            &:hover,
+            &:focus {
+                background: var(--clr-pink);
+            }
         }
-    }
 
-    .preview:nth-of-type(2) {
-        background: var(--clr-purple-t);
+        &:nth-of-type(2) {
+            background: var(--clr-purple-t);
 
-        &:hover,
-        &:focus {
-            background: var(--clr-purple);
+            &:hover,
+            &:focus {
+                background: var(--clr-purple);
+            }
         }
-    }
 
-    .preview-image {
-        aspect-ratio: 1 / 1;
-        border: 1px solid var(--clr-white);
-        object-fit: cover;
-        width: 12vw;
-    }
+        &-image {
+            aspect-ratio: 1 / 1;
+            border: 1px solid var(--clr-white);
+            object-fit: cover;
+            width: 12vw;
+        }
 
-    figcaption {
-        padding-top: 1vw;
-    }
+        &-text {
 
-    .more {
-        color: var(--clr-white);
-        font-size: 1.2rem;
-        transition: var(--transition-clr-text);
+            &-heading {
+                font-weight: bold;
+            }
+        }
+
+        figcaption {
+            padding-top: 1vw;
+        }
+
+        .more {
+            color: var(--clr-white);
+            font-size: 1.2rem;
+            transition: var(--transition-clr-text);
+        }
     }
 }

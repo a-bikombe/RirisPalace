@@ -54,11 +54,15 @@ index.php */
   width: 12vw;
 }
 
-#index figcaption {
+#index .preview-text-heading {
+  font-weight: bold;
+}
+
+#index .preview figcaption {
   padding-top: 1vw;
 }
 
-#index .more {
+#index .preview .more {
   color: var(--clr-white);
   font-size: 1.2rem;
   -webkit-transition: var(--transition-clr-text);
