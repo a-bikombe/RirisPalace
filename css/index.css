@@ -12,13 +12,14 @@ index.php */
 }
 
 #index.bg-image {
-  background-image: url("../images/backgrounds/flowers.jpeg");
-}
-
-#index.bg-image::before {
-  background-color: var(--clr-gray-20-t);
+  background: url("../images/backgrounds/flowers.jpeg"), var(--clr-gray-20-t);
   background-blend-mode: screen;
-  content: "";
+  /* 
+        &::before {
+            background-color: ;
+            background-blend-mode: screen;
+            content: "";
+        } */
 }
 
 #index .loader {
