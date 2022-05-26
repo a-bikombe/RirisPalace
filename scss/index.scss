@@ -5,14 +5,13 @@ index.php */
     --bg-color: var(--clr-purple);    
 
     &.bg-image {
-        background: var(--clr-black);
+        background: var(--bg-image);
         position: relative;
 
         &::before {
-            background: var(--bg-image);
+            background: var(--clr-gray-20-t);
             background-blend-mode: screen;
             content: '';
-            opacity: 0.4;
             position: absolute;
         }
     }

@@ -12,15 +12,14 @@ index.php */
 }
 
 #index.bg-image {
-  background: var(--clr-black);
+  background: var(--bg-image);
   position: relative;
 }
 
 #index.bg-image::before {
-  background: var(--bg-image);
+  background: var(--clr-gray-20-t);
   background-blend-mode: screen;
   content: '';
-  opacity: 0.4;
   position: absolute;
 }
 
