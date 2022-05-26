@@ -6,6 +6,10 @@ index.php */
   /* previews */
 }
 
+#index .loader {
+  background: var(--body-bg);
+}
+
 #index .homepage-header {
   background: var(--clr-white);
   border: 0px solid var(--clr-white);

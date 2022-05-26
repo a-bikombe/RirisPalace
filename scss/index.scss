@@ -2,7 +2,11 @@
 index.php */
 
 #index {
-    --body-bg: var(--body-bg-image);
+    --body-bg: var(--body-bg-image);    
+
+    .loader {
+        background: var(--body-bg);
+    }
 
     /* header */
     .homepage-header {
