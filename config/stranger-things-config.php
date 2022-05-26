@@ -518,7 +518,7 @@ $seasons = [
 	'season-3' => [
 		'seasonName' => 'Season 3',
 		'dateRelease' => 'Jul 4, 2019',
-		'dateSetting' => 'Jun 29 - Jul 4, 1985',
+		'dateSetting' => 'Jun 28 - Jul 4, 1985',
 		'characters' => [
 			'robin' => [
 				'images' => [
@@ -553,20 +553,23 @@ $seasons = [
 			'two' => [
 				'title' => 'The Mall Rats',
 				'rating' => '3',
-				'thoughts' => '',
+				'thoughts' => 'The mall scene with Material Girl playing in the background is iconic as always. I love this season\'s teenage drama of things like lying boyfriends and a dad wanting his daughter to spend less time with said boyfriend, mainly because poor El has to deal with so many life-or-death experiences that it\'s nice to have lower stakes once in a while.',
 				'quotes' => [
-					'',
-					'',
-					''
+					'<em>Mom, get off the phone! How many times?!</em>',
+					'Max has dumped me five times',
+					'Actually, I can hear everything; you are both <em>extremely loud</em>',
+					'<em>What\'s wrong with you?</em> You know she\'s not allowed to be here'
 				]
 			],
 			'three' => [
 				'title' => 'The Case of the Missing Lifeguard',
 				'rating' => '2',
-				'thoughts' => '',
+				'thoughts' => 'It makes me so sad that El and Will would understand each other so well and could be the closest of friends based on their shared trauma involving the Upside Down, but the opportunity is wasted because they\'re always fighting over Mike.',
 				'quotes' => [
-					'',
-					''
+					'Is it <em>early</em>, Michael',
+					'I haven\'t been stood up like that since Alice Gilbert in the ninth grade',
+					'Little rodents have gone <em>cuckoo</em>',
+					'You can\'t leave, it\'s raining'
 				]
 			],
 			'four' => [
