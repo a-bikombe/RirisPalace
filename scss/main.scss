@@ -310,7 +310,7 @@ body {
     /* set transparent background */
     .transparent-bg {
         :not(.btn, i) {
-            background: var(--body-bg);
+            background: transparent;
             color: var(--theme-text);
         }
     }

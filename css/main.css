@@ -355,7 +355,7 @@ body.bg-image-dim {
 }
 
 body .transparent-bg {
-  background: var(--body-bg);
+  background: transparent;
   color: var(--theme-text);
 }
 
