@@ -35,7 +35,8 @@ foreach ($pageNav as $headingArray) {
 	$index++;
 } */
 
-var_dump($pageNav);
+// var_dump($pageNav);
+var_dump($previewValues);
 
 ?>
 <!DOCTYPE html>
