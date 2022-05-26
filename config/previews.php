@@ -1,5 +1,4 @@
-<?
-
+<?php
 require_once 'kpop-groups.php';
 
 $boy = 'Finn Wolfhard';
@@ -42,18 +41,31 @@ $previews = [
 		'image' => $boys[$boy]['image'],
 		'text' => $boys[$boy]['description'],
 		'link' => $boys[$boy]['link']
+	],
+	'news' => [
+		'header' => 'News',
+		'image' => '',
+		'text' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+		et dolore magna aliqua. Eget sit amet tellus cras adipiscing. Ut tortor pretium viverra suspendisse.
+		Dictum varius duis at consectetur lorem donec massa sapien faucibus. Tristique sollicitudin nibh sit
+		amet commodo. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Cursus metus
+		aliquam eleifend mi in nulla posuere sollicitudin aliquam. Morbi tristique senectus et netus.',
+		'link' => ''
 	]
 ];
 
-/* 'Huening Kai' => [
-		'image' => '',
-		'description' => '',
-		'link' => ''
-	]
-	
-	*/
+/* 
+$boys template
+
+'Huening Kai' => [
+	'image' => '',
+	'description' => '',
+	'link' => ''
+]
+*/
 
 /* 
+preview template
 
 'header' => '',
 'image' => '',
