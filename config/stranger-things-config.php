@@ -20,11 +20,30 @@ $links = [
 	'jonathan' => '<a href="#jonathan" class="no-link-color no-decor">Jonathan</a>'
 ];
 
+$characterRank = [
+	'mike',
+	'max',
+	'dustin',
+	'eleven',
+	'joyce',
+	'will',
+	'bob',
+	'hopper',
+	'robin',
+	'steve',
+	'lucas',
+	'jonathan',
+	'erica',
+	'nancy',
+	'karen',
+	'billy'
+];
+
 $seasons = [
 	'season-1' => [
 		'seasonName' => 'Season 1',
-		'dateRelease' => 'July 15, 2016',
-		'dateSetting' => 'November 6-12, 1983',
+		'dateRelease' => 'Jul 15, 2016',
+		'dateSetting' => 'Nov 6-12, 1983',
 		'characters' => [
 			'joyce' => [
 				'images' => [
@@ -317,8 +336,8 @@ $seasons = [
 	],
 	'season-2' => [
 		'seasonName' => 'Season 2',
-		'dateRelease' => 'October 27, 2017',
-		'dateSetting' => 'October 30 - November 4, 1984',
+		'dateRelease' => 'Oct 27, 2017',
+		'dateSetting' => 'Oct 30 - Nov 4, 1984',
 		'characters' => [
 			'max' => [
 				'images' => [
@@ -498,8 +517,8 @@ $seasons = [
 	],
 	'season-3' => [
 		'seasonName' => 'Season 3',
-		'dateRelease' => 'July 4, 2019',
-		'dateSetting' => 'July 1-4, 1985',
+		'dateRelease' => 'Jul 4, 2019',
+		'dateSetting' => 'Jul 1-4, 1985',
 		'characters' => [
 			'robin' => [
 				'images' => [
@@ -526,7 +545,7 @@ $seasons = [
 				'rating' => '3',
 				'thoughts' => '',
 				'quotes' => [
-					'There\'s nothing wrong with Nana'
+					''
 				]
 			],
 			'two' => [
@@ -534,18 +553,18 @@ $seasons = [
 				'rating' => '3',
 				'thoughts' => '',
 				'quotes' => [
-					'It\'s 9:32, where are you',
-					'Max has dumped me five times',
-					'<em>What\'s wrong with you?</em> You know she\'s not allowed to be here'
+					'',
+					'',
+					''
 				]
 			],
 			'three' => [
 				'title' => 'The Case of the Missing Lifeguard',
 				'rating' => '2',
-				'thoughts' => 'It makes me so sad that El and Will would understand each other so well and could be the closest of friends based on their shared trauma involving the Upside Down, but the opportunity is wasted because they\'re always fighting over Mike.',
+				'thoughts' => '',
 				'quotes' => [
-					'Is it <em>early</em>, Michael',
-					'yEaH'
+					'',
+					''
 				]
 			],
 			'four' => [
@@ -553,7 +572,7 @@ $seasons = [
 				'rating' => '5',
 				'thoughts' => '',
 				'quotes' => [
-					'I love her and I can\'t lose her again'
+					''
 				]
 			],
 			'five' => [
@@ -561,7 +580,7 @@ $seasons = [
 				'rating' => '2',
 				'thoughts' => '',
 				'quotes' => [
-					'This is my... <em>family</em>—" "—Extended'
+					''
 				]
 			],
 			'six' => [
@@ -577,8 +596,8 @@ $seasons = [
 				'rating' => '5',
 				'thoughts' => '',
 				'quotes' => [
-					'She\'s gonna need some <em>backup</em>',
-					'Old people?'
+					'',
+					''
 				]
 			],
 			'eight' => [
@@ -586,14 +605,14 @@ $seasons = [
 				'rating' => '4',
 				'thoughts' => '',
 				'quotes' => [
-					'Told you... physics'
+					''
 				]
 			]
 		]
 	],
 	'season-4' => [
 		'seasonName' => 'Season 4',
-		'dateRelease' => 'May 27/July 1, 2022',
+		'dateRelease' => 'May 27/Jul 1, 2022',
 		'dateSetting' => 'TBA',
 		'characters' => [
 			'eddie' => [
@@ -703,23 +722,4 @@ $seasons = [
 		'characters' => [],
 		'episodes' => []
 	]
-];
-
-$characterRank = [
-	'mike',
-	'max',
-	'dustin',
-	'eleven',
-	'joyce',
-	'will',
-	'bob',
-	'hopper',
-	'robin',
-	'steve',
-	'lucas',
-	'jonathan',
-	'erica',
-	'nancy',
-	'karen',
-	'billy'
 ];

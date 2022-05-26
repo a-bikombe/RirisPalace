@@ -2,22 +2,22 @@
 
 require_once 'kpop-groups.php';
 
-$boy = 'Huening Kai';
+$boy = 'Finn Wolfhard';
 
 $boys = [
 	'Finn Wolfhard' => [
 		'image' => 'images/boys/finn/b-w.jpeg',
-		'description' => 'What else is new? Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget sit amet tellus cras adipiscing. Ut tortor pretium viverra suspendisse. Dictum varius duis at consectetur lorem donec massa sapien faucibus. Tristique sollicitudin nibh sit amet commodo. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Cursus metus aliquam eleifend mi in nulla posuere sollicitudin aliquam.',
+		'description' => "What else is new? I have (respectfully) been in love with this boy since 2017, when I first watched Stranger Things. I have since watched every piece of content in his filmography <em>and</em> discography, and I take full pride in that.",
 		'link' => 'stranger-things.php'
 	],
 	'Huening Kai' => [
 		'image' => $groups['active']['groups']['txt']['members']['HueningKai']['image'],
-		'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget sit amet tellus cras adipiscing. Ut tortor pretium viverra suspendisse. Dictum varius duis at consectetur lorem donec massa sapien faucibus. Tristique sollicitudin nibh sit amet commodo.',
+		'description' => "My bias in the K-Pop group Tomorrow X Together (aka TXT), Huening Kai has caught my eye since their debut in March 2019. However, he didn't become my bias until August of 2021. I dedicate most of my interest in him to his alleged resemblence to Finn Wolfhard.",
 		'link' => 'kpop.php#txt'
 	],
 	'Park Jisung' => [
 		'image' => $groups['active']['groups']['nctdream']['members']['Jisung']['image'],
-		'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget sit amet tellus cras adipiscing. Ut tortor pretium viverra suspendisse. Dictum varius duis at consectetur lorem donec massa sapien faucibus. Tristique sollicitudin nibh sit amet commodo.',
+		'description' => "Jisung is my bias in my ult K-Pop group, NCT Dream.I like him so much because of his deep voice and his talent for dancing.",
 		'link' => 'kpop.php#nctdream'
 	]
 ];
