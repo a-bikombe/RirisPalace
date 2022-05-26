@@ -22,11 +22,11 @@ $scripts = [
 $previewKeys = array_keys($previews);  // returns keys of $previews and puts them into $previewKeys
 $headingArray = ['heading'];
 $pageNav = array_fill_keys($previewKeys, $headingArray);  // fills pageNav keys with the array with the value 'heading'
-/* 
+
 $previewValues;
 foreach ($previews as $previewInfo) {
 	array_push($previewValues, $previewInfo['header']);
-} */
+}
 /* 
 $index = 0;
 
@@ -34,6 +34,8 @@ foreach ($pageNav as $headingArray) {
 	array_fill_keys($headingArray, array_values($previewValues)[$index]);
 	$index++;
 } */
+
+var_dump($pageNav);
 
 ?>
 <!DOCTYPE html>
@@ -75,5 +77,3 @@ foreach ($pageNav as $headingArray) {
 </body>
 
 </html>
-
-<?php var_dump($pageNav); ?>
