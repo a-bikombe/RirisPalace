@@ -27,8 +27,9 @@ foreach ($previews as $previewInfo) {
 	array_push($previewValues, $previewInfo['header']);
 }
 
+$index = 0;
+
 foreach ($pageNav as $headingArray) {
-	$index = 0;
 	array_fill_keys($headingArray, array_values($previewValues)[$index]);
 	$index++;
 }
@@ -74,4 +75,4 @@ foreach ($pageNav as $headingArray) {
 
 </html>
 
-<?php  var_dump($pageNav); ?>
+<?php var_dump($pageNav); ?>
