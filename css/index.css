@@ -2,18 +2,8 @@
 index.php */
 #index {
   --bg-color: var(--clr-purple);
-  /* 
-    .navbar,
-    main {
-        background: var(--clr-gray-20-t);
-    } */
   /* header */
   /* previews */
-}
-
-#index.bg-image {
-  background: -webkit-gradient(linear, left top, left bottom, from(var(--clr-gray-20-t)), to(var(--clr-gray-20-t))), var(--bg-image);
-  background: linear-gradient(var(--clr-gray-20-t), var(--clr-gray-20-t)), var(--bg-image);
 }
 
 #index .loader {

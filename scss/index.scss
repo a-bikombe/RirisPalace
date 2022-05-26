@@ -4,18 +4,9 @@ index.php */
 #index {
     --bg-color: var(--clr-purple);    
 
-    &.bg-image {
-        background: linear-gradient(var(--clr-gray-20-t), var(--clr-gray-20-t)), var(--bg-image);
-    }
-
     .loader {
         background: var(--bg-color);
     }
-/* 
-    .navbar,
-    main {
-        background: var(--clr-gray-20-t);
-    } */
 
     /* header */
     .homepage-header {

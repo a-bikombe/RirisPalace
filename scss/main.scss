@@ -297,6 +297,10 @@ body {
         background: var(--bg-color);
     }
 
+    &.bg-image-dim {
+        background: linear-gradient(var(--clr-gray-20-t), var(--clr-gray-20-t)), var(--bg-image);
+    }
+
     /* set transparent background */
     .transparent-bg {
         :not(.btn, i) {
@@ -342,13 +346,7 @@ body {
     /* ================================================================
 | 403,404.php */
     &#error {
-        background: var(--bg-image);
         color: var(--theme-text);
-
-        .navbar,
-        .error-main {
-            background: var(--clr-gray-20-t);
-        }
 
         .error-main {
             padding: 15vh;
