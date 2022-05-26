@@ -279,6 +279,10 @@ figcaption {
 /* ================================================================
 layout */
 
+html {
+    scroll-padding-top: 3vh;
+}
+
 /* initialize light and dark theme-lights */
 body {
     --theme-bg: var(--clr-white);
