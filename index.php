@@ -18,7 +18,7 @@ $mobileStyles = [
 $scripts = [
 	'main'
 ];
-
+/* 
 $previewKeys = array_keys($previews);  // returns keys of $previews and puts them into $previewKeys
 $pageNav = array_fill_keys($previewKeys, ['heading']);  // fills pageNav keys with the array with the value 'heading'
 
@@ -31,7 +31,7 @@ foreach ($pageNav as $headingArray) {
 	$index = 0;
 	array_fill_keys($headingArray, array_values($previewValues)[$index]);
 	$index++;
-}
+} */
 
 ?>
 <!DOCTYPE html>
