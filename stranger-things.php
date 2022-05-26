@@ -189,7 +189,7 @@ $pageNav = [
 											endif; ?>
 										</span>
 									<?php endif; ?>
-								</d>
+								</div>
 								<div class="episode-main flex dir-change">
 									<div class="episode-main-section thoughts">
 										<h5 class="thoughts-title text-center">Thoughts</h5>
