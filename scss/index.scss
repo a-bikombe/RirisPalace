@@ -6,13 +6,11 @@ index.php */
 
     &.bg-image {
         background-image: url("../images/backgrounds/flowers.jpeg");
-        position: relative;
 
         &::before {
             background-color: var(--clr-gray-20-t);
             background-blend-mode: screen;
             content: "";
-            position: absolute;
         }
     }
 
