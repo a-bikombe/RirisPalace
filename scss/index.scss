@@ -5,14 +5,7 @@ index.php */
     --bg-color: var(--clr-purple);    
 
     &.bg-image {
-        background: url("../images/backgrounds/flowers.jpeg"), var(--clr-gray-20-t);
-        background-blend-mode: screen;
-/* 
-        &::before {
-            background-color: ;
-            background-blend-mode: screen;
-            content: "";
-        } */
+        background: linear-gradient(var(--clr-gray-20-t), var(--clr-gray-20-t)), var(--bg-image);
     }
 
     .loader {
