@@ -21,23 +21,17 @@ $scripts = [
 	'main'
 ];
 
-$previewKeys = array_keys($previews);  // returns keys of $previews and puts them into $previewKeys
-$headingArray = ['heading'];
-$pageNav = array_fill_keys($previewKeys, $headingArray);  // fills pageNav keys with the array with the value 'heading'
-
-$previewValues = [];
-foreach ($previews as $previewInfo) {
-	array_push($previewValues, $previewInfo['header']);
-}
-
-$index = 0;
-foreach ($pageNav as $headingArray) {
-	$pageNav[key($pageNav)] = array_fill_keys($headingArray, array_values($previewValues)[$index]);
-	$index++;
-}
-
-var_dump($pageNav);
-// var_dump($previewValues);
+$pageNav = [
+	'about-me' => [
+		'heading' => 'Welcome!'
+	],
+	'boy-of-the-week' => [
+		'heading' => 'Celebrity Of The Week'
+	],
+	'news' => [
+		'heading' => 'News'
+	]
+];
 
 ?>
 <!DOCTYPE html>
