@@ -253,7 +253,6 @@ $seasons = [
 				'thoughts' => 'Mike and El having their first real conversation makes me cry every time. I also loved when he showed her around his room and showed her all of his toys. Hazy Shade Of Winter playing in the credits after Barb goes missing is probably my favorite ending to any ST episode.',
 				'quotes' => [
 					'...Well my name\'s Mike, short for Michael',
-					'We have OJ, skim milk, what else...',
 					'...The last time I told you I was sick you made me go to school anyway—',
 					'We never would\'ve upset you if we knew you had superpowers'
 				]
@@ -263,13 +262,10 @@ $seasons = [
 				'rating' => '2',
 				'thoughts' => 'This episode is kind of boring, since nothing really happens besides the kids riding around on their bikes. Although, it is a classic with the wall alphabet, and the kids finding Will at the end with Heroes playing in the background always makes me so sad. It always devastates me to see anyone yelling at El, especially Mike.',
 				'quotes' => [
-					'We need energy for our travels for stamina',
 					'I bet that she could make this fly',
 					'COMING',
 					'You look at her all like... \'Hi El :) Oh El, El, El\'',
-					'This is the <em>Monsta Killa</em>',
-					'*Nervous* "...Yep"',
-					'Blink once for yes, twice for no'
+					'This is the <em>Monsta Killa</em>'
 				]
 			],
 			'four' => [
@@ -280,8 +276,7 @@ $seasons = [
 					'ARE YOU DEAF',
 					'I think I just wanna stay home today... I mean, if that\'s okay :(',
 					'No, not his funeral, <em>screw his funeral</em>',
-					'We\'re— upset :)— :(',
-					'Did I say O\'Bannon, I meant... okay'
+					'We\'re— upset :)— :('
 				]
 			],
 			'five' => [
@@ -289,7 +284,6 @@ $seasons = [
 				'rating' => '5',
 				'thoughts' => 'I still hate when Mike yells at El. He\'s been so mean to her this season and it makes me really disappointed mostly in myself that he\'s my favorite character. Still, though, the fight between him and Lucas was kind of a good time and I\'m always cheering him on to kick his friend\'s butt.',
 				'quotes' => [
-					'Take another photo? Yell at it?',
 					'We\'re... in mourning',
 					'You\'re blind because you like that a girl\'s not grossed out by you',
 					'NYU, Lonnie! He\'s wanted to go to NYU since he was <em>six years old!</em>',
@@ -310,12 +304,9 @@ $seasons = [
 				'rating' => '3',
 				'thoughts' => 'Nothing will outdo the chase scene with the kids on the bikes where El flips the van. Everyone tries, but no one succeeds. Also, Dustin and Lucas trying to set up the kiddie pool was funny. Joyce acting as a comforting mother figure to El while she was in the tank was so sweet, and was foreshadowing for Season 4. The parallels between the seasons are so amazing.',
 				'quotes' => [
-					'*Indistinct shouting over the walkie* "...You SOB"',
+					'*Indistinct shouting over the walkie* "...You S.O.B."',
 					'If anyone asks where I am, I\'ve left the country',
 					'Did you see that??" "No, Dustin, we missed it',
-					'Because you couldn\'t take Jonathan Byers',
-					'Will you <em>stop</em> pacing?',
-					'Let\'s <em>go</em>!',
 					'Why are you keeping this curiosity door locked?'
 				]
 			],
@@ -425,7 +416,6 @@ $seasons = [
 				'quotes' => [
 					'*Nancy chasing Mike through the house* "Mike! Get <em>back here!</em>"',
 					'I\'m not <em>prostituting my sister</em>',
-					'Yeah, I heard that one; did you hear the one about the fat man with the beard who climbs down chimneys?',
 					'Is that why you don\'t have any friends?'
 				]
 			],
@@ -436,7 +426,6 @@ $seasons = [
 				'quotes' => [
 					'*Scary music* "OH— <em>Jesus</em>"',
 					'I specifically didn\'t agree to Winston',
-					'And <em>you?</em> Who screams like that? You sound like a little girl',
 					'Crazy together'
 				]
 			],
@@ -464,7 +453,6 @@ $seasons = [
 				'rating' => '3',
 				'thoughts' => 'This episode feels mostly like filler, since it\'s middle-of-the-season stuff, but Bob helping Joyce and the kids decipher the Hawkins map is so sweet. Murray\'s ridiculous, but he\'s so funny. And I\'m kind of here for Indiana Jones Hopper. Baby Erica is <em>so cute</em>. And I loved getting to see El\'s mom\'s backstory. Will seizing on the ground at the end was so scary.',
 				'quotes' => [
-					'We only seem to hang out when the world\'s about to end',
 					'What\'s at the X? Pirate treasure?',
 					'I\'ve got a code for you instead; it\'s called Code Shut... Your... Mouth',
 					'I love you, I\'m sorry... What the hell am <em>I</em> sorry for?'
@@ -476,8 +464,7 @@ $seasons = [
 				'thoughts' => 'The first 60 seconds of this episode are so good with Will screaming and Joyce crying before you ever even see anything. The lead-up to the lab scene is <em>so scary</em>.',
 				'quotes' => [
 					'We like Steve... but we don\'t <em>love</em> Steve',
-					'I want you to know that I\'m not mad',
-					'You have a creepy little bond with him'
+					'I want you to know that I\'m not mad'
 				]
 			],
 			'seven' => [
@@ -497,7 +484,6 @@ $seasons = [
 					'You broke the rule of law—" "SO DID YOU!',
 					'We can\'t just sit here while those <em>things</em> are loose',
 					'It\'s like a play on words—" "Okay',
-					'No, it-it\'s a <em>manual</em>',
 					'I could feel it" "Feel what?" "The electricity'
 				]
 			],
