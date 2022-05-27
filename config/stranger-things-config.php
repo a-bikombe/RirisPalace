@@ -600,8 +600,9 @@ $seasons = [
 			'eight' => [
 				'title' => 'The Battle of Starcourt',
 				'rating' => '4',
-				'thoughts' => "Hopper's letter breaks me heart into a million pieces.",
+				'thoughts' => "A solid season finale. It's probably my second-favorite finale after Season 2. Hopper's letter breaks me heart into a million pieces.",
 				'quotes' => [
+					"I could bake him a casserole",
 					"Told you... physics"
 				]
 			]
