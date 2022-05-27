@@ -288,6 +288,8 @@ $underConstruction = '<img class="construction-gif" src="images/gifs/pikachu-con
 										</div>
 									</div>
 								</section>
+								<?php unset($oldestYear);
+								unset($youngestYear); ?>
 							</section>
 						<?php endif; ?>
 					<?php endforeach; ?>
