@@ -240,87 +240,87 @@ $seasons = [
 			'one' => [
 				'title' => 'The Vanishing of Will Byers',
 				'rating' => '3',
-				'thoughts' => 'A classic. This episode perfectly sets the mood for a spooky winter season. Everyone was so young, and I always get so nostalgic watching this.',
+				'thoughts' => "A classic. This episode perfectly sets the mood for a spooky winter season. Everyone was so young, and I always get so nostalgic watching this.",
 				'quotes' => [
-					'IT ROARS IN ANGER',
-					'The campaign took two weeks to plan! How was I supposed to know it was gonna take ten hours',
-					'Am I speaking <em>Chinese</em> in this house?'
+					"IT ROARS IN ANGER",
+					"The campaign took two weeks to plan! How was I supposed to know it was gonna take ten hours",
+					"Am I speaking <em>Chinese</em> in this house?"
 				]
 			],
 			'two' => [
 				'title' => 'The Weirdo on Maple Street',
 				'rating' => '4',
-				'thoughts' => 'Mike and El having their first real conversation makes me cry every time. I also loved when he showed her around his room and showed her all of his toys. Hazy Shade Of Winter playing in the credits after Barb goes missing is probably my favorite ending to any ST episode.',
+				'thoughts' => "Mike and El having their first real conversation makes me cry every time. I also loved when he showed her around his room and showed her all of his toys. Hazy Shade Of Winter playing in the credits after Barb goes missing is probably my favorite ending to any ST episode.",
 				'quotes' => [
-					'...Well my name\'s Mike, short for Michael',
-					'...The last time I told you I was sick you made me go to school anyway—',
-					'We never would\'ve upset you if we knew you had superpowers'
+					"...Well my name's Mike, short for Michael",
+					"...The last time I told you I was sick you made me go to school anyway—",
+					"We never would've upset you if we knew you had superpowers"
 				]
 			],
 			'three' => [
 				'title' => 'Holly, Jolly',
 				'rating' => '2',
-				'thoughts' => 'This episode is kind of boring, since nothing really happens besides the kids riding around on their bikes. Although, it is a classic with the wall alphabet, and the kids finding Will at the end with Heroes playing in the background always makes me so sad. It always devastates me to see anyone yelling at El, especially Mike.',
+				'thoughts' => "This episode is kind of boring, since nothing really happens besides the kids riding around on their bikes. Although, it is a classic with the wall alphabet, and the kids finding Will at the end with Heroes playing in the background always makes me so sad. It always devastates me to see anyone yelling at El, especially Mike.",
 				'quotes' => [
-					'I bet that she could make this fly',
-					'COMING',
-					'You look at her all like... \'Hi El :) Oh El, El, El\'',
-					'This is the <em>Monsta Killa</em>'
+					"I bet that she could make this fly",
+					"COMING",
+					"You look at her all like... 'Hi El :) Oh El, El, El'",
+					"This is the <em>Monsta Killa</em>"
 				]
 			],
 			'four' => [
 				'title' => 'The Body',
 				'rating' => '5',
-				'thoughts' => 'It\'s so sad how poor Joyce sounded so crazy to anyone she spoke to. Her blasting music and screaming at the walls like "Come on... COME ON! TALK TO ME!" was a real serve. Also, El\'s makeover done by the boys! I love every second.',
+				'thoughts' => "It's so sad how poor Joyce sounded so crazy to anyone she spoke to. Her blasting music and screaming at the walls like \"Come on... COME ON! TALK TO ME!\" was a real serve. Also, El's makeover done by the boys! I love every second.",
 				'quotes' => [
-					'ARE YOU DEAF',
-					'I think I just wanna stay home today... I mean, if that\'s okay :(',
-					'No, not his funeral, <em>screw his funeral</em>',
-					'We\'re— upset :)— :('
+					"ARE YOU DEAF",
+					"I think I just wanna stay home today... I mean, if that's okay :(",
+					"No, not his funeral, <em>screw his funeral</em>",
+					"We're— upset :)— :("
 				]
 			],
 			'five' => [
 				'title' => 'The Flea and the Acrobat',
 				'rating' => '5',
-				'thoughts' => 'I still hate when Mike yells at El. He\'s been so mean to her this season and it makes me really disappointed mostly in myself that he\'s my favorite character. Still, though, the fight between him and Lucas was kind of a good time and I\'m always cheering him on to kick his friend\'s butt.',
+				'thoughts' => "I still hate when Mike yells at El. He's been so mean to her this season and it makes me really disappointed mostly in myself that he's my favorite character. Still, though, the fight between him and Lucas was kind of a good time and I'm always cheering him on to kick his friend's butt.",
 				'quotes' => [
-					'We\'re... in mourning',
-					'You\'re blind because you like that a girl\'s not grossed out by you',
-					'NYU, Lonnie! He\'s wanted to go to NYU since he was <em>six years old!</em>',
-					'Bull, that\'s old blood! Right, El? ...<em>Right, El?</em>'
+					"We're... in mourning",
+					"You're blind because you like that a girl's not grossed out by you",
+					"NYU, Lonnie! He's wanted to go to NYU since he was <em>six years old!</em>",
+					"Bull, that's old blood! Right, El? ...<em>Right, El?</em>"
 				]
 			],
 			'six' => [
 				'title' => 'The Monster',
 				'rating' => '2',
-				'thoughts' => 'This one\'s kind of boring too, but I was a fan of El robbing the grocery store. And Tantrum Wheeler shouldn\'t be as hilarious as he is. Also, making your boyfriend float in the air to save his life? A serve.',
+				'thoughts' => "This one's kind of boring too, but I was a fan of El robbing the grocery store. And Tantrum Wheeler shouldn't be as hilarious as he is. Also, making your boyfriend float in the air to save his life? A serve.",
 				'quotes' => [
-					'You\'re <em>shaking his hand</em>" "No I\'m not',
-					'She\'s our friend and she\'s crazy!'
+					"You're <em>shaking his hand</em>\" \"No I'm not",
+					"She's our friend and she's crazy!"
 				]
 			],
 			'seven' => [
 				'title' => 'The Bathtub',
 				'rating' => '3',
-				'thoughts' => 'Nothing will outdo the chase scene with the kids on the bikes where El flips the van. Everyone tries, but no one succeeds. Also, Dustin and Lucas trying to set up the kiddie pool was funny. Joyce acting as a comforting mother figure to El while she was in the tank was so sweet, and was foreshadowing for Season 4. The parallels between the seasons are so amazing.',
+				'thoughts' => "Nothing will outdo the chase scene with the kids on the bikes where El flips the van. Everyone tries, but no one succeeds. Also, Dustin and Lucas trying to set up the kiddie pool was funny. Joyce acting as a comforting mother figure to El while she was in the tank was so sweet, and was foreshadowing for Season 4. The parallels between the seasons are so amazing.",
 				'quotes' => [
-					'*Indistinct shouting over the walkie* "...You S.O.B."',
-					'If anyone asks where I am, I\'ve left the country',
-					'Did you see that??" "No, Dustin, we missed it',
-					'Why are you keeping this curiosity door locked?'
+					"*Indistinct shouting over the walkie* \"...You S.O.B.\"",
+					"If anyone asks where I am, I've left the country",
+					"Did you see that??\" \"No, Dustin, we missed it",
+					"Why are you keeping this curiosity door locked?"
 				]
 			],
 			'eight' => [
 				'title' => 'The Upside Down',
 				'rating' => '4',
-				'thoughts' => 'Hopper\'s flashbacks with his daughter make me sob. And Steve fighting with Nancy and Jonathan is <em>so cool!</em> Him swinging the baseball bat with all the lights flickering around him was probably one of my favorite parts of the whole season.',
+				'thoughts' => "Hopper's flashbacks with his daughter make me sob. And Steve fighting with Nancy and Jonathan is <em>so cool!</em> Him swinging the baseball bat with all the lights flickering around him was probably one of my favorite parts of the whole season.",
 				'quotes' => [
-					'*Steve gets a gun pointed at him* "Wait, woah, woah, <em>what?</em>"',
-					'<em>Mike! I found the chocolate pudding!</em>',
-					'You go to school dances with someone that you... like',
-					'Her name\'s Eleven" "Like the number?',
-					'It makes a painful *screech*',
-					'Dustin farted!'
+					"*Steve gets a gun pointed at him* \"Wait, woah, woah, <em>what?</em>\"",
+					"<em>Mike! I found the chocolate pudding!</em>",
+					"You go to school dances with someone that you... like",
+					"Her name's Eleven\" \"Like the number?",
+					"It makes a painful *screech*",
+					"Dustin farted!"
 				]
 			]
 		]
@@ -412,50 +412,50 @@ $seasons = [
 			'one' => [
 				'title' => 'MADMAX',
 				'rating' => '3',
-				'thoughts' => 'Bob and Miss Max are here! The cinematography in the arcade scene, with the boys surrounding the game screen and Max\'s name showing up on the leaderboard. And I love the way that they slowly showed El\'s presence in the cabin before seeing her for the first time this season.',
+				'thoughts' => "Bob and Miss Max are here! The cinematography in the arcade scene, with the boys surrounding the game screen and Max's name showing up on the leaderboard. And I love the way that they slowly showed El's presence in the cabin before seeing her for the first time this season.",
 				'quotes' => [
-					'*Nancy chasing Mike through the house* "Mike! Get <em>back here!</em>"',
-					'I\'m not <em>prostituting my sister</em>',
-					'Is that why you don\'t have any friends?'
+					"*Nancy chasing Mike through the house* \"Mike! Get <em>back here!</em>\"",
+					"I'm not <em>prostituting my sister</em>",
+					"Is that why you don't have any friends?"
 				]
 			],
 			'two' => [
 				'title' => 'Trick or Treat, Freak',
 				'rating' => '4',
-				'thoughts' => 'I love watching Hopper and El bond as father and daughter, and the kids in their little Ghostbusters costumes are <em>so cute!</em> I miss Will getting to talk to Mike about his problems and having him as his main support system.',
+				'thoughts' => "I love watching Hopper and El bond as father and daughter, and the kids in their little Ghostbusters costumes are <em>so cute!</em> I miss Will getting to talk to Mike about his problems and having him as his main support system.",
 				'quotes' => [
-					'*Scary music* "OH— <em>Jesus</em>"',
-					'I specifically didn\'t agree to Winston',
-					'Crazy together'
+					"*Scary music* \"OH— <em>Jesus</em>\"",
+					"I specifically didn't agree to Winston",
+					"Crazy together"
 				]
 			],
 			'three' => [
 				'title' => 'The Pollywog',
 				'rating' => '5',
-				'thoughts' => 'November 1st, 1984: aka Sweater Day. This day would\'ve been perfect had Mike not called Max annoying. El throwing Max off her skateboard was kind of funny though. Also, baby Dart is kind of cute.',
+				'thoughts' => "November 1st, 1984: aka Sweater Day. This day would've been perfect had Mike not called Max annoying. El throwing Max off her skateboard was kind of funny though. Also, baby Dart is kind of cute.",
 				'quotes' => [
-					'On Day 600, on Day 700? Day 800?',
-					'I need my paddles!',
-					'That\'s like saying just because someone\'s from the Death Star doesn\'t make them bad'
+					"On Day 600, on Day 700? Day 800?",
+					"I need my paddles!",
+					"That's like saying just because someone's from the Death Star doesn't make them bad"
 				]
 			],
 			'four' => [
 				'title' => 'Will the Wise',
 				'rating' => '3',
-				'thoughts' => 'The second time they\'re ruining the Byers\' house: iconic. It seems like everyone likes to brush past the idea that Billy\'s inherently racist.',
+				'thoughts' => "The second time they're ruining the Byers' house: iconic. It seems like everyone likes to brush past the idea that Billy's inherently racist.",
 				'quotes' => [
-					'You say... I go, and I never leave! <em>Nothing ever happens!</em>',
-					'Let\'s burn that lab to the ground'
+					"You say... I go, and I never leave! <em>Nothing ever happens!</em>",
+					"Let's burn that lab to the ground"
 				]
 			],
 			'five' => [
 				'title' => 'Dig Dug',
 				'rating' => '3',
-				'thoughts' => 'This episode feels mostly like filler, since it\'s middle-of-the-season stuff, but Bob helping Joyce and the kids decipher the Hawkins map is so sweet. Murray\'s ridiculous, but he\'s so funny. And I\'m kind of here for Indiana Jones Hopper. Baby Erica is <em>so cute</em>. And I loved getting to see El\'s mom\'s backstory. Will seizing on the ground at the end was so scary.',
+				'thoughts' => "This episode feels mostly like filler, since it\'s middle-of-the-season stuff, but Bob helping Joyce and the kids decipher the Hawkins map is so sweet. Murray\'s ridiculous, but he's so funny. And I'm kind of here for Indiana Jones Hopper. Baby Erica is <em>so cute</em>. And I loved getting to see El's mom's backstory. Will seizing on the ground at the end was so scary.",
 				'quotes' => [
-					'What\'s at the X? Pirate treasure?',
-					'I\'ve got a code for you instead; it\'s called Code Shut... Your... Mouth',
-					'I love you, I\'m sorry... What the hell am <em>I</em> sorry for?'
+					"What's at the X? Pirate treasure?",
+					"I've got a code for you instead; it's called Code Shut... Your... Mouth",
+					"I love you, I'm sorry... What the hell am <em>I</em> sorry for?"
 				]
 			],
 			'six' => [
@@ -463,40 +463,40 @@ $seasons = [
 				'rating' => '2',
 				'thoughts' => 'The first 60 seconds of this episode are so good with Will screaming and Joyce crying before you ever even see anything. The lead-up to the lab scene is <em>so scary</em>.',
 				'quotes' => [
-					'We like Steve... but we don\'t <em>love</em> Steve',
-					'I want you to know that I\'m not mad'
+					"We like Steve... but we don't <em>love</em> Steve",
+					"I want you to know that I'm not mad"
 				]
 			],
 			'seven' => [
 				'title' => 'The Lost Sister',
 				'rating' => '1',
-				'thoughts' => 'I\'m all for an El plot and learning about the other kids from the lab, but on its own; not when it distracts from the rest of the plot.',
+				'thoughts' => "I'm all for an El plot and learning about the other kids from the lab, but on its own; not when it distracts from the rest of the plot.",
 				'quotes' => [
-					'And on his farm he had a cow...',
-					'But <em>I</em> can save them'
+					"And on his farm he had a cow...",
+					"But <em>I</em> can save them"
 				]
 			],
 			'eight' => [
 				'title' => 'The Mind Flayer',
 				'rating' => '4',
-				'thoughts' => 'This episode absolutely breaks my heart. I can\'t watch the first half, but the second half is my favorite part of the whole season. I loved getting to hear all of Will\'s stories from his loved ones, especially Mike\'s.',
+				'thoughts' => "This episode absolutely breaks my heart. I can't watch the first half, but the second half is my favorite part of the whole season. I loved getting to hear all of Will's stories from his loved ones, especially Mike's.",
 				'quotes' => [
-					'You broke the rule of law—" "SO DID YOU!',
-					'We can\'t just sit here while those <em>things</em> are loose',
-					'It\'s like a play on words—" "Okay',
-					'I could feel it" "Feel what?" "The electricity'
+					"You broke the rule of law—\" \"SO DID YOU!",
+					"We can't just sit here while those <em>things</em> are loose",
+					"It's like a play on words—\" \"Okay",
+					"I could feel it\" \"Feel what?\" \"The electricity"
 				]
 			],
 			'nine' => [
 				'title' => 'The Gate',
 				'rating' => '5',
-				'thoughts' => 'This whole episode is amazing: the Mileven reunion, the exorcism, the burning of the hub, El\'s floating in the air, the <em>Snow Ball Scene</em>... magnificence. Miss Max is so cool, I should mention. And Lucas\'s scream is really funny.',
+				'thoughts' => "This whole episode is amazing: the Mileven reunion, the exorcism, the burning of the hub, El's floating in the air, the <em>Snow Ball Scene</em>... magnificence. Miss Max is so cool, I should mention. And Lucas's scream is really funny.",
 				'quotes' => [
-					'Protecting her... PROTECTING HER?',
-					'I\'m just curious why all of a sudden you look like some kind of MTV punk',
-					'Maybe if we set this on <em>fire</em>—" "Yeah, <em>that\'s</em> a no',
-					'Yeah, it\'s me, don\'t cream your pants',
-					'Nancy?'
+					"Protecting her... PROTECTING HER?",
+					"I'm just curious why all of a sudden you look like some kind of MTV punk",
+					"Maybe if we set this on <em>fire</em>—\" \"Yeah, <em>that's</em> a no",
+					"Yeah, it's me, don't cream your pants",
+					"Nancy?"
 				]
 			]
 		]
@@ -529,76 +529,79 @@ $seasons = [
 			'one' => [
 				'title' => 'Suzie, Do You Copy?',
 				'rating' => '3',
-				'thoughts' => 'El getting all cuddly with Mike when Dustin was showing them his inventions was so cute. It made me sad, though, that you can tell that Will doesn\'t have the same level of comfort in being vulnerable with Mike about his problems as he did in Season 2.',
+				'thoughts' => "El getting all cuddly with Mike when Dustin was showing them his inventions was so cute. It made me sad, though, that you can tell that Will doesn't have the same level of comfort in being vulnerable with Mike about his problems as he did in Season 2.",
 				'quotes' => [
-					'You are oh-for-six, Popeye',
-					'She doesn\'t have electricity?',
-					'There\'s nothing wrong with Nana'
+					"You are oh-for-six, Popeye",
+					"She doesn't have electricity?",
+					"There's nothing wrong with Nana"
 				]
 			],
 			'two' => [
 				'title' => 'The Mall Rats',
 				'rating' => '3',
-				'thoughts' => 'The mall scene with Material Girl playing in the background is iconic as always. I love this season\'s teenage drama of things like lying boyfriends and a dad wanting his daughter to spend less time with said boyfriend, mainly because poor El has to deal with so many life-or-death experiences that it\'s nice to have lower stakes once in a while.',
+				'thoughts' => "The mall scene with Material Girl playing in the background is iconic as always. I love this season's teenage drama of things like lying boyfriends and a dad wanting his daughter to spend less time with said boyfriend, mainly because poor El has to deal with so many life-or-death experiences that it's nice to have lower stakes once in a while.",
 				'quotes' => [
-					'<em>Mom, get off the phone! How many times?!</em>',
-					'Max has dumped me five times',
-					'Actually, I can hear everything; you are both <em>extremely loud</em>',
-					'<em>What\'s wrong with you?</em> You know she\'s not allowed to be here'
+					"<em>Mom, get off the phone! How many times?!</em>",
+					"Max has dumped me five times",
+					"Actually, I can hear everything; you are both <em>extremely loud</em>",
+					"<em>What's wrong with you?</em> You know she's not allowed to be here"
 				]
 			],
 			'three' => [
 				'title' => 'The Case of the Missing Lifeguard',
 				'rating' => '2',
-				'thoughts' => 'It makes me so sad that El and Will would understand each other so well and could be the closest of friends based on their shared trauma involving the Upside Down, but the opportunity is wasted because they\'re always fighting over Mike.',
+				'thoughts' => "It makes me so sad that El and Will would understand each other so well and could be the closest of friends based on their shared trauma involving the Upside Down, but the opportunity is wasted because they're always fighting over Mike.",
 				'quotes' => [
-					'Is it <em>early</em>, Michael',
-					'I haven\'t been stood up like that since Alice Gilbert in the ninth grade',
-					'You can\'t leave, it\'s raining'
+					"Is it <em>early</em>, Michael",
+					"I haven't been stood up like that since Alice Gilbert in the ninth grade",
+					"You can't leave, it's raining"
 				]
 			],
 			'four' => [
 				'title' => 'The Sauna Test',
 				'rating' => '5',
-				'thoughts' => 'This might be one of the scariest episodes of the season. Everyone acted their BUTTS off in the sauna scene. It just sucks that Will just had to put all his feelings aside because there were "bigger things to worry about", as though his problems aren\'t just as important.',
+				'thoughts' => "This might be one of the scariest episodes of the season. Everyone acted their BUTTS off in the sauna scene. It just sucks that Will just had to put all his feelings aside because there were \"bigger things to worry about\", as though his problems aren't just as important.",
 				'quotes' => [
-					'Who are you calling? The police?',
-					'When he needs you, you\'re <em>activated</em>',
-					'You know what I love most about this country? Capitalism',
-					'yEaH'
+					"Who are you calling? The police?",
+					"When he needs you, you're <em>activated</em>",
+					"You know what I love most about this country? Capitalism",
+					"yEaH"
 				]
 			],
 			'five' => [
 				'title' => 'The Flayed',
 				'rating' => '2',
-				'thoughts' => '',
+				'thoughts' => "This episode is mostly boring, only when you\'re rewatching. It\'s mostly plot development. The hospital chase scene was really scary though.",
 				'quotes' => [
-					''
+					"<em>Child murderer?</em>",
+					"This is my... <em>family</em>—\" \"—Extended"
 				]
 			],
 			'six' => [
 				'title' => 'E Pluribus Unum',
 				'rating' => '3',
-				'thoughts' => '',
+				'thoughts' => "The melted-people monster has to be one of the grossest things I've ever seen. This episode is kind of boring, but it has my favorite scene probably out of the whole season.",
 				'quotes' => [
-					''
+					"I love her and I can't lose her again",
+					"Look at my outfit! <em>You think I just wear this?!</em>"
 				]
 			],
 			'seven' => [
 				'title' => 'The Bite',
 				'rating' => '5',
-				'thoughts' => '',
+				'thoughts' => "This episode picks way up after Chapter Six",
 				'quotes' => [
-					'',
-					''
+					"...The big, bad... <em>Fourth of July celebration</em>",
+					"She's gonna need some <em>backup</em>",
+					"Old people?"
 				]
 			],
 			'eight' => [
 				'title' => 'The Battle of Starcourt',
 				'rating' => '4',
-				'thoughts' => '',
+				'thoughts' => "Hopper's letter breaks me heart into a million pieces.",
 				'quotes' => [
-					''
+					"Told you... physics"
 				]
 			]
 		]
