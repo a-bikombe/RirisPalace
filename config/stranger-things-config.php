@@ -590,7 +590,7 @@ $seasons = [
 			'seven' => [
 				'title' => 'The Bite',
 				'rating' => '5',
-				'thoughts' => "This episode picks way up after Chapter Six",
+				'thoughts' => "This episode picks way up after Chapter Six. It's probably my favorite episode out of the first three seasons.Robin comes out to Steve, El fights the Mind Flayer for the first time, Alexei dies, Mike tries to tell El he loves her... it's all icon-level plot development.",
 				'quotes' => [
 					"...The big, bad... <em>Fourth of July celebration</em>",
 					"She's gonna need some <em>backup</em>",
