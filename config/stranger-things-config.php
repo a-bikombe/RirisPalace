@@ -583,7 +583,8 @@ $seasons = [
 				'thoughts' => "The melted-people monster has to be one of the grossest things I've ever seen. This episode is kind of boring, but it has my favorite scene probably out of the whole season.",
 				'quotes' => [
 					"Look at my outfit! <em>You think I just wear this?!</em>",
-					"I love her and I can't lose her again"
+					"I love her and I can't lose her again",
+					"Uhhhh, uhhhh... this is Jim Hopper... uhhh... police chief Hawkins"
 				]
 			],
 			'seven' => [
