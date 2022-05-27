@@ -304,7 +304,7 @@ $seasons = [
 				'rating' => '3',
 				'thoughts' => "Nothing will outdo the chase scene with the kids on the bikes where El flips the van. Everyone tries, but no one succeeds. Also, Dustin and Lucas trying to set up the kiddie pool was funny. Joyce acting as a comforting mother figure to El while she was in the tank was so sweet, and was foreshadowing for Season 4. The parallels between the seasons are so amazing.",
 				'quotes' => [
-					"*Indistinct shouting over the walkie* \"...You S.O.B.\"",
+					"*Indistinct shouting over the walkie* \"...You son of a <em>bitch!</em>\"",
 					"If anyone asks where I am, I've left the country",
 					"Did you see that??\" \"No, Dustin, we missed it",
 					"Why are you keeping this curiosity door locked?"
@@ -532,7 +532,7 @@ $seasons = [
 				'thoughts' => "El getting all cuddly with Mike when Dustin was showing them his inventions was so cute. It made me sad, though, that you can tell that Will doesn't have the same level of comfort in being vulnerable with Mike about his problems as he did in Season 2.",
 				'quotes' => [
 					"You are oh-for-six, Popeye",
-					"She doesn't have electricity?",
+					"Oh shit, she doesn't have electricity?",
 					"There's nothing wrong with Nana"
 				]
 			],
@@ -582,7 +582,7 @@ $seasons = [
 				'rating' => '3',
 				'thoughts' => "The melted-people monster has to be one of the grossest things I've ever seen. This episode is kind of boring, but it has my favorite scene probably out of the whole season.",
 				'quotes' => [
-					"Look at my outfit! <em>You think I just wear this?!</em>",
+					"Look at my outfit! You think I just <em>wear</em> this?!",
 					"I love her and I can't lose her again",
 					"Uhhhh, uhhhh... this is Jim Hopper... uhhh... police chief Hawkins"
 				]
@@ -602,8 +602,8 @@ $seasons = [
 				'rating' => '4',
 				'thoughts' => "A solid season finale. It's probably my second-favorite finale after Season 2. Hopper's letter breaks me heart into a million pieces.",
 				'quotes' => [
-					"I could bake him a casserole",
-					"Told you... physics"
+					"Told you... physics",
+					"<em>'It's really hard to listen to you when you make it seem like it's the end of the goddamn world'</em>"
 				]
 			]
 		]
