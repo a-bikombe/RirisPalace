@@ -16,7 +16,7 @@
 	<main>
 		<h2>Chrisley Knows Best</h2>
 		<p>Chrisley Knows Best is my comfort show.</p>
-		<img src="https://pagesix.com/wp-content/uploads/sites/3/2022/05/todd-chrisley-78.jpg">
+		<img src="https://pagesix.com/wp-content/uploads/sites/3/2022/05/todd-chrisley-78.jpg" height="200px">
 	</main>
 
 	<footer></footer>
