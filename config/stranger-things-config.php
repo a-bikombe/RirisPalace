@@ -643,74 +643,74 @@ $seasons = [
 		'episodes' => [
 			'one' => [
 				'title' => 'The Hellfire Club',
-				'rating' => '',
-				'thoughts' => '',
+				'rating' => '5',
+				'thoughts' => "",
 				'quotes' => [
-					''
+					""
 				]
 			],
 			'two' => [
 				'title' => 'Vecna\'s Curse',
-				'rating' => '',
-				'thoughts' => '',
+				'rating' => '4',
+				'thoughts' => "",
 				'quotes' => [
-					''
+					""
 				]
 			],
 			'three' => [
 				'title' => 'The Monster and the Superhero',
-				'rating' => '',
-				'thoughts' => '',
+				'rating' => '3',
+				'thoughts' => "",
 				'quotes' => [
-					''
+					""
 				]
 			],
 			'four' => [
 				'title' => 'Dear Billy',
-				'rating' => '',
-				'thoughts' => '',
+				'rating' => '5',
+				'thoughts' => "",
 				'quotes' => [
-					''
+					""
 				]
 			],
 			'five' => [
 				'title' => 'The Nina Project',
-				'rating' => '',
-				'thoughts' => '',
+				'rating' => '3',
+				'thoughts' => "",
 				'quotes' => [
-					''
+					""
 				]
 			],
 			'six' => [
 				'title' => 'The Dive',
-				'rating' => '',
-				'thoughts' => '',
+				'rating' => '4',
+				'thoughts' => "",
 				'quotes' => [
-					''
+					""
 				]
 			],
 			'seven' => [
 				'title' => 'The Massacre at Hawkins Lab',
-				'rating' => '',
-				'thoughts' => '',
+				'rating' => '5',
+				'thoughts' => "",
 				'quotes' => [
-					''
+					""
 				]
 			],
 			'eight' => [
 				'title' => 'Papa',
 				'rating' => '',
-				'thoughts' => '',
+				'thoughts' => "TBA",
 				'quotes' => [
-					''
+					"TBA"
 				]
 			],
 			'nine' => [
 				'title' => 'The Piggyback',
 				'rating' => '',
-				'thoughts' => '',
+				'thoughts' => "",
 				'quotes' => [
-					''
+					"TBA"
 				]
 			]
 		]
