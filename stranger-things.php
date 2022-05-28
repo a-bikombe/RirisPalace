@@ -177,9 +177,9 @@ $pageNav = [
 					</div>
 					<?php if (isset($season['episodes'])) : ?>
 						<?php foreach ($season['episodes'] as $episodeId => $episode) : ?>
-							<section class="episode border-10px flex dir-col" id="<?= $seasonId . '-' . $episodeId ?>" aria-labelledby="<?= $seasonId?>-chapter-<?= $episodeId ?>">
+							<section class="episode border-10px flex dir-col" id="<?= $seasonId . '-' . $episodeId ?>" aria-labelledby="<?= $seasonId ?>-chapter-<?= $episodeId ?>">
 								<div class="episode-header dir-change">
-									<h4 class="episode-title" id="<?= $seasonId?>-chapter-<?= $episodeId ?>">Chapter <?= ucfirst($episodeId) ?>: <strong><?= $episode['title'] ?></strong></h4>
+									<h4 class="episode-title" id="<?= $seasonId ?>-chapter-<?= $episodeId ?>">Chapter <?= ucfirst($episodeId) ?>: <strong><?= $episode['title'] ?></strong></h4>
 									<?php if ($episode['rating'] !== '') : ?>
 										<span class="rating">
 											<?php if (isset($episode['rating'])) :

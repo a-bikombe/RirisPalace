@@ -22,9 +22,11 @@ $links = [
 
 $characterRank = [
 	'mike',
+	'eddie',
 	'max',
 	'dustin',
 	'eleven',
+	'argyle',
 	'joyce',
 	'will',
 	'bob',
@@ -77,10 +79,10 @@ $seasons = [
 				'content' => [
 					'Hoppy',
 					'Not having it',
-					$links['joyce'] . '\'s boyfriend',
+					$links['joyce'] . "'s boyfriend",
 					'Coffee and contemplation',
 					'Punches away his problems',
-					$links['eleven'] . '\'s dad',
+					$links['eleven'] . "'s dad",
 					'Hates ' . $links['mike']
 				]
 			],
@@ -102,7 +104,7 @@ $seasons = [
 					'Loves his friends but mostly ' . $links['eleven'],
 					'Has a lot of red flags because he is in fact a Man&trade;',
 					'But season 3/4 Mike made the red flags turn green',
-					'I\'m in love with him oops'
+					"I'm in love with him oops"
 				]
 			],
 			'eleven' => [
@@ -156,10 +158,10 @@ $seasons = [
 				'characterName' => 'Lukey',
 				'content' => [
 					'2/10 would not recommend',
-					'Because he didn\'t like ' . $links['eleven'] . ' at the beginning',
+					"Because he didn't like " . $links['eleven'] . ' at the beginning',
 					'I can relate a lot to his personality though',
 					'Unbothered',
-					'Takes nobody\'s crap',
+					"Takes nobody's crap",
 					'Likes his bandana'
 				]
 			],
@@ -174,9 +176,9 @@ $seasons = [
 				'characterLink' => 'http://strangerthings.wikia.com/wiki/Nancy_Wheeler',
 				'characterName' => 'Nancy Drew',
 				'content' => [
-					$links['mike'] . '\'s sister',
+					$links['mike'] . "'s sister",
 					'Goals',
-					'Like, she\'s REALLY pretty (we get it, Arianna)',
+					"Like, she's REALLY pretty (we get it, Arianna)",
 					'Bad taste in guys though',
 					'Good with a gun',
 					'Mean to her dead friend Barb and her two boyfriends'
@@ -193,7 +195,7 @@ $seasons = [
 				'characterLink' => 'http://strangerthings.wikia.com/wiki/Jonathan_Byers',
 				'characterName' => 'Jonathan? Harry Styles?',
 				'content' => [
-					$links['will'] . '\'s older brother',
+					$links['will'] . "'s older brother",
 					'#Jancy forever',
 					'Likes good music',
 					'Loves his brother',
@@ -213,7 +215,7 @@ $seasons = [
 				'content' => [
 					'Status: Alive (for now)',
 					'Gay',
-					'Doesn\'t deserve this',
+					"Doesn't deserve this",
 					'Has treacherous hair always and forever'
 				]
 			],
@@ -231,8 +233,8 @@ $seasons = [
 					'A+ hair',
 					'C- personality up to the end of Season 2',
 					'Becomes Babysitter: Ultimate Edition',
-					'Kind of doesn\'t have anything going for him',
-					'Fell in love with ' . $links['robin'] . ' (we\'ve all been there, Stevie)'
+					"Kind of doesn't have anything going for him",
+					'Fell in love with ' . $links['robin'] . " (we've all been there, Stevie)"
 				]
 			]
 		],
@@ -358,7 +360,7 @@ $seasons = [
 				'content' => [
 					'[Derogatory]',
 					'A r*cist',
-					$links['max'] . '\'s step-brother',
+					$links['max'] . "'s step-brother",
 					'Creepy with ' . $links['karen']
 				]
 			],
@@ -401,7 +403,7 @@ $seasons = [
 				'characterLink' => 'https://strangerthings.fandom.com/wiki/Erica_Sinclair',
 				'characterName' => '"Mall Rat"',
 				'content' => [
-					$links['lucas'] . '\'s younger sister',
+					$links['lucas'] . "'s younger sister",
 					'Rude (in a good way)',
 					'Bullies everyone for being nerds',
 					'Likes ice cream'
@@ -517,13 +519,27 @@ $seasons = [
 				'content' => [
 					'Also gay',
 					'Also knows Russian',
-					'Was bullied by ' . $links['steve'] . ' in high school (who wasn\'t)',
+					'Was bullied by ' . $links['steve'] . " in high school (who wasn't)",
 					'Worked at Scoops Ahoy until the mall collapsed',
 					'Had beef with ' . $links['nancy'] . '?',
 					'Played soccer',
 					'Did drama'
 				]
-			]
+				],
+				'suzie' => [
+					'images' => [
+						'Season 3' => 'https://pbs.twimg.com/media/FOieva8XEBE8L1w.jpg',
+						'Season 4' => 'https://pbs.twimg.com/media/FOieva8XEBE8L1w.jpg',
+						'Season 5' => 'https://pbs.twimg.com/media/FOieva8XEBE8L1w.jpg'
+					],
+					'characterLink' => 'https://strangerthings.fandom.com/wiki/Suzie_Bingham',
+					'characterName' => 'Suzie With a Z',
+					'content' => [
+						$links['dustin'] . "'s girlfriend",
+						"Codes",
+						"Is \"hotter than Phoebe Cates\""
+					]
+					]
 		],
 		'episodes' => [
 			'one' => [
@@ -634,7 +650,7 @@ $seasons = [
 				'characterLink' => 'https://strangerthings.fandom.com/wiki/Eddie_Munson',
 				'characterName' => 'California Knows How To Party',
 				'content' => [
-					$links['jonathan'] . '\'s new friend',
+					$links['jonathan'] . "'s new friend",
 					'Allegedly introduces ' . $links['jonathan'] . ' to drugs',
 					'Pizza delivery man'
 				]
@@ -644,7 +660,7 @@ $seasons = [
 			'one' => [
 				'title' => 'The Hellfire Club',
 				'rating' => '5',
-				'thoughts' => "",
+				'thoughts' => "I'm just gonna say: as a Mike stan, I won in this episode. I love the group huddle shot, and the shot of the die going across the table during the Hellfire Club campaign.",
 				'quotes' => [
 					""
 				]
@@ -652,9 +668,9 @@ $seasons = [
 			'two' => [
 				'title' => 'Vecna\'s Curse',
 				'rating' => '4',
-				'thoughts' => "",
+				'thoughts' => "Visor City. Will is in LOVE",
 				'quotes' => [
-					""
+					"Who's that twig she's with"
 				]
 			],
 			'three' => [
@@ -668,23 +684,24 @@ $seasons = [
 			'four' => [
 				'title' => 'Dear Billy',
 				'rating' => '5',
-				'thoughts' => "",
+				'thoughts' => "The one-shot military raid scene was one of my favorite parts of the episode. Will took the painting he did for Mike with him when they left the house. Miss Sadie outdid herself by a mile.",
 				'quotes' => [
-					""
+					"DRIVE",
+					"I'm still here"
 				]
 			],
 			'five' => [
 				'title' => 'The Nina Project',
 				'rating' => '3',
-				'thoughts' => "",
+				'thoughts' => "Hopper's speech made me so emotional.",
 				'quotes' => [
-					""
+					"They didn't need me, I needed them"
 				]
 			],
 			'six' => [
 				'title' => 'The Dive',
 				'rating' => '4',
-				'thoughts' => "",
+				'thoughts' => "The military people torturing the security man was really scary. ",
 				'quotes' => [
 					""
 				]
