@@ -12,6 +12,7 @@
 
 	<header>
 		<h1>Briana's world</h1>
+		<p class="subtitle">Date: May 28, 2022</p>
 	</header>
 
 	<main>
