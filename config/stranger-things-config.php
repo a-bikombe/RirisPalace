@@ -621,8 +621,9 @@ $seasons = [
 				'characterLink' => 'https://strangerthings.fandom.com/wiki/Eddie_Munson',
 				'characterName' => 'Cool Metal Man',
 				'content' => [
-					'Seems cool',
-					'I hope he\'s not mean'
+					'Sweet baby',
+					'Not mean and scary like everyone thinks',
+					'A drug dealer?'
 				]
 			],
 			'argyle' => [
@@ -634,7 +635,8 @@ $seasons = [
 				'characterName' => 'California Knows How To Party',
 				'content' => [
 					$links['jonathan'] . '\'s new friend',
-					'Allegedly introduces ' . $links['jonathan'] . ' to drugs'
+					'Allegedly introduces ' . $links['jonathan'] . ' to drugs',
+					'Pizza delivery man'
 				]
 			]
 		],
