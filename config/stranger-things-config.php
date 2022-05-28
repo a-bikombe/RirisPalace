@@ -676,7 +676,7 @@ $seasons = [
 			'three' => [
 				'title' => 'The Monster and the Superhero',
 				'rating' => '3',
-				'thoughts' => "",
+				'thoughts' => "Mike hasn't said I love you to El to her face ever. Not even once. In Season 3 she let it pass because she was in love and didn't truly have her own life yet, but she noticed more and more. Like she said, he's never even written it to her. He's more just obsessed with the idea of keeping her around so he has something to hold onto. Sounds like comphet to me.",
 				'quotes' => [
 					""
 				]
