@@ -7,7 +7,7 @@
 	<title>briana's page</title>
 </head>
 
-<body>
+<body class="text-center">
 
 	<header>
 		<h1>Briana's world</h1>
