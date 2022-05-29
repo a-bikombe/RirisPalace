@@ -666,7 +666,7 @@ $seasons = [
 				]
 			],
 			'two' => [
-				'title' => 'Vecna\'s Curse',
+				'title' => "Vecna's Curse",
 				'rating' => '4',
 				'thoughts' => "Visor City. Will is in LOVE",
 				'quotes' => [
@@ -701,7 +701,7 @@ $seasons = [
 			'six' => [
 				'title' => 'The Dive',
 				'rating' => '4',
-				'thoughts' => "The military people torturing the security man was really scary. ",
+				'thoughts' => "The military people torturing the security man was really scary. Max grabbing the binoculars from Lucas and staring at Steve was really funny.",
 				'quotes' => [
 					""
 				]
@@ -709,9 +709,9 @@ $seasons = [
 			'seven' => [
 				'title' => 'The Massacre at Hawkins Lab',
 				'rating' => '5',
-				'thoughts' => "",
+				'thoughts' => "Steve <em>pulling the head off of a demobat?</em> There were also so many cool shots in this episode: I really liked the shot of Robin, Steve, Nancy, and Eddie, and the scene with the LiteBrite. I thought the fantasy dust concept of communication was interesting. And the mirror shot of younger teens and older teens riding their bikes in opposite dimensions was so cool.",
 				'quotes' => [
-					""
+					"Do you remember the gate?\" \"No, I blocked that out"
 				]
 			],
 			'eight' => [
