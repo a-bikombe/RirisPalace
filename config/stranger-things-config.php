@@ -91,7 +91,7 @@ $seasons = [
 					'Season 1' => 'https://i.pinimg.com/originals/a4/56/06/a45606b7391adad4e5d8ae30b5d0e44a.jpg',
 					'Season 2' => 'https://data.whicdn.com/images/306468778/original.jpg',
 					'Season 3' => 'https://i.pinimg.com/originals/ec/b0/ec/ecb0ec1a67694893a5742f33daa682c4.jpg',
-					'Season 4' => 'https://metagalaxia.com.br/wp-content/uploads/2022/05/Mike-Wheeler.webp',
+					'Season 4' => 'images/stranger-things/mike-s4.jpg',
 					'Season 5' => 'https://metagalaxia.com.br/wp-content/uploads/2022/05/Mike-Wheeler.webp'
 				],
 				'characterLink' => 'http://strangerthings.wikia.com/wiki/Mike_Wheeler',
@@ -631,8 +631,8 @@ $seasons = [
 		'characters' => [
 			'eddie' => [
 				'images' => [
-					'Season 4' => 'https://helios-i.mashable.com/imagery/articles/06rbenK6uYEGGrkDkxeutKy/images-4.fit_lim.size_1400x.v1649776645.jpg',
-					'Season 5' => 'https://helios-i.mashable.com/imagery/articles/06rbenK6uYEGGrkDkxeutKy/images-4.fit_lim.size_1400x.v1649776645.jpg'
+					'Season 4' => 'images/stranger-things/eddie-s4.jpeg',
+					'Season 5' => 'images/stranger-things/eddie-s4.jpeg'
 				],
 				'characterLink' => 'https://strangerthings.fandom.com/wiki/Eddie_Munson',
 				'characterName' => 'Cool Metal Man',
@@ -644,8 +644,8 @@ $seasons = [
 			],
 			'argyle' => [
 				'images' => [
-					'Season 4' => 'https://m.media-amazon.com/images/M/MV5BOTJhMDA2Y2ItYzljYy00YjU1LThjMTAtNmNjZWU1MzcwYWVkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg',
-					'Season 5' => 'https://m.media-amazon.com/images/M/MV5BOTJhMDA2Y2ItYzljYy00YjU1LThjMTAtNmNjZWU1MzcwYWVkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg'
+					'Season 4' => 'https://res.cloudinary.com/remezcla/images/f_auto,q_auto/v1653422100/production/Eduardo_Franco_Stranger_Things_Film/Eduardo_Franco_Stranger_Things_Film.jpg?_i=AA',
+					'Season 5' => 'https://res.cloudinary.com/remezcla/images/f_auto,q_auto/v1653422100/production/Eduardo_Franco_Stranger_Things_Film/Eduardo_Franco_Stranger_Things_Film.jpg?_i=AA'
 				],
 				'characterLink' => 'https://strangerthings.fandom.com/wiki/Eddie_Munson',
 				'characterName' => 'California Knows How To Party',
