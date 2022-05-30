@@ -4,6 +4,10 @@ about.php */
   --body-bg: var(--clr-blue-light);
 }
 
+#about main {
+  padding-inline: 15vw;
+}
+
 #about main .about-sections img {
   width: 15px;
 }
