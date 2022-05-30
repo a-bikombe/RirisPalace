@@ -11,12 +11,12 @@ about.php */
             }
 
             .row {
-				flex-direction: row;
-                flex-basis: 100%;
-                flex-grow: 1;
+                flex-direction: row;
 
                 .about-section {
                     flex-direction: column;
+                    flex-basis: 100%;
+                    flex-grow: 1;
                 }
 
                 /* flex-basis: 100%;
