@@ -13,6 +13,8 @@ about.php */
             }
 
             &-row {
+				justify-content: space-between;
+
                 .about-section {
                     flex-direction: column;
                 }

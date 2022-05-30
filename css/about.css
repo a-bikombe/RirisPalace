@@ -12,6 +12,12 @@ about.php */
   width: 15px;
 }
 
+#about main .about-sections-row {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 #about main .about-sections-row .about-section {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
