@@ -39,7 +39,7 @@ $version = date('Y-m-d-H-i-s');
 	<link href="css/main.css?v=<?= $version ?>" rel="stylesheet">
 
 	<?php foreach ($styles as $style) : ?>
-		<link href="css/<?= $style ?>.css?v=<?= $version ?>" rel="stylesheet">
+		<link href="css/<?= $style ?>.css" rel="stylesheet">
 	<?php endforeach; ?>
 
 	<?php foreach ($mobileStyles as $style => $width) : ?>
