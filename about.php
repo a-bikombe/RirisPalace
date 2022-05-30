@@ -30,7 +30,8 @@ $scripts = [
     <main class="text-center">
         <h1><?= $pageTitle ?></h1>
         <div class="about-sections flex">
-            <section id="bio" class="about-section">
+            <section id="bio" class="about-section" aria-labelledby="bio-title">
+            <h2 id="bio-title">Bio</h2>
                 <?= $bio ?>
             </section>
             <section id="personality" class="about-section flex-center dir-col" aria-labelledby="personality-title">
