@@ -25,7 +25,6 @@ $scripts = [
 
     <!-- bootstrap navbar -->
     <?php require_once 'include/loading-page.php'; ?>
-    <?php require_once 'include/under-construction.php'; ?>
     <?php require_once 'include/header.php'; ?>
 
     <main class="text-center">
