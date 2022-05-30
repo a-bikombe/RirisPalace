@@ -33,11 +33,11 @@ $scripts = [
         <h1><?= $pageTitle ?></h1>
         <div class="about-sections flex-center dir-col">
             <div class="about-sections-row flex dir-change">
-                <section id="bio" class="about-section flex-justify" aria-labelledby="bio-title">
+                <section id="bio" class="about-section flex-align" aria-labelledby="bio-title">
                     <h2 id="bio-title">Bio</h2>
                     <?= $bio ?>
                 </section>
-                <section id="personality" class="about-section flex-justify" aria-labelledby="personality-title">
+                <section id="personality" class="about-section flex-align" aria-labelledby="personality-title">
                     <h2 id="personality-title">Personality</h2>
                     <?php foreach ($personality as $categoryId => $category) : ?>
                         <ul class="<?= $categoryId ?> flex-align dir-change">
@@ -47,7 +47,7 @@ $scripts = [
                         </ul>
                     <?php endforeach; ?>
                 </section>
-                <section id="pets" class="about-section flex-justify" aria-labelledby="pets-title">
+                <section id="pets" class="about-section flex-align" aria-labelledby="pets-title">
                     <h2 id="pets-title">Pets</h2>
                     <?php foreach ($pets as $name => $image) : ?>
                         <img src="<?= $image ?>" alt="<?= $name ?>">
