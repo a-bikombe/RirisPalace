@@ -4,12 +4,7 @@ about.php */
   --body-bg: var(--clr-white);
 }
 
-#about .about-sections #bio {
-  width: 500px;
-}
-
-#about .about-sections,
-#about .about-sections #celebrity-container {
+#about .about-sections .row {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -ms-flex-preferred-size: 100%;
@@ -19,7 +14,21 @@ about.php */
           flex-grow: 1;
 }
 
-#about .about-sections #celebrities {
+#about .about-sections .row #bio {
   width: 500px;
+}
+
+#about .about-sections .row #celebrities {
+  width: 500px;
+}
+
+#about .about-sections .row #celebrities .celebrity-container {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 /*# sourceMappingURL=about.css.map */

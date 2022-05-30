@@ -5,19 +5,23 @@ about.php */
     --body-bg: var(--clr-white);
 
     .about-sections {
-        #bio {
-            width: 500px;
-        }
-
-        &,
-        #celebrity-container {
+        .row {
             flex-wrap: wrap;
             flex-basis: 100%;
             flex-grow: 1;
-        }
 
-		#celebrities {
-			width: 500px;
-		}
+            #bio {
+                width: 500px;
+            }
+
+            #celebrities {
+                width: 500px;
+                .celebrity-container {
+                    flex-wrap: wrap;
+                    flex-basis: 100%;
+                    flex-grow: 1;
+                }
+            }
+        }
     }
 }
