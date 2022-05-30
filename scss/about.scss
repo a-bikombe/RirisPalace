@@ -15,8 +15,6 @@ about.php */
             &-row {
                 .about-section {
                     flex-direction: column;
-                    flex-basis: 100%;
-                    flex-grow: 1;
                 }
 	
 				#bio {
@@ -25,11 +23,9 @@ about.php */
 	
 				#celebrities {
 					width: 500px;
-					
+
 					.celebrity-container {
 						flex-wrap: wrap;
-						flex-basis: 100%;
-						flex-grow: 1;
 					}
 				}
             }
