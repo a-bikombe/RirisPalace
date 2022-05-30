@@ -33,7 +33,7 @@ $scripts = [
         <h1><?= $pageTitle ?></h1>
         <div class="about-sections flex-center dir-col">
             <div class="row row-1 flex dir-change">
-                <section id="bio" class="about-section" aria-labelledby="bio-title">
+                <section id="bio" class="about-section flex-center dir-col" aria-labelledby="bio-title">
                     <h2 id="bio-title">Bio</h2>
                     <?= $bio ?>
                 </section>
