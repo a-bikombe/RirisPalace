@@ -5,7 +5,7 @@ about.php */
     --body-bg: var(--clr-blue-light);
 
     main {
-		padding-inline: 15vw;
+		padding-inline: 5vw;
 
         .about-sections {
             img {
@@ -18,9 +18,6 @@ about.php */
                     flex-basis: 100%;
                     flex-grow: 1;
                 }
-
-                /* flex-basis: 100%;
-				flex-grow: 1;
 	
 				#bio {
 					width: 500px;
@@ -28,12 +25,13 @@ about.php */
 	
 				#celebrities {
 					width: 500px;
+					
 					.celebrity-container {
 						flex-wrap: wrap;
 						flex-basis: 100%;
 						flex-grow: 1;
 					}
-				} */
+				}
             }
         }
     }
