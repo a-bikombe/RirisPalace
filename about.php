@@ -5,7 +5,9 @@ $pageTitle = 'About Me';
 
 $iconPath = 'images/icons/luca.png';
 
-$styles = [];
+$styles = [
+    'about'
+];
 
 $mobileStyles = [
     'main' => '600'
@@ -21,7 +23,7 @@ $scripts = [
 
 <?php require_once 'include/head-tag.php'; ?>
 
-<body>
+<body id="about">
 
     <!-- bootstrap navbar -->
     <?php require_once 'include/loading-page.php'; ?>
