@@ -9,9 +9,11 @@ about.php */
 }
 
 #about .about-sections .row {
-  /* flex-wrap: wrap;
-            flex-basis: 100%;
-            flex-grow: 1; */
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
 #about .about-sections .row #bio {
