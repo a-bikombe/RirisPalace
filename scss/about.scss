@@ -4,13 +4,16 @@ about.php */
 #about {
     --body-bg: var(--clr-white);
 
-	.about-sections {
-		flex-wrap: wrap;
-		flex-basis: 100%;
-		flex-grow: 1;
+    .about-sections {
+        #bio {
+            width: 500px;
+        }
 
-		#bio {
-			width: 500px;
-		}
-	}
+        &,
+        #celebrities {
+            flex-wrap: wrap;
+            flex-basis: 100%;
+            flex-grow: 1;
+        }
+    }
 }
