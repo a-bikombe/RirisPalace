@@ -10,10 +10,14 @@ about.php */
         }
 
         &,
-        #celebrities {
+        #celebrity-container {
             flex-wrap: wrap;
             flex-basis: 100%;
             flex-grow: 1;
         }
+
+		#celebrities {
+			width: 500px;
+		}
     }
 }
