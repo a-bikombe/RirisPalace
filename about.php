@@ -33,11 +33,11 @@ $scripts = [
         <h1><?= $pageTitle ?></h1>
         <div class="about-sections flex-center dir-col">
             <div class="row row-1 flex-center dir-change">
-                <section id="bio" class="about-section flex-center dir-col" aria-labelledby="bio-title">
+                <section id="bio" class="about-section flex-center" aria-labelledby="bio-title">
                     <h2 id="bio-title">Bio</h2>
                     <?= $bio ?>
                 </section>
-                <section id="personality" class="about-section flex-center dir-col" aria-labelledby="personality-title">
+                <section id="personality" class="about-section flex-center" aria-labelledby="personality-title">
                     <h2 id="personality-title">Personality</h2>
                     <?php foreach ($personality as $categoryId => $category) : ?>
                         <ul class="<?= $categoryId ?> flex-align dir-change">
@@ -47,7 +47,7 @@ $scripts = [
                         </ul>
                     <?php endforeach; ?>
                 </section>
-                <section id="pets" class="about-section flex-center dir-col" aria-labelledby="pets-title">
+                <section id="pets" class="about-section flex-center" aria-labelledby="pets-title">
                     <h2 id="pets-title">Pets</h2>
                     <?php foreach ($pets as $name => $image) : ?>
                         <img src="<?= $image ?>" alt="<?= $name ?>">
@@ -56,14 +56,14 @@ $scripts = [
                 </section>
             </div>
             <div class="row row-2 flex-center dir-change">
-                <section id="hobbies" class="about-section flex-center dir-col" aria-labelledby="hobbies-title">
+                <section id="hobbies" class="about-section flex-center" aria-labelledby="hobbies-title">
                     <h2 id="hobbies-title">Hobbies</h2>
                     <?php foreach ($hobbies as $hobby => $image) : ?>
                         <img src="<?= $image ?>" alt="<?= $hobby ?>">
                         <p class="subtitle"><?= $hobby ?></p>
                     <?php endforeach; ?>
                 </section>
-                <section id="celebrities" class="about-section flex-center dir-col" aria-labelledby="celebrities-title">
+                <section id="celebrities" class="about-section flex-center" aria-labelledby="celebrities-title">
                     <h2 id="celebrities-title">Celebrity Crushes</h2>
                     <div class="celebrity-container flex-center dir-row">
                         <?php foreach ($celebrities as $celebrity => $image) : ?>
@@ -71,7 +71,7 @@ $scripts = [
                         <?php endforeach; ?>
                     </div>
                 </section>
-                <section id="kinlist" class="about-section flex-center dir-col" aria-labelledby="kinlist-title">
+                <section id="kinlist" class="about-section flex-center" aria-labelledby="kinlist-title">
                     <h2 id="kinlist-title">Kinlist</h2>
                     <p class="hidden"><?= $kinDefinition ?></p>
                     <?php foreach ($kinlist as $character => $image) : ?>
