@@ -1,6 +1,10 @@
 /* ================================================================
 about.php */
 #about {
-  --body-bg: var(--clr-gray-90);
+  --body-bg: var(--clr-white);
+}
+
+#about #bio {
+  width: 500px;
 }
 /*# sourceMappingURL=about.css.map */

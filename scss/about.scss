@@ -2,5 +2,9 @@
 about.php */
 
 #about {
-    --body-bg: var(--clr-gray-90);
+    --body-bg: var(--clr-white);
+
+	#bio {
+		width: 500px;
+	}
 }
