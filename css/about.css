@@ -4,26 +4,28 @@ about.php */
   --body-bg: var(--clr-blue-light);
 }
 
-#about .about-sections img {
-  width: 15px;
-}
+#about .about-sections {
+  /* 
+        .row {
+            flex-basis: 100%;
+            flex-grow: 1;
 
-#about .about-sections .row {
-  -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-  /* #bio {
+            #bio {
                 width: 500px;
-            } */
-  /* #celebrities {
+            }
+
+            #celebrities {
                 width: 500px;
                 .celebrity-container {
                     flex-wrap: wrap;
                     flex-basis: 100%;
                     flex-grow: 1;
                 }
-            } */
+            }
+        } */
+}
+
+#about .about-sections img {
+  width: 15px;
 }
 /*# sourceMappingURL=about.css.map */
