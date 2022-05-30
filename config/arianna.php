@@ -19,51 +19,51 @@ $personality = [
 
 // pets
 $pets = [
-	'Alfie' => 'link'
+	'Alfie' => 'images/extras/alfie.jpeg'
 ];
 
 // hobbies
 $hobbies = [
-	'watching movies' => 'link',
-	'listening to music' => 'link',
-	'coding' => 'link',
-	'journaling' => 'link',
-	'reading comics' => 'link'
+	'watching movies' => 'images/extras/alfie.jpeg',
+	'listening to music' => 'images/extras/alfie.jpeg',
+	'coding' => 'images/extras/alfie.jpeg',
+	'journaling' => 'images/extras/alfie.jpeg',
+	'reading comics' => 'images/extras/alfie.jpeg'
 ];
 
 // celebrity crushes
 $celebrities = [
-	'Finn Wolfhard' => 'link',
-	'Huening Kai' => 'link',
-	'Park Jisung' => 'link',
-	'Tom Holland' => 'link',
-	'Linda Cardellini' => 'link',
-	'Sandra Bullock' => 'link',
-	'Barry Keoghan' => 'link',
-	'Sydney Sweeney' => 'link',
-	'Milo Ventimiglia' => 'link',
-	'Indya Moore' => 'link',
-	'Thomas Brodie-Sangster' => 'link',
-	'Gal Gadot' => 'link',
-	'Aaron Taylor-Johnson' => 'link',
-	'Marisa Tomei' => 'link',
-	'Ewan McGregor' => 'link',
-	'Jaeden Martell' => 'link',
-	'Jake Johnson' => 'link'
+	'Finn Wolfhard' => 'images/extras/alfie.jpeg',
+	'Huening Kai' => 'images/extras/alfie.jpeg',
+	'Park Jisung' => 'images/extras/alfie.jpeg',
+	'Tom Holland' => 'images/extras/alfie.jpeg',
+	'Linda Cardellini' => 'images/extras/alfie.jpeg',
+	'Sandra Bullock' => 'images/extras/alfie.jpeg',
+	'Barry Keoghan' => 'images/extras/alfie.jpeg',
+	'Sydney Sweeney' => 'images/extras/alfie.jpeg',
+	'Milo Ventimiglia' => 'images/extras/alfie.jpeg',
+	'Indya Moore' => 'images/extras/alfie.jpeg',
+	'Thomas Brodie-Sangster' => 'images/extras/alfie.jpeg',
+	'Gal Gadot' => 'images/extras/alfie.jpeg',
+	'Aaron Taylor-Johnson' => 'images/extras/alfie.jpeg',
+	'Marisa Tomei' => 'images/extras/alfie.jpeg',
+	'Ewan McGregor' => 'images/extras/alfie.jpeg',
+	'Jaeden Martell' => 'images/extras/alfie.jpeg',
+	'Jake Johnson' => 'images/extras/alfie.jpeg'
 ];
 
 // kinlist
 $kinDefinition = "";
 $kinlist = [
-	'Ruby (Steven Universe)' => '',
-	'Mirabel (Encanto)' => '',
-	'Elena (One Day At A Time)' => '',
-	'Korg (Thor)' => '',
-	'Randall (This Is Us)' => '',
-	'Chidi (The Good Place)' => '',
-	'MJ (Spider-Man)' => '',
-	'Winston (New Girl)' => '',
-	'Stitch (Lilo & Stitch)' => '',
-	'Makkari (Eternals)' => '',
-	'Lucky (Ghostbusters: Afterlife)' => ''
+	'Ruby (Steven Universe)' => 'images/extras/alfie.jpeg',
+	'Mirabel (Encanto)' => 'images/extras/alfie.jpeg',
+	'Elena (One Day At A Time)' => 'images/extras/alfie.jpeg',
+	'Korg (Thor)' => 'images/extras/alfie.jpeg',
+	'Randall (This Is Us)' => 'images/extras/alfie.jpeg',
+	'Chidi (The Good Place)' => 'images/extras/alfie.jpeg',
+	'MJ (Spider-Man)' => 'images/extras/alfie.jpeg',
+	'Winston (New Girl)' => 'images/extras/alfie.jpeg',
+	'Stitch (Lilo & Stitch)' => 'images/extras/alfie.jpeg',
+	'Makkari (Eternals)' => 'images/extras/alfie.jpeg',
+	'Lucky (Ghostbusters: Afterlife)' => 'images/extras/alfie.jpeg'
 ];
