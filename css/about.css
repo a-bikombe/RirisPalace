@@ -16,6 +16,7 @@ about.php */
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  width: 100%;
 }
 
 #about main .about-sections-row .about-section {
