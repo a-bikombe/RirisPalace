@@ -2,7 +2,7 @@
 about.php */
 
 #about {
-    --body-bg: var(--clr-white);
+    --body-bg: var(--clr-blue-light);
 
     .about-sections {
 		img {
@@ -21,9 +21,9 @@ about.php */
             #celebrities {
                 width: 500px;
                 .celebrity-container {
-                    /* flex-wrap: wrap;
+                    flex-wrap: wrap;
                     flex-basis: 100%;
-                    flex-grow: 1; */
+                    flex-grow: 1;
                 }
             }
         }
