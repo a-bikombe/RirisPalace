@@ -55,7 +55,7 @@ $scripts = [
                     <?php endforeach; ?>
                 </section>
             </div>
-            <!-- <div class="about-sections-row flex-center dir-change">
+            <div class="about-sections-row flex dir-change">
                 <section id="hobbies" class="about-section flex-center" aria-labelledby="hobbies-title">
                     <h2 id="hobbies-title">Hobbies</h2>
                     <?php foreach ($hobbies as $hobby => $image) : ?>
@@ -79,7 +79,7 @@ $scripts = [
                         <p class="subtitle"><?= $character ?></p>
                     <?php endforeach; ?>
                 </section>
-            </div> -->
+            </div>
         </div>
 
     </main>
