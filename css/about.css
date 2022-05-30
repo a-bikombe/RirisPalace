@@ -8,7 +8,7 @@ about.php */
   width: 15px;
 }
 
-#about main .about-sections .row {
+#about main .about-sections-row {
   /* flex-basis: 100%;
 				flex-grow: 1;
 	
@@ -26,7 +26,7 @@ about.php */
 				} */
 }
 
-#about main .about-sections .row .about-section {
+#about main .about-sections-row .about-section {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
