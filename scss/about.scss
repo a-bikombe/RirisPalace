@@ -4,6 +4,10 @@ about.php */
 #about {
     --body-bg: var(--clr-white);
 
+	img {
+		width: 15px;
+	}
+
     .about-sections {
         .row {
             flex-wrap: wrap;
