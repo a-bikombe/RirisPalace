@@ -4,31 +4,36 @@ about.php */
 #about {
     --body-bg: var(--clr-blue-light);
 
-    .about-sections {
-		img {
-			width: 15px;
-		}
-
-        .row {
-			.about-section {
-				flex-direction: column;
-			}
-			
-            /* flex-basis: 100%;
-            flex-grow: 1;
-
-            #bio {
-                width: 500px;
+    main {
+        .about-sections {
+            img {
+                width: 15px;
             }
 
-            #celebrities {
-                width: 500px;
-                .celebrity-container {
-                    flex-wrap: wrap;
-                    flex-basis: 100%;
-                    flex-grow: 1;
+            .row {
+                flex-basis: 100%;
+                flex-grow: 1;
+
+                .about-section {
+                    flex-direction: column;
                 }
-            } */
+
+                /* flex-basis: 100%;
+				flex-grow: 1;
+	
+				#bio {
+					width: 500px;
+				}
+	
+				#celebrities {
+					width: 500px;
+					.celebrity-container {
+						flex-wrap: wrap;
+						flex-basis: 100%;
+						flex-grow: 1;
+					}
+				} */
+            }
         }
     }
 }
