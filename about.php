@@ -32,7 +32,7 @@ $scripts = [
     <main class="text-center">
         <h1><?= $pageTitle ?></h1>
         <div class="about-sections flex-center dir-col">
-            <div class="row row-1 flex-center dir-change">
+            <div class="row flex-center dir-change">
                 <section id="bio" class="about-section flex-center" aria-labelledby="bio-title">
                     <h2 id="bio-title">Bio</h2>
                     <?= $bio ?>
@@ -55,7 +55,7 @@ $scripts = [
                     <?php endforeach; ?>
                 </section>
             </div>
-            <!-- <div class="row row-2 flex-center dir-change">
+            <!-- <div class="row flex-center dir-change">
                 <section id="hobbies" class="about-section flex-center" aria-labelledby="hobbies-title">
                     <h2 id="hobbies-title">Hobbies</h2>
                     <?php foreach ($hobbies as $hobby => $image) : ?>
@@ -80,8 +80,6 @@ $scripts = [
                     <?php endforeach; ?>
                 </section>
             </div> -->
-
-
         </div>
 
     </main>
