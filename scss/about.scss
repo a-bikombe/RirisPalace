@@ -8,9 +8,13 @@ about.php */
 		img {
 			width: 15px;
 		}
-/* 
+
         .row {
-            flex-basis: 100%;
+			.about-section {
+				flex-direction: column;
+			}
+			
+            /* flex-basis: 100%;
             flex-grow: 1;
 
             #bio {
@@ -24,7 +28,7 @@ about.php */
                     flex-basis: 100%;
                     flex-grow: 1;
                 }
-            }
-        } */
+            } */
+        }
     }
 }
