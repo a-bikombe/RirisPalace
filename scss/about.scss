@@ -4,7 +4,13 @@ about.php */
 #about {
     --body-bg: var(--clr-white);
 
-	#bio {
-		width: 500px;
+	.about-sections {
+		flex-wrap: wrap;
+		flex-basis: 100%;
+		flex-grow: 1;
+
+		#bio {
+			width: 500px;
+		}
 	}
 }
