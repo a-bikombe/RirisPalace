@@ -685,8 +685,10 @@ $seasons = [
 			'four' => [
 				'title' => 'Dear Billy',
 				'rating' => '5',
-				'thoughts' => "The one-shot military raid scene was one of my favorite parts of the episode. Will took the painting he did for Mike with him when they left the house. Miss Sadie outdid herself by a mile.",
+				'thoughts' => "The one-shot military raid scene was one of my favorite parts of the episode. Will took the painting he did for Mike with him when they left the house. Miss Sadie outdid herself by a mile. I loved that they played one of my favorite songs, Dream A Little Dream Of Me.",
 				'quotes' => [
+					"If you think that I'm gonna spend what is likely the last day of my life in the armpit that is Mike Wheeler's basement, then you're out of your mind",
+					"Before he <em>stole my wife</em>",
 					"DRIVE",
 					"I'm still here"
 				]
@@ -696,6 +698,7 @@ $seasons = [
 				'rating' => '3',
 				'thoughts' => "Hopper's speech made me so emotional.",
 				'quotes' => [
+					"ArGYLE",
 					"They didn't need me, I needed them"
 				]
 			],
@@ -704,7 +707,9 @@ $seasons = [
 				'rating' => '4',
 				'thoughts' => "The military people torturing the security man was really scary. Max grabbing the binoculars from Lucas and staring at Steve was really funny.",
 				'quotes' => [
-					""
+					"Americantendo",
+					"Holy sh... heck",
+					"My skills end at IP geolocation"
 				]
 			],
 			'seven' => [
