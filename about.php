@@ -1,6 +1,5 @@
 <?php
 
-ini_set("display_errors", 1);
 require_once 'config/session.php';
 require_once 'config/arianna.php';
 $pageTitle = 'About Me';
