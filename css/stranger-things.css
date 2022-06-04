@@ -54,6 +54,7 @@ general */
 
 #stranger-things main .intro-rank .intro .edits {
   background: red;
+  width: 45vw;
 }
 
 #stranger-things main .intro-rank .intro .edits-container {
