@@ -26,12 +26,12 @@ general */
     main {
         padding: 50px 15vw;
 
-        #intro-rank {
+        .intro-rank {
             gap: var(--section-spacing);
             justify-content: space-between;
             margin: var(--section-spacing) 5vw 0;
 
-            #intro {
+            .intro {
                 .no-link-color {
                     color: var(--theme-text);
                 }
@@ -44,18 +44,25 @@ general */
                     }
                 }
 
-                #plot {
+                .plot {
                     margin-top: var(--section-spacing);
                 }
 
-                #edits {
+                .edits {
                     background: red;
-                    height: auto;
+
+                    &-container {
+
+                        img {
+                            aspect-ratio: 1 / 1;
+                            width: 50px;
+                        }
+                    }
                 }
             }
         }
 
-        #characters {
+        .characters {
             margin-inline: 5vw;
             /* season */
             .season {
@@ -125,7 +132,7 @@ general */
             }
         }
 
-        #episodes {
+        .episodes {
             background: var(--clr-white);
             border: 1px solid var(--clr-gray-40);
             color: var(--clr-black);

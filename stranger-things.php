@@ -49,11 +49,11 @@ $pageNav = [
 	<?php require_once 'include/header.php'; ?>
 	<main>
 		<h1><?= strtoupper($pageTitle) ?></h1>
-		<div id="intro-rank" class="flex dir-change">
-			<section id="intro" aria-label="Introduction">
+		<div id="intro-rank" class="intro-rank" class="flex dir-change">
+			<section id="intro" class="intro" aria-label="Introduction">
 				<section id="watch-links" aria-label="Watch Links">
 					<a href="https://www.netflix.com/title/80057281" class="no-link-color no-decor text-center" target="_blank">
-						<h3> Watch Season 1, 2, and 3 </h3>
+						<h3> Watch Seasons 1-4 </h3>
 					</a>
 				</section>
 				<section id="s4-countdown" class="countdown" aria-label="Season 4 Volume 1 Countdown">
@@ -64,12 +64,15 @@ $pageNav = [
 						<a href="https://www.youtube.com/watch?v=yQEondeGvKo" target="_blank" class="no-link-color no-decor">Season 4 Vol. 2</a> is in <output for="s4-vol2-countdown" id="days-until-s4-vol2"></output> days.
 					</h3>
 				</section>
-				<section id="plot" aria-labelledby="plot-title">
+				<section id="plot" class="plot" aria-labelledby="plot-title">
 					<h2 id="plot-title">Plot</h2>
 					<p> <?= $plot ?> </p>
 				</section>
-				<section id="edits" aria-labelledby="edits-title">
+				<section id="edits" class="edits" aria-labelledby="edits-title">
 					<h2 id="edits-title">Edits</h2>
+					<div class="edits-container">
+						<img src="images/boys/finn/b-w.jpeg" alt="">
+					</div>
 				</section>
 			</section>
 			<section id="character-rank" class="flex-justify dir-col" aria-labelledby="character-rank-title">
@@ -169,7 +172,7 @@ $pageNav = [
 				</section>
 			<?php endforeach; ?>
 		</section>
-		<section id="episodes" class="border-10px" aria-labelledby="episodes-title">
+		<section id="episodes" class="episodes border-10px" aria-labelledby="episodes-title">
 			<h2 id="episodes-title">Episodes</h2>
 			<?php foreach ($seasons as $seasonId => $season) : ?>
 				<section class="season border-10px" id="<?= $seasonId ?>-episodes" aria-label="<?= $season['seasonName'] ?>">
