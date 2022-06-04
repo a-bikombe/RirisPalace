@@ -50,10 +50,9 @@ $scripts = [
                 </section>
                 <section id="pets" class="about-section flex-center" aria-labelledby="pets-title">
                     <h2 id="pets-title">Pets</h2>
-
                     <div id="pets-carousel" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
-                        <?php foreach ($pets as $name => $image) : ?>
+                            <?php foreach ($pets as $name => $image) : ?>
                                 <?php $firstPet = array_key_first($pets); ?> <div class="carousel-item
 												<?php if ($name === $firstPet) { ?> active
 												<?php } ?>
@@ -74,11 +73,6 @@ $scripts = [
                             <span class="visually-hidden">Next</span>
                         </button>
                     </div>
-
-                    <?php foreach ($pets as $name => $image) : ?>
-                        <img src="<?= $image ?>" alt="<?= $name ?>">
-                        <p class="subtitle"><?= $name ?></p>
-                    <?php endforeach; ?>
                 </section>
             </div>
             <div class="about-sections-row flex dir-change">
