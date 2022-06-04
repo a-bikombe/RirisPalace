@@ -68,17 +68,6 @@ $pageNav = [
 					<h2 id="plot-title">Plot</h2>
 					<p> <?= $plot ?> </p>
 				</section>
-				<section id="edits" class="intro-section edits" aria-labelledby="edits-title">
-					<h2 id="edits-title">Edits</h2>
-					<div class="edits-container flex dir-change">
-						<?php foreach ($edits as $title => $link) : ?>
-						<video controls preload="metadata">
-							<source src="<?= $link ?>" type="video/mp4">
-							<p>Your browser does not support the video.</p>
-						</video>
-						<?php endforeach; ?>
-					</div>
-				</section>
 			</section>
 			<section id="character-rank" class="flex-justify dir-col" aria-labelledby="character-rank-title">
 				<h2 id="character-rank-title">Character Rank</h2>
