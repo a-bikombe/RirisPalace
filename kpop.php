@@ -96,8 +96,8 @@ $underConstruction = '<img class="construction-gif" src="images/gifs/pikachu-con
 				<h3 id="ult-bias-title">Ult Bias</h3>
 				<section class="ult-info flex-align dir-change" aria-labelledby="ult-bias-name">
 					<h4 id="ult-bias-name"><?= $ultBias ?> (<?= $ultBiasGroup ?>)</h4>
-					<button data-bs-toggle="modal" data-bs-target="#ult-bias-modal" id="ult-bias-btn" class="ult-btn p-0 border-5px">
-						<img src="<?= $ultBiasImage ?>" class="ult-btn-img p-0 border-5px" alt="Ult Bias Thumbnail">
+					<button data-bs-toggle="modal" data-bs-target="#ult-bias-modal" id="ult-bias-btn" class="modal-btn p-0 border-5px">
+						<img src="<?= $ultBiasImage ?>" class="modal-btn-img p-0 border-5px" alt="Ult Bias Thumbnail">
 					</button>
 					<div class="ult-modal modal fade" id="ult-bias-modal" tabindex="-1" aria-labelledby="ult-bias-modal-label" aria-hidden="true">
 						<div class="modal-dialog">
@@ -120,8 +120,8 @@ $underConstruction = '<img class="construction-gif" src="images/gifs/pikachu-con
 				<section class="ult-info flex-align dir-change" aria-labelledby="ult-group-name">
 					<!-- array_keys($group['members'])[1] -->
 					<h4 id="ult-group-name"><?= $groups['active']['groups'][array_key_first($groups['active']['groups'])]['name'] ?></h4>
-					<button data-bs-toggle="modal" data-bs-target="#ult-group-modal" id="ult-group-btn" class="ult-btn p-0 border-5px">
-						<img src="<?= $groups['active']['groups'][array_key_first($groups['active']['groups'])]['groupImage'] ?>" class="ult-btn-img p-0 border-5px" alt="Ult Group Thumbnail">
+					<button data-bs-toggle="modal" data-bs-target="#ult-group-modal" id="ult-group-btn" class="modal-btn p-0 border-5px">
+						<img src="<?= $groups['active']['groups'][array_key_first($groups['active']['groups'])]['groupImage'] ?>" class="modal-btn-img p-0 border-5px" alt="Ult Group Thumbnail">
 					</button>
 					<div class="ult-modal modal fade" id="ult-group-modal" tabindex="-1" aria-labelledby="ult-group-modal-label" aria-hidden="true">
 						<div class="modal-dialog">

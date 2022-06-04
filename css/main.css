@@ -392,6 +392,22 @@ body .input-block > label::before {
   content: "*";
 }
 
+body .modal-btn {
+  border: none;
+}
+
+body .modal-btn-img {
+  border: 1px solid var(--clr-gray-20);
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: var(--transition-clr-border);
+  transition: var(--transition-clr-border);
+}
+
+body .modal-btn-img:hover, body .modal-btn-img:focus-visible {
+  border: 1px solid var(--clr-gray-80);
+}
+
 body#error {
   color: var(--theme-text);
 }
