@@ -191,7 +191,8 @@ general */
   color: var(--clr-gray-10);
 }
 
-#kpop #ults .ult-btn, #kpop #ults .ult-btn-img {
+#kpop #ults .ult .modal-btn,
+#kpop #ults .ult .modal-btn-img {
   aspect-ratio: 1 / 1;
   width: 15vw;
 }
