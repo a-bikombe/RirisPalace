@@ -5,7 +5,7 @@ about.php */
     --body-bg: var(--clr-blue-light);
 
     main {
-		padding-inline: 5vw;
+        padding-inline: 5vw;
 
         .about-sections {
             img {
@@ -13,31 +13,32 @@ about.php */
             }
 
             &-row {
-				justify-content: space-between;
-				width: 100%;
+                justify-content: space-between;
+                width: 100%;
 
                 .about-section {
                     flex-direction: column;
                 }
-	
-				#bio {
-					width: 500px;
-				}
 
-                #hobbies {
+                #bio {
+                    width: 500px;
+                }
 
+                #hobbies,
+                #kinlist {
+                    
                     &-carousel {
                         width: 200px;
                     }
                 }
-	
-				#celebrities {
-					width: 500px;
 
-					.celebrity-container {
-						flex-wrap: wrap;
-					}
-				}
+                #celebrities {
+                    width: 500px;
+
+                    .celebrity-container {
+                        flex-wrap: wrap;
+                    }
+                }
             }
         }
     }

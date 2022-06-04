@@ -94,48 +94,30 @@ $scripts = [
                     <h2 id="kinlist-title">Kinlist</h2>
                     <p class="hidden"><?= $kinDefinition ?></p>
 
+                    <div id="kinlist-carousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                        <?php foreach ($kinlist as $character => $image) : ?>
+                                <?php $firstCharacter = array_key_first($hobbies); ?> <div class="carousel-item
+												<?php if ($character === $firstCharacter) { ?> active
+												<?php } ?>
+												" data-bs-interval="5000">
+                                    <img src="<?= $image ?>" class="d-block w-100 character-image" alt="<?= $character ?>">
+                                    <div class="carousel-caption d-none d-md-block p-0">
+                                        <h5><?= $character ?></h5>
+                                    </div>
+                                </div>
+                            <?php endforeach; ?>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#kinlist-carousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#kinlist-carousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    <?php foreach ($kinlist as $character => $image) : ?>
-                        <img src="<?= $image ?>" alt="<?= $character ?>">
-                        <p class="subtitle"><?= $character ?></p>
-                    <?php endforeach; ?>
                 </section>
             </div>
         </div>
