@@ -58,7 +58,7 @@ general */
 
 #stranger-things main .intro-rank .intro .edits-container img {
   aspect-ratio: 1 / 1;
-  width: 50px;
+  width: 100%;
 }
 
 #stranger-things main .characters {
