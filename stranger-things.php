@@ -71,44 +71,12 @@ $pageNav = [
 				<section id="edits" class="intro-section edits" aria-labelledby="edits-title">
 					<h2 id="edits-title">Edits</h2>
 					<div class="edits-container flex dir-change">
-
-					<button data-bs-toggle="modal" data-bs-target="#ult-bias-modal" id="ult-bias-btn" class="modal-btn p-0 border-5px">
-						<img src="<?= $ultBiasImage ?>" class="modal-btn-img p-0 border-5px" alt="Ult Bias Thumbnail">
-					</button>
-					<div class="ult-modal modal fade" id="ult-bias-modal" tabindex="-1" aria-labelledby="ult-bias-modal-label" aria-hidden="true">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									<h5 class="modal-title" id="ult-bias-modal-label"><?= $ultBias ?>
-										(<?= $ultBiasGroup ?>)</h5>
-									<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-								</div>
-								<div class="modal-body flex-center">
-									<img data-src="<?= $ultBiasImage ?>" class="modal-img m-1vw" alt="Ult Bias">
-								</div>
-							</div>
-						</div>
-					</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-						<img src="images/boys/finn/b-w.jpeg" alt="">
-						<img src="images/boys/finn/b-w.jpeg" alt="">
-						<img src="images/boys/finn/b-w.jpeg" alt="">
-						<img src="images/boys/finn/b-w.jpeg" alt="">
-						<img src="images/boys/finn/b-w.jpeg" alt="">
-						<img src="images/boys/finn/b-w.jpeg" alt="">
+						<?php foreach ($edits as $title => $link) : ?>
+						<video controls preload="metadata">
+							<source src="<?= $link ?>" type="video/mp4">
+							<p>Your browser does not support the video.</p>
+						</video>
+						<?php endforeach; ?>
 					</div>
 				</section>
 			</section>

@@ -164,20 +164,6 @@ general */
           flex-grow: 1;
   padding: 2vw;
   width: 100%;
-  /* &-btn {
-                border: none;
-            }
-
-            &-btn-img {
-                border: 1px solid var(--clr-gray-20);
-                object-fit: cover;
-                transition: var(--transition-clr-border);
-
-                &:hover,
-                &:focus-visible {
-                    border: 1px solid var(--clr-gray-80);
-                }
-            } */
 }
 
 #kpop #ults .ult-info {

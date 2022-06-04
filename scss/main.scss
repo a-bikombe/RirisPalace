@@ -352,12 +352,12 @@ body {
 
     .modal-btn {
         border: none;
-    
+
         &-img {
             border: 1px solid var(--clr-gray-20);
             object-fit: cover;
             transition: var(--transition-clr-border);
-        
+
             &:hover,
             &:focus-visible {
                 border: 1px solid var(--clr-gray-80);
@@ -734,5 +734,3 @@ body {
         }
     }
 }
-
-
