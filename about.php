@@ -97,7 +97,7 @@ $scripts = [
                     <div id="kinlist-carousel" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <?php foreach ($kinlist as $character => $image) : ?>
-                                <?php $firstCharacter = array_key_first($hobbies); ?> <div class="carousel-item<?php if ($character === $firstCharacter) { ?>active<?php } ?>" data-bs-interval="5000">
+                                <?php $firstCharacter = array_key_first($kinlist); ?> <div class="carousel-item<?php if ($character === $firstCharacter) { ?>active<?php } ?>" data-bs-interval="5000">
                                     <img src="<?= $image ?>" class="d-block w-100 character-image" alt="<?= $character ?>">
                                     <div class="carousel-caption d-none d-md-block p-0">
                                         <h5><?= $character ?></h5>
