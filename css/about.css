@@ -30,6 +30,10 @@ about.php */
   width: 500px;
 }
 
+#about main .about-sections-row #hobbies-carousel {
+  width: 100px;
+}
+
 #about main .about-sections-row #celebrities {
   width: 500px;
 }

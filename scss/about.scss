@@ -23,6 +23,13 @@ about.php */
 				#bio {
 					width: 500px;
 				}
+
+                #hobbies {
+
+                    &-carousel {
+                        width: 100px;
+                    }
+                }
 	
 				#celebrities {
 					width: 500px;
