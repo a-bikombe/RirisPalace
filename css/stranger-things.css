@@ -54,7 +54,7 @@ general */
 
 #stranger-things main #intro-rank #intro #edits {
   background: red;
-  height: 100%;
+  height: auto;
 }
 
 #stranger-things main #characters {
