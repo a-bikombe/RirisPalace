@@ -58,12 +58,6 @@ $scripts = [
             <div class="about-sections-row flex dir-change">
                 <section id="hobbies" class="about-section flex-center" aria-labelledby="hobbies-title">
                     <h2 id="hobbies-title">Hobbies</h2>
-
-
-
-
-
-
                     <div id="hobbies-carousel" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <?php foreach ($hobbies as $hobby => $image) : ?>
@@ -87,19 +81,6 @@ $scripts = [
                             <span class="visually-hidden">Next</span>
                         </button>
                     </div>
-
-
-
-
-
-
-
-
-
-                    <?php foreach ($hobbies as $hobby => $image) : ?>
-                        <img src="<?= $image ?>" alt="<?= $hobby ?>">
-                        <p class="subtitle"><?= $hobby ?></p>
-                    <?php endforeach; ?>
                 </section>
                 <section id="celebrities" class="about-section flex-center" aria-labelledby="celebrities-title">
                     <h2 id="celebrities-title">Celebrity Crushes</h2>
