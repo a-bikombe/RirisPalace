@@ -50,6 +50,31 @@ $scripts = [
                 </section>
                 <section id="pets" class="about-section flex-center" aria-labelledby="pets-title">
                     <h2 id="pets-title">Pets</h2>
+
+                    <div id="pets-carousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                        <?php foreach ($pets as $name => $image) : ?>
+                                <?php $firstPet = array_key_first($pets); ?> <div class="carousel-item
+												<?php if ($name === $firstPet) { ?> active
+												<?php } ?>
+												" data-bs-interval="5000">
+                                    <img src="<?= $image ?>" class="d-block w-100 character-image" alt="<?= $name ?>">
+                                    <div class="carousel-caption d-none d-md-block p-0">
+                                        <h5><?= $name ?></h5>
+                                    </div>
+                                </div>
+                            <?php endforeach; ?>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#pets-carousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#pets-carousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
                     <?php foreach ($pets as $name => $image) : ?>
                         <img src="<?= $image ?>" alt="<?= $name ?>">
                         <p class="subtitle"><?= $name ?></p>
@@ -94,7 +119,6 @@ $scripts = [
                 <section id="kinlist" class="about-section flex-center" aria-labelledby="kinlist-title">
                     <h2 id="kinlist-title">Kinlist</h2>
                     <p class="hidden"><?= $kinDefinition ?></p>
-
                     <div id="kinlist-carousel" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <?php foreach ($kinlist as $character => $image) : ?>
@@ -115,7 +139,6 @@ $scripts = [
                             <span class="visually-hidden">Next</span>
                         </button>
                     </div>
-
                 </section>
             </div>
         </div>

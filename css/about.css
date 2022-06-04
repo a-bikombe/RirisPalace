@@ -30,6 +30,7 @@ about.php */
   width: 500px;
 }
 
+#about main .about-sections-row #pets-carousel,
 #about main .about-sections-row #hobbies-carousel,
 #about main .about-sections-row #kinlist-carousel {
   width: 200px;
