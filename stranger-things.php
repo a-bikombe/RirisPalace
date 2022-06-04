@@ -49,7 +49,7 @@ $pageNav = [
 	<?php require_once 'include/header.php'; ?>
 	<main>
 		<h1><?= strtoupper($pageTitle) ?></h1>
-		<div id="intro-rank" class="intro-rank" class="flex dir-change">
+		<div id="intro-rank" class="intro-rank flex dir-change">
 			<section id="intro" class="intro" aria-label="Introduction">
 				<section id="watch-links" aria-label="Watch Links">
 					<a href="https://www.netflix.com/title/80057281" class="no-link-color no-decor text-center" target="_blank">
