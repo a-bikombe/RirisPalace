@@ -52,6 +52,10 @@ general */
   margin-top: var(--section-spacing);
 }
 
+#stranger-things main #intro-rank #intro #edits {
+  background: red;
+}
+
 #stranger-things main #characters {
   margin-inline: 5vw;
   /* season */

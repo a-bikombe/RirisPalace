@@ -68,6 +68,9 @@ $pageNav = [
 					<h2 id="plot-title">Plot</h2>
 					<p> <?= $plot ?> </p>
 				</section>
+				<section id="edits" aria-labelledby="edits-title">
+					<h2 id="edits-title">Edits</h2>
+				</section>
 			</section>
 			<section id="character-rank" class="flex-justify dir-col" aria-labelledby="character-rank-title">
 				<h2 id="character-rank-title">Character Rank</h2>

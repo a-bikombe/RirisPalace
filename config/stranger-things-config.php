@@ -4,6 +4,8 @@
 $plot = "Set in the fictional town of Hawkins, Indiana in the 1980s, the first season focuses on the investigation into the disappearance of a young boy amid supernatural events occurring around the town including the appearance of a psychokinetic girl who helps
 the missing boy's friends in their own search.";
 
+$edits = [];
+
 $links = [
 	'eleven' => '<a href="#eleven" class="no-link-color no-decor">El</a>',
 	'mike' => '<a href="#mike" class="no-link-color no-decor">Mike</a>',
