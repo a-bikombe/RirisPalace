@@ -548,6 +548,7 @@ $seasons = [
 				'rating' => '3',
 				'thoughts' => "El getting all cuddly with Mike when Dustin was showing them his inventions was so cute. It made me sad, though, that you can tell that Will doesn't have the same level of comfort in being vulnerable with Mike about his problems as he did in Season 2.",
 				'quotes' => [
+					"'Oh El, I wish we could make out forever, and never hang out with any of our friends'",
 					"You are oh-for-six, Popeye",
 					"Oh shit, she doesn't have electricity?",
 					"There's nothing wrong with Nana"
@@ -611,7 +612,8 @@ $seasons = [
 				'quotes' => [
 					"...The big, bad... <em>Fourth of July celebration</em>",
 					"She's gonna need some <em>backup</em>",
-					"Old people?"
+					"Old people?",
+					"You flung that thing like a hot wheel"
 				]
 			],
 			'eight' => [
