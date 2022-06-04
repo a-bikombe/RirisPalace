@@ -2,8 +2,9 @@
 
 ini_set('display_errors', 1);
 require_once 'config/session.php';
-// front-end of kpop-groups.php
-require_once 'config/kpop-groups.php';
+
+require_once 'config/kpop-groups.php';    // config
+
 $pageTitle = 'KPop';
 
 $iconPath = 'images/icons/kpop.png';

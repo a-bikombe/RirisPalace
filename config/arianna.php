@@ -1,5 +1,8 @@
 <?php
 
+// back-end of about.php
+// included in config/previews.php
+
 // short bio about myself
 $bio = "Personal website presenting my interests, including Stranger Things, Marvel, KPop, and more.";
 

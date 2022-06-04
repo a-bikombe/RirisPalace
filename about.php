@@ -1,7 +1,8 @@
 <?php
 
 require_once 'config/session.php';
-require_once 'config/arianna.php';
+require_once 'config/arianna.php';    // config
+
 $pageTitle = 'About Me';
 
 $iconPath = 'images/icons/luca.png';

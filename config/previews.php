@@ -1,6 +1,6 @@
 <?php
-require_once 'arianna.php';
-require_once 'kpop-groups.php';
+require_once 'arianna.php';    // about.php arrays
+require_once 'kpop-groups.php';    // kpop.php arrays
 
 $boy = 'Finn Wolfhard';
 

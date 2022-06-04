@@ -8,6 +8,7 @@
 
 ### Nav Links
 * [ ] [about.php](aribikombe.com/about.php) - About Me
+	* *config/arianna.php*
 * [x] [kpop.php](aribikombe.com/kpop.php) - KPop
 	* *config/kpop-groups.php*
 	* *validation/kpop.php* - Hasn't been created yet
