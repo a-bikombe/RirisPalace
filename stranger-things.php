@@ -72,6 +72,11 @@ $pageNav = [
 					<h2 id="edits-title">Edits</h2>
 					<div class="edits-container flex dir-change">
 						<img src="images/boys/finn/b-w.jpeg" alt="">
+						<img src="images/boys/finn/b-w.jpeg" alt="">
+						<img src="images/boys/finn/b-w.jpeg" alt="">
+						<img src="images/boys/finn/b-w.jpeg" alt="">
+						<img src="images/boys/finn/b-w.jpeg" alt="">
+						<img src="images/boys/finn/b-w.jpeg" alt="">
 					</div>
 				</section>
 			</section>
