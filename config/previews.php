@@ -1,4 +1,5 @@
 <?php
+require_once 'arianna.php';
 require_once 'kpop-groups.php';
 
 $boy = 'Finn Wolfhard';
@@ -25,15 +26,7 @@ $previews = [
 	'about-me' => [
 		'header' => 'Welcome!',
 		'image' => '',
-		'text' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-		et dolore magna aliqua. Eget sit amet tellus cras adipiscing. Ut tortor pretium viverra suspendisse.
-		Dictum varius duis at consectetur lorem donec massa sapien faucibus. Tristique sollicitudin nibh sit
-		amet commodo. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Cursus metus
-		aliquam eleifend mi in nulla posuere sollicitudin aliquam. Morbi tristique senectus et netus. Semper
-		auctor neque vitae tempus quam pellentesque nec nam aliquam. Non curabitur gravida arcu ac tortor
-		dignissim convallis aenean. Tincidunt arcu non sodales neque sodales ut etiam sit. Tempus iaculis
-		urna id volutpat lacus laoreet. Consectetur lorem donec massa sapien faucibus. Quis ipsum
-		suspendisse ultrices gravida dictum fusce ut placerat orci.',
+		'text' => $bio,
 		'link' => 'about.php'
 	],
 	'boy-of-the-week' => [
