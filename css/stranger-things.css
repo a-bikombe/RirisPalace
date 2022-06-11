@@ -52,21 +52,6 @@ general */
   margin-top: var(--section-spacing);
 }
 
-#stranger-things main .intro-rank .intro .edits {
-  background: red;
-  width: 45vw;
-}
-
-#stranger-things main .intro-rank .intro .edits-container {
-  overflow: auto;
-  width: 100%;
-}
-
-#stranger-things main .intro-rank .intro .edits-container video {
-  aspect-ratio: 1 / 1;
-  width: 15rem;
-}
-
 #stranger-things main .characters {
   margin-inline: 5vw;
   /* season */
