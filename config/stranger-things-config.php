@@ -499,7 +499,8 @@ $seasons = [
 					"I'm just curious why all of a sudden you look like some kind of MTV punk",
 					"Maybe if we set this on <em>fire</em>—\" \"Yeah, <em>that's</em> a no",
 					"Yeah, it's me, don't cream your pants",
-					"Nancy?"
+					"Nancy?",
+					"Close it"
 				]
 			]
 		]
