@@ -589,7 +589,7 @@ $seasons = [
 			'five' => [
 				'title' => 'The Flayed',
 				'rating' => '2',
-				'thoughts' => "This episode is mostly boring, only when you\'re rewatching. It\'s mostly plot development. The hospital chase scene was really scary though.",
+				'thoughts' => "This episode is mostly boring, only when you're rewatching. It's mostly plot development. The hospital chase scene was really scary though.",
 				'quotes' => [
 					"<em>Child murderer?</em>",
 					"This is my... <em>family</em>—\" \"—Extended"
@@ -608,7 +608,7 @@ $seasons = [
 			'seven' => [
 				'title' => 'The Bite',
 				'rating' => '5',
-				'thoughts' => "This episode picks way up after Chapter Six. It's probably my favorite episode out of the first three seasons.Robin comes out to Steve, Alexei dies, Mike tries to tell El he loves her... all icon-level plot.",
+				'thoughts' => "This episode picks way up after Chapter Six. It's probably my favorite episode out of the first three seasons. Robin comes out to Steve, Alexei dies, Mike tries to tell El he loves her... all icon-level plot.",
 				'quotes' => [
 					"...The big, bad... <em>Fourth of July celebration</em>",
 					"She's gonna need some <em>backup</em>",
