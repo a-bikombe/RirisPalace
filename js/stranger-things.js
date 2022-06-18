@@ -1,7 +1,8 @@
 const s4Vol1 = new Date(2022, 04, 27);
 const s4Vol2 = new Date(2022, 06, 01);
 const currentDate = new Date();
-const oneDay = 1000 * 60 * 60 * 24;
+const oneHour = 1000 * 60 * 60;
+const oneDay = oneHour * 24;
 
 function s4Vol1Countdown() {
     let s4Vol1CountdownBlock = document.getElementById("s4-vol1-countdown");
@@ -21,7 +22,7 @@ function s4Vol2Countdown() {
     if (currentDate >= s4Vol1 && currentDate < s4Vol2) {
         s4Vol2CountdownBlock.classList.remove("hidden");
         let days = (s4Vol2 - currentDate) / oneDay;
-        let hours = 7;
+        let hours = (s4Vol2 - currentDate) / oneHour;
         daysUntilS4Vol2.textContent = parseInt(days) + ' days and ' + parseInt(hours) + ' hours';
         console.log(currentDate);
     }
