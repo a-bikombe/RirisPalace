@@ -1,5 +1,5 @@
 const s4Vol1 = new Date(2022, 04, 27);
-const s4Vol2 = new Date(2022, 06, 01);
+const s4Vol2 = new Date(2022, 06, 01, 03);
 const currentDate = new Date();
 const oneHour = 1000 * 60 * 60;
 const oneDay = oneHour * 24;
