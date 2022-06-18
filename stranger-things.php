@@ -61,7 +61,7 @@ $pageNav = [
 						<a href="https://www.youtube.com/watch?v=yQEondeGvKo" target="_blank" class="no-link-color no-decor">Season 4 Vol. 1</a> is in <output for="s4-vol1-countdown" id="days-until-s4-vol1"></output> days.
 					</h3>
 					<h3 id="s4-vol2-countdown" class="countdown hidden" aria-label="Season 4 Volume 2 Countdown">
-						<a href="https://www.youtube.com/watch?v=yQEondeGvKo" target="_blank" class="no-link-color no-decor">Season 4 Vol. 2</a> is in <output for="s4-vol2-countdown" id="days-until-s4-vol2"></output> days.
+						<a href="https://www.youtube.com/watch?v=yQEondeGvKo" target="_blank" class="no-link-color no-decor">Season 4 Vol. 2</a> is in <output for="s4-vol2-countdown" id="days-until-s4-vol2"></output>.
 					</h3>
 				</section>
 				<section id="plot" class="intro-section plot" aria-labelledby="plot-title">
