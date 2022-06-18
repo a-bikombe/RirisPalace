@@ -22,7 +22,7 @@ function s4Vol2Countdown() {
     if (currentDate >= s4Vol1 && currentDate < s4Vol2) {
         s4Vol2CountdownBlock.classList.remove("hidden");
         let days = (s4Vol2 - currentDate) / oneDay;
-        let hours = parseFloat(days) - parseInt(days);
+        let hours = 24 * (parseFloat(days) - parseInt(days));
         daysUntilS4Vol2.textContent = parseFloat(days) + ' days and ' + parseFloat(hours) + ' hours';
         console.log(currentDate);
     }
