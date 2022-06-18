@@ -22,7 +22,7 @@ function s4Vol2Countdown() {
         s4Vol2CountdownBlock.classList.remove("hidden");
         let days = (s4Vol2 - currentDate) / oneDay;
         let hours = 7;
-        daysUntilS4Vol2.textContent = parseInt(days + ' days and ' + hours + ' hours');
+        daysUntilS4Vol2.textContent = parseInt(days) + ' days and ' + parseInt(hours) + ' hours';
         console.log(currentDate);
     }
 }
