@@ -6,6 +6,61 @@ $groups = [
 	'active' => [
 		'name' => 'Actively Stanning',
 		'groups' => [
+			"txt" => [
+				'name' => "TXT",
+				'debut' => '2019',
+				'groupImage' => 'https://www.pinkvilla.com/files/txt_main_6.png',
+				'members' => [
+					'HueningKai' => [
+						'image' => 'https://image.kpopmap.com/2020/11/20201029r0dKtmix_Xt.jpg',
+						'birthday' => '8/14/2002',
+						'notes' => [
+							'kai',
+							''
+						]
+					],
+					'Taehyun' => [
+						'image' => 'https://static.wikia.nocookie.net/0b7f6e4c-471d-41c1-9f33-c09678ffdbcd',
+						'birthday' => '2/5/2002',
+						'notes' => [
+							'',
+							''
+						]
+					],
+					'Yeonjun' => [
+						'image' => 'https://lh3.googleusercontent.com/WZI1AzYqHWVbaTUR7IzpASrggkQk7uRk6uitrZTxCicfEal14L2x73WgYhLY83-lnZWIg0Opvkvgv2pkPRaiCLLoPTBuD3Aw4dtOU5W9NoGQD612=w960-rj-nu-e365',
+						'birthday' => '9/13/1999',
+						'notes' => [
+							'jjun',
+							''
+						]
+					],
+					'Beomgyu' => [
+						'image' => 'http://pm1.narvii.com/7504/e84530bd61b9ba109d7d2458a9c0b0f532512ce1r1-736-1040v2_uhq.jpg',
+						'birthday' => '3/13/2001',
+						'notes' => [
+							'ggyu',
+							''
+						]
+					],
+					'Soobin' => [
+						'image' => 'https://assets.teenvogue.com/photos/5f15aa14493c0130c7d9bc85/4:3/w_4000,h_3000,c_limit/tout.jpg',
+						'birthday' => '12/5/2000',
+						'notes' => [
+							'soob',
+							''
+						]
+					]
+				],
+				'playlist' => '4XS6VQv6vtOi11IgRn46VY',
+				'content' => [
+					'series' => 'Todo X TXT',
+					'short' => '<a href="https://youtube.com/playlist?list=PLcZxoPUYVQX2WESa6ZJ2R9zIGYKO_fPuc" target="_blank">T:Time</a>',
+					'long' => 'Episode',
+					'vlogs' => '<a href="https://youtube.com/playlist?list=PLcZxoPUYVQX1dffyKtyNYpWWl40COUDz2" target="_blank">Talk X Today</a>',
+					'notes' => 'X:Time'
+				]
+			],
 			"nctdream" => [
 				'name' => "NCT Dream",
 				'debut' => '2016',
@@ -75,61 +130,6 @@ $groups = [
 					'long' => 'Un Cut, [N\']',
 					'vlogs' => 'Relay Cam',
 					'notes' => ''
-				]
-			],
-			"txt" => [
-				'name' => "TXT",
-				'debut' => '2019',
-				'groupImage' => 'https://www.pinkvilla.com/files/txt_main_6.png',
-				'members' => [
-					'HueningKai' => [
-						'image' => 'https://image.kpopmap.com/2020/11/20201029r0dKtmix_Xt.jpg',
-						'birthday' => '8/14/2002',
-						'notes' => [
-							'kai',
-							''
-						]
-					],
-					'Taehyun' => [
-						'image' => 'https://static.wikia.nocookie.net/0b7f6e4c-471d-41c1-9f33-c09678ffdbcd',
-						'birthday' => '2/5/2002',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Yeonjun' => [
-						'image' => 'https://lh3.googleusercontent.com/WZI1AzYqHWVbaTUR7IzpASrggkQk7uRk6uitrZTxCicfEal14L2x73WgYhLY83-lnZWIg0Opvkvgv2pkPRaiCLLoPTBuD3Aw4dtOU5W9NoGQD612=w960-rj-nu-e365',
-						'birthday' => '9/13/1999',
-						'notes' => [
-							'jjun',
-							''
-						]
-					],
-					'Beomgyu' => [
-						'image' => 'http://pm1.narvii.com/7504/e84530bd61b9ba109d7d2458a9c0b0f532512ce1r1-736-1040v2_uhq.jpg',
-						'birthday' => '3/13/2001',
-						'notes' => [
-							'ggyu',
-							''
-						]
-					],
-					'Soobin' => [
-						'image' => 'https://assets.teenvogue.com/photos/5f15aa14493c0130c7d9bc85/4:3/w_4000,h_3000,c_limit/tout.jpg',
-						'birthday' => '12/5/2000',
-						'notes' => [
-							'soob',
-							''
-						]
-					]
-				],
-				'playlist' => '4XS6VQv6vtOi11IgRn46VY',
-				'content' => [
-					'series' => 'Todo X TXT',
-					'short' => '<a href="https://youtube.com/playlist?list=PLcZxoPUYVQX2WESa6ZJ2R9zIGYKO_fPuc" target="_blank">T:Time</a>',
-					'long' => 'Episode',
-					'vlogs' => '<a href="https://youtube.com/playlist?list=PLcZxoPUYVQX1dffyKtyNYpWWl40COUDz2" target="_blank">Talk X Today</a>',
-					'notes' => 'X:Time'
 				]
 			],
 			"enha" => [
