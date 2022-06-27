@@ -674,6 +674,7 @@ $seasons = [
 				'rating' => '4',
 				'thoughts' => "Visor City. Will is in LOVE",
 				'quotes' => [
+					"I heard a lot about your sister",
 					"Who's that twig she's with"
 				]
 			],
@@ -711,6 +712,7 @@ $seasons = [
 				'thoughts' => "The military people torturing the security man was really scary. Max grabbing the binoculars from Lucas and staring at Steve was really funny.",
 				'quotes' => [
 					"Americantendo",
+					"You're totally, absolutely, 100% wrong. Right now!",
 					"Holy sh... heck",
 					"My skills end at IP geolocation"
 				]
