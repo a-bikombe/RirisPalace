@@ -25,19 +25,20 @@ $characterRank = [
 	'eddie',
 	'max',
 	'dustin',
-	'eleven',
-	'argyle',
-	'joyce',
-	'will',
-	'bob',
-	'hopper',
-	'robin',
-	'erica',
 	'steve',
-	'jonathan',
-	'suzie',
+	'eleven',
+	'robin',
 	'lucas',
 	'nancy',
+	'erica',
+	'joyce',
+	'hopper',
+	'will',
+	'bob',
+	'jonathan',
+	'argyle',
+	'murray',
+	'suzie',
 	'karen',
 	'billy'
 ];
@@ -550,6 +551,7 @@ $seasons = [
 				'thoughts' => "El getting all cuddly with Mike when Dustin was showing them his inventions was so cute. It made me sad, though, that you can tell that Will doesn't have the same level of comfort in being vulnerable with Mike about his problems as he did in Season 2.",
 				'quotes' => [
 					"'Oh El, I wish we could make out forever, and never hang out with any of our friends'",
+					"I am gonna <em>lose it</em>, Joyce",
 					"You are oh-for-six, Popeye",
 					"Oh shit, she doesn't have electricity?",
 					"There's nothing wrong with Nana"
@@ -643,7 +645,8 @@ $seasons = [
 				'content' => [
 					'Sweet baby',
 					'Not mean and scary like everyone thinks',
-					'A drug dealer?'
+					'A drug dealer',
+					'Hawkins\'s unsung hero'
 				]
 			],
 			'argyle' => [
@@ -666,6 +669,7 @@ $seasons = [
 				'rating' => '5',
 				'thoughts' => "I'm just gonna say: as a Mike stan, I won in this episode. I love the group huddle shot, and the shot of the die going across the table during the Hellfire Club campaign.",
 				'quotes' => [
+					"You want to <em>postpone</em>... \"The Cult of Vecna\"?",
 					"And I'll <em>smile</em> as I watch them die"
 				]
 			],
@@ -711,7 +715,9 @@ $seasons = [
 				'rating' => '4',
 				'thoughts' => "The military people torturing the security man was really scary. Max grabbing the binoculars from Lucas and staring at Steve was really funny.",
 				'quotes' => [
+					"I got you! I got you good",
 					"Americantendo",
+					"You're right, it is a <em>stupid name</em>",
 					"You're totally, absolutely, 100% wrong. Right now!",
 					"Holy sh... heck",
 					"My skills end at IP geolocation"
@@ -722,7 +728,9 @@ $seasons = [
 				'rating' => '5',
 				'thoughts' => "Steve <em>pulling the head off of a demobat?</em> There were also so many cool shots in this episode: I really liked the shot of Robin, Steve, Nancy, and Eddie, and the scene with the LiteBrite. I thought the fantasy dust concept of communication was interesting. And the mirror shot of younger teens and older teens riding their bikes in opposite dimensions was so cool.",
 				'quotes' => [
-					"Do you remember the gate?\" \"No, I blocked that out"
+					"Erica, do... you... <em>copy?</em>",
+					"Do you remember the gate?\" \"No, I blocked that out",
+					"I overestimated them"
 				]
 			],
 			'eight' => [
@@ -730,15 +738,16 @@ $seasons = [
 				'rating' => '',
 				'thoughts' => "TBA",
 				'quotes' => [
-					"TBA"
+					"Small woman",
+					"I am stopping us before we get <em>more lost</em>"
 				]
 			],
 			'nine' => [
 				'title' => 'The Piggyback',
 				'rating' => '',
-				'thoughts' => "",
+				'thoughts' => "TBA",
 				'quotes' => [
-					"TBA"
+					"It's <em>good?</em>"
 				]
 			]
 		]
