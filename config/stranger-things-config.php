@@ -716,7 +716,7 @@ $seasons = [
 				'rating' => '4',
 				'thoughts' => "The military people torturing the security man was really scary. Max grabbing the binoculars from Lucas and staring at Steve was really funny.",
 				'quotes' => [
-					"I got you! I got you good",
+					"I got you! I got you good!",
 					"You're right, it is a <em>stupid name</em>",
 					"You're totally, absolutely, 100% wrong. Right now!",
 					"Holy sh... heck",
