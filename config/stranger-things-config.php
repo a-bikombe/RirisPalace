@@ -706,6 +706,7 @@ $seasons = [
 				'rating' => '3',
 				'thoughts' => "Hopper's speech made me so emotional.",
 				'quotes' => [
+					"No, you idiot! St. Mary's <em>Hospital!</em>",
 					"ArGYLE",
 					"They didn't need me, I needed them"
 				]
@@ -716,7 +717,6 @@ $seasons = [
 				'thoughts' => "The military people torturing the security man was really scary. Max grabbing the binoculars from Lucas and staring at Steve was really funny.",
 				'quotes' => [
 					"I got you! I got you good",
-					"Americantendo",
 					"You're right, it is a <em>stupid name</em>",
 					"You're totally, absolutely, 100% wrong. Right now!",
 					"Holy sh... heck",
