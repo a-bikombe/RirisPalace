@@ -1,6 +1,6 @@
 <?php
 
-/* test 2 */
+/* test 3 */
 
 require_once 'config/session.php';
 require_once 'config/previews.php';
