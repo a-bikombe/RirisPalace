@@ -1,5 +1,7 @@
 <?php
 
+/* test */
+
 require_once 'config/session.php';
 require_once 'config/previews.php';
 
