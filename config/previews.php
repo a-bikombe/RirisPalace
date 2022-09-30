@@ -7,7 +7,7 @@ $boy = 'Finn Wolfhard';
 $boys = [
 	'Finn Wolfhard' => [
 		'image' => 'images/boys/finn/b-w.jpeg',
-		'description' => "<strong>What else is new?</strong> I have watched every piece of content in his filmography <em>and</em> discography, and I take full pride in that. w",
+		'description' => "<strong>What else is new?</strong> I have watched every piece of content in his filmography <em>and</em> discography, and I take full pride in that.",
 		'link' => 'stranger-things.php#mike'
 	],
 	'Huening Kai' => [
