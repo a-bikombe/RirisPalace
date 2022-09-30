@@ -3,3 +3,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/aribikom/public_html
     - /bin/cp -R * $DEPLOYPATH
+    
