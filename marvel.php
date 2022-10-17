@@ -22,7 +22,6 @@ $scripts = [
 
 <body>
     <?php require_once 'include/loading-page.php'; ?>
-    <?php require_once 'include/under-construction.php'; ?>
     <?php require_once 'include/header.php'; ?>
     <main>
         <h1><?= $pageTitle ?></h1>
