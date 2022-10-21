@@ -12,77 +12,58 @@ TABLE OF CONTENTS
 
 /* changed from row on desktop */
 .dir-change {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 body {
   /* ================================================================
-| header.php */
+  | header.php */
   /* ================================================================
-| index.php */
+  | index.php */
   /* ================================================================
-| stranger-things.php */
+  | stranger-things.php */
 }
-
 body#index figcaption {
   font-size: 1.7rem;
   padding-top: 3vw;
 }
-
 body#index .homepage-header {
   margin: 0 5vw 3vw;
 }
-
 body#index .preview {
   padding: 10vw;
 }
-
 body#index .preview-image {
   width: 75vw;
 }
-
 body#stranger-things h3 {
   margin: 15px 0 10px;
 }
-
 body#stranger-things main {
   padding: 50px 5vw;
 }
-
 body#stranger-things main #intro-rank #character-rank {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 body#stranger-things main #characters {
   /* season */
 }
-
 body#stranger-things main #characters .season {
   padding: 3vh 5vw;
 }
-
 body#stranger-things main #characters .season .character-image-name, body#stranger-things main #characters .season .character-description {
   margin: auto;
   width: 100%;
 }
-
 body#stranger-things main #characters .season .character-image-name .character-image, body#stranger-things main #characters .season .character-description .character-image {
-  height: calc(90% * 1.49);
+  height: 134.1%;
   -o-object-fit: cover;
      object-fit: cover;
 }
-
 body#stranger-things main #episodes .season .episode .episode-main .thoughts,
 body#stranger-things main #episodes .season .episode .episode-main .quotes {
   width: 100%;
 }
-
 body footer {
   bottom: 1.5rem;
-}
-/*# sourceMappingURL=main-mobile.css.map */
+}/*# sourceMappingURL=main-mobile.css.map */

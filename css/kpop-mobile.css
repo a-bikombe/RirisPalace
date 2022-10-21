@@ -2,56 +2,42 @@
 general */
 #kpop {
   /* ================================================================
-    #group-sidebar */
+  #group-sidebar */
   /* ================================================================
-    sections */
+  sections */
   /* ================================================================
-    #ults */
+  #ults */
   /* ================================================================
-    #groups */
+  #groups */
   /* ================================================================
-    #content-dashboard */
+  #content-dashboard */
 }
-
 #kpop main {
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 7;
-  grid-column: 1 / 8;
+  grid-column: 1/8;
 }
-
 #kpop .dir-change {
   width: 100%;
 }
-
-#kpop .dir-change#ults,
-#kpop .dir-change:not(#ults) > * {
-  -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
+#kpop .dir-change#ults, #kpop .dir-change:not(#ults) > * {
+  flex-basis: 100%;
   width: 100%;
 }
-
 #kpop #group-sidebar {
   display: none;
 }
-
 #kpop .kpop-section {
   max-width: 100%;
 }
-
 #kpop #ults .ult {
   /* only add margin to .ult if there is another .ult before it */
 }
-
 #kpop #ults .ult + .ult {
   margin-top: 3vw;
 }
-
 #kpop #ults .ult .ult-btn-img {
   width: 100%;
 }
-
 #kpop #content-dashboard .content-table {
   overflow: auto;
   width: 85vw;
-}
-/*# sourceMappingURL=kpop-mobile.css.map */
+}/*# sourceMappingURL=kpop-mobile.css.map */
