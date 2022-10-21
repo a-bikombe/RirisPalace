@@ -4,7 +4,7 @@ require_once 'config/session.php';
 require_once 'config/previews.php';
 
 $pageTitle = 'Home';
-$constructionNotice = 'Under Construction';
+$constructionNotice = 'Under Construction!';
 
 $iconPath = 'images/icons/luca.png';
 
