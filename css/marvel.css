@@ -6,12 +6,13 @@ body main .posts {
   margin-top: 5vh;
 }
 body main .posts#static-posts {
-  outline: 1px dashed var(--clr-gray-40);
+  border: 1px dashed var(--clr-gray-40);
   padding: 5px;
 }
 body main .posts .post {
   align-items: center;
-  border: 1px solid var(--clr-gray-80);
+  border: 1px solid var(--clr-gray-10);
+  border-radius: 10px;
   gap: 3vw;
   justify-content: space-between;
   padding: 5px;
