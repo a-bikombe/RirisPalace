@@ -15,6 +15,8 @@
 * [x] [stranger-things.php](aribikombe.com/stranger-things.php) - Stranger Things
 	* *config/stranger-things-config.php*
 * [ ] [marvel.php](aribikombe.com/marvel.php) - Marvel
+	* *config/marvel-posts.php*
+	* [ ] TODO: Work on Hero Scrollbar
 * [ ] [star-wars.php](aribikombe.com/star-wars.php) - Star Wars
 
 ### Login
@@ -53,17 +55,14 @@
 * css/index.css - Homepage
 * css/kpop.css - KPop
 * css/stranger-things.css - Stranger Things
+* css/marvel.css - Marvel
 * css/main-mobile.css - Header Mobile, Homepage Mobile, Stranger Things Mobile
 * css/kpop-mobile.css - KPop Mobile
 
-## Scripts (VanillaJS)
+## Scripts (derived from TS)
 
 * js/main.js - loadingPage(), collapsibleSidebar()
 * js/kpop.js - lazyloadModalImages(), *soon searchBarKpop() and reorderGroups()*
 * js/login-signup.js - matchPasswords()
 * js/profile.js - showDeleteForm()
 * js/stranger-things.js - s4Vol1Countdown(), s4Vol2Countdown(), lazyloadCarousels()
-
-## Commit Command
-
-`git acpg "message"` adds, commits, and pushes changes to cpanel (cpanel) and github (github) remote repositories
