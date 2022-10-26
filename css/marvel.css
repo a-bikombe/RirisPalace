@@ -2,11 +2,9 @@ body main {
   padding: 50px 15vw;
 }
 body main .posts {
-  display: flex;
   gap: 5vh;
 }
 body main .posts .post {
-  display: flex;
   align-items: top;
   justify-content: space-between;
 }

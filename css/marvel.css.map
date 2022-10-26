@@ -1,1 +1,1 @@
-{"version":3,"sources":["../scss/marvel.scss","marvel.css"],"names":[],"mappings":"AACC;EACC,kBAAA;ACAF;ADCE;EACC,aAAA;EACA,QAAA;ACCH;ADCG;EACC,aAAA;EACA,gBAAA;EACA,8BAAA;ACCJ;ADAI;EACC,iBAAA;EACA,WAAA;ACEL","file":"marvel.css"}
+{"version":3,"sources":["../scss/marvel.scss","marvel.css"],"names":[],"mappings":"AACC;EACC,kBAAA;ACAF;ADCE;EACC,QAAA;ACCH;ADCG;EACC,gBAAA;EACA,8BAAA;ACCJ;ADAI;EACC,iBAAA;EACA,WAAA;ACEL","file":"marvel.css"}
