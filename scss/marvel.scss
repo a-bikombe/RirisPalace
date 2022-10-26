@@ -1,4 +1,5 @@
 body {
+	background-color: var(--clr-red);
 
 	main {
 		padding: 50px 15vw;
@@ -14,6 +15,7 @@ body {
 
 			.post {
 				align-items: center;
+				background-color: var(--clr-blue-light);
 				border: 1px solid var(--clr-gray-10);
 				border-radius: 10px;
 				gap: 3vw;
