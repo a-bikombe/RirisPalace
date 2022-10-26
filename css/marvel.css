@@ -15,7 +15,7 @@ body main .posts .post {
   border-radius: 10px;
   gap: 3vw;
   justify-content: space-between;
-  padding: 5px;
+  padding: 10px;
 }
 body main .posts .post-image img {
   aspect-ratio: 1/1;
