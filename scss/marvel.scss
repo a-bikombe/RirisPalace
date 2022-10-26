@@ -2,13 +2,16 @@ body {
 	main {
 		padding: 50px 15vw;
 		.posts {
+			display: flex;
+			gap: 5vh;
+			
 			.post {
 				display: flex;
 				align-items: top;
 				justify-content: space-between;
 				&-image img {
 					aspect-ratio: 1 / 1;
-					width: 100px;
+					width: 20vw;
 				}
 			}
 		}

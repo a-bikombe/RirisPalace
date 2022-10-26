@@ -1,6 +1,10 @@
 body main {
   padding: 50px 15vw;
 }
+body main .posts {
+  display: flex;
+  gap: 5vh;
+}
 body main .posts .post {
   display: flex;
   align-items: top;
@@ -8,5 +12,5 @@ body main .posts .post {
 }
 body main .posts .post-image img {
   aspect-ratio: 1/1;
-  width: 100px;
+  width: 20vw;
 }/*# sourceMappingURL=marvel.css.map */
