@@ -10,7 +10,7 @@ body main .posts {
 }
 body main .posts#static-posts {
   border: 1px dashed var(--clr-gray-40);
-  padding: 5px;
+  padding: 15px;
 }
 body main .posts .post {
   align-items: center;
@@ -19,9 +19,10 @@ body main .posts .post {
   border-radius: 10px;
   gap: 3vw;
   justify-content: space-between;
-  padding: 10px;
+  padding: 15px;
 }
 body main .posts .post-image img {
   aspect-ratio: 1/1;
+  border: 1px solid var(--clr-gray-40);
   width: 20vw;
 }/*# sourceMappingURL=marvel.css.map */
