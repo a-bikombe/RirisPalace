@@ -3,6 +3,7 @@ body main {
 }
 body main .posts {
   gap: 5vh;
+  margin-top: 5vh;
 }
 body main .posts .post {
   align-items: top;
