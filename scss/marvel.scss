@@ -1,5 +1,18 @@
 body {
 	main {
 		padding: 50px 15vw;
+		.posts {
+			.post {
+				display: flex;
+				align-items: top;
+				justify-content: space-between;
+				&-image {
+					aspect-ratio: 1 / 1;
+					width: 100px;
+				}
+			}
+		}
+
+		
 	}
 }
