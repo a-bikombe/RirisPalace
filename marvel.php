@@ -47,7 +47,7 @@ $scripts = [
             <?php foreach ($staticPosts as $postId => $post) : ?>
                 <section class="post dir-col" aria-labelledby="<?= $postId ?>">
                     <div class="post-image">
-                        <img src="<?= $post['image'] ?>" alt="<?= $popoststContent['title'] ?>">
+                        <img src="<?= $post['image'] ?>" alt="<?= $post['title'] ?>">
                     </div>
                     <div class="post-text">
                         <h2 id="<?= $postId ?>"><?= $post['title'] ?></h2>
@@ -59,14 +59,14 @@ $scripts = [
 
         <section class="posts" aria-label="Dynamic Posts">
             <!-- Monthly Hero Spotlight -->
-            <?php foreach ($dynamicPosts as $postId => $postContent) : ?>
+            <?php foreach ($dynamicPosts as $postId => $post) : ?>
                 <section class="post dir-col" aria-labelledby="<?= $postId ?>">
                     <div class="post-image">
-                        <img src="<?= $postContent['image'] ?>" alt="<?= $postContent['title'] ?>">
+                        <img src="<?= $post['image'] ?>" alt="<?= $post['title'] ?>">
                     </div>
                     <div class="post-text">
-                        <h2 id="<?= $postId ?>"><?= $postContent['title'] ?></h2>
-                        <p><?= $postContent['text'] ?></p>
+                        <h2 id="<?= $postId ?>"><?= $post['title'] ?></h2>
+                        <p><?= $post['text'] ?></p>
                     </div>
                 </section>
             <?php endforeach; ?>
