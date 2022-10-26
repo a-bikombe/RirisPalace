@@ -7,10 +7,17 @@ body {
 			gap: 5vh;
 			margin-top: 5vh;
 
+			&#static-posts {
+				outline: 1px dashed var(--clr-gray-40);
+				padding: 5px;
+			}
+
 			.post {
 				align-items: center;
+				border: 1px solid var(--clr-gray-80);
 				gap: 3vw;
 				justify-content: space-between;
+				padding: 5px;
 
 				&-image img {
 					aspect-ratio: 1 / 1;
