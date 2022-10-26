@@ -6,7 +6,9 @@ $headerTitle = 'Your Friendly Neighborhood Pitstop for Superheroes!';
 
 $iconPath = 'images/icons/spiderman.jpeg';
 
-$styles = [];
+$styles = [
+    'marvel'
+];
 
 $mobileStyles = [
     'main' => '600'
