@@ -60,7 +60,7 @@ $scripts = [
         <section class="posts flex dir-col" aria-label="Dynamic Posts">
             <!-- Monthly Hero Spotlight -->
             <?php foreach ($dynamicPosts as $postId => $post) : ?>
-                <section class="post dir-row" aria-labelledby="<?= $postId ?>">
+                <section class="post flex dir-row" aria-labelledby="<?= $postId ?>">
                     <div class="post-image">
                         <img src="<?= $post['image'] ?>" alt="<?= $post['title'] ?>">
                     </div>
