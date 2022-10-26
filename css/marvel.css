@@ -6,7 +6,7 @@ body main .posts .post {
   align-items: top;
   justify-content: space-between;
 }
-body main .posts .post-image {
+body main .posts .post-image image {
   aspect-ratio: 1/1;
   width: 100px;
 }/*# sourceMappingURL=marvel.css.map */
