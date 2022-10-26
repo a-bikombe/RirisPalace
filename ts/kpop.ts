@@ -1,12 +1,14 @@
-const groups = document?.querySelectorAll(".group");
-const modalButtons = document?.querySelectorAll('[data-bs-toggle="modal"]');
-function lazyloadModalImages() {
+const groups: NodeListOf<Element> = document?.querySelectorAll(".group");
+const modalButtons: NodeListOf<Element> = document?.querySelectorAll('[data-bs-toggle="modal"]');
+
+function lazyloadModalImages(): void {
     modalButtons.forEach((modalButton) => {
         modalButton.addEventListener("click", (e) => {
             let modal = modalButton?.nextElementSibling;
             if (modal !== null) {
                 let modalImage = modal?.querySelector(".modal-img");
                 let dataSrc = modalImage?.getAttribute("data-src");
+
                 if (modalImage !== null && dataSrc !== null && dataSrc !== undefined) {
                     modalImage.setAttribute("src", dataSrc);
                     modalImage.removeAttribute("data-src");
@@ -15,7 +17,9 @@ function lazyloadModalImages() {
         });
     });
 }
+
 lazyloadModalImages();
+
 /* TODO: modal does not open when you can hide group info */
 /* function toggleGroupInfo() {
 
@@ -32,6 +36,7 @@ lazyloadModalImages();
     });
 
 } toggleGroupInfo(); */
+
 /* TODO: kpop search bar for groups! */
 /* function searchBarKpop() {
 
@@ -43,6 +48,7 @@ lazyloadModalImages();
     });
 
 } searchBarKpop(); */
+
 /* TODO: group reordering! */
 /* function reorderGroups() {
 

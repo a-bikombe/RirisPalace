@@ -1,15 +1,17 @@
 // sourced from https://css-tricks.com/the-complete-guide-to-lazy-loading-images/
-function lazyloadCarousels() {
+function lazyloadCarousels(): void {
     document.addEventListener("DOMContentLoaded", () => {
-        const lazyloadImages = document.querySelectorAll("img[data-src]");
-        let lazyloadThrottleTimeout;
+        const lazyloadImages = <NodeListOf<HTMLInputElement>>document.querySelectorAll("img[data-src]");
+        let lazyloadThrottleTimeout: any;
+
         function lazyload() {
             if (lazyloadThrottleTimeout) {
                 clearTimeout(lazyloadThrottleTimeout);
             }
+
             lazyloadThrottleTimeout = setTimeout(() => {
                 var scrollTop = window.pageYOffset;
-                lazyloadImages.forEach(function (img) {
+                lazyloadImages.forEach(function (img): void {
                     if (img.offsetTop < window.innerHeight + scrollTop) {
                         if (img.dataset.src !== undefined) {
                             img.src = img.dataset.src;
@@ -23,14 +25,17 @@ function lazyloadCarousels() {
                 }
             }, 20);
         }
+
         window.addEventListener("load", lazyload);
         document.addEventListener("scroll", lazyload);
         window.addEventListener("resize", lazyload);
         window.addEventListener("orientationChange", lazyload);
     });
 }
+
 lazyloadCarousels();
-/*
+
+/* 
 const s4Vol1 = new Date(2022, 04, 27);
 const s4Vol2 = new Date(2022, 06, 01, 03);
 const currentDate = new Date();
@@ -62,7 +67,11 @@ function s4Vol2Countdown() {
 }
 
  */
-/*
+
+
+
+/* 
 s4Vol1Countdown();
 s4Vol2Countdown();
  */
+
