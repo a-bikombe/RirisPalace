@@ -30,12 +30,12 @@ $dynamicPosts = [
 	"first-post" => [
 		"title" => "First Post",
 		"image" => "https://play-lh.googleusercontent.com/IeNJWoKYx1waOhfWF6TiuSiWBLfqLb18lmZYXSgsH1fvb8v1IYiZr5aYWe0Gxu-pVZX3",
-		"text" => "Peter Parker, aka Spider-Man. A god among men. A ray of sunshine in a bleak world. I could say so much about him. I'm extremely excited for the release of Spider-Man: Across The Spider-Verse next June. Peter Parker, aka Spider-Man. A god among men. A ray of sunshine in a bleak world. I could say so much about him. I'm extremely excited for the release of Spider-Man: Across The Spider-Verse next June."
+		"text" => "Peter Parker, aka Spider-Man. A god among men. A ray of sunshine in a bleak world. I could say so much about him. I'm extremely excited for the release of Spider-Man: Across The Spider-Verse next June. Peter Parker, aka Spider-Man. A god among men. A ray of sunshine in a bleak world. I could say so much about him. I'm extremely excited for the release of Spider-Man: Across The Spider-Verse next June. Peter Parker, aka Spider-Man. A god among men. A ray of sunshine in a bleak world. I could say so much about him. I'm extremely excited for the release of Spider-Man: Across The Spider-Verse next June."
 	],
 	"second-post" => [
 		"title" => "Second Post",
 		"image" => "https://play-lh.googleusercontent.com/IeNJWoKYx1waOhfWF6TiuSiWBLfqLb18lmZYXSgsH1fvb8v1IYiZr5aYWe0Gxu-pVZX3",
-		"text" => "Peter Parker, aka Spider-Man. A god among men. A ray of sunshine in a bleak world. I could say so much about him. I'm extremely excited for the release of Spider-Man: Across The Spider-Verse next June. Peter Parker, aka Spider-Man. A god among men. A ray of sunshine in a bleak world. I could say so much about him. I'm extremely excited for the release of Spider-Man: Across The Spider-Verse next June."
+		"text" => "Peter Parker, aka Spider-Man. A god among men. A ray of sunshine in a bleak world. I could say so much about him. I'm extremely excited for the release of Spider-Man: Across The Spider-Verse next June. Peter Parker, aka Spider-Man. A god among men. A ray of sunshine in a bleak world. I could say so much about him. I'm extremely excited for the release of Spider-Man: Across The Spider-Verse next June. Peter Parker, aka Spider-Man. A god among men. A ray of sunshine in a bleak world. I could say so much about him. I'm extremely excited for the release of Spider-Man: Across The Spider-Verse next June."
 	]
 ];
 
