@@ -24,5 +24,7 @@ body main .posts .post {
 body main .posts .post-image img {
   aspect-ratio: 1/1;
   border: 1px solid var(--clr-gray-40);
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 20vw;
 }/*# sourceMappingURL=marvel.css.map */
