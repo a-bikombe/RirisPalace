@@ -32,4 +32,7 @@ body main .posts .post-image img {
   -o-object-fit: cover;
      object-fit: cover;
   width: 20vw;
+}
+body main .posts .post-text {
+  padding-inline: calc(var(--spacing) * 2);
 }/*# sourceMappingURL=marvel.css.map */

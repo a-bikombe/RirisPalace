@@ -33,6 +33,10 @@ body {
 					object-fit: cover;
 					width: 20vw;
 				}
+
+				&-text {
+					padding-inline: calc(var(--spacing) * 2);
+				}
 			}
 
 		}
