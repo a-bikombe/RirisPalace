@@ -1,3 +1,7 @@
+:root {
+  --spacing: 15px;
+}
+
 body {
   background-color: var(--clr-red);
 }
@@ -10,16 +14,16 @@ body main .posts {
 }
 body main .posts#static-posts {
   border: 1px dashed var(--clr-gray-40);
-  padding: 15px;
+  padding: var(--spacing);
 }
 body main .posts .post {
   align-items: center;
   background-color: var(--clr-blue-light);
   border: 1px solid var(--clr-gray-10);
   border-radius: 10px;
-  gap: 3vw;
+  gap: var(--spacing);
   justify-content: space-between;
-  padding: 15px;
+  padding: var(--spacing);
 }
 body main .posts .post-image img {
   aspect-ratio: 1/1;
