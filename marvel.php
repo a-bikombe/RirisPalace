@@ -42,8 +42,8 @@ $scripts = [
         </section>
 
         <!-- Static Posts -->
-        <section class="posts flex dir-col" id="static-posts" aria-label="Static Posts">
-            <?php foreach ($staticPosts as $postId => $post) : ?>
+        <section class="posts flex dir-col" id="spotlights" aria-label="Static Posts">
+            <?php foreach ($spotlights as $postId => $post) : ?>
                 <section class="post flex dir-row" aria-labelledby="<?= $postId ?>">
                     <div class="post-image">
                         <img src="<?= $post['image'] ?>" alt="<?= $post['title'] ?>">
@@ -58,7 +58,7 @@ $scripts = [
 
         <!-- Dynamic Posts -->
         <section class="posts flex dir-col"  id="dynamic-posts" aria-label="Dynamic Posts">
-            <?php foreach ($dynamicPosts as $postId => $post) : ?>
+            <?php foreach ($posts as $postId => $post) : ?>
                 <section class="post flex dir-row" aria-labelledby="<?= $postId ?>">
                     <div class="post-image">
                         <img src="<?= $post['image'] ?>" alt="<?= $post['title'] ?>">
