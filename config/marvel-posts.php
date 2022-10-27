@@ -30,12 +30,12 @@ $dynamicPosts = [
 	"first-post" => [
 		"title" => "First Post",
 		"image" => "https://play-lh.googleusercontent.com/IeNJWoKYx1waOhfWF6TiuSiWBLfqLb18lmZYXSgsH1fvb8v1IYiZr5aYWe0Gxu-pVZX3",
-		"text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		"text" => "Peter Parker, aka Spider-Man. A god among men. A ray of sunshine in a bleak world. I could say so much about him. I'm extremely excited for the release of Spider-Man: Across The Spider-Verse next June. Peter Parker, aka Spider-Man. A god among men. A ray of sunshine in a bleak world. I could say so much about him. I'm extremely excited for the release of Spider-Man: Across The Spider-Verse next June."
 	],
 	"second-post" => [
 		"title" => "Second Post",
 		"image" => "https://play-lh.googleusercontent.com/IeNJWoKYx1waOhfWF6TiuSiWBLfqLb18lmZYXSgsH1fvb8v1IYiZr5aYWe0Gxu-pVZX3",
-		"text" => "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+		"text" => "Peter Parker, aka Spider-Man. A god among men. A ray of sunshine in a bleak world. I could say so much about him. I'm extremely excited for the release of Spider-Man: Across The Spider-Verse next June. Peter Parker, aka Spider-Man. A god among men. A ray of sunshine in a bleak world. I could say so much about him. I'm extremely excited for the release of Spider-Man: Across The Spider-Verse next June."
 	]
 ];
 
