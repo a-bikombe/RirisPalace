@@ -31,7 +31,7 @@ body main .posts .post-image img {
   border-radius: 5px;
   -o-object-fit: cover;
      object-fit: cover;
-  width: 20vw;
+  width: 15vw;
 }
 body main .posts .post-text {
   padding-inline: calc(var(--spacing) * 2);
