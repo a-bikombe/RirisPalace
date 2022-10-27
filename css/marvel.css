@@ -12,7 +12,7 @@ body main .posts {
   gap: 5vh;
   margin-top: 5vh;
 }
-body main .posts#static-posts {
+body main .posts#spotlights {
   border: 1px dashed var(--clr-gray-40);
   padding: var(--spacing);
 }
