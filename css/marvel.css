@@ -31,8 +31,7 @@ body main .posts .post-image-src {
   border-radius: 5px;
   -o-object-fit: cover;
      object-fit: cover;
-  height: 100%;
-  width: auto;
+  width: 15vw;
 }
 body main .posts .post-text {
   padding-inline: calc(var(--spacing) * 2);
