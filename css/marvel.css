@@ -31,7 +31,7 @@ body main .posts .post-image-src {
   border-radius: 5px;
   -o-object-fit: cover;
      object-fit: cover;
-  height: clamp(30px, 100%, 100px);
+  height: 100%;
   width: auto;
 }
 body main .posts .post-text {
