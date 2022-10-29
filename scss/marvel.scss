@@ -31,7 +31,8 @@ body {
 					border: 1px solid var(--clr-gray-40);
 					border-radius: 5px;
 					object-fit: cover;
-					width: 15vw;
+					height: 15vw;
+					width: auto;
 				}
 
 				&-text {

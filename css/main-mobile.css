@@ -66,6 +66,7 @@ body#stranger-things main #episodes .season .episode .episode-main .quotes {
 }
 body#marvel main .posts .post-image-src {
   width: 100%;
+  height: auto;
 }
 body footer {
   bottom: 1.5rem;
