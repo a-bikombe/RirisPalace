@@ -46,7 +46,7 @@ $scripts = [
             <?php foreach ($spotlights as $postId => $post) : ?>
                 <section class="post flex dir-change" aria-labelledby="<?= $postId ?>">
                     <div class="post-image">
-                        <img class="post-image-origin" src="<?= $post['image'] ?>" alt="<?= $post['title'] ?>">
+                        <img class="post-image-src" src="<?= $post['image'] ?>" alt="<?= $post['title'] ?>">
                     </div>
                     <div class="post-text">
                         <h2 id="<?= $postId ?>"><?= $post['title'] ?></h2>
@@ -61,7 +61,7 @@ $scripts = [
             <?php foreach ($posts as $postId => $post) : ?>
                 <section class="post flex dir-change" aria-labelledby="<?= $postId ?>">
                     <div class="post-image">
-                        <img class="post-image-origin" src="<?= $post['image'] ?>" alt="<?= $post['title'] ?>">
+                        <img class="post-image-src" src="<?= $post['image'] ?>" alt="<?= $post['title'] ?>">
                     </div>
                     <div class="post-text">
                         <h2 id="<?= $postId ?>"><?= $post['title'] ?></h2>
