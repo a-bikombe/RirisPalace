@@ -25,7 +25,7 @@ body main .posts .post {
   justify-content: space-between;
   padding: var(--spacing);
 }
-body main .posts .post-image img {
+body main .posts .post-image-src {
   aspect-ratio: 1/1;
   border: 1px solid var(--clr-gray-40);
   border-radius: 5px;

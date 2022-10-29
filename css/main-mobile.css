@@ -64,6 +64,9 @@ body#stranger-things main #episodes .season .episode .episode-main .thoughts,
 body#stranger-things main #episodes .season .episode .episode-main .quotes {
   width: 100%;
 }
+body#marvel main .posts .post-image-src {
+  width: 100%;
+}
 body footer {
   bottom: 1.5rem;
 }/*# sourceMappingURL=main-mobile.css.map */
