@@ -11,7 +11,7 @@ $styles = [
 ];
 
 $mobileStyles = [
-    'main' => '600'
+    'main' => '730'
 ];
 
 $scripts = [
