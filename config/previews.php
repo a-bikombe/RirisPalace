@@ -19,6 +19,11 @@ $boys = [
 		'image' => $groups['active']['groups']['nctdream']['members']['Jisung']['image'],
 		'description' => "Jisung is my bias in my ult K-Pop group, NCT Dream.I like him so much because of his deep voice and his talent for dancing.",
 		'link' => 'kpop.php#nctdream'
+	],
+	'Sam Kiszka' => [
+		'image' => 'https://i.pinimg.com/564x/f4/7c/10/f47c108b4e5e76536e30d558ee73fa44.jpg',
+		'description' => 'Oh my goodness. Oh, sweet heavens.',
+		'link' => 'index.php'
 	]
 ];
 
