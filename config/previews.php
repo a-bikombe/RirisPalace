@@ -47,7 +47,7 @@ $previews = [
 	'news' => [
 		'header' => 'News',
 		'image' => '',
-		'text' => $newsPosts[-1],
+		'text' => end($newsPosts),
 		'link' => ''
 	]
 ];
