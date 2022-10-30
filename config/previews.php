@@ -22,9 +22,13 @@ $boys = [
 	],
 	'Sam Kiszka' => [
 		'image' => 'https://i.pinimg.com/564x/f4/7c/10/f47c108b4e5e76536e30d558ee73fa44.jpg',
-		'description' => 'Oh my goodness. Oh, sweet heavens.',
+		'description' => "Oh my goodness. Oh, sweet heavens. Have you SEEN him? AND he plays bass and piano, AND is still like a nice person. Personally, if I was that attractive I would make it everyone else",
 		'link' => 'index.php'
 	]
+];
+
+$newsPosts = [
+	"Greta Van Fleet is new in my life. Their music is really good."
 ];
 
 $previews = [
@@ -43,11 +47,7 @@ $previews = [
 	'news' => [
 		'header' => 'News',
 		'image' => '',
-		'text' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-		et dolore magna aliqua. Eget sit amet tellus cras adipiscing. Ut tortor pretium viverra suspendisse.
-		Dictum varius duis at consectetur lorem donec massa sapien faucibus. Tristique sollicitudin nibh sit
-		amet commodo. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Cursus metus
-		aliquam eleifend mi in nulla posuere sollicitudin aliquam. Morbi tristique senectus et netus.',
+		'text' => $newsPosts[-1],
 		'link' => ''
 	]
 ];
@@ -57,7 +57,7 @@ $boys template
 
 'Huening Kai' => [
 	'image' => '',
-	'description' => '',
+	'description' => "",
 	'link' => ''
 ]
 */
