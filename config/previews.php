@@ -2,9 +2,9 @@
 require_once 'arianna.php';    // about.php arrays
 require_once 'kpop-groups.php';    // kpop.php arrays
 
-$boy = 'Sam Kiszka';
+$celebrity = 'Sam Kiszka';
 
-$boys = [
+$celebrities = [
 	'Finn Wolfhard' => [
 		'image' => 'images/boys/finn/b-w.jpeg',
 		'description' => "<strong>What else is new?</strong> I have watched every piece of content in his filmography <em>and</em> discography, and I take full pride in that.",
@@ -17,7 +17,7 @@ $boys = [
 	],
 	'Park Jisung' => [
 		'image' => $groups['active']['groups']['nctdream']['members']['Jisung']['image'],
-		'description' => "Jisung is my bias in my ult K-Pop group, NCT Dream.I like him so much because of his deep voice and his talent for dancing.",
+		'description' => "Jisung is my bias in NCT Dream. I like him so much because of his deep voice and his talent for dancing.",
 		'link' => 'kpop.php#nctdream'
 	],
 	'Sam Kiszka' => [
@@ -27,9 +27,11 @@ $boys = [
 	]
 ];
 
-$newsPosts = [
-	"Greta Van Fleet is new in my life. Their music is really good."
+$newsArticles = [
+	"October 29, 2022: Greta Van Fleet is new in my life. Their music is really good. They're also all unreasonably attractive, which is a plus, but I digress."
 ];
+
+/* ******************************************** Layout ************************************************ */
 
 $previews = [
 	'about-me' => [
@@ -38,22 +40,22 @@ $previews = [
 		'text' => $bio,
 		'link' => 'about.php'
 	],
-	'boy-of-the-week' => [
+	'celebrity-of-the-week' => [
 		'header' => 'Celebrity Of The Week',
-		'image' => $boys[$boy]['image'],
-		'text' => $boys[$boy]['description'],
-		'link' => $boys[$boy]['link']
+		'image' => $celebrities[$celebrity]['image'],
+		'text' => $celebrities[$celebrity]['description'],
+		'link' => $celebrities[$celebrity]['link']
 	],
 	'news' => [
 		'header' => 'News',
 		'image' => '',
-		'text' => end($newsPosts),
+		'text' => end($newsArticles),
 		'link' => ''
 	]
 ];
 
 /* 
-$boys template
+$celebrities template
 
 'Huening Kai' => [
 	'image' => '',

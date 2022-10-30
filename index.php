@@ -4,7 +4,7 @@ require_once 'config/session.php';
 require_once 'config/previews.php';
 
 $pageTitle = 'Home';
-$constructionNotice = 'Under Construction!';
+$currentMonth = 'October 2022';
 
 $iconPath = 'images/icons/luca.png';
 
@@ -24,7 +24,7 @@ $pageNav = [
 	'about-me' => [
 		'heading' => 'Welcome!'
 	],
-	'boy-of-the-week' => [
+	'celebrity-of-the-week' => [
 		'heading' => 'Celebrity Of The Week'
 	],
 	'news' => [
@@ -45,7 +45,7 @@ $pageNav = [
 	<main>
 		<header class="homepage-header p-1vw text-center border-10px">
 			<h1>AriBikombe</h1>
-			<p class="subtitle bold"><?= $constructionNotice ?></p>
+			<p class="subtitle bold"><?= $currentMonth ?></p>
 		</header>
 		<?php foreach ($previews as $previewId => $preview) : ?>
 			<section class="preview flex-align dir-change" id="<?= $previewId ?>" aria-label="<?= $preview['header'] ?>">
@@ -53,8 +53,8 @@ $pageNav = [
 				<?php if (!empty($preview['image'])) : ?>
 					<figure>
 						<img src="<?= $preview['image'] ?>" class="preview-image border-5px" id="<?= $previewId ?>-img">
-						<?php if ($previewId === 'boy-of-the-week') : ?>
-							<figcaption class="text-center bold pt-1vw"><?= $boy ?></figcaption>
+						<?php if ($previewId === 'celebrity-of-the-week') : ?>
+							<figcaption class="text-center bold pt-1vw"><?= $celebrity ?></figcaption>
 						<?php endif; ?>
 					</figure>
 				<?php endif; ?>
