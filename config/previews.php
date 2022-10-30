@@ -2,7 +2,7 @@
 require_once 'arianna.php';    // about.php arrays
 require_once 'kpop-groups.php';    // kpop.php arrays
 
-$boy = 'Finn Wolfhard';
+$boy = 'Sam Kiszka';
 
 $boys = [
 	'Finn Wolfhard' => [
