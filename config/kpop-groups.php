@@ -122,7 +122,6 @@ $groups = [
 						]
 					]
 				],
-				'playlist' => '6c7D0tp051BqOqdDTkvFFc',
 				'content' => [
 					'series' => '',
 					'short' => '',
@@ -225,7 +224,6 @@ $groups = [
 						]
 					]
 				],
-				'playlist' => '0CzALT0FsH7FOLHp6PytaR',
 				'content' => [
 					'series' => '',
 					'short' => '',
@@ -296,7 +294,6 @@ $groups = [
 						]
 					]
 				],
-				'playlist' => '3s8cKgbZSgjcAohFiFbK6D',
 				'content' => [
 					'series' => '<a href="https://www.youtube.com/playlist?list=PLMQ4WMltba-EXWrjvNC18Oj4YEGfZKXkO" target="_blank">En-O\'Clock</a>',
 					'short' => '<a href="https://youtube.com/playlist?list=PLMQ4WMltba-GtZ_GpsWa3c_wybmZ9-3oq" target="_blank">En-ter Key</a>',
@@ -308,50 +305,81 @@ $groups = [
 			"younite" => [
 				'name' => "Younite",
 				'debut' => '2022',
-				'groupImage' => 'https://www.nme.com/wp-content/uploads/2022/03/red-velvet-feel-my-rhythm-the-reve-festival-music-video-20220318.jpg',
+				'groupImage' => 'https://www.cheatsheet.com/wp-content/uploads/2022/05/YOUNITE.jpeg?w=1200&h=800',
 				'members' => [ // list all members
-					'Irene' => [
-						'image' => 'https://getworldwideupdates.com/wp-content/uploads/2021/07/Irene-Red-Velvet-50-facts-you-should-know-about-Red-Velvet-Irene.jpg',
-						'birthday' => '3/29/1991',
+					'Kyungmun' => [
+						'image' => 'https://kprofiles.com/wp-content/uploads/2020/12/IMG_2564-534x800.jpg',
+						'birthday' => '6/29/2003',
 						'notes' => [
 							'',
 							''
 						]
 					],
-					'Wendy' => [
-						'image' => 'https://i.pinimg.com/736x/43/fc/5d/43fc5d399cdb3e196559220ea4a1ba0d.jpg',
-						'birthday' => '2/10/1994',
+					'Eunsang' => [
+						'image' => 'https://www.allkpop.com/upload/2022/02/content/142228/1644895715-flieep-auaecwqu.jpeg',
+						'birthday' => '10/26/2002',
+						'notes' => [
+							'Pinky',
+							''
+						]
+					],
+					'Eunho' => [
+						'image' => 'https://kpopping.com/documents/1b/0/220512-Younite-Twitter-Update-Eunho-documents-3.jpeg?v=052bb',
+						'birthday' => '3/25/2001',
 						'notes' => [
 							'',
 							''
 						]
 					],
-					'Joy' => [
-						'image' => 'https://i.pinimg.com/originals/25/fe/27/25fe273c5e4e8efe9392d30459513b13.jpg',
-						'birthday' => '9/3/1996',
+					'Sion' => [
+						'image' => 'https://kprofiles.com/wp-content/uploads/2020/12/IMG_2568-534x800.jpg',
+						'birthday' => '10/19/2004',
 						'notes' => [
 							'',
 							''
 						]
 					],
-					'Yeri' => [
-						'image' => 'https://i.pinimg.com/originals/ea/8f/59/ea8f59d5e95787403340da72c17c61ed.jpg',
-						'birthday' => '3/5/1999',
+					'Hyunseung' => [
+						'image' => 'https://kprofiles.com/wp-content/uploads/2020/12/IMG_2567-533x800.jpg',
+						'birthday' => '10/15/2002',
 						'notes' => [
 							'',
 							''
 						]
 					],
-					'Seulgi' => [
-						'image' => 'https://i.pinimg.com/originals/7d/3b/9d/7d3b9da836ea9044474eeb5d5971bf85.jpg',
-						'birthday' => '2/10/1994',
+					'Woono' => [
+						'image' => 'https://kprofiles.com/wp-content/uploads/2020/12/IMG_2562-534x800.jpg',
+						'birthday' => '4/5/2003',
+						'notes' => [
+							'',
+							''
+						]
+					],
+					'Steve' => [
+						'image' => 'https://kprofiles.com/wp-content/uploads/2020/12/IMG_2563-533x800.jpg',
+						'birthday' => '3/9/2002',
+						'notes' => [
+							'',
+							''
+						]
+					],
+					'Hyungseok' => [
+						'image' => 'https://kprofiles.com/wp-content/uploads/2020/12/IMG_2565-534x800.jpg',
+						'birthday' => '11/6/2002',
+						'notes' => [
+							'',
+							''
+						]
+					],
+					'Dey' => [
+						'image' => 'https://kprofiles.com/wp-content/uploads/2020/12/IMG_2569-534x800.jpg',
+						'birthday' => '6/11/2003',
 						'notes' => [
 							'',
 							''
 						]
 					]
 				],
-				'playlist' => '2SeRAZDvNjdenPEBEm4cn3',
 				'content' => [
 					'series' => '',
 					'short' => '',
