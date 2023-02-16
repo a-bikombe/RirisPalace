@@ -1212,52 +1212,75 @@ $groups = [
 		'name' => 'Learning Currently',
 		'groups' => [
 			"8turn" => [
-				'name' => "Younite",
-				'debut' => '2022',
-				'groupImage' => 'https://www.nme.com/wp-content/uploads/2022/03/red-velvet-feel-my-rhythm-the-reve-festival-music-video-20220318.jpg',
+				'name' => "8Turn",
+				'debut' => '2023',
+				'groupImage' => 'https://i.redd.it/8turn-debut-mini-album-8turnrise-concept-photos-group-v0-qwfy9by3fdca1.jpg?width=2147&format=pjpg&auto=webp&s=a6f2371f3317033881d9d51726633b130228bbf8',
 				'members' => [ // list all members
-					'Irene' => [
-						'image' => 'https://getworldwideupdates.com/wp-content/uploads/2021/07/Irene-Red-Velvet-50-facts-you-should-know-about-Red-Velvet-Irene.jpg',
-						'birthday' => '3/29/1991',
+					'Haemin' => [
+						'image' => 'https://kpopping.com/documents/b6/4/Haemin-fullBodyPicture.webp?v=cdb46',
+						'birthday' => '3/16/2004',
 						'notes' => [
 							'',
 							''
 						]
 					],
-					'Wendy' => [
-						'image' => 'https://i.pinimg.com/736x/43/fc/5d/43fc5d399cdb3e196559220ea4a1ba0d.jpg',
-						'birthday' => '2/10/1994',
+					'Kyungmin' => [
+						'image' => 'https://kpopping.com/documents/4f/4/221127-8TURN-Kyungmin-Twitter-Update-documents-1.jpeg?v=e29c8',
+						'birthday' => '10/28/2004',
 						'notes' => [
 							'',
 							''
 						]
 					],
-					'Joy' => [
-						'image' => 'https://i.pinimg.com/originals/25/fe/27/25fe273c5e4e8efe9392d30459513b13.jpg',
-						'birthday' => '9/3/1996',
+					'Minho' => [
+						'image' => 'https://kprofiles.com/wp-content/uploads/2022/10/FmVis3XaYAI0PT8-534x800.jpeg',
+						'birthday' => '10/14/2002',
 						'notes' => [
 							'',
 							''
 						]
 					],
-					'Yeri' => [
-						'image' => 'https://i.pinimg.com/originals/ea/8f/59/ea8f59d5e95787403340da72c17c61ed.jpg',
-						'birthday' => '3/5/1999',
+					'Yungyu' => [
+						'image' => 'https://kprofiles.com/wp-content/uploads/2022/10/FmWkQ_oaEAIBQYA-534x800.jpeg',
+						'birthday' => '9/7/2005',
 						'notes' => [
 							'',
 							''
 						]
 					],
-					'Seulgi' => [
-						'image' => 'https://i.pinimg.com/originals/7d/3b/9d/7d3b9da836ea9044474eeb5d5971bf85.jpg',
-						'birthday' => '2/10/1994',
+					'Seungheon' => [
+						'image' => 'https://kprofiles.com/wp-content/uploads/2022/10/FmWkdM_agAAVFxg-900x600.jpeg',
+						'birthday' => '5/15/2007',
+						'notes' => [
+							'',
+							''
+						]
+					],
+					'Myungho' => [
+						'image' => 'https://kprofiles.com/wp-content/uploads/2022/10/FmPmzQHagAELEF2-534x800.jpeg',
+						'birthday' => '10/12/2001',
+						'notes' => [
+							'',
+							''
+						]
+					],
+					'Jaeyun' => [
+						'image' => 'https://kprofiles.com/wp-content/uploads/2022/10/FmPnGBIaUAAjvV7-534x800.jpeg',
+						'birthday' => '7/2/2002',
+						'notes' => [
+							'',
+							''
+						]
+					],
+					'Yoonsung' => [
+						'image' => 'https://kprofiles.com/wp-content/uploads/2022/10/FmVi7pcaYAAQy5B-900x600.jpeg',
+						'birthday' => '11/13/2003',
 						'notes' => [
 							'',
 							''
 						]
 					]
 				],
-				'playlist' => '2SeRAZDvNjdenPEBEm4cn3',
 				'content' => [
 					'series' => '',
 					'short' => '',
