@@ -466,12 +466,7 @@ $groups = [
 					'vlogs' => '<a href="https://www.youtube.com/playlist?list=PL2HLJ87twWI2LtBbGVL-JAB6NCtv8EBx-" target="_blank">SKZ vlog</a>',
 					'notes' => ''
 				]
-			]
-		]
-	],
-	'passive' => [
-		'name' => 'Passively Stanning',
-		'groups' => [
+			],
 			"svt" => [
 				'name' => "Seventeen",
 				'debut' => '2015',
@@ -591,6 +586,11 @@ $groups = [
 					'notes' => ''
 				]
 			],
+		]
+	],
+	'passive' => [
+		'name' => 'Passively Stanning',
+		'groups' => [
 			"astro" => [
 				'name' => "Astro",
 				'debut' => '2016',
