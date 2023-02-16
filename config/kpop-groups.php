@@ -19,19 +19,19 @@ $groups = [
 							''
 						]
 					],
-					'Taehyun' => [
-						'image' => 'https://static.wikia.nocookie.net/0b7f6e4c-471d-41c1-9f33-c09678ffdbcd',
-						'birthday' => '2/5/2002',
-						'notes' => [
-							'',
-							''
-						]
-					],
 					'Yeonjun' => [
 						'image' => 'https://lh3.googleusercontent.com/WZI1AzYqHWVbaTUR7IzpASrggkQk7uRk6uitrZTxCicfEal14L2x73WgYhLY83-lnZWIg0Opvkvgv2pkPRaiCLLoPTBuD3Aw4dtOU5W9NoGQD612=w960-rj-nu-e365',
 						'birthday' => '9/13/1999',
 						'notes' => [
 							'jjun',
+							''
+						]
+					],
+					'Taehyun' => [
+						'image' => 'https://static.wikia.nocookie.net/0b7f6e4c-471d-41c1-9f33-c09678ffdbcd',
+						'birthday' => '2/5/2002',
+						'notes' => [
+							'',
 							''
 						]
 					],
@@ -52,7 +52,6 @@ $groups = [
 						]
 					]
 				],
-				'playlist' => '4XS6VQv6vtOi11IgRn46VY',
 				'content' => [
 					'series' => 'Todo X TXT',
 					'short' => '<a href="https://youtube.com/playlist?list=PLcZxoPUYVQX2WESa6ZJ2R9zIGYKO_fPuc" target="_blank">T:Time</a>',
@@ -90,6 +89,14 @@ $groups = [
 							''
 						]
 					],
+					'Jaemin' => [
+						'image' => 'https://kpopping.com/documents/cd/1/48959(1).webp',
+						'birthday' => '8/13/2000',
+						'notes' => [
+							'',
+							''
+						]
+					],
 					'Jeno' => [
 						'image' => 'https://kstationtv.com/wp-content/uploads/2020/04/NCT-DREAM-JENO-2.jpg',
 						'birthday' => '4/23/2000',
@@ -101,14 +108,6 @@ $groups = [
 					'Haechan' => [
 						'image' => 'https://qph.fs.quoracdn.net/main-qimg-24d904505e17324975330dd1df531cc2',
 						'birthday' => '6/6/2000',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Jaemin' => [
-						'image' => 'https://kpopping.com/documents/cd/1/48959(1).webp',
-						'birthday' => '8/13/2000',
 						'notes' => [
 							'',
 							''
@@ -132,14 +131,117 @@ $groups = [
 					'notes' => ''
 				]
 			],
+			"tbz" => [
+				'name' => "The Boyz",
+				'debut' => '2017',
+				'groupImage' => 'https://www.billboard.com/wp-content/uploads/2020/04/the-boyz-Cr-Crek.ker-Entertainment-billboard-1548-1587069295.jpg',
+				'members' => [
+					'Kevin' => [
+						'image' => 'https://i.pinimg.com/originals/b9/13/20/b913206c2b63d3f5de8d2474cf494c07.jpg',
+						'birthday' => '2/23/1998',
+						'notes' => [
+							'shua',
+							''
+						]
+					],
+					'Younghoon' => [
+						'image' => 'https://lh3.googleusercontent.com/MRxTqqviJY411TTMEIvWCIobRrvl9viqNq05magmsgU54X2UZmKMwU1OSOzBrafjJDbxiUpasib7awd7HtFWU30EgcpDsgjOuQ=w960-rj-nu-e365',
+						'birthday' => '8/8/1997',
+						'notes' => [
+							'seokjin / mingyu',
+							''
+						]
+					],
+					'Eric' => [
+						'image' => 'https://www.pinkvilla.com/imageresize/eric_main.jpg?width=752&format=webp&t=pvorg',
+						'birthday' => '12/22/2000',
+						'notes' => [
+							'got7!mark, jaemin',
+							''
+						]
+					],
+					'Q' => [
+						'image' => 'https://i.pinimg.com/736x/59/93/f9/5993f9545cc5f77abb8d19f280a5feb0.jpg',
+						'birthday' => '11/5/1998',
+						'notes' => [
+							'',
+							''
+						]
+					],
+					'Hyunjae' => [
+						'image' => 'https://i.pinimg.com/originals/2a/5e/b5/2a5eb5ffb5b07d258ce09d262f940edf.jpg',
+						'birthday' => '9/13/1997',
+						'notes' => [
+							'',
+							''
+						]
+					],
+					'New' => [
+						'image' => 'https://pbs.twimg.com/media/EKoTDyuU8AExgA7?format=jpg&name=large',
+						'birthday' => '4/26/1998',
+						'notes' => [
+							'skz!felix',
+							''
+						]
+					],
+					'Jacob' => [
+						'image' => 'https://64.media.tumblr.com/9d66ec13652484c9778cc41ae5786082/c410dd73e66e6f0e-7c/s1280x1920/bf167348354c6d575f37b5d1b8acefa3c62555c6.jpg',
+						'birthday' => '5/30/1997',
+						'notes' => [
+							'',
+							''
+						]
+					],
+					'Sunwoo' => [
+						'image' => 'https://w0.peakpx.com/wallpaper/605/348/HD-wallpaper-sunwoo-kpop-sunwoo-the-boyz-the-boyz.jpg',
+						'birthday' => '4/12/2000',
+						'notes' => [
+							'cheol',
+							''
+						]
+					],
+					'Juhaknyeon' => [
+						'image' => 'https://i.pinimg.com/originals/8c/aa/d0/8caad03be5d76774447ad9ce78605007.jpg',
+						'birthday' => '3/9/1999',
+						'notes' => [
+							'haechan / seokjin',
+							''
+						]
+					],
+					'Sangyeon' => [
+						'image' => 'https://i.pinimg.com/originals/84/0e/39/840e393054405975f7806546e303b500.jpg',
+						'birthday' => '11/1996',
+						'notes' => [
+							'',
+							''
+						]
+					],
+					'Juyeon' => [
+						'image' => 'https://0.soompi.io/wp-content/uploads/2021/06/22120918/Juyeon-21.jpg',
+						'birthday' => '1/15/1998',
+						'notes' => [
+							'jaehyun / eunwoo / hoseok',
+							''
+						]
+					]
+				],
+				'playlist' => '0CzALT0FsH7FOLHp6PytaR',
+				'content' => [
+					'series' => '',
+					'short' => '',
+					'long' => '<a href="https://youtube.com/playlist?list=PLUBjqMPXJNhYNui0jIPDULul3Sfm5CpUZ" target="_blank">off the boyz</a>',
+					'vlogs' => '<a href="https://youtube.com/playlist?list=PLUBjqMPXJNhZhDEOw4oQrLLmYjQDqAvC9" target="_blank">BoyLog</a>',
+					'notes' => ''
+				]
+			],
 			"enha" => [
 				'name' => "Enhypen",
 				'debut' => '2020',
 				'groupImage' => 'http://cdn.shopify.com/s/files/1/0548/8141/9401/collections/8aef4a1bfffec83eaffb77a6fc05ee82.jpg?v=1634534673',
 				'members' => [
-					'Jungwon' => [
-						'image' => 'https://64.media.tumblr.com/5c5c7544f5fff3a77efbd966e0312cd4/406cd28a281e64dd-4c/s1280x1920/92bc43a721a41f89a2245dae43b08cd0e8698f02.jpg',
-						'birthday' => '2/8/2004',
+					'Heeseung' => [
+						'image' => 'https://i.pinimg.com/564x/9d/4e/a9/9d4ea94701add2af582908c5bb5cc848.jpg',
+						'birthday' => '10/15/2001',
 						'notes' => [
 							'',
 							''
@@ -153,9 +255,9 @@ $groups = [
 							''
 						]
 					],
-					'Heeseung' => [
-						'image' => 'https://i.pinimg.com/564x/9d/4e/a9/9d4ea94701add2af582908c5bb5cc848.jpg',
-						'birthday' => '10/15/2001',
+					'Jungwon' => [
+						'image' => 'https://64.media.tumblr.com/5c5c7544f5fff3a77efbd966e0312cd4/406cd28a281e64dd-4c/s1280x1920/92bc43a721a41f89a2245dae43b08cd0e8698f02.jpg',
+						'birthday' => '2/8/2004',
 						'notes' => [
 							'',
 							''
@@ -177,17 +279,17 @@ $groups = [
 							''
 						]
 					],
-					'Jay' => [
-						'image' => 'https://www.pinkvilla.com/imageresize/jay_enhypen_main_image.jpg?width=752&format=webp&t=pvorg',
-						'birthday' => '4/20/2002',
+					'Sunghoon' => [
+						'image' => 'https://i.pinimg.com/originals/98/32/b7/9832b70dfafea3abe487d9eced62990c.jpg',
+						'birthday' => '12/8/2002',
 						'notes' => [
 							'',
 							''
 						]
 					],
-					'Sunghoon' => [
-						'image' => 'https://i.pinimg.com/originals/98/32/b7/9832b70dfafea3abe487d9eced62990c.jpg',
-						'birthday' => '12/8/2002',
+					'Jay' => [
+						'image' => 'https://www.pinkvilla.com/imageresize/jay_enhypen_main_image.jpg?width=752&format=webp&t=pvorg',
+						'birthday' => '4/20/2002',
 						'notes' => [
 							'',
 							''
@@ -201,6 +303,61 @@ $groups = [
 					'long' => 'Episode',
 					'vlogs' => '<a href="https://youtube.com/playlist?list=PLMQ4WMltba-F67iE1rTXm58n5mnFWqSir" target="_blank">En:Log</a>',
 					'notes' => '<a href="https://youtube.com/playlist?list=PLMQ4WMltba-Erb1lLXpUbc5VVslavAZsi" target="_blank">En-Note</a>'
+				]
+			],
+			"younite" => [
+				'name' => "Younite",
+				'debut' => '2022',
+				'groupImage' => 'https://www.nme.com/wp-content/uploads/2022/03/red-velvet-feel-my-rhythm-the-reve-festival-music-video-20220318.jpg',
+				'members' => [ // list all members
+					'Irene' => [
+						'image' => 'https://getworldwideupdates.com/wp-content/uploads/2021/07/Irene-Red-Velvet-50-facts-you-should-know-about-Red-Velvet-Irene.jpg',
+						'birthday' => '3/29/1991',
+						'notes' => [
+							'',
+							''
+						]
+					],
+					'Wendy' => [
+						'image' => 'https://i.pinimg.com/736x/43/fc/5d/43fc5d399cdb3e196559220ea4a1ba0d.jpg',
+						'birthday' => '2/10/1994',
+						'notes' => [
+							'',
+							''
+						]
+					],
+					'Joy' => [
+						'image' => 'https://i.pinimg.com/originals/25/fe/27/25fe273c5e4e8efe9392d30459513b13.jpg',
+						'birthday' => '9/3/1996',
+						'notes' => [
+							'',
+							''
+						]
+					],
+					'Yeri' => [
+						'image' => 'https://i.pinimg.com/originals/ea/8f/59/ea8f59d5e95787403340da72c17c61ed.jpg',
+						'birthday' => '3/5/1999',
+						'notes' => [
+							'',
+							''
+						]
+					],
+					'Seulgi' => [
+						'image' => 'https://i.pinimg.com/originals/7d/3b/9d/7d3b9da836ea9044474eeb5d5971bf85.jpg',
+						'birthday' => '2/10/1994',
+						'notes' => [
+							'',
+							''
+						]
+					]
+				],
+				'playlist' => '2SeRAZDvNjdenPEBEm4cn3',
+				'content' => [
+					'series' => '',
+					'short' => '',
+					'long' => '',
+					'vlogs' => '',
+					'notes' => ''
 				]
 			],
 			"skz" => [
@@ -281,110 +438,12 @@ $groups = [
 					'vlogs' => '<a href="https://www.youtube.com/playlist?list=PL2HLJ87twWI2LtBbGVL-JAB6NCtv8EBx-" target="_blank">SKZ vlog</a>',
 					'notes' => ''
 				]
-			],
-			"tbz" => [
-				'name' => "The Boyz",
-				'debut' => '2017',
-				'groupImage' => 'https://www.billboard.com/wp-content/uploads/2020/04/the-boyz-Cr-Crek.ker-Entertainment-billboard-1548-1587069295.jpg',
-				'members' => [
-					'Kevin' => [
-						'image' => 'https://i.pinimg.com/originals/b9/13/20/b913206c2b63d3f5de8d2474cf494c07.jpg',
-						'birthday' => '2/23/1998',
-						'notes' => [
-							'shua',
-							''
-						]
-					],
-					'Jacob' => [
-						'image' => 'https://64.media.tumblr.com/9d66ec13652484c9778cc41ae5786082/c410dd73e66e6f0e-7c/s1280x1920/bf167348354c6d575f37b5d1b8acefa3c62555c6.jpg',
-						'birthday' => '5/30/1997',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Q' => [
-						'image' => 'https://i.pinimg.com/736x/59/93/f9/5993f9545cc5f77abb8d19f280a5feb0.jpg',
-						'birthday' => '11/5/1998',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Eric' => [
-						'image' => 'https://www.pinkvilla.com/imageresize/eric_main.jpg?width=752&format=webp&t=pvorg',
-						'birthday' => '12/22/2000',
-						'notes' => [
-							'got7!mark, jaemin',
-							''
-						]
-					],
-					'Hyunjae' => [
-						'image' => 'https://i.pinimg.com/originals/2a/5e/b5/2a5eb5ffb5b07d258ce09d262f940edf.jpg',
-						'birthday' => '9/13/1997',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Sunwoo' => [
-						'image' => 'https://w0.peakpx.com/wallpaper/605/348/HD-wallpaper-sunwoo-kpop-sunwoo-the-boyz-the-boyz.jpg',
-						'birthday' => '4/12/2000',
-						'notes' => [
-							'cheol',
-							''
-						]
-					],
-					'Juhaknyeon' => [
-						'image' => 'https://i.pinimg.com/originals/8c/aa/d0/8caad03be5d76774447ad9ce78605007.jpg',
-						'birthday' => '3/9/1999',
-						'notes' => [
-							'haechan / seokjin',
-							''
-						]
-					],
-					'Juyeon' => [
-						'image' => 'https://0.soompi.io/wp-content/uploads/2021/06/22120918/Juyeon-21.jpg',
-						'birthday' => '1/15/1998',
-						'notes' => [
-							'jaehyun / eunwoo / hoseok',
-							''
-						]
-					],
-					'Sangyeon' => [
-						'image' => 'https://i.pinimg.com/originals/84/0e/39/840e393054405975f7806546e303b500.jpg',
-						'birthday' => '11/1996',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Younghoon' => [
-						'image' => 'https://lh3.googleusercontent.com/MRxTqqviJY411TTMEIvWCIobRrvl9viqNq05magmsgU54X2UZmKMwU1OSOzBrafjJDbxiUpasib7awd7HtFWU30EgcpDsgjOuQ=w960-rj-nu-e365',
-						'birthday' => '8/8/1997',
-						'notes' => [
-							'seokjin / mingyu',
-							''
-						]
-					],
-					'New' => [
-						'image' => 'https://pbs.twimg.com/media/EKoTDyuU8AExgA7?format=jpg&name=large',
-						'birthday' => '4/26/1998',
-						'notes' => [
-							'skz!felix',
-							''
-						]
-					]
-				],
-				'playlist' => '0CzALT0FsH7FOLHp6PytaR',
-				'content' => [
-					'series' => '',
-					'short' => '',
-					'long' => '<a href="https://youtube.com/playlist?list=PLUBjqMPXJNhYNui0jIPDULul3Sfm5CpUZ" target="_blank">off the boyz</a>',
-					'vlogs' => '<a href="https://youtube.com/playlist?list=PLUBjqMPXJNhZhDEOw4oQrLLmYjQDqAvC9" target="_blank">BoyLog</a>',
-					'notes' => ''
-				]
-			],
+			]
+		]
+	],
+	'passive' => [
+		'name' => 'Passively Stanning',
+		'groups' => [
 			"svt" => [
 				'name' => "Seventeen",
 				'debut' => '2015',
@@ -501,322 +560,6 @@ $groups = [
 					'short' => '<a href="https://youtube.com/playlist?list=PLk_UmMfvZDx2Ya9Hy_B3qjaUefZ8zBDGR" target="_blank">Snapshoot</a>',
 					'long' => '<a href="https://youtube.com/playlist?list=PLk_UmMfvZDx0jZNccOaFJbMqKwvwwUfAN" title="Inside Seventeen" target="_blank">Insa</a>',
 					'vlogs' => '',
-					'notes' => ''
-				]
-			],
-			"tfn" => [
-				'name' => "TFN",
-				'debut' => '2021',
-				'groupImage' => 'https://i.pinimg.com/originals/01/7f/e1/017fe1908fde319cb6ad0e590427e747.jpg',
-				'members' => [
-					'Gunwoo' => [
-						'image' => 'https://cdn.idntimes.com/content-images/community/2021/01/4-f74413f2367c8a4c8a5bb7628cdb8c63-cb4c74f1481acb51524a8b2a459641c5.jpg',
-						'birthday' => '5/2002',
-						'notes' => [
-							'very cute, energetic',
-							'i love his voice'
-						]
-					],
-					'Seungbin' => [
-						'image' => 'https://pbs.twimg.com/media/EoNNDQxUwAEy_T7.jpg',
-						'birthday' => '4/2001',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Kairi' => [
-						'image' => 'https://i.pinimg.com/originals/f0/c7/34/f0c734791b0cbb8df98a6a7ee56d31c5.jpg',
-						'birthday' => '2/2003',
-						'notes' => [
-							'jaemin + sunwoo + got7!mark'
-						]
-					],
-					'Kio' => [
-						'image' => 'https://i.pinimg.com/originals/e8/48/0f/e8480fd03c1882b22cb379e127c3ef02.jpg',
-						'birthday' => '12/2004',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Leo' => [
-						'image' => 'https://pbs.twimg.com/media/EzpywkWUcAUCwRB.jpg',
-						'birthday' => '10/2002',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Noa' => [
-						'image' => 'https://i.pinimg.com/originals/8a/1e/ea/8a1eea77a87e5cb835c79f791a56516c.jpg',
-						'birthday' => '8/2000',
-						'notes' => [
-							'cheol + yeonjun + jimin'
-						]
-					],
-					'On' => [
-						'image' => 'https://pbs.twimg.com/media/Eo9QvKPVoAEnWGf.jpg',
-						'birthday' => '10/2002',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Sian' => [
-						'image' => 'https://i.pinimg.com/originals/4e/85/6c/4e856c0da26203b39ac2c9f7a04dcd72.jpg',
-						'birthday' => '2/2001',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Zero' => [
-						'image' => 'https://i.pinimg.com/736x/b1/70/8c/b1708cb0e6e03dcef7a1e90699c9e2c5.jpg',
-						'birthday' => '1/2003',
-						'notes' => [
-							'',
-							''
-						]
-					]
-				],
-				'playlist' => '3A98UEUGHmKyXC9LLngWXQ',
-				'content' => [
-					'series' => '',
-					'short' => 't-cam',
-					'long' => 'Untitled',
-					'vlogs' => 'reali-t',
-					'notes' => ''
-				]
-			],
-			"nct127" => [
-				'bias' => "Haechan",
-				'wrecker' => "Jaehyun",
-				'name' => "NCT 127",
-				'debut' => '2016',
-				'groupImage' => 'https://www.nme.com/wp-content/uploads/2021/09/nct-127-sticker-review-092021.jpg',
-				'members' => [
-					'Haechan' => [
-						'image' => 'https://qph.fs.quoracdn.net/main-qimg-24d904505e17324975330dd1df531cc2',
-						'birthday' => '6/2000',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Jaehyun' => [
-						'image' => 'https://1409791524.rsc.cdn77.org/data/images/full/591491/jaehyun.jpg',
-						'birthday' => '2/14/1997',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Doyoung' => [
-						'image' => 'https://assets01.sdd1.ch/assets/lbwp-cdn/kpop-info/files/1606727524/doyoung.jpg',
-						'birthday' => '2/1/1996',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Johnny' => [
-						'image' => 'https://kpopping.com/documents/43/4/2000/52033.jpeg',
-						'birthday' => '2/8/1995',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Taeyong' => [
-						'image' => 'https://upload.wikimedia.org/wikipedia/commons/8/87/Lee_Tae-Yong_SuperM_NCT.jpg',
-						'birthday' => '7/1/1995',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Mark' => [
-						'image' => 'https://kpopmembersbio.com/wp-content/uploads/2021/04/Mark.jpg',
-						'birthday' => '8/2/1999',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Yuta' => [
-						'image' => 'https://live.staticflickr.com/4252/35122608106_58eeeb34ab_c.jpg',
-						'birthday' => '10/26/1995',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Jungwoo' => [
-						'image' => 'https://pbs.twimg.com/media/Ei_T1A2VgAARzD2?format=jpg&name=4096x4096',
-						'birthday' => '2/19/1998',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Taeil' => [
-						'image' => 'https://1.bp.blogspot.com/-GhexJst1U6s/YKYAzlE_2QI/AAAAAAAASf0/fK3tQVpGd_o07VIY_RN5nGtwn-8LQXqVQCLcBGAsYHQ/w1600/Taeil-KPop-Profile-And-Details.jpg',
-						'birthday' => '6/14/1994',
-						'notes' => [
-							'',
-							''
-						]
-					]
-				],
-				'playlist' => '6c7D0tp051BqOqdDTkvFFc',
-				'content' => [
-					'series' => '',
-					'short' => '',
-					'long' => 'Un Cut, [N\']',
-					'vlogs' => 'Relay Cam',
-					'notes' => ''
-				]
-			],
-			"wayV" => [
-				'name' => "WayV",
-				'debut' => '2019',
-				'groupImage' => 'https://i.scdn.co/image/ab6761610000e5eb2cc2d8e2ec34e29f1905e286',
-				'members' => [
-					'Yangyang' => [
-						'image' => 'https://i.pinimg.com/originals/cd/7e/0a/cd7e0a50a2c59a676c46a73115a91c1b.jpg',
-						'birthday' => '10/2000',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Ten' => [
-						'image' => 'https://i.pinimg.com/originals/3a/34/6c/3a346c50b26d8d44195390dd04f59493.jpg',
-						'birthday' => '2/1996',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Hendery' => [
-						'image' => 'https://static.wikia.nocookie.net/wayv/images/9/91/0310_Profile_HENDERY.png/revision/latest?cb=20210422182035',
-						'birthday' => '9/1999',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Xiaojun' => [
-						'image' => 'https://kpopmembersbio.com/wp-content/uploads/2021/03/xiaojun.jpg',
-						'birthday' => '8/1999',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Kun' => [
-						'image' => 'https://i.pinimg.com/originals/dc/da/1b/dcda1b18de2048374d4c3dedd2f570e6.jpg',
-						'birthday' => '1/1996',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Winwin' => [
-						'image' => 'https://i.pinimg.com/originals/44/f9/ca/44f9cacbacea3489501ba7c60e3ac68d.jpg',
-						'birthday' => '10/28/1997',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Lucas' => [
-						'image' => 'https://static.wikia.nocookie.net/kboy-group/images/1/1f/Lucas_%28Kick_Back%29_2.png/revision/latest?cb=20210301191553',
-						'birthday' => '1/1999',
-						'notes' => [
-							'',
-							''
-						]
-					]
-				],
-				'playlist' => '6c7D0tp051BqOqdDTkvFFc',
-				'content' => [
-					'series' => 'TBD',
-					'short' => 'TBD',
-					'long' => 'TBD',
-					'vlogs' => 'TBD',
-					'notes' => 'TBD'
-				]
-			]
-		]
-	],
-	'passive' => [
-		'name' => 'Passively Stanning',
-		'groups' => [
-			"justB" => [
-				'name' => "Just B",
-				'debut' => '2021',
-				'groupImage' => 'https://0.soompi.io/wp-content/uploads/2022/03/04091922/JUST-B-22.jpeg',
-				'members' => [
-					'DY' => [
-						'image' => 'https://i.pinimg.com/originals/60/63/b8/6063b81b7437c3a5a54886dedbb8fce3.jpg',
-						'birthday' => '2/2002',
-						'notes' => [
-							'in the skz!jisung-junhan pipeline',
-							'nct!jisung + ten, but also wonwoo (pointy)',
-							'had braces',
-							'dimples'
-						]
-					],
-					'Geonu' => [
-						'image' => 'https://pbs.twimg.com/media/E5HlgbeVoAEJUb6.jpg',
-						'birthday' => '2/2001',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'JM' => [
-						'image' => 'https://channel-korea.com/wp-content/uploads/2021/09/E4WNw35WEAgdXk5.jpg',
-						'birthday' => '10/2001',
-						'notes' => [
-							'jungwon',
-							'has a lisp',
-							'gives baby tbz!eric / ggyu energy vibes'
-						]
-					],
-					'ImJimin' => [
-						'image' => 'https://www.allkpop.com/upload/2021/05/content/241214/1621872840-image.png',
-						'birthday' => '5/2001',
-						'notes' => [
-							'almost reminds me of adam driver',
-							''
-						]
-					],
-					'Bain' => [
-						'image' => 'https://channel-korea.com/wp-content/uploads/2021/08/bain-pinterest.jpg',
-						'birthday' => '5/2001',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Sangwoo' => [
-						'image' => 'https://static.wikia.nocookie.net/kpop/images/9/93/JUST_B_Sangwoo_Just_Beat_concept_photo_2.png/revision/latest?cb=20211013195532',
-						'birthday' => '2/2002',
-						'notes' => [
-							'maybe jacob elordi',
-							''
-						]
-					],
-				],
-				'playlist' => '5t6CdSUnE62BUu809eebDY',
-				'content' => [
-					'series' => 'right! just that',
-					'short' => 'just b.cut',
-					'long' => 'just b.hind',
-					'vlogs' => 'just b-log',
 					'notes' => ''
 				]
 			],
@@ -1380,53 +1123,6 @@ $groups = [
 					'notes' => ''
 				]
 			],
-			"mamamoo" => [
-				'name' => "Mamamoo",
-				'debut' => '2014',
-				'groupImage' => 'https://6.viki.io/image/b1d0ab4be2bf4f728bf9527afb47c021/dummy.jpeg?s=900x600&e=t',
-				'members' => [ // list all members
-					'Solar' => [
-						'image' => 'https://1409791524.rsc.cdn77.org/data/images/full/606454/mamamoo-solar.jpeg?w=600?w=430',
-						'birthday' => '2/21/1991',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Moonbyul' => [
-						'image' => 'https://lh3.googleusercontent.com/NJypha0Xl6psqhasXWNaR4wPHDw2HwQTv1r8gTX826WeORhcLClfKY5jPJePS5W9NULffSb-v0S7H0ZPUO7zynbXWndqx_OkJw=w960-rj-nu-e365',
-						'birthday' => '12/22/1992',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Hwasa' => [
-						'image' => 'https://i.pinimg.com/originals/eb/30/07/eb30072773793b012f0aa112e9b40af6.jpg',
-						'birthday' => '7/23/1995',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Wheein' => [
-						'image' => 'https://lh3.googleusercontent.com/Fpw_yMCvkTjFINNIZ43x9Of-L6ufC2gyD9KwW1CQT5k88LRlRB3_8v6JJ3v9Xkwmq8VIWF-yeB-M3dBDembeZjnFJyyszOLmnpxO_BXz8Ggv5VvJ=w960-rj-nu-e365',
-						'birthday' => '4/17/1995',
-						'notes' => [
-							'',
-							''
-						]
-					]
-				],
-				'playlist' => '0DhRM1R1Ookc2BggLhNFMy',
-				'content' => [
-					'series' => '',
-					'short' => '',
-					'long' => '',
-					'vlogs' => '',
-					'notes' => ''
-				]
-			],
 			"monstaX" => [
 				'name' => "Monsta X",
 				'debut' => '2015',
@@ -1487,7 +1183,7 @@ $groups = [
 	'learning' => [
 		'name' => 'Learning Currently',
 		'groups' => [
-			"younite" => [
+			"8turn" => [
 				'name' => "Younite",
 				'debut' => '2022',
 				'groupImage' => 'https://www.nme.com/wp-content/uploads/2022/03/red-velvet-feel-my-rhythm-the-reve-festival-music-video-20220318.jpg',
@@ -1534,500 +1230,6 @@ $groups = [
 					]
 				],
 				'playlist' => '2SeRAZDvNjdenPEBEm4cn3',
-				'content' => [
-					'series' => '',
-					'short' => '',
-					'long' => '',
-					'vlogs' => '',
-					'notes' => ''
-				]
-			],
-			"tempest" => [
-				'name' => "Tempest",
-				'debut' => '2022',
-				'groupImage' => 'https://www.nme.com/wp-content/uploads/2022/03/red-velvet-feel-my-rhythm-the-reve-festival-music-video-20220318.jpg',
-				'members' => [ // list all members
-					'Irene' => [
-						'image' => 'https://getworldwideupdates.com/wp-content/uploads/2021/07/Irene-Red-Velvet-50-facts-you-should-know-about-Red-Velvet-Irene.jpg',
-						'birthday' => '3/29/1991',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Wendy' => [
-						'image' => 'https://i.pinimg.com/736x/43/fc/5d/43fc5d399cdb3e196559220ea4a1ba0d.jpg',
-						'birthday' => '2/10/1994',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Joy' => [
-						'image' => 'https://i.pinimg.com/originals/25/fe/27/25fe273c5e4e8efe9392d30459513b13.jpg',
-						'birthday' => '9/3/1996',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Yeri' => [
-						'image' => 'https://i.pinimg.com/originals/ea/8f/59/ea8f59d5e95787403340da72c17c61ed.jpg',
-						'birthday' => '3/5/1999',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Seulgi' => [
-						'image' => 'https://i.pinimg.com/originals/7d/3b/9d/7d3b9da836ea9044474eeb5d5971bf85.jpg',
-						'birthday' => '2/10/1994',
-						'notes' => [
-							'',
-							''
-						]
-					]
-				],
-				'playlist' => '2SeRAZDvNjdenPEBEm4cn3',
-				'content' => [
-					'series' => '',
-					'short' => '',
-					'long' => '',
-					'vlogs' => '',
-					'notes' => ''
-				]
-			]
-		]
-	],
-	'queued' => [
-		'name' => 'Queued For Learning',
-		'groups' => [
-			"epex" => [
-				'name' => "Epex",
-				'debut' => '2021',
-				'groupImage' => 'https://image.kpopmap.com/2021/11/epex-members-as-cats_cover-image.jpg',
-				'members' => [ // list all members
-					'Ayden' => [
-						'image' => 'https://channel-korea.com/wp-content/uploads/2022/01/c05179a2e9beda166efccb3896e8f15b.jpg',
-						'birthday' => '1/24/2005',
-						'notes' => [
-							'very soft',
-							'is he canadian, where did i hear he was canadian'
-						]
-					],
-					'A-Min' => [
-						'image' => 'https://i.pinimg.com/originals/80/bd/5f/80bd5f301225f458d4263b8706f5383c.jpg',
-						'birthday' => '5/22/2004',
-						'notes' => [
-							'kind of gives me a mix of jaemin, jeno, winwin and jaehyun but like not what i would\'ve expected',
-							''
-						]
-					],
-					'MU' => [
-						'image' => 'https://pm1.narvii.com/7902/19eff76094e28da0ba505ce6a8aa49c9a33edddcr1-1620-2048v2_hq.jpg',
-						'birthday' => '9/14/2003',
-						'notes' => [
-							'gives me cole sprouse and/or taylor swift circa 2010',
-							''
-						]
-					],
-					'Baekseung' => [
-						'image' => 'https://kpopping.com/documents/e3/0/Baek-Seung-fullBodyPicture(2).webp?v=cdb46',
-						'birthday' => '10/5/2004',
-						'notes' => [
-							'gives me baby hyunjin',
-							''
-						]
-					],
-					'Wish' => [
-						'image' => 'https://channel-korea.com/wp-content/uploads/2021/12/Ey2Y5S-WUAcUX5B.jpg',
-						'birthday' => '6/11/2002',
-						'notes' => [
-							'looks like svt!chan',
-							''
-						]
-					],
-					'Keum' => [
-						'image' => 'https://pbs.twimg.com/media/E4AqR40UcAIzZY7.jpg:large',
-						'birthday' => '5/14/2003',
-						'notes' => [
-							'maybe gives me a mix of soobin and hyunjae?',
-							''
-						]
-					],
-					'Yewang' => [
-						'image' => 'https://static.wikia.nocookie.net/kpop/images/d/d6/EPEX_Yewang_Bipolar_Pt.2_-_Prelude_of_Love_concept_photo_2.png/revision/latest?cb=20210929175945',
-						'birthday' => '3/12/2005',
-						'notes' => [
-							' kind of gives me a little bit of renjun and a tinier bit of jisung',
-							''
-						]
-					],
-					'Jeff' => [
-						'image' => 'https://pbs.twimg.com/profile_images/1390424150028820487/Ec8yXD_M_400x400.jpg',
-						'birthday' => '4/21/2005',
-						'notes' => [
-							'looks very tall',
-							''
-						]
-					]
-				],
-				'playlist' => '2dVtqX5QmkfSifvQ0e3qgt',
-				'content' => [
-					'series' => 'the Epex',
-					'short' => '',
-					'long' => '',
-					'vlogs' => '<a href="https://www.youtube.com/playlist?list=PLBunJW40WRv1Zjq4JgcmBulkVgG3mRdSe" target="_blank">Epex vlog</a>',
-					'notes' => ''
-				]
-			],
-			"mcnd" => [
-				'name' => "MCND",
-				'debut' => '2020',
-				'groupImage' => 'https://i.scdn.co/image/ab6761610000e5eb8e55bd7a6ede5fbff8782555',
-				'members' => [ // list all members
-					'Win' => [
-						'image' => '',
-						'birthday' => '12/19/2004',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Castle J' => [
-						'image' => '',
-						'birthday' => '5/31/1999',
-						'notes' => [
-							'very good rapper',
-							'gives a tiny bit of joon'
-						]
-					],
-					'BIC' => [
-						'image' => '',
-						'birthday' => '4/25/2001',
-						'notes' => [
-							'gives dean',
-							''
-						]
-					],
-					'Minjae' => [
-						'image' => '',
-						'birthday' => '8/23/2003',
-						'notes' => [
-							'his straight face looks just like chenle',
-							''
-						]
-					],
-					'Huijin' => [
-						'image' => '',
-						'birthday' => '10/7/2003',
-						'notes' => [
-							'our next park jimin',
-							''
-						]
-					]
-				],
-				'playlist' => '53MwiM16PgqLwh9d9Ud1r7',
-				'content' => [
-					'series' => '',
-					'short' => '',
-					'long' => '',
-					'vlogs' => '',
-					'notes' => ''
-				]
-			],
-			"xdinaryHeroes" => [
-				'name' => "Xdinary Heroes",
-				'debut' => '2021',
-				'groupImage' => 'http://res.heraldm.com/content/image/2021/12/06/20211206000655_0.jpg',
-				'members' => [ // list all members
-					'Jun Han' => [
-						'image' => '',
-						'birthday' => '8/18/2002',
-						'notes' => [
-							'skz!jisung, but with nct!jisung\'s voice',
-							''
-						]
-					],
-					'Jooyeon' => [
-						'image' => '',
-						'birthday' => '9/12/2002',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Gaon' => [
-						'image' => '',
-						'birthday' => '6/24/2002',
-						'notes' => [
-							'taehyun and sunwoo? maybe even a tiny bit of finn if we\'re being crazy',
-							''
-						]
-					],
-					'Gunil' => [
-						'image' => '',
-						'birthday' => '7/24/1998',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Jungsu' => [
-						'image' => '',
-						'birthday' => '6/26/2001',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'O.de' => [
-						'image' => '',
-						'birthday' => '6/11/2002',
-						'notes' => [
-							'',
-							''
-						]
-					]
-				],
-				'playlist' => '7sEeUnRqeFNlAVOlLuvKOe',
-				'content' => [
-					'series' => '',
-					'short' => '',
-					'long' => '',
-					'vlogs' => '',
-					'notes' => ''
-				]
-			],
-			"to1" => [
-				'name' => "TO1",
-				'debut' => '2021',
-				'groupImage' => 'https://k-odyssey.com/news/data/20211104/p1065579196622446_877_thum.jpg',
-				'members' => [ // list all members
-					'Minsu' => [
-						'image' => 'https://64.media.tumblr.com/84cc7af8ded71a4929e35268aa06c3a9/386ffdb3ce0220fc-de/s1280x1920/291f0f169ad2f165c9d6c9069681d1edd45ccf1a.jpg',
-						'birthday' => '3/20/2000',
-						'notes' => [
-							'gives me kun',
-							'REAL cute and pretty'
-						]
-					],
-					'J.You' => [
-						'image' => 'https://image.kpopmap.com/2021/11/TO1-Round-Interview_JYOU-scaled.jpg',
-						'birthday' => '11/2/2000',
-						'notes' => [
-							'red hair in son of beast',
-							''
-						]
-					],
-					'Woongi' => [
-						'image' => 'https://pbs.twimg.com/media/EyYkHp0U4AIc3Iw?format=jpg&name=4096x4096',
-						'birthday' => '4/23/2002',
-						'notes' => [
-							'has the big baby soobin eyes',
-							'or maybe taehyun?'
-						]
-					],
-					'Jaeyun' => [
-						'image' => 'https://preview.redd.it/moa6x8w4arr61.jpg?width=640&crop=smart&auto=webp&s=159c417694b550ac31aa269af58840fce7fd3d81',
-						'birthday' => '8/16/2000',
-						'notes' => [
-							'beautiful voice',
-							''
-						]
-					],
-					'Chan' => [
-						'image' => 'https://image.kpopmap.com/2021/11/TO1-Round-Interview_Chan-scaled.jpg',
-						'birthday' => '12/8/1999',
-						'notes' => [
-							'gives me changmin and a bit of jeonghan',
-							'long beautiful hair'
-						]
-					],
-					'Jisu' => [
-						'image' => 'https://image.kpopmap.com/2021/11/TO1-Round-Interview_JiSu-scaled.jpg',
-						'birthday' => '1/19/2000',
-						'notes' => [
-							'gives me kevin',
-							''
-						]
-					],
-					'Donggeon' => [
-						'image' => 'https://pbs.twimg.com/media/FCjYtcbUYAEQGeY?format=jpg&name=4096x4096',
-						'birthday' => '9/15/1999',
-						'notes' => [
-							'ears',
-							''
-						]
-					],
-					'Kyungho' => [
-						'image' => 'https://pbs.twimg.com/media/FCjYDuYVUAQpM4w?format=jpg&name=4096x4096',
-						'birthday' => '5/7/2001',
-						'notes' => [
-							'oooooo i like him *wiggles eyebrows*',
-							''
-						]
-					],
-					'Jerome' => [
-						'image' => 'https://pbs.twimg.com/media/FCjWAonVcAI0ZzY?format=jpg&name=4096x4096',
-						'birthday' => '8/25/2001',
-						'notes' => [
-							'',
-							''
-						]
-					]
-				],
-				'playlist' => '5nbplCnXGl0ZwQKZaXxPpX',
-				'content' => [
-					'series' => '',
-					'short' => '',
-					'long' => '',
-					'vlogs' => '',
-					'notes' => ''
-				]
-			],
-			"cravity" => [
-				'name' => "Cravity",
-				'debut' => '2020',
-				'groupImage' => 'https://i.ytimg.com/vi/vG2haZWk01s/maxresdefault.jpg',
-				'members' => [ // list all members
-					'Wonjin' => [
-						'image' => 'https://pbs.twimg.com/media/FAmXmZ8VcAEc2SM.jpg:large',
-						'birthday' => '3/22/2001',
-						'notes' => [
-							'gives soobin',
-							''
-						]
-					],
-					'Seongmin' => [
-						'image' => 'https://en.kepoper.com/wp-content/uploads/2021/04/cravity-members-profile-seongmin-wm.jpg',
-						'birthday' => '8/1/2003',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Serim' => [
-						'image' => 'https://kprofiles.com/wp-content/uploads/2020/01/IMG_20220211_055746-640x800.jpg',
-						'birthday' => '3/3/1999',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Allen' => [
-						'image' => 'https://kprofiles.com/wp-content/uploads/2020/01/IMG_20220211_055738-640x800.jpg',
-						'birthday' => '4/26/1999',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Jungmo' => [
-						'image' => 'https://kprofiles.com/wp-content/uploads/2020/01/IMG_20220211_055732-640x800.jpg',
-						'birthday' => '2/5/2000',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Woobin' => [
-						'image' => 'https://kprofiles.com/wp-content/uploads/2020/01/IMG_20220211_055723-640x800.jpg',
-						'birthday' => '10/16/2000',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Minhee' => [
-						'image' => 'https://kprofiles.com/wp-content/uploads/2020/01/IMG_20220211_055709-640x800.jpg',
-						'birthday' => '9/17/2002',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Hyeongjun' => [
-						'image' => 'https://kprofiles.com/wp-content/uploads/2020/01/IMG_20220211_055703-640x800.jpg',
-						'birthday' => '11/30/2002',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Taeyoung' => [
-						'image' => 'https://kprofiles.com/wp-content/uploads/2020/01/IMG_20220211_055655-640x800.jpg',
-						'birthday' => '1/27/2003',
-						'notes' => [
-							'',
-							''
-						]
-					]
-				],
-				'playlist' => '6FccIzWAPPZB5B1MxkMayQ',
-				'content' => [
-					'series' => '',
-					'short' => '',
-					'long' => '',
-					'vlogs' => '',
-					'notes' => ''
-				]
-			],
-			"p1Harmony" => [
-				'name' => "P1Harmony",
-				'debut' => '2020',
-				'groupImage' => 'https://s1.ticketm.net/dam/a/4d4/aa9ae4da-2bf7-4ab4-bb4e-695ff3e234d4_1606561_TABLET_LANDSCAPE_LARGE_16_9.jpg',
-				'members' => [ // list all members
-					'Theo' => [
-						'image' => '',
-						'birthday' => '7/1/2001',
-						'notes' => [
-							'long hair',
-							'vocalist'
-						]
-					],
-					'Intak' => [
-						'image' => '',
-						'birthday' => '8/31/2003',
-						'notes' => [
-							'rapper',
-							'reminds me of juhwan'
-						]
-					],
-					'Jiung' => [
-						'image' => '',
-						'birthday' => '10/7/2001',
-						'notes' => [
-							'vocalist',
-							'blue hair in do it like this'
-						]
-					],
-					'Keeho' => [
-						'image' => '',
-						'birthday' => '9/27/2001',
-						'notes' => [
-							'wow',
-							'gives me mingi'
-						]
-					],
-					'Soul' => [
-						'image' => '',
-						'birthday' => '2/1/2005',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Jongseob' => [
-						'image' => '',
-						'birthday' => '11/19/2005',
-						'notes' => [
-							'',
-							''
-						]
-					]
-				],
-				'playlist' => '7x2I1ztBLuJlDnKnRMgVfY',
 				'content' => [
 					'series' => '',
 					'short' => '',
