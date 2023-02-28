@@ -245,6 +245,14 @@ $groups = [
 							''
 						]
 					],
+					'Sunoo' => [
+						'image' => 'https://static.wixstatic.com/media/ab399c_a1a70fc6dab24261908834841485ec6e~mv2.png/v1/fit/w_670%2Ch_980%2Cal_c/file.png',
+						'birthday' => '6/24/2003',
+						'notes' => [
+							'',
+							''
+						]
+					],
 					'Jake' => [
 						'image' => 'https://cdn.i-scmp.com/sites/default/files/d8/images/canvas/2021/05/27/d44cb6c1-5f71-428a-a9bc-655b57a5add4_289268b4.jpg',
 						'birthday' => '11/15/2002',
@@ -256,14 +264,6 @@ $groups = [
 					'Jungwon' => [
 						'image' => 'https://64.media.tumblr.com/5c5c7544f5fff3a77efbd966e0312cd4/406cd28a281e64dd-4c/s1280x1920/92bc43a721a41f89a2245dae43b08cd0e8698f02.jpg',
 						'birthday' => '2/8/2004',
-						'notes' => [
-							'',
-							''
-						]
-					],
-					'Sunoo' => [
-						'image' => 'https://static.wixstatic.com/media/ab399c_a1a70fc6dab24261908834841485ec6e~mv2.png/v1/fit/w_670%2Ch_980%2Cal_c/file.png',
-						'birthday' => '6/24/2003',
 						'notes' => [
 							'',
 							''

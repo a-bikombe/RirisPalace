@@ -30,12 +30,9 @@ general */
   color: var(--theme-text);
 }
 #stranger-things main .intro-rank .intro .countdown:not(.hidden) {
-  -webkit-animation: glow 1.3s;
-          animation: glow 1.3s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
+  animation: glow 1.3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 #stranger-things main .intro-rank .intro .intro-section + .intro-section {
   margin-top: var(--section-spacing);
@@ -148,7 +145,6 @@ general */
 }
 #stranger-things main .episodes .season .episode .episode-main-section.thoughts {
   -webkit-hyphens: auto;
-      -ms-hyphens: auto;
           hyphens: auto;
   overflow-wrap: break-word;
 }
