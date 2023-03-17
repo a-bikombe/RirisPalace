@@ -10,7 +10,7 @@ general */
 }
 #stranger-things h1 {
   color: var(--clr-red-bright);
-  text-shadow: 0 0 0.125em hsla(0deg, 0%, 100%, 0.3), 0 0 0.45em var(--clr-red-bright);
+  text-shadow: 0 0 0.125em hsla(0, 0%, 100%, 0.3), 0 0 0.45em var(--clr-red-bright);
 }
 #stranger-things h2 {
   font-size: 2rem;

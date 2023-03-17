@@ -134,10 +134,10 @@ general */
   width: 15vw;
 }
 #kpop #groups {
-  background: hsl(0deg, 0%, 60%);
+  background: hsl(0, 0%, 60%);
 }
 #kpop #groups .group-category {
-  background: hsl(0deg, 0%, 85%);
+  background: hsl(0, 0%, 85%);
   border: 1px solid var(--clr-gray-10);
   padding: 2vw;
   /* only add margin to .group-category if there is another .group-category before it */
@@ -193,7 +193,7 @@ general */
   color: var(--clr-white);
 }
 #kpop #content-dashboard {
-  background: hsl(0deg, 0%, 60%);
+  background: hsl(0, 0%, 60%);
 }
 #kpop #content-dashboard .content-table,
 #kpop #content-dashboard .content-table * {
