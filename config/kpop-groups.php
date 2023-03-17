@@ -381,10 +381,10 @@ $groups = [
 					]
 				],
 				'content' => [
-					'series' => '',
-					'short' => '',
+					'series' => '<a href="https://www.youtube.com/playlist?list=PL71CwGySDJm2kdiM9MxZ1ewe15FHsctJL" target="_blank">The Younite</a>',
+					'short' => '<a href="https://www.youtube.com/playlist?list=PL71CwGySDJm3OiOYV3NSUbjzl8N5Gvd3J" target="_blank">YouSB (Younite Special Behind)</a>',
 					'long' => '',
-					'vlogs' => '',
+					'vlogs' => '<a href="https://www.youtube.com/playlist?list=PL71CwGySDJm09rbwgwQjRb0iiagyKa4eF" target="_blank">You-Log</a>',
 					'notes' => ''
 				]
 			],
