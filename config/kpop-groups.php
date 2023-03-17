@@ -1292,5 +1292,3 @@ $groups = [
 		]
 	]
 ];
-
-// test auto-deploy
