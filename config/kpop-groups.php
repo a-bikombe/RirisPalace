@@ -1282,9 +1282,9 @@ $groups = [
 					]
 				],
 				'content' => [
-					'series' => '',
+					'series' => '<a href="https://www.youtube.com/playlist?list=PLD2v_1aCA4KOqcS5odNj3-FcLLlAVvb2J" target="_blank">It\'s My Turn</a>',
 					'short' => '',
-					'long' => '',
+					'long' => '<a href="https://www.youtube.com/playlist?list=PLD2v_1aCA4KPIB19IGu6Wuobio-9XaZ8T" target="_blank">re:Turn</a>',
 					'vlogs' => '',
 					'notes' => ''
 				]
