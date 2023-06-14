@@ -22,7 +22,7 @@ $celebrities = [
 	],
 	'Sam Kiszka' => [
 		'image' => 'https://i.pinimg.com/564x/f4/7c/10/f47c108b4e5e76536e30d558ee73fa44.jpg',
-		'description' => "Oh my goodness. Oh, sweet heavens. Have you SEEN him? He plays bass and piano in the rock band Greta Van Fleet, and is only 23.",
+		'description' => "Sam Kiszka plays bass and piano in the rock band Greta Van Fleet, and is only 23.",
 		'link' => 'index.php'
 	]
 ];
