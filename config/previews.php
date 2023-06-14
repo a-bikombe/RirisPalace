@@ -22,13 +22,13 @@ $celebrities = [
 	],
 	'Sam Kiszka' => [
 		'image' => 'https://i.pinimg.com/564x/f4/7c/10/f47c108b4e5e76536e30d558ee73fa44.jpg',
-		'description' => "Oh my goodness. Oh, sweet heavens. Have you SEEN him? He plays bass and piano in the rock band Greta Van Fleet, and is only 23. If you can believe it, he's this good-looking and is still, like, a <em>nice person</em>. Personally, if I was that attractive I would make it everyone else's problem. But anyway, he has a very positive energy about him: very \"bright-eyed, bushy-tailed\", which I'm super into. Also, at the same time, he has the infamous \"tired eye\" look, which I'm also VERY into. Overall, 10/10.",
+		'description' => "Oh my goodness. Oh, sweet heavens. Have you SEEN him? He plays bass and piano in the rock band Greta Van Fleet, and is only 23.",
 		'link' => 'index.php'
 	]
 ];
 
 $newsArticles = [
-	"October 29, 2022: Greta Van Fleet is new in my life. Their music is really good. They're also all unreasonably attractive, which is a plus, but I digress."
+	"October 29, 2022: Greta Van Fleet is new in my life. Their music is really good."
 ];
 
 /* ******************************************** Layout ************************************************ */

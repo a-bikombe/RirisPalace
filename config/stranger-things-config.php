@@ -104,8 +104,6 @@ $seasons = [
 					'Repeats himself a lot',
 					'Sassy',
 					'Loves his friends but mostly ' . $links['eleven'],
-					'Has a lot of red flags because he is in fact a Man&trade;',
-					'But season 3/4 Mike made the red flags turn green',
 					"I'm in love with him oops"
 				]
 			],

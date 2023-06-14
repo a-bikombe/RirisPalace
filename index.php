@@ -24,9 +24,6 @@ $pageNav = [
 	'about-me' => [
 		'heading' => 'Welcome!'
 	],
-	'celebrity-of-the-week' => [
-		'heading' => 'Celebrity Of The Week'
-	],
 	'news' => [
 		'heading' => 'News'
 	]
