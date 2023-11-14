@@ -133,7 +133,7 @@ $seasons = [
 					'Season 2' => 'https://notesfromachair.files.wordpress.com/2017/12/who-was-the-dumbest-smartest-and-most-heroic-in-stranger-things-season-2.png?w=584&h=438',
 					'Season 3' => 'https://s3.r29static.com/bin/entry/869/x,80/2214004/image.jpg',
 					'Season 4' => 'https://www.tvinsider.com/wp-content/uploads/2022/07/stranger-things-season-4-gaten-matarazzo-1014x570.jpg',
-					'Season 5' => 'https://s3.r29static.com/bin/entry/869/x,80/2214004/image.jpg'
+					'Season 5' => 'https://www.tvinsider.com/wp-content/uploads/2022/07/stranger-things-season-4-gaten-matarazzo-1014x570.jpg'
 				],
 				'characterLink' => 'http://strangerthings.wikia.com/wiki/Dustin_Henderson',
 				'characterName' => 'Dusty-Bun',
@@ -151,8 +151,8 @@ $seasons = [
 					'Season 1' => 'https://mfiles.alphacoders.com/810/thumb-1920-810612.jpg',
 					'Season 2' => 'https://i.pinimg.com/originals/a3/a6/17/a3a617257b1d4a2504d9f7d3298b1105.jpg',
 					'Season 3' => 'https://i.pinimg.com/originals/a0/6c/58/a06c581688c7cf606f99d564b6ef98a8.png',
-					'Season 4' => 'https://static.wikia.nocookie.net/strangerthings8338/images/b/b4/Lucas_S4.png/revision/latest?cb=20230602174909',
-					'Season 5' => 'https://i.pinimg.com/originals/a0/6c/58/a06c581688c7cf606f99d564b6ef98a8.png'
+					'Season 4' => 'https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/06/StrangerThings_StrangerThings4_1_00_19_18_18.jpg',
+					'Season 5' => 'https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/06/StrangerThings_StrangerThings4_1_00_19_18_18.jpg'
 				],
 				'characterLink' => 'http://strangerthings.wikia.com/wiki/Lucas_Sinclair',
 				'characterName' => 'Lukey',
@@ -170,8 +170,8 @@ $seasons = [
 					'Season 1' => 'https://preview.redd.it/d7z1h7lkfqq81.jpg?width=828&format=pjpg&auto=webp&s=3f3b8e70664b906401332b414cce7586042c2265',
 					'Season 2' => 'https://i.pinimg.com/originals/0f/1d/14/0f1d142ca6cfaf932dc11cbaf3f59257.png',
 					'Season 3' => 'https://preview.redd.it/daoszdx66vm41.jpg?auto=webp&s=d73d9aee1fa157907fb8998c0816c2fffe662847',
-					'Season 4' => 'https://preview.redd.it/daoszdx66vm41.jpg?auto=webp&s=d73d9aee1fa157907fb8998c0816c2fffe662847',
-					'Season 5' => 'https://preview.redd.it/daoszdx66vm41.jpg?auto=webp&s=d73d9aee1fa157907fb8998c0816c2fffe662847'
+					'Season 4' => 'https://i.pinimg.com/736x/14/6a/23/146a2362c14d24f1bbbcb8d3954e336c.jpg',
+					'Season 5' => 'https://i.pinimg.com/736x/14/6a/23/146a2362c14d24f1bbbcb8d3954e336c.jpg'
 				],
 				'characterLink' => 'http://strangerthings.wikia.com/wiki/Nancy_Wheeler',
 				'characterName' => 'Nancy Drew',
@@ -188,9 +188,9 @@ $seasons = [
 				'images' => [
 					'Season 1' => 'https://i.pinimg.com/originals/b8/ce/3a/b8ce3aa13638292e28eefdd2ea4e569a.png',
 					'Season 2' => 'https://pbs.twimg.com/media/Dwa7KeoX0AE_ssw.jpg',
-					'Season 3' => 'https://nitter.net/pic/media%2FFNbhSv8VgAA1izm.jpg%3Fname%3Dsmall',
-					'Season 4' => 'https://nitter.net/pic/media%2FFNbhSv8VgAA1izm.jpg%3Fname%3Dsmall',
-					'Season 5' => 'https://nitter.net/pic/media%2FFNbhSv8VgAA1izm.jpg%3Fname%3Dsmall'
+					'Season 3' => 'https://i.pinimg.com/736x/a5/e3/58/a5e3582e00187a9b2692c7f8666e8211.jpg',
+					'Season 4' => 'https://i0.wp.com/popcon.com.ar/wp-content/uploads/2022/07/StrangerThings_StrangerThings4_2_00_32_27_00.jpg?fit=1000%2C650&ssl=1',
+					'Season 5' => 'https://i0.wp.com/popcon.com.ar/wp-content/uploads/2022/07/StrangerThings_StrangerThings4_2_00_32_27_00.jpg?fit=1000%2C650&ssl=1'
 				],
 				'characterLink' => 'http://strangerthings.wikia.com/wiki/Jonathan_Byers',
 				'characterName' => 'Jonathan? Harry Styles?',
