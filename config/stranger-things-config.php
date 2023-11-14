@@ -378,8 +378,8 @@ $seasons = [
 				'images' => [
 					'Season 2' => 'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/mh-strangerthingsmurray-1563208137.jpg?crop=0.500xw:1.00xh;0.348xw,0&resize=480:*',
 					'Season 3' => 'https://pyxis.nymag.com/v1/imgs/beb/3db/c45ec2f83466cff18546955c2e7a799691-4-Murray-Bauman.rsocial.w1200.jpg',
-					'Season 4' => 'https://media.distractify.com/brand-img/BlEQVkMnK/0x0/murrayst-1656682038690.jpghttps://static.wikia.nocookie.net/strangerthings8338/images/c/c5/Erica_Sinclair_-_S4.jpg/revision/latest?cb=20220623172522',
-					'Season 5' => 'https://media.distractify.com/brand-img/BlEQVkMnK/0x0/murrayst-1656682038690.jpghttps://static.wikia.nocookie.net/strangerthings8338/images/c/c5/Erica_Sinclair_-_S4.jpg/revision/latest?cb=20220623172522'
+					'Season 4' => 'https://media.gq.com/photos/6290f31f3c930909b7be0766/4:3/w_2559,h_1919,c_limit/StrangerThings_StrangerThings4_2_00_17_15_18.jpeg',
+					'Season 5' => 'https://media.gq.com/photos/6290f31f3c930909b7be0766/4:3/w_2559,h_1919,c_limit/StrangerThings_StrangerThings4_2_00_17_15_18.jpeg'
 				],
 				'characterLink' => 'http://strangerthings.wikia.com/wiki/Bob_Newby',
 				'characterName' => 'Bunman',
@@ -393,7 +393,7 @@ $seasons = [
 			],
 			'erica' => [
 				'images' => [
-					'Season 2' => 'https://img.fredtvshow.com/img/tv/8760/stranger-things-2meet-the-internets-new-favorite-little-sister.jpg',
+					'Season 2' => 'https://pyxis.nymag.com/v1/imgs/fb2/221/967e26cbc266cadc945d323a213db10a70-30-priah-ferguson-202.rsocial.w1200.jpg',
 					'Season 3' => 'https://media.vanityfair.com/photos/5d1b972f5f741a0008ed0667/3:2/w_1500,h_1000,c_limit/priah-ferguson-stranger-things.jpg',
 					'Season 4' => 'https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/07/erica-sinclair-stranger-things.jpg',
 					'Season 5' => 'https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/07/erica-sinclair-stranger-things.jpg'
