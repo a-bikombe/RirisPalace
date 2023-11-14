@@ -204,11 +204,11 @@ $seasons = [
 			],
 			'will' => [
 				'images' => [
-					'Season 1' => 'https://pbs.twimg.com/media/E_XL2iGXEAQq8S7.jpg:large',
+					'Season 1' => 'https://i.pinimg.com/originals/ec/6d/59/ec6d59f48c5e8ba9b5021b68c8c401dd.jpg',
 					'Season 2' => 'https://pyxis.nymag.com/v1/imgs/998/83c/3117e183a858dcaa2e08738c491e90979b-27-will-byers-stranger-things.rsquare.w700.jpg',
 					'Season 3' => 'https://preview.redd.it/pr8vqgmqp8o41.png?auto=webp&s=cd7fe89f5e4c424df5d25072e06c6cf285b74b89',
-					'Season 4' => 'https://preview.redd.it/pr8vqgmqp8o41.png?auto=webp&s=cd7fe89f5e4c424df5d25072e06c6cf285b74b89',
-					'Season 5' => 'https://preview.redd.it/pr8vqgmqp8o41.png?auto=webp&s=cd7fe89f5e4c424df5d25072e06c6cf285b74b89'
+					'Season 4' => 'https://www.usmagazine.com/wp-content/uploads/2022/05/Did-Stranger-Things-Season-4-Hint-That-Wills-Friends-Forgot-His-Birthday-001.jpg?quality=78&strip=all',
+					'Season 5' => 'https://www.usmagazine.com/wp-content/uploads/2022/05/Did-Stranger-Things-Season-4-Hint-That-Wills-Friends-Forgot-His-Birthday-001.jpg?quality=78&strip=all'
 				],
 				'characterLink' => 'http://strangerthings.wikia.com/wiki/Will_Byers',
 				'characterName' => 'Will The Wise',
@@ -224,8 +224,8 @@ $seasons = [
 					'Season 1' => 'https://i.imgur.com/wZ3VHFQ.jpg',
 					'Season 2' => 'https://cdn.vox-cdn.com/thumbor/SrDH65R7xShm1EJ0l6G5WRk6pAo=/0x0:8000x3720/1200x800/filters:focal(2271x231:3551x1511)/cdn.vox-cdn.com/uploads/chorus_image/image/59165497/wv_publicity_post_launch_still_6.000001.0.jpg',
 					'Season 3' => 'https://styles.redditmedia.com/t5_zxomw/styles/profileIcon_bjk7usx496d81.jpg',
-					'Season 4' => 'https://styles.redditmedia.com/t5_zxomw/styles/profileIcon_bjk7usx496d81.jpg',
-					'Season 5' => 'https://styles.redditmedia.com/t5_zxomw/styles/profileIcon_bjk7usx496d81.jpg'
+					'Season 4' => 'https://i.pinimg.com/736x/c9/09/a6/c909a6d09bee5f6e472b4a2a2d02eb57.jpg',
+					'Season 5' => 'https://i.pinimg.com/736x/c9/09/a6/c909a6d09bee5f6e472b4a2a2d02eb57.jpg'
 				],
 				'characterLink' => 'http://strangerthings.wikia.com/wiki/Steve_Harrington',
 				'characterName' => 'Steve Hair-ington',
@@ -336,8 +336,8 @@ $seasons = [
 				'images' => [
 					'Season 2' => 'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/max-mayfield-stranger-things-season-2-1552398515.jpg',
 					'Season 3' => 'https://i.pinimg.com/originals/6e/db/24/6edb24cb3e1e134373b44991b19ac900.jpg',
-					'Season 4' => 'https://i.pinimg.com/originals/6e/db/24/6edb24cb3e1e134373b44991b19ac900.jpg',
-					'Season 5' => 'https://i.pinimg.com/originals/6e/db/24/6edb24cb3e1e134373b44991b19ac900.jpg'
+					'Season 4' => 'https://images.immediate.co.uk/production/volatile/sites/3/2022/07/stranger-things-max-sadie-sink-f4f5f58.jpg?quality=90&resize=980,654',
+					'Season 5' => 'https://images.immediate.co.uk/production/volatile/sites/3/2022/07/stranger-things-max-sadie-sink-f4f5f58.jpg?quality=90&resize=980,654'
 				],
 				'characterLink' => 'http://strangerthings.wikia.com/wiki/Max',
 				'characterName' => 'Very Mad Max',
@@ -351,9 +351,7 @@ $seasons = [
 			'billy' => [
 				'images' => [
 					'Season 2' => 'https://hips.hearstapps.com/digitalspyuk.cdnds.net/17/45/1510058296-dacre-hargrove.png?crop=0.5620608899297423xw:1xh;center,top&resize=480:*',
-					'Season 3' => 'https://s3.r29static.com/bin/entry/ac4/x,80/2214044/image.jpg',
-					'Season 4' => 'https://s3.r29static.com/bin/entry/ac4/x,80/2214044/image.jpg',
-					'Season 5' => 'https://s3.r29static.com/bin/entry/ac4/x,80/2214044/image.jpg'
+					'Season 3' => 'https://s3.r29static.com/bin/entry/ac4/x,80/2214044/image.jpg'
 				],
 				'characterLink' => 'http://strangerthings.wikia.com/wiki/Billy',
 				'characterName' => 'Billiam',
@@ -380,8 +378,8 @@ $seasons = [
 				'images' => [
 					'Season 2' => 'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/mh-strangerthingsmurray-1563208137.jpg?crop=0.500xw:1.00xh;0.348xw,0&resize=480:*',
 					'Season 3' => 'https://pyxis.nymag.com/v1/imgs/beb/3db/c45ec2f83466cff18546955c2e7a799691-4-Murray-Bauman.rsocial.w1200.jpg',
-					'Season 4' => 'https://pyxis.nymag.com/v1/imgs/beb/3db/c45ec2f83466cff18546955c2e7a799691-4-Murray-Bauman.rsocial.w1200.jpg',
-					'Season 5' => 'https://pyxis.nymag.com/v1/imgs/beb/3db/c45ec2f83466cff18546955c2e7a799691-4-Murray-Bauman.rsocial.w1200.jpg'
+					'Season 4' => 'https://media.distractify.com/brand-img/BlEQVkMnK/0x0/murrayst-1656682038690.jpghttps://static.wikia.nocookie.net/strangerthings8338/images/c/c5/Erica_Sinclair_-_S4.jpg/revision/latest?cb=20220623172522',
+					'Season 5' => 'https://media.distractify.com/brand-img/BlEQVkMnK/0x0/murrayst-1656682038690.jpghttps://static.wikia.nocookie.net/strangerthings8338/images/c/c5/Erica_Sinclair_-_S4.jpg/revision/latest?cb=20220623172522'
 				],
 				'characterLink' => 'http://strangerthings.wikia.com/wiki/Bob_Newby',
 				'characterName' => 'Bunman',
@@ -397,8 +395,8 @@ $seasons = [
 				'images' => [
 					'Season 2' => 'https://img.fredtvshow.com/img/tv/8760/stranger-things-2meet-the-internets-new-favorite-little-sister.jpg',
 					'Season 3' => 'https://media.vanityfair.com/photos/5d1b972f5f741a0008ed0667/3:2/w_1500,h_1000,c_limit/priah-ferguson-stranger-things.jpg',
-					'Season 4' => 'https://media.vanityfair.com/photos/5d1b972f5f741a0008ed0667/3:2/w_1500,h_1000,c_limit/priah-ferguson-stranger-things.jpg',
-					'Season 5' => 'https://media.vanityfair.com/photos/5d1b972f5f741a0008ed0667/3:2/w_1500,h_1000,c_limit/priah-ferguson-stranger-things.jpg'
+					'Season 4' => 'https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/07/erica-sinclair-stranger-things.jpg',
+					'Season 5' => 'https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/07/erica-sinclair-stranger-things.jpg'
 				],
 				'characterLink' => 'https://strangerthings.fandom.com/wiki/Erica_Sinclair',
 				'characterName' => '"Mall Rat"',
@@ -512,8 +510,8 @@ $seasons = [
 			'robin' => [
 				'images' => [
 					'Season 3' => 'https://s3.r29static.com/bin/entry/bac/x,80/2215810/image.jpg',
-					'Season 4' => 'https://s3.r29static.com/bin/entry/bac/x,80/2215810/image.jpg',
-					'Season 5' => 'https://s3.r29static.com/bin/entry/bac/x,80/2215810/image.jpg'
+					'Season 4' => 'https://i.pinimg.com/originals/68/f4/72/68f4729893d21a394fe1d17fe812dc54.jpg',
+					'Season 5' => 'https://i.pinimg.com/originals/68/f4/72/68f4729893d21a394fe1d17fe812dc54.jpg'
 				],
 				'characterLink' => 'https://strangerthings.fandom.com/wiki/Robin_Buckley',
 				'characterName' => 'Tweedledee',
@@ -530,14 +528,14 @@ $seasons = [
 				'suzie' => [
 					'images' => [
 						'Season 3' => 'https://pbs.twimg.com/media/FOieva8XEBE8L1w.jpg',
-						'Season 4' => 'https://pbs.twimg.com/media/FOieva8XEBE8L1w.jpg',
-						'Season 5' => 'https://pbs.twimg.com/media/FOieva8XEBE8L1w.jpg'
+						'Season 4' => 'https://www.williamjacket.com/blog/wp-content/uploads/2022/12/Suzie-Bingham.webp',
+						'Season 5' => 'https://www.williamjacket.com/blog/wp-content/uploads/2022/12/Suzie-Bingham.webp'
 					],
 					'characterLink' => 'https://strangerthings.fandom.com/wiki/Suzie_Bingham',
 					'characterName' => 'Suzie With a Z',
 					'content' => [
 						$links['dustin'] . "'s girlfriend",
-						"Codes",
+						"Codes (slay women in stem)",
 						"Is \"hotter than Phoebe Cates\""
 					]
 					]
