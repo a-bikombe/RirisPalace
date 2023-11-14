@@ -132,7 +132,7 @@ $seasons = [
 					'Season 1' => 'https://media1.popsugar-assets.com/files/thumbor/4ypNkOELQqrpMegFUGjbNGxWVWM/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2016/08/16/139/n/1922283/66282b67cb35bc36_dustin/i/Dustin-From-Stranger-Things.jpg',
 					'Season 2' => 'https://notesfromachair.files.wordpress.com/2017/12/who-was-the-dumbest-smartest-and-most-heroic-in-stranger-things-season-2.png?w=584&h=438',
 					'Season 3' => 'https://s3.r29static.com/bin/entry/869/x,80/2214004/image.jpg',
-					'Season 4' => 'https://s3.r29static.com/bin/entry/869/x,80/2214004/image.jpg',
+					'Season 4' => 'https://www.tvinsider.com/wp-content/uploads/2022/07/stranger-things-season-4-gaten-matarazzo-1014x570.jpg',
 					'Season 5' => 'https://s3.r29static.com/bin/entry/869/x,80/2214004/image.jpg'
 				],
 				'characterLink' => 'http://strangerthings.wikia.com/wiki/Dustin_Henderson',
@@ -151,7 +151,7 @@ $seasons = [
 					'Season 1' => 'https://mfiles.alphacoders.com/810/thumb-1920-810612.jpg',
 					'Season 2' => 'https://i.pinimg.com/originals/a3/a6/17/a3a617257b1d4a2504d9f7d3298b1105.jpg',
 					'Season 3' => 'https://i.pinimg.com/originals/a0/6c/58/a06c581688c7cf606f99d564b6ef98a8.png',
-					'Season 4' => 'https://i.pinimg.com/originals/a0/6c/58/a06c581688c7cf606f99d564b6ef98a8.png',
+					'Season 4' => 'https://static.wikia.nocookie.net/strangerthings8338/images/b/b4/Lucas_S4.png/revision/latest?cb=20230602174909',
 					'Season 5' => 'https://i.pinimg.com/originals/a0/6c/58/a06c581688c7cf606f99d564b6ef98a8.png'
 				],
 				'characterLink' => 'http://strangerthings.wikia.com/wiki/Lucas_Sinclair',
