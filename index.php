@@ -41,7 +41,7 @@ $pageNav = [
 	<?php require_once 'include/header.php' ?>
 	<main>
 		<header class="homepage-header p-1vw text-center border-10px">
-			<h1>AriBikombe (Edit)</h1>
+			<h1>AriBikombe</h1>
 			<p class="subtitle bold"><?= $currentMonth ?></p>
 		</header>
 		<?php foreach ($previews as $previewId => $preview) : ?>
