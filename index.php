@@ -4,7 +4,7 @@ require_once 'config/session.php';
 require_once 'config/previews.php';
 
 $pageTitle = 'Home';
-$currentMonth = 'October 2022';
+$currentMonth = date('F Y');
 
 $iconPath = 'images/icons/luca.png';
 
