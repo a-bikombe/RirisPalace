@@ -4,7 +4,7 @@ require_once 'config/session.php';
 require_once 'config/previews.php';
 
 $pageTitle = 'Home';
-$currentMonth = date('F Y');
+$currentDate = date('F j, Y');
 
 $iconPath = 'images/icons/luca.png';
 
@@ -42,7 +42,7 @@ $pageNav = [
 	<main>
 		<header class="homepage-header p-1vw text-center border-10px">
 			<h1>AriBikombe</h1>
-			<p class="subtitle bold"><?= $currentMonth ?></p>
+			<p class="subtitle bold"><?= $currentDate ?></p>
 		</header>
 		<?php foreach ($previews as $previewId => $preview) : ?>
 			<section class="preview flex-align dir-change" id="<?= $previewId ?>" aria-label="<?= $preview['header'] ?>">
