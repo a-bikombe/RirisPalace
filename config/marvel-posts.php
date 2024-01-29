@@ -26,12 +26,12 @@ $posts = [
 		"title" => "In Defense of Peter Parker",
 		"image" => "https://i.pinimg.com/564x/0e/50/d9/0e50d9ee4233c87bb5cb1539cf908c9f.jpg",
 		"text" => "Peter Parker, aka Spider-Man. A god among men. A ray of sunshine in a bleak world. I could say so much about him. I'm extremely excited for the release of Spider-Man: Across The Spider-Verse next June."
-	],
+	]/* ,
 	"second-post" => [
 		"title" => "Second Post",
 		"image" => "https://play-lh.googleusercontent.com/IeNJWoKYx1waOhfWF6TiuSiWBLfqLb18lmZYXSgsH1fvb8v1IYiZr5aYWe0Gxu-pVZX3",
 		"text" => "Peter Parker, aka Spider-Man. A god among men. A ray of sunshine in a bleak world. I could say so much about him. I'm extremely excited for the release of Spider-Man: Across The Spider-Verse next June. Peter Parker, aka Spider-Man. A god among men. A ray of sunshine in a bleak world. I could say so much about him. I'm extremely excited for the release of Spider-Man: Across The Spider-Verse next June. Peter Parker, aka Spider-Man. A god among men. A ray of sunshine in a bleak world. I could say so much about him. I'm extremely excited for the release of Spider-Man: Across The Spider-Verse next June."
-	]
+	] */
 ];
 
 /*

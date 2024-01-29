@@ -30,6 +30,7 @@ $scripts = [
     <!-- bootstrap navbar -->
     <?php require_once 'include/loading-page.php'; ?>
     <?php require_once 'include/header.php'; ?>
+    <?php require_once 'include/under-construction.php'; ?>
 
     <main class="text-center">
         <h1><?= $pageTitle ?></h1>
