@@ -54,9 +54,9 @@ if (!empty($_POST)) {
 						$message = 'Your Password Code is ' . $_SESSION['code'];
 						$wrappedMessage = wordwrap($message, 70);
 						$headers = [
-							'From' => 'noreply@aribikombe.com'
+							'From' => 'noreply@ririspalace.com'
 						];
-						if (mail($email, "AriBikombe - Password Code", $wrappedMessage, $headers) !== true) {
+						if (mail($email, "Riri's Palace - Password Code", $wrappedMessage, $headers) !== true) {
 							header('Location: ../login-forgot.php');
 						} else {
 							header('Location: ../login-code.php');

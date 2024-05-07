@@ -3,34 +3,34 @@
 ## Pages
 
 ### Homepage
-* [x] [index.php](aribikombe.com/index.php) - Home
+* [x] [index.php](ririspalace.com/index.php) - Home
 	* *config/previews.php*
 
 ### Nav Links
-* [ ] [about.php](aribikombe.com/about.php) - About Me
+* [ ] [about.php](ririspalace.com/about.php) - About Me
 	* *config/arianna.php*
-* [x] [kpop.php](aribikombe.com/kpop.php) - KPop
+* [x] [kpop.php](ririspalace.com/kpop.php) - KPop
 	* *config/kpop-groups.php*
 	* *validation/kpop.php* - Hasn't been created yet
-* [x] [stranger-things.php](aribikombe.com/stranger-things.php) - Stranger Things
+* [x] [stranger-things.php](ririspalace.com/stranger-things.php) - Stranger Things
 	* *config/stranger-things-config.php*
-* [ ] [marvel.php](aribikombe.com/marvel.php) - Marvel
+* [ ] [marvel.php](ririspalace.com/marvel.php) - Marvel
 	* *config/marvel-posts.php*
 	* [ ] TODO: Work on Hero Scrollbar
-* [ ] [star-wars.php](aribikombe.com/star-wars.php) - Star Wars
+* [ ] [star-wars.php](ririspalace.com/star-wars.php) - Star Wars
 
 ### Login
-* [x] [login.php](aribikombe.com/login.php) - Login Button in Header
+* [x] [login.php](ririspalace.com/login.php) - Login Button in Header
 	* *config/logout.php*
 	* *validation/login.php*
-* [x] [login-forgot.php](aribikombe.com/login-forgot.php) - "Forgot Password" Page For Inputting Email
+* [x] [login-forgot.php](ririspalace.com/login-forgot.php) - "Forgot Password" Page For Inputting Email
 	* *validation/forgot.php*
-* [x] [login-code.php](aribikombe.com/login-code.php) - Code Input From Email Sent by [login-forgot.php](aribikombe.com/login-forgot.php)
+* [x] [login-code.php](ririspalace.com/login-code.php) - Code Input From Email Sent by [login-forgot.php](ririspalace.com/login-forgot.php)
 	* *validation/code.php*
-* [x] [login-profile.php](aribikombe.com/login-profile.php) - Profile (Link in header): Only shown when logged in
+* [x] [login-profile.php](ririspalace.com/login-profile.php) - Profile (Link in header): Only shown when logged in
 	* *validation/profile.php*
 	* *validation/profile-delete.php*
-* [x] [login-signup.php](aribikombe.com/login-signup.php) - Sign Up Page
+* [x] [login-signup.php](ririspalace.com/login-signup.php) - Sign Up Page
 	* *validation/login-signup.php*
 
 ## Included Pages
